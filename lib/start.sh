@@ -24,7 +24,7 @@ identify()
 	echo "PRIVMSG NickServ :IDENTIFY ${NICK} ${PASSW}" >> in_buffer;
 
 	txt="$(read_line_outbuffer_wait)";
-	if [ $(echo "$txt"|grep "You are now identified"|wc -l) -lt 1 ]; then
+	if [ $(echo "$txt"|grep "You are now identified"|wc -l) -eq 1 ]; then
 		echo "==> Successfuly identified to NickServ service.";
 	fi
 }
