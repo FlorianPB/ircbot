@@ -6,8 +6,8 @@ PORT=6667
 # NICK=
 # PASSW=
 HOST=homer.art-software.fr
-echo "User: "; read NICK;
-echo "Pass: "; read -s PASSW;
+echo -n "User: "; read NICK;
+echo -n "Pass: "; read -s PASSW;
 
 IN_IDX=IN_IDX
 OUT_IDX=OUT_IDX
