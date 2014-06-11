@@ -1,6 +1,8 @@
 IN_IDX
-in_buffer
+in_buffer*
+in_lnk
 OUT_IDX
-out_buffer
+out_buffer*
+out_lnk
 *.log
 pidfile
