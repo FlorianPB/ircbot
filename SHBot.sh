@@ -93,9 +93,9 @@ netlink()
 }
 
 # ---------- Main ----------
-rm in_buffer* out_buffer* OUT_IDX IN_IDX; in_lnk out_lnk
-ln -sv in_buffer in_lnk;
-ln -sv out_buffer out_lnk;
+rm in_buffer* out_buffer* OUT_IDX IN_IDX in_lnk out_lnk
+ln -svf in_buffer in_lnk;
+ln -svf out_buffer out_lnk;
 
 touch in_lnk out_lnk;
 echo -n "0" > $IN_IDX;
