@@ -65,6 +65,7 @@ read_line_outbuffer_wait()
 }
 flush_buffer_in()
 {
+	echo "==> Flushing input buffer"
 	local cur new;
 	cur="$(readlink -f in_lnk)";
 	new="in_buffer.$(date +%s)";
@@ -76,6 +77,7 @@ flush_buffer_in()
 }
 flush_buffer_out()
 {
+	echo "==> Flushing output buffer"
 	local cur new;
 	cur="$(readlink -f out_lnk)";
 	new="out_buffer.$(date +%s)";
@@ -91,7 +93,7 @@ netlink()
 }
 
 # ---------- Main ----------
-rm in_buffer out_buffer OUT_IDX IN_IDX; in_lnk out_lnk
+rm in_buffer* out_buffer* OUT_IDX IN_IDX; in_lnk out_lnk
 ln -sv in_buffer in_lnk;
 ln -sv out_buffer out_lnk;
 
