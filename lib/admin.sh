@@ -34,10 +34,10 @@ admin_getflag()
 }
 admin_setflag()
 {
-	local user_="$1";
-	local flags_="$2";
+	local user_="$2";
+	local flags_="$1";
 	if [ "$user_" == "" ] || [ "$flags_" == "" ]; then
-		send "PRIVMSG $irc_back :Paramètres requis: nom d'utilisateur, flags"
+		send "PRIVMSG $irc_back :Paramètres requis: flags, username"
 		return;
 	fi
 	touch "$conf_admin"
@@ -47,6 +47,18 @@ admin_setflag()
 	fi
 	echo "$user_=$flags_" >> $conf_admin;
 	send "PRIVMSG $irc_back :Flags de $user_ modifiés en $flags_";
+}
+admin_modflag()
+{
+	local flags_="$1";
+	local user_="$2";
+	if [ "$flags_" == "" ]; then
+		send "PRIVMSG $irc_back :Paramètres requis: flags, username"
+		return;
+	fi
+	msg "$user_: Modified flags ($flags_)"
+	send_sec "MODE #bronycub $flags_ $user_";
+	send "PRIVMSG $irc_back :Flags de $user_ modifiés : $flags_";
 }
 admin_flagcmd()
 {
@@ -60,11 +72,15 @@ admin_flagcmd()
 		"set")
 			shift;
 			admin_setflag "${@}";;
+		"mod")
+			shift;
+			admin_modflag "${@}";;
 		*)
 			admin_getflag "$irc_user";
 			send "PRIVMSG $irc_back :Gère les flags user"
 			send "PRIVMSG $irc_back :Options:"
 			send "PRIVMSG $irc_back :- get <user>: récupère les flags de user"
-			send "PRIVMSG $irc_back :- set <user> <flags>: modifie les flags de user";;
+			send "PRIVMSG $irc_back :- set <user> <flags>: modifie les flags de user"
+			send "PRIVMSG $irc_back :- mod <user> <flag>: modifie les flags de user maintenant";;
 	esac
 }

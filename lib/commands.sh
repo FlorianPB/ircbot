@@ -10,7 +10,7 @@ declare -A cmdtable=(['stop']="stop_the_bot"
 					 ['history']="log_last"
 					 ['flag']="admin_flagcmd \$args"
 					 ['list']="list_cmds");
-declare -A cmdright=(['stop']="adriens33" ['flag']="adriens33");
+declare -A cmdright=(['stop']="adriens33" ['flag']="adriens33 heuzef");
 declare -A cmdwrong=();
 
 # ---------- Settings ----------
