@@ -28,7 +28,16 @@ msg()
 }
 send()
 {
+	local before after
 	local string="${@//\"/\\\"}";
 	string="${string//}"
-	printf "${@}\n" >> in_lnk
+	if [ "${string:0:7}" == "PRIVMSG" ]; then
+		before="$(echo "$string"|sed 's|\(PRIVMSG [^ ]* :\).*$|\1|')"
+		after="$(echo "$string"|sed 's|PRIVMSG [^ ]* :\(.*\)$|\1|')"
+		nb=$((1+$(echo "$after"|grep -o " "|wc -l)))
+		nb=$((1+$RANDOM%$nb));
+		after="$(echo "$after"|cut -d" " -f1-$nb) *hic* $(echo "$after"|cut -d" " -f$(($nb+1))-)"
+		string="${before}${after}"
+	fi
+	printf "$string\n" >> in_lnk
 }

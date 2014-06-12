@@ -21,7 +21,7 @@ identify()
 		txt="$(read_line_outbuffer_wait)";
 	done
 	msg "Received password invite from NickServ. Logging in…";
-	send "PRIVMSG NickServ :IDENTIFY ${NICK} ${PASSW}";
+	echo "PRIVMSG NickServ :IDENTIFY ${NICK} ${PASSW}" >> in_lnk;
 
 	txt="$(read_line_outbuffer_wait)";
 	if [ $(echo "$txt"|grep "You are now identified"|wc -l) -eq 1 ]; then
