@@ -80,7 +80,7 @@ admin_flagcmd()
 			send "PRIVMSG $irc_back :Gère les flags user"
 			send "PRIVMSG $irc_back :Options:"
 			send "PRIVMSG $irc_back :- get <user>: récupère les flags de user"
-			send "PRIVMSG $irc_back :- set <user> <flags>: modifie les flags de user"
-			send "PRIVMSG $irc_back :- mod <user> <flag>: modifie les flags de user maintenant";;
+			send "PRIVMSG $irc_back :- set <flags> <user>: modifie les flags de user"
+			send "PRIVMSG $irc_back :- mod <flags> [user]: modifie les flags de user (ou du canal) maintenant";;
 	esac
 }
