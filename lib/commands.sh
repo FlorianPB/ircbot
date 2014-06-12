@@ -33,7 +33,7 @@ stop_the_bot()
 do_smgth()
 {
 	local args="${@}"
-	send "PRIVMSG #bronycub :\x01ACTION ${args}\x01";
+	send_sec "PRIVMSG #bronycub :\x01ACTION ${args}\x01";
 }
 say_smgth()
 {
