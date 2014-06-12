@@ -4,12 +4,13 @@ liblist+=("commands");
 HOOKS["msg_received"]+="parse_message;";
 
 declare -A cmdtable=(['stop']="stop_the_bot"
-					 ['muffin']="do_smgth 'jette un muffin sur '"
-					 ['do']="do_smgth"
-					 ['say']="say_smgth"
+					 ['muffin']="do_smgth 'jette un muffin sur ' \$args"
+					 ['do']="do_smgth \"\$args\""
+					 ['say']="say_smgth \"\$args\""
 					 ['history']="log_last"
+					 ['flag']="admin_flagcmd \$args"
 					 ['list']="list_cmds");
-declare -A cmdright=(['stop']="adriens33");
+declare -A cmdright=(['stop']="adriens33" ['flag']="adriens33");
 declare -A cmdwrong=();
 
 # ---------- Settings ----------
@@ -36,7 +37,8 @@ do_smgth()
 }
 say_smgth()
 {
-	send "PRIVMSG #bronycub :${@}";
+	local args="${@}"
+	send "PRIVMSG #bronycub :${args}";
 }
 
 # ---------- Internals ----------
@@ -72,6 +74,6 @@ parse_message()
 
 	if [ "${cmdtable[$cmd]}" != "" ]; then
 		# args="$(echo "${args}"|sed "s|>|'&'|g;s|<|'&'|g;s|\;|'&'|g")"
-		eval "${cmdtable[$cmd]} ${args}";
+		eval "${cmdtable[$cmd]}";
 	fi
 }
