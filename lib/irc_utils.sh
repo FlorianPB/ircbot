@@ -28,5 +28,7 @@ msg()
 }
 send()
 {
+	local string="${@//\"/\\\"}";
+	string="${string//}"
 	printf "${@}\n" >> in_lnk
 }

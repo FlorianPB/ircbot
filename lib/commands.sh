@@ -70,6 +70,7 @@ parse_message()
 	}
 
 	if [ "${cmdtable[$cmd]}" != "" ]; then
-		eval "${cmdtable[$cmd]} $args";
+		args="$(echo "${args}"|sed "s|>|'&'|g;s|<|'&'|g;s|\;|'&'|g")"
+		eval "${cmdtable[$cmd]} ${args}";
 	fi
 }
