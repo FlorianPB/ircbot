@@ -13,7 +13,7 @@ source $config_trigger;
 parse_triggers()
 {
 	for i in "${!trigger_table[@]}" ; do
-		[ $(echo "${irc_msg}"|grep "${i}"|wc -l) ] && eval "${trigger_table[$i]}";
+		[ $(echo "${irc_msg}"|grep "${i}"|wc -l) -eq 1 ] && eval "${trigger_table[$i]}";
 	done
 	return;
 }
