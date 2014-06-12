@@ -17,11 +17,13 @@ declare -A HOOKS=(["line_received"]="" ["connect"]="" ["msg_received"]="" ["cmd_
 trap "exitbot" SIGINT
 
 # --------- Procédures ----------
-echo "==> Loading libraries…";
 for i in lib/*.sh ; do
 	source "$i";
 done
-echo "[2K[1G==> Libraries loaded"
+msg "Libraries loaded :"
+for i in ${liblist[@]} ; do
+	echo "- $i"
+done
 
 # ---------- fonctions internes ----------
 read_loop_inbuffer()
@@ -65,25 +67,25 @@ read_line_outbuffer_wait()
 }
 flush_buffer_in()
 {
-	echo "==> Flushing input buffer"
+	msg "Flushing input buffer"
 	local cur new;
 	cur="$(readlink -f in_lnk)";
 	new="in_buffer.$(date +%s)";
 
 	touch "$new";
-	ln -svf "$new" "in_lnk"
+	ln -sf "$new" "in_lnk"
 	echo "0" > $IN_IDX;
 	rm "$cur";
 }
 flush_buffer_out()
 {
-	echo "==> Flushing output buffer"
+	msg "FLushing output buffer"
 	local cur new;
 	cur="$(readlink -f out_lnk)";
 	new="out_buffer.$(date +%s)";
 
 	touch "$new";
-	ln -svf "$new" "out_lnk"
+	ln -sf "$new" "out_lnk"
 	echo "0" > $OUT_IDX;
 	rm "$cur";
 }
@@ -94,24 +96,25 @@ netlink()
 
 # ---------- Main ----------
 rm in_buffer* out_buffer* OUT_IDX IN_IDX in_lnk out_lnk
-ln -svf in_buffer in_lnk;
-ln -svf out_buffer out_lnk;
+ln -sf in_buffer in_lnk;
+ln -sf out_buffer out_lnk;
 
 touch in_lnk out_lnk;
 echo -n "0" > $IN_IDX;
 echo -n "0" > $OUT_IDX;
+echo "";
 echo $$ > pidfile;
 
 netlink &
-echo "==> Started";
+msg "Started";
 SRVNAME="";
 
 while [ -f pidfile ]; do
 	LINE="$(read_line_outbuffer_wait)";
 	if [ "$SRVNAME" == "" ]; then
-		echo "==> Looking for server name…";
+		msg "Looking for server name…";
 		SRVNAME="$(echo "$LINE"|sed 's|^\(.*:\)\([a-zA-Z]*\.freenode\.net\)\(.*\)$|\2|')"
-		echo "==> Got server name: ${SRVNAME}";
+		msg "Got server name: ${SRVNAME}";
 		eval "${HOOKS["connect"]}";
 	fi
 	eval ${HOOKS["line_received"]};

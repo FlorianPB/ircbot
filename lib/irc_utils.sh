@@ -20,7 +20,13 @@ format_msg()
 ping_reply()
 {
 	[ "${LINE:0:5}" != "PING " ] && return;
-
-	echo "==> Received PING request";
-	echo "PONG ${LINE#PING :}" >> in_buffer;
+	send "PONG ${LINE#PING :}";
+}
+msg()
+{
+	echo "[1;37m==> ${1}[0m"
+}
+send()
+{
+	echo "${1}" >> in_lnk
 }

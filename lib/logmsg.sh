@@ -44,12 +44,12 @@ log_last()
 	local qty="${1-10}";
 	local A=" ";
 
-	echo "PRIVMSG $irc_back :Voilà ce qu'il s'est passé ces $qty dernières lignes, $irc_user" >> in_buffer;
+	send "PRIVMSG $irc_back :Voilà ce qu'il s'est passé ces $qty dernières lignes, $irc_user";
 	
 	tail -n $qty "$logdir/${logchan}.log" | while [ "$A" != "" ]; do
 		read A;
 		[ "$A" != "" ] && {
-			echo "PRIVMSG $irc_back :${A}" >> in_buffer;
+			send "PRIVMSG $irc_back :${A}";
 			sleep 0.1;
 		}
 	done

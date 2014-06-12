@@ -10,47 +10,47 @@ identify()
 		txt="$(read_line_outbuffer_wait)";
 	done
 
-	echo "==> Starting Authentication…";
-	echo "USER ${NICK} ${HOST} ${SRVNAME} :Berry-Punch" >> in_buffer;
+	msg "Starting authentication";
+	send "USER ${NICK} ${HOST} ${SRVNAME} :Berry-Punch";
 	sleep 1;
-	echo "NICK ${NICK}" >> in_buffer;
+	send "NICK ${NICK}";
 
 	txt="$(read_line_outbuffer_wait)";
 	while [ $(echo "$txt"|grep "This nickname is registered"|wc -l) -lt 1 ] ; do
 		sleep 0.1;
 		txt="$(read_line_outbuffer_wait)";
 	done
-	echo "==> Received password invite from NickServ. Logging in…";
-	echo "PRIVMSG NickServ :IDENTIFY ${NICK} ${PASSW}" >> in_buffer;
+	msg "Received password invite from NickServ. Logging in…";
+	send "PRIVMSG NickServ :IDENTIFY ${NICK} ${PASSW}";
 
 	txt="$(read_line_outbuffer_wait)";
 	if [ $(echo "$txt"|grep "You are now identified"|wc -l) -eq 1 ]; then
-		echo "==> Successfuly identified to NickServ service.";
+		msg "Successfuly identified to NickServ service.";
 	fi
 }
 joinchannel()
 {
-	echo "==> Joining #bronycub";
-	echo "JOIN #bronycub" >> in_buffer;
+	msg "Joining #bronycub";
+	send "JOIN #bronycub";
 	sleep 1;
 
 	nb=$(cat in_buffer|wc -l);
 	idx=$(cat $IN_IDX);
 
-	echo "==> Parsing welcome messages";
+	msg "Parsing welcome messages";
 	while [ $idx -lt $nb ] ; do
 		let idx++;
 		echo -n $idx > $IN_IDX;
 	done;
 
-	echo "==> Done. I'm now fully operationnal.";
-	echo 'PRIVMSG #bronycub :Salut tout le monde !' >> in_buffer;
+	msg "Done. I'm now fully operationnal.";
+	send 'PRIVMSG #bronycub :Salut tout le monde !';
 }
 exitbot()
 {
-	echo "PART #bronycub :Bye bye :)" >> in_buffer;
+	send "PART #bronycub :Bye bye :)";
 	sleep 1;
-	echo "QUIT :bye" >> in_buffer;
+	send "QUIT :bye";
 	sleep 1;
 	rm pidfile;
 	exit 0;

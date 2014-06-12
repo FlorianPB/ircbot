@@ -19,23 +19,23 @@ cmd_char="@";
 list_cmds()
 {
 
-	echo "PRIVMSG $irc_back :Commandes disponibles :" >> in_buffer;
-	echo "PRIVMSG $irc_back :${!cmdtable[@]}" >> in_buffer;
+	send "PRIVMSG $irc_back :Commandes disponibles :";
+	send "PRIVMSG $irc_back :${!cmdtable[@]}";
 }
 stop_the_bot()
 {
-	echo "PRIVMSG $irc_back :Bye $irc_user !" >> in_buffer;
-	echo "==> Stopping server…";
+	send "PRIVMSG $irc_back :Bye $irc_user !";
+	msg "Stopping server…";
 	sleep 1;
 	exitbot;
 }
 do_smgth()
 {
-	echo -e "PRIVMSG #bronycub :\x01ACTION ${@}\x01" >> in_buffer;
+	echo -e "PRIVMSG #bronycub :\x01ACTION ${@}\x01" >> in_lnk;
 }
 say_smgth()
 {
-	echo -e "PRIVMSG #bronycub :${@}" >> in_buffer;
+	send "PRIVMSG #bronycub :${@}";
 }
 
 # ---------- Internals ----------
@@ -53,16 +53,16 @@ parse_message()
 		let cmdwrong[$irc_user]++;
 		case ${cmdwrong[$irc_user]} in
 			1)
-				echo "PRIVMSG $irc_back :Je suis désolé $irc_user, mais je n'ai pas le droit de te laisser faire ça." >> in_buffer;;
+				send "PRIVMSG $irc_back :Je suis désolé $irc_user, mais je n'ai pas le droit de te laisser faire ça.";;
 			2)
-				echo "PRIVMSG $irc_back :N'insiste pas, s'il te plaît, $irc_user…" >> in_buffer;;
+				send "PRIVMSG $irc_back :N'insiste pas, s'il te plaît, $irc_user…";;
 			3)
-				echo "PRIVMSG $irc_back :Bon. $irc_user, prochaine tentative, je te vire. OKAY ??" >> in_buffer;;
+				send "PRIVMSG $irc_back :Bon. $irc_user, prochaine tentative, je te vire. OKAY ??";;
 			4)
 				[ "${irc_back:0:1}" == "#" ] && {
-					echo "PRIVMSG $irc_back: Désolé, je t'avais prévenu $irc_user ." >> in_buffer;
+					send "PRIVMSG $irc_back: Désolé, je t'avais prévenu $irc_user .";
 					sleep 0.5;
-					echo "KICK $irc_back $irc_user :Punaise, il est casse-pieds lui…" >> in_buffer;
+					send "KICK $irc_back $irc_user :Punaise, il est casse-pieds lui…";
 					let cmdwrong[$irc_user]=0;
 				};;
 		esac
