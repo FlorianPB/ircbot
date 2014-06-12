@@ -6,6 +6,7 @@ PORT=6667
 # NICK=
 # PASSW=
 HOST=homer.art-software.fr
+global_confdir="./config";
 echo -n "User: "; read NICK;
 echo -n "Pass: "; read -s PASSW;
 

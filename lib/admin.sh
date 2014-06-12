@@ -3,7 +3,7 @@
 liblist+=("admin");
 HOOKS["cmd_received"]+="admin_flags;"
 
-conf_admin="./admin.cfg";
+conf_admin="$global_confdir/admin.cfg";
 
 admin_flags()
 {
