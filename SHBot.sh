@@ -12,9 +12,8 @@ echo -n "Pass: "; read -s PASSW;
 
 IN_IDX=IN_IDX
 OUT_IDX=OUT_IDX
-declare -a liblist=();
-declare -A HOOKS=(["line_received"]="" ["connect"]="" ["msg_received"]="" ["cmd_received"]="");
-declare -A trigger_table=();
+declare -ga liblist=();
+declare -gA HOOKS=(["line_received"]="" ["connect"]="" ["msg_received"]="" ["cmd_received"]="");
 
 trap "exitbot" SIGINT
 
