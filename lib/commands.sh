@@ -18,9 +18,9 @@ cmd_char="@";
 # ---------- Commands ----------
 list_cmds()
 {
-
+	local a="${!cmdtable[@]}"
 	send "PRIVMSG $irc_back :Commandes disponibles :";
-	send "PRIVMSG $irc_back :${!cmdtable[@]}";
+	send "PRIVMSG $irc_back :$a";
 }
 stop_the_bot()
 {
@@ -31,7 +31,7 @@ stop_the_bot()
 }
 do_smgth()
 {
-	echo -e "PRIVMSG #bronycub :\x01ACTION ${@}\x01" >> in_lnk;
+	send "PRIVMSG #bronycub :\x01ACTION ${@}\x01";
 }
 say_smgth()
 {

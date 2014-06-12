@@ -28,5 +28,5 @@ msg()
 }
 send()
 {
-	echo "${1}" >> in_lnk
+	printf "${@}\n" >> in_lnk
 }
