@@ -14,7 +14,7 @@ declare -A cmdright=(['stop']="adriens33" ['flag']="adriens33");
 declare -A cmdwrong=();
 
 # ---------- Settings ----------
-cmd_char="@";
+cmd_char="!";
 
 # ---------- Commands ----------
 list_cmds()

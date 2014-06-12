@@ -9,4 +9,5 @@ config_trigger="$global_confdir/trigger.cfg"
 
 parse_triggers()
 {
+	return;
 }

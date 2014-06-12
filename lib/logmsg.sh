@@ -48,7 +48,7 @@ log_last()
 	tail -n 10 "$logdir/${logchan}.log" | while [ "$A" != "" ]; do
 		read A;
 		[ "$A" != "" ] && {
-			send "PRIVMSG $irc_back :${A}";
+			send_sec "PRIVMSG $irc_back :${A}";
 			sleep 0.1;
 		}
 	done
