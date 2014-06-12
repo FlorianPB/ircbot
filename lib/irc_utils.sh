@@ -29,7 +29,14 @@ msg()
 send_sec()
 {
 	local string="$1";
+	local after
 	printf "$string\n" >> in_lnk
+	if [ "${string:0:7}" == "PRIVMSG" ]; then
+		after="$(echo "$string"|sed 's|PRIVMSG [^ ]* :\(.*\)$|\1|')"
+		if [ $(printf "%d" \'${after:0:1}) -eq 1 ]; then
+			echo "$(date +%Y-%m-%dT%H:%M:%S) * Berry-Punch $(echo "$after"|tr "\01" " "|sed 's| ACTION ||;s| $||')" >> "${logdir}/${logchan}.log"
+		fi
+	fi
 }
 send()
 {
@@ -43,6 +50,12 @@ send()
 		nb=$((1+$RANDOM%$nb));
 		after="$(echo "$after"|cut -d" " -f1-$nb) *hic* $(echo "$after"|cut -d" " -f$(($nb+1))-)"
 		string="${before}${after}"
+
+		if [ $(printf "%d" \'${after:0:1}) -eq 1 ]; then
+			echo "$(date +%Y-%m-%dT%H:%M:%S) * Berry-Punch $(echo "$after"|tr "\01" " "|sed 's| ACTION ||;s| $||')" >> "${logdir}/${logchan}.log"
+		else
+			echo "$(date +%Y-%m-%dT%H:%M:%S) <Berry-Punch> $string" >> "$logdir/${logchan}.log"
+		fi
 	fi
 	send_sec "$string"
 }
