@@ -66,4 +66,5 @@ reload_libs()
 	for i in "${liblist[@]}"; do
 		echo "- $i"
 	done
+	send_sec "PRIVMSG $irc_user :Rechargement terminé."
 }

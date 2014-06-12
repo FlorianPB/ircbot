@@ -6,8 +6,6 @@ HOOKS["msg_received"]+="parse_triggers;";
 config_trigger="$global_confdir/trigger.cfg"
 
 [ -f "$config_trigger" ] || touch "$config_trigger"
-declare -Ax trigger_table=();
-
 source $config_trigger;
 
 parse_triggers()
