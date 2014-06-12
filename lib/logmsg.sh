@@ -41,12 +41,11 @@ log_action()
 }
 log_last()
 {
-	local qty="${1-10}";
 	local A=" ";
 
-	send "PRIVMSG $irc_back :Voilà ce qu'il s'est passé ces $qty dernières lignes, $irc_user";
+	send "PRIVMSG $irc_back :Voilà ce qu'il s'est passé ces 10 dernières lignes, $irc_user";
 	
-	tail -n $qty "$logdir/${logchan}.log" | while [ "$A" != "" ]; do
+	tail -n 10 "$logdir/${logchan}.log" | while [ "$A" != "" ]; do
 		read A;
 		[ "$A" != "" ] && {
 			send "PRIVMSG $irc_back :${A}";

@@ -31,7 +31,8 @@ stop_the_bot()
 }
 do_smgth()
 {
-	send "PRIVMSG #bronycub :\x01ACTION ${@}\x01";
+	local args="${@}"
+	send "PRIVMSG #bronycub :\x01ACTION ${args}\x01";
 }
 say_smgth()
 {
@@ -70,7 +71,7 @@ parse_message()
 	}
 
 	if [ "${cmdtable[$cmd]}" != "" ]; then
-		args="$(echo "${args}"|sed "s|>|'&'|g;s|<|'&'|g;s|\;|'&'|g")"
+		# args="$(echo "${args}"|sed "s|>|'&'|g;s|<|'&'|g;s|\;|'&'|g")"
 		eval "${cmdtable[$cmd]} ${args}";
 	fi
 }
