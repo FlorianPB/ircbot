@@ -42,10 +42,10 @@ admin_setflag()
 	fi
 	touch "$conf_admin"
 	if [ $(grep "^$user_=" "$conf_admin"|wc -l) -gt 0 ]; then
-		sed -i "s|^\(${user_}\)=\(.*\)$|\1=${flags_}" "$conf_admin"
-	else
-		echo "$user_=$flags_" >> $conf_admin;
+		grep -v "^$user_=" "$conf_admin" > "$conf_admin".1
+		mv "$conf_admin".1 "$conf_admin"
 	fi
+	echo "$user_=$flags_" >> $conf_admin;
 	send "PRIVMSG $irc_back :Flags de $user_ modifiés en $flags_";
 }
 admin_flagcmd()
