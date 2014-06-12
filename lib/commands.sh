@@ -4,7 +4,7 @@ liblist+=("commands");
 HOOKS["msg_received"]+="parse_message;";
 
 declare -A cmdtable=(['stop']="stop_the_bot"
-					 ['muffin']="do_smgth 'jette un muffin sur ' \$args"
+					 ['muffin']="do_smgth 'jette un muffin sur' \$args"
 					 ['do']="do_smgth \"\$args\""
 					 ['say']="say_smgth \"\$args\""
 					 ['history']="log_last"
