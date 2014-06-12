@@ -55,3 +55,15 @@ exitbot()
 	rm pidfile;
 	exit 0;
 }
+reload_libs()
+{
+	liblist=()
+	HOOKS=()
+	for i in lib/*.sh; do
+		source "$i"
+	done
+	msg "Libraries reloaded :"
+	for i in "${liblist[@]}"; do
+		echo "- $i"
+	done
+}

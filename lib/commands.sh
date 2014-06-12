@@ -9,8 +9,9 @@ declare -A cmdtable=(['stop']="stop_the_bot"
 					 ['say']="say_smgth \"\$args\""
 					 ['history']="log_last"
 					 ['flag']="admin_flagcmd \$args"
+					 ['reload']="reload_libs"
 					 ['list']="list_cmds");
-declare -A cmdright=(['stop']="adriens33" ['flag']="adriens33 heuzef");
+declare -A cmdright=(['stop']="adriens33" ['flag']="adriens33 heuzef" ['reload']="adriens33");
 declare -A cmdwrong=();
 
 # ---------- Settings ----------
