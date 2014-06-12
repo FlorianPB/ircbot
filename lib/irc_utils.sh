@@ -26,6 +26,11 @@ msg()
 {
 	echo "[1;37m==> ${1}[0m"
 }
+send_sec()
+{
+	local string="$1";
+	printf "$string\n" >> in_lnk
+}
 send()
 {
 	local before after
@@ -39,5 +44,5 @@ send()
 		after="$(echo "$after"|cut -d" " -f1-$nb) *hic* $(echo "$after"|cut -d" " -f$(($nb+1))-)"
 		string="${before}${after}"
 	fi
-	printf "$string\n" >> in_lnk
+	send_sec "$string"
 }

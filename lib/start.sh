@@ -11,9 +11,9 @@ identify()
 	done
 
 	msg "Starting authentication";
-	send "USER ${NICK} ${HOST} ${SRVNAME} :Berry-Punch";
+	send_sec "USER ${NICK} ${HOST} ${SRVNAME} :Berry-Punch";
 	sleep 1;
-	send "NICK ${NICK}";
+	send_sec "NICK ${NICK}";
 
 	txt="$(read_line_outbuffer_wait)";
 	while [ $(echo "$txt"|grep "This nickname is registered"|wc -l) -lt 1 ] ; do
@@ -21,7 +21,7 @@ identify()
 		txt="$(read_line_outbuffer_wait)";
 	done
 	msg "Received password invite from NickServ. Logging in…";
-	echo "PRIVMSG NickServ :IDENTIFY ${NICK} ${PASSW}" >> in_lnk;
+	send_sec "PRIVMSG NickServ :IDENTIFY ${NICK} ${PASSW}";
 
 	txt="$(read_line_outbuffer_wait)";
 	if [ $(echo "$txt"|grep "You are now identified"|wc -l) -eq 1 ]; then
