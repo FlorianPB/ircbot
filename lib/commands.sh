@@ -19,13 +19,14 @@ declare -Ag cmdtable=(['stop']="stop_the_bot"
 					 ['op']="admin_flagcmd mod +o \$args"
 					 ['deop']="admin_flagcmd mod -o \$args"
 					 ['help']="cmd_help \$args"
+					 ['kick']="cmd_kick \$args"
 					 ['list']="list_cmds");
 
 # Droit d'accès à certaines commandes
 # Si la commande n'est pas précisée ici, elle est considérée comme publique
 declare -Ag cmdright=(['stop']="adriens33" ['flag']="adriens33 heuzef" ['reload']="adriens33"
 					 ['voice']="adriens33 heuzef" ['devoice']="adriens33 heuzef" ['op']="adriens33 heuzef"
-					 ["deop"]="adriens33 heuzef");
+					 ["deop"]="adriens33 heuzef" ['kick']="adriens33 heuzef");
 declare -Ag cmdwrong=();
 
 # ---------- Settings ----------
@@ -42,6 +43,18 @@ list_cmds()
 	send "PRIVMSG $irc_back :$a";
 }
 
+# Permet de kick quelqu'un
+cmd_kick()
+{
+	local name reason;
+	name="$1"; shift;
+	reason="${@}";
+
+	[ "$reason" != "" ] && reason=":${reason}";
+
+	send_sec "KICK #bronycub $name ${reason}"
+}
+
 # Aide pour une commande
 cmd_help()
 {
@@ -54,6 +67,8 @@ cmd_help()
 		return
 	}
 	case "$cmd" in
+		"kick")	helptext=("Kicke (vire) quelqu'un du canal." "${cmd_char}kick <nom> [raison]")
+			;;
 		"stop")	helptext=("Stoppe le bot.")
 			;;
 		"muffin")	helptext=("Jette un muffin sur quelqu'un." "${cmd_char}muffin <user>")
