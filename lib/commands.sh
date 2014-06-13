@@ -7,19 +7,26 @@ liblist+=("commands");
 HOOKS["msg_received"]+="parse_message;";
 
 # Correspondance commande ↔ fonction
-declare -A cmdtable=(['stop']="stop_the_bot"
+declare -Ag cmdtable=(['stop']="stop_the_bot"
 					 ['muffin']="do_smgth 'jette un muffin sur' \$args"
 					 ['do']="do_smgth \"\$args\""
 					 ['say']="say_smgth \"\$args\""
 					 ['history']="log_last"
 					 ['flag']="admin_flagcmd \$args"
 					 ['reload']="reload_libs"
+					 ['voice']="admin_flagcmd mod +v \$args"
+					 ['devoice']="admin_flagcmd mod -v \$args"
+					 ['op']="admin_flagcmd mod +o \$args"
+					 ['deop']="admin_flagcmd mod -o \$args"
+					 ['help']="cmd_help \$args"
 					 ['list']="list_cmds");
 
 # Droit d'accès à certaines commandes
 # Si la commande n'est pas précisée ici, elle est considérée comme publique
-declare -A cmdright=(['stop']="adriens33" ['flag']="adriens33 heuzef" ['reload']="adriens33");
-declare -A cmdwrong=();
+declare -Ag cmdright=(['stop']="adriens33" ['flag']="adriens33 heuzef" ['reload']="adriens33"
+					 ['voice']="adriens33 heuzef" ['devoice']="adriens33 heuzef" ['op']="adriens33 heuzef"
+					 ["deop"]="adriens33 heuzef");
+declare -Ag cmdwrong=();
 
 # ---------- Settings ----------
 # Caractère à placer au début d'une commande
@@ -34,6 +41,57 @@ list_cmds()
 	send "PRIVMSG $irc_back :Commandes disponibles :";
 	send "PRIVMSG $irc_back :$a";
 }
+
+# Aide pour une commande
+cmd_help()
+{
+	local cmd="$1"
+	local helptext=();
+	local cnt;
+
+	[ "$cmd" == "" ] && {
+		send "PRIVMSG $irc_back :Entrez help <commande> pour avoir de l'aide sur cette commande."
+		return
+	}
+	case "$cmd" in
+		"stop")	helptext=("Stoppe le bot.")
+			;;
+		"muffin")	helptext=("Jette un muffin sur quelqu'un." "${cmd_char}muffin <user>")
+			;;
+		"do")	helptext=("Effectue une action." "${cmd_char}do <quelque chose>")
+			;;
+		"say")	helptext=("Fait parler le bot." "${cmd_char}say <du texte>")
+			;;
+		"history")	helptext=("Affiche les 10 dernières lignes de l'historique.")
+			;;
+		"flag")		helptext=("Gère les flags user/canal." "flag: état de vos flags"
+														   "flag get <user>: flags enregistrés pour user"
+														   "flag set <flags> <user>: modifie les flags enregistrés de user en flags"
+														   "flag mod <flags> [user]: modifie les flags actuels de user (ou du canal si pas d'user précisé)")
+			;;
+		"reload")	helptext=("Recharge le bot")
+			;;
+		"voice")	helptext=("Donne le flag +v à quelqu'un." "${cmd_char}voice <user>" "équivalent de ${cmd_char}flag mod +v <user>")
+			;;
+		"devoice")	helptext=("Sort le flag +v de quelqu'un." "${cmd_char}devoice <user>" "équivalent de ${cmd_char}flag mod -v <user>")
+			;;
+		"op")	helptext=("Donne les droits admins à quelqu'un." "${cmd_char}op <user>" "équivalent de ${cmd_char}flag mod +o <user>")
+			;;
+		"deop")	helptext=("Sort les droits admins de quelqu'un." "${cmd_char}deop <user>" "équivalent de ${cmd_char}flag mod -o <user>")
+			;;
+		"list")	helptext=("Liste les commandes utilisables.")
+			;;
+		*)	helptext=("Commande inconnue." "Essayez '${cmd_char}list'.")
+			;;
+	esac
+	let cnt=0
+	for i in "${helptext[@]}"; do
+		send "PRIVMSG $irc_back :$i"
+		let cnt++;
+		# [ $(($cnt%5)) -eq 0 ] && sleep 1;
+	done
+}
+
 # Arrête le bot (plus nécessaire depuis le commit 80f80e26)
 stop_the_bot()
 {
