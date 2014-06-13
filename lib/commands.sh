@@ -16,6 +16,7 @@ declare -Ag cmdtable=(['stop']="stop_the_bot"
 					 ['reload']="reload_libs"
 					 ['voice']="admin_flagcmd mod +v \$args"
 					 ['devoice']="admin_flagcmd mod -v \$args"
+					 ['welcome']="say_smgth \"Bienvenue sur le chat de BronyCUB, \$args ! Amuse-toi bien !\""
 					 ['op']="admin_flagcmd mod +o \$args"
 					 ['deop']="admin_flagcmd mod -o \$args"
 					 ['help']="cmd_help \$args"
@@ -72,6 +73,8 @@ cmd_help()
 		"stop")	helptext=("Stoppe le bot.")
 			;;
 		"muffin")	helptext=("Jette un muffin sur quelqu'un." "${cmd_char}muffin <user>")
+			;;
+		"welcome")	helptext=("Souhaite la bienvenue à quelqu'un" "${cmd_char}welcome <user>")
 			;;
 		"do")	helptext=("Effectue une action." "${cmd_char}do <quelque chose>")
 			;;
