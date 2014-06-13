@@ -1,5 +1,8 @@
 #!/usr/bin/env false
 
+# Gestion du fichier de log du canal
+# Auteur: Adrien Sohier (adriens33)
+
 liblist+=("logmsg");
 HOOKS["msg_received"]+="log_message;";
 HOOKS["cmd_received"]+="log_action;";
@@ -9,6 +12,7 @@ logdir="./";
 logchan="#bronycub";
 
 # ---------- Fcts ----------
+# Logue un message utilisateur (ou une action, ie. « * machintruc fait ceci »)
 log_message()
 {
 	[ "${irc_target:0:1}" != "#" ] && return;
@@ -20,6 +24,8 @@ log_message()
 		echo "<$irc_user> $irc_msg" >> "${logdir}/${logchan}.log";
 	fi
 }
+
+# Logue une arrivée/un départ utilisateur
 log_action()
 {
 	local action;
@@ -39,6 +45,11 @@ log_action()
 			;;
 	esac
 }
+
+# Le plus important: la fonction qui est derrière la commande !history
+# Permet de savoir ce qui s'est dit juste avant qu'on arrive.
+# Il vaut mieux éviter d'envoyer trop de lignes, à moins d'aimer se faire kick
+# pour avoir floodé…
 log_last()
 {
 	local A=" ";

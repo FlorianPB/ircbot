@@ -1,8 +1,12 @@
 #!/usr/bin/env false
 
+# Commandes utilisateur à lancer depuis le chat
+# Auteur: Adrien Sohier (adriens33)
+
 liblist+=("commands");
 HOOKS["msg_received"]+="parse_message;";
 
+# Correspondance commande ↔ fonction
 declare -A cmdtable=(['stop']="stop_the_bot"
 					 ['muffin']="do_smgth 'jette un muffin sur' \$args"
 					 ['do']="do_smgth \"\$args\""
@@ -11,19 +15,26 @@ declare -A cmdtable=(['stop']="stop_the_bot"
 					 ['flag']="admin_flagcmd \$args"
 					 ['reload']="reload_libs"
 					 ['list']="list_cmds");
+
+# Droit d'accès à certaines commandes
+# Si la commande n'est pas précisée ici, elle est considérée comme publique
 declare -A cmdright=(['stop']="adriens33" ['flag']="adriens33 heuzef" ['reload']="adriens33");
 declare -A cmdwrong=();
 
 # ---------- Settings ----------
+# Caractère à placer au début d'une commande
+# (ex !list)
 cmd_char="!";
 
 # ---------- Commands ----------
+# Liste des commandes disponibles
 list_cmds()
 {
 	local a="${!cmdtable[@]}"
 	send "PRIVMSG $irc_back :Commandes disponibles :";
 	send "PRIVMSG $irc_back :$a";
 }
+# Arrête le bot (plus nécessaire depuis le commit 80f80e26)
 stop_the_bot()
 {
 	send "PRIVMSG $irc_back :Bye $irc_user !";
@@ -31,11 +42,13 @@ stop_the_bot()
 	sleep 1;
 	exitbot;
 }
+# Action sur le canal (/me)
 do_smgth()
 {
 	local args="${@}"
 	send_sec "PRIVMSG #bronycub :\x01ACTION ${args}\x01";
 }
+# Fait dire quelque chose au bot
 say_smgth()
 {
 	local args="${@}"
@@ -43,16 +56,22 @@ say_smgth()
 }
 
 # ---------- Internals ----------
+# (HOOK) parse les messages utilisateur pour extraire les commandes et leurs paramètres
 parse_message()
 {
 	local cmd args;
 	cmd="$(echo $irc_msg|cut -d' ' -f1)"
 	args="${irc_msg#${cmd}}"
+
+	# Supprime l'espace au début des arguments
 	[ "${args:0:1}" == " " ] && args="${args:1}";
 
+	# Pas de caractère de commande au début ? Ben c'est pas une commande alors.
 	[ "${cmd:0:1}" == "${cmd_char}" ] || return;
 	cmd="${cmd:1}";
 	
+	# Si vous n'avez pas le droit d'exécuter une commande, c'esst ici que le bot vous tape dessus.
+	# Attention, au 4e essai il vous kickera.
 	[ "${cmdright[$cmd]}" != "" ] && [ $(echo " ${cmdright[$cmd]} "|grep " $irc_user "|wc -l) -lt 1 ] && {
 		let cmdwrong[$irc_user]++;
 		case ${cmdwrong[$irc_user]} in
@@ -73,6 +92,7 @@ parse_message()
 		return;
 	}
 
+	# On exécute la commande ici
 	if [ "${cmdtable[$cmd]}" != "" ]; then
 		# args="$(echo "${args}"|sed "s|>|'&'|g;s|<|'&'|g;s|\;|'&'|g")"
 		eval "${cmdtable[$cmd]}";

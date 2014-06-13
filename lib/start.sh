@@ -1,7 +1,14 @@
 #!/usr/bin/env false
+
+# Gère le démarrage du bot :
+# Connexion, etc
+# Auteur: Adrien Sohier (adriens33)
+
 liblist+=("start");
 HOOKS["connect"]+="identify; sleep 0.1; joinchannel;";
 
+# Gère le processus d'identification sur le serveur IRC
+# (nécessite un NickServ et un pseudo enregistré)
 identify()
 {
 	local txt="$1";
@@ -28,6 +35,7 @@ identify()
 		msg "Successfuly identified to NickServ service.";
 	fi
 }
+# Permet de rejoindre un canal
 joinchannel()
 {
 	msg "Joining #bronycub";
@@ -55,10 +63,12 @@ exitbot()
 	rm pidfile;
 	exit 0;
 }
+# Recharge les libs & la  config sans devoir relancer l'appli
 reload_libs()
 {
 	liblist=()
 	HOOKS=()
+	# Source toutes les libs
 	for i in lib/*.sh; do
 		source "$i"
 	done
@@ -66,5 +76,7 @@ reload_libs()
 	for i in "${liblist[@]}"; do
 		echo "- $i"
 	done
+
+	# On prévient que c'est fini
 	send_sec "PRIVMSG $irc_user :Rechargement terminé."
 }
