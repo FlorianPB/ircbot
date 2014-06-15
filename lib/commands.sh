@@ -11,12 +11,13 @@ declare -Ag cmdtable=(['stop']="stop_the_bot"
 					 ['muffin']="do_smgth 'jette un muffin sur' \$args"
 					 ['do']="do_smgth \"\$args\""
 					 ['say']="say_smgth \"\$args\""
+					 ['niorphlo']="say_smgth \"Salut, \$args !\""
 					 ['history']="log_last"
 					 ['flag']="admin_flagcmd \$args"
 					 ['reload']="reload_libs"
 					 ['voice']="admin_flagcmd mod +v \$args"
 					 ['devoice']="admin_flagcmd mod -v \$args"
-					 ['welcome']="say_smgth \"Bienvenue sur le chat de BronyCUB, \$args ! Amuse-toi bien !\""
+					 ['welcome']="say_smgth \"Bienvenue sur le chat de BronyCUB, \$args !\";say_smgth \"Amuse-toi bien !\""
 					 ['op']="admin_flagcmd mod +o \$args"
 					 ['deop']="admin_flagcmd mod -o \$args"
 					 ['help']="cmd_help \$args"
@@ -26,7 +27,7 @@ declare -Ag cmdtable=(['stop']="stop_the_bot"
 # Droit d'accès à certaines commandes
 # Si la commande n'est pas précisée ici, elle est considérée comme publique
 declare -Ag cmdright=(['stop']="adriens33" ['flag']="adriens33 heuzef" ['reload']="adriens33"
-					 ['voice']="adriens33 heuzef" ['devoice']="adriens33 heuzef" ['op']="adriens33 heuzef"
+					 ['devoice']="adriens33 heuzef" ['op']="adriens33 heuzef"
 					 ["deop"]="adriens33 heuzef" ['kick']="adriens33 heuzef");
 declare -Ag cmdwrong=();
 
@@ -69,6 +70,8 @@ cmd_help()
 	}
 	case "$cmd" in
 		"kick")	helptext=("Kicke (vire) quelqu'un du canal." "${cmd_char}kick <nom> [raison]")
+			;;
+		"niorphlo") helptext=("Dit bonjour à quelqu'un." "${cmd_char}niorphlo <nom>")
 			;;
 		"stop")	helptext=("Stoppe le bot.")
 			;;
