@@ -7,6 +7,7 @@ liblist+=("logmsg");
 HOOKS["msg_received"]+="log_message;";
 HOOKS["cmd_received"]+="log_action;";
 
+
 # ---------- Settings ----------
 logdir="./";
 logchan="#bronycub";
@@ -28,11 +29,12 @@ log_message()
 # Logue une arrivée/un départ utilisateur
 log_action()
 {
-	local action;
+	local action name;
 	
 	[ $(echo "$LINE"|grep "QUIT\|JOIN\|PART"|wc -l) -lt 1 ] && return;
 
 	action="$(echo "$LINE"|sed 's/^:\([^!]*\)![^ ]* \(QUIT\|JOIN\|PART\).*$/\2 \1/')"
+	name="$(echo "$LINE"|sed 's/^:\([^!]*\)![^ ]* .*$/\1/')"
 	echo -n "$(date +%Y-%m-%dT%H:%M:%S) *** $(echo "$action"|cut -d' ' -f2-) " >> "${logdir}/${logchan}.log"
 	action="$(echo "$action"|cut -d' ' -f1)";
 
@@ -40,7 +42,10 @@ log_action()
 		"QUIT"|"PART")
 			echo "est parti" >> "${logdir}/${logchan}.log";;
 		"JOIN")
-			echo "s'est connecté" >> "${logdir}/${logchan}.log";;
+			echo "s'est connecté" >> "${logdir}/${logchan}.log";
+			irc_back="$name";
+			irc_user="$name";
+			log_last;;
 		*)
 			;;
 	esac
