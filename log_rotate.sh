@@ -7,7 +7,7 @@ params()
 	LOGDIR=/home/berry-punch
 	LOGARCHDIR=/home/berry-punch/old_logs
 	LOGBASENAME=\#bronycub
-	NB_ROTATIONS=4
+	NB_ROTATIONS=7
 }
 make_dirs()
 {
@@ -24,8 +24,11 @@ base_rotation()
 	mv "${curlog}" "${archlog}"
 	touch "${curlog}"
 
-	[ $(ls -1 "${LOGARCHDIR}"|wc -l) -gt ${NB_ROTATIONS} ] && {
-		ls -1t "${LOGARCHDIR}"|sed -urne "$((${NB_ROTATIONS}+1)),\$p"|xargs xz -ze9
+	[ $(ls -1 "${LOGARCHDIR}/*.log"|wc -l) -ge ${NB_ROTATIONS} ] && {
+		archivedate="$(date +%Y%m%d)"
+		tar -cf "${LOGARCHDIR}/\#bronycub.week-${archivedate}.tar" $(ls -1t "${LOGARCHDIR}/*.log")
+		xz -ze9 "${LOGARCHDIR}/\#bronycub.week-${archivedate}.tar"
+		rm "${LOGARCHDIR}/*.log"
 	}
 }
 
