@@ -53,7 +53,7 @@ read_loop_inbuffer()
 		sleep 0.1;
 
 		# Si le buffer est trop gros, on le vide.
-		[ $idx -ge 32768 ] && flush_buffer_in
+		[ $idx -ge 100 ] && flush_buffer_in
 	done
 }
 
@@ -72,7 +72,7 @@ read_line_outbuffer()
 	fi
 
 	# Vidage du buffer lorsqu'il est trop gros
-	[ $idx -ge 32768 ] && flush_buffer_out
+	[ $idx -ge 100 ] && flush_buffer_out
 }
 
 # Attend qu'une ligne apparaîsse dans le buffer de sortie avant de retourner quelque chose
@@ -118,11 +118,21 @@ flush_buffer_out()
 	rm "$cur";
 }
 
+# Envoie les données dans le buffer de sortie (permet d'update le file handle au fur et à mesure
+# et de  ne pas perdre la sortie au flush du buffer )
+put_outputdata()
+{
+	while [ -f pidfile ]; do
+		read -s LINE
+		echo "${LINE}" >> out_lnk;
+	done
+}
+
 # Connexion entre les buffers et le serveur
 # (merci netcat :D)
 netlink()
 {
-	read_loop_inbuffer | nc ${SERVER} ${PORT} >> out_buffer;
+	read_loop_inbuffer | nc ${SERVER} ${PORT} | put_outputdata;
 }
 
 # ---------- Main ----------
