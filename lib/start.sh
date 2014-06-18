@@ -93,7 +93,7 @@ random_hic()
 	local hic_delay;
 
 	while [ -f pidfile ]; do
-		hic_delay=$(($RANDOM%10))m
+		hic_delay=$(($RANDOM%60))m
 		sleep ${hic_delay};
 		send_sec "PRIVMSG #bronycub :*hic* !";
 	done
