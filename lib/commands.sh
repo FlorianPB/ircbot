@@ -12,7 +12,7 @@ source "${global_confdir}/cmd_right.cfg"
 
 # Correspondance commande ↔ fonction
 declare -Ag cmdtable=(['stop']="stop_the_bot"
-					 ['muffin']="do_smgth 'jette un muffin sur' \$args"
+					 ['muffin']="muffin_throw \$args"
 					 ['do']="do_smgth \"\$args\""
 					 ['say']="say_smgth \"\$args\""
 					 ['niorphlo']="say_smgth \"Salut, \$args !\""
@@ -130,6 +130,20 @@ say_smgth()
 	send "PRIVMSG #bronycub :${args}";
 }
 
+# Lance un muffin sur quelqu'un
+muffin_throw()
+{
+	local name speed;
+
+	name="$1";
+	speed=$((1+$RANDOM%1999));
+
+	do_smgth "lance un muffin sur $name à $speed km/h"
+
+	if [ $speed -ge 1220 ]; then
+	do_smgth "a provoqué un sonic rainboom avec son muffin !"
+	fi
+}
 # ---------- Internals ----------
 # (HOOK) parse les messages utilisateur pour extraire les commandes et leurs paramètres
 parse_message()
