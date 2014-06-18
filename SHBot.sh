@@ -3,13 +3,8 @@
 # Fichier principal
 # Auteur: Adrien Sohier (adriens33)
 
-# ---------- PARAMÈTRES ----------
-SERVER=chat.freenode.net
-PORT=6667
-# NICK=
-# PASSW=
-HOST=homer.art-software.fr
-global_confdir="./config";
+global_confdir="$(dirname "$0")/config"
+source "$global_confdir/SHBot.cfg"
 
 # Eh ben oui, le user/password est demandé au démarrage.
 # J'allais quand même pas vous le donner hein ? XD

@@ -6,6 +6,10 @@
 liblist+=("commands");
 HOOKS["msg_received"]+="parse_message;";
 
+# Chargement de la config
+touch "${global_confdir}/cmd_right.cfg"
+source "${global_confdir}/cmd_right.cfg"
+
 # Correspondance commande ↔ fonction
 declare -Ag cmdtable=(['stop']="stop_the_bot"
 					 ['muffin']="do_smgth 'jette un muffin sur' \$args"
@@ -26,15 +30,7 @@ declare -Ag cmdtable=(['stop']="stop_the_bot"
 
 # Droit d'accès à certaines commandes
 # Si la commande n'est pas précisée ici, elle est considérée comme publique
-declare -Ag cmdright=(['stop']="adriens33" ['flag']="adriens33 heuzef" ['reload']="adriens33"
-					 ['devoice']="adriens33 heuzef" ['op']="adriens33 heuzef"
-					 ["deop"]="adriens33 heuzef" ['kick']="adriens33 heuzef");
 declare -Ag cmdwrong=();
-
-# ---------- Settings ----------
-# Caractère à placer au début d'une commande
-# (ex !list)
-cmd_char="!";
 
 # ---------- Commands ----------
 # Liste des commandes disponibles

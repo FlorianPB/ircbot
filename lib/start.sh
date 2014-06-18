@@ -22,17 +22,19 @@ identify()
 	sleep 1;
 	send_sec "NICK ${NICK}";
 
-	txt="$(read_line_outbuffer_wait)";
-	while [ $(echo "$txt"|grep "This nickname is registered"|wc -l) -lt 1 ] ; do
-		sleep 0.1;
+	if [ $WAIT_AUTH -eq 1 ]; then
 		txt="$(read_line_outbuffer_wait)";
-	done
-	msg "Received password invite from NickServ. Logging in…";
-	send_sec "PRIVMSG NickServ :IDENTIFY ${NICK} ${PASSW}";
+		while [ $(echo "$txt"|grep "This nickname is registered"|wc -l) -lt 1 ] ; do
+			sleep 0.1;
+			txt="$(read_line_outbuffer_wait)";
+		done
+		msg "Received password invite from NickServ. Logging in…";
+		send_sec "PRIVMSG NickServ :IDENTIFY ${NICK} ${PASSW}";
 
-	txt="$(read_line_outbuffer_wait)";
-	if [ $(echo "$txt"|grep "You are now identified"|wc -l) -eq 1 ]; then
-		msg "Successfuly identified to NickServ service.";
+		txt="$(read_line_outbuffer_wait)";
+		if [ $(echo "$txt"|grep "You are now identified"|wc -l) -eq 1 ]; then
+			msg "Successfuly identified to NickServ service.";
+		fi
 	fi
 }
 # Permet de rejoindre un canal
