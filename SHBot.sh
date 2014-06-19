@@ -119,7 +119,9 @@ put_outputdata()
 {
 	while [ -f pidfile ]; do
 		read -s LINE
-		echo "${LINE}" >> out_lnk;
+		if ! [[ $LINE =~ ^( |	)*$ ]]; then
+			echo "${LINE}" >> out_lnk;
+		fi
 	done
 }
 

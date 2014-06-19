@@ -141,7 +141,7 @@ muffin_throw()
 	do_smgth "lance un muffin sur $name à $speed km/h"
 
 	if [ $speed -ge 1220 ]; then
-	do_smgth "a provoqué un sonic rainboom avec son muffin !"
+		say_smgth "MUFFIN RAINBOOM !!"
 	fi
 }
 # ---------- Internals ----------
