@@ -1,7 +1,7 @@
 # BronyCUB IRC Bot #
 
 ## Qu'est-ce que c'est ? ##
-	Berry-punch est un 'bot' irc, c'est-à-dire un client
+Berry-punch est un 'bot' irc, c'est-à-dire un client
 [irc](http://fr.wikipedia.org/wiki/Internet_Relay_Chat) autonome : concrètement,
 c'est un programme qui permet d'administrer un canal (gestion des droits
 utilisateurs, modération…) et aussi de divertir (phrases amusantes, réaction
