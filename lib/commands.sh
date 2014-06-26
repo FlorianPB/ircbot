@@ -17,6 +17,7 @@ declare -Ag cmdtable=(['stop']="stop_the_bot"
 					 ['say']="say_smgth \"\$args\""
 					 ['niorphlo']="say_smgth \"Salut, \$args !\""
 					 ['history']="log_last"
+					 ['niorph']="say_smgth \"Have you niorphed today, \$args ?\""
 					 ['flag']="admin_flagcmd \$args"
 					 ['reload']="reload_libs"
 					 ['voice']="admin_flagcmd mod +v \$args"
@@ -70,6 +71,8 @@ cmd_help()
 		"niorphlo") helptext=("Dit bonjour à quelqu'un." "${cmd_char}niorphlo <nom>")
 			;;
 		"stop")	helptext=("Stoppe le bot.")
+			;;
+		"niorph")	helptext=("Demande à quelqu'un s'il a niorph" "${cmd_char}niorph <user>")
 			;;
 		"muffin")	helptext=("Jette un muffin sur quelqu'un." "${cmd_char}muffin <user>")
 			;;
