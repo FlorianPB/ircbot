@@ -88,7 +88,7 @@ read_line_outbuffer_wait()
 # fichier qui n'est plus utilisé.
 flush_buffer_in()
 {
-	msg "Flushing input buffer"
+	# msg "Flushing input buffer"
 	local cur new;
 	cur="$(readlink -f in_lnk)";
 	new="in_buffer.$(date +%s)";
@@ -102,7 +102,7 @@ flush_buffer_in()
 # idem que pour flush_buffer_in
 flush_buffer_out()
 {
-	msg "FLushing output buffer"
+	# msg "FLushing output buffer"
 	local cur new;
 	cur="$(readlink -f out_lnk)";
 	new="out_buffer.$(date +%s)";
