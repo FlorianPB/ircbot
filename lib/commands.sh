@@ -133,10 +133,13 @@ say_smgth()
 # Lance un muffin sur quelqu'un
 muffin_throw()
 {
-	local name speed;
+	local name speed secret;
 
 	name="$1";
+	secret="$2";
+
 	speed=$((1+$RANDOM%1999));
+	[ "$secret" == "m" ] && let speed+=2000;
 
 	do_smgth "lance un muffin sur $name à $speed km/h"
 

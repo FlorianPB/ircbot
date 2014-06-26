@@ -43,9 +43,10 @@ log_action()
 			echo "est parti" >> "${logdir}/${logchan}.log";;
 		"JOIN")
 			echo "s'est connecté" >> "${logdir}/${logchan}.log";
-			irc_back="$name";
-			irc_user="$name";
-			log_last;;
+			# irc_back="$name";
+			# irc_user="$name";
+			# log_last;;
+			;;
 		*)
 			;;
 	esac
