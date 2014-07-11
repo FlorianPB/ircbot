@@ -23,13 +23,6 @@ base_rotation()
 
 	mv "${curlog}" "${archlog}"
 	touch "${curlog}"
-
-	[ $(ls -1 "${LOGARCHDIR}/*.log"|wc -l) -ge ${NB_ROTATIONS} ] && {
-		archivedate="$(date +%Y%m%d)"
-		tar -cf "${LOGARCHDIR}/${LOGBASENAME}.week-${archivedate}.tar" $(ls -1t "${LOGARCHDIR}/*.log")
-		xz -ze9 "${LOGARCHDIR}/${LOGBASENAME}.week-${archivedate}.tar"
-		rm "${LOGARCHDIR}/*.log"
-	}
 }
 
 params;
