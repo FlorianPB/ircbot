@@ -1,0 +1,976 @@
+2014-06-15T00:10:26 <ValCab33> Non
+2014-06-15T00:10:41 <Letarumavza> ah
+2014-06-15T00:10:52 <ValCab33> Pourquoi ? ^^
+2014-06-15T00:30:39 *** Renard est parti
+2014-06-15T00:48:35 *** ValCab33 est parti
+2014-06-15T00:50:50 *** Renard s'est connecté
+2014-06-15T01:00:32 *** MaCharon s'est connecté
+2014-06-15T02:23:46 *** adriens33 s'est connecté
+2014-06-15T02:23:58 *** adriens33 est parti
+2014-06-15T02:26:41 *** maitrepanda est parti
+2014-06-15T02:58:56 *** Letarumavza est parti
+2014-06-15T03:12:32 *** MaCharon est parti
+2014-06-15T03:29:53 *** Renard est parti
+2014-06-15T09:42:05 *** adriens33 s'est connecté
+2014-06-15T10:05:09 *** Shinsaber s'est connecté
+2014-06-15T10:05:14 <Shinsaber> lu
+2014-06-15T10:09:20 <adriens33> salut
+2014-06-15T10:09:32 <adriens33> quecékalme
+2014-06-15T10:10:00 <Shinsaber> un matin de week-end ^^
+2014-06-15T10:12:46 <Shinsaber> j'ai pas trop compris la fin du mail du mec qui organise le truc de cette aprèm ! ^^
+2014-06-15T10:13:20 <adriens33> att
+2014-06-15T10:13:24 <adriens33> 2s faut que je reboote
+2014-06-15T10:13:28 <adriens33> maj kernel
+2014-06-15T10:13:44 <adriens33> et du coup je peux plus monter ma carte sd avec les tof d'hier dedans ^^
+2014-06-15T10:15:15 *** adriens33 est parti
+2014-06-15T10:22:18 *** Eclipse2212 s'est connecté
+2014-06-15T10:22:35 *** Eclipse2212 est parti
+2014-06-15T10:34:44 *** Shinsaber est parti
+2014-06-15T10:37:12 *** Shinsaber s'est connecté
+2014-06-15T10:42:32 *** Shinsaber est parti
+2014-06-15T10:50:57 *** adriens33 s'est connecté
+2014-06-15T10:52:37 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières *hic* lignes, adriens33
+2014-06-15T10:52:38 <adriens33> !history
+2014-06-15T10:59:53 *** niorph s'est connecté
+2014-06-15T11:00:01 <niorph> Yo !
+2014-06-15T11:00:44 *** niorph est parti
+2014-06-15T11:10:22 *** Renard s'est connecté
+2014-06-15T11:11:34 <adriens33> hello :D
+2014-06-15T11:21:57 *** Shinsaber s'est connecté
+2014-06-15T11:25:20 <adriens33> replop
+2014-06-15T11:25:41 <Shinsaber> re
+2014-06-15T11:28:31 <adriens33> viol de serveur mail XD
+2014-06-15T11:28:42 <adriens33> je suis en train d'envoyer les tofs d'hier sur la ML
+2014-06-15T11:28:52 <adriens33> (100+ Mo :þ)
+2014-06-15T11:34:12 <Shinsaber> XD
+2014-06-15T11:46:59 <Shinsaber> question : faux lui envoyer un SMS a celui qui organise le truc de cette aprèm ??? (la flem XD )
+2014-06-15T11:51:07 <adriens33> apparemment
+2014-06-15T11:59:05 <Shinsaber> mes il veu savoir quoi XD
+2014-06-15T11:59:54 <Shinsaber> son mail est pas clair !!
+2014-06-15T12:02:04 <adriens33> bonne question
+2014-06-15T12:03:00 <adriens33> grr
+2014-06-15T12:03:07 <adriens33> mon postfix qui dit non
+2014-06-15T12:03:12 <adriens33> parce que le mail fait 159mo
+2014-06-15T12:03:15 <Shinsaber> XD
+2014-06-15T12:03:18 <adriens33> et que la taille limite était de 150mo
+2014-06-15T12:03:26 *** MaCharon s'est connecté
+2014-06-15T12:03:28 <adriens33> 32546e essai…
+2014-06-15T12:03:32 <adriens33> hello MaCharon
+2014-06-15T12:03:37 <MaCharon> slt all
+2014-06-15T12:03:54 <MaCharon> c'est quoi ces essais ?
+2014-06-15T12:04:17 <Shinsaber> Salut
+2014-06-15T12:05:09 <Shinsaber> il veu envoyer des photo par mail mais le serv dit que ses tros gros XD
+2014-06-15T12:05:21 <adriens33> juste une erreur de conf de ma part
+2014-06-15T12:05:25 <MaCharon> ah merde les photos :/
+2014-06-15T12:05:39 <adriens33> mais comme ça prend du temps d'upload le mail à chaque fois ça me fais ch**r de recommencer :þ
+2014-06-15T12:05:50 <Shinsaber> ^^
+2014-06-15T12:15:56 *** maitrepanda s'est connecté
+2014-06-15T12:16:09 <adriens33> plop
+2014-06-15T12:16:17 <Shinsaber> salut
+2014-06-15T12:20:59 <adriens33> bon, mail en cours de transmission :D
+2014-06-15T12:21:04 <adriens33> (les photos d'hier)
+2014-06-15T12:22:06 <MaCharon> wouhouh!
+2014-06-15T12:22:28 <maitrepanda> super
+2014-06-15T12:22:55 <adriens33> bon après si gmail refuse le mail j'aurais bien l'air con XD
+2014-06-15T12:23:09 <Renard> <adriens33> je suis en train d'envoyer les tofs d'hier sur la ML
+2014-06-15T12:23:14 <Renard> Mais non!
+2014-06-15T12:23:15 <adriens33> (mais ça m'étonnerait, il me semble qu'ils n'ont pas mis de limite, ou alors elle est super grosse)
+2014-06-15T12:23:19 <adriens33> mais si
+2014-06-15T12:23:27 <Renard> Tu fous les fichiers sur un stockage en ligne et tu balances le lien
+2014-06-15T12:23:38 <adriens33> boarf
+2014-06-15T12:23:39 <Renard> et un stockage propre
+2014-06-15T12:23:43 <Renard> parce que là
+2014-06-15T12:23:46 <Renard> niveau encombrement
+2014-06-15T12:23:47 <adriens33> c'toi le stockage propre
+2014-06-15T12:24:12 <Renard> T'es à 159Mo dupliqués autant de fois qu'il y a de gens dans la ml
+2014-06-15T12:24:31 <adriens33> t'es au courant que google a largement la place ?
+2014-06-15T12:24:39 <Renard> et perso, recevoir un mail de 159Mo sur ma connexion digne d'un 56k me ferait tout sauf plaisir
+2014-06-15T12:24:47 <Renard> donc Drive
+2014-06-15T12:24:55 <Renard> + url
+2014-06-15T12:25:03 <adriens33> t'es au courant que t'es pas obligé de dl les pièces jointes quand tu reçois le mail ?
+2014-06-15T12:25:11 <adriens33> sauf si t'as un mailer de merde
+2014-06-15T12:25:30 <Renard> Ou qu'il est pas configuré comme chez 99% des gens
+2014-06-15T12:25:41 <Renard> accessoirement
+2014-06-15T12:26:01 <adriens33> …
+2014-06-15T12:26:02 <Renard> accepter de recevoir des pièces jointe de <2mo usuellement != se retrouver avec un truc de 159Mb un jour
+2014-06-15T12:26:08 <adriens33> …
+2014-06-15T12:26:45 <adriens33> tu sais que t'es pas obligé de me parler sur ce ton.
+2014-06-15T12:26:50 <adriens33> je suis pas ton chien.
+2014-06-15T12:26:53 <Renard> <adriens33> …
+2014-06-15T12:27:00 <Renard> Jusque là, le ton négatif c'est toi
+2014-06-15T12:27:11 <adriens33> normal tu viens m'aboyer dessus.
+2014-06-15T12:27:18 <Renard> ah non
+2014-06-15T12:27:28 <adriens33> tu sais quoi ?
+2014-06-15T12:27:31 <Berry-Punch> Flags de  *hic* modifiés : +m
+2014-06-15T12:27:31 <adriens33> !flag mod +m
+2014-06-15T12:28:11 *** Renard est parti
+2014-06-15T12:29:41 <Shinsaber> comment donnée une mauvaise image au collectif, et au lieu de le mute tu pouvais juste dire 'm’intentant ses trop tard'
+2014-06-15T12:29:54 <adriens33> 1) il est même pas inscrit
+2014-06-15T12:30:03 <adriens33> 2) c'est pas moi qui voulait pas lui mettre le voice
+2014-06-15T12:30:13 <adriens33> (heuzef lui a enlevé quand je lui avait mis)
+2014-06-15T12:30:23 <adriens33> 3) il vient me donner des ordres et m'aboie dessus
+2014-06-15T12:30:24 <adriens33> donc raf
+2014-06-15T12:31:31 <adriens33> désolé les gens
+2014-06-15T12:31:52 <adriens33> il me l'aurait dit plus gentiment (genre en conseil etc)
+2014-06-15T12:31:57 <adriens33> j'aurait pas réagi comme ça
+2014-06-15T12:32:03 <adriens33> mais bon m'aboyer dessus nope
+2014-06-15T12:32:13 <adriens33> anyway
+2014-06-15T12:32:24 <adriens33> sujet clos
+2014-06-15T12:38:15 <Berry-Punch> Flags de  *hic* modifiés : -o
+2014-06-15T12:38:15 <adriens33> !flag mod -o
+2014-06-15T12:38:20 *** adriens33 est parti
+2014-06-15T12:38:37 *** adriens33 s'est connecté
+2014-06-15T12:38:49 <Berry-Punch> Flags de  modifiés : -m *hic* 
+2014-06-15T12:38:49 <adriens33> !flag mod -m
+2014-06-15T12:38:54 *** adriens33 est parti
+2014-06-15T12:43:04 *** ValCab33 s'est connecté
+2014-06-15T12:43:12 <ValCab33> Hello
+2014-06-15T12:43:23 <Shinsaber> salut !
+2014-06-15T12:53:52 *** AlphaDash s'est connecté
+2014-06-15T12:54:14 <AlphaDash> yop
+2014-06-15T12:54:22 <Shinsaber> Salut !
+2014-06-15T12:54:47 <AlphaDash> ça va? ^^
+2014-06-15T12:55:36 <Shinsaber> ma foi oui, en plus petit rencontre cette aprèm pour faire du sport ^^
+2014-06-15T12:56:12 <AlphaDash> hum ok
+2014-06-15T12:56:17 <Shinsaber> et toi ?
+2014-06-15T12:56:41 <AlphaDash> ouais ça me tarde demain
+2014-06-15T13:00:00 <MaCharon> du coup pour cette aprem si j'ai bien compris le rdv est passé de 13h a 14h c'est ça ?
+2014-06-15T13:00:21 <Shinsaber> a priori oui !
+2014-06-15T13:00:31 <Shinsaber> moi en tous cas j'y vais pour 14h
+2014-06-15T13:00:42 <MaCharon> ok je me suis pas trompé c'est cool ^^
+2014-06-15T13:00:54 <Shinsaber> ^^
+2014-06-15T13:03:02 *** AlphaDash est parti
+2014-06-15T13:23:21 <Shinsaber> sa m’énerve je sais pas si je prend une sacoche avec de l'eau ou pas (j'ai peur quel m'encombre XD )
+2014-06-15T13:27:54 <Shinsaber> bon moi je part ! a+
+2014-06-15T13:27:58 *** Shinsaber est parti
+2014-06-15T13:47:08 *** MaCharon est parti
+2014-06-15T14:00:53 *** maitrepanda est parti
+2014-06-15T14:15:29 <ValCab33> Kom je suis tout seul
+2014-06-15T14:15:34 *** ValCab33 est parti
+2014-06-15T18:50:48 *** ludvann s'est connecté
+2014-06-15T18:50:54 <ludvann> Niorph
+2014-06-15T19:00:29 *** ludvann est parti
+2014-06-15T19:00:39 *** ludvann s'est connecté
+2014-06-15T19:01:19 * Berry-Punch jette un muffin sur BronyCUB-MC
+2014-06-15T19:01:19 <ludvann> !muffin BronyCUB-MC
+2014-06-15T19:01:42 <ludvann> !niorphlo niorp
+2014-06-15T19:02:06 <ludvann> !niorphlo ludvann
+2014-06-15T19:08:04 *** Eclipse2212 s'est connecté
+2014-06-15T19:09:16 <Eclipse2212> Ya quelqu'un?
+2014-06-15T19:17:56 <Berry-Punch> Voilà ce qu'il *hic* s'est passé ces 10 dernières lignes, adriens33
+2014-06-15T19:18:59 *** MaCharon s'est connecté
+2014-06-15T19:21:15 *** Shinsaber s'est connecté
+2014-06-15T19:24:24 *** Eclipse2212 est parti
+2014-06-15T19:24:40 *** Eclipse2212 s'est connecté
+2014-06-15T19:25:00 *** adriens33 s'est connecté
+2014-06-15T19:25:13 <Berry-Punch> Flags de Eclipse2212 *hic* modifiés en +v
+2014-06-15T19:25:13 <adriens33> !flag set +v Eclipse2212
+2014-06-15T19:25:23 <Berry-Punch> Flags de *hic* Eclipse2212 modifiés : +v
+2014-06-15T19:25:23 <adriens33> !flag mod +v Eclipse2212
+2014-06-15T19:25:28 <adriens33> Hello :D
+2014-06-15T19:26:15 *** ludvann est parti
+2014-06-15T19:26:20 <MaCharon> re
+2014-06-15T19:26:50 <Shinsaber> Moi je suis toujours dans le tram ^^
+2014-06-15T19:26:54 <adriens33> je suis bien content d'être rentré
+2014-06-15T19:27:00 <adriens33> je suis cuit de partout :'(
+2014-06-15T19:27:12 <MaCharon> ça fait du bien de se poser
+2014-06-15T19:27:34 <adriens33> ouaip :þ
+2014-06-15T19:34:53 *** wildfier s'est connecté
+2014-06-15T19:34:55 <wildfier> yop
+2014-06-15T19:36:03 <adriens33> re
+2014-06-15T19:37:08 *** Shinsaber79 s'est connecté
+2014-06-15T19:37:23 <Berry-Punch> Flags de Shinsaber79 *hic* modifiés : +v
+2014-06-15T19:37:23 <adriens33> !flag mod +v Shinsaber79
+2014-06-15T19:37:32 <Berry-Punch> Flags de Shinsaber79 *hic* modifiés en +v
+2014-06-15T19:37:32 <adriens33> !flag set +v Shinsaber79
+2014-06-15T19:37:37 *** ludvann s'est connecté
+2014-06-15T19:37:40 *** Eclipse2212 est parti
+2014-06-15T19:37:46 <ludvann> Re !
+2014-06-15T19:37:48 <adriens33> e
+2014-06-15T19:37:51 <adriens33> *ire
+2014-06-15T19:37:54 <adriens33> *re
+2014-06-15T19:37:56 <adriens33> ><
+2014-06-15T19:38:02 <ludvann> xD
+2014-06-15T19:38:10 <Shinsaber79> Putin de tel ^^
+2014-06-15T19:38:18 <ludvann> :)
+2014-06-15T19:38:57 <ludvann> Pourquoi tu as deux compte shin' ?
+2014-06-15T19:40:13 <ludvann> Shinsaber ?
+2014-06-15T19:40:14 <adriens33> à cause de son tel apparemment
+2014-06-15T19:40:29 <ludvann> Ah ...
+2014-06-15T19:40:45 <adriens33> du moins je suppose que c'est la raison du "putain de tel"
+2014-06-15T19:40:48 *** Shinsaber est parti
+2014-06-15T19:41:16 <ludvann> D'ailleurs tu as une idée de l'origine de ton blocage dans l'eau ? ^^
+2014-06-15T19:41:17 *** Shinsaber79 est parti
+2014-06-15T19:41:39 <adriens33> non
+2014-06-15T19:41:41 <adriens33> du tout
+2014-06-15T19:42:21 *** Shinsaber s'est connecté
+2014-06-15T19:42:23 <ludvann> T'as jamais eut de problème avec l'eau  tu as ça depuis toujours ?
+2014-06-15T19:42:27 <ludvann> Re
+2014-06-15T19:42:30 <adriens33> ouais
+2014-06-15T19:42:32 <adriens33> voulà
+2014-06-15T19:42:37 <Shinsaber> Re, avec un PC c'est mieu ^
+2014-06-15T19:42:39 <adriens33> *voilà
+2014-06-15T19:42:41 <adriens33> re
+2014-06-15T19:42:43 <adriens33> ^^
+2014-06-15T19:42:50 <ludvann> :)
+2014-06-15T19:44:01 <wildfier> plus qu'à attendre heuze
+2014-06-15T19:44:04 <wildfier> heuzef*
+2014-06-15T19:44:22 <ludvann> Ptèt que ça vient de la naissance (je parle d'avant & l'accouchement), il y a peut eut un blème...
+2014-06-15T19:44:42 <wildfier> encore un open serveur de legends of equestria
+2014-06-15T19:44:45 <adriens33> ^^
+2014-06-15T19:44:45 <wildfier> en aout
+2014-06-15T19:44:55 <ludvann> Bon j'arrête de t'embêter avec ça ^¢
+2014-06-15T19:45:15 <ludvann> ^^*
+2014-06-15T19:46:00 <ludvann> Heuzef est bloqué dans l'ascenseur ?
+2014-06-15T19:46:42 <ludvann> Alors la journée, pas trop crevé ?
+2014-06-15T19:47:39 <wildfier> http://linuxfr.org/news/sortie-de-glances-version-2-0
+2014-06-15T19:47:51 <wildfier> pour les deux adriens, ça à l'air cool ça
+2014-06-15T19:47:54 <adriens33> ça va, juste cuit depuis hier mais bon ^^
+2014-06-15T19:48:01 <Shinsaber> si sa se trouve heuzef vas pas venir XD
+2014-06-15T19:48:02 <ludvann> ^^
+2014-06-15T19:48:04 <wildfier> yep, super aprèm
+2014-06-15T19:48:27 <ludvann> La feignasse jusqu'au bout ^^
+2014-06-15T19:49:20 <ludvann> (Fun fact: feignasse n'est pas dans le dico de google clavier)
+2014-06-15T19:49:42 <adriens33> fun fact: google c'est pas dieu
+2014-06-15T19:49:48 <adriens33> :D
+2014-06-15T19:49:49 <Shinsaber> XD
+2014-06-15T19:50:10 <ludvann> XD
+2014-06-15T19:50:19 <adriens33> (du moins y'a pas encore de loi forçant à reconnaitre Google comme seul et unique dieu)
+2014-06-15T19:50:38 <ludvann> Google = google .-
+2014-06-15T19:50:56 <ludvann>  ( .-    = point barre)
+2014-06-15T19:51:34 <ludvann> Oui zêtes mal barrez avec moi...
+2014-06-15T19:52:28 <adriens33> ^^
+2014-06-15T19:54:10 <ludvann> N'empèche vous pouvez dire ce que voulez mais je sais faire naitre un débat sur mass effect avec un "pustule"...
+2014-06-15T19:56:22 *** heuzef s'est connecté
+2014-06-15T19:56:28 <adriens33> \o/
+2014-06-15T19:56:32 <Berry-Punch> Voilà ce qu'il s'est *hic* passé ces 10 dernières lignes, heuzef
+2014-06-15T19:56:33 <heuzef> !history
+2014-06-15T19:57:02 <ludvann> Yo
+2014-06-15T19:57:04 <heuzef> prout les gens
+2014-06-15T19:57:11 * Berry-Punch jette un muffin sur heuzef
+2014-06-15T19:57:11 <heuzef> !muffin heuzef
+2014-06-15T19:57:18 <adriens33> chaussette !
+2014-06-15T19:57:46 <Shinsaber> lu heuz
+2014-06-15T19:57:56 <wildfier> yop !
+2014-06-15T19:58:01 <ludvann> Y a plus le !niorphlo adrien33 :/
+2014-06-15T19:58:13 <adriens33> !reload
+2014-06-15T19:58:21 <adriens33> vas y
+2014-06-15T19:58:22 <adriens33> essaie
+2014-06-15T19:58:36 <wildfier> un troll de john de lancie
+2014-06-15T19:58:37 <wildfier> http://linuxfr.org/news/sortie-de-glances-version-2-0
+2014-06-15T19:59:00 <Berry-Punch> Salut, *hic* heuzef !
+2014-06-15T19:59:00 <ludvann> !niorphlo heuzef
+2014-06-15T19:59:10 <ludvann> o/
+2014-06-15T19:59:14 <adriens33> @wildfier: ou ça un troll ?
+2014-06-15T19:59:17 <adriens33> pas pigé :/
+2014-06-15T19:59:38 <wildfier> fail copié coller
+2014-06-15T19:59:46 <heuzef> Moi je pige toujours pas ce que signifie "niorphlo"
+2014-06-15T19:59:53 <wildfier> https://www.youtube.com/watch?v=HHbfr3TrNLg
+2014-06-15T20:00:17 *** Letarumavza s'est connecté
+2014-06-15T20:00:38 <adriens33> plop
+2014-06-15T20:00:42 <ludvann> Niorphlo = niorph + hello
+2014-06-15T20:00:43 <Letarumavza> Salut les filles
+2014-06-15T20:01:08 * Berry-Punch jette un muffin sur ludvann
+2014-06-15T20:01:17 <Shinsaber> salut
+2014-06-15T20:01:25 <ludvann> Heuzef je t'es expliqué pour le niorphlo
+2014-06-15T20:01:41 <ludvann> Salut Letarumavza et Shinsaber
+2014-06-15T20:01:58 <heuzef> niorph :/ comprend toujours pas
+2014-06-15T20:02:10 * Letarumavza <Grammar-nazi_mode=Activated/>
+2014-06-15T20:02:37 <adriens33> attention
+2014-06-15T20:02:39 <adriens33> :D
+2014-06-15T20:02:45 <ludvann> Niorph = interjection comme "schtoumf"
+2014-06-15T20:02:51 <adriens33> *schtroumpf
+2014-06-15T20:02:55 <Letarumavza> "je t'es expliqué" => "Je t'ai expliqué" Participe passé auxiliaire avoir.
+2014-06-15T20:02:59 <ludvann> Merci
+2014-06-15T20:03:19 <ludvann> Gné gné gné...
+2014-06-15T20:03:22 <ludvann> ^^
+2014-06-15T20:03:23 <wildfier> yay un autre grammar nazi ^^
+2014-06-15T20:03:24 <heuzef> pfff et pourquoi tu fais ton grammar nazi ?
+2014-06-15T20:03:35 * Letarumavza prend un méchantox.
+2014-06-15T20:03:38 <wildfier> pour plus avoir à le faire XD
+2014-06-15T20:03:39 <heuzef> ha ok
+2014-06-15T20:04:11 <Letarumavza> Techniquement plus il y a de grammar-nazi moins il y en a.
+2014-06-15T20:04:15 <heuzef> Je cherche un film pour ce soir mais je trouve rien
+2014-06-15T20:04:21 <Letarumavza> 500 days of summer
+2014-06-15T20:04:34 <Shinsaber> H2G2
+2014-06-15T20:04:41 <Letarumavza> (500 jours ensemble en VF)
+2014-06-15T20:04:50 * heuzef matte le trailer
+2014-06-15T20:05:00 <Letarumavza> Shinsaber: je mettrais ma main à couper que flo connait H2G2 par coeur.
+2014-06-15T20:05:08 <Shinsaber> XD
+2014-06-15T20:05:20 * adriens33 va chercher un bac à glace
+2014-06-15T20:05:35 * ludvann passe en 3G
+2014-06-15T20:05:50 <Shinsaber> <troll> Barbie c'est cool </troll>
+2014-06-15T20:05:52 * Letarumavza veut le même équipement qu'anakin en cas de coupure de main.
+2014-06-15T20:05:57 * ludvann passe en 3g
+2014-06-15T20:07:26 <heuzef> mouais pas motiv
+2014-06-15T20:07:28 <heuzef> un autre ?
+2014-06-15T20:07:44 <wildfier> team america : world police
+2014-06-15T20:07:50 <Letarumavza> Scott pilgrim versus the world
+2014-06-15T20:08:14 *** ludvannn s'est connecté
+2014-06-15T20:08:15 <heuzef> vu
+2014-06-15T20:08:16 <heuzef> vu
+2014-06-15T20:08:17 <heuzef> vu
+2014-06-15T20:08:19 <heuzef> et encore vu
+2014-06-15T20:08:28 <Letarumavza> MAtrix ?
+2014-06-15T20:08:28 *** maitrepanda s'est connecté
+2014-06-15T20:08:33 <Letarumavza> (la trilogie)
+2014-06-15T20:08:37 <Letarumavza> Lotr ?
+2014-06-15T20:08:39 <heuzef> vu/vu/vu
+2014-06-15T20:08:49 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, *hic* maitrepanda
+2014-06-15T20:08:51 <maitrepanda> !history
+2014-06-15T20:09:05 <ludvannn> Re
+2014-06-15T20:09:09 <maitrepanda> re
+2014-06-15T20:09:10 <Letarumavza> Salut
+2014-06-15T20:09:16 <Letarumavza> Tu cherches du nouveau ou du culte
+2014-06-15T20:09:20 <Shinsaber> Salut maiter
+2014-06-15T20:09:26 <Shinsaber> maitre*
+2014-06-15T20:09:29 <adriens33> plop maitrepanda
+2014-06-15T20:09:33 <Letarumavza> Sinon tu as starwars, star trek, stargate SG-1...
+2014-06-15T20:09:38 <wildfier> re
+2014-06-15T20:09:46 <maitrepanda> bonjour disciples
+2014-06-15T20:09:59 <Letarumavza> Le pilote de la série battlestar galactica aussi vaut le coups d'oeil
+2014-06-15T20:10:02 <wildfier> simpsons, futurama, american dad, ...
+2014-06-15T20:10:12 <Shinsaber> moi moche et méchant
+2014-06-15T20:10:13 <Letarumavza> Bah on est sur des films
+2014-06-15T20:10:18 <heuzef> vu vu vu vu vu vu et vu
+2014-06-15T20:10:23 <Letarumavza> American dad n'en a pas il me semble
+2014-06-15T20:10:25 <Letarumavza> Oh je sais !
+2014-06-15T20:10:59 <Letarumavza> Lost in la mancha
+2014-06-15T20:11:12 <Shinsaber> Ghost in the Shell Stand Alone Complex (série que j'adore)
+2014-06-15T20:11:17 * heuzef matte le traile
+2014-06-15T20:11:46 <wildfier> oh oui ! ghost in the shell !
+2014-06-15T20:12:01 <Letarumavza> Là aussi connaisant flo je parie que c'est du vu/revu
+2014-06-15T20:12:09 *** ludvann est parti
+2014-06-15T20:12:55 <Letarumavza> Ceci dit, ghost in the shell est vraiment pas mal
+2014-06-15T20:13:04 <heuzef> oui vu
+2014-06-15T20:13:17 <heuzef> Pas trop envie d'un film wtf ce soir mais je note pour plus tard
+2014-06-15T20:13:21 <Letarumavza> Sinon si tu as du temps à perdre, mate toi l'intégralité des épisodes de one piece
+2014-06-15T20:13:38 <Shinsaber> Dr. Who ^
+2014-06-15T20:13:41 <heuzef> Letarumavza j'ai déjà tous vu les OP + tous les film
+2014-06-15T20:13:48 <heuzef> Shinsaber Dr who aussi ...
+2014-06-15T20:13:50 <Letarumavza> P$rends toi un abo à WoW
+2014-06-15T20:13:56 * Letarumavza troll
+2014-06-15T20:13:59 <heuzef> Letarumavza meurt ^^
+2014-06-15T20:14:00 <MaCharon> card captor sakura
+2014-06-15T20:14:12 <Letarumavza> sailor moon
+2014-06-15T20:14:22 <heuzef> MaCharon faut pas déconner non plus hein ... pourquoi pas My Little pony tant qu'on y est
+2014-06-15T20:14:30 <MaCharon> la melancolie de suzumiya harui
+2014-06-15T20:14:32 <Shinsaber> Card Captor Sakura ever
+2014-06-15T20:14:35 * Letarumavza crève de rire devant son PC.
+2014-06-15T20:14:44 <MaCharon> black rock shooter
+2014-06-15T20:14:55 <Letarumavza> nom nom nom BRS
+2014-06-15T20:15:04 <wildfier> asdf ponies !
+2014-06-15T20:15:11 <wildfier> https://www.youtube.com/watch?v=HHbfr3TrNLg#t=90
+2014-06-15T20:15:17 <wildfier> https://www.youtube.com/playlist?list=PLVjzd_5cWuEqw9BjVI7Fj750_j19JlSt5
+2014-06-15T20:15:18 <Shinsaber> Astro Boy (le film !)
+2014-06-15T20:15:18 <heuzef> Putain en faite des fois c'est pète couille d'être un geek, y'a bien encore des truc cool que j'ai jamais vu merde !
+2014-06-15T20:15:27 <wildfier> (again, fail de copier / coller ...)
+2014-06-15T20:15:28 <Shinsaber> +1 wildfier
+2014-06-15T20:15:30 <Letarumavza> Euh...
+2014-06-15T20:15:47 <Letarumavza> Turkish star wars ?
+2014-06-15T20:15:58 <Letarumavza> Ou un autre truc sorti de nanarland ?
+2014-06-15T20:16:12 <Letarumavza> Bienvenue à zombieland ?
+2014-06-15T20:16:24 <heuzef> Vu ....
+2014-06-15T20:16:35 <Letarumavza> La maison des mille morts (de rob zombie)
+2014-06-15T20:16:43 * heuzef matte le trailer
+2014-06-15T20:16:53 <Letarumavza> Et the devil's rejects
+2014-06-15T20:17:02 <Letarumavza> Là on touche du lourd en revanche.
+2014-06-15T20:17:53 *** ludvannn est parti
+2014-06-15T20:19:24 <Letarumavza> Anecdote marrante : Rob zombie chante "Dracula" qui est la musique dans la boite du mérovingien dans matrix reloaded.
+2014-06-15T20:19:33 <heuzef> Les nanars je les regarde exclusivement avec des potes par contre
+2014-06-15T20:19:40 <MaCharon> planète terreur
+2014-06-15T20:19:40 <heuzef> The fun has been double
+2014-06-15T20:20:12 <Letarumavza> Si tu fais une soirée nanards+bière//hydromel, hésites pas à m'inviter. ^^
+2014-06-15T20:20:12 <Berry-Punch> Tu en as pour moi *hic* Letarumavza ?
+2014-06-15T20:20:48 <Berry-Punch> Voilà ce qu'il s'est *hic* passé ces 10 dernières lignes, adriens33
+2014-06-15T20:21:19 <Letarumavza> En plus j'ai une culture cinématographique relativement étendue concernant les nanards ^^
+2014-06-15T20:22:10 <heuzef> Letarumavza je t'encourage à organiser une soirée spéciale nanards ça peux être drole, perso j'aimerais bien faire un combo pizza / L'attaque des tomates tueuses
+2014-06-15T20:22:45 <Letarumavza> Si tu trouves le film je me démerde pour raquer la pizz, mais faudra qu'un troisième gus amène la biere ^^
+2014-06-15T20:22:45 <Berry-Punch> J'adore ça ! *hic* 
+2014-06-15T20:23:01 <MaCharon> squalnado !
+2014-06-15T20:23:30 <Letarumavza> sharknado*
+2014-06-15T20:23:40 <MaCharon> ah oui pardon
+2014-06-15T20:23:40 <Letarumavza> Mais pour ça faut des sushis ^^
+2014-06-15T20:23:49 <MaCharon> j'ai confondu avec un autre
+2014-06-15T20:23:55 <heuzef> Ha j'ai trouvé ce que je vais regarder
+2014-06-15T20:24:07 <heuzef> Un grand classique que j'ai encore jamais vu dis donc
+2014-06-15T20:24:16 <heuzef> L'integrale de Rocky Balboa
+2014-06-15T20:24:27 <Letarumavza> Certes
+2014-06-15T20:24:38 <MaCharon> sympa
+2014-06-15T20:24:45 <Shinsaber> pas fan perso
+2014-06-15T20:25:02 <heuzef> @peluche tous le monde
+2014-06-15T20:25:02 *** maitrepanda est parti
+2014-06-15T20:25:18 *** heuzef est parti
+2014-06-15T20:26:14 <Letarumavza> On lui dit pas que y'a que le premier qu'est bon hein ^^
+2014-06-15T20:26:30 <Shinsaber> XD
+2014-06-15T20:29:51 <wildfier> c'est ça
+2014-06-15T20:30:11 <Letarumavza> ^^
+2014-06-15T20:32:01 *** ValCab33 s'est connecté
+2014-06-15T20:32:06 <ValCab33> Hi
+2014-06-15T20:32:16 <Shinsaber> Ho
+2014-06-15T20:32:22 <adriens33> plop
+2014-06-15T20:32:49 <wildfier> yop
+2014-06-15T20:33:46 <Letarumavza> A poil les ratons-laveurs hystériques communistes sous valium !
+2014-06-15T20:34:48 <Shinsaber> Oki .... quesqui ce passe ^^
+2014-06-15T20:35:08 <Letarumavza> Chais pas, ça m'est passé par la tête, c'était random => je 'lai écrit.
+2014-06-15T20:36:19 <Shinsaber> sa me fais pensé au jeux de south park
+2014-06-15T20:36:28 <Letarumavza> ?
+2014-06-15T20:37:08 <wildfier> bon du coup on parle de la v3 ou pas ?
+2014-06-15T20:37:10 <Shinsaber> en mode un oveni tombe et tous le monde devien des zombie nazi ...
+2014-06-15T20:37:31 <Shinsaber> français in your face
+2014-06-15T20:38:08 <BronyCUB-MC> Letarumavza has joined the server!
+2014-06-15T20:38:10 <BronyCUB-MC> Letarumavza has quit the server!
+2014-06-15T20:38:18 <BronyCUB-MC> Letarumavza has joined the server!
+2014-06-15T20:39:06 <BronyCUB-MC> Letarumavza: La V3 de quoi ?
+2014-06-15T20:39:12 <wildfier> du site
+2014-06-15T20:39:15 <Shinsaber> heuz sais fais la mal .... mais je pence à la régueur on mais les idée sur un framapad
+2014-06-15T20:39:46 <BronyCUB-MC> Letarumavza: 0o
+2014-06-15T20:39:55 <BronyCUB-MC> Letarumavza: Shin step, c'est pas lisible là
+2014-06-15T20:40:01 <wildfier> faut qu'on pose ce qu'on veut
+2014-06-15T20:40:29 <Shinsaber> XD, je le fais pour te faire crisé XD
+2014-06-15T20:40:51 <Berry-Punch> Traduction: Heuzef s'est *hic* fait la malle… Mais je pense, à la rigueur qu'on pourrait mettre les idées sur un framapad ?
+2014-06-15T20:40:57 <BronyCUB-MC> Letarumavza: Y'en a un qui va passer dans sud-ouest
+2014-06-15T20:41:14 <BronyCUB-MC> Letarumavza: rubrique nécro
+2014-06-15T20:41:58 <wildfier> bon bas si on en parle pas ce soir
+2014-06-15T20:42:06 <Shinsaber> comment dire que le correcteur d'orthographe pète un plon XD
+2014-06-15T20:42:09 <wildfier> je vais pas rester longtemps
+2014-06-15T20:42:21 <BronyCUB-MC> Letarumavza: Tu fais quoi ?
+2014-06-15T20:42:23 <Berry-Punch> *plomb *hic* *plomb
+2014-06-15T20:46:37 *** adriens33 est parti
+2014-06-15T20:48:40 <Shinsaber> je pence pour la V3 le mieux serais de demandé ce que les membre attende et voir ce qui ressors le plus !!
+2014-06-15T20:49:20 *** adriens33 s'est connecté
+2014-06-15T20:49:37 <Berry-Punch> Voilà ce qu'il s'est *hic* passé ces 10 dernières lignes, adriens33
+2014-06-15T20:50:17 <Shinsaber> je pence pour la V3 le mieux serais de demandé ce que les membre attende et voir ce qui ressors le plus !! (votre avis ??)
+2014-06-15T20:51:14 <wildfier> pourquoi pas
+2014-06-15T20:57:29 <BronyCUB-MC> Letarumavza: Je fais un nouvel essai de route dans la forêt dense
+2014-06-15T20:57:39 <Shinsaber> ^
+2014-06-15T20:57:39 <BronyCUB-MC> Letarumavza: Sable + sandstone
+2014-06-15T21:00:11 <BronyCUB-MC> Letarumavza: Je voulais trancher avec le coté sombre de la forêt
+2014-06-15T21:01:03 <BronyCUB-MC> Letarumavza: Au fait, on donne un nom au village du serveur ?
+2014-06-15T21:01:17 <Shinsaber> je sais
+2014-06-15T21:01:20 <Shinsaber> pas *
+2014-06-15T21:02:48 <adriens33> http://i.imgur.com/8zXyj9q.png
+2014-06-15T21:03:02 <adriens33> une ia qui plante :p
+2014-06-15T21:03:13 <Shinsaber> XD
+2014-06-15T21:03:19 <wildfier> wtf
+2014-06-15T21:03:35 <BronyCUB-MC> Letarumavza: Omg, je suis découvert
+2014-06-15T21:05:51 <BronyCUB-MC> Letarumavza: Je go miam, je reste co sur le serveur MC, histoire de voir si on a un plantage ^
+2014-06-15T21:05:51 <Berry-Punch> Bon appétit, *hic* BronyCUB-MC :D
+2014-06-15T21:06:19 <adriens33> @letarumavza: pourquoi il planterait ? t'essaie de le casser
+2014-06-15T21:06:24 <adriens33> ?
+2014-06-15T21:06:27 <adriens33> :ê
+2014-06-15T21:06:28 <adriens33> *:þ
+2014-06-15T21:12:04 <adriens33> bon je vous laisse
+2014-06-15T21:12:06 <adriens33> ++ all
+2014-06-15T21:12:11 <Shinsaber> ++
+2014-06-15T21:12:14 <adriens33> peut-être à tout à l'heure
+2014-06-15T21:12:27 *** adriens33 est parti
+2014-06-15T21:18:58 *** Gordfang s'est connecté
+2014-06-15T21:20:21 <Gordfang> re
+2014-06-15T21:20:29 *** ludvann s'est connecté
+2014-06-15T21:20:37 <Shinsaber> re
+2014-06-15T21:20:43 <Gordfang> https://i.imgur.com/wB9VbkE.gif
+2014-06-15T21:20:44 <ludvann> re !
+2014-06-15T21:20:53 <Gordfang> cadeaux ^^
+2014-06-15T21:21:15 <ludvann> c'est quoi ce gif ? xD
+2014-06-15T21:21:32 <ludvann> je re
+2014-06-15T21:21:36 * ludvann is afk
+2014-06-15T21:22:08 <Gordfang> de imgur un mélange avatar/mlp ^^
+2014-06-15T21:23:15 * ludvann is no longer afk
+2014-06-15T21:23:18 <ludvann> ah ^^
+2014-06-15T21:23:34 <ludvann> un  peu space ^^
+2014-06-15T21:24:22 <ludvann> si non pas trop crevé ?
+2014-06-15T21:24:29 <ludvann> sinon*
+2014-06-15T21:25:39 <Gordfang> pas trop non sa va :p
+2014-06-15T21:26:09 *** adriens33 s'est connecté
+2014-06-15T21:26:11 <adriens33> bon ben re
+2014-06-15T21:26:15 <ludvann> re !
+2014-06-15T21:26:23 <adriens33> j'allais acheter une pizza
+2014-06-15T21:26:27 <adriens33> mais il me reste plein de frites
+2014-06-15T21:26:36 <ludvann> z'avaiez trouvé une soluce alors ?
+2014-06-15T21:26:38 <Gordfang> ouai les mienne ^^
+2014-06-15T21:26:43 <adriens33> et ma cheville gauche voudra sans doute pas faire de vélo :/
+2014-06-15T21:26:45 <Gordfang> je sait pas je vient d'arriver perso
+2014-06-15T21:26:53 <adriens33> re Gordfang
+2014-06-15T21:27:01 <ludvann> ^^
+2014-06-15T21:27:25 <ludvann> FTP3 est ouvert \ö/
+2014-06-15T21:28:27 <Gordfang> ftp? les truc de co?
+2014-06-15T21:28:42 <ludvann> nan
+2014-06-15T21:28:49 <ludvann> Feed The Patrick ^^
+2014-06-15T21:28:55 <Gordfang> k
+2014-06-15T21:30:39 <ludvann> et #FeedThePatrick a était un buzz durant une nuit :)
+2014-06-15T21:30:40 <ludvann> http://minecraft.fr/feedthepatrick/
+2014-06-15T21:31:46 <Letarumavza> Au fait si vous voulez je peux coller mon PC comme serveur pour une petite LAN FTB tech world ^^
+2014-06-15T21:32:11 <ludvann> je tourne pas FTB :/
+2014-06-15T21:32:11 <adriens33> et ta co ^^
+2014-06-15T21:32:29 <Letarumavza> ça bouffe masse CPU, pas trop de co
+2014-06-15T21:32:49 <Letarumavza> Et j'ai un I7 4960x @ 4.5GHz pour tenir la charge
+2014-06-15T21:37:00 <ludvann> quelqu'un à tf2 histoire de s'amuser un peu ?
+2014-06-15T21:38:02 <Shinsaber> je suis pas fan (je l'ai eu avec l'orange box ^^ )
+2014-06-15T21:38:18 <ludvann> ah ^^
+2014-06-15T22:11:34 <ludvann> -18 1i 18 1i 1s 1i 1s 1s 2g 1s 2g 26 2g 2g 2g 2q 26 2q 26 34 2q 34 2q 3o 3o 3o 3o 34 50 34 68 34 68 68 92 68 a0 68 a0 76 b8 76 d4 76 d4 7g cq 7g cq 84 do 84 do 7q do 7g fk 7g fk 76 gs 76 gs 6s j2 6s jc 6s jc 7g jm 7g jm 6s ka 6s ka 7g ku 7g ku 6s ls 6s ls 7g mq 7g mq 6s n4 6s ne 6s no 6s o2 6s o2 7g o2 92,-18 1i -1i 1i -1i k -26 k -26 a -1s a -1s -
+2014-06-15T22:11:35 <ludvann> u -1i -u -1i -18 a -18 a -u 18 -u 1i -u 1i -k 42 -k 42 -18 4m -18 4m -k 68 -k 68 k 7g k 7g 0 8e 0 8e u au u au 18 aa 18 aa 26 aa 2q bi 2q bi 26 bs 26 bs 3e f0 3e f0 34 g8 34 g8 3o j2 3o j2 5u jc 5u jc 5a jm 5a jm 5u ka 5u ka 5a ku 5a ku 5u ls 5u ls 5a mq 5a mq 5u,mq 5u o2 5u o2 3o t2 3o t2 4c uk 4c uk 50 vi 50 vi 3e 12m 3e 16e 3e,o2 92 om 92 om 9m
+2014-06-15T22:11:35 <ludvann> pk 9m pk 8o pa 8o pa 84 t2 84 ua 84 ua 8e tm 8e tm 8o u0 8o u0 92 uu 92 uu 8e vs 8e vs 84 106 84 106 7q 10g 7q 10g 84 10q 84 114 84 114 7q 10q 7q 10q 7g 114 7g 11e 7g 11e 76 122 76 122 6s 12m 6s 16e 6s 16e 7g 15q 7g 15q 8e 16e 8e 16e cg 15q cg 15q de 16e de 16e f0 172 f0 172 fk 15g fk 15g gi 18u gi,o2 42 o2 3o,164 3e 198 3e 198 7q 19s 7q 19s 8o 198
+2014-06-15T22:11:36 <ludvann>  8o 198 cg 1bo cg 1bo gi 18k gi,-26 0 -34 0,-2g 0 -2g k -2g u -1s u,-26 -k -26 -18 -1s -18 -1s -1s -18 -1s,-1s -1i -26 -1i,-a -1i u -1i,k -1i k -18,18 -18 1s -18 1s -u,18 -18 18 -1s,-1i 1s 0 1s,-k 1s -k 2g,-k 26 k 26,k 1s 1i 1s 1i 2g,1i 26 26 26,1s 34 1s 3e 2g 3e,26 3e 26 4c,26 42 34 42,42 3e 50 3e,4c 3e 4c 42 3o 42,4m 3e 4m 3o 5k 3o,2q -u 3o -u 3o
+2014-06-15T22:11:36 <ludvann>  -1i 4c -1i,3e -u 3e -18,42 -1i 42 -1s,5a 3e 5u 3e 5u 50,5u 4m 5k 4m,5a -u 6s -u,6i -u 6i a,6i 0 76 0,6s 0 6s a,7q -a 92 -a,8o -a 8o a,8o k ak k,a0 k a0 0,a0 a b8 a b8 18,5k 5a 5k 6s,5k 6i 6s 6i,5u 6i 5u 5k,7q 6i 92 6i,8o 6i 8o 76,8o 6s 9m 6s 9m 6i,76 6i 76 6s 7q 6s,a0 7g c6 7g,b8 7g b8 7q c6 7q,bs 7q bs 84,cg 7g cg 8o,cg 8e bs 8e,cg 8e do 8e,de 8e
+2014-06-15T22:11:37 <ludvann>  de 8o,e2 84 e2 7q f0 7q,em 7q em 8e,em 84 ec 84,fk 7q fu 7q fu 7g h6 7g h6 76,gi 7g gi 7q,hq 76 j2 76,io 76 io 7q k0 7q k0 7g,io 7g ie 7g,k0 76 k0 7g,l8 76 li 76 li 7q n4 7q n4 76,li 7g l8 7g,n4 7g no 7g,ne 7g ne 76,no 84 no 9m,no 9c oc 9c oc 9m,o2 9c o2 a0 pk a0,pk 8e pu 8e pu 9c,pu 8o se 8o,rg 8o rg 8e so 8e so 8o,rg 8e qs 8e,tc 8e tc 9m,tc 92 t
+2014-06-15T22:11:37 <ludvann> m 92,tc 9c v8 9c,vi 92 v8 92 v8 8o 114 8o,106 8o 106 8e 10q 8e,11e 7q 11o 7q 122 7q 122 7g 11o 7g,11o 7q 11o 8o,12c 76 14s 76,13u 76 13u 7g 156 7g 156 76,13u 7g 12m 7g,13u 7g 13u 7q,15q 76 164 76,15q 76 15g 76 15g 8o 164 8o,15g 8e 156 8e 156 9c,15q 8o 15q 9c,15q a0 15q b8,15q au 164 au 164 c6 15g c6 15g cq,15g c6 156 c6,15g d4 15g do 164 do,15q do
+2014-06-15T22:11:38 <ludvann> 15q em,164 e2 164 fa 14s fa 14s f0 15g f0,164 fa 16e fa,156 fa 156 g8,156 gs 1a6 gs,18k gs 18k h6 15q h6,172 h6 172 hq 19s hq 19s h6,19s hg 17m hg,1b4 gs 1cm gs,1c2 gs 1c2 ec,1cc fa 1cc de,1be gs 1be h6 1aq h6 1aq gs,1cc do 1c2 do 1c2 bs,1c2 c6 1b4 c6,1a6 c6 198 c6,19i c6 19i au,19i b8 19s b8,19i 92 19i 9m,19i 9c 1a6 9c 1a6 8e,1a6 92 19s 92,19i 6s
+2014-06-15T22:11:38 <ludvann> 19i 5a,19i 68 19s 68 19s 76 19i 76 19i 7g,19i 4c 19i 2q,19i 34 18a 34,19i 42 19s 42 19s 4m 19i 4m,ak 2g bi 2g,ak 2g ak 1i,ak 26 au 26 au 1s,bi 1s cg 1s,c6 1s c6 2q,c6 2g cg 2g d4 2g,cg 2g cg 34 c6 34,cq 34 ec 34,de 34 de 2q f0 2q,em 2q em 34,em 2q em 2g fa 2g fa 2q,g8 2q gs 2q gs 34,gi 2q gi 3e gs 3e j2 3e,io 3e io 34 jm 34,jc 3e jc 4c,jc 42 jm 42,
+2014-06-15T22:11:39 <ludvann> jc 4m k0 4m k0 5k,jm 4m jm 50 jc 50,ka 50 l8 50 mq 50 n4 50,l8 50 l8 5k,li 50 li 4m,n4 4m n4 5a,ls 50 ls 4c,no 5k no 34,no 3e q8 3e,om 34 pu 34,pk 34 pk 3e,qs 3e tc 3e tc 42,tc 3o uk 3o uk 42 u0 42,u0 3o u0 3e uu 3e uu 4c,uu 4m v8 4m v8 34 vi 34 vs 34,se 3e se 34 rg 34,vi 34 vi 2q 10q 2q,10g 34 12m 34,122 34 122 2q 14i 2q,13k 2q 13k 34,148 2q 148 2
+2014-06-15T22:11:39 <ludvann> g,148 34 15q 34,15g 34 15g 2q 16o 2q,164 34 17c 34 17c 2q 17m 2q 180 2q,17m 2q 17m 34,vi bs vi b8 10g b8 10g bi 11o bi 11o b8 12m b8 12m cg 122 cg 122 d4 12c d4 12c e2 11e e2 11e de 114 de 114 em 10g em 10g d4 uu d4 uu cg vi cg vi bs,vs au 114 au,10q au 10q b8 11e b8 11e au,122 au 130 au 130 c6,130 au 13a au,13a bi 13a cq 12c cq,12m cq 12m de,12m d
+2014-06-15T22:11:39 <ludvann> o 12m ec 122 ec 11e ec,122 ec 122 em,11e f0 106 f0 106 do,11e f0 11e em,106 f0 vs f0,10q f0 10q fa vs fa,106 de uk de,v8 de v8 do uu do,v8 do vi do vs do,v8 au v8 c6,v8 bs uk bs uk cq,uu bs uu c6,-k 42 k 42 k 4c a 4c a 5a 26 5a 26 5u 2q 5u 2q 5k 3o 5k 3o 6i 3e 6i,26 6s 26 6i a 6i a 68 -k 68 -k 6i -18 6i -18 5a -k 5a,26 6s 3e 6s 3e 6i,-k 42 -k 5a,u
+2014-06-15T22:11:40 <ludvann> 42 u 50,u 4m k 4m k 50,1i 50 2g 50 2g 5k,2g 5a 3o 5a,42 5a 42 6s 3o 6s,a 3o -18 3o,-u 3o -u 50,-18 50 -1s 50,-1i 50 -1i 5u,-1s 5u -1s 6i -1i 6i,-1s 68 -1i 68 -1i 6s -k 6s,0 6i 0 6s 1i 6s,18 6s 18 76 2q 76,jm 1i kk 1i kk 2g ka 2g ka 34 m6 34 m6 1s mq 1s mq k kk k kk u ka u ka k jc k jc 1i jm 1i,k0 a ls a,li a li 0 mg 0 mg a,mq a n4 a n4 2g,n4 26 mg
+2014-06-15T22:11:40 <ludvann> 26,mg 2g mg 3e ls 3e l8 3e,ls 3e ls 3o,kk 3e ka 3e k0 3e k0 2g,k0 26 ka 26 ka 1s jm 1s jm 26,jm 1s jc 1s,k0 2q jm 2q,jc a j2 a j2 18#26 u 2q a,-u 0 -a -k,-a 18 a k,4m k 5a 0,34 2q 3o 26,50 26 5k 1i,76 1i 7g 18,2q 1i 34 18,76 42 7q 3e,a0 4m ak 42,au 6i bi 5u,e2 4m em 42,do 6s ec 68,h6 5a hq 4m,fu 5u g8 5k,bs 50 c6 4m,84 5a 8e 50,8e 2q 8o 2g,d4 5u de
+2014-06-15T22:11:41 <ludvann>  5k,-k u -a k,io 6i j2 68,li 6i m6 5u,kk 6i ku 68,kk 5u ku 5k,kk 5u ka 68,om 50 p0 4m,oc 6i p0 5u,om 7q p0 7g,q8 5k qs 50,pu 6s q8 6i,s4 7g so 6s,rq 68 s4 5u,rq 4m se 42,qi 7g qs 76,tm 68 ua 5k,u0 7g ua 76,vs 5a 10g 4m,vi 6s vs 6i,vs 42 10g 3e,11e 68 11o 5u,114 5u 11o 5a,11e 4c 11o 42,13k 68 148 5k,130 5a 13a 50,164 4c 16o 3o,130 4c 13a 42,164 5u 1
+2014-06-15T22:11:42 <ludvann> 6o 5a,14s 50 156 4m,172 6s 17m 68,17m 4m 180 4c,14i 6i 156 5u,172 a0 17m 9c,17m 8e 180 84,18a au 18k ak,17c e2 180 de,18k fa 18u f0,198 do 19s d4,172 g8 17m fk,172 c6 17m bi,vs cg 10g bs,114 cq 11e cg,uu d4 v8 cq,vs bi 106 b8,11o c6 122 bs,10g ec 114 do,-a 50 a 4c,-u 5u -k 5k,a 5u u 5a,1s 68 26 5u,2g 6s 34 68,u 68 18 5u,1s 5k 26 5a,-a 5k 0 5a,-a 4c
+2014-06-15T22:11:42 <ludvann>  0 42,ku 1i l8 18,ls 1i mg u,ku 2q li 26,li 2q ls 2g#O k0 18,O 3e 68,O 122 do,O 3e 3e,O de 7q,O uk 8o,O pa 9c,O 19i 8e,O 16e 84,O 16e d4,O 164 g8,T 1ag ec,B 1ag g8 mg
+2014-06-15T22:11:43 <Gordfang> WHAT THE FUCK
+2014-06-15T22:11:45 <adriens33> attenti
+2014-06-15T22:11:55 <adriens33> tu vas te faire kick par le chanserv pour flood
+2014-06-15T22:12:09 <Shinsaber> XD
+2014-06-15T22:12:12 <ludvann> xD
+2014-06-15T22:12:24 <Letarumavza> what the ?
+2014-06-15T22:12:35 <adriens33> c'était quoi ?
+2014-06-15T22:12:47 <ludvann> une map ^^
+2014-06-15T22:12:56 <ludvann> ...
+2014-06-15T22:13:31 <ludvann> j'ai fait une pitite erreur... paste pas fait exprès ....
+2014-06-15T22:13:42 <BronyCUB-MC> Letarumavza: T'as paste fait expres ?
+2014-06-15T22:13:49 <BronyCUB-MC> Letarumavza: *badum Tss*
+2014-06-15T22:13:54 <Shinsaber> XD
+2014-06-15T22:14:04 <ludvann> ...
+2014-06-15T22:14:22 *** lezarius s'est connecté
+2014-06-15T22:14:41 <ludvann> ne fait pas !history !
+2014-06-15T22:14:50 <adriens33> non
+2014-06-15T22:14:52 <ludvann> au pire OSEF ^^
+2014-06-15T22:14:59 <adriens33> tu fais faire kick le bot
+2014-06-15T22:15:06 <Shinsaber> XD
+2014-06-15T22:15:10 <ludvann> xD
+2014-06-15T22:15:11 <adriens33> ludvann a collé un super gros truc sur le chant
+2014-06-15T22:15:12 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 *hic* dernières lignes, Letarumavza
+2014-06-15T22:15:13 <Letarumavza> !history
+2014-06-15T22:15:15 <adriens33> *chat
+2014-06-15T22:15:17 <adriens33> ah ouf
+2014-06-15T22:15:22 <Letarumavza> Voila
+2014-06-15T22:15:23 <adriens33> juste à temps XD
+2014-06-15T22:15:25 <Letarumavza> aucun risque
+2014-06-15T22:15:26 <ludvann> :/
+2014-06-15T22:15:47 *** niorph s'est connecté
+2014-06-15T22:16:38 *** niorph est parti
+2014-06-15T22:18:34 <ludvann> au fait le jeu était free rider 2 ^^
+2014-06-15T22:19:04 <BronyCUB-MC> Letarumavza: Au fait, si tu !history c'est berry qui se fait ban non ?
+2014-06-15T22:19:11 <adriens33> oui justement…
+2014-06-15T22:19:15 <ludvann> xD
+2014-06-15T22:19:17 <wildfier> XD
+2014-06-15T22:19:17 <BronyCUB-MC> Letarumavza: héhé
+2014-06-15T22:19:21 <adriens33> (et c'est juste kick, pas ban)
+2014-06-15T22:19:23 <BronyCUB-MC> Letarumavza: Lud, paste !
+2014-06-15T22:19:26 <adriens33> mais faites pas les cons svp
+2014-06-15T22:19:27 <ludvann> niark niark niark ^^
+2014-06-15T22:19:31 <adriens33> sinon je dévoice à tour de bras.
+2014-06-15T22:19:37 <ludvann> :/
+2014-06-15T22:19:44 <ludvann> ./ban Berry-Punch
+2014-06-15T22:19:47 <BronyCUB-MC> Letarumavza: Agrou agrou adri ^
+2014-06-15T22:20:41 <adriens33> :(
+2014-06-15T22:20:50 <ludvann> ^^
+2014-06-15T22:20:53 <BronyCUB-MC> Letarumavza: Filez lui un cookie
+2014-06-15T22:21:14 <ludvann> qui veux toast ma map de free rider ? (je sens le bide...)
+2014-06-15T22:21:27 <BronyCUB-MC> Letarumavza: Toast ?
+2014-06-15T22:21:36 <BronyCUB-MC> Letarumavza: Avec du beurre ste plait
+2014-06-15T22:21:40 <ludvann> test
+2014-06-15T22:21:54 <ludvann> ...
+2014-06-15T22:22:00 <BronyCUB-MC> Letarumavza: Nouvelle injure
+2014-06-15T22:22:09 <ludvann> :)
+2014-06-15T22:22:14 <BronyCUB-MC> Letarumavza: "espèce de betatesteur d'EA games"
+2014-06-15T22:22:21 <ludvann> xD
+2014-06-15T22:22:56 <BronyCUB-MC> Letarumavza: Avec +70% de mecs finis à la pisse de rat
+2014-06-15T22:23:20 <BronyCUB-MC> Letarumavza: MEs hommages aux devs de sim city
+2014-06-15T22:23:42 <ludvann> personne veut test ? :(
+2014-06-15T22:23:56 <Shinsaber> envoi ^^
+2014-06-15T22:24:59 <ludvann> -1c 1m -6 2h,21 91 1t 9b,1r 99 1m 9e 1f 9d,-5m cd -5e cn,-5v k9 -5i kj,-5i kh -53 kc,-2b so n uu,n ut 2q vh,2r vh 5f vk 7o vf,fl 177 f9 17s,ap 1h8 c3 1l1 de 1oh f2 1s7 gp 1uu ld 245 r7 27t 101 29n 14g 2ae,14h 2aa 15e 2a3,1f0 2bl 1fe 2bn 1fo 2bf,1bk 2gr 1be 2h2,1be 2h1 1bb 2gv,13t 36p 13e 37f 139 37b,10i 3dh 12u 3f9,187 3iv 19f 3jh,1a6 3kh 1bb 3ki,1
+2014-06-15T22:25:00 <ludvann> hq 3r4 1jq 3o7,1fc 41t 1d2 428,18i 462 18m 46a,18k 469 18r 468,1d7 4g4 1dg 4g3 1dl 4g0 1do 4fr 1ds 4fi,189 4se 1bo 4ue,1fu 51t 1kg 52k,1mq 54t 290 5p4,31g 903 37j afh,37v anb 3bh b48,3ec bdm 3na bsq,3rj c4i 44s cf4,42a cc2 4fo ch3,4hq cj2 4ru chl 4tu cg7 503 cdl 51a ca4 51i c62,4c8 cr2 4ck cr3,426 d7f 4cs d8f,4cs d8e 4d0 d8a,4bf f3j 4fb fas,4jo fjn
+2014-06-15T22:25:00 <ludvann>  4l2 flp 4ml foj 4om fs5 4rp fvl 4uo g1t 54u g3o 5cu g5d,5cv g5b 5sr g5c,5sp g5d 6c6 g4r,6c5 g4q 6df g57 6eg g5o 6fq g5v 6he g62,6hd g61 6j4 g61 6kq g60 6mv g5u,6mu g5u 6p0 g5t 6qf g5r 6sg g5t,6sg g5s 6tb g64,6tb g63 6ug g6q,6uh g6q 6vj g7u,6vn g83 70f g9l 713 gbg 71t gfc 728 gjc,728 gjb 72g gs1 72j hnc,79i lbm 79o lbq,7bq mo1 7c0 mnu,79s mne 7a2 m
+2014-06-15T22:25:01 <ludvann> nn,7bo o0n 7di nvu,72q r12 6t1 r80,6ql rba 6g9 rid,68r rp7 5qp rt6,5na ru1 58t rpq,5eh rrf 5dc rme,70g oq0 71g opu,738 otp 6ur p60,6qs p59 70d pg5,71q prb 7a7 psf,7bk ptn 7hs q3s,7i6 q5t 7vn q8e,8fm sjb 8j6 sqe,8j4 sqb 8oi sv3 8vi t0p 94k t16##O 496 d26,O aio tdf,O ai3 tn6,O a5v trl,O ag7 tq8,O aj8 u3d,O a4f u8s,O ac6 ua3,O a4t ugr,O a7d upf,O ah0
+2014-06-15T22:25:01 <ludvann> ur7,O acg v3r,O a2f v3c,O a9g v7v,O ah0 vd9,O aai vhp,O a3d vkg,O a7k vo5,O aie 107s,O a7m 1026,O a57 105o,O aei 10dd,O a6i 10he,O a6n 10n9,O aj4 10q4,O a7l 10sj,O ab8 110p,O abs 113e,O aca 119n,O a6c 116h,O ad9 11c2,O ali 11ob,O a4f 11ls,O a77 120r,O ag8 11vv,O ajb 1249,O a5i 124q,O aba 12ju,O aks 12ho,O alc 130g,O a87 12re,O 9uq 130e,O a6b 13jt,O
+2014-06-15T22:25:02 <ludvann>  a3h 13fr,O a2l 13gp,O a7t 13mq,O al6 143l,O anl 14iq,O a53 1464,O a09 14gu,O af8 14ho,O a90 14sl,O ahe 150i,O aok 1599,O a6l 1595,O acb 15k1,O acq 15bk,O a96 15gt,O aev 1616,O acq 15or,O a9a 15vl,O ae0 162q,O ajc 16bn,O a9e 16d4,O a85 16mt,O afb 16q2,O agv 1724,O a9u 1748,O a8t 17d9,O abi 17f3,O agu 17i7,O ajm 17pg,O aa5 17tk,O adm 185l,O amh 18ar
+2014-06-15T22:25:02 <ludvann> ,O ad9 18dg,O a9a 18mj,O acl 18lb,O akn 18uh,O a7h 195d,O aak 19h0,O ahi 19gr,O ajj 19t5,O a7q 19ra,O ab1 1a0r,O aff 1a8t,O a6v 1abm,O ab2 1ai5,O ajt 1asi,O adg 1avi,O a7u 1avm,O abp 1bbq,O ae6 1b9i,O afq 1bj8,O a8k 1bje,O aal 1bt3,O agk 1c1o,O abd 1c72,O a9h 1chf,O a9o 1cck,O abk 1cn1,O ad8 1cs4,O aec 1cq6,O agp 1d3g,O a8e 1d61,O aa3 1df1,O ag0 1d
+2014-06-15T22:25:03 <ludvann> fj,O adr 1dmq,O a8b 1dpt,O abn 1e59,O akl 1edr,O adm 1e7l,O adq 1ejn,O a95 1eh6,O a93 1ejb,O ajj 1et6,O a9n 1f1n,O aig 1f93,O a67 1fb0,O adc 1fih,O aa8 1fl3,O a7j 1fnm,O agt 1fva,O aaa 1g23,O a95 1g5i,O abq 1g9v,O ak3 1gf3,O aib 1gkk,O a7k 1gmm,O agp 1gud,O a9h 1h04,O acb 1h53,O agk 1hal,O a8a 1hdh,O ado 1hjq,O agh 1hov,O acl 1hsc,O a9m 1i0g,O ad0
+2014-06-15T22:25:03 <ludvann> 1i6f,O agi 1ibj,O afj 1ih7,O aa8 1ikl,O a95 1ipk,O ade 1j06,O ah7 1j52,O ahm 1jac,O aek 1jev,O a9s 1jgq,O a90 1jls,O adm 1jrf,O agp 1jvp,O ahf 1k6g,O afv 1kb8,O ad1 1kfj,O a93 1kis,O a8f 1knl,O adi 1kul,O ag9 1l2j,O aho 1l7c,O agp 1lck,O aci 1lhk,O a9a 1lkd,O a8o 1lq2,O abe 1m0j,O ae2 1m4o,O ah1 1mag,O ahe 1mf2,O ag1 1mkk,O ad5 1mod,O aau 1ms0,O a8
+2014-06-15T22:25:04 <ludvann> j 1mvm,O a8c 1n4p,O aab 1na4,O abe 1ne6,O adc 1nj8,O aet 1nnd,O afg 1ntn,O ae7 1o26,O acj 1o6b,O aat 1o8s,O a9n 1ock,O a8j 1ogl,O a9c 1ol5,O aad 1oq1,O aba 1ou2,O ad7 1p2n,O afe 1p8h,O aec 1pd3,O ae0 1ph2,O ad1 1pla,O acj 1pq9,O acp 1q0t,O ad4 1q7l,O ad4 1qcb,O ad4 1qh1,O ad4 1qk5,O ad4 1qo2,O ad4 1qrv,O ad4 1qvs,O ad4 1r3p,O ad4 1r7m,O ad4 1rbj,O
+2014-06-15T22:25:04 <ludvann> ad4 1ren,O ad4 1rjd,O ad4 1rr7,O ad4 1rvt,O ad4 1s5c,O ad4 1sar,O adk 1t5u,B afm tb4 as,B abg t4b an,B a2d t91 an,B a15 tbh b3,B 9vf tc1 b6,B 9tj tce b5,B 9rs tb6 7,B 9ha t63 u,B 9f2 t55 1b,B 9co t4b 1h,B 9aq t3j 1p,B 12m 36q 53
+2014-06-15T22:25:11 <adriens33> ludvann, dernier avertissement
+2014-06-15T22:25:13 <adriens33> 1
+2014-06-15T22:25:15 <adriens33> 2
+2014-06-15T22:25:17 <adriens33> 3
+2014-06-15T22:25:19 <adriens33> 4
+2014-06-15T22:25:21 <adriens33> 5
+2014-06-15T22:25:22 <ludvann> naon...
+2014-06-15T22:25:23 <adriens33> 6
+2014-06-15T22:25:25 <adriens33> 7
+2014-06-15T22:25:26 <BronyCUB-MC> Letarumavza: !history
+2014-06-15T22:25:27 <adriens33> 8
+2014-06-15T22:25:29 <adriens33> 9
+2014-06-15T22:25:31 <adriens33> 10
+2014-06-15T22:25:33 <adriens33> 11
+2014-06-15T22:25:33 <BronyCUB-MC> Letarumavza: fuck it !
+2014-06-15T22:25:35 <adriens33> (ouf)
+2014-06-15T22:25:37 <adriens33> ça marche pas depuis mc :p
+2014-06-15T22:25:42 <ludvann> xD
+2014-06-15T22:25:53 <wildfier> 12 !
+2014-06-15T22:26:02 <adriens33> (c'était pour wipe l'historique)
+2014-06-15T22:26:09 <ludvann> o/
+2014-06-15T22:26:28 <ludvann> bon je passerai uniquement /msg :/
+2014-06-15T22:26:39 <adriens33> tu cherches quoi en fait ?
+2014-06-15T22:26:50 <BronyCUB-MC> Letarumavza: à envoyer sa map ?
+2014-06-15T22:26:57 <ludvann> oui ^^
+2014-06-15T22:26:57 <adriens33> en faisant kicker le bot ?
+2014-06-15T22:26:59 <adriens33> riche idée.
+2014-06-15T22:27:06 <ludvann> xD
+2014-06-15T22:27:07 <adriens33> y'a des pastebin si tu veux jouer à copier coller.
+2014-06-15T22:27:09 <adriens33> tiens
+2014-06-15T22:27:21 <adriens33> https://pastebin.com/
+2014-06-15T22:27:37 <adriens33> * http://pastebin.com/
+2014-06-15T22:27:42 <BronyCUB-MC> Letarumavza: PRends un truc à manger adri
+2014-06-15T22:27:51 <BronyCUB-MC> Letarumavza: t'es tendu quand t'as la dalle
+2014-06-15T22:28:00 <adriens33> …
+2014-06-15T22:28:03 <adriens33> non
+2014-06-15T22:28:05 <ludvann> ^^
+2014-06-15T22:28:11 <adriens33> je suis tendu quand on se paie ma tête.
+2014-06-15T22:28:57 <ludvann> dsl c'était pas mon but ^^
+2014-06-15T22:30:12 <ludvann> http://pastebin.com/EPFZwArM
+2014-06-15T22:30:20 <ludvann> tien Shinsaber ^^
+2014-06-15T22:30:40 <Shinsaber> plus simple ^^
+2014-06-15T22:30:49 <ludvann> il a 10 minutes de vie le lien ^^
+2014-06-15T22:31:09 <ludvann> la seule chose que tu as à faire est de regarder l'écran ^^
+2014-06-15T22:31:55 <ludvann> je fais ça depuis 1h ^^
+2014-06-15T22:33:52 <ludvann> z'aimez les photobombs ?
+2014-06-15T22:35:16 <ludvann> http://www.smosh.com/smosh-pit/articles/epic-cosplay-photobombs
+2014-06-15T22:37:06 <adriens33> http://epicleveltv.com/wp-content/uploads/ECCC-2013-PhotoBomb.jpg
+2014-06-15T22:37:10 <adriens33> baptiste ???
+2014-06-15T22:37:26 <adriens33> XD
+2014-06-15T22:37:28 <wildfier> oh le 5ème élément XD
+2014-06-15T22:38:27 <Shinsaber> XD
+2014-06-15T22:38:36 <adriens33> http://okellyjaneo.tumblr.com/image/33088076140
+2014-06-15T22:38:40 <adriens33> matt smith oO
+2014-06-15T22:38:44 <Letarumavza> http://cdn.smosh.com/sites/default/files/ftpuploads/bloguploads/0513/cosplay-photobomb-ariel.jpg "soon!"
+2014-06-15T22:38:48 <adriens33> comme ça, random
+2014-06-15T22:39:02 <wildfier> trop bon
+2014-06-15T22:39:15 <wildfier> je suis un cosplay vivant d'un personnage que j'ai incarné !
+2014-06-15T22:39:21 <adriens33> XD
+2014-06-15T22:39:31 <Letarumavza> J'aime bien le cosplay de powergirl...
+2014-06-15T22:39:40 <Letarumavza> surtout ses personalités.
+2014-06-15T22:40:22 <BronyCUB-MC> Letarumavza: Adrien, Tu as pensé à mettre la gamerule pour que les creeper ne cassent rien ?
+2014-06-15T22:40:31 <adriens33> nnnope
+2014-06-15T22:40:45 <ludvann> nan, sinon c'est pas marrant... :/
+2014-06-15T22:40:49 <BronyCUB-MC> Letarumavza: ça pourrait éviter des accidents ^
+2014-06-15T22:40:59 <adriens33> mais normalement les pixelarts sont placés de sorte de pas se faire péter par les creeps'
+2014-06-15T22:41:07 <adriens33> ouais, si tu joues avec la tnt…
+2014-06-15T22:41:11 <BronyCUB-MC> Letarumavza: les pixel arts, non.
+2014-06-15T22:41:22 <adriens33> …
+2014-06-15T22:41:24 <ludvann> les constructions ?
+2014-06-15T22:41:30 <BronyCUB-MC> Letarumavza: Mais ces saloperies menacent les ponts/rails
+2014-06-15T22:41:31 <adriens33> tu sais quoi ?
+2014-06-15T22:41:41 <adriens33> (pff mheu non)
+2014-06-15T22:41:46 <BronyCUB-MC> Letarumavza: Même en éclairant ils se pointent
+2014-06-15T22:41:47 <adriens33> (et sans ça c'est pas RP :þ)
+2014-06-15T22:42:03 <ludvann> ./gamerule doMabGriefing false
+2014-06-15T22:42:19 <adriens33>  /gamerule mobGriefing false
+2014-06-15T22:42:42 <ludvann> Mob* pardon...
+2014-06-15T22:43:03 <wildfier> Epique !
+2014-06-15T22:43:08 <ludvann> watt ?
+2014-06-15T22:43:10 <Letarumavza> ?
+2014-06-15T22:43:10 <wildfier> bob live
+2014-06-15T22:43:13 <wildfier> et fait
+2014-06-15T22:43:20 <wildfier> qui passe le bac demain ?
+2014-06-15T22:43:26 <BronyCUB-MC> Letarumavza: Ah oui j'ai entendu ^^
+2014-06-15T22:43:28 <ludvann> pas moi,
+2014-06-15T22:43:33 <wildfier> ok
+2014-06-15T22:43:36 <wildfier> les modos ?
+2014-06-15T22:43:44 <wildfier> bannissez ceux qui ont répondu moi
+2014-06-15T22:43:57 <wildfier> on les débannera plus tard XD
+2014-06-15T22:44:12 <adriens33> pas con
+2014-06-15T22:44:17 <adriens33> comme ça pas de distraction
+2014-06-15T22:44:19 <BronyCUB-MC> Letarumavza: Bob quoi
+2014-06-15T22:44:46 <BronyCUB-MC> Letarumavza: Quand on connait le zigoto c'est full normal venant de lui
+2014-06-15T22:45:18 <wildfier> cette hécatombe XD
+2014-06-15T22:45:21 <adriens33> non mais lol
+2014-06-15T22:45:22 <wildfier> 300 ban XD
+2014-06-15T22:45:29 <BronyCUB-MC> Letarumavza: ^^
+2014-06-15T22:45:30 <lezarius> Yo many people on BronyCUB-MC
+2014-06-15T22:45:37 <wildfier> 1000+ viewers -> 700 ...
+2014-06-15T22:45:43 <adriens33> bonchoire à toi lezarius
+2014-06-15T22:45:45 <wildfier> yop
+2014-06-15T22:46:25 <ludvann> je vous laisse
+2014-06-15T22:46:26 <ludvann> @+
+2014-06-15T22:46:30 *** ludvann est parti
+2014-06-15T22:46:31 <wildfier> salut
+2014-06-15T22:46:59 <lezarius> Je suis a moitier la les gens ~
+2014-06-15T22:47:05 <lezarius> Mais salut tout le monde
+2014-06-15T22:47:23 <adriens33> la moitié gauche ou droite ?
+2014-06-15T22:47:25 <wildfier> comment rendre le shifumi épique ...
+2014-06-15T22:47:29 <adriens33> :p
+2014-06-15T22:47:34 <ValCab33> ...
+2014-06-15T22:47:39 <wildfier> (tjrs le live de bob)
+2014-06-15T22:47:51 <adriens33> comment il pète un cable XD
+2014-06-15T22:47:56 <wildfier> mais trop
+2014-06-15T22:48:00 <wildfier> avec son
+2014-06-15T22:48:04 <BronyCUB-MC> Letarumavza: On est tous dessus en fait non ?
+2014-06-15T22:48:09 <adriens33> (au fait wildfier  comment tu fais pour savoir quand c'est qu'il live ?)
+2014-06-15T22:48:11 <wildfier> 95$ en plein écran
+2014-06-15T22:48:17 <adriens33> (je les rates tout le temps >_<)
+2014-06-15T22:48:22 <wildfier> tu le follow dans twitch
+2014-06-15T22:48:26 <BronyCUB-MC> Letarumavza: Idem
+2014-06-15T22:48:28 <wildfier> et tu reçois un mail
+2014-06-15T22:48:30 <wildfier> quand il live
+2014-06-15T22:48:32 <BronyCUB-MC> Letarumavza: follow twitch
+2014-06-15T22:48:47 <wildfier> y a usul aussi qui live là
+2014-06-15T22:48:59 <BronyCUB-MC> Letarumavza: Usul me gave ultra vite
+2014-06-15T22:49:09 * adriens33 se sent ultra con
+2014-06-15T22:49:14 <BronyCUB-MC> Letarumavza: Il vérifie pas ses source et énonce des théories comme des vérités...
+2014-06-15T22:49:21 <adriens33> bah c'est usul quoi
+2014-06-15T22:49:21 <BronyCUB-MC> Letarumavza: sources*
+2014-06-15T22:51:08 *** ValCab33 est parti
+2014-06-15T22:51:51 <BronyCUB-MC> Letarumavza: J'ai un cochon nomé flo attaché à un piquet pas loin de chez moi.
+2014-06-15T22:52:02 <adriens33> cool
+2014-06-15T22:52:07 <adriens33> sympa pour heuzef XD
+2014-06-15T22:52:07 <BronyCUB-MC> Letarumavza: Qui a fait ça ?
+2014-06-15T22:52:15 <adriens33> ah c'est pas toi ?
+2014-06-15T22:52:22 <BronyCUB-MC> Letarumavza: Bah non
+2014-06-15T22:52:31 <adriens33> att je regarde le log du serveur
+2014-06-15T22:52:49 <BronyCUB-MC> Letarumavza: J'aurai mis un creeper nomé adrien moi ^^
+2014-06-15T22:52:57 <Shinsaber> bon moi je vais me coucher bonne nuit /)
+2014-06-15T22:53:02 <BronyCUB-MC> Letarumavza: ++
+2014-06-15T22:53:17 <adriens33> ++
+2014-06-15T22:53:25 <wildfier> ++
+2014-06-15T22:53:34 *** Shinsaber est parti
+2014-06-15T22:54:36 <BronyCUB-MC> xxl33270 has joined the server!
+2014-06-15T22:54:49 <BronyCUB-MC> Letarumavza: w00t ?
+2014-06-15T22:54:52 <BronyCUB-MC> xxl33270: What about jCommand
+2014-06-15T22:55:09 <adriens33> t'occupe
+2014-06-15T22:55:28 <adriens33> par contre
+2014-06-15T22:55:43 <adriens33> tu peux faire /gm pour switcher entre créa/aventure/survival
+2014-06-15T22:55:48 <adriens33> pu besoi de moi
+2014-06-15T22:55:50 <adriens33> :)
+2014-06-15T22:56:10 <BronyCUB-MC> Letarumavza: ,ope
+2014-06-15T22:56:15 <adriens33> et /fly is your friend :D
+2014-06-15T22:56:18 <BronyCUB-MC> Letarumavza: faut ptet que je relog
+2014-06-15T22:56:23 <BronyCUB-MC> xxl33270: cool ça
+2014-06-15T22:57:25 <BronyCUB-MC> xxl33270: Letarumavza tu es ou toi
+2014-06-15T22:57:29 <BronyCUB-MC> xxl33270: Ah bien la
+2014-06-15T22:57:30 <adriens33> ah, letarumavza, gm  prend pas d'argument autre que le nom du player
+2014-06-15T22:57:38 <adriens33> (/help gm te l'aurait dit)
+2014-06-15T22:57:52 <BronyCUB-MC> xxl33270: fait visité chez toi
+2014-06-15T22:57:53 <BronyCUB-MC> Letarumavza: L'habitude du forgecore ^
+2014-06-15T22:57:54 <adriens33> donc c'est normal que ça marche pas avec /gm 1
+2014-06-15T22:57:56 <adriens33> :D
+2014-06-15T22:58:05 <adriens33> sinon y'a /gamemode (la commande normale quoi)
+2014-06-15T22:58:09 <BronyCUB-MC> Letarumavza: C'est spartiate ^
+2014-06-15T22:58:18 <BronyCUB-MC> xxl33270: Moi je fait un village xD
+2014-06-15T22:58:24 <BronyCUB-MC> Letarumavza: Mais j'ai construit des routes
+2014-06-15T22:58:44 <BronyCUB-MC> xxl33270: tu pourra faire la mienne
+2014-06-15T22:58:50 <BronyCUB-MC> Letarumavza: Et une cascade ici
+2014-06-15T22:59:03 <BronyCUB-MC> xxl33270: jlai vue
+2014-06-15T22:59:09 <BronyCUB-MC> Letarumavza: Pas de problème, prends juste soins de faire une porte soit en 2x2 soit 3x4
+2014-06-15T22:59:14 <BronyCUB-MC> xxl33270: moi j'habit dans le village cotier
+2014-06-15T22:59:21 <BronyCUB-MC> Letarumavza: Comme ça je pourrais faire un truc joli
+2014-06-15T22:59:33 <BronyCUB-MC> xxl33270: elle fait 3x4
+2014-06-15T22:59:54 <BronyCUB-MC> Letarumavza: ça te gène si je l'élargis à 4x4 ?
+2014-06-15T23:00:00 <BronyCUB-MC> xxl33270: faudrais vraiment mettre we
+2014-06-15T23:00:08 <BronyCUB-MC> xxl33270: Non fait toi plez
+2014-06-15T23:00:13 <wildfier> bon, j'y go aussi
+2014-06-15T23:00:14 <wildfier> ++
+2014-06-15T23:00:17 <adriens33> ++
+2014-06-15T23:00:21 <BronyCUB-MC> xxl33270: Zport ?
+2014-06-15T23:00:27 <BronyCUB-MC> Letarumavza: ++ wild
+2014-06-15T23:00:31 <adriens33> tu peux /warp spawn pour retourner au spawn
+2014-06-15T23:00:45 <adriens33> et /setwarp nomdemerdedespawn pour enregistrer l'endroit ou tu es
+2014-06-15T23:00:52 <BronyCUB-MC> xxl33270: cool
+2014-06-15T23:00:59 <adriens33> et /warplist pour lister les warps enregistrés
+2014-06-15T23:01:05 <adriens33> avec /setwarp machin private
+2014-06-15T23:01:06 <BronyCUB-MC> Letarumavza: Oh je vais tenter un new truc
+2014-06-15T23:01:08 <adriens33> tu peux faire un warp privé
+2014-06-15T23:01:11 <adriens33> :D
+2014-06-15T23:01:26 <adriens33> l'erreur quand tu /warplist c'est normal
+2014-06-15T23:01:31 <adriens33> faut que j'update zport
+2014-06-15T23:01:38 <adriens33> ça fait rien de grave, ça marche quand mêem.
+2014-06-15T23:01:41 <adriens33> *même
+2014-06-15T23:02:02 <BronyCUB-MC> xxl33270: le fly <3
+2014-06-15T23:02:19 <adriens33> ^^
+2014-06-15T23:03:27 <BronyCUB-MC> xxl33270: Qui ma pris tout mon bois brute >.<
+2014-06-15T23:03:41 <adriens33> pas moi, j'ai de quoi en produire en masse.
+2014-06-15T23:03:55 *** wildfier est parti
+2014-06-15T23:04:13 *** ludvannn s'est connecté
+2014-06-15T23:04:36 <ludvannn> Je suis monsieur moustache
+2014-06-15T23:04:53 <adriens33> gnûh ?
+2014-06-15T23:05:04 <ludvannn> :{D
+2014-06-15T23:06:04 *** ludvannn est parti
+2014-06-15T23:06:30 *** ludvannn s'est connecté
+2014-06-15T23:06:56 <ludvannn> :{  <-- monsieur moustache
+2014-06-15T23:07:23 <ludvannn> Re !
+2014-06-15T23:07:26 <BronyCUB-MC> Letarumavza: ça te va ce style de route ?
+2014-06-15T23:07:32 <adriens33> re
+2014-06-15T23:07:49 <adriens33> :{D}>~
+2014-06-15T23:07:54 <BronyCUB-MC> Letarumavza: J'ai cherché à faire quelque chose de simple et en accord avec la pierre que tu as utilisé.
+2014-06-15T23:08:08 <BronyCUB-MC> xxl33270: Sympa
+2014-06-15T23:08:11 <BronyCUB-MC> Letarumavza: Je ferai les pilliers après
+2014-06-15T23:08:31 <ludvannn> Quel style de construction ?
+2014-06-15T23:08:35 <BronyCUB-MC> Letarumavza: dans un style euh...
+2014-06-15T23:08:41 <BronyCUB-MC> Letarumavza: Victorien !
+2014-06-15T23:09:00 <BronyCUB-MC> Letarumavza: Pour les connaisseurs de la référence
+2014-06-15T23:09:09 <ludvannn> J'en ait jamais encore de victorien :/
+2014-06-15T23:09:41 <BronyCUB-MC> Letarumavza: Le style le plus sympa à faire dans minecraft ça reste le colonial espagnol
+2014-06-15T23:10:17 <ludvannn> Si tu le dit, je m'y connais pas assez sur ça pour avoir un avis :/
+2014-06-15T23:10:42 <BronyCUB-MC> Letarumavza: Boaf, les streams d'eventime ont bien aidé ^^
+2014-06-15T23:13:39 <ludvannn> Ah ^^
+2014-06-15T23:13:51 <ludvannn> Bilou damido <3
+2014-06-15T23:14:34 <ludvannn> Merde c'est language craft (au putain le con ^^)
+2014-06-15T23:14:47 <BronyCUB-MC> Letarumavza: Aurélien sama
+2014-06-15T23:15:03 <BronyCUB-MC> Letarumavza: Mais ils se conaissent
+2014-06-15T23:15:24 <Berry-Punch> ludvann: Attention au langage *hic* ;)
+2014-06-15T23:15:42 <ludvannn> Na na na...
+2014-06-15T23:16:11 <ludvannn> Pxtain de m*rde de s*pristi de chi*ttes
+2014-06-15T23:16:20 <BronyCUB-MC> heuzef has joined the server!
+2014-06-15T23:16:21 <Berry-Punch> ludvann: Attention au langage ;) *hic* 
+2014-06-15T23:16:31 <BronyCUB-MC> xxl33270: AU MON DIEUX
+2014-06-15T23:16:32 <ludvannn> Auri saminou <3
+2014-06-15T23:16:33 <BronyCUB-MC> Letarumavza: J4ai des doutes pour sapristi ?
+2014-06-15T23:16:39 <BronyCUB-MC> Letarumavza: ?
+2014-06-15T23:16:43 <ludvannn> !
+2014-06-15T23:16:48 <ludvannn> ?*
+2014-06-15T23:17:32 <BronyCUB-MC> heuzef: Bon ba honnetement
+2014-06-15T23:17:40 <ludvannn> Watt ?
+2014-06-15T23:17:45 <BronyCUB-MC> heuzef: Rocky bof bof
+2014-06-15T23:17:46 <BronyCUB-MC> Letarumavza: ?
+2014-06-15T23:18:03 <ludvannn> Langage indien ?
+2014-06-15T23:18:04 <BronyCUB-MC> heuzef: ça ne vaut pas hippo
+2014-06-15T23:18:22 <BronyCUB-MC> Letarumavza: De quoi tu causes ?
+2014-06-15T23:18:35 <ludvannn> Rocky bof bof, arriba couroucou pof pof
+2014-06-15T23:18:46 <BronyCUB-MC> Letarumavza: Ah oui merde
+2014-06-15T23:18:52 <ludvannn> xD
+2014-06-15T23:20:00 <ludvannn> De quoi m*rde ?
+2014-06-15T23:20:12 <BronyCUB-MC> Letarumavza: rocky...
+2014-06-15T23:20:24 <ludvannn> ?
+2014-06-15T23:21:13 <BronyCUB-MC> Letarumavza: Route Terminée
+2014-06-15T23:22:09 <ludvannn> (Le "arriba courou cou pof pof" vient de lucky luck, les daltons courent toujours)
+2014-06-15T23:22:25 <BronyCUB-MC> heuzef: Zavez bien bossé dis donc
+2014-06-15T23:22:30 <BronyCUB-MC> xxl33270: TAVU
+2014-06-15T23:22:38 <BronyCUB-MC> heuzef: par contre je pige pas trop l'aiguillage du tchoutchou train
+2014-06-15T23:22:55 <BronyCUB-MC> Letarumavza: Je trouvais le viaduc moche, mais j'ai pas voulu le détruire
+2014-06-15T23:23:04 <BronyCUB-MC> Letarumavza: Alors j'ai fait une voie plus jolie sous les arbres
+2014-06-15T23:23:14 <BronyCUB-MC> heuzef: Mais l'aiguillage fonctionne vraiment ?
+2014-06-15T23:23:33 <BronyCUB-MC> Letarumavza: Faut déclencher les deux mais oui
+2014-06-15T23:23:50 <BronyCUB-MC> Letarumavza: Pas eu le temps de faire la RS-NOR-LATCH + relais
+2014-06-15T23:23:54 <Berry-Punch> adriens33: *hic* Attention au langage ;)
+2014-06-15T23:23:57 <BronyCUB-MC> heuzef: Mouais bof, tu sais quoi
+2014-06-15T23:24:09 <Berry-Punch> adriens33: *hic* Fais gaffe, toi… tu me cherches ;)
+2014-06-15T23:24:12 <BronyCUB-MC> heuzef: Détruit le viaduc a la limite
+2014-06-15T23:24:16 <BronyCUB-MC> Letarumavza: C'est toujours cool un pneu d'électronique
+2014-06-15T23:24:17 <BronyCUB-MC> Letarumavza: ok
+2014-06-15T23:24:19 <BronyCUB-MC> heuzef: ce que tu as fait est plus jolie
+2014-06-15T23:24:55 <BronyCUB-MC> Letarumavza: Et la cascade+route tu en penses quoi ?
+2014-06-15T23:25:08 <BronyCUB-MC> heuzef: Ouais trop cool
+2014-06-15T23:25:15 <BronyCUB-MC> Letarumavza: (Pour les rondins couvrant le ruisseau je me suis inspiré d'un moulin près de la réole
+2014-06-15T23:25:38 <ludvannn> Letarumavza, le dangereux & doux architecte
+2014-06-15T23:25:43 <BronyCUB-MC> Letarumavza: ?
+2014-06-15T23:26:05 <ludvannn> Y a un moustique dans ma chambre !!!!!!!
+2014-06-15T23:26:09 <BronyCUB-MC> Letarumavza: arf
+2014-06-15T23:26:18 <BronyCUB-MC> heuzef: Letarumavza
+2014-06-15T23:26:21 <BronyCUB-MC> Letarumavza: ?
+2014-06-15T23:26:28 <BronyCUB-MC> heuzef: viens stp je suis buger ça me soule
+2014-06-15T23:26:40 <BronyCUB-MC> Letarumavza: ?
+2014-06-15T23:27:04 <BronyCUB-MC> heuzef: Manque la racine de l'arbre
+2014-06-15T23:27:14 <BronyCUB-MC> Letarumavza: ^
+2014-06-15T23:27:30 <BronyCUB-MC> heuzef: Zarb ce bug
+2014-06-15T23:27:35 <BronyCUB-MC> Letarumavza: Faut finir de térraformer la plagze
+2014-06-15T23:28:29 <BronyCUB-MC> heuzef: bon pas grave
+2014-06-15T23:28:34 <Berry-Punch> adriens33: Attention au langage ;) *hic* 
+2014-06-15T23:28:35 <ludvannn> 'Neuh nuit...
+2014-06-15T23:28:36 <BronyCUB-MC> heuzef: allez je vais au dodo moi
+2014-06-15T23:28:42 <BronyCUB-MC> Letarumavza: bonne nuit
+2014-06-15T23:28:45 <BronyCUB-MC> heuzef: ++++
+2014-06-15T23:28:46 <ludvannn> @+ /)
+2014-06-15T23:28:50 <BronyCUB-MC> Letarumavza: Pour les deux btw ^
+2014-06-15T23:28:55 <BronyCUB-MC> heuzef has quit the server!
+2014-06-15T23:28:56 <ludvannn> ++
+2014-06-15T23:29:06 <Berry-Punch> adriens33: Fais *hic* gaffe, toi… tu me cherches ;)
+2014-06-15T23:29:10 <Berry-Punch> adriens33: Tu peux jurer autant que tu veux, mais *hic* pas ici.
+2014-06-15T23:29:10 <Berry-Punch> adriens33: Prochain coup *hic* je te vire.
+2014-06-15T23:29:35 <ludvannn> Moustique de mes twice... @+
+2014-06-15T23:29:37 *** ludvannn est parti
+2014-06-15T23:29:41 <BronyCUB-MC> Letarumavza: ^
+2014-06-15T23:31:55 <adriens33> petite annonce
+2014-06-15T23:32:06 <adriens33> maintenant berry punch fait gaffe au langage
+2014-06-15T23:32:08 <adriens33> ^^
+2014-06-15T23:32:10 <adriens33> exemple
+2014-06-15T23:32:11 <adriens33> merde
+2014-06-15T23:32:12 <Berry-Punch> adriens33: Attention au langage ;) *hic* 
+2014-06-15T23:32:14 <adriens33> chier
+2014-06-15T23:32:15 <Berry-Punch> adriens33: Fais gaffe, toi… tu *hic* me cherches ;)
+2014-06-15T23:32:20 <adriens33> :D
+2014-06-15T23:32:21 <BronyCUB-MC> xxl33270: Enculé ?
+2014-06-15T23:32:30 <adriens33> (ah j'y avais pas pensé à celui ci
+2014-06-15T23:32:32 <adriens33> )
+2014-06-15T23:32:49 <BronyCUB-MC> xxl33270: Letarumavza tu es ou ?
+2014-06-15T23:33:00 <Berry-Punch> adriens33: Attention au *hic* langage ;)
+2014-06-15T23:33:06 <BronyCUB-MC> Letarumavza: pas loin de chez toi
+2014-06-15T23:33:18 <BronyCUB-MC> Letarumavza: T'as trouvé un truc dans une maison ?
+2014-06-15T23:33:33 <BronyCUB-MC> xxl33270: Chez moi ?
+2014-06-15T23:34:03 <BronyCUB-MC> Letarumavza: Bah je doute que tu "trouves" un truc chez toi ?
+2014-06-15T23:34:24 <BronyCUB-MC> Letarumavza: Mais pourquoi tu me cherchais ?
+2014-06-15T23:34:25 <BronyCUB-MC> xxl33270: Si tu veux faire une maison dans le village
+2014-06-15T23:34:37 <BronyCUB-MC> xxl33270: Voire se que tu fessais xD
+2014-06-15T23:34:52 <BronyCUB-MC> Letarumavza: Nop, moi je vais m'installer dans la forêt sombre.
+2014-06-15T23:35:46 <BronyCUB-MC> xxl33270: Allez mission du soire trouver de l'acacia
+2014-06-15T23:35:49 <Berry-Punch> adriens33: Attention au langage ;) *hic* 
+2014-06-15T23:35:57 <BronyCUB-MC> Letarumavza: Tu veux que je t'en passé ?
+2014-06-15T23:36:16 *** AlphaDash s'est connecté
+2014-06-15T23:36:24 <BronyCUB-MC> Letarumavza: (Histoire d'éviter de faire ramer le serveur en génération de chunks)
+2014-06-15T23:36:49 <AlphaDash> yop
+2014-06-15T23:37:19 <BronyCUB-MC> xxl33270: Comment on crée un warp xD
+2014-06-15T23:37:44 <BronyCUB-MC> Letarumavza: boaf, warp au spawn, il est pas loin de chez toi ^
+2014-06-15T23:37:57 <adriens33> "/setwarp nom"
+2014-06-15T23:38:01 <BronyCUB-MC> xxl33270: Jvoulais en faire un pour ma ville
+2014-06-15T23:38:10 <BronyCUB-MC> Letarumavza: ah ok
+2014-06-15T23:38:25 <BronyCUB-MC> xxl33270: Pas la perm pas grave et oui Letarumavza veux bien
+2014-06-15T23:38:35 <adriens33> att je te la met
+2014-06-15T23:38:38 <BronyCUB-MC> Letarumavza: Tien, je vais utiliser de la soulsand pour mener jusqu'à chez moi
+2014-06-15T23:38:45 <BronyCUB-MC> Letarumavza: Pour simuler la boue
+2014-06-15T23:38:53 *** AlphaDash est parti
+2014-06-15T23:39:49 <adriens33> @xxl33270: tu devrais l'avoir la perm
+2014-06-15T23:39:51 <adriens33> bizarre…
+2014-06-15T23:39:57 <adriens33> t'as pas fait un private warp?
+2014-06-15T23:42:15 <BronyCUB-MC> xxl33270: VIent voire le lit volant xD
+2014-06-15T23:42:40 <BronyCUB-MC> adrien_s has joined the server!
+2014-06-15T23:43:39 <BronyCUB-MC> xxl33270: le lit de la mort xD
+2014-06-15T23:43:51 <BronyCUB-MC> adrien_s: comment tu veux l'appeler ta ville ?
+2014-06-15T23:44:23 <BronyCUB-MC> adrien_s: si tu fais /setwarp nimportequoi
+2014-06-15T23:44:25 <BronyCUB-MC> adrien_s: ça te dit quoi ?
+2014-06-15T23:44:52 <BronyCUB-MC> xxl33270: Zport You don't hawe permission type /zp
+2014-06-15T23:44:55 <BronyCUB-MC> adrien_s: huh
+2014-06-15T23:45:28 <BronyCUB-MC> adrien_s: et là ?
+2014-06-15T23:45:53 <BronyCUB-MC> adrien_s: tu peux test stp ?
+2014-06-15T23:46:08 <BronyCUB-MC> xxl33270: nope
+2014-06-15T23:46:12 <BronyCUB-MC> adrien_s: >:(
+2014-06-15T23:46:22 <BronyCUB-MC> adrien_s: et là ?
+2014-06-15T23:47:35 <BronyCUB-MC> xxl33270: <3
+2014-06-15T23:47:59 <BronyCUB-MC> xxl33270: c'est quoi ça comme pl ?
+2014-06-15T23:48:01 <BronyCUB-MC> adrien_s: tu peux réessayer le /setwarp ?
+2014-06-15T23:48:19 <BronyCUB-MC> adrien_s: worldedit, vaut mieux que t'ailles chercher sur le wiki, c'est trop long à expliiquer
+2014-06-15T23:48:28 <BronyCUB-MC> adrien_s: juste évite les trop grandes opérations
+2014-06-15T23:48:31 <BronyCUB-MC> xxl33270: Okay
+2014-06-15T23:48:35 <BronyCUB-MC> adrien_s: histoire de pas faire crasher le serv
+2014-06-15T23:48:51 <BronyCUB-MC> adrien_s: tu veux que je te pose qqch ?
+2014-06-15T23:49:03 <BronyCUB-MC> xxl33270: Nope c'est bon
+2014-06-15T23:50:22 <BronyCUB-MC> adrien_s: je suis thor
+2014-06-15T23:50:31 <BronyCUB-MC> adrien_s: >:)
+2014-06-15T23:53:08 <BronyCUB-MC> adrien_s: un coup de patte letarumavza ?
+2014-06-15T23:54:22 <BronyCUB-MC> xxl33270: J'ai un briquet !
+2014-06-15T23:54:26 <BronyCUB-MC> adrien_s: attention
+2014-06-15T23:54:31 <BronyCUB-MC> xxl33270: Mwahahahahahahhaha
+2014-06-15T23:54:38 <BronyCUB-MC> adrien_s: MOUHAHAHAHA
+2014-06-15T23:54:46 <BronyCUB-MC> adrien_s: cémoiquilé
+2014-06-15T23:54:47 <BronyCUB-MC> xxl33270: Ow
+2014-06-15T23:54:59 <BronyCUB-MC> adrien_s: tiens mais tu brule rien
+2014-06-15T23:56:16 <BronyCUB-MC> xxl33270: Faut vraiment se faire une farm axp xD
+2014-06-15T23:59:42 <BronyCUB-MC> adrien_s: pas mal tes panneaux à l'entrée lezarius
+2014-06-15T23:59:48 <BronyCUB-MC> xxl33270: tavu

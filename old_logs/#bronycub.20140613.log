@@ -1,0 +1,927 @@
+2014-06-13T01:32:42 <adriens33> bon, bonne nuit berry :D
+2014-06-13T01:32:43 *** adriens33 est parti
+2014-06-13T09:04:53 *** heuzef s'est connecté
+2014-06-13T09:10:46 <heuzef> Tiens on ne m'accueille plus :P
+2014-06-13T09:10:48 <heuzef> Berry ?
+2014-06-13T09:10:48 <Berry-Punch> heuzef: Oui ? *hic* 
+2014-06-13T09:11:01 <heuzef> Tu as encore trop bu toi
+2014-06-13T09:14:04 *** wildfier s'est connecté
+2014-06-13T09:15:13 <wildfier> yop
+2014-06-13T09:15:25 <heuzef> plop
+2014-06-13T09:18:48 *** adriens33 s'est connecté
+2014-06-13T09:18:54 <adriens33> hello :D
+2014-06-13T09:19:06 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières *hic* lignes, adriens33
+2014-06-13T09:19:36 <adriens33> désolé, j'ai pas encore remis les messages de bienvenue sur le nouveau bot
+2014-06-13T09:20:05 <adriens33> (n'empêche que j'ai fait 36+ commits en 1 jour et demi, je suis totalement taré moi XD)
+2014-06-13T09:20:14 <adriens33> j'ai explosé mon record sur github
+2014-06-13T09:23:02 <Berry-Punch> J'aimerais bien *hic* en reprendre, mais Colgate va se fâcher après…
+2014-06-13T09:23:20 <Berry-Punch> Non, c'est même *hic* pas vrai d'abord !
+2014-06-13T09:23:43 <heuzef> Lol oui tu à battu mon record aussi
+2014-06-13T09:24:11 <Berry-Punch> Non, c'est même *hic* pas vrai d'abord !
+2014-06-13T09:24:20 <adriens33> Berry ?
+2014-06-13T09:24:20 <Berry-Punch> adriens33: *hic* Oui ?
+2014-06-13T09:24:27 <adriens33> Berry tu bois trop, toi…
+2014-06-13T09:24:27 <Berry-Punch> Non, c'est même pas vrai d'abord *hic* !
+2014-06-13T09:24:49 <heuzef> Elle nie :D
+2014-06-13T09:25:04 <adriens33> j'aime le bash
+2014-06-13T09:25:07 <adriens33> je modifie le code
+2014-06-13T09:25:09 <adriens33> je !reload
+2014-06-13T09:25:13 <adriens33> et ça charge tout
+2014-06-13T09:25:18 <adriens33> même pas besoin de relancer l'appli
+2014-06-13T09:25:24 <adriens33> how cool is that, hey ?
+2014-06-13T09:25:37 <heuzef> ^^
+2014-06-13T09:25:43 <adriens33> test: elle boit trop
+2014-06-13T09:25:43 <Berry-Punch> Non, c'est même pas vrai *hic* d'abord !
+2014-06-13T09:25:54 * adriens33 yays silently
+2014-06-13T09:25:55 <heuzef> Faudrait que tu me montre ou ils sont ces scripts
+2014-06-13T09:26:06 <adriens33> https://github.com/bronycub/berry-punch
+2014-06-13T09:26:12 <adriens33> c'est la branche master maintenant :D
+2014-06-13T09:26:18 <adriens33> (l'ancienne est dans la branche v1)
+2014-06-13T09:26:39 <adriens33> SHBot.sh c'est le main, et j'ai mis des hooks pour pouvoir ajouter facilement des fonctions sans modifier le main
+2014-06-13T09:27:01 <adriens33> (toutes les fonctions sont dans lib/, dans des fichiers à part)
+2014-06-13T09:27:26 <adriens33> genre lib/msgtrigger.sh → gestion des triggers (avec la conf dans config/triggers.cfg)
+2014-06-13T09:27:52 <adriens33> faudra que je refasse un README.md quand j'aurais le temps
+2014-06-13T09:28:01 <heuzef> Et bien tu t'éclate :O
+2014-06-13T09:28:18 <heuzef> n'hésite pas à commenter un peu plus le code
+2014-06-13T09:28:22 <adriens33> c'est prévu
+2014-06-13T09:29:30 *** Shinsaber s'est connecté
+2014-06-13T09:29:38 <Shinsaber> salut
+2014-06-13T09:29:42 <adriens33> plop
+2014-06-13T09:30:24 <heuzef> Je suis un peu déçu :/
+2014-06-13T09:30:30 <adriens33> pour ?
+2014-06-13T09:30:37 <heuzef> Que 5 inscription pour demain
+2014-06-13T09:30:45 <heuzef> J'ai été si mauvais que ça pour la com ?
+2014-06-13T09:30:46 <adriens33> « Que » 5 ^^
+2014-06-13T09:30:49 <adriens33> ah
+2014-06-13T09:30:51 <adriens33> pour demain
+2014-06-13T09:30:56 * adriens33 est stupide
+2014-06-13T09:30:59 <adriens33> anéfé
+2014-06-13T09:31:04 <adriens33> c'est peu
+2014-06-13T09:31:07 <Shinsaber> dsl, je voulais venir mais je peu pas !
+2014-06-13T09:31:18 <adriens33> booo
+2014-06-13T09:31:19 <wildfier> je sais plus c'est 9h ou 9h 30 demain?
+2014-06-13T09:31:24 <heuzef> Non encore ça spa grave
+2014-06-13T09:31:37 <heuzef> Ce qui me fait chier c'est que j'ai eu que 10 rep sur 30 quoi
+2014-06-13T09:32:27 <wildfier> @adriens33: support du clavier dans my little investigations merged !
+2014-06-13T09:34:50 <adriens33> @heuzef ah oui effectivement…
+2014-06-13T09:34:55 <adriens33> @wildfier YEAH
+2014-06-13T09:35:27 <wildfier> j'attends qu'il release la v1.0.7 pour update le paquet
+2014-06-13T09:35:42 <adriens33> ^^
+2014-06-13T09:35:50 <wildfier> y a encore du taf par contre sur ce point
+2014-06-13T09:36:12 <wildfier> genre pouvoir utiliser le clavier dans le menu
+2014-06-13T09:36:33 <adriens33> ça, ça serait cool :D
+2014-06-13T10:05:12 *** heuzef est parti
+2014-06-13T10:08:09 <wildfier> tu sais si y a un moyen de monitorer ce que fait le kernel ?
+2014-06-13T10:09:30 <wildfier> parce que shinsaber est allé voir un serv pour le taf
+2014-06-13T10:09:46 <wildfier> et y avait tous les proco à 0%
+2014-06-13T10:09:51 <wildfier> sauf un à 100%
+2014-06-13T10:10:07 <wildfier> et que de l'activité kernel
+2014-06-13T10:15:17 <adriens33> ah
+2014-06-13T10:15:19 <adriens33> heu
+2014-06-13T10:15:29 <adriens33> un genre de htop pour le kernel ?
+2014-06-13T10:15:33 <adriens33> je ne sais pas du tout
+2014-06-13T10:15:39 <Shinsaber> a oki ^^
+2014-06-13T10:15:41 <adriens33> à par dmesg pour avoir le kernel ringbuffer
+2014-06-13T10:15:49 <adriens33> (le log interne du kernel)
+2014-06-13T10:16:03 <adriens33> (ce qui peut déjà aider pas mal)
+2014-06-13T10:16:12 <adriens33> mais en général quand c'est du kernel sur un proco
+2014-06-13T10:16:17 <adriens33> c'est de l'I/P
+2014-06-13T10:16:19 <adriens33> *I:O
+2014-06-13T10:16:22 <adriens33> *I/O
+2014-06-13T10:16:28 <Shinsaber> ^^
+2014-06-13T10:16:40 <adriens33> (donc en gros soit un disque, soit du réseau, mais le réseau ça bouffe que dalle)
+2014-06-13T10:16:50 <adriens33> sinon c'est ptet un truc qui a planté
+2014-06-13T10:17:02 <adriens33> regarde dmesg déjà, ça peut aider en tout cas.
+2014-06-13T10:17:34 <Shinsaber> je regarde
+2014-06-13T10:18:34 <adriens33> (t'as pas besoin du root normalement)
+2014-06-13T10:18:42 <adriens33> je te conseille de faire dmesg|tail par contre
+2014-06-13T10:18:48 <adriens33> spécialement si ton uptime est élevé
+2014-06-13T10:18:51 <adriens33> ^^
+2014-06-13T10:18:53 <Shinsaber> nop pas besoin ^^
+2014-06-13T10:18:57 <adriens33> *dmesg|less pardon
+2014-06-13T10:19:17 <adriens33> sinon tu vas te perdre dans la quantité de lignes du log
+2014-06-13T10:19:25 <Shinsaber> 76 days sa vas ses presque rien
+2014-06-13T10:19:29 <adriens33> heu
+2014-06-13T10:19:38 <adriens33> moi ma machine de boulot a même pas 2j d'uptime
+2014-06-13T10:19:47 <Shinsaber> ^
+2014-06-13T10:19:49 <adriens33> j'ai 866 lignes
+2014-06-13T10:19:51 <adriens33> sur le dmesg
+2014-06-13T10:19:59 <adriens33> donc bon 76j
+2014-06-13T10:20:05 <adriens33> j'ose même pas imaginer XD
+2014-06-13T10:20:10 <wildfier> ^^
+2014-06-13T10:20:30 <adriens33> *correction: j'ai lancé dmesg|wc -l sur mon serv
+2014-06-13T10:20:36 <adriens33> qui a une 20aine de jours d'uptime
+2014-06-13T10:20:45 <adriens33> donc en gros tu vas en avoir dans les 2-3000
+2014-06-13T10:20:49 <adriens33> narmolement
+2014-06-13T10:21:03 <Shinsaber> 552 ligne
+2014-06-13T10:21:05 <adriens33> ah
+2014-06-13T10:21:11 <adriens33> étonnant
+2014-06-13T10:21:20 <Shinsaber> XD
+2014-06-13T10:21:23 <adriens33> ou alors il avait rien à dire ^^
+2014-06-13T10:21:32 <adriens33> t'as trouvés des trucs suspicieux ?
+2014-06-13T10:21:43 <Berry-Punch> je *hic* ne suce ni picieux ni personne >_<
+2014-06-13T10:21:49 <Shinsaber> pas a première vu
+2014-06-13T10:22:10 <adriens33> (désolé pour la blague)
+2014-06-13T10:22:27 <Shinsaber> ....
+2014-06-13T10:22:30 <Shinsaber> ^^
+2014-06-13T10:26:58 <Shinsaber> je vois une ligne avec hiperv, si sa ce trouve il indique la ressource utilisée par les autre VM en kernel
+2014-06-13T10:27:43 <adriens33> c'est un serveur physique ton truc ?
+2014-06-13T10:27:48 <adriens33> ou une vm ?
+2014-06-13T10:28:09 <Shinsaber> je sais pas tros, j'ai quasiment aucune info ......
+2014-06-13T10:28:20 <adriens33> ah: et pour le noyau linux, "vm"="Virtual Memory" ^^
+2014-06-13T10:28:28 <adriens33> donc si tu vois des "vm" dans le dmesg
+2014-06-13T10:28:34 <adriens33> c'est par rapport à la mémoire
+2014-06-13T10:29:09 <adriens33> (par exemple le réglage vm.swappiness pour le comportement de la swap)
+2014-06-13T10:29:38 <Shinsaber> j'ai fais un grep sur Hyper-V et il me sort des truc donc sa dois ètre une VM
+2014-06-13T10:30:53 <adriens33> sur ton serv ?
+2014-06-13T10:31:00 <Shinsaber> yep
+2014-06-13T10:31:03 <adriens33> je pense pas
+2014-06-13T10:31:07 <adriens33> j'ai fait un lspci
+2014-06-13T10:31:13 <adriens33> y'a pas de périph virtuel
+2014-06-13T10:31:19 <adriens33> (genre VMWare, Virtualbox etc)
+2014-06-13T10:31:28 <adriens33> et une vm avec 8go de ram…
+2014-06-13T10:31:31 <adriens33> comment dire XD
+2014-06-13T10:32:09 <adriens33> quoique, sur un serv physique avec un intel xeon 12 cœurs et 128Go de ram tu peux en mettre quelques unes
+2014-06-13T10:32:18 <adriens33> par contre ça coute la peau des fesses là XD
+2014-06-13T10:32:59 <Shinsaber> j'ai fais lscpi dessu et j'ai sa : VGA compatible controller: Microsoft Corporation Hyper-V virtual VGA
+2014-06-13T10:33:12 <adriens33> huh
+2014-06-13T10:33:22 <adriens33> on parle bien de la même machine ?
+2014-06-13T10:33:26 <adriens33> serveur.audemar.fr ?
+2014-06-13T10:33:30 <adriens33> ou pas ?
+2014-06-13T10:33:37 <Shinsaber> nop un serv pour un taf ^
+2014-06-13T10:33:40 <adriens33> ah ok
+2014-06-13T10:33:43 <adriens33> >_<
+2014-06-13T10:33:45 <adriens33> le boulet
+2014-06-13T10:33:55 <Shinsaber> XD
+2014-06-13T10:33:59 <adriens33> ben oui, là c'est du virtuel
+2014-06-13T10:34:01 <adriens33> pas de doute
+2014-06-13T10:34:36 <adriens33> t'as quoi en ram/cpu/taille de b… euh de disque dur ?
+2014-06-13T10:36:47 <Shinsaber> 4 cœur proco, 8G de ram, 140 dd a priorie
+2014-06-13T10:37:00 <Shinsaber> 140G
+2014-06-13T10:38:04 <adriens33> pas dégueu pour une vm
+2014-06-13T10:38:36 <Shinsaber> le pb d'Ingesup pour les VM ses les DD XD
+2014-06-13T10:38:48 <adriens33> ^^
+2014-06-13T10:39:44 *** Gordfang s'est connecté
+2014-06-13T10:39:55 <adriens33> plop
+2014-06-13T10:39:58 <Gordfang> lu
+2014-06-13T10:40:00 <Shinsaber> lu
+2014-06-13T10:40:06 * Berry-Punch jette un muffin sur Gorfang
+2014-06-13T10:40:06 <adriens33> !muffin Gorfang
+2014-06-13T10:40:11 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, adriens33 *hic* 
+2014-06-13T10:40:12 <adriens33> !history
+2014-06-13T10:40:14 * Berry-Punch jette un muffin sur adrien33
+2014-06-13T10:40:14 <Gordfang> !muffin adrien33
+2014-06-13T10:45:23 <adriens33> yay c'est vendredi \o/
+2014-06-13T10:45:39 <Shinsaber> ^
+2014-06-13T10:46:10 <adriens33> @shinsaber t'es calé en zsh ?
+2014-06-13T10:46:56 <Shinsaber> je connais j'uste quelque base quant je l'ai paramètré mais sa fais longtemp
+2014-06-13T10:47:02 <adriens33> ah :/
+2014-06-13T10:47:20 <adriens33> parce que là rien que pour l'essayer je sais même pas par où commencer
+2014-06-13T10:47:39 <adriens33> ça à l'air vaste comme truc
+2014-06-13T10:47:44 <Shinsaber> très XD
+2014-06-13T10:50:34 <adriens33> aller, test pour le lolz:
+2014-06-13T10:50:38 <adriens33> c'est énorme !
+2014-06-13T10:50:43 <adriens33> (grr)
+2014-06-13T10:51:21 <adriens33> c'est énorme !
+2014-06-13T10:51:21 <Berry-Punch> adriens33: Ta *hic* femme te le dit souvent.
+2014-06-13T10:51:24 <adriens33> :D
+2014-06-13T10:58:22 <Shinsaber> Il y a des mineur .... XD
+2014-06-13T10:58:42 <wildfier> tellement modeste ...
+2014-06-13T10:58:42 <wildfier> XD
+2014-06-13T11:05:07 <adriens33> sorry ^^
+2014-06-13T11:05:26 <adriens33> j'ai enlevé la regexp, hein, pas la peine de tester
+2014-06-13T11:05:37 <Shinsaber> rooo zut
+2014-06-13T11:05:39 <Shinsaber> XD
+2014-06-13T11:06:32 *** heuzef s'est connecté
+2014-06-13T11:06:48 <adriens33> re
+2014-06-13T11:10:30 <wildfier> roh ...
+2014-06-13T11:10:37 <wildfier> c'était marrant ^^
+2014-06-13T11:13:31 <adriens33> ^^
+2014-06-13T11:18:42 <BronyCUB-MC> Shinsaber has joined the server!
+2014-06-13T11:20:09 <BronyCUB-MC> Shinsaber has quit the server!
+2014-06-13T11:31:07 <heuzef> :(
+2014-06-13T11:31:46 <adriens33> @heuzef: quékispass ?
+2014-06-13T11:34:16 <adriens33> ah,ils ont eu la bonne idée d'écrire un user's guide !
+2014-06-13T11:34:18 <adriens33> http://zsh.sourceforge.net/Guide/zshguide01.html#l1
+2014-06-13T11:34:19 <adriens33> (yay)
+2014-06-13T11:34:41 <heuzef> La formation de demain risque d'être annulé par manque de monde
+2014-06-13T11:35:46 <adriens33> oh
+2014-06-13T11:35:49 <adriens33> sérieux ? :(
+2014-06-13T11:35:57 <heuzef> oui
+2014-06-13T11:35:58 <adriens33> berry ?
+2014-06-13T11:35:58 <Berry-Punch> adriens33: Oui *hic* ?
+2014-06-13T11:36:02 <adriens33> tu veux venir ?
+2014-06-13T11:36:09 <heuzef> ^^
+2014-06-13T11:38:57 <wildfier> yep, 5 par rapport à plus de 10 minimum ... (c'était à peu près ça non ?)
+2014-06-13T11:41:30 <adriens33> pas cool
+2014-06-13T11:41:36 <adriens33> c'est important pourtant
+2014-06-13T11:52:21 <adriens33> au fait heuzef, t'en es où de ton tour des membres pour ton questionnaire ?
+2014-06-13T11:54:21 <heuzef> adriens33: je dirais a la moitier a peu prêt
+2014-06-13T11:54:50 <heuzef> adriens33 je te laisse t'occuper de ValCab ;)
+2014-06-13T11:56:01 <adriens33> gné ?
+2014-06-13T11:56:04 <adriens33> comment ça ?
+2014-06-13T11:56:36 <heuzef> mail
+2014-06-13T11:57:31 <adriens33> heu
+2014-06-13T11:57:33 <adriens33> ouate ?
+2014-06-13T11:57:48 <adriens33> kéckékcethistoire ?
+2014-06-13T11:58:05 <heuzef> Si t'as un peu de temps ça serais cool de l'aider ;)
+2014-06-13T11:58:19 <Berry-Punch> Flags de  modifiés : -r *hic* 
+2014-06-13T11:58:19 <adriens33> !flag mod -r
+2014-06-13T11:58:24 *** jeankevindu33 s'est connecté
+2014-06-13T11:58:27 <adriens33> >_<
+2014-06-13T11:58:29 <adriens33> bon
+2014-06-13T11:58:31 <adriens33> ok
+2014-06-13T11:58:34 <adriens33> un flag random
+2014-06-13T11:59:39 *** Gordfang est parti
+2014-06-13T11:59:49 *** jeankevindu33 est parti
+2014-06-13T11:59:56 <adriens33> problem: solved.
+2014-06-13T11:59:58 <adriens33> next
+2014-06-13T12:01:55 <Berry-Punch> ValCab33 a le(s) flag(s) : *hic* +v
+2014-06-13T12:09:04 <Berry-Punch> Ta femme te *hic* le dit souvent :þ
+2014-06-13T12:09:08 <Berry-Punch> Ta femme te le dit souvent :þ *hic* 
+2014-06-13T12:09:16 <Berry-Punch> Ta femme te le dit *hic* souvent :þ
+2014-06-13T12:09:38 <Berry-Punch> Ta femme te le dit souvent :þ *hic* 
+2014-06-13T12:11:20 <adriens33> @wildfier: si tu veux retester par rapport à ce que tu as dit à 11:10, je l'ai remis :þ
+2014-06-13T12:11:37 <wildfier> XD
+2014-06-13T12:11:46 <adriens33> je go manger
+2014-06-13T12:11:47 <Berry-Punch> Bon *hic* appétit, adriens33 :D
+2014-06-13T12:11:48 <wildfier> je vois pas de quoi tu veux parler
+2014-06-13T12:11:54 <wildfier> bon app
+2014-06-13T12:14:00 *** ValCab33 s'est connecté
+2014-06-13T12:14:06 <ValCab33> Yaaay !
+2014-06-13T12:14:22 <Shinsaber> le revoilà XD
+2014-06-13T12:14:42 *** heuzef est parti
+2014-06-13T12:20:30 *** Gordfang s'est connecté
+2014-06-13T12:38:39 *** Gordfang est parti
+2014-06-13T12:46:28 *** heuzef s'est connecté
+2014-06-13T12:47:17 *** wildfier est parti
+2014-06-13T12:54:20 *** lezarius s'est connecté
+2014-06-13T12:54:32 <lezarius> Hi
+2014-06-13T12:54:41 <lezarius> Berry-Punch:  tu as trop bu ?
+2014-06-13T12:54:41 <Berry-Punch> Non, c'est même pas vrai d'abord ! *hic* 
+2014-06-13T12:54:48 <lezarius> Car tu ma oublié !
+2014-06-13T12:55:09 <heuzef> yo
+2014-06-13T12:55:35 <lezarius> Jvais faire une ferme a gold sur mc =D
+2014-06-13T12:55:43 <Berry-Punch> Flags *hic* de +v modifiés en lezarius
+2014-06-13T12:55:43 <heuzef> !flag set lezarius +v
+2014-06-13T12:55:54 <heuzef> lol
+2014-06-13T12:56:04 <Berry-Punch> Flags de *hic* lezarius modifiés en +v
+2014-06-13T12:56:04 <heuzef> !flag set +v lezarius
+2014-06-13T12:56:04 <lezarius> !voice lezarius
+2014-06-13T12:56:25 <Berry-Punch> Flags de +v modifiés *hic* : set
+2014-06-13T12:56:25 <heuzef> !flag mod set +v lezarius
+2014-06-13T12:56:30 <heuzef> pfff
+2014-06-13T12:56:35 <heuzef> adriens33 pas au point ton truc
+2014-06-13T12:56:43 <lezarius> C'est !voice lezarius
+2014-06-13T12:56:53 <heuzef> !voice lezarius
+2014-06-13T12:56:56 <heuzef> nan
+2014-06-13T13:32:08 <adriens33> @heuzef: c'est
+2014-06-13T13:32:16 <Berry-Punch> Flags *hic* de lezarius modifiés en +v
+2014-06-13T13:32:16 <adriens33> !flag set +v lezarius
+2014-06-13T13:32:20 <adriens33> ça c'est pour la conf
+2014-06-13T13:32:27 <adriens33> (prochaine fois que lezarius se c)
+2014-06-13T13:32:29 <adriens33> *se co
+2014-06-13T13:32:31 <adriens33> et ensuite
+2014-06-13T13:32:38 <heuzef> pffff trop compliqué a retenir, c'été mieux le !voice
+2014-06-13T13:32:42 <Berry-Punch> Flags de learius modifiés : +v *hic* 
+2014-06-13T13:32:42 <adriens33> !flag mod +v learius
+2014-06-13T13:32:43 <Berry-Punch> Flags de lezarius *hic* modifiés : +v
+2014-06-13T13:32:43 <adriens33> !flag mod +v lezarius
+2014-06-13T13:32:52 <adriens33> au pire
+2014-06-13T13:32:58 <adriens33> le flag set tu t'en occupe pas
+2014-06-13T13:33:06 <adriens33> tu fais juste !flag mod +v lezarius
+2014-06-13T13:33:22 <adriens33> ou je fais des alias, au pire
+2014-06-13T13:33:30 <heuzef> je veux bien oui =)
+2014-06-13T13:35:28 <adriens33> !devoice heuzef
+2014-06-13T13:35:32 <adriens33> grr
+2014-06-13T13:35:44 <adriens33> !voice adriens33
+2014-06-13T13:36:28 <adriens33> !devoice heuzef
+2014-06-13T13:36:32 <adriens33> gnu
+2014-06-13T13:37:08 <Berry-Punch> Bye adriens33 *hic* !
+2014-06-13T13:38:13 <Berry-Punch> Salut *hic* tout le monde !
+2014-06-13T13:38:13 *** Berry-Punch s'est connecté
+2014-06-13T13:38:18 <Berry-Punch> Flags de *hic* adriens33 modifiés en +v
+2014-06-13T13:38:18 <adriens33> !voice adriens33
+2014-06-13T13:38:22 <adriens33> ah bé voilà
+2014-06-13T13:38:52 <Berry-Punch> Flags de adriens33 modifiés : *hic* +v
+2014-06-13T13:38:52 <adriens33> !voice adriens33
+2014-06-13T13:39:04 <Berry-Punch> Flags de adriens33 modifiés : +o *hic* 
+2014-06-13T13:39:04 <adriens33> !op adriens33
+2014-06-13T13:39:10 <Berry-Punch> Flags de adriens33 modifiés *hic* : -o
+2014-06-13T13:39:10 <adriens33> !deop adriens33
+2014-06-13T13:39:13 <adriens33> yay
+2014-06-13T13:39:17 <Berry-Punch> Commandes disponibles : *hic* 
+2014-06-13T13:39:17 <Berry-Punch> say do flag reload stop op list voice devoice history muffin deop *hic* 
+2014-06-13T13:39:17 <adriens33> !list
+2014-06-13T13:41:55 <Berry-Punch> hi *hic* hi
+2014-06-13T13:41:55 <lezarius> !say hi
+2014-06-13T13:42:06 * Berry-Punch jette un muffin sur lezarius
+2014-06-13T13:42:06 <adriens33> !muffin lezarius
+2014-06-13T13:45:16 <BronyCUB-MC> xxl33270 has joined the server!
+2014-06-13T13:45:43 <BronyCUB-MC> xxl33270: adrien go mc ?
+2014-06-13T13:48:11 *** heuzef est parti
+2014-06-13T13:50:34 <adriens33> je peux pas lezarius, je suis au boulot là…
+2014-06-13T13:50:41 <Berry-Punch> Commandes *hic* disponibles :
+2014-06-13T13:50:41 <Berry-Punch> say do flag reload stop op *hic* list voice help devoice history muffin deop
+2014-06-13T13:50:46 <Berry-Punch> Entrez help <commande> pour avoir de l'aide sur cette *hic* commande.
+2014-06-13T13:50:50 <Berry-Punch> Liste les commandes utilisables. *hic* 
+2014-06-13T13:50:58 <Berry-Punch> Fait parler *hic* le bot.
+2014-06-13T13:50:58 <Berry-Punch> !say <du *hic* texte>
+2014-06-13T13:51:29 <Berry-Punch> Entrez help *hic* <commande> pour avoir de l'aide sur cette commande.
+2014-06-13T13:51:29 <adriens33> !help
+2014-06-13T13:51:32 <Berry-Punch> Liste *hic* les commandes utilisables.
+2014-06-13T13:51:32 <adriens33> !help list
+2014-06-13T13:51:36 <Berry-Punch> Gère *hic* les flags user/canal.
+2014-06-13T13:51:36 <Berry-Punch> flag: état de *hic* vos flags
+2014-06-13T13:51:36 <Berry-Punch> flag get <user>: *hic* flags enregistrés pour user
+2014-06-13T13:51:36 <Berry-Punch> flag set <flags> <user>: modifie les flags enregistrés de user *hic* en flags
+2014-06-13T13:51:36 <Berry-Punch> flag mod <flags> [user]: modifie les flags actuels de user (ou du canal *hic* si pas d'user précisé)
+2014-06-13T13:51:36 <adriens33> !help flag
+2014-06-13T13:52:01 <Berry-Punch> Donne le flag +v *hic* à quelqu'un.
+2014-06-13T13:52:01 <Berry-Punch> !voice <user> *hic* 
+2014-06-13T13:52:01 <Berry-Punch> équivalent de !flag *hic* mod +v <user>
+2014-06-13T13:52:01 <adriens33> !help voice
+2014-06-13T13:52:16 <Berry-Punch> Affiche les 10 *hic* dernières lignes de l'historique.
+2014-06-13T13:52:16 <adriens33> !help history
+2014-06-13T13:52:26 <adriens33> voilà, y'a de l'aide maintenant :D
+2014-06-13T13:55:59 *** ValCab33 est parti
+2014-06-13T13:56:21 *** ValCab33 s'est connecté
+2014-06-13T13:57:44 <Berry-Punch> Commandes *hic* disponibles :
+2014-06-13T13:57:44 <Berry-Punch> say do flag reload stop op list kick voice *hic* help devoice history muffin deop
+2014-06-13T13:57:50 <Berry-Punch> Kicke (vire) quelqu'un *hic* du canal.
+2014-06-13T13:57:50 <Berry-Punch> !kick *hic* <nom> [raison]
+2014-06-13T13:57:54 *** Gordfang s'est connecté
+2014-06-13T13:58:12 *** BerryPunchBot s'est connecté
+2014-06-13T13:58:31 <adriens33> bon
+2014-06-13T13:58:38 <adriens33> on va tester la nouvelle commande >:)
+2014-06-13T13:58:49 <adriens33> !kick jeankevindu33 pas de kikoulol ici
+2014-06-13T13:58:55 <adriens33> YEAH
+2014-06-13T13:59:04 <Shinsaber> XD
+2014-06-13T13:59:20 <adriens33> j'aime ce bot
+2014-06-13T13:59:21 <adriens33> :D
+2014-06-13T13:59:31 <Berry-Punch> merci *hic* <3
+2014-06-13T14:02:44 <BronyCUB-MC> xxl33270: adriens33 tu as une ferme a montou toi nan ? Ou vous faite les pixel art en gm ?
+2014-06-13T14:02:49 <adriens33> nop
+2014-06-13T14:03:01 <adriens33> shinsaber & moi faisons nos pixelarts en créative
+2014-06-13T14:03:26 <adriens33> tu veux passer en créa ?
+2014-06-13T14:03:44 <BronyCUB-MC> xxl33270: Non je build une maison avec les mur en laine blanche ='(
+2014-06-13T14:03:48 <adriens33> ah ok
+2014-06-13T14:03:51 <adriens33> bon courage alors /D
+2014-06-13T14:03:53 <adriens33> *:D
+2014-06-13T14:06:25 <BronyCUB-MC> xxl33270: On peux pas recolo les mouton en blanc ?
+2014-06-13T14:06:39 <Shinsaber> poudre dos
+2014-06-13T14:07:04 <adriens33> la poudre d'os ça fait le café :þ
+2014-06-13T14:07:26 <Shinsaber> je préfère le thé ^^
+2014-06-13T14:09:51 <adriens33> …
+2014-06-13T14:10:06 <adriens33> Berry préfère la vodka :3
+2014-06-13T14:10:06 <Berry-Punch> Qu'est-ce que *hic* j'ai soif…
+2014-06-13T14:10:28 <adriens33> tu veux un verre ?
+2014-06-13T14:10:28 <Berry-Punch> Tu en as *hic* pour moi adriens33 ?
+2014-06-13T14:10:43 <adriens33> pas de suite, mais ça peut se faire ;)
+2014-06-13T14:10:54 <adriens33> (punaise, je discute avec un bot, ça va pas bien là-haut …)
+2014-06-13T14:11:00 <Shinsaber> XD
+2014-06-13T14:12:03 <adriens33> @lezarius: pour ta maison en laine fais gaffe aux briquets et autres mobs qui y foutraient le feu bien volontiers
+2014-06-13T14:12:40 <Shinsaber> ou la foudre (j'ai déjà vu ^^ )
+2014-06-13T14:12:50 <adriens33> ^^
+2014-06-13T14:12:57 <adriens33> ou les BobLennon sauvages :D
+2014-06-13T14:13:03 <Shinsaber> XD
+2014-06-13T14:13:20 <adriens33> (déjà plus rare, mais beaucoup plus dangereux)
+2014-06-13T14:14:37 <Berry-Punch> Commandes *hic* disponibles :
+2014-06-13T14:14:38 <Berry-Punch> say *hic* do flag reload stop op list kick voice help devoice history muffin deop
+2014-06-13T14:15:03 <Berry-Punch> Jette un muffin sur quelqu'un. *hic* 
+2014-06-13T14:15:03 <Berry-Punch> !muffin *hic* <user>
+2014-06-13T14:15:12 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, *hic* adriens33
+2014-06-13T14:21:48 <lezarius> http://fc03.deviantart.net/fs71/f/2012/168/b/9/vinyl_scratch_pixel_art_by_kingphonix-d53tnd2.png
+2014-06-13T14:21:51 <lezarius> Troll
+2014-06-13T14:22:18 <Shinsaber> XD pas mal ^^
+2014-06-13T14:22:32 *** heuzef s'est connecté
+2014-06-13T14:23:13 *** wildfier s'est connecté
+2014-06-13T14:23:17 <wildfier> re
+2014-06-13T14:23:31 <BronyCUB-MC> xxl33270: Salut wild
+2014-06-13T14:24:39 <BronyCUB-MC> xxl33270: Rha me rappelle plus comment on fait le model d'etho pour une tour a mob xD
+2014-06-13T14:26:19 <adriens33> re
+2014-06-13T14:34:39 *** Shinsaber est parti
+2014-06-13T14:43:58 <heuzef> Bon c'est cuit pour demain .... :(
+2014-06-13T14:44:09 <heuzef> On bascule la formation
+2014-06-13T14:44:16 <heuzef> Au Mardi 17
+2014-06-13T14:44:29 <heuzef> Pas sur que ce soit mieux ...
+2014-06-13T14:44:35 <heuzef> Pour ma part déjà je ne serais pas la
+2014-06-13T14:46:44 <ValCab33> Mardi peut pas non plus
+2014-06-13T14:48:00 <adriens33> mardi toute la journée ?
+2014-06-13T14:48:03 <adriens33> ben déjà c'est mort pour moi :(
+2014-06-13T14:48:21 <adriens33> (fait vraiment chier…)
+2014-06-13T14:48:25 <heuzef> Oui ><
+2014-06-13T14:48:27 <wildfier> idem pour moi ...
+2014-06-13T14:48:38 <adriens33> nan, le samedi c'était l'idéal.
+2014-06-13T14:48:46 <heuzef> Faut croire que non
+2014-06-13T14:48:51 <wildfier> samedi prochain ? si je peux me libérer
+2014-06-13T14:48:58 <adriens33> faut croire surtout qu'il y a pas grand monde de motivé :(
+2014-06-13T14:49:03 <wildfier> plutôt oui
+2014-06-13T14:49:07 <heuzef> Possible aussi
+2014-06-13T14:49:14 <adriens33> @wildfier pour ça faut qu'il y ait une séance samedi non ?
+2014-06-13T14:49:42 <wildfier> bas le 21 c'était pas la première date choisie ?
+2014-06-13T14:50:10 <adriens33> exact
+2014-06-13T14:50:17 <adriens33> c'est vrai
+2014-06-13T14:50:34 <adriens33> mais bon perso le 21 je vais avoir du mal
+2014-06-13T14:50:39 <heuzef> Sur 11 personnes que j'ai questionné il y'en à 9 qui sont chaud et 2 contre
+2014-06-13T14:50:53 <adriens33> le 20 je rend mon rapport et le 23 j'ai ma soutenance
+2014-06-13T14:50:58 <adriens33> donc le 21 je serais au taquet :'(
+2014-06-13T14:51:35 <heuzef> La motivation semble être présente, même si j'ai pas questionné tous le monde
+2014-06-13T14:51:41 <heuzef> Ou alors la date était mauvaise
+2014-06-13T14:51:47 <heuzef> Bref c'est dommage
+2014-06-13T14:53:46 <heuzef> Bon pour la peine Dimanche on se venge
+2014-06-13T14:53:54 <adriens33> ^^
+2014-06-13T14:54:04 <adriens33> on fait une orgie
+2014-06-13T14:54:06 <adriens33> ?
+2014-06-13T14:54:10 <adriens33> ah mince, y'a des mineurs :(
+2014-06-13T14:54:15 <adriens33> [TROOOOL]
+2014-06-13T14:56:07 <heuzef> ^^
+2014-06-13T15:01:47 <heuzef> adriens33 wildfier ValCab33 donc demain c'est annulé
+2014-06-13T15:01:53 <adriens33> ok
+2014-06-13T15:01:59 <heuzef> Partie remise
+2014-06-13T15:02:09 <adriens33> t'envoies un mail sur la ML je suppose ?
+2014-06-13T15:02:20 <heuzef> Nop je contact juste les inscris
+2014-06-13T15:02:24 <adriens33> ok
+2014-06-13T15:02:31 <heuzef> wildfier ?
+2014-06-13T15:02:35 * Berry-Punch jette un muffin sur wildfier
+2014-06-13T15:02:35 <adriens33> !muffin wildfier
+2014-06-13T15:02:39 <heuzef> ValCab33 ? C'est noté ?
+2014-06-13T15:02:41 <ValCab33> Oui
+2014-06-13T15:03:40 <BronyCUB-MC> xxl33270: Ma toure a mob marche pas wtf
+2014-06-13T15:04:29 <BronyCUB-MC> xxl33270: On es en peacefull ou quoi ?
+2014-06-13T15:06:02 <lezarius> adriens33: tu peux verifié le mod de difficulté ?
+2014-06-13T15:07:35 <heuzef> Bon je vais lui dire de pas basculer au 17 je le sens pas du tous
+2014-06-13T15:07:53 <heuzef> préférable de basculer un WK juillet / Aout je pense
+2014-06-13T15:10:45 <adriens33> lezarius: c'est en hard
+2014-06-13T15:10:57 <adriens33> c'est juste que le rayon de chargement des chunks est de 16 blocs
+2014-06-13T15:11:02 <adriens33> *18
+2014-06-13T15:11:10 <BronyCUB-MC> xxl33270: Merde mais ma ferme a mob produit rien WTF
+2014-06-13T15:11:15 <adriens33> et que les mobs n'apparaîssent qu'à 20 blocs minimum
+2014-06-13T15:11:23 <adriens33> donc quand t'es tout seul rien pop
+2014-06-13T15:11:26 <adriens33> je peux rien y faire
+2014-06-13T15:11:28 <adriens33> désolé
+2014-06-13T15:11:47 <BronyCUB-MC> ValCab33 has joined the server!
+2014-06-13T15:11:50 <BronyCUB-MC> ValCab33: bouh
+2014-06-13T15:11:53 <adriens33> ^^
+2014-06-13T15:11:56 <BronyCUB-MC> xxl33270: tu veux bien corrigé ça >.< C'est pas naturel ...
+2014-06-13T15:11:59 <adriens33> JE
+2014-06-13T15:12:02 <adriens33> PEUX
+2014-06-13T15:12:04 <adriens33> PAS
+2014-06-13T15:12:25 <adriens33> tu veux ptet que j'ailles à Gravelines, trouver mon dédié pour lui ajouter une barrette de ram ?
+2014-06-13T15:12:41 <adriens33> ou encore toquer chez Oracle pour qu'ils rendent java moins m**dique
+2014-06-13T15:12:44 <adriens33> ?
+2014-06-13T15:12:46 <heuzef> lol
+2014-06-13T15:12:53 * adriens33 est énervé
+2014-06-13T15:12:55 <ValCab33> x)
+2014-06-13T15:13:19 <adriens33> (ps: gravelines pour ceux qui sauraient pas c'est un des datacenter d'OVH, c'est dans le ch'nord)
+2014-06-13T15:13:49 <BronyCUB-MC> xxl33270: Au pire go prendre un serveur mincraft chez omgserv
+2014-06-13T15:13:58 <BronyCUB-MC> ValCab33: ca spawn maintenant ?
+2014-06-13T15:14:00 <BronyCUB-MC> xxl33270: Plus de probleme de serveur comme ça
+2014-06-13T15:14:13 <adriens33> tu sais
+2014-06-13T15:14:15 <adriens33> mon dédié me sert pas qu'à mc
+2014-06-13T15:14:27 <adriens33> et je le paie 3.50€/mois
+2014-06-13T15:14:31 <heuzef> lezarius si tu finance pas de souci hein ^^
+2014-06-13T15:14:33 <adriens33> donc je le lacherais pas XD
+2014-06-13T15:14:57 <adriens33> et ouais, si t'es si content t'as qu'à en acheter un de serveur minecraft ;)
+2014-06-13T15:15:05 <BronyCUB-MC> xxl33270: je regarde ça ValCab33 le temps que je monte a la tour xD
+2014-06-13T15:15:07 <adriens33> (grmbl)
+2014-06-13T15:15:16 <adriens33> OUI
+2014-06-13T15:15:19 <adriens33> quand vous êtes deux
+2014-06-13T15:15:22 <adriens33> minimum
+2014-06-13T15:15:24 <adriens33> ça marche
+2014-06-13T15:15:34 <adriens33> c'est juste que quand qqn joue tout seul c'est un peu vide
+2014-06-13T15:15:42 <adriens33> c'est con mais c'est minecraft
+2014-06-13T15:15:55 <BronyCUB-MC> xxl33270: adriens j'aimerais juste joué tranquille avec vous.
+2014-06-13T15:15:55 <adriens33> en tout cas la 1.6.4 le faisait pas et j'ai els mêmes settings sur mon minecraft perso.
+2014-06-13T15:16:09 <adriens33> mais comme on peut pas mettre la 1.6.4 sans perdre toute la map…
+2014-06-13T15:16:57 <BronyCUB-MC> xxl33270: Laise tomber tu sais quoi ...
+2014-06-13T15:17:14 <adriens33> bah y'a pas de soucis, mais tu connais le proverbe:
+2014-06-13T15:17:25 <adriens33> les conseilleurs ne sont pas les payeurs.
+2014-06-13T15:17:25 <adriens33> ;)
+2014-06-13T15:18:07 <adriens33> donc je fais mon boulot comme je peux, si c'est lent et que ça buggue faut se plaindre à mojang/oracle, pas à moi.
+2014-06-13T15:18:07 <Berry-Punch> Ta femme te le dit souvent *hic* :þ
+2014-06-13T15:18:19 <adriens33> XD
+2014-06-13T15:18:21 <BronyCUB-MC> xxl33270: adapté la techno et ne plus utilisé bukkit peux etre une solution
+2014-06-13T15:18:33 <adriens33> bukkit est le moins pourri et le plus simple des trucs
+2014-06-13T15:18:38 <adriens33> en plus il est open source
+2014-06-13T15:18:42 <adriens33> contrairement au serveur vanilla
+2014-06-13T15:19:05 <adriens33> le pb concrètement, c'est java qui a un garbage collector merdique et totalement fainéant.
+2014-06-13T15:19:15 <adriens33> (et mes 2go de ram aussi dans une moindre mesure, mais bon)
+2014-06-13T15:19:17 <lezarius> http://www.spigotmc.org/
+2014-06-13T15:19:21 <adriens33> no
+2014-06-13T15:19:23 <adriens33> pas spigot
+2014-06-13T15:19:29 <adriens33> on a vu ce que ça a donné merci
+2014-06-13T15:19:30 <lezarius> Go learn more about this.
+2014-06-13T15:19:34 <adriens33> j'ai un bukkit depuis 2 ans
+2014-06-13T15:19:38 <adriens33> qui marche très bien
+2014-06-13T15:19:40 <adriens33> jamais planté
+2014-06-13T15:19:46 <adriens33> pourtant j'ai une blinde de plugins dessus.
+2014-06-13T15:19:52 <adriens33> mais moi je suis en stable, c'tout.
+2014-06-13T15:20:23 <adriens33> des qu'une stable sort en mini 1.7.2 je migrerai dessus
+2014-06-13T15:20:31 <adriens33> mais en attendant faudra faire avec ce qu'on a
+2014-06-13T15:21:26 <heuzef> Oui et vu le retour d'experience lezarius vs adriens33 le choix et vite fait si tu veux mon avis ;)
+2014-06-13T15:22:05 <adriens33> @lezarius: si t'as une soluce pour avoir un serveur stable, en C/C++, pas trop prise de tête à configurer et avec une API qui permet de mettre des plugins, je suis preneur
+2014-06-13T15:22:20 <adriens33> (et qui plante pas tous les deux jours, cela va de soi)
+2014-06-13T15:22:39 <BronyCUB-MC> xxl33270: @Minefield bossez dessus as une époque je sais pas ou ça en ait
+2014-06-13T15:22:48 <adriens33> le seul truc que j'ai vu
+2014-06-13T15:22:50 <adriens33> était bien
+2014-06-13T15:22:54 <adriens33> mais vieille version
+2014-06-13T15:22:57 <adriens33> de mc
+2014-06-13T15:23:01 <adriens33> et surtout pas complet
+2014-06-13T15:23:07 <adriens33> et pas grand chose de configurable
+2014-06-13T15:23:14 <adriens33> mais très léger et relativement stable;
+2014-06-13T15:24:24 <BronyCUB-MC> xxl33270: ValCab33 tu es ou ? j'aimerais bien visité xD
+2014-06-13T15:28:55 <BronyCUB-MC> ValCab33: je n'en ai aucune idée. Certainement au spawn
+2014-06-13T15:29:16 <adriens33> @valcab33 tu epux avoir tes coordonnées x & z en appuyant sur f3
+2014-06-13T15:29:31 <adriens33> (ah, mais t'es sur ta version téléphone ?)
+2014-06-13T15:29:35 <BronyCUB-MC> ValCab33: ué mais j'ai plus d'ordi
+2014-06-13T15:29:39 <adriens33> ah
+2014-06-13T15:29:41 <BronyCUB-MC> ValCab33: ^^
+2014-06-13T15:29:41 <adriens33> c'est vria
+2014-06-13T15:29:50 <adriens33> paas de top
+2014-06-13T15:29:52 <adriens33> *pot
+2014-06-13T15:31:09 <BronyCUB-MC> xxl33270 has quit the server!
+2014-06-13T15:31:57 <BronyCUB-MC> ValCab33 has quit the server!
+2014-06-13T15:40:24 *** Shinsaber s'est connecté
+2014-06-13T15:40:48 <adriens33> re shinsaber :)
+2014-06-13T15:40:53 <Shinsaber> re
+2014-06-13T15:41:10 <heuzef> Yo Shinsaber
+2014-06-13T15:41:25 <heuzef> Comment ça va ?
+2014-06-13T15:41:52 <Shinsaber> je vais peu être la pour samedi, merci la grève SNCF
+2014-06-13T15:41:59 <adriens33> ah
+2014-06-13T15:42:01 <adriens33> heu
+2014-06-13T15:42:05 <adriens33> c'est annulé
+2014-06-13T15:42:08 <adriens33> pas assez de monde :(
+2014-06-13T15:42:18 <Shinsaber> avec moi en plus sa fais 6
+2014-06-13T15:42:21 <Shinsaber> XD
+2014-06-13T15:42:26 <adriens33> @heuzef ?
+2014-06-13T15:42:53 <Shinsaber> il faux ètre une 10ène je crois ^^
+2014-06-13T15:46:36 <heuzef> oui ...
+2014-06-13T15:46:45 <heuzef> Faudrait encore au moins 3 personnes
+2014-06-13T15:46:52 <heuzef> C'est cuit
+2014-06-13T15:47:13 <Shinsaber> mauvais départ .... pas cool
+2014-06-13T15:47:20 <heuzef> :(
+2014-06-13T15:48:52 <adriens33> bah, on se rattrapera la prochaine fois !
+2014-06-13T15:48:59 <heuzef> ui =)
+2014-06-13T15:49:00 <adriens33> un verre berry ?
+2014-06-13T15:49:00 <Berry-Punch> Qu'est-ce que j'ai soif… *hic* 
+2014-06-13T15:49:05 <heuzef> Shinsaber ?
+2014-06-13T15:49:11 <Shinsaber> yep
+2014-06-13T16:00:58 <heuzef> re pardon
+2014-06-13T16:01:04 <heuzef> Shinsaber Ileana t'as contacté ?
+2014-06-13T16:01:33 <Shinsaber> who is that ?
+2014-06-13T16:01:50 <heuzef> Bon ça m'étonne pas, timide comme elle est
+2014-06-13T16:02:09 <heuzef> Mais bon il serait temps de vous y mettre à 2 pour mettre au point votre idée commune
+2014-06-13T16:02:27 <heuzef> Organiser un lasergame
+2014-06-13T16:02:52 <Shinsaber> je l'avais un peu oublier sa XD
+2014-06-13T16:03:12 <heuzef> Moi j'oublie pas ;) Tu la contacte en premier ?
+2014-06-13T16:03:57 <Shinsaber> je l'avais un peu oublier sa XD
+2014-06-13T16:04:07 <Shinsaber> fail enter
+2014-06-13T16:04:23 <Shinsaber> elle passe pas sur l'IRC des fois
+2014-06-13T16:04:24 <Shinsaber> ?
+2014-06-13T16:05:50 <heuzef> Elle veux y passer
+2014-06-13T16:05:58 <heuzef> Mais elle n'y passera pas
+2014-06-13T16:06:18 <heuzef> Elle est en mode fluttershy :/
+2014-06-13T16:06:26 <Shinsaber> a oki ^^
+2014-06-13T16:06:37 <Shinsaber> mail alors XD
+2014-06-13T16:06:37 <adriens33> dommage
+2014-06-13T16:06:59 <wildfier> t'as son adresse ?
+2014-06-13T16:06:59 <heuzef> La connaissant
+2014-06-13T16:07:06 <heuzef> La premiere approche par SMS me sembe une bonne idée
+2014-06-13T16:07:07 <wildfier> (moi stalker ? non :) )
+2014-06-13T16:08:10 <adriens33> :þ
+2014-06-13T16:09:39 <heuzef> Shinsaber tu as tous ce qu'il te faut ?
+2014-06-13T16:13:47 *** Renard s'est connecté
+2014-06-13T16:15:09 <heuzef> Renard ^^
+2014-06-13T16:16:57 <wildfier> yop
+2014-06-13T16:17:06 <Shinsaber> salut
+2014-06-13T16:17:27 <adriens33> hellow :D
+2014-06-13T16:42:07 <wildfier> heuzef
+2014-06-13T16:42:11 <wildfier> prepare to be amazed
+2014-06-13T16:42:15 <Shinsaber> @heuzef : http://nastylady.deviantart.com/art/My-Little-Steampunk-Dentist-301914899
+2014-06-13T16:44:04 <adriens33> nice one :D
+2014-06-13T16:47:55 <heuzef> Magnifique
+2014-06-13T17:01:57 *** MaCharon s'est connecté
+2014-06-13T17:02:08 <MaCharon> slt all
+2014-06-13T17:02:10 <heuzef> plop
+2014-06-13T17:02:29 <MaCharon> enfin on peut se co ^^
+2014-06-13T17:02:43 <MaCharon> deux jours que ça voulait pas
+2014-06-13T17:02:52 <heuzef> 2 jours :(
+2014-06-13T17:03:11 <MaCharon> eh ouai tout ça XD
+2014-06-13T17:03:19 <Berry-Punch> adriens33 a le(s) flag(s) *hic* : +v
+2014-06-13T17:03:19 <Berry-Punch> Gère les flags *hic* user
+2014-06-13T17:03:19 <Berry-Punch> Options: *hic* Options:
+2014-06-13T17:03:19 <Berry-Punch> - get <user>: récupère les flags de user *hic* 
+2014-06-13T17:03:19 <Berry-Punch> - *hic* set <flags> <user>: modifie les flags de user
+2014-06-13T17:03:19 <Berry-Punch> - mod <flags> [user]: modifie les flags de user (ou *hic* du canal) maintenant
+2014-06-13T17:03:28 <Berry-Punch> Flags de MaCharon modifiés *hic* en +v
+2014-06-13T17:03:34 <Berry-Punch> Flags de MaCharon modifiés : +v *hic* 
+2014-06-13T17:03:34 <adriens33> !voice MaCharon
+2014-06-13T17:03:37 <heuzef> adriens33 il faut systématiquement vérifier que kiwiirc fonctionne à chacune de tes modifs maintenant
+2014-06-13T17:03:52 <adriens33> non
+2014-06-13T17:03:53 <adriens33> mais
+2014-06-13T17:03:55 <adriens33> en fait
+2014-06-13T17:03:58 <adriens33> c'est pas mes modifs le pb
+2014-06-13T17:04:04 <heuzef> ha ?
+2014-06-13T17:04:04 <adriens33> c'était un foutu flag de merde
+2014-06-13T17:04:09 <adriens33> sur le canal
+2014-06-13T17:04:12 <adriens33> "r"
+2014-06-13T17:04:15 <adriens33> qui est arrivé je sais pâs comment
+2014-06-13T17:04:23 <heuzef> Hmmm
+2014-06-13T17:04:26 <MaCharon> moi ça me mettait rien, c'etait juste en constante recherche du canal
+2014-06-13T17:04:28 <adriens33> le pb c'est que pour les gens qui sont inscrits ça se voit pas
+2014-06-13T17:04:53 <MaCharon> enfin pg maintenant
+2014-06-13T17:04:58 <heuzef> Si
+2014-06-13T17:05:05 <heuzef> On ne sais pas comment ce flag est arrivé
+2014-06-13T17:05:12 <heuzef> donc on considére qu'il va revenir
+2014-06-13T17:05:15 <adriens33> sans doute moi, une fausse manip
+2014-06-13T17:05:21 <MaCharon> ah ben dans ces cas la effectivement
+2014-06-13T17:05:25 <heuzef> "sans doute" :/
+2014-06-13T17:05:26 <adriens33> weechat m'affiche les flags du cana
+2014-06-13T17:05:28 <adriens33> *canal
+2014-06-13T17:05:32 <adriens33> (+cnt)
+2014-06-13T17:05:50 <adriens33> sans doute quand j'ai codé la gestion des flags
+2014-06-13T17:06:05 <adriens33> mais bon là ça marche et j'ai fini donc ça devrait plus poser de pb
+2014-06-13T17:06:11 <adriens33> surtout que maintenant je l'ai à l'œil
+2014-06-13T17:06:20 <heuzef> "ça devrait" ...
+2014-06-13T17:06:30 <adriens33> ……
+2014-06-13T17:06:32 <MaCharon> XD
+2014-06-13T17:06:34 <adriens33> tu veux que je te dise quoi ?
+2014-06-13T17:06:36 <adriens33> je suis étourdi, désolé.
+2014-06-13T17:06:41 <adriens33> point.
+2014-06-13T17:06:43 <adriens33> content ?
+2014-06-13T17:06:56 <heuzef> Qu'on analyse le truc un peu mieux ? On ne sais même pas si c'est toi qui à causé le truc
+2014-06-13T17:07:16 <adriens33> je bosse depuis 2 jours sur un bot et j'ai fait des essais sur les flags.
+2014-06-13T17:07:21 <adriens33> un flag ça vient pas tout seul
+2014-06-13T17:07:37 <adriens33> (non, je parle pas de celui des USA :þ)
+2014-06-13T17:07:41 <heuzef> ok ok ^^ je te fais confiance
+2014-06-13T17:08:23 <adriens33> désolé, 'suis un peu à cran, un truc qui veut pas marcher là, alors que ce matin ça tournait.
+2014-06-13T17:08:30 <adriens33> puis fin de semaine
+2014-06-13T17:08:35 <heuzef> ;)
+2014-06-13T17:08:38 <adriens33> puis ma soutenance qu'est la semaine prochaine
+2014-06-13T17:08:56 <heuzef> Ba du coup demain matin grâce mat puisque la formation est annulé
+2014-06-13T17:08:59 <heuzef> voila pour la peine
+2014-06-13T17:09:00 <adriens33> j'ai plus de chèque, le proprio devait me rappeler pour me filer son IBAN que je lui vire le loyer
+2014-06-13T17:09:09 <adriens33> auquel j'ai 8 jours de retard…
+2014-06-13T17:09:21 <heuzef> lol ba alors ne t'en fait pas
+2014-06-13T17:09:26 <heuzef> il va te l'envoyer
+2014-06-13T17:09:30 <heuzef> sans faute xD
+2014-06-13T17:09:36 <adriens33> ben il m'a dit hier qu'il me rappellerai ajd
+2014-06-13T17:10:02 <heuzef> Lol ba spa grave s'il est pas pressé hein
+2014-06-13T17:10:08 <heuzef> Donne lui ton mail et fuck
+2014-06-13T17:10:52 <adriens33> ben j'ai que son tel, et je me suis bien assuré qu'il avait mon numéro
+2014-06-13T17:11:04 <heuzef> Rappel le va, ça montre que tu es sérieux
+2014-06-13T17:11:09 *** Ovnize s'est connecté
+2014-06-13T17:11:36 <adriens33> je vais essayer de me calmer avant peut-être
+2014-06-13T17:11:36 <Ovnize> Bonjour.
+2014-06-13T17:11:37 <heuzef> Que t'es pas le genre de mec a délaisser ton apparte en laissant trainer un million de bouteilles ice thea
+2014-06-13T17:11:38 <adriens33> salut
+2014-06-13T17:11:40 <heuzef> Ovnize =)
+2014-06-13T17:11:42 <adriens33> @heuzef
+2014-06-13T17:11:45 <Shinsaber> Salut
+2014-06-13T17:11:46 <adriens33> :(
+2014-06-13T17:11:48 <adriens33> merci…
+2014-06-13T17:11:59 <Berry-Punch> Flags de *hic* Ovnize modifiés : +v
+2014-06-13T17:11:59 <heuzef> !voice Ovnize
+2014-06-13T17:12:09 <MaCharon> lt
+2014-06-13T17:12:10 <heuzef> adriens33 rooo ba alors t'es pas de bonne humeur auourd'hui toi
+2014-06-13T17:12:12 <MaCharon> slt*
+2014-06-13T17:12:15 <adriens33> nope
+2014-06-13T17:12:26 * Berry-Punch jette un muffin sur adriens33
+2014-06-13T17:12:26 <heuzef> !muffin adriens33
+2014-06-13T17:12:41 <heuzef> Soit joviale, c'est un ordre
+2014-06-13T17:12:49 <wildfier> salut (en retard)
+2014-06-13T17:13:11 <adriens33> disons qu'en ce moment là c'est mal barré heuzef…
+2014-06-13T17:13:11 <heuzef> wildfier tu as bien noté pour demain ? Formation annulé
+2014-06-13T17:13:19 <heuzef> adriens33 tu as des soucis ?
+2014-06-13T17:13:43 *** Gordfang est parti
+2014-06-13T17:13:49 <heuzef> Ha au faite
+2014-06-13T17:13:53 <heuzef> !welcome Ovnize
+2014-06-13T17:14:07 <adriens33> ah tiens, j'ai oublié de remettre ce truc
+2014-06-13T17:14:07 <heuzef> Ha zut n'as pluuuus :S
+2014-06-13T17:14:10 <Ovnize> D'accord. x]
+2014-06-13T17:14:24 *** ravien s'est connecté
+2014-06-13T17:14:35 <heuzef> Pour la peine c'est ravien qui va prendre
+2014-06-13T17:14:39 <ravien> bonjour
+2014-06-13T17:14:40 * Berry-Punch jette un muffin sur ravien
+2014-06-13T17:14:40 <heuzef> !muffin ravien
+2014-06-13T17:14:45 <heuzef> xD
+2014-06-13T17:14:49 <ravien> 'k  ._.
+2014-06-13T17:14:51 <Ovnize> Bonjour Ravien, tu es nouveau ?
+2014-06-13T17:14:54 <heuzef> nop
+2014-06-13T17:14:57 <Shinsaber> salut
+2014-06-13T17:15:05 <Berry-Punch> Flags de ravien *hic* modifiés : +v
+2014-06-13T17:15:05 <heuzef> !voice ravien
+2014-06-13T17:15:05 <ravien> je crois
+2014-06-13T17:15:06 <Ovnize> ^,^
+2014-06-13T17:15:36 <wildfier> je re
+2014-06-13T17:15:41 *** wildfier est parti
+2014-06-13T17:15:46 <Berry-Punch> Flags de ravien modifiés en +v *hic* 
+2014-06-13T17:15:46 <adriens33> !flag set +v ravien
+2014-06-13T17:16:03 <heuzef> Ovnize ravien la formation de demain est annulé par manque de monde
+2014-06-13T17:16:08 <ravien> ~
+2014-06-13T17:16:09 <ravien> mince :I
+2014-06-13T17:16:24 <Ovnize> Ah...
+2014-06-13T17:16:31 <Ovnize> Ma mère voulait pas me laisser sortir de toutes façons.
+2014-06-13T17:16:38 <heuzef> Mouais pas cool ... ça montre aussi qu'on est pas au point sur la communication de groupe
+2014-06-13T17:16:45 <ravien> du coup elle est reporter ?
+2014-06-13T17:16:45 <heuzef> Enfin bon, partie remise, cet été sans doute
+2014-06-13T17:16:54 <Berry-Punch> Bienvenue sur le chat de BronyCUB, Ovnize *hic* ! Amuse-toi bien !
+2014-06-13T17:16:54 <adriens33> !welcome Ovnize
+2014-06-13T17:17:09 <heuzef> Mardi 17 si vous voulez, mais je vais pas faire d'annonce
+2014-06-13T17:17:09 * adriens33 yays internally
+2014-06-13T17:17:21 <Berry-Punch> Bienvenue sur le chat de BronyCUB, ravien ! Amuse-toi bien *hic* !
+2014-06-13T17:17:21 <heuzef> !welcome ravien
+2014-06-13T17:17:41 <heuzef> Ha oui et aussi la présentation de berry :o
+2014-06-13T17:17:43 <Ovnize> omg http://up.ovnize.net/117eb.png
+2014-06-13T17:17:45 <heuzef> C'été cool ça
+2014-06-13T17:17:51 <adriens33> ah
+2014-06-13T17:17:51 <ravien> je suis pas la mardi 17 >-<
+2014-06-13T17:17:52 <adriens33> oui
+2014-06-13T17:17:55 <adriens33> faudra que je la remette
+2014-06-13T17:18:00 <Berry-Punch> Souhaite la bienvenue à *hic* quelqu'un
+2014-06-13T17:18:00 <Berry-Punch> !welcome <user> *hic* 
+2014-06-13T17:18:41 <Shinsaber> @heuzef : comme demain ses annulé je pensais proposée de faire un tour au miroir d'eau l'aprèm pour ce voir ^^
+2014-06-13T17:19:22 <heuzef> Pourquoi pas
+2014-06-13T17:19:32 <heuzef> Mais je viens que si les CMC viennent aussi
+2014-06-13T17:19:45 <adriens33> ah
+2014-06-13T17:19:56 <adriens33> pourquoi cette condition ?
+2014-06-13T17:20:00 <adriens33> (moi je viendrais bien tiens)
+2014-06-13T17:20:06 <adriens33> (btw)
+2014-06-13T17:20:11 <Ovnize> Mais il faudrait que Clémence vienne aussi si tu veux que les CMC viennent.
+2014-06-13T17:20:15 <Shinsaber> j'ai un frisbee ^^
+2014-06-13T17:20:17 <ravien> ouais :I
+2014-06-13T17:20:19 <adriens33> ce bazar >_<
+2014-06-13T17:20:27 <heuzef> Oui bon ba sans clémence evidement
+2014-06-13T17:20:32 <ravien> moi j'ai un ballon dans mon jardin
+2014-06-13T17:20:42 <Ovnize> Moi je peux amener mon PC au miroir d'eau. ^,^
+2014-06-13T17:20:46 <adriens33> hmm
+2014-06-13T17:20:48 <Shinsaber> XD
+2014-06-13T17:20:52 <adriens33> pc+eau = dégâts
+2014-06-13T17:20:55 <heuzef> Moi j'ai des raquette de badminton
+2014-06-13T17:21:00 <Shinsaber> facehoof
+2014-06-13T17:21:02 <ravien> ah bon ?
+2014-06-13T17:21:02 <Ovnize> Sauf si mon PC est magique.
+2014-06-13T17:21:03 <MaCharon> mais nn ça va le rafraichir^^
+2014-06-13T17:21:12 <Ovnize> Sauf qu'il est magique alors ça va.
+2014-06-13T17:21:13 <adriens33> j'ai un collègue qui a une raquette à moustiques, ça compte ?
+2014-06-13T17:21:25 <heuzef> xD
+2014-06-13T17:21:32 <adriens33> (les raquettes qui tuent les moustiques avec des décharges)
+2014-06-13T17:21:42 <heuzef> Trop bon ça
+2014-06-13T17:21:52 <Shinsaber> il en faux plusieur pour faire une bataille XD
+2014-06-13T17:21:58 <MaCharon> faux faire gaffe a pas la faire tomber dans l'eau
+2014-06-13T17:22:07 <adriens33> raquette !!
+2014-06-13T17:22:08 <Shinsaber> Tazer like
+2014-06-13T17:22:12 <adriens33> attaque 100 000 volts !
+2014-06-13T17:22:20 * adriens33 prends le jus
+2014-06-13T17:22:35 <adriens33> gheût.
+2014-06-13T17:22:45 <Ovnize> Je reviens, deux secondes.
+2014-06-13T17:22:47 <adriens33> ++
+2014-06-13T17:22:48 <adriens33> :)
+2014-06-13T17:22:49 *** Ovnize est parti
+2014-06-13T17:23:34 *** Ovnize s'est connecté
+2014-06-13T17:23:37 <Ovnize> Re.
+2014-06-13T17:23:38 <Berry-Punch> Bienvenue sur le *hic* chat de BronyCUB, me !
+2014-06-13T17:23:38 <Berry-Punch> Amuse-toi *hic* bien !
+2014-06-13T17:23:43 <heuzef> Nan mais wuuuaaaat ! https://www.youtube.com/watch?v=yZXOYdCXiAE
+2014-06-13T17:23:43 <heuzef> J'ai perdus des neurones la ....
+2014-06-13T17:24:01 <adriens33> (dsl, c'était un test)
+2014-06-13T17:24:39 <adriens33> bon je go chez moi
+2014-06-13T17:24:42 <adriens33> à toute
+2014-06-13T17:24:45 *** adriens33 est parti
+2014-06-13T17:24:46 <Ovnize> A+
+2014-06-13T17:25:20 <MaCharon> omg cette video
+2014-06-13T17:25:21 * Shinsaber se pend !
+2014-06-13T17:25:28 <heuzef> :D
+2014-06-13T17:25:36 <Shinsaber> c'est quoi cette vidéo
+2014-06-13T17:25:53 <heuzef> Zeeee thiiird dimenssssiooooonnnn :D
+2014-06-13T17:25:57 <Ovnize> Sauf que je suis plus voice là. x]
+2014-06-13T17:26:03 <Berry-Punch> Flags *hic* de Ovnize modifiés : +v
+2014-06-13T17:26:03 <heuzef> !voice Ovnize
+2014-06-13T17:26:14 <Ovnize> Merci !
+2014-06-13T17:26:28 <heuzef> Allez une autre :P
+2014-06-13T17:26:29 <heuzef> https://www.youtube.com/watch?v=OV1aLHxhkP0
+2014-06-13T17:30:01 <Ovnize> Il faut que je bosse...
+2014-06-13T17:30:46 <ravien> venez sur la visio
+2014-06-13T17:30:49 <ravien> c'est le fun
+2014-06-13T17:33:04 <Shinsaber> bon moi je vous abandonne !! a+ /)
+2014-06-13T17:33:16 *** Shinsaber est parti
+2014-06-13T17:33:57 <heuzef> MaCharon ?
+2014-06-13T17:34:05 <MaCharon> oui ?
+2014-06-13T17:34:13 <heuzef> T'es dispo demain toi ?
+2014-06-13T17:34:58 <MaCharon> je sais pas trop, mon coloc m'avait proposé de geeker sur un jeux mais je sais pas si c'est toujours d'actualité
+2014-06-13T17:35:18 <heuzef> Ok
+2014-06-13T17:35:38 <heuzef> Pour la sortie demain je suis moyen motiver vu comment il fait chaud
+2014-06-13T17:36:08 <MaCharon> ben si j'ai rien d'autre ça me dérange pas a prioiri
+2014-06-13T17:36:37 <heuzef> Ba ça serait bien que tu croise d'autre monde que moi et lezarius
+2014-06-13T17:37:55 <MaCharon> ben deja il y a la sortie de dimanche nn ?
+2014-06-13T17:38:10 <heuzef> ui
+2014-06-13T17:47:01 *** Renard est parti
+2014-06-13T17:47:49 *** ravien est parti
+2014-06-13T18:29:34 <BronyCUB-MC> Tanguy100 has joined the server!
+2014-06-13T18:40:43 <heuzef> Coucou sur MC
+2014-06-13T18:40:44 <heuzef> ^^
+2014-06-13T18:42:44 <BronyCUB-MC> Tanguy100 has quit the server!
+2014-06-13T18:51:00 *** Renard s'est connecté
+2014-06-13T18:51:35 <heuzef> Toujours pas dispo pour parler Renard ? ^^
+2014-06-13T18:52:54 <Renard> :x
+2014-06-13T18:53:02 <heuzef> Ha ba si il est la ^^
+2014-06-13T18:53:06 <heuzef> Comment va ?
+2014-06-13T18:54:35 <Renard> Bieng
+2014-06-13T18:54:48 <Renard> Je prépare un meetup express dogecoin sur Paris
+2014-06-13T18:55:55 <heuzef> Dogecoin ^^
+2014-06-13T18:57:45 <heuzef> Punaise ça à bien bougé quand même
+2014-06-13T18:57:53 <heuzef> Depuis la derniere fois que j'ai vu le truc en tous cas
+2014-06-13T18:58:10 <heuzef> Renard au faite c'est bien toi qui connais Flutterbrony ?
+2014-06-13T19:01:20 <heuzef> Bon je file je suis invité à manger chez valentin ;) +++
+2014-06-13T19:01:21 <Berry-Punch> Ta femme te le *hic* dit souvent :þ
+2014-06-13T19:01:32 <heuzef> M'en parle pas ....
+2014-06-13T19:02:26 *** heuzef est parti
+2014-06-13T19:03:18 <Renard> ah bah suffit d'être même pas 5 min au tel et hop, parti
+2014-06-13T19:03:29 <Renard> Flutterbrony, aucune idée de qui c'est
+2014-06-13T19:03:33 <lezarius> Il est rapide
+2014-06-13T19:04:59 <Berry-Punch> J'ai trop bue *hic* !$
+2014-06-13T19:04:59 <lezarius> !say J'ai trop bue !$
+2014-06-13T19:04:59 <Berry-Punch> Non, c'est même pas vrai d'abord ! *hic* 
+2014-06-13T19:20:06 *** wildfier s'est connecté
+2014-06-13T19:20:19 *** wildfier est parti
+2014-06-13T19:22:18 *** wildfier s'est connecté
+2014-06-13T19:22:52 <wildfier> bon mon alim de pc est morte
+2014-06-13T19:22:52 *** lezarius est parti
+2014-06-13T19:22:57 <wildfier> et c'est super chiant de trouver un client irc sur ios ...
+2014-06-13T19:22:57 <Berry-Punch> Ta femme te le *hic* dit souvent :þ
+2014-06-13T19:26:35 *** wildfier est parti
+2014-06-13T19:38:08 <Renard> ah bah iOS aussi…
+2014-06-13T19:48:42 *** adriens33 s'est connecté
+2014-06-13T19:56:57 *** Shinsaber s'est connecté
+2014-06-13T19:57:12 <Shinsaber> rebonjour
+2014-06-13T19:57:59 <adriens33> re
+2014-06-13T19:59:50 <Shinsaber> bon je fais le mail pour proposée la balade au miroir d'eau demain ^^
+2014-06-13T20:03:27 <adriens33> ^^
+2014-06-13T20:24:19 <Ovnize> exit
+2014-06-13T20:24:24 *** Ovnize est parti
+2014-06-13T21:05:22 *** maitrepanda s'est connecté
+2014-06-13T21:05:28 <maitrepanda> aah
+2014-06-13T21:05:31 <maitrepanda> ça remarche
+2014-06-13T21:05:36 <Shinsaber> salut ^^
+2014-06-13T21:06:35 <maitrepanda> qui es-tu ?
+2014-06-13T21:06:47 <Shinsaber> Shinsaber XD
+2014-06-13T21:07:14 <adriens33> plop
+2014-06-13T21:07:20 <adriens33> désolé du désagrément
+2014-06-13T21:07:33 <adriens33> un tout petit item de config que j'avais pas vu
+2014-06-13T21:07:42 <adriens33> sans doute quand j'ai fait mumuse avec le nouveau bot
+2014-06-13T21:07:47 <adriens33> mais c'est réglé :D
+2014-06-13T21:28:12 *** ludvann s'est connecté
+2014-06-13T21:28:18 <ludvann> salut !
+2014-06-13T21:28:37 <adriens33> plope
+2014-06-13T21:28:38 <Shinsaber> Salut /)
+2014-06-13T21:28:54 <ludvann> ça va ?
+2014-06-13T21:29:20 <adriens33> pas trop mal ^^
+2014-06-13T21:29:40 <ludvann> ah ^^
+2014-06-13T21:29:53 <maitrepanda> vous venez dimanche ?
+2014-06-13T21:29:58 <ludvann> y a eut des blèmes a l'irc hier soir ^^
+2014-06-13T21:30:04 <ludvann> moi oui ^^
+2014-06-13T21:30:16 <maitrepanda> je pense aussi ^^
+2014-06-13T21:30:17 <adriens33> oui, je sais pour l'irc, c'est réparé.
+2014-06-13T21:30:19 <adriens33> my bad :D
+2014-06-13T21:31:22 <ludvann> oki panda, yes your bad adrien33
+2014-06-13T21:31:35 <Shinsaber> normalement je viens ^
+2014-06-13T21:32:18 <ludvann> cool shin'
+2014-06-13T21:32:34 <adriens33> mi aussi narmolement
+2014-06-13T21:33:20 <Shinsaber> et demain aprèm je propose de faire un tour au miroir d'eau ^
+2014-06-13T21:33:42 <adriens33> ben tant qu'à faire ^^
+2014-06-13T21:34:08 <ludvann> d'ailleurs pour dimanche, je préférerai que vous me prévenez par sms ^^
+2014-06-13T21:34:14 <maitrepanda> moi j'ai remise des prix
+2014-06-13T21:34:21 <ludvann> de quoi ?
+2014-06-13T21:34:22 <maitrepanda> et je t'ai prévenu par IRC ça passe
+2014-06-13T21:34:24 <maitrepanda> demain
+2014-06-13T21:34:34 <maitrepanda> et remise des prix pour un court métrage
+2014-06-13T21:34:37 <maitrepanda> (très court)
+2014-06-13T21:34:46 <ludvann> celui de l'aquitaine ?
+2014-06-13T21:34:54 <ludvann> dieux maitrepanda
+2014-06-13T21:35:25 <maitrepanda> ui
+2014-06-13T21:35:28 <maitrepanda> merci
+2014-06-13T21:35:44 <ludvann> de rien (mais de quoi ?)
+2014-06-13T21:35:46 <ludvann> :)
+2014-06-13T21:46:16 <ludvann> il y en a qui s'ennuie ?
+2014-06-13T21:47:20 <ludvann> ?
+2014-06-13T21:52:38 <ludvann> bon si tu t'ennuie tu peux regarder ça ^^ http://www.nasa.gov/multimedia/nasatv/
+2014-06-13T21:53:10 <Shinsaber> peu pas j'ai pas flash XD
+2014-06-13T21:53:25 <ludvann> :/
+2014-06-13T21:53:27 <ludvann> ^^
+2014-06-13T21:54:08 <maitrepanda> flash c'est de la dobe
+2014-06-13T21:54:33 <ludvann> ah, dobe *flash* player...
+2014-06-13T22:00:20 <adriens33> XD
+2014-06-13T22:00:31 <adriens33> Correction: Adobe c'est de la daube.
+2014-06-13T22:00:41 <ludvann> ouep ^^
+2014-06-13T22:00:48 <adriens33> (d'ailleurs j'me demande toujours s'ils ont pas choisi le nom de leur entreprise exprès…)
+2014-06-13T22:01:02 <ludvann> mais bien pour regrader des lives de la nasa ^^
+2014-06-13T22:53:00 <Shinsaber> bonne nuit le peuple !
+2014-06-13T22:53:08 *** Shinsaber est parti
+2014-06-13T23:22:47 <ludvann> bonne nuit les zombies !
+2014-06-13T23:22:55 <adriens33> cervooo
+2014-06-13T23:23:02 <ludvann> miam !
+2014-06-13T23:23:04 <adriens33> *traduction live: bonne nuit
+2014-06-13T23:23:08 *** ludvann est parti
+2014-06-13T23:48:17 <ValCab33> Reu
+2014-06-13T23:50:06 <adriens33> rheu

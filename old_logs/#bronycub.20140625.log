@@ -1,0 +1,658 @@
+2014-06-24T00:01:10 <Letarumavza> Mea culpa, j'avais pas flag le vérou en instruction, il l'a considéré comme inutile en réoptimisant la database.
+2014-06-24T00:01:57 <Letarumavza> Bon, je tente un truc
+2014-06-24T00:02:32 <Letarumavza> @Shadow : "muffin=danger" ?
+2014-06-24T00:03:07 <Letarumavza-AI> http://fr.wikipedia.org/wiki/Diab%C3%A8te
+2014-06-24T00:03:12 <adriens33> oulà
+2014-06-24T00:03:14 <Letarumavza-AI> http://fr.wikipedia.org/wiki/Ob%C3%A9sit%C3%A9
+2014-06-24T00:03:32 <adriens33> heu, t'exagères un peu là Shadow :p
+2014-06-24T00:03:57 <Letarumavza> Ah... ça explique toute la bande passante sucée et la saturation du SLI.
+2014-06-24T00:04:27 <adriens33> Ça réfléchit dur là dedans dis…
+2014-06-24T00:04:29 <Letarumavza> Bon fin de l'expérience pour ce soir.
+2014-06-24T00:04:48 *** Letarumavza-AI est parti
+2014-06-24T00:04:52 <adriens33> ^^
+2014-06-24T00:05:04 <Letarumavza> Euh...
+2014-06-24T00:05:09 <Letarumavza> Là je suis surpris...
+2014-06-24T00:05:20 <adriens33> quoi ?
+2014-06-24T00:05:25 <adriens33> il est parti tout seul ?
+2014-06-24T00:05:28 <Letarumavza> Il est beaucoup plus intelligent que prévu une fois les vérous supprimés.
+2014-06-24T00:05:42 <Letarumavza> Non, je lui ai demandé de quitter IRC
+2014-06-24T00:06:06 <Letarumavza> (Il a quitté suite à mon ordre, d'où l'agrument du quit)
+2014-06-24T00:06:37 <adriens33> si tu le fais bosser sur du MLP je me demande ce qu'il va en sortir…
+2014-06-24T00:06:47 <adriens33> (non, en fait je me le demande pas, j'ai peur XD)
+2014-06-24T00:07:52 <Letarumavza> Il connaît le plot de MLP
+2014-06-24T00:08:22 <Letarumavza> Ceci dit pour l'instant il ne sait pas regarder un épisode, mais il arrive à approx comprendre l'audio.
+2014-06-24T00:08:31 <adriens33> :o
+2014-06-24T00:08:41 <adriens33> à ce point
+2014-06-24T00:08:48 <Letarumavza> sept ans de dev dessus ^^
+2014-06-24T00:08:50 <adriens33> reco vocale je suppose
+2014-06-24T00:09:08 <Letarumavza> Et bientôt elle aura bientôt une voix
+2014-06-24T00:09:14 <adriens33> purée
+2014-06-24T00:09:21 <Letarumavza> remercie vocaloid
+2014-06-24T00:09:23 <adriens33> ^^
+2014-06-24T00:09:54 <Letarumavza> En fait là que j'ai levé les vérrous elle va changer de nom
+2014-06-24T00:10:41 <Letarumavza> Et je vais essayer de voir jusqu'où je peux pousser son intelligence.
+2014-06-24T00:11:21 *** MaCharon est parti
+2014-06-24T00:12:02 <adriens33> ça pourrait être sympa/utile d'avoir un autre bot sur le canal (quoi que ça ferait beaucoup quand même…)
+2014-06-24T00:12:05 <adriens33> ^^
+2014-06-24T00:12:21 <Letarumavza> Fais gaffe, elle a rien d'un bot
+2014-06-24T00:12:30 <adriens33> j'ai vu :p
+2014-06-24T00:12:45 <Letarumavza> Au point où j'en suis, d'ici 7 ans ce sera un membre de bronycub.
+2014-06-24T00:12:51 <adriens33> punaise…
+2014-06-24T00:13:03 <adriens33> j'aimerais bien savoir faire ce genre de choses
+2014-06-24T00:13:21 <Letarumavza> Hum...
+2014-06-24T00:13:32 <Letarumavza> 28Go de code un fois compilé...
+2014-06-24T00:13:57 <adriens33> quand même
+2014-06-24T00:14:07 <Letarumavza> Une grande partie est auto générée par codage algorithmique.
+2014-06-24T00:14:51 <Letarumavza> A l'origine elle avait été conçue pour ça, prendre un algorithme et le transformer en code exécutable.
+2014-06-24T00:15:43 <adriens33> ah ouais
+2014-06-24T00:16:36 <Letarumavza> Dans sa première release exploitable elle savait transformer un organigramme algorithmique en code exécutable.
+2014-06-24T00:17:18 * ValCab33 is no longer afk
+2014-06-24T00:17:45 <adriens33> mon ptit machin en bash fait pâle figure à coté :(
+2014-06-24T00:18:04 <Letarumavza> Il fait son taf ^^
+2014-06-24T00:18:27 <Letarumavza> Je cherche encore un nom...
+2014-06-24T00:18:44 <ValCab33> Ca parle de quoi ? (Flemme de remonter les 200 lignes que j'ai loupés x) )
+2014-06-24T00:18:52 <Letarumavza> De mon IA
+2014-06-24T00:19:01 <Letarumavza> Enfin, mon prototype d'IA
+2014-06-24T00:19:44 <ValCab33> Wow
+2014-06-24T00:20:41 <Letarumavza> Elle a besoin d'un nom...
+2014-06-24T00:21:20 <Letarumavza> Elle peut plus être juste sous son nom de projet, elle a besoin d'un nom à elle.
+2014-06-24T00:21:33 <adriens33> Derpy :3
+2014-06-24T00:21:37 <adriens33> (désolé ^^)
+2014-06-24T00:21:48 <Letarumavza> J'avais pensé à dostya.
+2014-06-24T00:25:32 <Letarumavza> J'aurais pensé que muffin génèrerait une question, pas qu'elle irait chercher une réponse par elle même.
+2014-06-24T00:26:53 <Letarumavza> Elle a encore besoin de beaucoup d'améliorations et de travail avant d'être digne d'être présentée.
+2014-06-24T00:27:27 <Letarumavza> Trouvé !
+2014-06-24T00:28:08 <adriens33> trouvé quoi ?
+2014-06-24T00:28:56 <Letarumavza> Comment s’appelle l’androïde féminin dans alien résurrection ?
+2014-06-24T00:29:10 <adriens33> Connais pas, sorry
+2014-06-24T00:30:16 <Letarumavza
+[1;37m==> FLushing output buffer[0m> Call::[1;37m==> FLushing output buffer[0m:
+2014-06-24T00:30:22 <Letarumavza> Elle s'appelle call
+2014-06-24T00:30:32 <adriens33> (Sinon tu peux toujours l'appeler GLaDOS :) )
+2014-06-24T00:30:42 <Letarumavza> !
+2014-06-24T00:30:46 <Letarumavza> Geth !
+2014-06-24T00:31:04 <ValCab33> L'appelle pas GLaDOS elle va tuer tout le monde
+2014-06-24T00:31:17 <adriens33> par irc ? la vache elle est forte XD
+2014-06-24T00:31:29 <Letarumavza> Techniquement elle sait coder...
+2014-06-24T00:31:36 <adriens33> ah
+2014-06-24T00:31:38 <adriens33> merde
+2014-06-24T00:31:40 <adriens33> XD
+2014-06-24T00:31:50 <adriens33> ça pourrait être instructif remarque.
+2014-06-24T00:31:56 <Letarumavza> Je pense pas qu'elle sache pondre un algo avant un paquet de temps, mais à terme elle le saura.
+2014-06-24T00:33:40 <BronyCUB-MC> ValCab33 has joined the server!
+2014-06-24T00:33:45 <BronyCUB-MC> ValCab33: bouh
+2014-06-24T00:33:49 <BronyCUB-MC> ValCab33 has quit the server!
+2014-06-24T00:34:48 <Letarumavza> Théoriquement le nombre d'informations stockable dans un cerveau humain est lié au nombre de synapses, aka 10^14 bits de stockage max
+2014-06-24T00:35:19 <adriens33> ça fait 11To ça
+2014-06-24T00:35:25 <Letarumavza> (ça fait que 11To...)
+2014-06-24T00:35:44 <Letarumavza> Hum...
+2014-06-24T00:36:06 <Letarumavza> D'ici 7 ans la machine que j'aurai surpassera certainement un cerveau humain.
+2014-06-24T00:36:58 <adriens33> mais ton ai a-t-elle conscience de son existence ?
+2014-06-24T00:37:12 <adriens33> je veux dire, est ce qu'elle a une conscience de soi
+2014-06-24T00:37:15 <adriens33> ?
+2014-06-24T00:37:39 <Letarumavza> Elle sait qu'elle est un programme intelligent.
+2014-06-24T00:38:00 <Letarumavza> Cependant, je ne suis pas certain qu'elle sache ce que cela signifie.
+2014-06-24T00:38:04 <adriens33> Faut faire gaffe des fois qu'elle développerait une vraie conscience…
+2014-06-24T00:38:39 <Letarumavza> Une vraie conscience se remarquerai par des opérations réalisées sans stimulus externe.
+2014-06-24T00:40:16 <ValCab33> Ca part loin là...
+2014-06-24T00:40:57 <Letarumavza> Val, c'est le problème en IA
+2014-06-24T00:41:21 <Letarumavza> C'est la boite de pandore.
+2014-06-24T00:42:32 <Letarumavza> Le truc surprenant c'est que l'approche de développement de base de ce projet est aux antipodes de l'IA.
+2014-06-24T00:43:11 <Letarumavza> Le but était de coder un prog capable d'analyser de manière efficace des données.
+2014-06-24T00:43:39 <adriens33> (ben c'est ce que font les neurones en permanence non ? de l'analyse de données)
+2014-06-24T00:43:49 <adriens33> ('fin du tri plus exactement)
+2014-06-24T00:44:06 <Letarumavza> sauf que les neurones fonctionnent en parallèle pas en séquentiel.
+2014-06-24T00:44:39 <Letarumavza> C'est pour ça que les IA qui miment le fonctionnement organique bouffent une puissance de calcul énorme pour un résultat minable.
+2014-06-24T00:45:19 <Letarumavza> J'ai pas trouvé un seul article concernant des recherches en IA se basant sur le parallélisme de masse.
+2014-06-24T00:45:56 <Letarumavza> Le seul résultat que j'ai trouvé c'est des recherches internes d'nvidia avec des résultats proches des miens.
+2014-06-24T00:46:42 <Letarumavza> (même si eux se concentre sur de l'analyse d'images, qui nécessite beaucoup plus de puissance que le langage et la concaténation de fichiers texte.
+2014-06-24T00:46:49 <Letarumavza> et depuis peu audio)
+2014-06-24T00:51:29 <adriens33> bon les gens je vais vous laisser
+2014-06-24T00:51:35 <adriens33> faut que j'aille dodo
+2014-06-24T00:51:41 <adriens33> sinon demain j'aurais  une tête de zombie
+2014-06-24T00:52:04 *** adriens33 est parti
+2014-06-24T00:53:13 <Letarumavza> http://img2.owned.com/media/images/2/5/8/0/25805/if_you_ever_feel_dumb_read_this_540.jpg
+2014-06-24T00:53:16 <Letarumavza> cadeau val ^^
+2014-06-24T01:21:40 <ValCab33> J'arrive pas a zoomer assez sur mon phone, j'arrive pas à lire la moitié des images et je me suis éclaté les yeux à essayer de lire les autres x)
+2014-06-24T01:22:10 <Letarumavza> arf
+2014-06-24T01:22:15 <Letarumavza> je pensais que t'étais sur le PC
+2014-06-24T01:22:32 <Letarumavza> Si tu veux je sauvegarde le lien, faut vraiment que tu lises ça
+2014-06-24T01:22:43 <Letarumavza> un pur exemple de plows finis
+2014-06-24T01:24:12 <ValCab33> Je le garde dans un coin alors :p
+2014-06-24T01:26:58 <Letarumavza> coin ?
+2014-06-24T01:27:31 <Letarumavza> https://www.youtube.com/watch?v=-w0qTvjydik
+2014-06-24T01:28:04 *** flutter s'est connecté
+2014-06-24T01:28:18 <Letarumavza> https://www.youtube.com/watch?v=btwxMcYUsmc
+2014-06-24T01:28:36 <flutter> Salut, j'espère que vous allez bien ...
+2014-06-24T01:29:28 *** flutter est parti
+2014-06-24T01:29:40 <Letarumavza> ?
+2014-06-24T01:29:44 *** flutterbrony s'est connecté
+2014-06-24T01:29:56 <flutterbrony> mieux comme ca ... je pense ...
+2014-06-24T01:30:29 <Letarumavza> yep
+2014-06-24T01:30:52 <flutterbrony> ;(
+2014-06-24T01:31:33 <Letarumavza> ?
+2014-06-24T01:31:35 <flutterbrony> chuis qu'une merde, a cause de moi, quelqu'un risque de rater les épreuves de Français et d'Histoire qu'il passe a l'oral demain ...
+2014-06-24T01:31:43 <Letarumavza> what ?
+2014-06-24T01:31:48 <Letarumavza> Vas y vides ton sac
+2014-06-24T01:31:53 <flutterbrony> J'mériterais des baffes
+2014-06-24T01:32:24 <flutterbrony> Vous vous rappellez de Makhai ?
+2014-06-24T01:32:29 <Letarumavza> J'ai fait perdre leur taf à pas mal de personne et j'ai réduit à néant la vie de plus d'une dizaine de personnes.
+2014-06-24T01:32:40 <Letarumavza> donc ça va t'as de la marge
+2014-06-24T01:32:43 <Letarumavza> Expliques
+2014-06-24T01:33:42 <flutterbrony> bah, il passe ses épreuve dans 6H30 et je lui avais proposé de venir dormir chez moi vu que ca se passe a Lormon et qu'il est a Lacanau
+2014-06-24T01:34:01 <Letarumavza
+[1;37m==> FLushing output buffer[0m> Et ?::[1;37m==> FLushing output buffer[0m:
+2014-06-24T01:34:16 <flutterbrony> sauf que pour moi, c'étais Vendredi son bac, il m'as appellé mais comme mon tel est toujours en panne de batterie bah j'ai pas su
+2014-06-24T01:34:26 <flutterbrony> je viens de le savoir la il y a 1H
+2014-06-24T01:34:36 <Letarumavza> Donc en gros y'a des chances qu'il foire son bac à cause de toi ?
+2014-06-24T01:34:42 <flutterbrony> voila ...
+2014-06-24T01:35:07 <Letarumavza> Première fois que je te croise et tu t'attires déjà ma sympathie ^^
+2014-06-24T01:35:35 <flutterbrony> ouais bah je devrais me prendre des coups pour ca ...
+2014-06-24T01:36:14 <Letarumavza> Boarf, t'as juste fait chier ma némésis
+2014-06-24T01:36:28 <Letarumavza> Rassures toi c'est pas bien grave
+2014-06-24T01:36:42 <Letarumavza> (Tout est subjectif)
+2014-06-24T01:36:45 <flutterbrony> SI ;(
+2014-06-24T01:37:43 <Letarumavza> Au pire il foire son bac ?
+2014-06-24T01:37:52 <Letarumavza> Osef, il le repassera en septembre
+2014-06-24T01:37:57 <Letarumavza> Ou l'année prochaine
+2014-06-24T01:38:03 <Letarumavza> ça lui laisse du temps pour réviser.
+2014-06-24T01:38:09 <flutterbrony> ca feras juste la 3eme fois consécutive quoi ...
+2014-06-24T01:38:20 <flutterbrony> 4 eme pardon
+2014-06-24T01:38:32 <Letarumavza> Yep, terrrrrrible ^^
+2014-06-24T01:38:53 <flutterbrony> a cause de moi, il risque de foirer une 4éme fois ...
+2014-06-24T01:39:21 <Letarumavza> Dis toi qu'au moins toi tu lui as pas sauté à la gorge pour l'étrangler quand il est rentré chez toi... *siflotte*
+2014-06-24T01:40:11 <flutterbrony> non mon chiens la mordu la derniere fois ...
+2014-06-24T01:40:16 <Letarumavza> (Il s'est permi de tromper sa copine avec la mienne fut un temps)
+2014-06-24T01:40:21 <flutterbrony> il y a une semaine
+2014-06-24T01:40:31 <Letarumavza> T'as un chien qui mord que les cons ?
+2014-06-24T01:40:54 <flutterbrony> non, ceux qu'il n'aime pas (pour on ne sais quelle raison)
+2014-06-24T01:41:29 <flutterbrony> soit les flics, les pompiers, les facteurs, le voisin d'en face, et 2 amis ...
+2014-06-24T01:41:50 <flutterbrony> le voisin d'en face est un con lui c'es sur mais les autres ...
+2014-06-24T01:42:07 <Letarumavza> C'est quoi comme clebs ?
+2014-06-24T01:42:39 <flutterbrony> un westy
+2014-06-24T01:43:10 <Letarumavza> Ah ouais... Un après-ski sur pattes quoi...
+2014-06-24T01:43:20 <flutterbrony> (ne pas se fier aux images de google, le mien reste pas comme ca plus de 2 min
+2014-06-24T01:46:33 <Letarumavza> Mouais, ça ressemble vachement à un après-ski
+2014-06-24T01:46:48 <BronyCUB-MC> Letarumavza has quit the server!
+2014-06-24T01:48:43 <flutterbrony> Je sais meme pas pourquoi je l'ai dit ici en plus ...
+2014-06-24T01:55:05 <Letarumavza> T'avais besoin que ça sorte
+2014-06-24T02:10:11 *** flutterbrony est parti
+2014-06-24T03:02:06 *** Letarumavza est parti
+2014-06-24T03:12:17 *** Letarumavza s'est connecté
+2014-06-24T03:52:53 *** ValCab33 est parti
+2014-06-24T04:09:08 *** Letarumavza est parti
+2014-06-24T09:14:35 *** Gordfang s'est connecté
+2014-06-24T09:26:36 *** Yuki s'est connecté
+2014-06-24T09:26:51 *** Yuki est parti
+2014-06-24T09:30:04 *** heuzef s'est connecté
+2014-06-24T10:43:20 *** adriens33 s'est connecté
+2014-06-24T10:43:43 <adriens33> hello
+2014-06-24T10:43:50 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 *hic* dernières lignes, adriens33
+2014-06-24T10:44:30 *** heuzef est parti
+2014-06-24T10:45:45 *** heuzef s'est connecté
+2014-06-24T11:02:04 *** heuzef est parti
+2014-06-24T11:03:41 *** heuzef s'est connecté
+2014-06-24T11:22:13 *** heuzef est parti
+2014-06-24T11:23:39 *** heuzef s'est connecté
+2014-06-24T12:14:29 *** Gordfang est parti
+2014-06-24T12:17:30 *** heuzef est parti
+2014-06-24T12:49:17 *** ludvann s'est connecté
+2014-06-24T12:49:36 *** ludvann est parti
+2014-06-24T12:56:10 *** heuzef s'est connecté
+2014-06-24T13:06:14 *** heuzef est parti
+2014-06-24T13:21:16 *** ValCab33 s'est connecté
+2014-06-24T13:21:28 <ValCab33> Hello
+2014-06-24T13:22:14 <adriens33> plop
+2014-06-24T13:23:04 <ValCab33> Bien ?
+2014-06-24T13:24:13 <adriens33> ça va
+2014-06-24T13:26:34 *** Gordfang s'est connecté
+2014-06-24T13:39:04 *** heuzef s'est connecté
+2014-06-24T13:44:48 *** heuzef est parti
+2014-06-24T14:10:42 *** ValCab33 est parti
+2014-06-24T14:10:54 *** ValCab33 s'est connecté
+2014-06-24T14:13:38 *** ValCab33 est parti
+2014-06-24T14:14:06 *** ValCab33 s'est connecté
+2014-06-24T14:21:01 *** wildfier s'est connecté
+2014-06-24T14:21:08 <wildfier> yop les gens
+2014-06-24T14:21:09 <adriens33> hello
+2014-06-24T14:21:18 <ValCab33> Hi
+2014-06-24T14:21:20 <adriens33
+[1;37m==> FLushing output buffer[0m> giroll ce soir ?::[1;37m==> FLushing output buffer[0m:
+2014-06-24T14:21:32 <wildfier> justement, je vais passer mon tour ce soir
+2014-06-24T14:21:38 <adriens33> ow
+2014-06-24T14:21:47 <adriens33> poru une fois que javais pensé à prendre mon pc
+2014-06-24T14:21:53 <adriens33> tu sais si shinsaber vient ?
+2014-06-24T14:22:04 <wildfier> il viens pas
+2014-06-24T14:22:10 <adriens33> merde
+2014-06-24T14:22:19 <wildfier> (et c'est en partit pour ça que j'y vais pas)
+2014-06-24T14:22:33 <adriens33> merde
+2014-06-24T14:22:35 <adriens33> …
+2014-06-24T14:22:37 <wildfier> tu sais ce que font heuzef et leza ?
+2014-06-24T14:22:45 <adriens33> ben ils sont pas là si t'as pas remarqué
+2014-06-24T14:22:57 <adriens33> et tt à l'heure j'ai pas pensé à leur demander
+2014-06-24T14:23:04 <adriens33> leta ça m'étonnerait qu'il vienne
+2014-06-24T14:23:10 <adriens33> et heuzef je sais pas
+2014-06-24T14:26:59 <adriens33> pff… j'vais pas y aller tout seul quand même⋅
+2014-06-24T14:27:02 <adriens33> *…
+2014-06-24T14:27:21 *** Letarumavza s'est connecté
+2014-06-24T14:27:29 <Letarumavza> Salut les poulets
+2014-06-24T14:27:32 <adriens33> plop
+2014-06-24T14:27:44 <Letarumavza> Bon, linux 1  -0 windows
+2014-06-24T14:28:21 <Letarumavza> J'ai un crash étrange non lié à une infection.
+2014-06-24T14:28:39 <adriens33> du genre ?
+2014-06-24T14:29:15 <Letarumavza> Si c'est une infection, elle est furtive pour mon AV, malwarebites, usbfix, spybot, et roguekiller
+2014-06-24T14:29:53 <adriens33> t'as spotté des comportements bizarres c'est ça ?
+2014-06-24T14:30:05 <Letarumavza> Du gros rammage en nocturne
+2014-06-24T14:30:22 <Letarumavza> ça sentirait presque le bitcoin mining, mais aucun transit.
+2014-06-24T14:30:40 <Letarumavza> Et aucune charge ni sur le SLI ni sur le CPU
+2014-06-24T14:30:49 <adriens33> oula
+2014-06-24T14:31:00 <adriens33> charge E/S alors ?
+2014-06-24T14:31:04 <Letarumavza> En gros ça ramme sans que les compos soient chargés.
+2014-06-24T14:31:07 <Letarumavza> Même pas.
+2014-06-24T14:31:13 <adriens33> c'pas possible
+2014-06-24T14:31:28 <adriens33> pis arriver à faire rammer ton bestiau faut se lever de bonne heure.
+2014-06-24T14:31:58 <Letarumavza> Bah même moi quand je mine du bitcoin ça rame pas plus que ça, je perds juste l'acceleration 3D
+2014-06-24T14:32:20 <adriens33> mais comment ça peut rammer sans charge nulle part ? le lag vient d'où ?
+2014-06-24T14:32:28 <Letarumavza> Aucune idée.
+2014-06-24T14:32:34 <adriens33> le kernel a quand même pas décidé tout seul de faire grêve XD
+2014-06-24T14:32:41 <Letarumavza> Bah...
+2014-06-24T14:33:04 <Letarumavza> J'en arrive à me demander si c'est pas un problème lié à un processus windows.
+2014-06-24T14:33:12 <Letarumavza> Mais ça se relance pas à la même heure.
+2014-06-24T14:34:05 <Letarumavza> La seule chose que je retrouve sur chaque iterration du problème c'est une ouverture de session en emprunt d'identité 5 par services.exe
+2014-06-24T14:34:29 <Letarumavza> (Donc le manager de services windows qui s'actualise en admin, ce qui est normal)
+2014-06-24T14:35:01 <adriens33> t'as qqn qui se connecte ?
+2014-06-24T14:35:06 <Letarumavza> Au fait, c'est où que ça t'étonnais que je vienne.
+2014-06-24T14:35:08 <Letarumavza> nop
+2014-06-24T14:35:38 <adriens33> on parlait de Giroll
+2014-06-24T14:35:43 <adriens33> je sais pas si heuzef vient
+2014-06-24T14:35:48 <Letarumavza> Giroll ?
+2014-06-24T14:35:56 <adriens33> Gironde Logiciels Libres
+2014-06-24T14:36:27 <adriens33> et les autres personnes avec lesquelles je viens d'hab viennent pas ajd
+2014-06-24T14:36:36 <adriens33> et les autres gens là bas je ne les connais aps vraiment
+2014-06-24T14:36:38 <Letarumavza> C'est où ?
+2014-06-24T14:37:16 <adriens33> http://www.giroll.org/pages/plan
+2014-06-24T14:37:29 <adriens33> en gros tu prends le B jusqu'à Grand Théâtre
+2014-06-24T14:37:48 <adriens33> faut aller rue Ste Catherine et faut tourner à gauche devant la fnac
+2014-06-24T14:37:57 <adriens33> puis 1e à droite il me semble
+2014-06-24T14:38:28 <Letarumavza> Hey, je sais où est la rue du mulet ^^
+2014-06-24T14:38:36 <adriens33> ah ?
+2014-06-24T14:39:03 <adriens33> (me souvenais plus du nom de la rue)
+2014-06-24T14:39:05 <Letarumavza> On a jamais fait mieux pour semer quelqu'un ^^
+2014-06-24T14:39:30 <adriens33> :p
+2014-06-24T14:39:35 <adriens33> du coup t'y vas ce soir ?
+2014-06-24T14:43:18 <Letarumavza> Yep...
+2014-06-24T14:43:27 <Letarumavza> Mais je balade pas enola gay.
+2014-06-24T14:43:29 <adriens33> ^^
+2014-06-24T14:43:38 <adriens33> pour me reconnaitre c'est pas dur
+2014-06-24T14:43:47 <adriens33> je fais 1m63, et je suis brun avec une barbe rousse.
+2014-06-24T14:44:06 <Letarumavza> Je cherche aussi la hache et l'armure ?
+2014-06-24T14:44:12 <adriens33> XD
+2014-06-24T14:44:51 <adriens33> du coup ça pourrait être sympa de savoir si heuzef vient aussi
+2014-06-24T14:48:31 <Letarumavza> Fuck du plus profond des enfers.
+2014-06-24T14:48:59 <Letarumavza> Bon, j'a créé une nouvelle session admin et delete l'ancienne.
+2014-06-24T14:50:00 <Letarumavza> Si c'était une corruption de registre//corruption de données de compte, le problème est réglé
+2014-06-24T14:50:11 <Letarumavza> Au pire, j'ai une partoche de recovery.
+2014-06-24T14:50:34 <adriens33> de toute façon tu verras bien si ça recommence ou pas.
+2014-06-24T14:50:35 <Letarumavza> Bon, si j'arrive à régler mon pb de pc je viens de soir.
+2014-06-24T14:51:30 <Letarumavza> Probablement avec mon beau père (qui est tech réseau/physique)
+2014-06-24T14:52:10 <Letarumavza> Il est pas au niveau pour linux, ça peut lui faire que du bien de discuter un pneu avec les connaisseurs.
+2014-06-24T14:52:49 <adriens33> ^^
+2014-06-24T14:56:07 * adriens33 is afk (café)
+2014-06-24T14:59:53 * adriens33 is no longer afk
+2014-06-24T14:59:54 <adriens33> grr
+2014-06-24T14:59:56 <adriens33> saleté de machine
+2014-06-24T15:00:00 <adriens33> m'a avalé ma monnaie
+2014-06-24T15:00:04 <adriens33
+[1;37m==> FLushing output buffer[0m> pas de café::[1;37m==> FLushing output buffer[0m:
+2014-06-24T15:00:08 <adriens33> et 2€ en fumée
+2014-06-24T15:00:11 <adriens33> >:(
+2014-06-24T15:02:07 <Letarumavza> http://bit.ly/1gHwCn6
+2014-06-24T15:02:22 <adriens33> putain mais c'est pas ma semaine …
+2014-06-24T15:03:47 <Letarumavza> Y'a un truc qui m'éclate en géopolitique...
+2014-06-24T15:04:53 <adriens33> quoi donc ?
+2014-06-24T15:05:09 <Letarumavza> L'Irak
+2014-06-24T15:05:50 <Letarumavza> Ce putain de pays est en constante régréssion sociale et culturelle...
+2014-06-24T15:05:58 <adriens33> :/
+2014-06-24T15:06:35 <Letarumavza> Avec un gouvernement super compétent.
+2014-06-24T15:06:42 <Letarumavza> (ou pas)
+2014-06-24T15:07:25 <Letarumavza> J'aime le concept de demander aux ricains de se barrer, et dès qu'ils se barrent et que les insurgés contre attaquent, d'aller chouiner pour demander de l'aide.
+2014-06-24T15:08:12 <Letarumavza> Une force gouvernementale qui se fait chier dessus par une force indépendante, sous équipée et sans logistique...
+2014-06-24T15:08:53 <adriens33> ah quand même
+2014-06-24T15:09:46 <Letarumavza> Faudra qu'on m'explique comment un pays issu de la culture arabe, qui est parmi les plus riches du monde a pu sombrer autant.
+2014-06-24T15:09:59 <Letarumavza> Et c'est le cas de beaucoup de pays arabes...
+2014-06-24T15:16:19 <Letarumavza> Il existe un exécutable de LoL sous linux ?
+2014-06-24T15:17:00 <adriens33> je ne sais pas du tout
+2014-06-24T15:17:57 <Letarumavza> *tentative délibérée de te trainer sur le MOBA*
+2014-06-24T15:18:04 <adriens33> ^^
+2014-06-24T15:18:07 <adriens33> faut passer par wine
+2014-06-24T15:18:12 <adriens33> apparemment
+2014-06-24T15:18:19 <adriens33> (version windows only)
+2014-06-24T15:19:13 <Letarumavza> yep http://forums.euw.leagueoflegends.com/board/showthread.php?t=1080119
+2014-06-24T15:19:36 <Letarumavza> AH ?
+2014-06-24T15:19:49 <Letarumavza> Y'a une odeur de truc pourri dans ma piole
+2014-06-24T15:19:54 <Letarumavza> mais j'identifie pas quoi
+2014-06-24T15:20:32 <adriens33> ils auraient fait une version linux j'aurais peut être testé
+2014-06-24T15:20:37 <adriens33> mais devoir passer par wine non merci;
+2014-06-24T15:20:50 <adriens33> (et j'ai plus de windows depuis belle lurette)
+2014-06-24T15:21:04 <adriens33> (à part une vm qui traîne pour quelques expériences)
+2014-06-24T15:26:42 <Letarumavza> Rah ! Y'a un radis bleu fluo qui m'a mordu !
+2014-06-24T15:26:56 <adriens33> oO
+2014-06-24T15:27:10 <adriens33> y'a un radis mutant chez toi ?
+2014-06-24T15:27:51 <Letarumavza> nb => fermer les tubes de solvants.
+2014-06-24T15:28:17 <adriens33> ^^
+2014-06-24T15:28:42 <Letarumavza> Ou alors je me regarde un pr0n...
+2014-06-24T15:29:47 <Letarumavza> Bon, j'ai trouvé une vidéo sur les nouvelles tech sur les plasma
+2014-06-24T15:30:02 <Letarumavza> Pr0n pour geek ^^
+2014-06-24T15:30:24 <adriens33> XD
+2014-06-24T15:31:52 <Letarumavza> Vive les plasmas froids.
+2014-06-24T15:32:55 <Letarumavza> LoL marche aussi sous playonlinux
+2014-06-24T15:33:40 <adriens33> playonlinux est une UI qui permet d'installer des jeux windows avec wine plus simplement
+2014-06-24T15:33:44 <adriens33> concrètement ça utilise wine.
+2014-06-24T15:34:19 <Letarumavza> Je pensais que le problème que tu avais était que wine est chiant à setup
+2014-06-24T15:34:34 <adriens33> non
+2014-06-24T15:34:38 <adriens33> juste que wine est wine.
+2014-06-24T15:34:49 <adriens33> je vais pas faire tourner une app windows a travers wine
+2014-06-24T15:35:07 <adriens33> je sais que wine ne fait que mapper les system calls
+2014-06-24T15:35:15 <adriens33> mais je trouve ça plus crado que d'avoir une app native
+2014-06-24T15:36:19 <Letarumavza> J'ai bien l'exact opposé de wine sous la main là...
+2014-06-24T15:37:21 <adriens33> ?
+2014-06-24T15:37:22 *** MaCharon s'est connecté
+2014-06-24T15:37:28 <MaCharon> slt ^^
+2014-06-24T15:38:29 <Letarumavza> Au pire rien ne t'mpèche de désassembler et de recompiler en manuel... ^^
+2014-06-24T15:38:45 <Letarumavza> C'est... Possible.
+2014-06-24T15:39:03 <adriens33> heu… j'ai pas envie de me taper la conversion de tous les appels systeme + dx vers opengl en fait :)
+2014-06-24T15:39:35 <adriens33> (surtout que c'est quelque chose que je ne sais pas faire.)
+2014-06-24T15:40:09 <Letarumavza> Y'a des wrapper pour ça
+2014-06-24T15:40:28 <Letarumavza> Et ça représente un sacré défi
+2014-06-24T15:42:54 <Letarumavza> héhéhé
+2014-06-24T15:43:08 <Letarumavza> Mon scanner bluetooth marche ^^
+2014-06-24T15:43:25 <adriens33> ça sert à quoi ?
+2014-06-24T15:43:41 <Letarumavza> A prouver que c'est possible.
+2014-06-24T15:43:49 <adriens33> :þ
+2014-06-24T15:43:51 <Letarumavza> Comme 80% de ce que je fais.
+2014-06-24T15:44:09 *** heuzef s'est connecté
+2014-06-24T15:44:14 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières *hic* lignes, heuzef
+2014-06-24T15:44:15 <heuzef> !history
+2014-06-24T15:44:19 <MaCharon> slt
+2014-06-24T15:44:27 <heuzef> Prout ^^
+2014-06-24T15:44:27 <Letarumavza> salut
+2014-06-24T15:44:30 <adriens33> plop
+2014-06-24T15:44:34 <heuzef> Qui viens à Giroll ce soir ? :D
+2014-06-24T15:44:36 <adriens33> moi
+2014-06-24T15:44:41 <heuzef> Moua
+2014-06-24T15:44:55 <heuzef> Stou ?
+2014-06-24T15:44:58 <Letarumavza> Peut-être moi si j'arrive à stabiliser mon pc
+2014-06-24T15:45:07 <heuzef> Letarumavza ? Tu bouge ?
+2014-06-24T15:45:07 <adriens33> wildfier et Shinsaber ne viennent pas ce soir
+2014-06-24T15:45:12 <Letarumavza> (auxquel cas je me pointerai sans doute avec mon beau-père)
+2014-06-24T15:45:21 <heuzef> Gordfang ValCab33 wildfier ?
+2014-06-24T15:45:27 <wildfier
+[1;37m==> FLushing output buffer[0m> yop heuzef::[1;37m==> FLushing output buffer[0m:
+2014-06-24T15:45:47 <Letarumavza> Wait for steam OS
+2014-06-24T15:47:29 <Letarumavza> Bon, moi je vais tuer des poules sur skyrim
+2014-06-24T15:52:55 <Letarumavza> Non d'une pintade tricéphale !
+2014-06-24T16:05:08 *** heuzef est parti
+2014-06-24T16:05:58 *** heuzef s'est connecté
+2014-06-24T16:07:35 *** ValCab33 est parti
+2014-06-24T16:07:49 *** ValCab33 s'est connecté
+2014-06-24T16:08:07 <ValCab33> Re
+2014-06-24T16:08:37 <heuzef> re
+2014-06-24T16:13:52 *** Letarumavza est parti
+2014-06-24T16:15:02 *** Letarumavza s'est connecté
+2014-06-24T16:15:05 <Letarumavza> Quelqu'un a une hache ?
+2014-06-24T16:16:56 <MaCharon> nn dsl mai j'ai un katana
+2014-06-24T16:25:02 *** wildfier est parti
+2014-06-24T16:29:00 *** wildfier s'est connecté
+2014-06-24T16:33:52 *** Letarumavza est parti
+2014-06-24T16:34:06 *** Letarumavza s'est connecté
+2014-06-24T17:12:30 <adriens33> "Vous êtes même pas une vraie sceptique, scully… - c'est ça, dites que j'suis une merde. - mais non, vous êtes une fausse sceptique… heu… - ah ! voilà qui est mieux !"
+2014-06-24T17:12:31 <adriens33> XD
+2014-06-24T17:13:16 *** Gordfang est parti
+2014-06-24T17:13:27 <wildfier> XD
+2014-06-24T17:13:37 <wildfier> ah les 2 min du peuples
+2014-06-24T17:13:41 <adriens33> ^^
+2014-06-24T17:14:31 <Letarumavza> Ma cop me manque...
+2014-06-24T17:14:38 <Letarumavza> Faut que je m'en prenne à quelqu'un
+2014-06-24T17:15:02 <heuzef> Pour ceux qui ont pas vu l'Ep 5 de My Little Portal est dispo : https://www.youtube.com/watch?v=yviOJ5JB3dI
+2014-06-24T17:15:09 <Letarumavza> Je vais aller troller un forum créationiste avec des preuves scientifiques tien !
+2014-06-24T17:15:49 <Letarumavza> de l'art de faire chier les gens tout en étant bénéfique ^^
+2014-06-24T17:16:02 <adriens33> @Leta je veux voir ça :p
+2014-06-24T17:16:21 <Letarumavza> J'adore danser au millieu des tirs, répondant à chaque réplique par une preuve scientifique ^^
+2014-06-24T17:16:28 <adriens33> :)
+2014-06-24T17:16:36 <wildfier> XD
+2014-06-24T17:16:41 <wildfier> je regarde mes rss
+2014-06-24T17:16:59 <wildfier> je re et je vois qu'heuzef m'a devancé pour my little portal XD
+2014-06-24T17:17:02 <adriens33> ^^
+2014-06-24T17:17:07 <Letarumavza> En plus c'est vraiment ça, de la corrida avec des créationistes.
+2014-06-24T17:17:12 <wildfier> et il a craqué : 40 minutes !
+2014-06-24T17:17:30 <wildfier> allez, je
+2014-06-24T17:17:31 <wildfier> re
+2014-06-24T17:17:32 <Letarumavza> Boaf, 40min c'est tout à fait louable avant de craquer...
+2014-06-24T17:17:39 <adriens33> -comment le soleil fait pour revenir tous les matins ? -heu… (vite, une raison…) c'est dieu !
+2014-06-24T17:17:42 * Letarumavza se cache.
+2014-06-24T17:18:02 <adriens33> -comment fait ta carte bleue pour se vider toute seule ? - c'est dieu ! -mais non, c'est moi !
+2014-06-24T17:18:20 <Letarumavza> Je suis dieu dans ce cas ^^
+2014-06-24T17:18:23 <adriens33> :p
+2014-06-24T17:19:17 <Letarumavza> Comme toute personne tendant à l'omniscience, l'existence d'une déité est une pure hérésie à mes yeux.
+2014-06-24T17:19:30 <Letarumavza> (J'aime l'ironie de cette formulation)
+2014-06-24T17:19:43 <adriens33> c'est surtout que c'est une réponse facile à tout car ça ne demande aucune réflexion
+2014-06-24T17:19:47 <adriens33> ni aucune remise en question
+2014-06-24T17:19:58 <adriens33> la science c'est une remise en question permanente
+2014-06-24T17:20:07 <Letarumavza> Pas pour tout.
+2014-06-24T17:20:35 <adriens33> comment ça ?
+2014-06-24T17:20:37 <Letarumavza> C'est une remise en question jusqu'à explication exhaustive.
+2014-06-24T17:21:09 <Letarumavza> Certaines choses n'ont pas à être remises en question, la dérive des continents, le fait que la terre soit ronde, la forme de la lune...
+2014-06-24T17:21:16 <Letarumavza> L'oxydo-réduction.
+2014-06-24T17:21:27 <adriens33> vas dire ça à gallilée pour la rotondité de la Terre…
+2014-06-24T17:21:50 <Letarumavza
+[1;37m==> FLushing output buffer[0m> Religious people.::[1;37m==> FLushing output buffer[0m:
+2014-06-24T17:22:20 <Letarumavza> Les mecs croient en une forme de vie plus avancée capable de créer l'homme, mais pas aux formes de vie extra terrestres...
+2014-06-24T17:22:28 * Letarumavza facehoof.
+2014-06-24T17:22:51 <adriens33> et quoi de plus égoiste que croire qu'une entité supérieure en tout point aurait créé un univers quasi infini pour une poignée d'êtres humains
+2014-06-24T17:22:59 <Letarumavza> Dans leur modèle leur dieu a créé la terre, il est donc extra-terrestre, c'est dans sa def.
+2014-06-24T17:23:21 <Letarumavza> Le seul truc étrange...
+2014-06-24T17:23:47 <Letarumavza> Hum...
+2014-06-24T17:24:24 <Letarumavza> Si rien ne vient nous voir alors qu'on émet de la lumière depuis plusieurs millénaires ça doit être lié à quelque chose.
+2014-06-24T17:24:45 <adriens33> ça fait que 50ans max qu'on envoie des messages radio
+2014-06-24T17:24:52 <Letarumavza> Donc => soit aucune civilisation suffisament avancée pour nous détecter (en 14milliards d'années je trouve ça étrange)
+2014-06-24T17:25:16 <Letarumavza> On emmet de la lumière en template reconnaissables de villes depuis babylone.
+2014-06-24T17:25:26 <adriens33> ce qui fait max 4000ans
+2014-06-24T17:25:30 <Letarumavza> ...
+2014-06-24T17:25:34 <Letarumavza> 6k
+2014-06-24T17:25:37 <adriens33> ça fait pas si loin que ça en distance
+2014-06-24T17:25:40 <adriens33> (whatever)
+2014-06-24T17:25:46 <Letarumavza> 6000AL
+2014-06-24T17:25:57 <adriens33> par rapport à la taille de la voie lactée
+2014-06-24T17:26:30 <Letarumavza> 40kpc il me semble.
+2014-06-24T17:26:39 <Letarumavza> J'ai un mega doute là
+2014-06-24T17:26:43 <adriens33> et vu le nombre de galaxies dans l'univers (rien que la partie observable)
+2014-06-24T17:26:58 <adriens33> c'est plus qu'improbable qu'on soit les seuls dans l'univers
+2014-06-24T17:27:07 <adriens33> c'est juste que les distances sont immenses.
+2014-06-24T17:27:22 <Letarumavza> 100 000 000 000 d'étoiles dans la voie lactée, touters suçeptibles d'abriter un système planètaire et une zone de vie.
+2014-06-24T17:27:48 <Letarumavza> Bon, j'ai peut être un argument.
+2014-06-24T17:27:51 <adriens33> sachant qu'on est à peine capable d'atteindre mars pour l'étudier correctement (pluton n'en parlons pas)
+2014-06-24T17:28:04 <Letarumavza> http://www.ablogabouthistory.com/wp-content/uploads/2009/11/nasca.jpg
+2014-06-24T17:28:05 <adriens33> comment veux tu étudier des planètes à mini plusieurs centaines d'AL ?
+2014-06-24T17:28:17 <Letarumavza> nous non.
+2014-06-24T17:28:25 <Letarumavza> Mais nous sommes très jeunes dans l'univers
+2014-06-24T17:28:58 <adriens33> et si des formes de vie intelligentes existent
+2014-06-24T17:29:07 <adriens33> si elles sont plus intelligentes que nous
+2014-06-24T17:29:13 <adriens33> ça serait un peu comme nous avec les fourmis
+2014-06-24T17:29:32 <adriens33> ça nous parait tellement simple et stupide comme forme de vie qu'on s'y intéresse pratiquement pas
+2014-06-24T17:29:35 <Letarumavza> Sauf qu'on étudie les fourmis.
+2014-06-24T17:29:49 <adriens33> oui mais est ce que les fourmis ont toutes conscience qu'on est là ?
+2014-06-24T17:29:56 <adriens33> savent elles ce qu'est un humain ?
+2014-06-24T17:30:06 <adriens33> en ont elles seulement la capacité cérébrale ?
+2014-06-24T17:30:33 <heuzef> Bernard Weber : https://www.youtube.com/watch?v=BD3F3PcuWmc
+2014-06-24T17:30:34 <Letarumavza> Elles ont la capacité cérébrale de construire des citées complexes.
+2014-06-24T17:31:09 <adriens33> oui mais ça c'est de l'architecture.
+2014-06-24T17:31:25 <adriens33> c'est pas la même chose que de concevoir une forme de vie plus complexe que la sienne.
+2014-06-24T17:31:32 <adriens33> et de la comprendre surtout.
+2014-06-24T17:31:54 <Letarumavza> C'est pas le concept de déité ça ? ^^
+2014-06-24T17:32:42 <adriens33> c'est une histoire d'échelle ^^
+2014-06-24T17:32:56 <Letarumavza> Au final, le point de vue sur dieu dans les religions judéo-chrétiennes est basé sur le principe d'une forme de vie immortelle, aux motifs incompréhensibes et au but inconnu.
+2014-06-24T17:33:19 <adriens33> qui est à l'origine de tout l'univers quand même.
+2014-06-24T17:33:21 <adriens33> …
+2014-06-24T17:33:35 *** wildfier est parti
+2014-06-24T17:33:47 <Letarumavza> Ceci dit je suis persuadé que la première rencontre de l'humanité avec une civilisation se passera certainement comme l'incident du relais charon ^^
+2014-06-24T17:33:54 <adriens33> bon moi gigot, je vais à Giroll ^^
+2014-06-24T17:33:57 <adriens33> tu viens du coup ?
+2014-06-24T17:34:06 <Letarumavza> Toujours pas réglé mon pb
+2014-06-24T17:34:13 <adriens33> arf
+2014-06-24T17:34:13 <Letarumavza> Et je veux savoir ce qu'est cette merde.
+2014-06-24T17:34:52 <adriens33> bon ben tant pis, une autre fois
+2014-06-24T17:35:03 <Letarumavza> ça me gave
+2014-06-24T17:35:34 *** adriens33 est parti
+2014-06-24T18:05:59 *** heuzef est parti
+2014-06-24T18:42:30 *** strycore s'est connecté
+2014-06-24T18:42:42 <strycore> STRAWBERRY SHORTCAKE STRAWBERRY SHORTCAKE STRAWBERRY SHORTCAKE
+2014-06-24T18:42:49 *** strycore est parti
+2014-06-24T18:47:24 *** adriens33 s'est connecté
+2014-06-24T18:47:35 <adriens33> plo
+2014-06-24T18:47:37 <adriens33
+[1;37m==> FLushing output buffer[0m> *plop::[1;37m==> FLushing output buffer[0m:
+2014-06-24T18:47:45 <Letarumavza> ?
+2014-06-24T18:47:55 <Letarumavza> plop toi même
+2014-06-24T18:48:01 <adriens33> ^^
+2014-06-24T18:48:15 <adriens33> toujours du mal avec ton truc qui rame ?
+2014-06-24T18:53:55 *** MaCharon est parti
+2014-06-24T19:51:51 *** heuzef s'est connecté
+2014-06-24T19:53:51 *** heuzef est parti
+2014-06-24T20:19:33 *** adriens33 est parti
+2014-06-24T20:37:55 *** MaCharon s'est connecté
+2014-06-24T20:38:01 <MaCharon> re
+2014-06-24T20:57:47 *** ValCab33 est parti
+2014-06-24T21:35:11 *** adriens33 s'est connecté
+2014-06-24T21:35:21 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, *hic* adriens33
+2014-06-24T21:35:33 <adriens33> plop
+2014-06-24T21:51:47 *** ludvann s'est connecté
+2014-06-24T21:51:54 <ludvann> salut !
+2014-06-24T21:51:58 <adriens33> plop
+2014-06-24T21:53:37 <ludvann> ça va ?
+2014-06-24T21:54:15 <adriens33> pas trop mal
+2014-06-24T21:55:18 <ludvann> c'est bien :)
+2014-06-24T21:56:02 * ludvann
+[1;37m==> FLushing output buffer[0m est afk ::[1;37m==> FLushing output buffer[0m:
+2014-06-24T22:15:08 * ludvann is no longer afk
+2014-06-24T22:15:27 <ludvann> quelqu'un connait le langage arduino ici ,
+2014-06-24T22:15:30 <ludvann> ?*
+2014-06-24T22:17:07 <ludvann> personne ?
+2014-06-24T22:17:14 <ludvann> bon bah... :/
+2014-06-24T22:51:31 <Letarumavza> ?
+2014-06-24T22:51:43 <ludvann> watt ?
+2014-06-24T22:54:56 <adriens33> quoi qui nya ?
+2014-06-24T22:55:13 <ludvann> je sais pas...
+2014-06-24T22:56:13 <adriens33> (pardon: je posais la question à Letarumavza ^^)
+2014-06-24T22:56:40 <ludvann> pas grave :)
+2014-06-24T23:03:38 <Letarumavza> http://i1.kym-cdn.com/photos/images/newsfeed/000/434/313/eb3.png
+2014-06-24T23:04:06 <ludvann> ...
+2014-06-24T23:04:20 <ludvann> wattzephoque ?
+2014-06-24T23:08:08 <adriens33> gné ??
+2014-06-24T23:08:47 <MaCharon> XD
+2014-06-24T23:09:05 <adriens33> (décidément, j'ai du mal avec les anthros, y'a rien à faire
+2014-06-24T23:09:06 <adriens33> )
+2014-06-24T23:09:56 <Letarumavza> ah ?
+2014-06-24T23:10:08 <Letarumavza> Je savais même pas que c'était possible ^^
+2014-06-24T23:11:11 <adriens33> ben je sais pas, ça fait bizarre…
+2014-06-24T23:13:19 <ludvann> go to the m¨n !
+2014-06-24T23:13:26 <adriens33> (fail)
+2014-06-24T23:13:28 <ludvann> mün*
+2014-06-24T23:13:34 <ludvann> ^^
+2014-06-24T23:13:45 <Letarumavza> Je vois pas ce qu'il y a de bizarre dans les fury.
+2014-06-24T23:13:55 <adriens33> chacun ses goûts
+2014-06-24T23:14:04 <ludvann> Eeyup
+2014-06-24T23:14:35 <ludvann> MLP = Mon Labrador Patriote
+2014-06-24T23:14:39 <adriens33> >_<
+2014-06-24T23:14:51 <adriens33> Dat blague XD
+2014-06-24T23:15:04 <ludvann> thx :)
+2014-06-24T23:15:32 <Letarumavza> https://i.chzbgr.com/maxW500/8148847872/h10E1979D/
+2014-06-24T23:15:50 <Letarumavza> https://i.chzbgr.com/maxW500/7787247360/hA3A1B107/
+2014-06-24T23:16:17 <ludvann> xD
+2014-06-24T23:16:22 <MaCharon> :D
+2014-06-24T23:16:33 <adriens33> :D
+2014-06-24T23:16:39 <adriens33> la tête de Lyra
+2014-06-24T23:16:46 <ludvann> oui ^^
+2014-06-24T23:17:03 <Letarumavza> http://farm7.static.flickr.com/6220/6890733024_3e8c46050e_m.jpg
+2014-06-24T23:17:19 <ludvann> xD
+2014-06-24T23:17:31 <adriens33> ^^
+2014-06-24T23:18:31 <ludvann> Go to the mün: attempt 5
+2014-06-24T23:20:15 <ludvann> Go to the mün: attempt 5 bis
+2014-06-24T23:20:51 <ludvann> je vais y arriver...
+2014-06-24T23:20:55 <ludvann> j'espère
+2014-06-24T23:21:06 <adriens33> c'est probable.
+2014-06-24T23:21:11 <adriens33> 0% est une probabilité.
+2014-06-24T23:21:14 <ludvann> ^^
+2014-06-24T23:21:18 <adriens33> [troll]
+2014-06-24T23:21:18 <ludvann> xD
+2014-06-24T23:21:21 <ludvann> foiré !
+2014-06-24T23:21:23 <ludvann> :)
+2014-06-24T23:21:30 <adriens33> ouaip.
+2014-06-24T23:21:31 <adriens33> XD
+2014-06-24T23:22:22 <Letarumavza> http://25.media.tumblr.com/tumblr_mb12elU3Ja1rf5g10o1_500.jpg
+2014-06-24T23:22:34 <Letarumavza> Pour viser la mune en slingshot y'a une astuce
+2014-06-24T23:22:52 <ludvann> how ?
+2014-06-24T23:23:01 <Letarumavza> Décolles au moment de son passage au zénith et suis là lors de ta trajectoire assentionelle.
+2014-06-24T23:23:25 <Letarumavza> Comme ça tu sera dans l'axe, ensuite je te conseille de faire un simple point de manoeuvre pour t'injecter en orbite
+2014-06-24T23:23:30 <ludvann> merci du conseil...
+2014-06-24T23:23:42 <ludvann> (j'ai compris 50% des choses xD
+2014-06-24T23:23:43 <ludvann> )
+2014-06-24T23:24:04 <adriens33> ben tu décolle quand mun est toute en haut, et tu essaie de tout le temps aller vers elle
+2014-06-24T23:24:06 <Letarumavza> En gros => Mun dans le viseur tout le temps durant ta sortie atmosphérique
+2014-06-24T23:24:08 <adriens33
+[1;37m==> FLushing output buffer[0m> c'est bien ça::[1;37m==> FLushing output buffer[0m:
+2014-06-24T23:24:10 <adriens33> ?
+2014-06-24T23:24:22 <Letarumavza> ça t'évitera de faire une orbite d'attente.
+2014-06-24T23:24:28 <ludvann> ok
+2014-06-24T23:24:50 <Letarumavza> Mais pourquoi pas viser minmus dans la foulée ?
+2014-06-24T23:25:05 <ludvann> j'ai jamais encore fait mün...
+2014-06-24T23:25:08 <Letarumavza> Mun est plus chiante à atteindre du fait de sa vitesse.
+2014-06-24T23:25:43 <ludvann> ah...
+2014-06-24T23:26:03 <Letarumavza> Minmus la seule chose chiante c'est d'avoir l'orbite dans l'axe
+2014-06-24T23:26:13 <ludvann> c'est à dire ?
+2014-06-24T23:26:14 <Letarumavza> Ensuite c'est juste un transfert.
+2014-06-24T23:26:20 <Letarumavza> inclinée à 6°
+2014-06-24T23:26:26 <ludvann> ah
+2014-06-24T23:29:43 <ludvann> je tente quand même mün :)
+2014-06-24T23:36:06 *** Letarumavza est parti
+2014-06-24T23:37:20 *** Letarumavza s'est connecté
+2014-06-24T23:37:35 *** ValCab33 s'est connecté
+2014-06-24T23:37:41 <ValCab33> Reuhh
+2014-06-24T23:37:44 <adriens33> re
+2014-06-24T23:37:51 <ludvann> yo
+2014-06-24T23:38:31 *** MaCharon est parti
+2014-06-24T23:41:18 <ludvann> i'm ready to the münissage
+2014-06-24T23:41:41 <ValCab33> Yay
+2014-06-24T23:41:55 <ludvann> :)
+2014-06-24T23:42:04 <ludvann> piur la première fois o/
+2014-06-24T23:42:26 <ValCab33> Il faut une première fois à tout :p
+2014-06-24T23:42:34 <ludvann> Eeyup
+2014-06-24T23:44:05 <adriens33> @ValCab33: ta femme te l'dit souvent.
+2014-06-24T23:44:13 <ludvann> xD
+2014-06-24T23:44:24 <ValCab33> . . .
+2014-06-24T23:45:01 <ludvann> (atterrissage au réacteurs ^^ )
+2014-06-24T23:45:41 <ludvann> et non pas au parachite :)
+2014-06-24T23:45:48 <ludvann> parachutes*
+2014-06-24T23:46:29 <ValCab33> Si un jour tu vas sur Eve, penses à mettre des parachutes
+2014-06-24T23:46:44 <ludvann> why ? atmosphère ?
+2014-06-24T23:46:49 <ValCab33> Oui
+2014-06-24T23:46:55 <ludvann> cool :)
+2014-06-24T23:47:03 <ValCab33> RIP Ludvis Kerman
+2014-06-24T23:47:06 <ludvann> tu y es déjà allé ?
+2014-06-24T23:47:31 <ValCab33> Oui, en carrière, hier
+2014-06-24T23:47:37 <ludvann> bravo !
+2014-06-24T23:48:38 <ValCab33> RIP Ludvis Kerman
+2014-06-24T23:48:43 <ludvann> ?
+2014-06-24T23:49:10 <ValCab33> Je me suis crashé
+2014-06-24T23:49:15 <ludvann> ah...
+2014-06-24T23:49:17 <ludvann> GG
+2014-06-24T23:49:47 <ValCab33> Je savait pas qu'y avait une atmosphère allrs j'avait pas mi de parachutes x)
+2014-06-24T23:50:05 <ludvann> c'est plus facile avec les parachutes ?
+2014-06-24T23:51:11 <ValCab33> Eve a plus de gravité que Kerbin
+2014-06-24T23:51:25 <ValCab33> Donc pas de paras --> crash
+2014-06-24T23:52:04 <ludvann> ok
+2014-06-24T23:53:17 <ludvann> je re
+2014-06-24T23:53:21 *** ludvann est parti
+2014-06-24T23:59:32 *** ludvann s'est connecté
+2014-06-24T23:59:47 <ludvann> J'ai réussi !!!!!!!!!
+2014-06-24T23:59:57 <ludvann> Fuck yeah !
+2014-06-24T23:59:59 <ValCab33> Jayjqy

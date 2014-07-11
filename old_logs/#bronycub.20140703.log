@@ -1,0 +1,805 @@
+2014-07-02T00:36:18 *** ludvann est parti
+2014-07-02T00:44:05 *** Calimeroor s'est connecté
+2014-07-02T01:28:09 <Calimeroor> ya personne :(
+2014-07-02T01:32:12 *** Calimeroor est parti
+2014-07-02T02:12:23 <ValCab33> Je suis resté le nez collé sur Youtube pendant 5h...
+2014-07-02T02:13:35 <ValCab33> Gosh... j'ai l'impression que mon cerveau est en train de s'initialiser..
+2014-07-02T02:14:15 <ValCab33> Sur ce je vais arrêter de parler à un mur :p
+2014-07-02T02:14:39 <ValCab33> (Coucou au passage à toi qui lis le log)
+2014-07-02T02:14:53 <ValCab33> Et je go dodo.
+2014-07-02T02:15:29 *** ValCab33 est parti
+2014-07-02T07:22:20 *** adriens33 s'est connecté
+2014-07-02T07:42:46 *** adriens33 est parti
+2014-07-02T09:20:38 *** adriens33 s'est connecté
+2014-07-02T09:53:25 *** Letarumavza s'est connecté
+2014-07-02T09:53:35 <adriens33> hello
+2014-07-02T09:53:38 <Letarumavza> JE SUIS UN RADIS !!!!
+2014-07-02T09:53:49 <adriens33> euh… ok.
+2014-07-02T09:53:51 <adriens33> bonjour radis !
+2014-07-02T09:54:01 <Letarumavza> 5 putains d'heures pour tenter de comprendre les problèmes de CSS sous android.
+2014-07-02T09:54:06 <adriens33> et ?
+2014-07-02T09:54:12 <Letarumavza> Toujours aucune idée
+2014-07-02T09:54:28 <Letarumavza> Parfois il charge le resize mais il le fait pas.
+2014-07-02T09:54:39 <Letarumavza> Parfois il resize mais pas à la bonne taille
+2014-07-02T09:54:49 <Letarumavza> Parfoit il charge tout simplement pas.
+2014-07-02T09:54:52 <adriens33> pense qu'il y a du jquery aussi, pour les animations et tout.
+2014-07-02T09:54:55 <Letarumavza> Et parfoit ça marche impec.
+2014-07-02T09:54:57 <adriens33> et ça aussi ça bug sur android
+2014-07-02T09:55:02 <Letarumavza> Bah...
+2014-07-02T09:55:14 <Letarumavza> Il me fait les 4 sur des rafraichissements successifs...
+2014-07-02T09:55:29 <adriens33> les tels android ont une drôle de façon de gérer le css/js de manière globale.
+2014-07-02T09:55:39 <Letarumavza> Approx 5% de chances que ça marche, et dans 80% des cas il ne charge même pas le resize
+2014-07-02T09:55:39 <adriens33> (faut dire que tout est en Java donc bon… XD)
+2014-07-02T09:56:10 <Letarumavza> et approx 7.5%-9% de resize erratiques.
+2014-07-02T09:56:17 <Letarumavza> Je pige rien...
+2014-07-02T09:56:28 <Letarumavza> Le pire => sur un android émulé, aucun problème
+2014-07-02T09:56:39 <Letarumavza> Sur mon portable => crash.
+2014-07-02T09:56:52 * Letarumavza faceground. *
+2014-07-02T09:56:57 <adriens33> tu pourras test sur le mien si tu veux quand je viendrais
+2014-07-02T09:57:10 <adriens33> mais j'avais déjà remarqué des comportements zarb
+2014-07-02T09:57:26 <adriens33> le bouton connexion qui a un <a> au début (bien fermé et tout)
+2014-07-02T09:57:38 <adriens33> ben sur android le navigateur considérait que le <a> se fermait pas
+2014-07-02T09:57:47 <Letarumavza> M'en fous j'envoie une sonde ionique en orbite de jool.
+2014-07-02T09:57:47 <adriens33> et du coup les champs login/mdp étaient inutilisable
+2014-07-02T09:58:08 <Letarumavza> (je suis injecté je suis en freinage final)
+2014-07-02T09:59:58 <Letarumavza> C'est bien les sondes ioniques
+2014-07-02T10:00:11 <Letarumavza> Tu peux les manage tout en bossant, les actions sont tellement lentes.
+2014-07-02T10:00:49 *** ValCab33 s'est connecté
+2014-07-02T10:00:57 <ValCab33> Hello
+2014-07-02T10:02:35 <Letarumavza> salut
+2014-07-02T10:06:41 <adriens33> salut ValCab33
+2014-07-02T10:31:09 <adriens33> t'es trop bourrée Berry XD
+2014-07-02T10:52:28 *** Rei s'est connecté
+2014-07-02T10:52:45 <Rei> coucou
+2014-07-02T10:54:35 <Rei> nyuh?
+2014-07-02T10:59:59 <adriens33> hellow
+2014-07-02T11:00:32 <Rei> coucou^^
+2014-07-02T11:20:03 <Rei> *
+2014-07-02T12:06:33 *** Rei est parti
+2014-07-02T12:06:57 <adriens33> je vais partir à la chasse au manger, je re
+2014-07-02T12:06:58 <Berry-Punch> Bon appétit, *hic* adriens33 :D
+2014-07-02T12:07:01 <adriens33> à toute
+2014-07-02T12:07:10 * adriens33 is afk (miam)
+2014-07-02T12:07:26 *** Rei s'est connecté
+2014-07-02T12:19:09 *** Gordfang s'est connecté
+2014-07-02T12:20:09 *** Gordfang est parti
+2014-07-02T12:35:02 * adriens33 is no longer afk
+2014-07-02T12:35:04 <adriens33> re
+2014-07-02T12:38:41 <Rei> re
+2014-07-02T12:54:37 *** Rei est parti
+2014-07-02T14:29:18 *** adriens33 est parti
+2014-07-02T14:41:24 *** adriens33 s'est connecté
+2014-07-02T14:43:20 *** adriens33 est parti
+2014-07-02T15:11:04 *** adriens33 s'est connecté
+2014-07-02T15:38:25 *** Gordfang s'est connecté
+2014-07-02T15:38:27 <Gordfang> lut
+2014-07-02T15:46:26 <adriens33> hello
+2014-07-02T15:53:56 *** heuzef s'est connecté
+2014-07-02T15:54:04 <adriens33> salut heuzef
+2014-07-02T15:54:12 <heuzef> ^^ /)
+2014-07-02T15:54:23 <heuzef> Content j'ai bien avancé les tickets de BC
+2014-07-02T15:54:26 <adriens33> ^^
+2014-07-02T15:54:40 <heuzef> Au faite c'été super cool hier soir
+2014-07-02T15:54:53 <adriens33> uep
+2014-07-02T15:54:57 <heuzef> Bien content de vous avoir revu un peu
+2014-07-02T15:55:00 <adriens33> idem
+2014-07-02T15:55:16 <heuzef> Pour ce soir je pourrais pas être au ciné à temps par contre
+2014-07-02T16:00:13 <heuzef> Bon sinon on à 2 event a venir sympatique
+2014-07-02T16:00:17 <heuzef> 3 pardon
+2014-07-02T16:00:28 <heuzef> Va falloir commencer à y réfléchir
+2014-07-02T16:00:51 <heuzef> Gordfang ?
+2014-07-02T16:09:22 <Gordfang> ui?
+2014-07-02T16:10:08 <Gordfang> @heuzef (histoire que sa fasse un bip)
+2014-07-02T16:17:55 *** MaCharon s'est connecté
+2014-07-02T16:24:13 <heuzef> re pardon
+2014-07-02T16:24:20 <heuzef> Toujours la Gordfang ? ^^
+2014-07-02T16:24:49 <Gordfang> ui
+2014-07-02T16:26:10 <heuzef> Gordfang comme tu es un peu mon référent pour les actions humanitaire je voulais savoir si tu es chaud pour t'occuper/organiser les inscriptions pour la formation astrée du 6 Septembre ?
+2014-07-02T16:26:37 <Gordfang> je suis ton référent? depuis quand? tu t'est pas gourré avec shinsaber?
+2014-07-02T16:26:51 <heuzef> Mais non ^^
+2014-07-02T16:26:54 <Gordfang> sinon si tu m'explique comment faire pas de soucis ^^
+2014-07-02T16:27:06 <heuzef> ;) je sais que je peux compter sur toi
+2014-07-02T16:27:14 <Gordfang> ^^
+2014-07-02T16:27:20 <heuzef> Alors donc il faudrait :
+2014-07-02T16:27:22 <Gordfang> j'espère être a la hauteur
+2014-07-02T16:27:49 <heuzef> 1) retrouver tous ce que j'ai fait pour organiser la première session
+2014-07-02T16:28:07 <Gordfang> euh
+2014-07-02T16:28:29 <heuzef> Dans les mails fait une recherche avec le mot clé "astree" tu devrais trouvais tous ce qui à été mis en place pour la formation du 14 Juin
+2014-07-02T16:29:04 <heuzef> En ce basant sur ça il faut reproduire la même choses en gros pour le 6 septembre, en espérant réunir plus de monde
+2014-07-02T16:29:32 <Gordfang> ok je vais chech sa
+2014-07-02T16:30:15 <heuzef> 2) Créer un nouveau framdate comme celui du 14 Juin : http://framadate.org/2crzjl1cy7b96aql
+2014-07-02T16:30:41 <heuzef> En précisant bien que les iscriptions sont limité et qu'il l'inscription sur le framadate est obligatoire
+2014-07-02T16:30:55 <Gordfang> ok
+2014-07-02T16:31:26 <heuzef> 3) Continuer de sensibiliser et relancer les gens jusqu'en septembre, en répondant a leur question bien sur
+2014-07-02T16:31:45 <heuzef> Bien sur j'ai la totalité des coordonées de tous le monde donc hésite pas à me demander
+2014-07-02T16:32:25 <heuzef> Je referais le point avec toi le plus souvent possible, car avant septembre il nous faudrat reprendre contact avec hervé Graignon
+2014-07-02T16:32:32 <Gordfang> ok
+2014-07-02T16:32:37 <Gordfang> c'est toujour la même adresse?
+2014-07-02T16:32:49 <heuzef> Je m'en occuperais si tu veux, sauf si tu es chaud pour servir de contact aussi
+2014-07-02T16:32:56 <heuzef> Il est très cool
+2014-07-02T16:33:03 <Gordfang> non c'est bon je te laisse t'occuper de ca ^^
+2014-07-02T16:33:10 <heuzef> Oui toujours la même adresse, l'evenement est déjà présent dans l'agenda
+2014-07-02T16:33:16 <Gordfang> ok merci
+2014-07-02T16:33:19 <heuzef> Manque plus qu'à organiser et communiquer à fond
+2014-07-02T16:33:54 <heuzef> La derniere fois ce fut un echec car nous n'étions que 6 inscrit sur les 10 minimum / 14 Maximum
+2014-07-02T16:33:59 <Gordfang> bon je vais envoyer le mail avant de partir pour le cinoch ce soir
+2014-07-02T16:34:37 <heuzef> Cette fois ci la formation est publique, donc il devrais y avoir quelques inconnu en plus
+2014-07-02T16:34:44 <heuzef> Donc ça DOIT passer cette fois
+2014-07-02T16:35:07 <heuzef> Surtout n'oublie pas d'utiliser le formulaire d’événement, et prend ton temps
+2014-07-02T16:35:23 <heuzef> On à le temps
+2014-07-02T16:35:31 <heuzef> Donc evitons de faire ça n'importe comment ;)
+2014-07-02T16:36:01 <Gordfang> ^^
+2014-07-02T16:36:33 <heuzef> D'autres questions ? Tu veux que je te transferts les mails ou tu as tous ce qu'il te faut ?
+2014-07-02T16:40:51 <heuzef> Gordfang ?
+2014-07-02T16:45:44 <Gordfang> re
+2014-07-02T16:45:48 <Gordfang> c'est bon j'ai tous normalement
+2014-07-02T16:46:05 <Gordfang> j'ai deja commencer a écrire le mail je te montre en message privée après ^^
+2014-07-02T16:46:15 <heuzef> oki doki loki ^^
+2014-07-02T16:50:57 *** Shinsaber s'est connecté
+2014-07-02T16:51:12 <Shinsaber> plop /)
+2014-07-02T16:52:26 *** heuzef est parti
+2014-07-02T16:53:19 *** heuzef s'est connecté
+2014-07-02T16:53:23 <heuzef> Shinsaber: alors du neuf ? ^^
+2014-07-02T16:54:03 <Shinsaber> nop, rien d'extraordinaire ^^
+2014-07-02T16:54:22 <heuzef> Et BBBFF ? :P
+2014-07-02T16:55:07 <adriens33> hello Shinsaber
+2014-07-02T16:55:25 <Letarumavza> Salut...
+2014-07-02T16:55:48 <Shinsaber> si j'ai testé adventure time car on n'a pas arête de me le conseiller ! Du coups je dit : c'est pas aussi cool que mlp
+2014-07-02T16:56:18 <Shinsaber> *hoc* !
+2014-07-02T16:56:21 <adriens33> re Letarumavza
+2014-07-02T16:56:27 <Letarumavza> C'est pas aussi cool que spongebob...
+2014-07-02T16:56:40 * Letarumavza stresse.
+2014-07-02T16:56:53 <adriens33> pourquoi ?
+2014-07-02T16:56:56 <Shinsaber> spongebob c'est trop cool a coté ^^
+2014-07-02T16:57:11 <Letarumavza> Ma cop vient de m'envoyer un "je peux te parler ?"
+2014-07-02T16:57:58 <Gordfang> aie
+2014-07-02T16:58:19 <Shinsaber> c'est bizarre...
+2014-07-02T16:59:11 <Letarumavza> Bon, la connaissant c'est aussi assez probablement juste pour me faire avoir un coups de flippe.
+2014-07-02T16:59:23 * Letarumavza stresse quand-même.
+2014-07-02T17:00:24 <heuzef> En général c'est pas bon signe un "Il faut qu'on parle"
+2014-07-02T17:00:27 <heuzef> ^^
+2014-07-02T17:00:43 <heuzef> Même si c'est pas une mauvaise nouvelle
+2014-07-02T17:00:50 <heuzef> C'est un truc casse couille
+2014-07-02T17:01:21 <adriens33> ça sent le vécu XD
+2014-07-02T17:01:46 <Letarumavza> adriens33: "il faut qu'on parle" est la pire phrase ever
+2014-07-02T17:01:59 <adriens33> sans doute
+2014-07-02T17:02:06 <Letarumavza> "Il faut qu'on parle" et la version féminine de "tu es un problème"
+2014-07-02T17:02:11 <adriens33> ah…
+2014-07-02T17:02:13 <adriens33> ok.
+2014-07-02T17:04:54 <Letarumavza> En plus j'étais juste un poil entrain de pionser quand elle a envoyé le message...
+2014-07-02T17:05:27 <adriens33> ah ouais, paye ton réveil agréable quoi
+2014-07-02T17:05:45 <Letarumavza> Yep
+2014-07-02T17:06:49 <Letarumavza> Bah c'est surtout que j'ai pas répondu au message quand elle l'a envoyé
+2014-07-02T17:07:02 <Letarumavza> Ah la...
+2014-07-02T17:07:22 <adriens33> ?
+2014-07-02T17:07:26 <Letarumavza> "Alors ça va, on a frollé l'arret cardiaque mon chaton"
+2014-07-02T17:07:29 <Letarumavza> ...
+2014-07-02T17:07:29 <adriens33> XD
+2014-07-02T17:07:55 *** Gordfang est parti
+2014-07-02T17:08:45 *** Shinsaber est parti
+2014-07-02T17:10:32 *** ludvann s'est connecté
+2014-07-02T17:10:37 *** Ravien s'est connecté
+2014-07-02T17:10:48 <ludvann> Salut
+2014-07-02T17:10:49 <Berry-Punch> Flags de Ravien *hic* modifiés : +v
+2014-07-02T17:10:53 <Berry-Punch> Flags de Ravien modifiés en *hic* +v
+2014-07-02T17:11:02 <adriens33> hello ludvann
+2014-07-02T17:11:05 <adriens33> hello Ravien
+2014-07-02T17:11:08 *** Ravien est parti
+2014-07-02T17:11:11 <adriens33> ah…
+2014-07-02T17:11:12 <ludvann> Ça va ?
+2014-07-02T17:11:22 <adriens33> ouep
+2014-07-02T17:11:26 <ludvann> On est au ciné
+2014-07-02T17:11:27 <adriens33> encore au taf mais ça va ^^
+2014-07-02T17:11:38 <ludvann> ^^
+2014-07-02T17:11:49 <adriens33> (je sais qu'il y a une sortie ciné merci ^^)
+2014-07-02T17:13:08 <ludvann> Ravien ne t'a pas snobé ^^
+2014-07-02T17:15:40 <ludvann> Tu as le numéro de mathias ?
+2014-07-02T17:15:48 <adriens33> euh… ouipe
+2014-07-02T17:16:26 <ludvann> Tu peux me le filer stp ?
+2014-07-02T17:18:09 <adriens33> @Letarumavza c'est bon tu t'es remis ^^ ?
+2014-07-02T17:18:55 <Letarumavza> J'ai la cop la plus géniale au monde
+2014-07-02T17:19:14 <Letarumavza> J'envisage sérieusement de mettre un anneau dessus le temps venu...
+2014-07-02T17:19:27 <heuzef> Elle t'as promis une fellation ou quoi ?
+2014-07-02T17:19:59 <Letarumavza> Tout passe pas par la queue
+2014-07-02T17:20:10 <adriens33> XD
+2014-07-02T17:20:23 <adriens33> « mon précieux !!! »
+2014-07-02T17:20:31 <heuzef> Théoriquement l'humanité entière sort par des queues :P
+2014-07-02T17:21:00 <Letarumavza> j'ai dit que
+2014-07-02T17:21:26 *** ludvann est parti
+2014-07-02T17:21:32 <Letarumavza> Flo, je lui ai transmis ta réponse.
+2014-07-02T17:21:41 <adriens33> @heuzef techniquement ça sort pas par la queue. sauf si tu accouches par là, auquel cas tu es très mal foutu ^^
+2014-07-02T17:21:42 *** ludvann s'est connecté
+2014-07-02T17:22:23 <heuzef> adriens33 avant l'accouchement ...
+2014-07-02T17:22:30 <heuzef> Letarumavza: pas compris
+2014-07-02T17:22:50 <adriens33> heuzef: j'avais compris ce que tu disais merci ^^
+2014-07-02T17:23:09 <Letarumavza> Bah... j'ai un peu copy/paste l'irc l'histo irc sur skype pour la faire rire ^^
+2014-07-02T17:23:34 <heuzef> Donc le "il faut qu'on parle"
+2014-07-02T17:23:39 <heuzef> C'été pour ?
+2014-07-02T17:23:50 <adriens33> lui coller une crise cardiaque non ?
+2014-07-02T17:24:03 <Letarumavza> Yep, me coller un coups de stress ^^
+2014-07-02T17:24:11 <heuzef> tssss
+2014-07-02T17:24:17 <ludvann> L'enfoiré xD
+2014-07-02T17:24:23 <adriens33> (et puis sinon je crois pas que ça te regarde heuzef, t'es trop curieux XD)
+2014-07-02T17:24:35 <adriens33> ludvann: *enfoirée
+2014-07-02T17:24:43 <ludvann> ^^
+2014-07-02T17:24:43 <Letarumavza> Boarf, c'est pas comme si il me demandait ses mensurations ^^
+2014-07-02T17:24:47 <adriens33> ^^
+2014-07-02T17:24:58 <adriens33> oui, là y'aurait matière à s'inquiéter.
+2014-07-02T17:25:09 <heuzef> Je parie qu'elle à des seins immense
+2014-07-02T17:25:16 <heuzef> Letarumavza: aime les gros nichons
+2014-07-02T17:25:26 <Letarumavza> Nop, elle fait du B
+2014-07-02T17:25:59 <Letarumavza> Mais t'as pas tort concernant mon attirance pour les seins, t'as juste loupé un truc au vol ^^
+2014-07-02T17:26:01 <heuzef> Moi j'adore le B :P
+2014-07-02T17:26:27 <Letarumavza> Moi j'ai une préférence pour le C/D
+2014-07-02T17:26:44 <Letarumavza> Le B c'est du floppy par défaut...
+2014-07-02T17:27:14 <heuzef> C/D c'est pas très moderne non plus ... depuis y'a le blu-ray quand même
+2014-07-02T17:27:18 <heuzef> *badum tsss*
+2014-07-02T17:27:23 <adriens33> …
+2014-07-02T17:27:35 <Letarumavza> La vanne sur le floppy était pire je trouve.
+2014-07-02T17:27:41 <adriens33> ah
+2014-07-02T17:27:43 <adriens33> j'avais pas pigé
+2014-07-02T17:27:46 <adriens33> XD
+2014-07-02T17:28:09 <adriens33> donc pour les gens qui se demandent: B → c'était la lettre de lecteur des disquettes (alias "floppies") sous msdos/windows.
+2014-07-02T17:28:16 <adriens33> (le 2e lecteur en fait)
+2014-07-02T17:28:25 <adriens33> (A étant le 1er)
+2014-07-02T17:29:49 <heuzef> Tu ne pourra plus lui tripoté les seins sans penser "floppy" maintenant
+2014-07-02T17:29:51 <heuzef> bien fait
+2014-07-02T17:30:24 <Letarumavza> bah floppy pour un truc qui fait grosso-modo flop quand tu tapotes dessus, ça va.
+2014-07-02T17:33:55 <Letarumavza> non ?
+2014-07-02T17:34:00 <heuzef> xD
+2014-07-02T17:34:04 <heuzef> Tékon
+2014-07-02T17:35:39 <adriens33> bon je go chez moi
+2014-07-02T17:35:41 <adriens33> ++
+2014-07-02T17:35:42 *** adriens33 est parti
+2014-07-02T17:45:27 *** ludvann est parti
+2014-07-02T17:50:08 *** heuzef est parti
+2014-07-02T19:35:55 *** Dawnio s'est connecté
+2014-07-02T19:52:13 *** heuzef s'est connecté
+2014-07-02T19:52:23 <heuzef> Re
+2014-07-02T19:53:55 *** adriens33 s'est connecté
+2014-07-02T20:00:23 *** adriens33 est parti
+2014-07-02T20:05:44 *** adriens33 s'est connecté
+2014-07-02T20:25:10 <adriens33> Et allez…
+2014-07-02T20:25:17 <adriens33> du boulot en plus pour demain.
+2014-07-02T20:25:22 <adriens33> génial…
+2014-07-02T20:26:04 *** heuzef est parti
+2014-07-02T21:03:27 <Letarumavza> Y'a rien de mieux que de passer 4h en conv avec sa cop.
+2014-07-02T21:03:37 <Letarumavza> (mis à part passer 4h avec elle physiquement)
+2014-07-02T21:03:48 <Letarumavza> btw re les filles ^^
+2014-07-02T21:04:13 <Letarumavza> adriens33: on va essayer de te trouver une linuxienne ^^
+2014-07-02T21:05:22 <adriens33> ^^
+2014-07-02T21:07:57 <Letarumavza> Bah y'a rien de mieux pour toi qu'une nana qui peut rire à des blagues sur son interface graphique ^^
+2014-07-02T21:10:02 <adriens33> …
+2014-07-02T21:10:18 <Letarumavza> ^^
+2014-07-02T21:10:30 <adriens33> XD
+2014-07-02T21:10:31 <adriens33> tu sais, je rêve pas en ligne de commande,  hein.
+2014-07-02T21:11:01 <Letarumavza> Hum... Une fois j'ai révé que je passais ma journée à coder un truc.
+2014-07-02T21:11:27 <adriens33> ça m'est encore jamais arrivé ce genre  de trucs :p
+2014-07-02T21:11:52 <Letarumavza> Un matin j'ai cherché ma barre de vie et de mana au réveuil.
+2014-07-02T21:13:09 <Letarumavza> M'enfin généralement mes rêves sont... spéciaux ^^
+2014-07-02T21:14:01 <adriens33> ^^
+2014-07-02T21:31:13 <BronyCUB-MC> adrien_s has joined the server!
+2014-07-02T21:31:26 <Letarumavza> https://www.youtube.com/watch?v=mziTsgji7to
+2014-07-02T21:32:03 <BronyCUB-MC> adrien_s has quit the server!
+2014-07-02T21:35:48 <BronyCUB-MC> adrien_s has joined the server!
+2014-07-02T21:39:47 <BronyCUB-MC> adrien_s has quit the server!
+2014-07-02T21:43:16 <adriens33> je re
+2014-07-02T21:43:18 <adriens33> ++
+2014-07-02T21:43:23 * adriens33 is afk
+2014-07-02T22:06:21 <adriens33> re
+2014-07-02T22:09:26 <Letarumavza> re
+2014-07-02T22:15:56 *** ludvann s'est connecté
+2014-07-02T22:16:08 <ludvann> Salut !
+2014-07-02T22:16:45 * ludvann se prends un courant d'air...
+2014-07-02T22:18:51 * ludvann se prend un vent
+2014-07-02T22:19:07 * ludvann se prend une tempète
+2014-07-02T22:19:20 * ludvann se prend un ouragan
+2014-07-02T22:19:38 * ludvann se prend une tornade
+2014-07-02T22:22:59 <ludvann> Pourquoi tant de haine ?
+2014-07-02T22:23:07 <adriens33> hello
+2014-07-02T22:23:08 <ludvann> N n n n n n n ...
+2014-07-02T22:23:10 <ludvann> Yo
+2014-07-02T22:23:11 <adriens33> t'avais pas vu
+2014-07-02T22:23:16 <ludvann> :'(
+2014-07-02T22:23:41 <adriens33> la fenêtre irc était pas visible
+2014-07-02T22:23:44 <adriens33> sorry
+2014-07-02T22:23:52 <ludvann> J'ai une pensée pour toi depuis mon hamac ^^
+2014-07-02T22:24:00 <ludvann> Pas grave ¢^
+2014-07-02T22:24:00 <adriens33> heu?
+2014-07-02T22:24:03 <adriens33> …
+2014-07-02T22:24:04 <adriens33> et alors ?
+2014-07-02T22:24:41 <ludvann> Hamac d'appartement, accroché sous mon lit xD
+2014-07-02T22:24:53 <adriens33> ben c'est cool
+2014-07-02T22:24:56 <adriens33> :)
+2014-07-02T22:25:02 <ludvann> :|
+2014-07-02T22:25:48 <ludvann> Tu fais quoi ?
+2014-07-02T22:25:55 <ValCab33> Hi
+2014-07-02T22:25:59 <ludvann> Yop
+2014-07-02T22:26:01 <adriens33> je regarde des vidéos sur le net en mangeant
+2014-07-02T22:26:04 <ludvann> Ok
+2014-07-02T22:26:11 <adriens33> et toi ?
+2014-07-02T22:26:23 <ludvann> Je te parles ¢^
+2014-07-02T22:26:26 <adriens33> …
+2014-07-02T22:26:27 <ludvann> ^^ *
+2014-07-02T22:26:34 <adriens33> *badum tss*
+2014-07-02T22:26:44 <ludvann> Sérieusement...
+2014-07-02T22:26:54 <adriens33> ok
+2014-07-02T22:27:02 <ludvann> Bon ok j'écoute de la musique en même temps...
+2014-07-02T22:27:31 *** ValCab33 est parti
+2014-07-02T22:27:50 *** ValCab33 s'est connecté
+2014-07-02T22:28:24 <ludvann> Ton boulot, c'est pour tes études ou c'est un cdd/cdi adriens33
+2014-07-02T22:28:28 <ludvann> ?
+2014-07-02T22:28:32 <adriens33> je suis en alternance
+2014-07-02T22:28:36 <adriens33> ça répond à ta question ?
+2014-07-02T22:28:44 <ludvann> A moitié...
+2014-07-02T22:28:47 <adriens33> …
+2014-07-02T22:28:58 <ludvann> Nan c'est bon..
+2014-07-02T22:29:01 <adriens33> ben si je suis en alternance c'est un cdd et c'est pour mes études
+2014-07-02T22:29:03 <adriens33> :)
+2014-07-02T22:29:21 <ludvann> J'ai mis un peu de temps à décoincer xD
+2014-07-02T22:29:42 <adriens33> ^^
+2014-07-02T22:30:29 <ludvann> On fait une pétition ?
+2014-07-02T22:30:36 <ludvann> ;-)
+2014-07-02T22:30:46 <adriens33> heu… Letarumavza ?
+2014-07-02T22:30:53 <ludvann> Naon....
+2014-07-02T22:30:55 <adriens33> XD
+2014-07-02T22:31:01 <ludvann> XD
+2014-07-02T22:31:13 <ludvann> Mon point faible !!! :(
+2014-07-02T22:31:20 <ludvann> :|
+2014-07-02T22:31:25 <ludvann> ^^
+2014-07-02T22:32:09 <ludvann> Il me semble que demain ça fera un mois que je serais sur bc :)
+2014-07-02T22:32:16 <adriens33> ^^
+2014-07-02T22:32:41 <ludvann> Et j'ai été présent tous les soirs sauf un...
+2014-07-02T22:32:55 <ludvann> #RageQuit
+2014-07-02T22:33:02 *** ludvann est parti
+2014-07-02T22:33:13 <Letarumavza> ?
+2014-07-02T22:33:21 *** ludvann s'est connecté
+2014-07-02T22:33:25 <adriens33> XD
+2014-07-02T22:33:25 <ludvann> xD
+2014-07-02T22:33:38 <Letarumavza> gné ?
+2014-07-02T22:33:46 <ludvann> ^^
+2014-07-02T22:33:48 <adriens33> il voulait "refaire une pétition…"
+2014-07-02T22:34:20 <adriens33> et là il voulait ragequit pour une raison obscure et ésotérique.
+2014-07-02T22:34:25 <ludvann> Leta' tu préfère le C/D au B ? ^^
+2014-07-02T22:35:29 <ludvann> adriens33 je sais que tu ridqu
+2014-07-02T22:35:36 <adriens33> que je quoi ?
+2014-07-02T22:35:50 <ludvann> Risque de me prendre pour un éréthique mais,
+2014-07-02T22:36:00 <adriens33> gneu ?
+2014-07-02T22:36:16 <ludvann> On peut faire tourner du C# sous linux ?
+2014-07-02T22:36:25 <adriens33> oui
+2014-07-02T22:36:31 <adriens33> mais c'est moche.
+2014-07-02T22:36:39 <ludvann> Really ?
+2014-07-02T22:36:43 <ludvann> Moche ?
+2014-07-02T22:36:44 <adriens33> (cherche Mono)
+2014-07-02T22:36:54 <adriens33> ben faire tourner des .exe sous linux
+2014-07-02T22:36:56 <adriens33> je trouve ça moche
+2014-07-02T22:37:02 <ludvann> Ah oui...
+2014-07-02T22:37:03 <adriens33> le c# donne des .exe
+2014-07-02T22:37:07 <adriens33> que tu sous sous win ou linux
+2014-07-02T22:37:16 <ludvann> Que des .exe ?
+2014-07-02T22:37:19 <adriens33> (c'est pas une émulation, le c# c'est comme du java)
+2014-07-02T22:37:27 <adriens33> imagine que tu lance un .jar
+2014-07-02T22:37:32 <adriens33> sauf que là son extention c'est .exe
+2014-07-02T22:37:47 <adriens33> (de toute façon C# ou Java c'est kif kif)
+2014-07-02T22:38:06 <ludvann> Ça serait pour faire tourner terraria en fait...
+2014-07-02T22:38:11 <adriens33> ah
+2014-07-02T22:38:13 <ludvann> ^^
+2014-07-02T22:38:19 <adriens33> ben… essaie tu verras bien.
+2014-07-02T22:38:36 *** Dawnio est parti
+2014-07-02T22:39:06 <ludvann> C'est à dire ? Ça marche pas ? (Suis sous mobile...)
+2014-07-02T22:39:33 <adriens33> quoi ?
+2014-07-02T22:39:35 <adriens33> nan mais essaie
+2014-07-02T22:39:42 <adriens33> tu verras bien niveau perf si ça vaut le coup
+2014-07-02T22:39:50 <ludvann> Ah...
+2014-07-02T22:40:05 <adriens33> ça dépend de l'appli, ça peut marcher bien comme ça peut être lourdingue
+2014-07-02T22:40:08 <adriens33> (comme java en fait)
+2014-07-02T22:40:12 <ludvann> Faut installer un truc ?
+2014-07-02T22:40:14 <ludvann> XD
+2014-07-02T22:40:16 <adriens33> mono
+2014-07-02T22:40:21 <adriens33> et pour lancer
+2014-07-02T22:40:35 <adriens33> de mémoire c'est "mono <monappli.exe>"
+2014-07-02T22:40:44 <ludvann> Ok
+2014-07-02T22:41:05 <ludvann> Mono est comme wine ? (Pas taper !)
+2014-07-02T22:41:14 <adriens33> nop
+2014-07-02T22:41:19 <adriens33> c'est comme java
+2014-07-02T22:41:24 <adriens33> ça utilise une vm
+2014-07-02T22:41:32 <adriens33> c'est ce qu'on appelle du code managé
+2014-07-02T22:41:34 <ludvann> Ah ok...
+2014-07-02T22:41:43 <adriens33> c'est la vm qui gère la mémoire de l'appli à sa place en gros
+2014-07-02T22:41:51 <adriens33> (entre autres)
+2014-07-02T22:42:11 <ludvann> Ok
+2014-07-02T22:42:24 <ludvann> Ksp tourne bien sous linux ?
+2014-07-02T22:42:26 <adriens33> même si t'es pas sous arch, tu peux look ici, ça peut être utile
+2014-07-02T22:42:29 <adriens33> https://wiki.archlinux.org/index.php/Mono
+2014-07-02T22:42:33 <adriens33> oui, ça marche bien
+2014-07-02T22:42:39 <adriens33> faut dire que c'est ni en java ni en c#
+2014-07-02T22:42:40 <adriens33> :)
+2014-07-02T22:42:49 <ludvann> ^°
+2014-07-02T22:43:29 <ludvann> Je vais ptêt me prendre arch... Il existe en 64bits ?
+2014-07-02T22:43:34 <adriens33> évidemment ^^
+2014-07-02T22:43:40 <adriens33> mais si tu débute sous linux je te le déconseille
+2014-07-02T22:43:52 <adriens33> ça risque d'être casse gueule pour quelqu'un qui y connait rien du tout.
+2014-07-02T22:44:24 <adriens33> mais si tu veux tenter, le mieux c'est de ne suivre que le wiki, les divers tutos dispos faut éviter
+2014-07-02T22:44:31 <adriens33> vu que arch évolue au fur et à mesure
+2014-07-02T22:44:32 <ludvann> Ok
+2014-07-02T22:44:33 <adriens33> (y'a pas de version)
+2014-07-02T22:44:50 <adriens33> la plupart sont obsolètes ou te font faire des choses à éviter parfois
+2014-07-02T22:45:09 <ludvann> J'aime les défis (pas ceux qui sont trop chiant ^^)
+2014-07-02T22:45:13 <adriens33> ^^
+2014-07-02T22:45:22 <adriens33> http://wiki.archlinux.org/
+2014-07-02T22:45:27 <adriens33> http://wiki.archlinux.fr/
+2014-07-02T22:45:49 <ludvann> Thx
+2014-07-02T22:45:58 <ludvann> Ksp est en quoi ?
+2014-07-02T22:46:03 <adriens33> en natif
+2014-07-02T22:46:07 <adriens33> normalement
+2014-07-02T22:46:10 <Letarumavza> Lud, je te conseille mandriva pour débuter
+2014-07-02T22:46:12 <adriens33> ^^
+2014-07-02T22:46:27 <adriens33> faudra que je la teste celle ci.
+2014-07-02T22:46:40 <adriens33> ça pourrait être pas mal que je fasse un tour d'horizon de ce qui est dispo
+2014-07-02T22:46:57 <Letarumavza> User friendly et sympatoche, c'est la première distrib à laquelle j'ai touché
+2014-07-02T22:47:15 <ludvann> Ouais mais je voudrais pas m'emmerder avec les partoches... ^^'
+2014-07-02T22:48:08 <ludvann> ...
+2014-07-02T22:48:22 <Letarumavza> ?
+2014-07-02T22:48:40 <ludvann> Cake qui a Letarumavza
+2014-07-02T22:48:43 <ludvann> ?
+2014-07-02T22:49:05 *** wildfier s'est connecté
+2014-07-02T22:49:18 <ludvann> Niorph
+2014-07-02T22:49:35 <wildfier> re les gen
+2014-07-02T22:49:37 <wildfier> gens*
+2014-07-02T22:49:40 <wildfier> bonne soirée ?
+2014-07-02T22:49:41 <adriens33> re
+2014-07-02T22:49:47 <ludvann> Eeyup
+2014-07-02T22:49:49 <adriens33> ouep, ça va
+2014-07-02T22:49:51 <adriens33> pas grand chose
+2014-07-02T22:50:02 <wildfier> et du coup après le cinoche vous avez fait quoi ?
+2014-07-02T22:50:06 <adriens33> j'ai bousillé mon install au boulot à cause d'une manip foireuse
+2014-07-02T22:50:08 <ludvann> 12% de batterie mais sinon cool :)
+2014-07-02T22:50:14 <ludvann> HFC
+2014-07-02T22:50:18 <wildfier> ouch ...
+2014-07-02T22:50:32 <wildfier> adriens33: qu'est ce qui c'est passé ?
+2014-07-02T22:50:43 <ludvann> l'irc pompe que dalle... (J'espère)
+2014-07-02T22:50:44 <adriens33> boarf, j'ai rempli une clé usb avec un backup de mon pc desktop,  je recollerai ça direct (j'ai perdu /usr/bin en gros)
+2014-07-02T22:50:59 <adriens33> @ludvann: c'est un flux texte, ça prend que dalle ;)
+2014-07-02T22:51:07 <ludvann> Tu as eut quoi adri ?
+2014-07-02T22:51:15 <adriens33> une manip foireuse
+2014-07-02T22:51:16 <adriens33> c'est tout
+2014-07-02T22:51:21 <wildfier> perso j'ai testé mon setup dualscreen pour le stream
+2014-07-02T22:51:22 <ludvann> Ah...
+2014-07-02T22:51:26 <adriens33> et ?
+2014-07-02T22:51:28 <adriens33> ça donne quoi ?
+2014-07-02T22:51:33 <wildfier> un écran avec obs + le chat + le retour
+2014-07-02T22:51:38 <adriens33> ^^
+2014-07-02T22:51:40 <wildfier> + le chrono
+2014-07-02T22:51:45 <wildfier> et un écran pour le jeu
+2014-07-02T22:51:54 <wildfier> c'est nikel
+2014-07-02T22:51:56 <ludvann> (Ptet que c'est que du texte mais il y a le wi fi...)
+2014-07-02T22:51:57 <adriens33> :)
+2014-07-02T22:52:06 <wildfier> et j'ai même eu un viewer random pendant mes tests
+2014-07-02T22:52:12 <wildfier> :3
+2014-07-02T22:52:13 <adriens33> @ludvann: l'irc y'a pratiquement que le texte que tu envoies
+2014-07-02T22:52:16 <wildfier> so awesome !
+2014-07-02T22:52:21 <ludvann> Stream de quoi ?
+2014-07-02T22:52:24 <adriens33> et le timeout est de 240secondes
+2014-07-02T22:52:33 <adriens33> donc ça marcherai même sur du 56k
+2014-07-02T22:52:33 <wildfier> je viens de commencer le speedrun de dark souls 2
+2014-07-02T22:52:41 <ludvann> Ok
+2014-07-02T22:52:49 <adriens33> (faut dire que quand l'irc a été créé, c'est un peu ce qu'il y avait en haut de gamme le 56k XD)
+2014-07-02T22:52:53 <Letarumavza> wild, t'es en lien avec tasvideo.org ?
+2014-07-02T22:52:57 <ludvann> XD
+2014-07-02T22:53:04 <ludvann> True story...
+2014-07-02T22:53:09 <wildfier> donc si ça intéresse des gens je vais tenter ce temps en temps le soir
+2014-07-02T22:53:16 <adriens33> oki
+2014-07-02T22:53:16 <Letarumavza> http://tasvideos.org/
+2014-07-02T22:53:17 <wildfier> nope Letarumavza
+2014-07-02T22:53:27 <adriens33> non, il stream sur twitch
+2014-07-02T22:53:29 <Letarumavza> Plus grosse communauté mondiale de speedrun
+2014-07-02T22:53:39 <adriens33> (si je dis pas de bêtises)
+2014-07-02T22:53:42 <wildfier> mais pour le momeA
+2014-07-02T22:53:46 <wildfier> oups
+2014-07-02T22:53:49 <adriens33> ^^
+2014-07-02T22:53:50 <wildfier> je voulais dire
+2014-07-02T22:53:54 <Letarumavza> C'est eux qui tiennent le ladder pour les records et s'échange les astuces.
+2014-07-02T22:53:59 <wildfier> pour le moment j'en suis pas à finir le speed run
+2014-07-02T22:54:02 <Letarumavza> Glitchs... etc
+2014-07-02T22:54:09 <wildfier> et y a pas de dark souls sur ce site
+2014-07-02T22:54:20 <wildfier> ni sur speeddemoarchive
+2014-07-02T22:54:37 <wildfier> (y a l'ancien run dark souls 1 glitché sur sda)
+2014-07-02T22:54:51 <wildfier> perso je fais le any% glitchless sur dark souls 2
+2014-07-02T22:55:05 <wildfier> enfin j'ai commencé à le bosser serait plus juste XD
+2014-07-02T22:55:22 <adriens33> ^^
+2014-07-02T22:55:35 <wildfier> et n'empêche j'ai pas tellement réglé les niveaux de son
+2014-07-02T22:55:51 <wildfier> mais le son du jeu + le micro + du métal en fond
+2014-07-02T22:56:01 <wildfier> au random c'était bon
+2014-07-02T22:56:03 <wildfier> XD
+2014-07-02T22:56:10 <wildfier> (du helloween pour info)
+2014-07-02T22:56:31 <Letarumavza> Tu stream via quoi ?
+2014-07-02T22:56:35 <Letarumavza> Les drivers nvidia ?
+2014-07-02T22:56:36 <wildfier> twitch
+2014-07-02T22:56:39 <wildfier> et obs
+2014-07-02T22:56:45 *** Rei s'est connecté
+2014-07-02T22:57:07 <Rei> a que reuhhhh
+2014-07-02T22:57:10 <ludvann> Plop
+2014-07-02T22:57:12 <wildfier> re :)
+2014-07-02T22:57:13 <Letarumavza> Je sais pas ce que tu as comme carte, mais si tu as une GTX6xx+ je te conseilles de passer par le shadowplay du driver
+2014-07-02T22:57:13 <adriens33> re :)
+2014-07-02T22:57:20 <adriens33> GTX460m
+2014-07-02T22:57:20 <wildfier> nvidia
+2014-07-02T22:57:21 <Letarumavza> Pas de perte de framrate
+2014-07-02T22:57:27 <Letarumavza> arf... passera pas.
+2014-07-02T22:57:28 <adriens33> (il a un laptop)
+2014-07-02T22:58:05 <Letarumavza> Je devrais peut-être stream un pneu de lol/wow/ksp/mc de temps en temps
+2014-07-02T22:58:07 <wildfier> d'ailleur tu connais des bon moniteurs de température sous windows ?
+2014-07-02T22:58:15 <wildfier> j'utilisais hwmonitor
+2014-07-02T22:58:28 <Rei> ça parle info >< beurk chinois
+2014-07-02T22:58:38 <ludvann> ^^
+2014-07-02T22:58:56 <wildfier> juste avant ça parlait de jeux finis vite :)
+2014-07-02T22:59:02 <ludvann> <><><><><>
+2014-07-02T22:59:21 <adriens33> >=<>=<>=<>=<>=<>=<>=<
+2014-07-02T22:59:24 <ludvann> Vite vite vite fait...
+2014-07-02T22:59:50 <Letarumavza> <><>^^vvBA
+2014-07-02T23:01:04 <wildfier> oula
+2014-07-02T23:01:14 <ludvann> (-(-(-_(-_(-_-)_-)_-)-)-)   <-- la mafia qui va te tuer...
+2014-07-02T23:01:16 <wildfier> je vais repartir sur dark souls moi ...
+2014-07-02T23:01:20 <adriens33> XD
+2014-07-02T23:01:22 <ludvann> XD
+2014-07-02T23:01:28 <adriens33> mévouzètesvous XD
+2014-07-02T23:01:30 <adriens33> *fous
+2014-07-02T23:01:51 <ludvann> 10% remaining...
+2014-07-02T23:02:11 <adriens33> de ? de cerveau ? XD
+2014-07-02T23:02:12 <wildfier> je lacherais ptet un petit com sur l'irc la prochaine fois que je run
+2014-07-02T23:02:25 <ludvann> Ok
+2014-07-02T23:02:32 <wildfier> si ça intéresse quelqu'un de se foutre de mes fails XD
+2014-07-02T23:02:34 <ludvann> adriens33 taykon
+2014-07-02T23:02:54 <adriens33> ^^
+2014-07-02T23:03:02 <adriens33> wildfier: tu vas tenter du monde là
+2014-07-02T23:03:12 <ludvann> :)
+2014-07-02T23:03:16 <wildfier> n'empêche par rapport au dualscreen je vais devoir me bidouiller des scripts pour la conf
+2014-07-02T23:03:23 <wildfier> @adriens33: c'est le but :p
+2014-07-02T23:03:42 <wildfier> pour adapter à la rotation de l'écran et tout
+2014-07-02T23:03:55 <wildfier> ^^
+2014-07-02T23:03:58 <wildfier> privilégié
+2014-07-02T23:04:12 <wildfier> je
+2014-07-02T23:04:13 <wildfier> sais
+2014-07-02T23:04:18 <adriens33> XD
+2014-07-02T23:04:21 <adriens33> 5760 cuda cores
+2014-07-02T23:04:24 <adriens33> 500W ça suçe.
+2014-07-02T23:04:32 <ludvann> J'avais mon t-shirt troll face aujourd'hui donc me tente pas wildfier ^^
+2014-07-02T23:04:33 <adriens33> presque autant que mon alim XD
+2014-07-02T23:04:49 * wildfier essaie de ne pas être jaloux
+2014-07-02T23:04:54 <adriens33> 5760
+2014-07-02T23:04:57 <adriens33> ?
+2014-07-02T23:05:03 <adriens33> (soit plus de 5x ce que j'ai moi)
+2014-07-02T23:05:05 <adriens33> XD
+2014-07-02T23:05:18 <wildfier> oh oui redis le encore !
+2014-07-02T23:05:24 <wildfier> XD
+2014-07-02T23:05:29 <adriens33> @wildfier tu vas me faire peur là…
+2014-07-02T23:05:44 * adriens33 s'éloigne de wildfier qui s'approche un peu trop
+2014-07-02T23:05:50 <ludvann> XD
+2014-07-02T23:05:52 <wildfier> 5760 !
+2014-07-02T23:05:57 <adriens33> 500W
+2014-07-02T23:06:03 <adriens33> 2000€
+2014-07-02T23:06:14 <wildfier> non je m'approche de letarumavza pas de toi [/troll]
+2014-07-02T23:06:50 <ludvann> Port usb ?
+2014-07-02T23:06:54 <adriens33> (oui il a un katana, pour de vrai)
+2014-07-02T23:06:56 <wildfier> non il parlait pas de ton katana
+2014-07-02T23:07:05 <wildfier> moi aussi !
+2014-07-02T23:07:11 <wildfier> mais c'est juste pour la déco
+2014-07-02T23:07:15 <wildfier> et chez mes parents
+2014-07-02T23:07:16 <wildfier> ...
+2014-07-02T23:07:19 <adriens33> et pas que ça d'ailleurs…
+2014-07-02T23:07:25 <wildfier> mais il est à moi !
+2014-07-02T23:07:31 <wildfier> mais pas affuté ...
+2014-07-02T23:07:53 <wildfier> XD
+2014-07-02T23:08:03 <ludvann> XD
+2014-07-02T23:08:27 <ludvann> ?
+2014-07-02T23:08:52 <ludvann> Un roccat ?
+2014-07-02T23:09:01 <adriens33> un truc momifié avec plein de miettes de cookies coicées entre les touches XD
+2014-07-02T23:09:08 <ludvann> XD
+2014-07-02T23:09:11 <adriens33> (bon, un clavier PS/2 blanc datant de 1998)
+2014-07-02T23:09:23 <wildfier> XD
+2014-07-02T23:09:29 <ludvann> ...
+2014-07-02T23:09:36 <adriens33> la joie de l'abs
+2014-07-02T23:09:42 <adriens33> qui jaunit en vieillissant
+2014-07-02T23:09:45 <ludvann> ^^
+2014-07-02T23:10:14 <ludvann> 7% remaining
+2014-07-02T23:10:15 <wildfier> tiens leta
+2014-07-02T23:10:33 <wildfier> tu saurais pas comment mapper caps lock sur control sous win ?
+2014-07-02T23:10:45 <adriens33> (ses touches se barrent XD)
+2014-07-02T23:10:49 <wildfier> yep
+2014-07-02T23:10:53 <ludvann> XD
+2014-07-02T23:10:53 <adriens33> il a plus de ctrl gauche
+2014-07-02T23:10:56 <adriens33> ni de alt
+2014-07-02T23:10:56 <wildfier> et j'ai pris l'habitude sous nux
+2014-07-02T23:11:04 <wildfier> ni de méta XD
+2014-07-02T23:11:07 <adriens33> (et la touche win gauche s'est barrée aussi)
+2014-07-02T23:11:55 * adriens33 bave
+2014-07-02T23:12:07 <adriens33> dat barre d'espace
+2014-07-02T23:12:15 <adriens33> le truc il fait 30m²
+2014-07-02T23:12:34 <wildfier> ^^
+2014-07-02T23:12:53 <wildfier> perso je me prendrais un type matrix comme prochain clavier
+2014-07-02T23:13:03 <wildfier> depuis le temps que je veux les tester
+2014-07-02T23:14:00 <ludvann> Tout s'explique !
+2014-07-02T23:14:21 <ludvann> Et tu veux donner des cours de quoi ?
+2014-07-02T23:14:31 * ludvann a peur
+2014-07-02T23:14:40 <ValCab33> Bouh.
+2014-07-02T23:14:56 <ludvann> Ah !
+2014-07-02T23:15:06 <ludvann> Ol
+2014-07-02T23:15:22 <ludvann> XD
+2014-07-02T23:15:24 <ValCab33> xD
+2014-07-02T23:15:31 <adriens33> fa… *hic* farpaitement !
+2014-07-02T23:15:36 <wildfier> ^^
+2014-07-02T23:15:47 <ludvann> ^^
+2014-07-02T23:17:58 <ludvann> Cours en locaux ou correspondance ?
+2014-07-02T23:17:58 <adriens33> fanta qui sort "et les filles, ça joue pas qu'aux sims et à mon petit poney ?"
+2014-07-02T23:18:01 <adriens33> XD
+2014-07-02T23:18:07 <adriens33> dat irrespect !
+2014-07-02T23:18:13 <ludvann> XD
+2014-07-02T23:19:01 <wildfier> je joue pas à mon petit poney !
+2014-07-02T23:19:04 <wildfier> oh wait ...
+2014-07-02T23:19:17 <adriens33> XD
+2014-07-02T23:19:26 <adriens33> wait… ce chan s'appelle pas bronycub ?
+2014-07-02T23:19:30 <adriens33> on m'aurait menti ?
+2014-07-02T23:19:39 <adriens33> vous êtes pas des fans de MLP FiM ?
+2014-07-02T23:19:39 <wildfier> c'est pas un jeu ! c'est serieux monsieur ! XD
+2014-07-02T23:19:55 <ValCab33> :O
+2014-07-02T23:20:04 <wildfier> TA-DA-DAaaa !
+2014-07-02T23:20:15 <ludvann> :O
+2014-07-02T23:20:27 <wildfier> bon je vais aller me coucher les gens
+2014-07-02T23:20:35 <ValCab33> Neunuit
+2014-07-02T23:20:43 <ludvann> @+
+2014-07-02T23:20:48 <adriens33> bonne nuit wildfier
+2014-07-02T23:20:53 <wildfier> bonne nuit et à demain soir sur http://www.twitch.tv/wildfier ! /)
+2014-07-02T23:21:00 <wildfier> (placement de produit !)
+2014-07-02T23:21:04 <ValCab33> Dat pub
+2014-07-02T23:21:09 <ludvann> XD
+2014-07-02T23:21:24 <adriens33> @wildfier dat placement de produit…
+2014-07-02T23:21:26 <adriens33> XD
+2014-07-02T23:21:37 <adriens33> t'as pas honte de faire de la pub ? XD
+2014-07-02T23:22:06 *** wildfier est parti
+2014-07-02T23:22:30 *** wildfier s'est connecté
+2014-07-02T23:22:30 <ludvann> Est-ce que placer le cockpit près du centre de gravité diminue le nombre de G du pilote ?
+2014-07-02T23:22:39 <wildfier> XD j'ai été déco ou expulsé pour discidence ? XD
+2014-07-02T23:22:51 <ValCab33> Techniquement, ca pourrait
+2014-07-02T23:22:58 <adriens33> @wildfier: heu… y'a que moi et heuzef qui pouvons kick
+2014-07-02T23:23:09 <adriens33> et moi j'ai rien fait et heuzef est pas co.
+2014-07-02T23:23:18 <ludvann> Et moi ^^
+2014-07-02T23:23:19 <wildfier> bon sérieusement, ++ /)
+2014-07-02T23:23:22 <adriens33> ++
+2014-07-02T23:23:23 *** wildfier est parti
+2014-07-02T23:23:30 <adriens33> ok
+2014-07-02T23:23:30 <ludvann> @+
+2014-07-02T23:23:36 <adriens33> tu vas faire des jaloux XD
+2014-07-02T23:23:54 <adriens33> la cop ? XD
+2014-07-02T23:23:57 <ludvann> ^^
+2014-07-02T23:24:02 <ludvann> XD
+2014-07-02T23:24:34 <ludvann> OD
+2014-07-02T23:25:29 <adriens33> tu veux mourir toi XD
+2014-07-02T23:25:36 <ludvann> ^^
+2014-07-02T23:25:41 <adriens33> ouiii
+2014-07-02T23:25:44 <adriens33> ?
+2014-07-02T23:25:46 <ludvann> XD
+2014-07-02T23:25:51 <adriens33> !kick ludvann
+2014-07-02T23:25:52 *** ludvann s'est connecté
+2014-07-02T23:25:53 <adriens33> done.
+2014-07-02T23:25:55 <adriens33> huh ?
+2014-07-02T23:25:58 <adriens33> !kick ludvann
+2014-07-02T23:25:59 *** ludvann s'est connecté
+2014-07-02T23:26:01 <adriens33> wut ?
+2014-07-02T23:26:05 <adriens33> !kick ludvann
+2014-07-02T23:26:06 *** ludvann s'est connecté
+2014-07-02T23:26:08 <adriens33> grr.
+2014-07-02T23:26:15 <Berry-Punch> Flags de ludvann *hic* modifiés : +b
+2014-07-02T23:26:15 <adriens33> !flag mod +b ludvann
+2014-07-02T23:26:18 <adriens33> là .
+2014-07-02T23:26:23 <adriens33> !kick ludvann
+2014-07-02T23:26:26 <adriens33> XD
+2014-07-02T23:26:30 <ValCab33> Xd
+2014-07-02T23:26:32 <adriens33> nan mais !
+2014-07-02T23:26:35 <ValCab33> *XD
+2014-07-02T23:27:03 <adriens33> (il est pas ban def, s'il ferme irc et qu'il reco il peut revenir normalement)
+2014-07-02T23:27:38 *** ValCab33 est parti
+2014-07-02T23:27:51 <adriens33> ouep.
+2014-07-02T23:27:54 *** ValCab33 s'est connecté
+2014-07-02T23:27:54 <adriens33> j'avoue.
+2014-07-02T23:28:47 <Berry-Punch> Flags de *hic* ludvann modifiés : -b
+2014-07-02T23:29:30 <adriens33> paspour le moment
+2014-07-02T23:29:41 *** ludvann s'est connecté
+2014-07-02T23:29:45 <adriens33> et j'ai pas trop envie de modif berryv2 vu que je suis sensé commencer berryv3
+2014-07-02T23:29:48 <adriens33> …
+2014-07-02T23:29:49 <adriens33> ouep :)
+2014-07-02T23:30:06 <ludvann> Thx à l'historique sur bronycub ^^
+2014-07-02T23:30:11 <adriens33> @ludvann: t'as beau te mettre en autologin le ban temporaire marche toujours :)
+2014-07-02T23:30:19 <adriens33> (sinon le ban def ça marche aussi.)
+2014-07-02T23:30:32 <adriens33> c'est con parce que l'autologin quand tu kick quelqu'un
+2014-07-02T23:30:36 <adriens33> ça incite au ban
+2014-07-02T23:30:38 <ludvann> C'est androirc qui autoligin :P
+2014-07-02T23:30:48 <adriens33> oui oui bien sûr ;)
+2014-07-02T23:31:07 <ValCab33> C'est désactivable donc your argument is invalid :p
+2014-07-02T23:31:17 <ludvann> Really ?
+2014-07-02T23:32:03 <adriens33> ohhh :(
+2014-07-02T23:32:05 <adriens33> XD
+2014-07-02T23:32:07 <ludvann> :)
+2014-07-02T23:32:24 <adriens33> tu la fais bosser tôt dis donc XD
+2014-07-02T23:32:33 <ludvann> C'est mieux quand la victime est inconsciente...
+2014-07-02T23:32:39 <adriens33> ludvann…
+2014-07-02T23:32:44 <adriens33> pas en public voyons
+2014-07-02T23:32:45 <ludvann> Ok
+2014-07-02T23:32:46 <adriens33> XD
+2014-07-02T23:32:52 <ludvann> XD
+2014-07-02T23:33:02 <adriens33> ouch
+2014-07-02T23:33:04 <ValCab33> :/
+2014-07-02T23:33:08 <ludvann> Ah !/
+2014-07-02T23:33:11 <adriens33> si y'a entorse faut faire gaffe
+2014-07-02T23:33:28 <adriens33> les déchirures de ligament ça pardonne pas quand c'est pas bien soigné
+2014-07-02T23:33:46 <ludvann> (Encore mieux si la victime ne peut pas courir...)
+2014-07-02T23:34:23 <adriens33> je pense que tu peux légalement sortir le katana.
+2014-07-02T23:34:26 <adriens33> légitime défense.
+2014-07-02T23:34:28 <adriens33> XD
+2014-07-02T23:34:47 <ludvann> Je parle d'une chèvre bordel !
+2014-07-02T23:34:53 <adriens33> ouaaais.
+2014-07-02T23:34:56 <adriens33> on te croit .
+2014-07-02T23:34:58 <adriens33> XD
+2014-07-02T23:35:02 <ludvann> Je chasse sur un jeux...
+2014-07-02T23:35:12 <adriens33> @ludvann: et cache moi cette bosse dans ton pantalon ça fait tâche.
+2014-07-02T23:35:18 <adriens33> (désolé, jeu de mot pas intentionnel)
+2014-07-02T23:35:26 <ludvann> Ce n'est qu'une coincidence...
+2014-07-02T23:36:05 <adriens33> ouep.
+2014-07-02T23:36:09 <adriens33> y'a du gros dossier là.
+2014-07-02T23:36:13 <adriens33> surtout que j'archive tout !
+2014-07-02T23:36:25 <adriens33> gnêk gnêk gnêk
+2014-07-02T23:36:30 <ludvann> J'en parlerais jamais ^^
+2014-07-02T23:37:20 <adriens33> contre celle du bot plutôt
+2014-07-02T23:37:21 <ludvann> Ah...
+2014-07-02T23:37:22 <adriens33> :)
+2014-07-02T23:37:25 <ludvann> ^^
+2014-07-02T23:37:51 <ludvann> Qu'est ce que peux te cacher leta' ?
+2014-07-02T23:38:31 <adriens33> (sauf celles sur le pantalon)
+2014-07-02T23:38:40 <adriens33> (sorry XD)
+2014-07-02T23:38:45 <ludvann> Communication avec qui ?
+2014-07-02T23:39:05 *** Rei est parti
+2014-07-02T23:39:26 <adriens33> en gros tu lâche ton pc, ta carte bleue, ton téléphone, tout ce qui utilise des bits
+2014-07-02T23:39:39 <adriens33> (à ne pas confondre avec des bites)
+2014-07-02T23:39:44 <ludvann> Ah ok...
+2014-07-02T23:40:15 <adriens33> en fait faut partir sur la lune
+2014-07-02T23:40:16 <adriens33> ^^
+2014-07-02T23:40:21 <adriens33> (et encore)
+2014-07-02T23:40:30 <adriens33> gosh…
+2014-07-02T23:40:31 <ludvann> ...
+2014-07-02T23:40:42 <adriens33> en y repensant ça donne le vertige.
+2014-07-02T23:40:49 <adriens33> d'être à ce point flicable…
+2014-07-02T23:41:00 <ludvann> Et la police n'est toujours pas venu te voir ?
+2014-07-02T23:41:34 <adriens33> @ludvann: ils sont trop occupés à se br**ler.
+2014-07-02T23:41:43 <ludvann> XD
+2014-07-02T23:41:51 <ludvann> ?
+2014-07-02T23:42:12 *** MaCharon est parti
+2014-07-02T23:42:13 <ludvann> Oui...
+2014-07-02T23:42:42 <ludvann> Et ils savent que c'est toi ?
+2014-07-02T23:42:52 <ludvann> Qui lache les infos
+2014-07-02T23:42:55 <adriens33> c'est une vraie question ?
+2014-07-02T23:42:58 <adriens33> XD
+2014-07-02T23:44:11 <ludvann> Coordonnées postale ?
+2014-07-02T23:44:21 <adriens33> et les mails ils peuvent pas savoir d'où ça vient, vu qe de toute façon dans le champ from tu met ce que tu veux.
+2014-07-02T23:45:08 <ludvann> Gnè ?
+2014-07-02T23:45:09 <adriens33> ah… vive les smtp qui te laissent envoyer un mail sans authentification ^^ (ou auth facilement détournable je suppose)
+2014-07-02T23:45:22 <adriens33> ^^
+2014-07-02T23:45:26 <ludvann> Ok
+2014-07-02T23:45:43 <ludvann> Et d'ailleurs...
+2014-07-02T23:46:14 <ludvann> Comment tu as pu voir que françoise faisait des trucs louches ?
+2014-07-02T23:46:29 <adriens33> ça sert à rien de demander, tu crois qu'il va te dire ses trucs ?
+2014-07-02T23:46:39 <adriens33> (déjà faudrait pouvoir comprendre XD)
+2014-07-02T23:46:45 <ludvann> Je sais pas ^^
+2014-07-02T23:47:02 <ludvann> Je me pose des questions...
+2014-07-02T23:47:40 <ludvann> Ok
+2014-07-02T23:48:54 <ludvann> Mamadou n'a plus de site xD
+2014-07-02T23:49:48 <ludvann> Bon...
+2014-07-02T23:50:07 <ludvann> Oui ?
+2014-07-02T23:50:10 <ludvann> Ok
+2014-07-02T23:50:19 <ludvann> Ok
+2014-07-02T23:50:34 <ludvann> D'ailleurs.
+2014-07-02T23:51:15 <ludvann> Tu pourras m'en faire (pas trop poussé quand même ;) )
+2014-07-02T23:51:45 <ludvann> (Mais que toi ^^ )
+2014-07-02T23:52:26 <ludvann> En "vengeance" de celle que j'ai fait)
+2014-07-02T23:52:54 <ludvann> :)
+2014-07-02T23:53:07 <ludvann> Bon allé bonne nuit
+2014-07-02T23:53:18 <ludvann> @+ et @+ leta'
+2014-07-02T23:53:32 *** ludvann est parti

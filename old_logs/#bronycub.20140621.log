@@ -1,0 +1,2220 @@
+2014-06-20T00:00:09 <flutterbrony> y'a pas des experts android dans le coin ?
+2014-06-20T00:00:47 <ludvann> + ou - mais adriens33 reste le meilleur je pense (et heuzef)
+2014-06-20T00:01:32 <flutterbrony> parce que 'ai un galaxy s3 4g (i9305 donc) a reparer et j'y arrive pas
+2014-06-20T00:01:38 <adriens33> je suis pas du tout un expert android…
+2014-06-20T00:01:41 <ludvann> il a quoi ?
+2014-06-20T00:01:49 <flutterbrony> il démmarre pas
+2014-06-20T00:01:58 <flutterbrony> et il ne peut pas monter /efs
+2014-06-20T00:02:11 <ludvann> recovery mode ?
+2014-06-20T00:02:22 <flutterbrony> j'y suis y'a que ca qui marche
+2014-06-20T00:02:46 <flutterbrony> j'ai essayé de réinstaller android mais il peut pas monter /efs
+2014-06-20T00:03:04 <ludvann> il y a des données importantes sauvegardé sur le tel et non pas la carte micro sd ?
+2014-06-20T00:03:11 <flutterbrony> j'ai essayer de reformater /efs mais impossible
+2014-06-20T00:03:15 <flutterbrony> non, il est vide
+2014-06-20T00:03:28 <ludvann> le wipe/usinage ?
+2014-06-20T00:03:30 <flutterbrony> enfin 'espere pour le client ^^
+2014-06-20T00:03:34 <flutterbrony> déjà fait
+2014-06-20T00:03:38 <flutterbrony> et rien
+2014-06-20T00:03:50 <ludvann> tu as essayé odin ?
+2014-06-20T00:03:58 <flutterbrony> oui
+2014-06-20T00:04:04 <ludvann> et ?
+2014-06-20T00:04:11 <flutterbrony> déaprès lui, ca passe mais le telephone ne boot pas pour autant
+2014-06-20T00:04:23 <ludvann> ah...
+2014-06-20T00:04:30 <flutterbrony> et odin ne peut pas remettre la partition /efs non plus
+2014-06-20T00:04:33 *** MaCharon est parti
+2014-06-20T00:04:44 <ludvann> et si tu remets la rom ?
+2014-06-20T00:04:53 <flutterbrony> déjà fait et rien
+2014-06-20T00:05:07 <ludvann> il a fait quoi pour le cramer ?
+2014-06-20T00:05:18 <flutterbrony> 'ai essayé le dual boot même (un os qui peut pas booter et l'autre qui boot mais ca passe pas non plus)
+2014-06-20T00:05:28 <flutterbrony> je sais pas justement
+2014-06-20T00:05:37 <ludvann> demandes lui ^^
+2014-06-20T00:05:52 <flutterbrony> mais /efs pose problème, si j'arrive a le repartitioner, ca devrais remarcher sans problème
+2014-06-20T00:05:57 <Letarumavza> re
+2014-06-20T00:06:04 <ludvann> yop
+2014-06-20T00:06:09 <flutterbrony> mais e peut pas depuis le recovery mode ni odin
+2014-06-20T00:06:20 <Letarumavza> Bon, si y'a un truc de sur sur ma cop, c'est qu'elle est raide dingue de moi ^^
+2014-06-20T00:06:24 <flutterbrony> @Letarumavza re
+2014-06-20T00:06:36 <ludvann> c'est cool Letarumavza :)
+2014-06-20T00:06:42 <Letarumavza> carrément ^^
+2014-06-20T00:06:50 <flutterbrony> ^^
+2014-06-20T00:06:50 <ludvann> ^^
+2014-06-20T00:06:57 <Letarumavza> Canon, intelligente et raide dingue de moi ^^
+2014-06-20T00:07:08 <ludvann> co co combo !!!!!
+2014-06-20T00:07:13 <Letarumavza> YEAH !
+2014-06-20T00:07:22 <Letarumavza> Dernier truc, elle fait du snowboard ^^
+2014-06-20T00:07:29 <ludvann> o/
+2014-06-20T00:07:34 <Letarumavza> o/
+2014-06-20T00:08:01 <ludvann> tu as une photo d'elle ^^ (if you know what i mean ^^)
+2014-06-20T00:08:04 <Letarumavza> Si ça tient trois ans avec elle, je met un anneau dessus ^^
+2014-06-20T00:08:09 <ludvann> ^^
+2014-06-20T00:08:58 <flutterbrony> je peux faire des bakup d'android ...
+2014-06-20T00:09:30 <ludvann> yay
+2014-06-20T00:09:44 <Letarumavza> ludvann: pour la photo justement elle va m'en faire une jolie pour mettre en fond d'écran de mon portable...
+2014-06-20T00:09:49 <ludvann> xD
+2014-06-20T00:09:55 <Letarumavza> J'en ai plein d'autres, mais... pas présentables..
+2014-06-20T00:10:09 <adriens33> re letarumavza
+2014-06-20T00:10:12 <ludvann> pourquoi ? ^^
+2014-06-20T00:10:16 <adriens33> (à ton avis…)
+2014-06-20T00:10:23 <Letarumavza> nsfw
+2014-06-20T00:10:29 <ludvann> no
+2014-06-20T00:10:36 <ludvann> safe for fap ^^
+2014-06-20T00:10:57 <flutterbrony> J'ai enfin pu écrire dans /efs :D
+2014-06-20T00:11:01 <Letarumavza> adriens33: il est bien entrain de parler de se branler sur des photos de ma copine là ?
+2014-06-20T00:11:08 <adriens33> oui oui.
+2014-06-20T00:11:09 <ludvann> XD
+2014-06-20T00:11:10 <Letarumavza> Mais je vais le buter !
+2014-06-20T00:11:14 <ValCab33> Tout à fait
+2014-06-20T00:11:33 <ludvann> ...
+2014-06-20T00:11:34 <ludvann> xD
+2014-06-20T00:12:09 <adriens33> par les pouvoirs qui me sont conférés, je t'octroie le pouvoir du kick !
+2014-06-20T00:12:20 <ludvann> ...
+2014-06-20T00:12:21 <ludvann> help
+2014-06-20T00:12:24 <adriens33> XD
+2014-06-20T00:12:28 <ludvann> help
+2014-06-20T00:12:34 <ludvann> S.M.S
+2014-06-20T00:12:38 <Letarumavza> vas y adrien ^^
+2014-06-20T00:12:40 <Letarumavza
+[1;37m==> FLushing output buffer[0m> kick le ^^::[1;37m==> FLushing output buffer[0m:
+2014-06-20T00:12:41 <ludvann> save my soul
+2014-06-20T00:12:46 <adriens33> tu peux le faire toi même
+2014-06-20T00:12:46 <ludvann> help !!!!!
+2014-06-20T00:12:47 <adriens33> XD
+2014-06-20T00:12:48 <ludvann> help !!!!!
+2014-06-20T00:12:49 <ludvann> help !!!!!
+2014-06-20T00:12:51 <ludvann> help !!!!!
+2014-06-20T00:12:51 <ludvann> help !!!!!
+2014-06-20T00:12:51 <ludvann> help !!!!!
+2014-06-20T00:12:53 <Letarumavza> !kick ludvann
+2014-06-20T00:13:03 <adriens33> rhô c'est pas gentil XD
+2014-06-20T00:13:07 <Letarumavza> C'est bon, tu peux l'enlever ^^
+2014-06-20T00:13:07 *** ludvann s'est connecté
+2014-06-20T00:13:15 <ludvann> re ! ^^
+2014-06-20T00:13:20 <Letarumavza> ça détend ^^
+2014-06-20T00:13:29 <adriens33> ^^
+2014-06-20T00:13:36 <Letarumavza> ludvann: si tu veux elle a un frangin ^^
+2014-06-20T00:13:36 <ludvann> abus de pouvoir !
+2014-06-20T00:13:44 <ludvann> euh...
+2014-06-20T00:13:53 <ludvann> et une frangine ? ^^
+2014-06-20T00:14:12 <flutterbrony> xp
+2014-06-20T00:14:14 <Letarumavza> Nop, mais elle a un père avec un calibre 12...
+2014-06-20T00:14:19 <adriens33> (tu veux vraiment te faire kick c'est pas possible XD)
+2014-06-20T00:14:36 <flutterbrony> x)
+2014-06-20T00:14:39 <ludvann> ...
+2014-06-20T00:14:41 * Berry-Punch lance un muffin sur ludvann à 1673 km/h
+2014-06-20T00:14:41 <Berry-Punch> MUFFIN RAINBOOM *hic* !!
+2014-06-20T00:14:51 * ludvann par en courant
+2014-06-20T00:14:56 <ludvann> hekp !!!!
+2014-06-20T00:15:06 * Berry-Punch lui court après
+2014-06-20T00:15:06 <Letarumavza> adriens33: rapelles moi, se taper la soeur de la copine d'un pote c'est pas conseillé non ?
+2014-06-20T00:15:08 <ludvann> help !!!!*
+2014-06-20T00:15:16 <adriens33> généralement pas ^^
+2014-06-20T00:15:20 <adriens33> sauf si tu es suicidaire
+2014-06-20T00:15:36 <Berry-Punch> rends moi *hic* ma bouteille…
+2014-06-20T00:15:37 <Letarumavza> Et se branler sur les photos de la cop d'un pote, c'est interdit et passible de coups de pieds au cul non ?
+2014-06-20T00:15:47 <adriens33> et encore t'es gentil là
+2014-06-20T00:15:54 <ludvann> xD
+2014-06-20T00:16:04 <Letarumavza> Tu ferais quoi toi ?
+2014-06-20T00:16:11 <adriens33> heuuuuuuuuuuuuuuuuuuuuuuuuuu
+2014-06-20T00:16:13 <ludvann> qui ?
+2014-06-20T00:16:27 <adriens33> avec ou sans massue ?
+2014-06-20T00:16:30 <adriens33> XD
+2014-06-20T00:16:31 <ludvann> xD
+2014-06-20T00:16:32 <Letarumavza> Toi t'as pas le droit de parler
+2014-06-20T00:17:04 <Letarumavza> Bah j'ai bien un gourdin, mais il est dans mon slip...
+2014-06-20T00:17:10 <adriens33> oulà…
+2014-06-20T00:17:22 <flutterbrony> ...
+2014-06-20T00:17:40 <Letarumavza> ludvann: penches toi en avant et penses à des poneys ^^
+2014-06-20T00:17:54 * ludvann boude
+2014-06-20T00:17:54 * Berry-Punch Donne un verre de rhum à ludvann
+2014-06-20T00:17:54 <Berry-Punch> Tiens ludvann, pour te consoler *hic* :)
+2014-06-20T00:18:22 <Letarumavza> Pas faux berry, tous les chemins mènent au rhum après tout...
+2014-06-20T00:18:24 * ludvann se lève et par en courant
+2014-06-20T00:18:26 * Berry-Punch lance un muffin sur ludvann à 828 km/h
+2014-06-20T00:18:26 <ValCab33> !muffin ludvann
+2014-06-20T00:18:37 <Letarumavza> Boah ! Headshot !
+2014-06-20T00:19:18 <Letarumavza> En fait le truc le plus à risque du monde, ça doit être de sauter la soeur d'un pote.
+2014-06-20T00:19:30 <Letarumavza> Avec bonus si le pote en question fait deux fois ta taille...
+2014-06-20T00:19:56 <ludvann> en même temps si j'étais pas sur l'irc, ça serait un peu mort l'irc ^^
+2014-06-20T00:20:13 <adriens33> ta phrase n'a pas de sens, tu y es :)
+2014-06-20T00:20:30 <Letarumavza> Sa vie n'a pas de sens...
+2014-06-20T00:20:41 <ValCab33> :o
+2014-06-20T00:20:42 <ludvann> si j'étais pas là il y aurait pas cette conversation...
+2014-06-20T00:21:16 <flutterbrony> quelqu'un sais comment repartitionner un galaxy s3 4g quand ni odin ni le recovery mod n'y arrivent ?
+2014-06-20T00:21:32 <ValCab33> Nnope
+2014-06-20T00:21:35 <Letarumavza> val, il a parlé de se branler sur des photos de ma cop, j'ai le droit à 24h de bashage le concernant.
+2014-06-20T00:21:52 <ValCab33> Tout à fait
+2014-06-20T00:21:56 <ludvann> nope
+2014-06-20T00:22:03 <Letarumavza> Si
+2014-06-20T00:22:14 <adriens33> @flutterbrony: des papillons pour faire lentille sur des rayons cosmiques qui changent le contenu de la partoche bit par bit ?
+2014-06-20T00:22:16 <ludvann> le sff me concerner pas
+2014-06-20T00:22:26 <adriens33> ouais bien sûr…
+2014-06-20T00:22:28 <adriens33> XD
+2014-06-20T00:22:34 <ludvann> ...
+2014-06-20T00:22:44 <Letarumavza> L'enflure, il tente de retomber sur ses pattes
+2014-06-20T00:22:48 <Letarumavza> Le fourbe
+2014-06-20T00:23:00 <flutterbrony> @adriens33 et tu le fais comment ca x/
+2014-06-20T00:23:02 <Letarumavza> Au fort boyard ! avec les tigres (ou le gros chauve)
+2014-06-20T00:23:02 <flutterbrony> ?
+2014-06-20T00:23:11 <adriens33> http://xkcd.com/378/
+2014-06-20T00:23:14 <ludvann> xD
+2014-06-20T00:23:17 <Letarumavza> Non, avec le gros chauve, direct
+2014-06-20T00:25:17 <flutterbrony> x)
+2014-06-20T00:25:25 <Letarumavza> http://imgs.xkcd.com/comics/rocket_packs.png
+2014-06-20T00:25:31 <Letarumavza> excellente ^^
+2014-06-20T00:25:37 <flutterbrony> bon, e pense que c'est impossible, je vais arrêter ...
+2014-06-20T00:26:00 *** heuzef s'est connecté
+2014-06-20T00:26:06 <heuzef> yo
+2014-06-20T00:26:11 <ValCab33> Lo
+2014-06-20T00:26:19 <heuzef> Pas moyen de dormir
+2014-06-20T00:26:21 * ValCab33 sort
+2014-06-20T00:26:21 <Letarumavza> Y'a ludvan qui veut se branler sur des photos de ma cop !!!
+2014-06-20T00:26:23 <ludvann> help... il veulent me tuer...
+2014-06-20T00:26:25 <adriens33> hello
+2014-06-20T00:26:26 <Letarumavza
+[1;37m==> FLushing output buffer[0m> re btw !::[1;37m==> FLushing output buffer[0m:
+2014-06-20T00:26:28 <heuzef> je suis obsédé par mon "idée"
+2014-06-20T00:26:28 <ludvann> ils*
+2014-06-20T00:26:32 <flutterbrony> heuzef, tu pourrais m'aider avec un androphone qui démmarre plus ?
+2014-06-20T00:26:50 <Letarumavza> flutterbrony: essayes avec une pioche, dans minecraft ça marche.
+2014-06-20T00:27:09 <flutterbrony> @Letarumavza pas là x)
+2014-06-20T00:27:23 <adriens33> ou alors tu ctrl-z jusqu'à ce que ça marche :à
+2014-06-20T00:27:25 <adriens33> * :)
+2014-06-20T00:27:32 <Letarumavza> Et en le mettant au micro-ondes ?
+2014-06-20T00:27:42 <flutterbrony> @adrien33 tu le trouve ou le clavier ???
+2014-06-20T00:27:53 <adriens33> celui qui est caché dans ton ***
+2014-06-20T00:27:55 <Letarumavza> pas faux...
+2014-06-20T00:28:11 <ludvann> omme le secret de l'acier ^^
+2014-06-20T00:28:15 <Letarumavza> flutterbrony: je respecte ton élasticité rectale.
+2014-06-20T00:28:17 <ludvann> comme*
+2014-06-20T00:28:27 <flutterbrony> @Letarumavza le micro onde pète, un pote a déjà testé
+2014-06-20T00:28:35 <adriens33> :o
+2014-06-20T00:28:44 <Letarumavza> Quel abruti a mis sont tel au micro ondes ?
+2014-06-20T00:28:47 <adriens33> y'a vraiment des fous/cons/dingues :D
+2014-06-20T00:28:54 <adriens33> (rayer la mention inutile)
+2014-06-20T00:29:01 <Letarumavza> Sauf si c'est un I phone
+2014-06-20T00:29:02 <flutterbrony> c'étais même pas son tel en plus
+2014-06-20T00:29:11 <Letarumavza> Dans ce cas là c'est juste une tentative de décontamination.
+2014-06-20T00:29:20 <flutterbrony> ouais
+2014-06-20T00:29:47 <Letarumavza> Au fait y'a une vraie différence entre les Iphones ?
+2014-06-20T00:30:07 <ludvann> leur numéro
+2014-06-20T00:30:15 <adriens33> leur prix XD
+2014-06-20T00:30:16 <flutterbrony> la couleur sur les 5c ? xp
+2014-06-20T00:30:25 <Letarumavza> Apple quoi...
+2014-06-20T00:30:38 <flutterbrony> les chargeurs non compatible x)
+2014-06-20T00:30:48 <adriens33> que du bonheur :)
+2014-06-20T00:30:51 <heuzef> ^^
+2014-06-20T00:30:53 <Letarumavza> A l'époque du Ipod au moins y'avait un intérêt (très gros stockage pour un mp3 à l'époque)
+2014-06-20T00:31:11 <flutterbrony> de toute facon, ils vont être obligé de mettre du micro usb
+2014-06-20T00:31:24 <Letarumavza> J'ai encore mon nano première série d'ailleurs, mais l'écran est naze.
+2014-06-20T00:31:32 <Letarumavza> ?
+2014-06-20T00:31:53 <Letarumavza> Les connaissant ça va être "micro usb non utilisable pour charger"
+2014-06-20T00:32:10 <flutterbrony> si apple veut vendre leurs appareil "i" en europe, ils vont devoir mettre du micro usb
+2014-06-20T00:32:27 <Letarumavza> i ?
+2014-06-20T00:32:31 <adriens33> deux solutions:
+2014-06-20T00:32:33 <flutterbrony> sinon jamais d'iphone 6 en europe
+2014-06-20T00:32:35 <Letarumavza> Ils sont déjà I
+2014-06-20T00:32:46 <adriens33> ils décident de plier, au moins partiellement (et c'est cool)
+2014-06-20T00:32:50 <flutterbrony> ce qui ne seras pas une grande perte -_-
+2014-06-20T00:33:03 <adriens33> ou alors ils décident de dire fuck l'europe et on n'a plus d'i device.
+2014-06-20T00:33:11 <adriens33> which would be fine too.
+2014-06-20T00:33:20 <flutterbrony> ce qui ne seras pas une grande perte -_-
+2014-06-20T00:33:32 <flutterbrony> mais plutot un gain
+2014-06-20T00:33:50 <Letarumavza> a cat is fine too
+2014-06-20T00:33:51 <flutterbrony> (moins d'arnaque de leurs part)
+2014-06-20T00:33:58 <adriens33> sachant qu'ils perdraient une certaine partie de leur marché quand même XD
+2014-06-20T00:34:09 <Letarumavza> 1/4 grosso modo
+2014-06-20T00:34:52 <Letarumavza> C'est intrigant de voir à quel point apple peine à pénétrer le marché chinnois.
+2014-06-20T00:35:08 <flutterbrony> tiens vous en pensez quoi de ca au faite ? http://truecrypt.sourceforge.net/
+2014-06-20T00:35:25 <flutterbrony> fake ou pas ?
+2014-06-20T00:35:38 <adriens33> possible
+2014-06-20T00:35:46 <adriens33> dans tous les cas y'a des suisses sur le coup
+2014-06-20T00:35:58 <adriens33> pour reprendre le proj
+2014-06-20T00:36:07 <adriens33> https://truecrypt.ch/
+2014-06-20T00:36:15 <flutterbrony> j'ai vu ^^
+2014-06-20T00:36:32 <adriens33> et le passer en libre cette fois (et pas juste opensource)
+2014-06-20T00:37:02 <Letarumavza> Perso j'utilise pas truecrypt, il gère pas les algos 4096 bits
+2014-06-20T00:37:26 <adriens33> faut voir, ptet que c'est prévu dans leurs modifs.
+2014-06-20T00:37:28 <Letarumavza> J'utilise un prog de...
+2014-06-20T00:37:48 <Letarumavza> Si je lache le nom de la boite je me fais lyncher...
+2014-06-20T00:37:59 <adriens33> microsoft ? :p
+2014-06-20T00:38:02 <Letarumavza> amesys
+2014-06-20T00:38:05 <adriens33> ah…
+2014-06-20T00:38:09 <adriens33> heu…
+2014-06-20T00:38:23 <adriens33> t'es sur que le prog il est pas troué du coup ? XD
+2014-06-20T00:38:45 <Letarumavza> Bah je doute qu'ils enflent leurs clients sur la marchandise vu ce qu'ils risquent...
+2014-06-20T00:38:57 <adriens33> mouais.
+2014-06-20T00:39:31 <Letarumavza> (Y'a aussi que le matos ne tourne qu'en sandbox)
+2014-06-20T00:41:00 <Letarumavza> Mais pour reprendre, le prog est vraiment bon.
+2014-06-20T00:41:24 <Letarumavza> Euh...
+2014-06-20T00:41:40 <Letarumavza> Là que j'y pense, la dernière version de lophtcrack gère pas les conteneurs ?
+2014-06-20T00:43:41 <Letarumavza> Toujours est-il que le meilleur moyen de stocker les données c'est de les fragmenter et de les chiffrer séparément.
+2014-06-20T00:44:40 <Letarumavza> En utilisant une archive fragmentée de type 7z il est très difficile d'exploiter les fragments séparés.
+2014-06-20T00:44:58 <adriens33> ah ok
+2014-06-20T00:45:04 <adriens33> ben c'est bon à savoir
+2014-06-20T00:45:09 <ludvann> leta ?
+2014-06-20T00:45:12 <Letarumavza> Et l'utilisation de clefs différentes rend le déchiffrement beaucoup plus long.
+2014-06-20T00:45:15 <Letarumavza> yep ?
+2014-06-20T00:45:25 <ludvann> tu veux toujours me tuer ^^ ?
+2014-06-20T00:45:38 <Letarumavza> Une bière et on est quittes?.
+2014-06-20T00:45:38 <Berry-Punch> J'aimerais bien en reprendre, mais Colgate va se fâcher après… *hic* 
+2014-06-20T00:45:55 <ludvann> Eeyup ^^ !
+2014-06-20T00:46:17 <Letarumavza> Bah voila, au fait tu serais intéréssé par la soirée nanar lud ?
+2014-06-20T00:46:19 * ludvann pique une bière à Berry-Punch et la donne à Letarumavza
+2014-06-20T00:46:19 <Berry-Punch> J'aimerais bien en *hic* reprendre, mais Colgate va se fâcher après…
+2014-06-20T00:47:09 <Letarumavza> Le principe est simple on passe la soirée à regarder un ou deux bon gros nanars, et on achete une pizz en groupe.
+2014-06-20T00:47:19 <adriens33> moi une soirée nanar je serais partant :)
+2014-06-20T00:47:26 <Letarumavza> Ou alors quelqu'un se dévoue pour amener du miam.
+2014-06-20T00:47:34 <Letarumavza> Je fournis le lieu et la téloche ^^
+2014-06-20T00:48:02 <ludvann> quand la soirée nanard ?
+2014-06-20T00:48:49 <Letarumavza
+[1;37m==> FLushing output buffer[0m> Bah justement, de préférence une date où flo, adri et toi êtes dispo.::[1;37m==> FLushing output buffer[0m:
+2014-06-20T00:49:11 <ludvann> tu habites vers om ?
+2014-06-20T00:49:16 <Letarumavza> Qu'on soit au moins 4, ensuite je créerai l'évent au cas où d'autres seraient intéréssé
+2014-06-20T00:49:18 <Letarumavza> Talence.
+2014-06-20T00:49:25 <adriens33> oh ben ça va
+2014-06-20T00:49:39 <ludvann> ah tu es plutôt proche de chez moi ^^
+2014-06-20T00:49:52 <Letarumavza> Et au pire flo et toi pouvez vous retrouver quelque part, il saura t'amener jusqu'à chez moi ^^
+2014-06-20T00:50:11 <adriens33> pour les dates moi c'est en semaine >= 19h30 ou le we.
+2014-06-20T00:50:14 <adriens33> pas con ça
+2014-06-20T00:50:31 <ludvann> et la soirée serait plus du 18h-21h ou 19h-05h ?
+2014-06-20T00:50:35 <Letarumavza> Personne n'a peur des chiens/chats ?
+2014-06-20T00:50:49 <Letarumavza> 19h30 je pense pour le début.
+2014-06-20T00:50:59 <adriens33> ma mère a deux chiens (avait pardon… l'habitude) et les chats ça va :D
+2014-06-20T00:51:01 <Letarumavza> après, j'ai deux canaps de dispo au pire.
+2014-06-20T00:51:06 <ludvann> euh, j'aime pas vraiment les chiens qui sautes sur moi ^^
+2014-06-20T00:51:29 <Letarumavza> iris fait un peu le vilain chien, mais elle est pas méchante.
+2014-06-20T00:51:38 <adriens33> ^^
+2014-06-20T00:51:50 <ludvann> :)
+2014-06-20T00:52:03 <Letarumavza> Et l'autre est sourde et aveugle, donc faut juste faire gaffe à pas la bousculer.
+2014-06-20T00:52:13 <ludvann> ok
+2014-06-20T00:52:14 <adriens33> :/
+2014-06-20T00:52:46 <Letarumavza> Elle a fait deux AVC, le véto pense qu'elle vivra pas plus d'un ans maxi.
+2014-06-20T00:52:53 <adriens33> :(
+2014-06-20T00:52:57 <ludvann> mais avant de venir faudra que je parle de mon bonysme à mes parents sinon il y aurat  peut être des prblèmes... :/
+2014-06-20T00:52:59 <ludvann> :(
+2014-06-20T00:53:08 <ludvann> 2 !
+2014-06-20T00:53:14 <ludvann> :/
+2014-06-20T00:53:33 <Letarumavza> c'est pas du bronysme, juste de la culture cinématographique alternative en l'ocurence.
+2014-06-20T00:53:37 <Letarumavza> Et de la pizz
+2014-06-20T00:53:45 <Letarumavza> pizz > all
+2014-06-20T00:53:58 <adriens33> dit il alors que je finis ma pizza d'hier
+2014-06-20T00:54:09 <Letarumavza> while(isalive == True) :
+2014-06-20T00:54:23 <ludvann> oui mais je serai pas chez des amis pas du lycée
+2014-06-20T00:54:24 <adriens33> (vive les micro ondes avec fonction grill… c'est meilleur comme ça :p )
+2014-06-20T00:54:36 <adriens33> trop de négations !
+2014-06-20T00:54:40 <adriens33> my brain !
+2014-06-20T00:54:42 <Letarumavza> La pizz, le plat génial qui est bon le soir chaud ou le matin froid.
+2014-06-20T00:54:49 <ludvann> ^^
+2014-06-20T00:55:05 <adriens33> et comme ça tu pourras voir ma tronche en vrai
+2014-06-20T00:55:05 <Letarumavza> Et qui est mangeable même avec une gueule de bois de l'infini.
+2014-06-20T00:55:07 <adriens33> :)
+2014-06-20T00:55:15 <adriens33> (ça sent le vécu XD)
+2014-06-20T00:55:22 <Letarumavza> M'en parle pas...
+2014-06-20T00:55:33 <ludvann> pas toast moi la gueule de bois ^^ :)
+2014-06-20T00:55:38 <Letarumavza> J'avais trois litres d'hydromel dans la tronche...
+2014-06-20T00:55:45 <Letarumavza> du 50°
+2014-06-20T00:55:47 <adriens33> ah
+2014-06-20T00:55:50 <adriens33> ouais
+2014-06-20T00:56:00 <adriens33> quand t'y vas tu fais pas semblant
+2014-06-20T00:56:02 <adriens33> xD
+2014-06-20T00:56:06 <ludvann> ^^
+2014-06-20T00:56:16 <Letarumavza> Et ces enfoirés m'ont révéillé en balançant des pétards dans ma piole...
+2014-06-20T00:56:22 <adriens33> oulà…
+2014-06-20T00:56:26 <ludvann> xD
+2014-06-20T00:56:48 <Letarumavza> Y'en a un qui a pris une des bouteilles vides en headshot
+2014-06-20T00:56:57 <ludvann> et je pourrais casiment pas manger la semaine prochaine...
+2014-06-20T00:56:59 <adriens33> ah bah forcément
+2014-06-20T00:57:03 <adriens33> poruquoi ludvann ?
+2014-06-20T00:57:06 <Letarumavza> (je visais le briquet)
+2014-06-20T00:57:09 <adriens33> tu fais ramadan ?
+2014-06-20T00:57:11 <Letarumavza> dents de sagesse
+2014-06-20T00:57:12 <ludvann> nan
+2014-06-20T00:57:23 <ludvann> les 4 en même temps...
+2014-06-20T00:57:27 <adriens33> ouch
+2014-06-20T00:57:33 <ludvann> Eeyup
+2014-06-20T00:57:33 <Letarumavza> quarté dans l'ordre !
+2014-06-20T00:57:45 <ludvann> anesthésie générale mais bon...
+2014-06-20T00:57:55 <adriens33> moi je sais même pas si elles sont toutes sorties, et la seule que je sens est de traviole
+2014-06-20T00:58:01 <Letarumavza> Le réveil va être hard.
+2014-06-20T00:58:03 <adriens33> (j'ai 22 balais pour rappel)
+2014-06-20T00:58:16 <adriens33> ouais, il parait que t'as une bonne tronche de hamster après.
+2014-06-20T00:58:17 <ludvann> c'est pas le doliprane qui va me faire manger...
+2014-06-20T00:58:21 <Letarumavza> Les 4 commencent à sortir pour moi, y'en a qu'une de déviée.
+2014-06-20T00:58:26 * ValCab33 is no longer afk
+2014-06-20T00:58:30 <adriens33> re:)
+2014-06-20T00:58:36 <Letarumavza> re
+2014-06-20T00:58:38 <ValCab33> Reuh
+2014-06-20T00:58:46 <ludvann> yosh
+2014-06-20T00:59:09 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, Letarumavza *hic* 
+2014-06-20T00:59:28 *** ValCab33 est parti
+2014-06-20T00:59:39 <Letarumavza> ?
+2014-06-20T00:59:45 *** ValCab33 s'est connecté
+2014-06-20T00:59:46 <ludvann> y a un gus qui a fait le faucon millenium sur ksp et il vole...
+2014-06-20T00:59:48 <ludvann> re
+2014-06-20T01:00:01 <ValCab33> Ah ca tourne mieux là
+2014-06-20T01:00:03 <adriens33> j'ai vu deux trois constructions sur le net
+2014-06-20T01:00:08 <ludvann> https://www.youtube.com/watch?v=IjGPX0fFCug#t=43
+2014-06-20T01:00:08 <Letarumavza> J'ai fait un truc sans moteurs et sans ailes qui peut aller en orbite...
+2014-06-20T01:00:10 <adriens33> y'a des fous furieux
+2014-06-20T01:00:15 <Letarumavza> Moteur unity...
+2014-06-20T01:00:19 <ludvann> oui...
+2014-06-20T01:00:22 <ludvann> unity ?
+2014-06-20T01:00:42 <Letarumavza> https://www.youtube.com/watch?v=a0JtdvVJ_mU&list=UU8DIKwGU8wFZfk3Xi3-zcrQ
+2014-06-20T01:00:49 <Letarumavza
+[1;37m==> FLushing output buffer[0m> unity c'est le moteur de ksp::[1;37m==> FLushing output buffer[0m:
+2014-06-20T01:00:59 <ludvann> danny <3
+2014-06-20T01:01:38 <Letarumavza> adriens33: https://www.youtube.com/channel/UC8DIKwGU8wFZfk3Xi3-zcrQ
+2014-06-20T01:01:45 <Letarumavza> Regardes les vidéos de ce mec
+2014-06-20T01:01:55 <ludvann> je l'adore
+2014-06-20T01:01:59 <ludvann> je l'idole
+2014-06-20T01:02:00 <Letarumavza> C'est le spécialiste de l'exploitation des bugs étranges du moteur physique
+2014-06-20T01:02:09 <ludvann> et des conneries ^^
+2014-06-20T01:02:16 <Letarumavza> C'est l'ultime chasseur de kraken
+2014-06-20T01:02:28 <adriens33> thx du lien :)
+2014-06-20T01:02:37 <ludvann> et des astéroides ^^ https://www.youtube.com/watch?v=ul6FXQMT1GI&list=UU8DIKwGU8wFZfk3Xi3-zcrQ
+2014-06-20T01:03:19 <Letarumavza> Avec de la power musique d’ascenseur.
+2014-06-20T01:03:22 <adriens33> hmm… this thing doesn't have an engine. How do I take off ? By editing of course ! XD
+2014-06-20T01:03:30 <ludvann> on entend sa voix dans cette vidéo ^^ (et on le reconnait :) ) https://www.youtube.com/watch?v=8-ca8AYblFg&list=FL8DIKwGU8wFZfk3Xi3-zcrQ&index=3
+2014-06-20T01:04:59 <ludvann> tribute to armstrong (pas de danny) https://www.youtube.com/watch?v=h4TKR3bj744&list=FL8DIKwGU8wFZfk3Xi3-zcrQ&index=44
+2014-06-20T01:07:25 <Letarumavza> danny, best alpha tester ever
+2014-06-20T01:07:46 <ludvann> sorry
+2014-06-20T01:07:51 <ludvann> EVER !!!!!!!!!!!!!!!!!!
+2014-06-20T01:08:19 <ludvann> 25 choses à faire avec les astéroids $$
+2014-06-20T01:08:23 <ludvann> ^^ *
+2014-06-20T01:08:59 <Letarumavza> Perso sur mon mode carrière j'en ai posé un sur le toit du VAB
+2014-06-20T01:09:18 <Letarumavza> Et j'essaye d'en emmener un en orbite autour de jool
+2014-06-20T01:09:23 <ludvann> pareil mais avec un vtol ^^
+2014-06-20T01:11:58 <Letarumavza> la vidéo avec laquelle j'ai découvert ce mec https://www.youtube.com/watch?v=srggpVC7qgE&list=UU8DIKwGU8wFZfk3Xi3-zcrQ&index=31
+2014-06-20T01:12:55 <ludvann> moi c'est la "first time in 0.23"
+2014-06-20T01:13:04 <ludvann> faut avouer une chose,
+2014-06-20T01:13:39 <ludvann> c'est un excellent pilote pour aussi bien les fusées que les avions ^^
+2014-06-20T01:14:15 <Letarumavza> Bah à force de tenter de faire voler des trucs débiles...
+2014-06-20T01:14:22 <Letarumavza> Forcément quand il prend un truc stable...
+2014-06-20T01:14:39 <Letarumavza> Ceci dit, j'ai repris ses mass-relays.
+2014-06-20T01:15:02 <Letarumavza> Tellement plus facile pour injecter une sonde avec un moteur ionique.
+2014-06-20T01:15:03 <ludvann> oui mais pour faire des stations et tout le bordel...
+2014-06-20T01:16:21 <Letarumavza> Le mass relay peut être mis en orbite d'une piece.
+2014-06-20T01:16:43 <Letarumavza> Et puis bon, j'ai fait un tel super shot l'autre jour.
+2014-06-20T01:16:54 <ludvann> et c'est quoi le mass-relay ?
+2014-06-20T01:16:59 <Letarumavza> (transert duna avec un grav assist de mun ET minmus)
+2014-06-20T01:17:14 <Letarumavza> Et en slingshot en plus.
+2014-06-20T01:19:18 <Letarumavza> en gros c'est deux mainsail face à face synchronisés pour balancer une impulsion de projection à la sonde que tu place face à l'un d'eux, sans que le relai ne bouge.
+2014-06-20T01:19:44 <ludvann> un canon quoi ? ^^
+2014-06-20T01:19:49 <Letarumavza> en gros oui.
+2014-06-20T01:20:00 <ludvann> yay !
+2014-06-20T01:20:11 <Letarumavza> C'est très puissant puisque c'est équivalent à une impulsion de mainsail, sur une sonde légere c'est violent.
+2014-06-20T01:20:36 <ludvann> oui...
+2014-06-20T01:20:40 <Letarumavza> (injection kerbol direct 3/4 du temps)
+2014-06-20T01:20:57 <Letarumavza> Mais en visant bien j'arrive à injecter sur duna/eve
+2014-06-20T01:21:07 <ludvann> pas mal
+2014-06-20T01:21:11 <Letarumavza> Et j'envisage de coller des relais sur duna et eve.
+2014-06-20T01:21:33 <ludvann> je suis un b*te pour les fusées et ce qui est dans l'espace ^^
+2014-06-20T01:22:12 <Letarumavza> Mon prochain but, faire un passage en basse altitude de jool et en resortir indemne.
+2014-06-20T01:22:35 <ludvann> jool ?
+2014-06-20T01:23:02 <Letarumavza> Yep, je vais tenter de passer dans la purée verte.
+2014-06-20T01:23:20 <ludvann> ah la planete...
+2014-06-20T01:26:08 <ludvann> je vais tester un mini avion ^^
+2014-06-20T01:52:51 <ludvann> zetes en train de dormir ?
+2014-06-20T01:52:57 <flutterbrony> nope
+2014-06-20T01:53:03 <flutterbrony> toujours sur ce tel ...
+2014-06-20T01:53:13 <flutterbrony> depuis 9H hier matin
+2014-06-20T01:53:23 <Letarumavza> arf
+2014-06-20T01:53:27 <ludvann> ah :/
+2014-06-20T01:53:41 <Letarumavza> Tu veux un firmware ?
+2014-06-20T01:53:59 <ludvann> pr0n firmware
+2014-06-20T01:54:07 <Letarumavza> ?
+2014-06-20T01:54:15 <flutterbrony> pourquoi pas
+2014-06-20T01:54:19 <ludvann> nan rien...
+2014-06-20T01:54:25 <flutterbrony> si c'en est un que 'ai pas encore testé
+2014-06-20T01:54:55 <ludvann> ^^
+2014-06-20T02:01:05 <flutterbrony> dernier firmware testé : echec ...
+2014-06-20T02:01:18 <flutterbrony> J'EN AI MARRE !!!
+2014-06-20T02:01:58 <ludvann> tu sais au moins comment il a grillé son phone ?
+2014-06-20T02:02:49 <heuzef> Bon aller au dodo
+2014-06-20T02:02:50 <flutterbrony> bah oui, il a pété les partitions, la partition efs est casi totalement illisible
+2014-06-20T02:02:50 <heuzef> +++
+2014-06-20T02:02:54 <ludvann> nenuit
+2014-06-20T02:02:59 <flutterbrony> @heuzef ++
+2014-06-20T02:03:06 <ludvann
+[1;37m==> FLushing output buffer[0m> en faisant comment ?::[1;37m==> FLushing output buffer[0m:
+2014-06-20T02:03:14 <flutterbrony> ca je sais pas
+2014-06-20T02:03:25 *** heuzef est parti
+2014-06-20T02:03:29 <flutterbrony> et ce tel est passé par tellement de firmware différent là
+2014-06-20T02:03:42 <ludvann> demandes lui, ca t'aideras peut être ...
+2014-06-20T02:03:43 <flutterbrony> il est même passé sous ubuntu phone
+2014-06-20T02:04:18 <flutterbrony> et j'ai aussi testé ceux d'autres tel
+2014-06-20T02:04:18 <adriens33> ibon
+2014-06-20T02:04:23 <adriens33> gigot aussi
+2014-06-20T02:04:25 <adriens33> bonne nuit
+2014-06-20T02:04:30 <ludvann> @+
+2014-06-20T02:04:33 *** adriens33 est parti
+2014-06-20T02:05:22 <flutterbrony> ok en faite ce dernier firmware s'est éfacé au démmarrage
+2014-06-20T02:05:31 <ludvann> ?
+2014-06-20T02:05:42 <flutterbrony> le telephone est encore vide
+2014-06-20T02:06:14 <flutterbrony> la plupart des firmware font a a cause de cette partition efs
+2014-06-20T02:06:31 <flutterbrony> ou ils boutent en boucle
+2014-06-20T02:07:09 <ludvann> ...
+2014-06-20T02:07:23 <flutterbrony> si tu connais un firmware qui n'as pas besoin de cette partition, je te prends pour mon nouveau dieu
+2014-06-20T02:07:34 <flutterbrony> nouveau et premier en faire ... :/
+2014-06-20T02:07:40 <flutterbrony> faite*
+2014-06-20T02:07:48 <ludvann> quel partition ?
+2014-06-20T02:08:05 <flutterbrony> ./efs
+2014-06-20T02:08:12 <ludvann> ok
+2014-06-20T02:10:08 <ludvann> tu peux pas delete le /efs?
+2014-06-20T02:10:18 <flutterbrony> nope, j'ai essayé
+2014-06-20T02:10:28 <flutterbrony> odin peux pas et le recovery non plus
+2014-06-20T02:10:42 <ludvann> et via l'ordi ?
+2014-06-20T02:10:58 <flutterbrony> c'est odin ca ^^
+2014-06-20T02:11:05 <ludvann> sans odin
+2014-06-20T02:11:19 <flutterbrony> avec les adb ?
+2014-06-20T02:11:31 <ludvann> tu as windows ?
+2014-06-20T02:11:42 <flutterbrony> windows et linux
+2014-06-20T02:11:56 <ludvann> en explorant le phone via ton os ?
+2014-06-20T02:12:04 <flutterbrony> impossible
+2014-06-20T02:12:14 <ludvann> ?
+2014-06-20T02:12:19 <ludvann> non reconnu ?
+2014-06-20T02:12:25 <flutterbrony> le phone est invisible pour linux et windows
+2014-06-20T02:13:22 <ludvann> est ce que l'ordi le détecte dans le gestionnaire des périphériques (où il y  tout ce qui est co à l'ordi)
+2014-06-20T02:13:26 <ludvann> ?
+2014-06-20T02:13:36 <flutterbrony> Y'a que les adb que j'ai pas testé mais je sais pas m'en servir
+2014-06-20T02:14:36 <flutterbrony> oui
+2014-06-20T02:15:01 <flutterbrony> et il le nomme SaMSUNG Android ADB Interface
+2014-06-20T02:15:09 <ludvann> ok
+2014-06-20T02:15:31 <ludvann> quel samsung ?
+2014-06-20T02:15:45 <flutterbrony> un galaxy s3 4g (i9305)
+2014-06-20T02:17:48 <flutterbrony> le message d'erreur, c'est E:failed to mount /efs (invalid argument)
+2014-06-20T02:18:04 <ludvann> et si tu repare le /efx ?
+2014-06-20T02:18:09 <ludvann> efs*
+2014-06-20T02:18:26 <flutterbrony> avec odin, pas possible et le recovery aussi
+2014-06-20T02:18:47 <flutterbrony> le recovery ne sais que me dire ca (même pour le reformater)
+2014-06-20T02:19:06 <flutterbrony> et odin me met un message d'erreur att 2 min, je le relance
+2014-06-20T02:19:59 <Letarumavza> Techniquement c'est une mémoire type SSD
+2014-06-20T02:20:13 <Letarumavza> Elle doit avoir une commande de flush total.
+2014-06-20T02:20:29 <flutterbrony> un message très clair : Re-Partition operation failed.
+2014-06-20T02:20:36 <ludvann> il a tenté de upgrader son android ?
+2014-06-20T02:20:44 <flutterbrony> oui c'étais ca
+2014-06-20T02:21:01 <flutterbrony> mais après, je sais pas ce qu'il a fait
+2014-06-20T02:22:01 <Letarumavza> Hum...
+2014-06-20T02:22:17 <ludvann> peut être une piste... http://forum.xda-developers.com/showthread.php?t=1611796
+2014-06-20T02:22:29 <Letarumavza> Et une petite merde chargée de delete toute donnée présente sur le disque, ça t'intéresserai ?
+2014-06-20T02:23:02 <ludvann> il y a cwm recovery ?
+2014-06-20T02:23:49 <flutterbrony> oui, j'en ai mis un
+2014-06-20T02:24:08 <ludvann> essais ptet la version n+3
+2014-06-20T02:24:15 <ludvann> n°3 *
+2014-06-20T02:24:34 <ValCab33> Moi je go dodo, @+ les gens
+2014-06-20T02:24:39 <ValCab33> Et neunuit
+2014-06-20T02:24:43 <ludvann> @+
+2014-06-20T02:24:46 <Letarumavza> ++
+2014-06-20T02:24:47 <ludvann> _/)
+2014-06-20T02:24:57 <ValCab33> Saboreille /)
+2014-06-20T02:25:02 *** ValCab33 est parti
+2014-06-20T02:25:03 <ludvann> Eeyup
+2014-06-20T02:25:39 <ludvann> tu as une idée pour flutterbrony Letarumavza ?
+2014-06-20T02:26:07 <Letarumavza> Bah...
+2014-06-20T02:26:15 <Letarumavza> Je connais pas bien le système.
+2014-06-20T02:26:27 <ludvann> ...
+2014-06-20T02:26:28 <ludvann> :/
+2014-06-20T02:26:44 <Letarumavza> J'avais juste vu passer une petit simili-virus capable de vider le disque.
+2014-06-20T02:33:46 <flutterbrony> bon bah, mthode testé
+2014-06-20T02:34:00 <flutterbrony> verdict dans quelques minutes ...
+2014-06-20T02:34:18 <ludvann> ...
+2014-06-20T02:34:23 <flutterbrony> Déjà Error mounting /efs!
+2014-06-20T02:34:32 <ludvann> merde...
+2014-06-20T02:34:46 <flutterbrony> bon, reflash de rom
+2014-06-20T02:35:29 <flutterbrony> temps : 5 min
+2014-06-20T02:35:39 <ludvann> ...
+2014-06-20T02:37:33 <flutterbrony> ou plus vu qu'odin est figé
+2014-06-20T02:38:14 <flutterbrony> non, c'est bon
+2014-06-20T02:38:17 <Letarumavza> vérifies les fluctuations d'UC
+2014-06-20T02:38:26 <flutterbrony> 2% x)
+2014-06-20T02:38:50 <flutterbrony> Remain < 3:50 >
+2014-06-20T02:39:24 <ludvann> minecraft snapshot !
+2014-06-20T02:39:41 <ludvann> l'éponge est fonctionnelle !!!!!!!!!!!!!
+2014-06-20T02:40:01 <Letarumavza> T'emballes pas
+2014-06-20T02:40:12 <Letarumavza> Snapshot la plus bugée de l'histoire
+2014-06-20T02:40:17 <ludvann> je sais ^^
+2014-06-20T02:40:18 <Letarumavza> J'ai des problèmes de framerate avec.
+2014-06-20T02:40:21 <flutterbrony> File analysis..
+2014-06-20T02:40:21 <flutterbrony> SetupConnection..
+2014-06-20T02:40:21 <flutterbrony> Initialzation..
+2014-06-20T02:40:21 <flutterbrony> Get PIT for mapping..
+2014-06-20T02:40:22 <flutterbrony> Firmware update start..
+2014-06-20T02:40:22 <flutterbrony> boot.img
+2014-06-20T02:40:22 <flutterbrony> NAND Write Start!!
+2014-06-20T02:40:22 <flutterbrony> cache.img
+2014-06-20T02:40:23 <flutterbrony> hidden.img
+2014-06-20T02:40:23 <flutterbrony> modem.bin
+2014-06-20T02:40:23 <flutterbrony> recovery.img
+2014-06-20T02:40:24 <flutterbrony> system.img
+2014-06-20T02:40:31 <flutterbrony> zut, ca spamm un peu ^^
+2014-06-20T02:41:04 <ludvann> minecraft c'est le seul jeu qui cré des bugs qui n'ont rien à voir avec les ajouts...
+2014-06-20T02:41:21 <flutterbrony> xp
+2014-06-20T02:41:26 <Letarumavza> J'ai des problèmes de framerate sur une config : I7-4960x @4.5GHz, 64Go RAM @2.25GHz, et une paire de titans black.
+2014-06-20T02:41:27 <flutterbrony> et  minetest ?
+2014-06-20T02:42:00 <Letarumavza> Et minecraft arrive à RAMER GRAVE avec cette snapshot...
+2014-06-20T02:42:14 <ludvann> ...
+2014-06-20T02:42:52 <Letarumavza> En 1.4.7 je suis à 200-300fps avec mon texturepack x128
+2014-06-20T02:43:16 <Letarumavza> En 1.7 je suis à 150-200.
+2014-06-20T02:43:17 <ludvann> c'était la version la plus stable en meme temps...
+2014-06-20T02:43:22 <ludvann> la 1.4.7
+2014-06-20T02:43:45 <flutterbrony> fini, redémmarrage ...
+2014-06-20T02:43:46 <Letarumavza> Raison pour laquelle c'est ma préférée.
+2014-06-20T02:43:55 <ludvann> //
+2014-06-20T02:43:59 <ludvann> ...
+2014-06-20T02:44:15 <Letarumavza> J'aime bien les ajouts de la 1.8 cela dit
+2014-06-20T02:44:27 <Letarumavza> (j'adore construire sous l'eau)
+2014-06-20T02:44:33 <ludvann> oui ^^ mais pas les bugs D
+2014-06-20T02:44:36 <ludvann> xD *
+2014-06-20T02:44:53 <Letarumavza> Hum...
+2014-06-20T02:45:00 <Letarumavza> A quand danny sur minecraft ?
+2014-06-20T02:45:08 <ludvann> 2462 ?
+2014-06-20T02:45:14 <flutterbrony> bon bah démmarrage toujours ...
+2014-06-20T02:45:16 <Letarumavza> Bah oui ^^
+2014-06-20T02:45:26 <ludvann> ke sais pas ^^
+2014-06-20T02:45:28 <ludvann> je*
+2014-06-20T02:46:23 <flutterbrony> windows me dit : le pilote n'a pas pu être installé et android démmare depuis maintenant 75 sec
+2014-06-20T02:46:26 <ludvann> pour les bugs il y a déjà test127e29 ^^
+2014-06-20T02:46:36 <ludvann> ah...
+2014-06-20T02:47:05 <flutterbrony> bon, c'est mort je pense ...
+2014-06-20T02:47:13 <Letarumavza> RMA ?
+2014-06-20T02:47:17 <flutterbrony> mais e vais voir si je peux repartitionner maintenant ...
+2014-06-20T02:48:08 <Letarumavza> En parlant de retour atelier, le SAV razer fait un taf de malade
+2014-06-20T02:48:21 <Letarumavza> "espérez 7-10 jours avant l'envoi"
+2014-06-20T02:48:36 <Letarumavza> 2h après "votre piece de remplacement a été envoyée"
+2014-06-20T02:48:46 <ludvann> ^^
+2014-06-20T02:49:05 <Letarumavza> tout ça pour dire, pourquoi pas tenter un rma ?
+2014-06-20T02:49:24 <flutterbrony> Re-Partition operation failed.
+2014-06-20T02:49:32 <Letarumavza> fuck
+2014-06-20T02:51:17 <Letarumavza> Bon, perso je vais me pieuter.
+2014-06-20T02:51:27 <ludvann> pareil..;
+2014-06-20T02:51:29 <flutterbrony> deuxième méthode impossible : "Go into Mounts and Storage, and select "mount /efs". Once done connect usb cable to phone and computer" il me met failed
+2014-06-20T02:51:32 <ludvann> bonne nuit ^^
+2014-06-20T02:51:39 <flutterbrony> et 1 déjà testé auparavant ...
+2014-06-20T02:51:39 <ludvann> @+
+2014-06-20T02:51:49 <flutterbrony> bonne nuit tous les 2 ^^
+2014-06-20T02:51:55 <ludvann> (__/)
+2014-06-20T02:52:11 <Letarumavza> flutter demain après le dentiste tu m'expliqueras en détail ton problème
+2014-06-20T02:52:21 <Letarumavza> Je verrai si y'a pas moyen de bidouiller quelque chose.
+2014-06-20T02:52:31 <flutterbrony> demain, ca seras trop tard
+2014-06-20T02:52:42 <flutterbrony> le client doit venir demain le récuperer
+2014-06-20T02:52:44 *** ludvann est parti
+2014-06-20T02:53:02 <Letarumavza> Bon. C'est une mémoire samsung, tentes un prog de reset de SSD de cette marque.
+2014-06-20T02:53:17 <Letarumavza> Avec un du bol c'est le même protocole.
+2014-06-20T02:53:19 <flutterbrony> le patron l'a appellé pour lui dire que c'étais mort et m'a dit que si je voulais quand même essayer de le réparer ce soir, e pouvais
+2014-06-20T02:53:57 <Letarumavza> Techniquement si tu flush le disque tu devrais pouvoir réinstaller/repartitioner.
+2014-06-20T02:54:56 <flutterbrony> Y'a un code de réinitialisation du disque
+2014-06-20T02:55:13 <flutterbrony> *2767*3855# Full factory reset
+2014-06-20T02:55:31 <Letarumavza> Tu arrives pas à l'utiliser ?
+2014-06-20T02:55:46 <flutterbrony> e n'ai pas de clavier sur e tel ...
+2014-06-20T02:56:19 <flutterbrony> faut déjà qu'android tourne et taper ca dans un terminal
+2014-06-20T02:56:40 <Letarumavza> Il est trois heures du mat, j'ai pas le temps de coder un virus capable de reset le disque.
+2014-06-20T02:56:58 <Letarumavza> Et j'ai pas de virkit pour les samsung.
+2014-06-20T02:57:12 <flutterbrony> ouais et moi, e vais me coucher, sinon e vais dormir au taf demain
+2014-06-20T02:57:19 <Letarumavza> Idem...
+2014-06-20T02:57:22 <Letarumavza> ++
+2014-06-20T02:57:28 <flutterbrony> bonne nuit
+2014-06-20T02:59:53 *** flutterbrony
+FLushing output buffer[0m 2014-06-20T09:05:25 *** heuzef s'est connecté
+2014-06-20T09:11:12 *** Gordfang s'est connecté
+2014-06-20T09:13:03 *** Shinsaber s'est connecté
+2014-06-20T09:13:18 <Shinsaber> Salut /)
+2014-06-20T09:13:45 <Gordfang> (
+2014-06-20T09:13:58 <heuzef> Plop /)
+2014-06-20T09:15:10 *** Shinsaber est parti
+2014-06-20T09:20:53 <Letarumavza> Putain la lèvre supérieure pèse trois tonnes 5
+2014-06-20T09:21:12 <heuzef> ?
+2014-06-20T09:21:16 <Letarumavza> Et j'ai mal à la gencive...
+2014-06-20T09:21:22 <Letarumavza> (je sors de chez le dentiste)
+2014-06-20T09:21:37 <Letarumavza> dents réparées 2/5
+2014-06-20T09:21:44 <heuzef> Ludvann qui va y aller aujourd'hui
+2014-06-20T09:22:16 <heuzef> Opération des 4 dents de sagesses sous anesthésie générale
+2014-06-20T09:22:17 <Letarumavza> Yep je sais, pour les dents de sagesse
+2014-06-20T09:22:22 <Letarumavza> Lui il va douiller ^^
+2014-06-20T09:22:28 <heuzef> Ouch oui
+2014-06-20T09:22:30 <Letarumavza> Perso les miennes font pas cheier ^^
+2014-06-20T09:23:34 <Letarumavza> Et toi, t'as des emmerdes de dents ?
+2014-06-20T09:23:47 <heuzef> Plus maintenant
+2014-06-20T09:23:53 <Letarumavza> "plus" ?
+2014-06-20T09:24:11 <heuzef> J'ai pas été très gaté
+2014-06-20T09:24:42 <heuzef> Seul un apparareil de 4 t de pression durant 5 ans m'à permis d'avoir une dentition correct
+2014-06-20T09:24:50 <Letarumavza> 0o
+2014-06-20T09:25:16 <heuzef> J'avais les dents au moins 5 cm trop loins
+2014-06-20T09:25:28 <Letarumavza> Jamais eu d'appareil perso. Mais mon sspt m'a déclenché des caries d'origine auto-immunes.
+2014-06-20T09:25:57 <heuzef> Après j'ai eu le droit au dents de sagesse
+2014-06-20T09:26:04 <Letarumavza> arf²
+2014-06-20T09:26:23 <heuzef> Et puis j'avais beaucoup de problème de dents mais j'ai trouvé pourquoi
+2014-06-20T09:26:30 <Letarumavza> nutella ?
+2014-06-20T09:26:43 <heuzef> Non, du dentifrice
+2014-06-20T09:26:49 <Letarumavza> 0o ?
+2014-06-20T09:26:53 <heuzef> c'été systèmatique
+2014-06-20T09:26:56 <Letarumavza> what da fuck ?
+2014-06-20T09:27:20 <heuzef> Ha chaque fois que je me brossais les dents j'utilisais du dentifrice
+2014-06-20T09:27:30 <Letarumavza> et ?
+2014-06-20T09:27:33 <heuzef> Jusqu'à ce que je pige que c'est de la belle saloperie
+2014-06-20T09:27:42 <heuzef
+[1;37m==> FLushing output buffer[0m> Et que ça me niquais les dents::[1;37m==> FLushing output buffer[0m:
+2014-06-20T09:28:05 <Letarumavza> Perso le dentiste m'a refilé un dentifrice fluoré à utiliser 3x jour.
+2014-06-20T09:29:00 <Letarumavza> Ceci dit, j'ai trouvé un super dentiste, j'ai rien senti.
+2014-06-20T09:29:34 <heuzef> Non mais en faite c'est pas la marque du dentifrice
+2014-06-20T09:29:42 <heuzef> c'est "le" dentifrice en lui mêm
+2014-06-20T09:30:06 <heuzef> Ce truc n'est pas une bonne idée
+2014-06-20T09:30:09 <Letarumavza> Tu fais une réaction au dentifrice ?
+2014-06-20T09:30:15 <heuzef> non
+2014-06-20T09:30:30 <heuzef> C'est juste que dentifrice = merde
+2014-06-20T09:31:03 <heuzef> Perso j'en utilise presque plus, un tube me fais au moins un an
+2014-06-20T09:31:04 *** adriens33 s'est connecté
+2014-06-20T09:31:12 <heuzef> Et j'ai plus de problème depuis
+2014-06-20T09:31:21 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 *hic* dernières lignes, adriens33
+2014-06-20T09:31:25 <Letarumavza> Perso je suis les conseils de mon dentiste.
+2014-06-20T09:31:49 <Letarumavza> (j'ai pas envie d'agir comme une madame michu...)
+2014-06-20T09:31:55 <heuzef> Ouais enfin je te rappel qu'il y à du business derière
+2014-06-20T09:33:33 <Letarumavza> mouais
+2014-06-20T09:34:00 <Letarumavza> étant donné qu'il m'a filé le dentifrice et qu'il a du taf pour 5 semaines sur mes crocs..
+2014-06-20T09:34:16 <Letarumavza> 2/3 fait
+2014-06-20T09:35:56 *** wildfier s'est connecté
+2014-06-20T09:36:02 *** Shinsaber s'est connecté
+2014-06-20T09:36:09 <Shinsaber> re ^^
+2014-06-20T09:36:34 <Letarumavza> Il avait raison, la gencive pisse le sang.
+2014-06-20T09:37:17 <wildfier> salut
+2014-06-20T09:41:18 <adriens33> salut :)
+2014-06-20T09:45:58 *** heuzef est parti
+2014-06-20T09:48:11 *** heuzef s'est connecté
+2014-06-20T09:51:48 <Letarumavza> re
+2014-06-20T09:55:12 <Letarumavza> Oh la connerie !
+2014-06-20T09:55:21 <Letarumavza> Oh la grosse connerie...
+2014-06-20T09:55:36 <Letarumavza> J'ai tenté de boire avec un reste d'anesthésie...
+2014-06-20T09:56:33 <adriens33> oulà…
+2014-06-20T09:58:11 <Letarumavza> Bah mon T-shirt est propre..
+2014-06-20T09:58:23 <Letarumavza> (heureusement que j'ai fait ça avec de l'eau ^^)
+2014-06-20T09:58:38 <adriens33> tu m'étonne…
+2014-06-20T09:59:03 <Letarumavza> J'ai l'impression d'être derpy
+2014-06-20T09:59:13 <adriens33> :3
+2014-06-20T09:59:20 <Letarumavza> (j'ai tout un coté du visage avec du lag)
+2014-06-20T09:59:25 <adriens33> oui, je connais.
+2014-06-20T09:59:44 <adriens33> les joies de l'anesthésie
+2014-06-20T09:59:52 <Letarumavza> Certes
+2014-06-20T10:00:23 <Letarumavza> Le mieux concernant tout ça c'est que ma mutuelle rembourse @100%
+2014-06-20T10:00:56 <adriens33> cool ça
+2014-06-20T10:01:05 <Letarumavza> Carrément, je vais avoir les couronnes avec juste la franchise.
+2014-06-20T10:01:53 <Letarumavza> (et il va me poser des titane-céramique)
+2014-06-20T10:01:59 <adriens33> punaise
+2014-06-20T10:02:19 <Letarumavza> Yep
+2014-06-20T10:02:29 <adriens33> des ratiches en titane :p
+2014-06-20T10:02:53 <Letarumavza> Bah c'est du titane recouvert de céramique, donc apparence de dent normale.
+2014-06-20T10:03:03 <Letarumavza> Mais grosse résistance.
+2014-06-20T10:03:43 <Letarumavza> Mais honnêtement je trouve ça un peu abusé.
+2014-06-20T10:03:55 <adriens33> comment ça ?
+2014-06-20T10:04:19 <Letarumavza> Bah de la céramique simple aurait suffit, mais la mutuelle rembourse le plus haut de gamme.
+2014-06-20T10:04:26 <Letarumavza> "que"
+2014-06-20T10:04:43 <adriens33> ben tu vas avoir des couronnes qui vont tenir dans le temps, tu vas pas te plaindre en plus.
+2014-06-20T10:04:59 <adriens33> (on dirait moi sérieux…)
+2014-06-20T10:05:12 <Letarumavza> ça doit être pour ça qu'ils remboursent celles-la
+2014-06-20T10:05:30 <Letarumavza> Grosse durabilité, plus rentable pour eux que deux autres couronnes.
+2014-06-20T10:05:43 <adriens33> ben j'ai envie de dire tant mieux, hein.
+2014-06-20T10:05:48 <Letarumavza> Carrément.
+2014-06-20T10:06:00 <Letarumavza> Tout est entrain de s'arranger dans ma vie ^^
+2014-06-20T10:06:11 <adriens33> Après par contre le titane quand tu passes des IRM c'est pas l'idéal XD
+2014-06-20T10:06:32 <Letarumavza> J'ai une cop géniale, des potes, je suis entrain de monter ma boite...
+2014-06-20T10:06:45 <adriens33> des nouvelles dents toutes neuves
+2014-06-20T10:06:52 <Letarumavza> Yep
+2014-06-20T10:07:31 <Letarumavza> Tain, après 20 ans de galère...
+2014-06-20T10:09:22 <Letarumavza> En revanche, après deux ans avec une dent pétée, la sentir réparée, ça fait... étrange.
+2014-06-20T10:09:25 <adriens33> https://www.youtube.com/watch?v=5tCPxXW_9qI
+2014-06-20T10:09:47 <Letarumavza> ouf, c'est la VO ^^
+2014-06-20T10:09:58 <adriens33> (c'est pas de la VF t'inquiète pas :þ)
+2014-06-20T10:11:54 <Letarumavza> Je viens de piger un truc.
+2014-06-20T10:12:21 <Letarumavza> Je crois que c'est la seule occurrence de pinkie avec les cheveux lisses sans être psycho-pie.
+2014-06-20T10:13:15 <adriens33> pas faux ^^
+2014-06-20T10:13:29 <adriens33> en même temps elle est pas vraiment elle-même à ce moment là
+2014-06-20T10:13:56 <Letarumavza> Oui mais elle est pas tarée.
+2014-06-20T10:14:15 <Letarumavza> (elle parle pas avec un seau, un tas de cailloux et un sac de farine.)
+2014-06-20T10:15:55 <Letarumavza> Tu bosses là ?
+2014-06-20T10:16:05 <adriens33> oui sur ma soutenance
+2014-06-20T10:16:11 <adriens33
+[1;37m==> FLushing output buffer[0m> pourquoi ?::[1;37m==> FLushing output buffer[0m:
+2014-06-20T10:16:14 <Letarumavza> C'est quand ?
+2014-06-20T10:16:21 <adriens33> Lundi aprèm
+2014-06-20T10:16:27 <Letarumavza> ok.
+2014-06-20T10:16:34 <Letarumavza> Tu soutiens quoi ?
+2014-06-20T10:17:11 <adriens33> c'est pour mon alternance à CGI, en gros je dois présenter mon travail, l'expérience que j'en ai tiré, tout le tintouin.
+2014-06-20T10:17:46 <Letarumavza> Si tu veux on pourra faire un petit test à blanc via skype histoire que tu puisses être au top.
+2014-06-20T10:18:02 <adriens33> c'est sympa ^^
+2014-06-20T10:18:32 <adriens33> pas ce soir par contre
+2014-06-20T10:18:48 <Letarumavza> Bah j'ai l'habitude de faire des interventions lors des conférences telles que le black-hat meeting et la new-hop convention.
+2014-06-20T10:19:21 <Letarumavza> Donc je pourrais te filer deux trois ficelles de présentation.
+2014-06-20T10:19:34 <adriens33> thx :)
+2014-06-20T10:19:36 <Letarumavza> (notamment sur le code vestimentaire ^^)
+2014-06-20T10:19:55 <Letarumavza> L'expérience qui n'est pas transmise meurt.
+2014-06-20T10:19:57 <wildfier> hey adriens33, je suis en train d'essayer de faire tourner steam sans sa foutue ubuntu runtime
+2014-06-20T10:20:01 <adriens33> [troll]pourquoi, tong/short ça va pas ?[/troll]
+2014-06-20T10:20:08 <adriens33> @wildfier ça donne quoi ?
+2014-06-20T10:20:21 <wildfier> ça compile les dépendance 32 bit ^^
+2014-06-20T10:20:28 <Letarumavza> adriens33: si ça peut aller, si tu t'appelles carlos ^^
+2014-06-20T10:20:37 <wildfier> https://wiki.archlinux.org/index.php/steam#Using_native_runtime
+2014-06-20T10:20:38 <adriens33> j'ai pas sa carrure non XD
+2014-06-20T10:20:51 <Letarumavza> Mais faut la chemise hawaïenne aussi.
+2014-06-20T10:20:51 <adriens33> (comment dire que je pèse même pas 50kg tout mouillé…)
+2014-06-20T10:21:01 <Letarumavza> Même gabarit que moi en fait ^^
+2014-06-20T10:21:08 <adriens33> ah ?
+2014-06-20T10:21:14 <Letarumavza> T'as une cravate ?
+2014-06-20T10:21:17 <adriens33> nope
+2014-06-20T10:21:39 <Letarumavza> ça serait mieux, si tu veux passes à la maison je t'en prêterai une.
+2014-06-20T10:22:32 <Letarumavza> (j'ai un look corp-goth)
+2014-06-20T10:22:43 <adriens33> comme ton skin minecraft ? :p
+2014-06-20T10:23:05 <Letarumavza> yep
+2014-06-20T10:23:10 <adriens33> ok ^^
+2014-06-20T10:23:39 <Letarumavza> Bah le look cyber passe pas avec tout le monde.
+2014-06-20T10:24:12 <Letarumavza> Donc je suis en corp (chemise noire+fut noir+rangers+cravate.)
+2014-06-20T10:25:22 <Letarumavza> Dans une soutenance//conférence 1/3 voire 1/2 du taf réside dans la présentation.
+2014-06-20T10:25:48 <Letarumavza> Elle doit convenir à ton niveau et au milieu dans lequel tu fais ta présentation.
+2014-06-20T10:26:04 <adriens33> ok
+2014-06-20T10:26:16 <wildfier> n'empèche faut qu'on m'explique pourquoi steam à une dépendance sur libnm (network manager)
+2014-06-20T10:26:28 <Letarumavza> P2P pour les maj steam.
+2014-06-20T10:26:42 <Letarumavza> Et pour le cloud.
+2014-06-20T10:26:54 <adriens33> ouais m'enfin y'a pas besoin de nm pour accéder au réseau hein.
+2014-06-20T10:27:08 <wildfier> bas oui, c'est le taf de l'os ça
+2014-06-20T10:27:09 <adriens33> si toutes les applis qui tapent dans le web faisait ça
+2014-06-20T10:27:13 <adriens33> (firefox au pif)
+2014-06-20T10:27:15 <adriens33> on serait mal
+2014-06-20T10:27:24 <adriens33> transmission / deluge etc font pas ça
+2014-06-20T10:27:29 <adriens33> alors qu'ils font du P2P
+2014-06-20T10:27:31 <wildfier> parce que t'as pas forcement network manager sur ton system
+2014-06-20T10:27:35 <adriens33> voilà
+2014-06-20T10:27:36 <Letarumavza> Bah je trouve ça étrange.
+2014-06-20T10:27:50 <adriens33> et que c'est l'os qui gère la co réseau, les applis ont pas àtoucher à ça
+2014-06-20T10:27:58 <Letarumavza> Ou alors c'est pour normaliser entre les trois OS.
+2014-06-20T10:28:08 <Letarumavza> Qu'ils utilisent le même nm
+2014-06-20T10:28:15 <adriens33> ou alors c'est juste parce que sur Ubuntu+Unity c'est le gestinnaire de co réseau
+2014-06-20T10:28:28 <Letarumavza> Unity ?
+2014-06-20T10:28:41 <adriens33> oui, cette horreur de gestionnaire de bureau
+2014-06-20T10:28:47 <Letarumavza> Ah ok
+2014-06-20T10:28:52 <adriens33> sous forme d'un plugin python pour Compiz
+2014-06-20T10:28:57 <adriens33> tout le DE est un plugin en python
+2014-06-20T10:28:58 <Letarumavza> (pour moi unity c'est le moteur de jeu sur lequel je bosse^^)
+2014-06-20T10:28:58 <adriens33> --"
+2014-06-20T10:29:06 <Letarumavza> RAAAAAAAH
+2014-06-20T10:29:10 <Letarumavza> BEURK !
+2014-06-20T10:29:14 <adriens33> déjà que compiz à la base c'est assez lourdingue
+2014-06-20T10:29:18 <adriens33> ça peut rendre beau
+2014-06-20T10:29:21 <adriens33> mais c'est lourd
+2014-06-20T10:29:36 <adriens33> je te laisse imaginer la vélocité du truc.
+2014-06-20T10:29:55 <Letarumavza> boaf, python c'est quand même plutôt rapide.
+2014-06-20T10:30:07 <adriens33> ouais, mais pour de la gestion de fenêtre+effets 3D
+2014-06-20T10:30:10 <adriens33> tu fais du natif
+2014-06-20T10:30:13 <adriens33> pas du python
+2014-06-20T10:30:21 <wildfier> damn ...
+2014-06-20T10:30:24 <Letarumavza> Euh...
+2014-06-20T10:30:32 <wildfier> il cherche libgcrypt 1.2
+2014-06-20T10:30:39 <wildfier> sous arch on est à la 1.6
+2014-06-20T10:30:44 <wildfier> du coup il veut pas ...
+2014-06-20T10:30:56 <Letarumavza> Sauf erreur de ma part il y a une gestion 3D native en python.
+2014-06-20T10:30:58 <adriens33> qui cherche ça ? si tu recompile ça passe pas ?
+2014-06-20T10:31:19 <adriens33> oui non mais le fait de passer par du python plutot que directement faire du natif t'as forcément un cout en plus
+2014-06-20T10:31:38 <adriens33> pour une appli je dis pas
+2014-06-20T10:31:53 <adriens33> mais là…
+2014-06-20T10:31:55 <Letarumavza> C'est sur, mais pour un langage interprété il est sacrément véloce le serpent, et tu gagnes en modularité et facilités de modification.
+2014-06-20T10:32:04 <Letarumavza> ça reste une idée à la con.
+2014-06-20T10:32:06 <adriens33> ça j'avais compris :p
+2014-06-20T10:32:17 <wildfier> mais comment il peut ne pas trouver libc.so !
+2014-06-20T10:32:20 <Letarumavza> Mais une idée à la con avec ses avantages.
+2014-06-20T10:32:21 <wildfier> damn
+2014-06-20T10:32:25 <adriens33> oO
+2014-06-20T10:32:33 <Letarumavza> libc.so ?
+2014-06-20T10:32:34 <adriens33> au pif
+2014-06-20T10:32:36 <wildfier> c'est steam qui cherche ça
+2014-06-20T10:32:39 <adriens33> t'as installé lib32-glibc ?
+2014-06-20T10:32:46 <wildfier> oui je l'ai
+2014-06-20T10:32:55 <Letarumavza> c'est pas la 64 qu'il te faut ?
+2014-06-20T10:32:56 <adriens33
+[1;37m==> FLushing output buffer[0m> weird.::[1;37m==> FLushing output buffer[0m:
+2014-06-20T10:33:04 <adriens33> Steam est en 32bit…
+2014-06-20T10:33:08 <wildfier> j'ai même précisé un LD_LIBRARY_PATH au cas où
+2014-06-20T10:33:17 <adriens33> et la 64 tu l'as forcément vu que sans t'as rien qui tourne D
+2014-06-20T10:33:18 <adriens33> *XD
+2014-06-20T10:33:28 <Letarumavza> (j'ai dit ça au pif ^^)
+2014-06-20T10:34:02 <wildfier> bas c'est le même syndrome que sous windows là
+2014-06-20T10:34:08 <wildfier> du code proprio
+2014-06-20T10:34:17 <wildfier> ils se font pas chier avec une verison 64 bits
+2014-06-20T10:34:20 <adriens33> alors que là pour l'adapter au 64bit suffit de recompiler
+2014-06-20T10:34:25 <wildfier> exact
+2014-06-20T10:34:29 <adriens33> contrairement à windows
+2014-06-20T10:34:32 <wildfier> ils ont juste la fleme
+2014-06-20T10:34:34 <Letarumavza> Pour adapter oui.
+2014-06-20T10:34:44 <Letarumavza> Mais perso maintenant je ne code plus qu'en 64bits
+2014-06-20T10:34:51 <adriens33> vu que le compilo optimisera automatiquemet les pointeurs, etc
+2014-06-20T10:34:55 <Letarumavza> Tellement bon pour les variables.
+2014-06-20T10:35:17 <adriens33> ben on a des proco 64bit ça serai con de pas en profiter
+2014-06-20T10:35:33 <adriens33> surtout que maintenant pour trouver un proco qui supporte que le 32bit ça devient de plus en plus rare
+2014-06-20T10:35:44 <Letarumavza> Tu as vu le nouveau prototype de intel ?
+2014-06-20T10:35:52 <adriens33> pas encore non
+2014-06-20T10:36:23 <Letarumavza> 120 coeurs sur un socket 1366, avec une fréquence//mémoire plus faible, mais un report de charge automatique.
+2014-06-20T10:36:31 <Letarumavza> (principe de l'architecture CUDA)
+2014-06-20T10:37:07 <Letarumavza> Apparemment c'est beaucoup plus performant en énergie comme en puissance brute.
+2014-06-20T10:37:23 <adriens33> ah ouais quand même
+2014-06-20T10:37:55 <Letarumavza> En gros on arrive à virer le cache L2 et L3
+2014-06-20T10:38:01 <Letarumavza> Et avoir que du L1
+2014-06-20T10:38:24 <Letarumavza> (Ou c'est l'inverse, je sais plus, et la codéine me shoote un peu)
+2014-06-20T10:39:34 <Letarumavza> D'ailleurs, j'adorerai visiter le pôle rdi de nvidia.
+2014-06-20T10:39:45 <Letarumavza> (plus que celui d'intel)
+2014-06-20T10:40:25 *** Shinsaber est parti
+2014-06-20T10:40:40 <adriens33> http://www.dwpg.com/content.php?contid=2&artid=90&orgartid=89
+2014-06-20T10:40:45 <adriens33> whaaat
+2014-06-20T10:40:53 <adriens33> apparemment intel fout une résistance dans ses procos
+2014-06-20T10:40:56 <adriens33> pour les faire chauffer
+2014-06-20T10:41:05 <adriens33> comme ça, tu peux pas trop l'OC
+2014-06-20T10:41:08 <adriens33> c'est pute !
+2014-06-20T10:41:15 <Letarumavza> 2002
+2014-06-20T10:41:22 <adriens33> hmm ?
+2014-06-20T10:41:30 <Letarumavza> l'article date de 2002
+2014-06-20T10:41:50 <Letarumavza> Il lockaient la fréquence pour éviter la surchauffe.
+2014-06-20T10:42:04 <adriens33> ah j'avais pas vu la date…
+2014-06-20T10:42:23 <Letarumavza> C'était de la gravure en 50nm
+2014-06-20T10:43:04 <Letarumavza> ou 65nm, le PII était une bête de somme, mais avec la taille des conducteurs il chauffait à mort.
+2014-06-20T10:43:44 <adriens33> ah ok, c'était "une blague" cet article… hhrmf.
+2014-06-20T10:43:56 <Letarumavza> Bah marteau sur un cpu...
+2014-06-20T10:44:10 <Letarumavza> (j'ai lu après avoir lu la date)
+2014-06-20T10:44:10 <adriens33> ouais, là j'ai commencé à douter XD
+2014-06-20T10:44:32 <Letarumavza> Et puis les puces faisaient quasi tout le socket en taille à l'époque.
+2014-06-20T10:44:53 <Letarumavza> Maintenant la taille du socket n'est liée qu'aux contacteurs.
+2014-06-20T10:45:01 <Letarumavza> La puce fait 8mm²
+2014-06-20T10:45:15 <Letarumavza> 64mm² *
+2014-06-20T10:45:43 <Letarumavza> Et dessus tu as 6 coeurs physiques cadencés à 4.5GHz
+2014-06-20T10:45:58 <adriens33> sur quels procos t'as 6 cœurs ?
+2014-06-20T10:46:05 <Letarumavza> (3GHz de base, 4.5GHz en OC basse, 5.6GHz max stable)
+2014-06-20T10:46:16 <Letarumavza> Le mien par exemple
+2014-06-20T10:46:43 <adriens33> c'est un i7 4960 c'est bien ça?
+2014-06-20T10:46:49 <Letarumavza> yep
+2014-06-20T10:47:10 <Letarumavza> 4960X
+2014-06-20T10:51:06 <adriens33> anéfé c'est une grosse bestiole ton truc :þ
+2014-06-20T10:53:13 <Letarumavza> LETARUMAVZASHQ ------------------------------------------------------------
+2014-06-20T10:53:13 <Letarumavza>  [Current Computer]
+2014-06-20T10:53:13 <Letarumavza>   Computer Name:                          LETARUMAVZASHQ
+2014-06-20T10:53:13 <Letarumavza>   Computer Description:                   Letarumavza's HQ
+2014-06-20T10:53:14 <Letarumavza>  [Operating System]
+2014-06-20T10:53:14 *** Letarumavza est parti
+2014-06-20T10:53:37 *** Letarumavza s'est connecté
+2014-06-20T10:53:40 <adriens33> oulà
+2014-06-20T10:53:42 <Letarumavza> Bon...
+2014-06-20T10:53:45 <adriens33> c/v raté non ?
+2014-06-20T10:53:55 <Letarumavza> Yep, c'était sensé aller sur pastebin
+2014-06-20T10:53:59 <adriens33> ah ok ^^
+2014-06-20T10:54:08 <Letarumavza> C'est un compte rendu HWinfo.
+2014-06-20T10:54:23 <adriens33> je suis curieux de voir ça :p
+2014-06-20T10:54:58 <Letarumavza> http://pastebin.com/wTPutpNW
+2014-06-20T10:55:40 <Letarumavza> La fréquence de la RAM est à 1200Mhz parce que je ne l'OC que quand j'en ai besoin.
+2014-06-20T10:55:53 <adriens33> C'est un IvyBridge ?
+2014-06-20T10:55:56 <Letarumavza> (problème de chauffe)
+2014-06-20T10:55:58 <Letarumavza> yep
+2014-06-20T10:56:03 <adriens33> je croyais que les 4xxx c'était du haswell ?
+2014-06-20T10:56:19 <Letarumavza> Pas celui là
+2014-06-20T10:56:32 <adriens33> ok ^^
+2014-06-20T10:56:44 <adriens33> ben si j'ai envie d'upgrade faudra que je test celui la
+2014-06-20T10:56:53 <heuzef> Letarumavza ?
+2014-06-20T10:56:58 <adriens33> (par contre du coup faudra que je change de cm… fichu socket)
+2014-06-20T10:56:59 <Letarumavza> ?
+2014-06-20T10:57:10 <heuzef> Possible de faire un PV ?
+2014-06-20T10:57:28 <Letarumavza> Euh... j'ai une copine et je suis hétéro...
+2014-06-20T10:57:29 <Letarumavza> ^^
+2014-06-20T10:57:38 <heuzef
+[1;37m==> FLushing output buffer[0m> xD::[1;37m==> FLushing output buffer[0m:
+2014-06-20T10:57:46 <Letarumavza> Bon, sans déconner, y'a pas de lézard. ^^
+2014-06-20T11:00:14 <adriens33> "CPU Power Limits (Max):                 Power = Unlimited, Time = Unlimited"
+2014-06-20T11:00:20 <adriens33> cpu: power unlimited !
+2014-06-20T11:01:38 <wildfier> pv ?
+2014-06-20T11:05:43 <Letarumavza> UNLIMITED POWAAAAA !!!!!!!!!!!!!!!!!!!!!!
+2014-06-20T11:05:53 <Letarumavza> (en fait fréquence d'OC théoriquement illimitée.
+2014-06-20T11:06:02 <adriens33> oui, il est unlock quoi
+2014-06-20T11:06:05 <Letarumavza> Mais passé 5.6Ghz il commence à désynchro.
+2014-06-20T11:06:29 <adriens33> c'est déjà pas mal 5.6GHz
+2014-06-20T11:06:43 <adriens33> ("pas mal"…)
+2014-06-20T11:12:01 <adriens33> @Letarumavza: c'est sur quelle carte son que tu peux avoir plusieurs entrées déjà ?
+2014-06-20T11:12:19 <Letarumavza> la DSX 7.1 si je me rapelle bien
+2014-06-20T11:12:23 <Letarumavza> ou la DTSX
+2014-06-20T11:12:28 <Letarumavza> (j'ia un doute.
+2014-06-20T11:12:50 <Letarumavza> Mais faut un pilote modifié.
+2014-06-20T11:12:59 <adriens33> ah ok
+2014-06-20T11:18:34 <adriens33> t'aurais un lien ? doc ou autre ? je trouve rien sur google… --"
+2014-06-20T11:20:46 <Letarumavza> Bah je viens de regarder et fofo est down.
+2014-06-20T11:20:55 <Letarumavza> Je te chercherai ça sur mon HDD
+2014-06-20T11:21:06 <Letarumavza> C'est un pilote craqué pour windows mais j'ai le code source.
+2014-06-20T11:25:57 <adriens33> en fait j'aimerai bien arriver à trouver si c'est faisable sous linux, ce qui ne m'étonnerai absolument pas
+2014-06-20T11:26:46 <adriens33> à la base le mec qui faisait le pilote pour le décodeur TNT USB (DVB-T) c'est lui qui a trouvé le mode debug qui permet d'utiliser ça pour faire de l'acquisition radio
+2014-06-20T11:26:51 <adriens33> (sous linux)
+2014-06-20T11:27:07 <adriens33> (sur les RTL2832U)
+2014-06-20T11:27:17 *** ValCab33 s'est connecté
+2014-06-20T11:27:23 <adriens33> hello
+2014-06-20T11:27:32 <heuzef> Salut Val =)
+2014-06-20T11:27:33 <ValCab33> Hellow
+2014-06-20T11:29:16 *** Shinsaber s'est connecté
+2014-06-20T11:29:21 <Shinsaber> re
+2014-06-20T11:29:45 <Shinsaber> adriens33: tu a enlevé l'historique en mp ????
+2014-06-20T11:29:51 <adriens33> oui
+2014-06-20T11:29:55 <adriens33> quand ça netsplit
+2014-06-20T11:30:10 <adriens33> après t'as plusieurs personnes qui reco en même temps
+2014-06-20T11:30:22 <adriens33> du coup le bot est kické pour flood
+2014-06-20T11:30:56 <Shinsaber> a sa ses plutot con ...
+2014-06-20T11:31:07 <adriens33> oui, surtout que je peux rien faire contre
+2014-06-20T11:31:16 <adriens33> déjà 10lignes d'historique je suis à la limite du kick
+2014-06-20T11:31:32 <adriens33> 10lignes ça passe 11 le bot se faisait kick
+2014-06-20T11:33:01 <Berry-Punch> Commandes *hic* disponibles :
+2014-06-20T11:33:01 <Berry-Punch> say do flag reload stop op niorphlo list kick *hic* welcome voice help devoice history muffin deop
+2014-06-20T11:36:44 <Letarumavza> Faudra que tu me montres un truc en bash concernant les timers d'ailleurs.
+2014-06-20T11:36:50 <Letarumavza> Je pense avoir une solution.
+2014-06-20T11:37:23 <adriens33> ben pour timer, c'est la commande sleep ^^
+2014-06-20T11:37:38 <adriens33> (commande systeme, pas interne à bash)
+2014-06-20T11:37:59 <Letarumavza> ça explique tout.
+2014-06-20T11:39:34 <adriens33> de ?
+2014-06-20T11:46:19 <Letarumavza> Que j'ai pas pu émuler ^^
+2014-06-20T11:46:50 <adriens33> t'as essayé quoi en fait ?
+2014-06-20T11:46:53 <adriens33> je pige pas
+2014-06-20T12:10:24 <adriens33> j'ai trouvé !!
+2014-06-20T12:10:28 <adriens33> alsa-tools
+2014-06-20T12:10:38 <adriens33> le prog s'appelle hdajackretask
+2014-06-20T12:10:53 <adriens33> par contre faudra que je test si ça marche sur ma carte son chez moi
+2014-06-20T12:11:05 <adriens33> en tout cas sur du hda intel tu peux rerouter les entrées sorties son
+2014-06-20T12:12:28 <adriens33> a zut c'est pas tout à fait ce que je cherchais…
+2014-06-20T12:14:06 *** MaCharon s'est connecté
+2014-06-20T12:14:15 <MaCharon> slt
+2014-06-20T12:14:59 <heuzef> prout
+2014-06-20T12:15:10 <heuzef> MaCharon quoi de neuf ? ^^
+2014-06-20T12:15:21 <Shinsaber> Salut /)
+2014-06-20T12:15:22 <MaCharon> je viens de me reveiller vas y doucement ^^
+2014-06-20T12:15:32 * Berry-Punch lance un muffin sur MaCharon à 1377 km/h
+2014-06-20T12:15:32 <Berry-Punch> MUFFIN *hic* RAINBOOM !!
+2014-06-20T12:15:32 <heuzef> !muffin MaCharon
+2014-06-20T12:15:35 <heuzef> xD
+2014-06-20T12:15:40 <MaCharon> :/
+2014-06-20T12:15:42 <Shinsaber> XD
+2014-06-20T12:16:00 <heuzef
+[1;37m==> FLushing output buffer[0m> Shinsaber MaCharon du neuf pour BBBFF du coup ? ^^::[1;37m==> FLushing output buffer[0m:
+2014-06-20T12:16:15 <Shinsaber> ralala le présé XD
+2014-06-20T12:16:28 <heuzef> J'ai envie de voir le logo de MaCharon ^^
+2014-06-20T12:17:14 <Shinsaber> moi pour le moment j'ai pas trop eu le temps de me penché dessus !
+2014-06-20T12:17:15 <Letarumavza> Allez chier avec votre big browser !
+2014-06-20T12:17:22 <Shinsaber> XD
+2014-06-20T12:17:30 <adriens33> bon je rentre chez moi
+2014-06-20T12:17:32 <adriens33> ++
+2014-06-20T12:17:34 *** adriens33 est parti
+2014-06-20T12:17:40 <MaCharon> doucement mon grand, j'ai deja eu pas mal de mal a comprendre comment fonctionnais photoshop...
+2014-06-20T12:18:04 <MaCharon> la j'ai juste un probleme avec ce que je voulais faire
+2014-06-20T12:18:29 <MaCharon> je reste sur mon idée de ce que je t'avais proposé dans le tram
+2014-06-20T12:19:46 <MaCharon> la où j'ais du mal c'est pour le coté avec "l'entrée de la cave" que j'ai du mal a visualisé et a mettre sur papier
+2014-06-20T12:20:22 <MaCharon> et vive les tutos sur Youtube qui m'ont bien aidé par ailleur
+2014-06-20T12:20:27 <heuzef> MaCharon je t'avais dis de pas commencer avec un logiciel pro ... enfin après comme tu veux
+2014-06-20T12:20:31 <heuzef> Mais tu va en chier
+2014-06-20T12:21:04 <MaCharon> bah mon coloc avais le cs5 alors t'en qu'a faire
+2014-06-20T12:22:12 <MaCharon> la de toute façon vu que j'ais toute l'aprem de libre je pense plancher dessus
+2014-06-20T12:22:34 <wildfier> http://hitek.fr/actualite/dossier-my-little-pony-mouvement-brony_2936 yay des nos bronies qui parlent bien du fandom !
+2014-06-20T12:22:58 <MaCharon> ouai j'ai vu ça ^^
+2014-06-20T12:23:59 <Letarumavza> Quand quelque chose a un bon fond et une vocation bénéfique on finit toujours par en parler en bien.
+2014-06-20T12:27:13 *** Letarumavza est parti
+2014-06-20T12:27:56 *** Gordfang est parti
+2014-06-20T12:31:44 *** Letarumavza s'est connecté
+2014-06-20T12:31:58 <Letarumavza> Fuck win8.1
+2014-06-20T12:32:05 <Shinsaber> je vais manger !
+2014-06-20T12:32:05 <Berry-Punch> Bon appétit, *hic* Shinsaber :D
+2014-06-20T12:32:11 *** Shinsaber est parti
+2014-06-20T12:32:51 <Letarumavza> J'ai du rebooter parce que cet enfoiré ramait comme un blaireau dans un seau de béchamel...
+2014-06-20T12:33:51 *** wildfier est parti
+2014-06-20T12:35:28 *** heuzef est parti
+2014-06-20T12:54:15 *** Letarumavza est parti
+2014-06-20T13:36:32 *** heuzef s'est connecté
+2014-06-20T13:39:10 *** ludvann s'est connecté
+2014-06-20T13:39:21 <ludvann> Salut !
+2014-06-20T13:40:05 <ludvann> Zetes réveille !
+2014-06-20T13:40:11 <ludvann> ? *
+2014-06-20T13:40:14 <MaCharon> oui
+2014-06-20T13:40:18 <MaCharon> slt
+2014-06-20T13:40:28 <ValCab33> Hi
+2014-06-20T13:40:53 <ludvann> Je m'ennuie à l'hosto...
+2014-06-20T13:42:51 <MaCharon> ben moi je galere sur photoshop :D
+2014-06-20T13:42:59 <ludvann> ^^
+2014-06-20T13:43:03 <ludvann> Bbbff
+2014-06-20T13:43:10 <heuzef> Tu m'étonne
+2014-06-20T13:43:17 <heuzef> ludvann coment tu te sent ?
+2014-06-20T13:43:43 <ludvann> J'ai froid au zoreilles...
+2014-06-20T13:44:06 <heuzef> Tu saigne beaucoup ?
+2014-06-20T13:44:29 <ludvann> Nan, pas du tout je crois ^^
+2014-06-20T13:44:38 <heuzef> Plutot cool ^^
+2014-06-20T13:44:42 <heuzef> Et la douleur ?
+2014-06-20T13:44:58 <ludvann> Et je sens plus ma levre/joue gauche.
+2014-06-20T13:45:08 <ludvann> Pas de douleur ^^
+2014-06-20T13:45:24 <heuzef> Sacré bonne nouvelle ça
+2014-06-20T13:45:47 <ludvann> o/
+2014-06-20T13:46:28 <ludvann> Par contre les lits sont petits xD
+2014-06-20T13:54:04 *** ludvann est parti
+2014-06-20T14:00:30 *** wildfier s'est connecté
+2014-06-20T14:05:39 *** adriens33 s'est connecté
+2014-06-20T14:23:23 *** ludvann s'est connecté
+2014-06-20T14:23:31 <ludvann> Yo !
+2014-06-20T14:24:00 <ludvann> Je pars dans 20min o/
+2014-06-20T14:25:31 <ludvann> Yay
+2014-06-20T14:31:05 <heuzef> ^^
+2014-06-20T14:34:09 <ludvann> (J'espère... )
+2014-06-20T14:34:46 <Berry-Punch> Voilà ce qu'il s'est passé *hic* ces 10 dernières lignes, adriens33
+2014-06-20T14:43:31 *** wildfier est parti
+2014-06-20T14:45:58 *** ludvann est parti
+2014-06-20T15:00:34 *** ludvannn s'est connecté
+2014-06-20T15:19:37 *** Eclipse2212 s'est connecté
+2014-06-20T15:19:44 <Eclipse2212> Hay!
+2014-06-20T15:20:23 <heuzef> Hi o/
+2014-06-20T15:21:06 <heuzef> MaCharon alors on peut avoir une preview ? :3
+2014-06-20T15:21:08 <Eclipse2212> i je dis que je passe par un client irc d'un jeu datant de 2001?
+2014-06-20T15:21:24 <heuzef> Age Of Empire ?
+2014-06-20T15:21:32 <MaCharon> non je suis loin d'être bon :/
+2014-06-20T15:21:35 <Eclipse2212> Nope, Uplink
+2014-06-20T15:21:54 <Eclipse2212> 50Mo le jeu :D
+2014-06-20T15:21:59 <heuzef> MaCharon je me doute, mais j'ai envie de voir quand même ^^
+2014-06-20T15:22:18 *** flutterbrony s'est connecté
+2014-06-20T15:22:19 <heuzef> Un pti screenshot ?
+2014-06-20T15:22:21 <MaCharon> chut je me concentre XD
+2014-06-20T15:22:32 <flutterbrony> plop
+2014-06-20T15:22:36 <Eclipse2212> Hay!
+2014-06-20T15:22:42 <heuzef> plop flutterbrony ^^
+2014-06-20T15:22:51 <MaCharon> en plus pour l'instant ça fait plus wallpaper que logo
+2014-06-20T15:23:19 <heuzef> Au faite tu as trouvé les ressources ?
+2014-06-20T15:23:28 <heuzef> www.bronycub.org/ressources/
+2014-06-20T15:24:00 <MaCharon> tkt c'etait pas un probleme
+2014-06-20T15:24:24 *** Shinsaber s'est connecté
+2014-06-20T15:24:34 <Shinsaber> re
+2014-06-20T15:24:37 <Eclipse2212> Hay!
+2014-06-20T15:24:58 <adriens33> plop all
+2014-06-20T15:25:05 <heuzef> plop
+2014-06-20T15:25:40 <MaCharon> tain j'ai l'impression de galerer comme un porc et tout ça pour pas grand chose
+2014-06-20T15:26:20 <heuzef> C'est normale, Rome ne s'est pas faite en un jour ;)
+2014-06-20T15:26:21 <heuzef> adriens33 d'amuuuur <3  T'aurais bien une ptite astuce pour moi ???? :D
+2014-06-20T15:27:33 <adriens33> pour ?
+2014-06-20T15:28:12 *** ludvannn est parti
+2014-06-20T15:28:15 <heuzef> Est-ce que tu saurais comment je peux, via une requête php, modifier des entrées d'un fichier XML ?
+2014-06-20T15:28:45 <Shinsaber> Google XD
+2014-06-20T15:28:50 <adriens33> heu, avec simplexml par exemple ? http://php.net/manual/fr/book.simplexml.php
+2014-06-20T15:29:57 <Eclipse2212> xD
+2014-06-20T15:31:38 <heuzef> Oui sauf que je vois pas quel fonction pour modifier une entrée
+2014-06-20T15:32:23 <adriens33> ah
+2014-06-20T15:34:00 <heuzef> C'est ça ? http://www.php.net/manual/fr/simplexmlelement.addattribute.php
+2014-06-20T15:34:19 <adriens33> ça c'est pour ajouter un attribut à un nœud
+2014-06-20T15:34:22 *** Eclipse2212 est parti
+2014-06-20T15:34:26 <adriens33> pour ajouter un élément c'est addchild
+2014-06-20T15:35:08 <heuzef> Je définie le value pour mettre à jour l'entrée donc ?
+2014-06-20T15:35:32 <adriens33> ouip
+2014-06-20T15:36:11 *** ludvann s'est connecté
+2014-06-20T15:36:18 <ludvann> salut...
+2014-06-20T15:36:42 <adriens33> je re
+2014-06-20T15:36:44 *** adriens33 est parti
+2014-06-20T15:40:02 *** adriens33 s'est connecté
+2014-06-20T15:40:05 <adriens33> re
+2014-06-20T15:40:16 <Berry-Punch> Voilà ce *hic* qu'il s'est passé ces 10 dernières lignes, adriens33
+2014-06-20T15:41:29 *** adriens33 est parti
+2014-06-20T15:47:47 *** adriens33 s'est connecté
+2014-06-20T15:49:19 <ludvann> re
+2014-06-20T15:51:53 <ludvann> enfin à la maison...
+2014-06-20T15:53:06 <adriens33> ^^
+2014-06-20T15:53:37 <ludvann> j'ai pas encore trop mal...
+2014-06-20T15:53:48 <adriens33> de ?
+2014-06-20T15:54:13 <ludvann> aux dents et à la machoire.
+2014-06-20T15:54:18 <adriens33> dentiste ?
+2014-06-20T15:54:21 <adriens33> toi aussi ? ^^
+2014-06-20T15:54:27 <ludvann> nan
+2014-06-20T15:54:43 <ludvann> opération des 4 dents de sagesse...
+2014-06-20T15:54:49 <adriens33> ah oui c'est vrai
+2014-06-20T15:54:51 <ludvann> enlevées ce matin
+2014-06-20T15:55:08 <adriens33> tu dois ressembler à un hamster
+2014-06-20T15:55:13 <ludvann> je peux plus sourire
+2014-06-20T15:55:14 <adriens33> non  ?
+2014-06-20T15:55:18 <ludvann> nan ça va
+2014-06-20T15:55:21 <adriens33> ah
+2014-06-20T16:02:04 <flutterbrony> re
+2014-06-20T16:02:29 <adriens33> re
+2014-06-20T16:02:46 <flutterbrony> j'abandonne pour le galaxy s3 4g ...
+2014-06-20T16:02:56 <adriens33> pas réussi à le formater le /efs ?
+2014-06-20T16:02:58 <adriens33> :/
+2014-06-20T16:03:12 <flutterbrony> nope ...
+2014-06-20T16:03:50 <flutterbrony> je sais pas comment samsung s'y est pris d'origine mais ca m'interresse
+2014-06-20T16:03:54 *** Makhai s'est connecté
+2014-06-20T16:04:09 <Makhai> Salut
+2014-06-20T16:04:11 <flutterbrony> salut
+2014-06-20T16:04:30 <flutterbrony> bien passé le bac de français ? (malgré ce léger retard x)
+2014-06-20T16:04:48 <Makhai> Pas mal ouais, m'attendais à pire ^^
+2014-06-20T16:05:12 <flutterbrony> dit, j'ai un s3 4g a réparer et j'y arrive pas
+2014-06-20T16:05:25 <heuzef> Salut Makhai /)
+2014-06-20T16:05:48 <flutterbrony> quand je veux acceder /efs ou installer une rom, il me met E:mount /efs failed
+2014-06-20T16:06:13 <flutterbrony> j'ai essayer de le repartitionner mais pas possible, (même message
+2014-06-20T16:07:18 <Makhai> Flutter > j'ai jamais bidouillé android ^^"
+2014-06-20T16:07:52 <flutterbrony> bon bah tant pis, je le rend au client en disans irréparrable ...
+2014-06-20T16:08:09 <flutterbrony> j'y ai passé toute la nuit et la journée d'hier quand même ...
+2014-06-20T16:08:45 <flutterbrony> et là, on veut m'achever, on m'a dit d'installer windows Vista sur un pc qui avais windows 7 snif ;(
+2014-06-20T16:08:55 * Makhai tape dans le dos de Berry
+2014-06-20T16:09:03 <Makhai> Sacrilège x)
+2014-06-20T16:09:23 <heuzef> Makhai ?
+2014-06-20T16:09:29 <Makhai> oui ?
+2014-06-20T16:09:37 <heuzef> Content de te voir sur IRC ^^
+2014-06-20T16:10:10 <Makhai> content aussi ^^
+2014-06-20T16:10:11 <Berry-Punch> Flags de  modifiés *hic* : +v
+2014-06-20T16:10:11 <heuzef> !voice
+2014-06-20T16:10:16 <Berry-Punch> Flags *hic* de Makhai modifiés : +v
+2014-06-20T16:10:16 <heuzef> !voice Makhai
+2014-06-20T16:10:35 <heuzef> Makhai dis moi tu me confirme que c'est bien ton Gravatar ça ? http://fr.gravatar.com/makhai
+2014-06-20T16:10:48 <adriens33> un nouveau ?
+2014-06-20T16:10:50 <adriens33> yay
+2014-06-20T16:10:58 <Berry-Punch> Bienvenue sur le chat de BronyCUB, *hic* Makhai !
+2014-06-20T16:10:58 <Berry-Punch> Amuse-toi bien *hic* !
+2014-06-20T16:10:58 <adriens33> !welcome Makhai
+2014-06-20T16:11:11 <adriens33> @flutterbrony t'as regardé là http://www.sammobile.com/forum/showthread.php?t=10827 ?
+2014-06-20T16:12:23 <Makhai> Mon gravatar?
+2014-06-20T16:12:57 <heuzef> oui
+2014-06-20T16:13:00 <heuzef> Pas le bon ?
+2014-06-20T16:13:01 <flutterbrony> @adrien33 déjà fait ce qu'il y as dessus ...
+2014-06-20T16:13:10 <Berry-Punch> Flags de Mahkai modifiés en +v *hic* 
+2014-06-20T16:13:14 <adriens33> arf :/
+2014-06-20T16:13:16 <adriens33> désolé
+2014-06-20T16:13:27 <Makhai> Non enfin le lien est bon mais c'est quoi un gravatar?
+2014-06-20T16:13:33 <MaCharon> slt Makhai
+2014-06-20T16:13:54 <heuzef> Votre Gravatar est une image qui vous suit d'un site à l'autre, apparaissant à côté de votre nom quand vous postez un commentaire ou un article sur un blog. Les avatars favorisent l'identification de vos messages sur les blogs et les forums, alors pourquoi pas sur tous les sites?
+2014-06-20T16:14:35 <heuzef> Si t'en as pas il faudrait te créer un compte et me donner le pseudo que tu utilise, c'est pour la fiche membre sur le site ;)
+2014-06-20T16:14:36 <heuzef> http://fr.gravatar.com/
+2014-06-20T16:14:52 <ValCab33> Bienvenue Makhai
+2014-06-20T16:16:50 <Makhai> J'ai pas encore de gravatar alors, j'en metrait un
+2014-06-20T16:17:02 <Makhai> merci ^^
+2014-06-20T16:17:06 <heuzef> Sinon à part ça, ton profil est complet, il faut juste que je créer tous ça, donc bienvenue ! Lancés de muffin massif sur Makhai !
+2014-06-20T16:17:13 * Berry-Punch lance un muffin sur Makhai à 1609 km/h
+2014-06-20T16:17:13 <Berry-Punch> MUFFIN RAINBOOM !! *hic* 
+2014-06-20T16:17:13 <heuzef> !muffin Makhai
+2014-06-20T16:17:17 <heuzef> Yay ! :D
+2014-06-20T16:17:21 <adriens33> c'te violence XD
+2014-06-20T16:17:27 * Berry-Punch lance un muffin sur Makhai à 543 km/h
+2014-06-20T16:17:27 <adriens33> !muffin Makhai
+2014-06-20T16:17:35 * Berry-Punch lance un muffin sur Makhai à 893 km/h
+2014-06-20T16:17:35 <Shinsaber> !muffin Makhai
+2014-06-20T16:17:45 * Berry-Punch lance un muffin sur Makhai à 881 km/h
+2014-06-20T16:17:45 <MaCharon> !muffin Makhai
+2014-06-20T16:17:56 * Berry-Punch lance un muffin sur Makhai à 1824 km/h
+2014-06-20T16:17:56 <Berry-Punch> MUFFIN RAINBOOM *hic* !!
+2014-06-20T16:17:56 <flutterbrony> !muffin Makhai
+2014-06-20T16:18:02 <adriens33> pfff
+2014-06-20T16:18:10 <heuzef> Battu ^^ Bravo flutterbrony
+2014-06-20T16:18:11 <adriens33> t'es pas loin du max là XD
+2014-06-20T16:18:18 <Shinsaber> ^^
+2014-06-20T16:18:32 <Makhai
+[1;37m==> FLushing output buffer[0m> xDD::[1;37m==> FLushing output buffer[0m:
+2014-06-20T16:18:36 <flutterbrony> :D
+2014-06-20T16:19:03 *** wildfier s'est connecté
+2014-06-20T16:19:05 <MaCharon> Haufef :  omment je fais pour mettre une image de mon ordi sur le chat ? (sry je suis nul :/ )
+2014-06-20T16:19:11 <MaCharon> Heuzef*
+2014-06-20T16:19:23 <adriens33> je crois pas que ça soit possible directement
+2014-06-20T16:19:29 <MaCharon> arf :/
+2014-06-20T16:19:31 <heuzef> Nop up de l'image
+2014-06-20T16:19:42 <adriens33> si c'est une image à partager le mieux c'est de l'uploader sur imgur.com et de nous passer le lien
+2014-06-20T16:19:51 <MaCharon> ok je vais voir
+2014-06-20T16:20:23 * Makhai mange tout ces muffins
+2014-06-20T16:20:29 <Makhai> Miam
+2014-06-20T16:20:32 <adriens33> ^^
+2014-06-20T16:20:47 * Berry-Punch attrape un sac de muffins
+2014-06-20T16:20:51 <Berry-Punch> Pluie de muffins *hic* !
+2014-06-20T16:21:45 <MaCharon> bon je previens c'est moche et degueux mais je me rapproche de mon idée du logo même si pour l'instant c'est un wall
+2014-06-20T16:21:48 <MaCharon> http://imgur.com/D8zAmtV
+2014-06-20T16:22:21 <MaCharon> faut encore que j'ecrive le nom et tout...
+2014-06-20T16:22:26 <Makhai> Je dois vous laisser, des trucs à faire ^^
+2014-06-20T16:22:33 <heuzef> +++
+2014-06-20T16:22:35 <MaCharon> a+
+2014-06-20T16:22:36 <Shinsaber> ++
+2014-06-20T16:22:43 <Makhai> Bonne journée et @++
+2014-06-20T16:22:47 *** Makhai est parti
+2014-06-20T16:22:48 <heuzef> MaCharon: pas mal ^^
+2014-06-20T16:22:59 <heuzef> Mais c'est une image, pas un logo
+2014-06-20T16:23:12 <MaCharon> oui je sais c'est un de mes prob
+2014-06-20T16:23:25 <heuzef> Un logo par exemple : http://www.bronycub.org/ressources/logo/logo_bronycub_sd.png
+2014-06-20T16:23:43 <heuzef> C'est un élément que tu peux placer sur n'importe quel support
+2014-06-20T16:24:07 <MaCharon> oui ben euh.....MINCE
+2014-06-20T16:24:12 <MaCharon> >.<
+2014-06-20T16:24:25 <MaCharon> je sais pas encore comment faire
+2014-06-20T16:24:37 <heuzef> En faite tu as créé un contexte la donc c'est pas mal
+2014-06-20T16:24:50 <heuzef> Quand tu dis "faut encore que j'ecrive le nom et tout..."
+2014-06-20T16:24:57 <heuzef> En faite c'est ça le logo
+2014-06-20T16:25:10 <heuzef> Donc fait au plus simple, commence par le texte ;)
+2014-06-20T16:25:31 <MaCharon> ben je voulais ecrire le nom au dessus de la porte a la base
+2014-06-20T16:25:41 <MaCharon> mais bon....
+2014-06-20T16:25:57 <MaCharon> j'y vais a l'aveugle
+2014-06-20T16:26:09 <heuzef> Oui pas de souci, peux importe dans quel ordre tu avance, c'est de l'art appliqué
+2014-06-20T16:26:16 <heuzef> Tant que tu arrive à la finalité
+2014-06-20T16:26:55 <MaCharon> du coup la il me manque le nom et quoi d'autre exactement ?
+2014-06-20T16:27:13 <heuzef> Commence par créer le texte sur la porte, par contre fait bien attention à faire ça sur un calque à part
+2014-06-20T16:27:25 <heuzef> Tu sais pourquoi ?
+2014-06-20T16:27:36 <MaCharon> vas y dit
+2014-06-20T16:27:58 <heuzef> L'utilisation des calques te permettent de travailler sur les objets séparément
+2014-06-20T16:28:13 <MaCharon> ben je suis deja a 3 calques differents
+2014-06-20T16:28:17 <heuzef> Si tu souhaite, après coup par exemple déplacer le texte sur la porte de gauche
+2014-06-20T16:28:37 <heuzef> Il te suffira de changer la position du calque "texte"
+2014-06-20T16:28:50 <heuzef> reçu ? =)
+2014-06-20T16:29:01 <MaCharon> tu peut me mettre le texte stp ?
+2014-06-20T16:29:21 <MaCharon> je l'ai pu en tête
+2014-06-20T16:29:39 <heuzef> bbbff
+2014-06-20T16:29:39 <heuzef> BronyCUB Big Browser File Factory
+2014-06-20T16:29:48 <MaCharon> ok thx
+2014-06-20T16:30:27 <heuzef> Et la tu va vite etre confronté aux joie de la reflexion d'analyse graphique :D
+2014-06-20T16:30:43 <heuzef> Mais zut alors ! Le texte est bien trop grand pour aller sur la porte :3
+2014-06-20T16:30:52 <heuzef> Comment faire ? :P
+2014-06-20T16:31:16 <adriens33> en grand en dessous de berry qui sort de la grange en titubant ?
+2014-06-20T16:31:17 <MaCharon> c'est mechant si je te dit "TA GUEULE" ? :3
+2014-06-20T16:31:27 <adriens33> (au pif)
+2014-06-20T16:31:30 <MaCharon> XD
+2014-06-20T16:31:46 <MaCharon> YOLO
+2014-06-20T16:32:05 <heuzef> Laisse le se prendre la tête dessus c'est comme ça qu'il va progresser ;)
+2014-06-20T16:32:10 *** ValCab33 est parti
+2014-06-20T16:32:26 *** ValCab33 s'est connecté
+2014-06-20T16:39:16 <ludvann> me gusta la glace à la vanille :)
+2014-06-20T16:40:58 <flutterbrony> bon allez @+ ^^
+2014-06-20T16:41:01 <adriens33> ++
+2014-06-20T16:41:15 *** flutterbrony est parti
+2014-06-20T17:34:47 *** Shinsaber est parti
+2014-06-20T17:38:20 *** wildfier est parti
+2014-06-20T17:40:04 <MaCharon> Heuzef t'es la ?
+2014-06-20T17:40:09 <heuzef> ?
+2014-06-20T17:40:27 <MaCharon> http://imgur.com/Q9PJeak
+2014-06-20T17:40:57 <heuzef> ;)
+2014-06-20T17:41:05 <MaCharon> alors ?
+2014-06-20T17:42:24 <heuzef> Rouge sur rouge = le texte n'est pas assez visible, essaie de reprendre la couleur rouge/noir du mur
+2014-06-20T17:42:24 <heuzef> Ensuite une ombre interne très légère sur le texte te permettrais de créer illusion que le texte est incrusté dans le mur
+2014-06-20T17:43:04 <heuzef> Remonte le aussi de quelques pixel vers le haut, quitte à agrandir le canevas
+2014-06-20T17:43:50 <MaCharon> j'avais mis le texte en incrusté et il est passé automatiquement en rouge mais np, pour l'ombre interne je connais aps mais je vais voir
+2014-06-20T17:44:36 <heuzef> Après il faudra exposer ça au dev de BBBFF (shinsaber) pour voir ce qu'il en pense et comment il va exploiter ton image
+2014-06-20T17:47:44 <MaCharon> par contre je vois pas trop le truc avec l'ombre interne
+2014-06-20T17:50:32 <heuzef> Il te faut jouer avec les style de calque pour ça
+2014-06-20T17:50:48 <heuzef> Clic droit sur un calque > Style de calque > Ombre interne
+2014-06-20T17:50:48 <MaCharon> http://imgur.com/oLCQwMS
+2014-06-20T17:51:12 <heuzef> plus lisible déjà
+2014-06-20T17:51:36 <MaCharon> nn mais je sais comment y acceder mais je vois pas trop quoi faire une fois deadans
+2014-06-20T17:51:44 <ludvann> ^^
+2014-06-20T17:52:01 <ludvann> j'ai l'impression que beryy vole ^^ ?
+2014-06-20T17:52:18 <MaCharon> :/
+2014-06-20T17:52:19 <heuzef> C'est normale, il faut créer une ombre sous les pieds de berry
+2014-06-20T17:52:26 <ludvann> :)
+2014-06-20T17:52:51 <MaCharon> ....
+2014-06-20T17:53:12 <ludvann> ?
+2014-06-20T17:53:17 <heuzef> https://www.youtube.com/watch?v=u_EpKiz596c
+2014-06-20T17:53:57 <heuzef> à 3:40 tu as ta solution pour créer une ombre
+2014-06-20T17:54:05 <MaCharon> eh ben nn moi c'est le cs5 XD
+2014-06-20T17:54:14 <heuzef> pas grave tu va piger le principe
+2014-06-20T17:54:16 *** adriens33 est parti
+2014-06-20T17:54:44 <ludvann> ^^
+2014-06-20T18:17:14 *** adriens33 s'est connecté
+2014-06-20T18:17:26 <Berry-Punch> Voilà ce qu'il s'est passé *hic* ces 10 dernières lignes, adriens33
+2014-06-20T18:17:53 <ludvann> re
+2014-06-20T18:17:58 <adriens33> re
+2014-06-20T18:29:43 <MaCharon> http://imgur.com/ELIWRmx
+2014-06-20T18:29:47 <MaCharon> mieux ?
+2014-06-20T18:31:33 * Berry-Punch lance un muffin sur heuzef à 1998 km/h
+2014-06-20T18:31:33 <Berry-Punch> MUFFIN *hic* RAINBOOM !!
+2014-06-20T18:31:33 <MaCharon> !muffin heuzef
+2014-06-20T18:31:34 <heuzef> presque, applique un flou gaussien sur ton ombre
+2014-06-20T18:32:31 <heuzef> Et deforme la, applati la pour plus de réalisme
+2014-06-20T18:32:58 <heuzef> Sa patte arrière droite ne touche pas l'ombre ce qui est impossible
+2014-06-20T18:33:17 <heuzef> Agrandit la taille du canevas c'est trop petit
+2014-06-20T18:33:36 <MaCharon> du canevas ?
+2014-06-20T18:33:45 <adriens33> (ton image)
+2014-06-20T18:34:06 <heuzef> oui, mais attention : canevas =! claque
+2014-06-20T18:34:15 <MaCharon> hein ?
+2014-06-20T18:35:07 <heuzef> http://docs.gimp.org/fr/images/menus/image/align-demo.png
+2014-06-20T18:35:13 <heuzef> Sur cette image par exemple
+2014-06-20T18:35:27 <heuzef> Le canevas serait toutes la zone de travail donc le damier
+2014-06-20T18:35:48 <heuzef> + 3 calques (carré bleu rouge jaune)
+2014-06-20T18:36:10 <MaCharon> eeeeuuuuuu ouaiiiii
+2014-06-20T18:36:18 <heuzef> Tu peux redimensionner le canevas cependant cela n'à rien à voir avec les calques
+2014-06-20T18:36:19 <MaCharon> >.>
+2014-06-20T18:37:08 <heuzef> Donc pour redimensionner le canevas : taille de l'image
+2014-06-20T18:37:14 <heuzef> Mais surtout pas taille du calque
+2014-06-20T18:37:24 <MaCharon> eu ok
+2014-06-20T18:37:57 <heuzef> Actuellement tu travaille en matriciel, tu ne peux donc pas te permettre de trop jouer avec la taille des calques sans perdre en qualité
+2014-06-20T18:38:17 <MaCharon> mais oui c'est clair !
+2014-06-20T18:38:34 *** Letarumavza s'est connecté
+2014-06-20T18:38:57 <heuzef> En gros si Shinsaber te sort un truc du genre "Hey MaCharon super ton image mais il me la faut en 2 fois plus grand possible ?" et bien tu l'à dans le cul faut tous refaire :D
+2014-06-20T18:39:24 <Letarumavza> Putain, violent le reste d'anesthésie, je viens de me reveiller.
+2014-06-20T18:39:27 <MaCharon> tout refaire juste pour agrandir une image ? Oo
+2014-06-20T18:39:36 <Letarumavza> ?
+2014-06-20T18:40:00 <heuzef> MaCharon actuellement si tu agrandit ton image la qualité va être affreuse
+2014-06-20T18:40:14 <MaCharon> donc ?
+2014-06-20T18:40:30 <Letarumavza> ?
+2014-06-20T18:40:36 <Berry-Punch> Voilà ce qu'il *hic* s'est passé ces 10 dernières lignes, Letarumavza
+2014-06-20T18:40:37 <Letarumavza> !history
+2014-06-20T18:40:44 <Letarumavza> merde...
+2014-06-20T18:40:49 <Letarumavza> Flo, résumé step
+2014-06-20T18:41:02 <Letarumavza> (et désolé pour tout à l'heure le reste d'anesthésie m'a endormi)
+2014-06-20T18:41:05 * Berry-Punch lance un muffin sur Letarumavza à 657 km/h
+2014-06-20T18:41:05 <MaCharon> !muffin Letarumavza
+2014-06-20T18:41:16 <heuzef
+[1;37m==> FLushing output buffer[0m> Donc c'est le gros point faible du matriciel (image, photo, etc ...) on doit définir la taille définitive AVANT de commencer à travailler dessus car le redimenssionnement n'est pas possible::[1;37m==> FLushing output buffer[0m:
+2014-06-20T18:41:18 <MaCharon> pour te réveiller
+2014-06-20T18:42:10 <heuzef> Heuresement il existe aussi le Vectoriel, qui lui n'à plus du tous ce problème de taille (mais sera toujours moins précis que le matriciel car seul des forme géométrique son possible)
+2014-06-20T18:42:18 <adriens33> vive le SVG :D
+2014-06-20T18:42:22 <Letarumavza> Flo
+2014-06-20T18:42:27 <Letarumavza> Vectoriel fractal
+2014-06-20T18:42:31 <Letarumavza> Multicouche
+2014-06-20T18:43:07 <adriens33> MaCharon fait le logo pour BBBFF
+2014-06-20T18:43:07 <heuzef> Donc, pour un logo par exemple, on va systèmatiquement faire ça en vectoriel
+2014-06-20T18:43:12 <adriens33> et heuzef l'aide
+2014-06-20T18:43:23 <heuzef> Car c'est souvent amené à changer de taille
+2014-06-20T18:43:37 <MaCharon> je sais pas j'ai vu ça nulle part
+2014-06-20T18:43:43 <heuzef> Et la ou ça devient fun tu va rire :
+2014-06-20T18:43:54 <heuzef> Photoshop = Matriciel
+2014-06-20T18:43:54 <heuzef> Illustrator = Vectoriel
+2014-06-20T18:44:40 <Letarumavza> Il existe un plugin de vectorisation sous PS CS4+
+2014-06-20T18:47:05 <Letarumavza> MaCharon: tu utilises quoi comme prog pour faire le logo ?
+2014-06-20T18:47:10 <Letarumavza> Inkscape ?
+2014-06-20T18:47:27 <MaCharon> je sais pas tu me parles chinois ^^
+2014-06-20T18:48:08 <Letarumavza> C'est un prog de dessin vectoriel plutôt simple d'emploi.
+2014-06-20T18:48:19 <Letarumavza> http://www.inkscape.org/en/
+2014-06-20T18:48:35 <MaCharon> nn nn moi je suis sur photoshop pour l'instant et c'est tout
+2014-06-20T18:49:12 <Letarumavza> Bah au pire tu importes ton rendu photoshop sous inkscape, tu vectorises, et tu pourra continuer en vectoriel.
+2014-06-20T18:49:25 <Letarumavza> Je te conseille un .png en def native pour le rendu.
+2014-06-20T18:49:43 <heuzef> Oula non
+2014-06-20T18:49:44 <heuzef> http://i.imgur.com/ELIWRmx.jpg
+2014-06-20T18:49:49 <MaCharon> bah au pire je ferais ça plus tard car j'en ai terminé pour aujourd'hui :D
+2014-06-20T18:50:07 <heuzef> Vectoriser ça c'est plutot hard
+2014-06-20T18:50:08 <Letarumavza> Ah oui, c'est... C'est un logo ça ?
+2014-06-20T18:50:23 <Letarumavza> Je pensais que c'était un logo simple et épuré, pas une image ^^
+2014-06-20T18:50:39 <heuzef> Letarumavza nous dirons plutot que c'est un WallPaper
+2014-06-20T18:50:51 <Letarumavza> Ok dac !
+2014-06-20T18:51:06 <MaCharon> dsl fait que 3 jours que j'utilise photoshop
+2014-06-20T18:51:12 <Letarumavza> Si tu veux je peux faire une vectorisation multipasses énorme dessus.
+2014-06-20T18:51:36 <heuzef> MaCharon tu n'à pas à etre désolé mais fier de ce que tu as fait plutot
+2014-06-20T18:51:46 <Letarumavza> Je confirme
+2014-06-20T18:51:52 <heuzef> Letarumavza non stp, laisse le faire comme il à envie
+2014-06-20T18:51:55 <Letarumavza> Je pourrais pas en faire autant.
+2014-06-20T18:51:58 <MaCharon> enfin bon moi je vais vous laisser pour aujourd'hui je pense, je devrais avoir un week-end assez remplis
+2014-06-20T18:52:09 <heuzef> Amuse toi bien ;)
+2014-06-20T18:52:17 <MaCharon> vous de même
+2014-06-20T18:52:17 <Letarumavza> ok, bon week-end ^^
+2014-06-20T18:52:24 *** MaCharon est parti
+2014-06-20T18:55:15 <adriens33> je vais acheter à miam, je re
+2014-06-20T18:55:15 <Berry-Punch> Bon *hic* appétit, adriens33 :D
+2014-06-20T18:55:25 * adriens33 is afk (miam)
+2014-06-20T18:55:48 <Letarumavza> 0o
+2014-06-20T18:56:04 <Letarumavza> Vectorisation 128 passes par couleur => 2sec
+2014-06-20T18:56:14 <heuzef> :O
+2014-06-20T18:57:04 <heuzef> Putain ça doit juste est un confort sans nom de faire du graphisme avec une machine pareil
+2014-06-20T18:57:27 <heuzef> D'ailleur tu sais faire du montage vidéo ?
+2014-06-20T18:59:42 <Letarumavza> En revanche le fait qu'inkscape soit en 32bits est lourd...
+2014-06-20T19:04:39 <Letarumavza> 256 passes => 2 sec aussi.
+2014-06-20T19:05:39 <Letarumavza> Non pas trop
+2014-06-20T19:05:47 <Letarumavza> Mais je peux m'y mettre ^^
+2014-06-20T19:07:40 <heuzef> ça pourrais être cool de faire une vidéo d'accueil
+2014-06-20T19:08:21 <heuzef> Enfin non trop lourd
+2014-06-20T19:08:28 <heuzef> laisse tomber mauvaise idée
+2014-06-20T19:08:31 <Letarumavza> Je sais qu'avec les titans j'ai les progs avec les techs propriétaires nvidia gratos.
+2014-06-20T19:08:59 <Letarumavza> Doit bien y avoir de quoi faire du montage vidéo...
+2014-06-20T19:09:23 <Letarumavza> (déjà qu'il y a un enregistrement/streaming de l'écran via driver disponible SANS perte de framrate)
+2014-06-20T19:09:36 <Letarumavza> En 1080p h.264
+2014-06-20T19:09:43 <Letarumavza> 60fps
+2014-06-20T19:09:52 <Letarumavza> (mais c'est la co qui suit pas)
+2014-06-20T19:09:55 <heuzef> badasse quand même
+2014-06-20T19:10:10 <Letarumavza> "shadowplay
+2014-06-20T19:10:28 <Letarumavza> En un bouton je peux enregistrer mes 15 dernières minutes de gameplay.
+2014-06-20T19:10:41 <Letarumavza> (oui, les 15min avant la pression)
+2014-06-20T19:10:55 <Letarumavza> Tout est en buffer.
+2014-06-20T19:16:36 *** Shinsaber s'est connecté
+2014-06-20T19:16:44 <Shinsaber> re
+2014-06-20T19:17:00 <ludvann> re
+2014-06-20T19:17:22 <Letarumavza> Arf, je suis emmerdé
+2014-06-20T19:17:57 <heuzef> Shinsaber de Macharon pour toi : http://i.imgur.com/ELIWRmx.jpg
+2014-06-20T19:18:16 <Shinsaber> pas mal ^^
+2014-06-20T19:19:03 <ludvann> pourquoi leta' ?
+2014-06-20T19:19:14 <Letarumavza> Pilotes Wacom à installer sous Win8
+2014-06-20T19:19:21 <ludvann> et ?
+2014-06-20T19:19:40 <Letarumavza> T'as jamais utilisé une tablette wacom toi hein ? ^^
+2014-06-20T19:19:56 <ludvann> tablette graphique ?
+2014-06-20T19:19:59 <Letarumavza> Yep
+2014-06-20T19:20:01 <ludvann> et non
+2014-06-20T19:20:04 <ludvann> ...
+2014-06-20T19:20:18 <ludvann> :(
+2014-06-20T19:20:31 <Letarumavza> ?
+2014-06-20T19:20:44 <ludvann
+[1;37m==> FLushing output buffer[0m> j'aimerais bien dessiner à la tablette ^^::[1;37m==> FLushing output buffer[0m:
+2014-06-20T19:21:02 <Letarumavza> Bah j'ai une petite bamboo
+2014-06-20T19:21:15 <Letarumavza> Précis comme la mort ^^
+2014-06-20T19:21:20 <Letarumavza> Mais les pilotes sont...
+2014-06-20T19:21:20 <ludvann> ah bon ?
+2014-06-20T19:21:27 <ludvann> combien de pouces ?
+2014-06-20T19:21:40 <Letarumavza> Je crois que les pilotes ATI des années 2000 étaient plus fiables.
+2014-06-20T19:21:44 * adriens33 is no longer afk
+2014-06-20T19:21:48 <adriens33> XD
+2014-06-20T19:21:54 <adriens33> (re)
+2014-06-20T19:21:57 <Letarumavza> 8" il me semble
+2014-06-20T19:22:09 <ludvann> c'est déjà bien ^^
+2014-06-20T19:23:04 <ludvann> 25€ f'occasion sur amazon ^^
+2014-06-20T19:23:07 <ludvann> d*
+2014-06-20T19:23:30 <Letarumavza> Je dis une connerie déjà
+2014-06-20T19:23:33 <ludvann> ?
+2014-06-20T19:23:42 <Letarumavza> C'est pas la bamboo que j'ai, c'est la favo manga edition.
+2014-06-20T19:24:27 <ludvann> ah
+2014-06-20T19:24:32 <ludvann> ptét ^^
+2014-06-20T19:25:48 <ludvann> tu fais de bô dessins avec ?
+2014-06-20T19:25:55 <ludvann> tu as*
+2014-06-20T19:26:24 <Letarumavza> Je sais pas dessiner, je l'utilise comme pointeur haute vélocité.
+2014-06-20T19:28:50 <Letarumavza> Je dessine très mal.
+2014-06-20T19:30:01 <ludvann> xD
+2014-06-20T19:30:34 <ludvann> (je viens de ramener mon diner devant mon ordi, il est "très copieux")
+2014-06-20T19:30:53 <Letarumavza> Ma cop me le dit souvent ^^
+2014-06-20T19:30:55 <adriens33> fais gaffe de ne pas en mettre sur le clavier :p
+2014-06-20T19:31:01 <adriens33> XD
+2014-06-20T19:31:10 <Letarumavza> adriens33: ta femme te le dis souvent ?
+2014-06-20T19:31:12 <Letarumavza> ^^
+2014-06-20T19:31:21 <ludvann> si je le fais c'est que je suis mauvais ^^
+2014-06-20T19:31:25 <Letarumavza> 0o
+2014-06-20T19:31:32 <ludvann> mettre de la glace sur le clavier...
+2014-06-20T19:31:53 <Letarumavza> Sous Win7 l'install du pilote m'a pris trois heures j'ai fini avec une recompilation bidouillée d'un pilote linux...
+2014-06-20T19:32:00 <adriens33> XD
+2014-06-20T19:32:10 <adriens33> pour quel périph ?
+2014-06-20T19:32:27 <Letarumavza> sous Win8 => Détection d'un pilote Windows XP => installation de compatibilité => 1min et c'est fait.
+2014-06-20T19:32:36 <Letarumavza> Ma tablette graphique.
+2014-06-20T19:32:45 <Letarumavza> (foiré de pilotes wacom de merde)
+2014-06-20T19:33:03 <adriens33> après ça c'est parce que t'as une couche d'émulation, parce que m'étonnerait que les pilotes XP soient nativement compatibles avec le noyau de win8.1
+2014-06-20T19:33:09 <ludvann> (me gusta la glace vanille)
+2014-06-20T19:33:13 <Letarumavza> What ?
+2014-06-20T19:33:20 <Letarumavza> Ok...
+2014-06-20T19:33:32 <ludvann> pour qui le what ?
+2014-06-20T19:33:32 <Letarumavza> Tablette > souris pour win8
+2014-06-20T19:33:50 <adriens33> l'accélération de la souris est si merdique que ça sous win8 ?
+2014-06-20T19:34:06 <Letarumavza> pas ça, juste max d'option tactiles
+2014-06-20T19:34:18 <adriens33> remarque depuis que je suis  sous X11, je trouve que la gestion de l'accélération de la souris sous windows en général est assez aléatoire...
+2014-06-20T19:34:27 <adriens33> ce qui est agaçant
+2014-06-20T19:34:28 <Letarumavza> Et prise en charge des commandes par geste suivi.
+2014-06-20T19:34:34 <adriens33> pas mal :)
+2014-06-20T19:34:35 <Letarumavza> What ?
+2014-06-20T19:34:54 <Letarumavza> L'accélération de souris est super fiable sous win
+2014-06-20T19:35:05 <Letarumavza> (en revanche dans certains progs elle l'est moins)
+2014-06-20T19:35:07 <adriens33> c'est pas une question de fiabilité
+2014-06-20T19:35:10 <adriens33> mais de linéarité
+2014-06-20T19:35:16 <adriens33> nuance
+2014-06-20T19:35:30 <adriens33> c'est bien mieux géré avec X11 je trouve.
+2014-06-20T19:35:34 <Letarumavza> Logarithmique avec ta vitesse de déplacement de souris.
+2014-06-20T19:35:45 <adriens33> surtout que tu peux gérer l'accélération ET le seuil
+2014-06-20T19:36:09 <Letarumavza> Sur win aussi, mais comme tous les paramètres avancés il est caché.
+2014-06-20T19:36:19 <adriens33> justement c'est ça le problème
+2014-06-20T19:36:20 * ludvann se matte une vidéo sur you
+2014-06-20T19:36:23 <Letarumavza> (c'est une entrée registre si je me rappelle bien)
+2014-06-20T19:36:33 <adriens33> faut cliquer 30 000 boutons pour avoir accès à un pauvre paramètre
+2014-06-20T19:36:36 <Letarumavza> you ?
+2014-06-20T19:36:41 <adriens33> tube ?
+2014-06-20T19:36:42 <ludvann> youtube ^^
+2014-06-20T19:36:43 <adriens33> porn ?
+2014-06-20T19:36:49 <adriens33> ah
+2014-06-20T19:36:53 <adriens33> bien sur... ;)
+2014-06-20T19:36:53 * Letarumavza doute.
+2014-06-20T19:36:56 <ludvann> https://www.youtube.com/watch?v=_GDjjp8WUpM
+2014-06-20T19:37:05 <adriens33> (j'ai pas d'UI sous là main :p)
+2014-06-20T19:37:09 <adriens33> *la
+2014-06-20T19:37:19 <ludvann> ok
+2014-06-20T19:37:29 <adriens33> c'est quoi comme vid ?
+2014-06-20T19:37:42 <Letarumavza> KSP moddé par bill silverlight
+2014-06-20T19:37:47 <ludvann> yay
+2014-06-20T19:37:48 <ludvann> !
+2014-06-20T19:37:51 <Letarumavza> (un youtuber minecraft/ksp)
+2014-06-20T19:38:29 <ludvann> d'ailleurs je trouve su'il pilote bien ^^
+2014-06-20T19:38:35 <ludvann> qu'il *
+2014-06-20T19:39:46 <Letarumavza> https://www.youtube.com/watch?v=5tCPxXW_9qI je veux pas voir la VF...
+2014-06-20T19:39:57 <Letarumavza> ça doit être un horrible massacre...
+2014-06-20T19:40:16 <ludvann> le l'ait déjà entendu...
+2014-06-20T19:41:06 <ludvann> ça donne ça...
+2014-06-20T19:42:12 <Letarumavza> ?
+2014-06-20T19:42:17 * Letarumavza fear.
+2014-06-20T19:43:16 * ludvann se déguise en twilight sparkle et chante true true friend
+2014-06-20T19:43:48 <Letarumavza
+[1;37m==> FLushing output buffer[0m> Btw, personne n'a une version d'adobe CS6 non véreuse. ?::[1;37m==> FLushing output buffer[0m:
+2014-06-20T19:43:52 <Twilight> les vrai ami....
+2014-06-20T19:44:11 <adriens33> ha ha !
+2014-06-20T19:44:13 <Letarumavza> Merci epiknet ^^
+2014-06-20T19:44:20 <ludvann> ^^
+2014-06-20T19:44:21 <Letarumavza> euh, freenode*
+2014-06-20T19:44:25 <adriens33> :p
+2014-06-20T19:44:44 <adriens33> @Letarumavza: pourquoi, t'as chopé un virus avec ta version ou c'est juste que t'en as pas ?
+2014-06-20T19:44:52 <Letarumavza> J'ai pas.
+2014-06-20T19:45:00 <Letarumavza> Et je fais gaffe à enola gay
+2014-06-20T19:45:25 <Letarumavza> (c'est cool une machine tellement puissante que même avec gay dans le nom elle fait pas lopette ^^)
+2014-06-20T19:47:49 <ludvann> 101kcal pour 100ml de glace... c'est parti pour le régime...
+2014-06-20T19:47:55 <Letarumavza> ^^
+2014-06-20T19:49:23 <adriens33> XD
+2014-06-20T19:49:39 <ludvann> help...
+2014-06-20T19:49:48 <ludvann> j'ai faim
+2014-06-20T19:50:53 <ludvann> je rêve d'une belle calzone...
+2014-06-20T19:51:14 <ludvann> du kiosque à pissa de talence xD
+2014-06-20T19:51:41 *** LadyNya s'est connecté
+2014-06-20T19:51:53 <Letarumavza> Pour une pipizz y'aura la soirée nanar ^^
+2014-06-20T19:52:21 <adriens33> @ludvann arrête tu vas me redonner faiim
+2014-06-20T19:52:26 <adriens33> et pourtant je viens de manger
+2014-06-20T19:52:33 *** LadyNya est parti
+2014-06-20T19:52:36 <ludvann> xD
+2014-06-20T19:52:41 <ludvann> et moi donc !
+2014-06-20T19:52:42 <adriens33> c'était qui ça  ?
+2014-06-20T19:52:45 <adriens33> oO
+2014-06-20T19:53:01 <adriens33> (btw les pizzas de Domino's elles sont fades à côté...)
+2014-06-20T19:53:11 *** LadyNya s'est connecté
+2014-06-20T19:53:12 <Letarumavza> C'est de la merde les domino
+2014-06-20T19:53:20 <adriens33> Bonjour ?
+2014-06-20T19:53:24 <Letarumavza> Sur talence j'ai mon fournisseur
+2014-06-20T19:53:26 <Letarumavza> Salut
+2014-06-20T19:53:39 <ludvann> j'ai jamais gouté le domino mais les calzones déchirent leurs r*ces !
+2014-06-20T19:53:40 <LadyNya> bonjours a mwa ? 'w'
+2014-06-20T19:54:12 <ludvann> 'jour
+2014-06-20T19:54:19 *** Makhai s'est connecté
+2014-06-20T19:54:23 <Makhai> Salut ou re
+2014-06-20T19:54:37 <LadyNya> bijours ^_^ et reuw
+2014-06-20T19:54:50 <adriens33> plop Makhai
+2014-06-20T19:55:26 <adriens33> @ludvann: ben une fois j'ai goûté une savoyarde chez Domino's et au kioske à pizzas le lendemain... c'est pas du tout le même gout
+2014-06-20T19:55:41 <adriens33> en fait celle de domino's elle a plein de pâte, mais le gout... je le cherche encore XD
+2014-06-20T19:55:51 <Letarumavza> 0o
+2014-06-20T19:55:52 <ludvann> xD
+2014-06-20T19:55:54 <adriens33> (bon le seul avantage qu'ils ont c'est qu'ils livrent.))
+2014-06-20T19:56:00 <adriens33> (et je suis feignant)
+2014-06-20T19:56:07 <ludvann> pareil pour le kisque
+2014-06-20T19:56:12 <ludvann> kiosque*
+2014-06-20T19:56:15 <Letarumavza> Idem pour mon fournisseur
+2014-06-20T19:56:33 <LadyNya> fournisseur de pizza ? sa parle de bouffe ? chui interesser *-*
+2014-06-20T19:56:45 <ludvann> ^^
+2014-06-20T19:56:51 <Makhai> Ha nan les bonne pizza chez moi faut aller les chercher :/
+2014-06-20T19:57:19 <Letarumavza> J'aime pas voir des noms sur IRC que je retrouve pas sur le site ^^
+2014-06-20T19:57:29 <ludvann> ^^
+2014-06-20T19:57:59 <LadyNya> '_' si tu parles de moi je préfère bien regarder avant de m'inscrire ._.
+2014-06-20T19:58:04 <LadyNya> *se sent pas du tout visé*
+2014-06-20T19:58:27 <ludvann> ...
+2014-06-20T19:58:36 <ludvann> si tu veux,
+2014-06-20T19:58:45 <ludvann> fais gaffe, je mord
+2014-06-20T19:58:47 <LadyNya> je peu partir si il faut ^^"
+2014-06-20T19:58:51 <Letarumavza> En fait c'était un appel à te présenter.
+2014-06-20T19:58:58 <LadyNya> xD je regarde walking dead alors tu me fais pas peur x)
+2014-06-20T19:59:04 <Letarumavza> 0o
+2014-06-20T19:59:04 <LadyNya> ah euh..............................................................................................
+2014-06-20T19:59:08 <LadyNya> j'aime les fraises :D
+2014-06-20T19:59:13 <LadyNya> et les pizza aussi x
+2014-06-20T19:59:13 <Letarumavza> oh non...
+2014-06-20T19:59:19 <Letarumavza> Oh non, c'est pas toi...
+2014-06-20T19:59:21 <LadyNya> nyaw ?
+2014-06-20T19:59:23 <Makhai> Si c'est elle
+2014-06-20T19:59:25 <Letarumavza> ...
+2014-06-20T19:59:28 <Makhai> x)
+2014-06-20T19:59:34 <LadyNya> ' '
+2014-06-20T19:59:35 <LadyNya> nyaw ?
+2014-06-20T19:59:44 <adriens33> je suis perdu là
+2014-06-20T19:59:48 <LadyNya> '_____'
+2014-06-20T19:59:51 <Letarumavza> Adrien, fous moi ça dehors en 4° vitesse avant qu'il y ait du sang ! ^^
+2014-06-20T19:59:52 <Makhai> Rien, une réunion de conaissances ^^
+2014-06-20T19:59:59 <LadyNya> bon ok je pars..
+2014-06-20T19:59:59 <ludvann> en parlant de walking dead
+2014-06-20T19:59:59 <adriens33> quiçééé ?
+2014-06-20T20:00:03 <ludvann> http://www.mediafire.com/download/7vzbzce9dyrtvkb/The_Walking_Dead.7z
+2014-06-20T20:00:06 <ludvann> les pdf
+2014-06-20T20:00:18 <LadyNya> merci l'accueil :(
+2014-06-20T20:00:19 <ludvann> pdfs*
+2014-06-20T20:00:22 <ludvann> ?
+2014-06-20T20:00:29 <adriens33> laisse, c'est Letarumavza
+2014-06-20T20:00:34 <adriens33> il a pris trop de méchantox XD
+2014-06-20T20:00:38 <LadyNya> pdf :O ?
+2014-06-20T20:00:38 <ludvann> ok
+2014-06-20T20:00:43 <ludvann
+[1;37m==> FLushing output buffer[0m> ...::[1;37m==> FLushing output buffer[0m:
+2014-06-20T20:01:10 <Makhai> méchantox.. Comme les chiantos?
+2014-06-20T20:01:22 <LadyNya> *va voir les pdf*
+2014-06-20T20:01:29 <adriens33> t'as de quoi lire
+2014-06-20T20:01:32 <adriens33> y'a 18 tomes
+2014-06-20T20:01:44 <ludvann> ça ! http://bit.ly/1lGRDVp
+2014-06-20T20:01:52 <LadyNya> oh trop bien :D
+2014-06-20T20:01:54 <ludvann> (don't worry)
+2014-06-20T20:02:10 <LadyNya> après avoir pleurer devant la série vais pleuré devant le livre :') trop aimable
+2014-06-20T20:02:37 <LadyNya> je sais ce qu'est un pdf merci ^^" je savais juste pas qu'il en avait fait en mode walking dead
+2014-06-20T20:02:37 <ludvann> si on doit comparer aux saisons, c'est l'équivalent de 20 saisons donc 20ans...
+2014-06-20T20:02:49 <LadyNya> je compare pas >o<
+2014-06-20T20:02:52 <LadyNya> *s'agite*
+2014-06-20T20:02:57 <ludvann> à l'origine c'est un comics...
+2014-06-20T20:03:02 <LadyNya> je sais ^^
+2014-06-20T20:03:19 <ludvann> et le pdf est... "officiel"
+2014-06-20T20:03:46 <Makhai> Comme tout les pdf de livre
+2014-06-20T20:04:14 <adriens33> En fait, à la base, The Walking Dead c'est un Comic's.
+2014-06-20T20:04:17 <LadyNya> les comics je les ai lu '_' ils sont disponible dans mon bled
+2014-06-20T20:04:20 <adriens33> qui a été adapté en série télé
+2014-06-20T20:04:28 <LadyNya> le comics est mieux d'ailleurs ^_^
+2014-06-20T20:04:36 <ludvann> de BEAUCOUPPPPPPPPPPPPPPPPPPPPPPPPPP
+2014-06-20T20:04:37 <adriens33> et les pdfs de ludvann c'est les pdfs du comic's si j'ai bien capté
+2014-06-20T20:04:45 <ludvann> Eeyup
+2014-06-20T20:04:47 <LadyNya> ah
+2014-06-20T20:04:48 <LadyNya> bah
+2014-06-20T20:04:50 <adriens33> forcément, avec une adaptation tu perds forcément en qualité
+2014-06-20T20:04:51 <LadyNya> déjà lu alors u_u
+2014-06-20T20:05:02 <adriens33> ah
+2014-06-20T20:05:04 <ludvann> et en modification de l'histoire
+2014-06-20T20:05:06 <adriens33> et
+2014-06-20T20:05:11 <Berry-Punch> Bienvenue sur le chat de BronyCUB, LadyNya ! *hic* 
+2014-06-20T20:05:11 <Berry-Punch> Amuse-toi bien *hic* !
+2014-06-20T20:05:11 <adriens33> !welcome LadyNya
+2014-06-20T20:05:12 <adriens33> :)
+2014-06-20T20:05:17 <ludvann> yay !
+2014-06-20T20:05:25 <LadyNya> pas une question de qualité, enfin perso je préfère juste voir du dessin que des acteurs ^^
+2014-06-20T20:05:39 <LadyNya> :O
+2014-06-20T20:05:44 <LadyNya> arigato ^^
+2014-06-20T20:06:02 *** heuzef est parti
+2014-06-20T20:07:17 * Makhai meuble
+2014-06-20T20:07:36 * adriens33 porte
+2014-06-20T20:07:45 * Berry-Punch fenêtre
+2014-06-20T20:07:47 * LadyNya pousse*
+2014-06-20T20:08:03 * Makhai tire
+2014-06-20T20:08:09 <LadyNya> xD
+2014-06-20T20:08:12 <LadyNya> *o*
+2014-06-20T20:08:15 <LadyNya> trop chouuuu
+2014-06-20T20:08:22 <ludvann> Letarumavza tu te souviens de cette image ? http://akk.li/pics/anne.jpg
+2014-06-20T20:08:23 * LadyNya prend le smiley dans son sac*
+2014-06-20T20:08:29 <Letarumavza> yep
+2014-06-20T20:08:54 <Makhai> Moins chou ça
+2014-06-20T20:09:10 * LadyNya est rester indifférente mais a vue détaler son chat en 5ème vitesse*
+2014-06-20T20:09:11 <Makhai> Limite épileptique x)
+2014-06-20T20:09:23 <ludvann> xD
+2014-06-20T20:09:32 <LadyNya> o
+2014-06-20T20:09:39 <ludvann> /
+2014-06-20T20:09:42 <ludvann> o/
+2014-06-20T20:09:47 <LadyNya> /
+2014-06-20T20:09:51 <Makhai> V
+2014-06-20T20:09:53 <ludvann> o/
+2014-06-20T20:09:54 <Makhai> /
+2014-06-20T20:09:59 <ludvann> level up !
+2014-06-20T20:10:17 <LadyNya> xD
+2014-06-20T20:10:19 <Makhai> *Ludvann gagne un niveau*
+2014-06-20T20:10:28 <ludvann> c'était mon moment de méchanceté ^^
+2014-06-20T20:10:31 <LadyNya> *Ludvann sauvage évolue*
+2014-06-20T20:10:34 <LadyNya> *o*
+2014-06-20T20:10:38 <ludvann> (pas de majuscule stp ^^ )
+2014-06-20T20:10:44 <adriens33> Chaussette !! *le nain gagne un niveau*
+2014-06-20T20:10:59 <LadyNya> gomene n_n
+2014-06-20T20:10:59 <ludvann> watt , xD
+2014-06-20T20:11:02 <ludvann> ?
+2014-06-20T20:11:03 <LadyNya> euh..
+2014-06-20T20:11:10 <Makhai> (ha oui, autant pour moi)
+2014-06-20T20:11:16 <adriens33> @ludvann: c'est une ref au Donjon de Naheulbeuk...
+2014-06-20T20:11:30 <ludvann> ok ^^
+2014-06-20T20:12:03 <ludvann> c'est bon je vais pas te mordre Makhai ^^
+2014-06-20T20:12:20 *** ValCab33 est parti
+2014-06-20T20:12:36 <LadyNya> t'as bien raison
+2014-06-20T20:12:38 * Makhai regarde un peu hors de sa cachette * T'es sur ?
+2014-06-20T20:12:45 <LadyNya> il est pas comestible de toute façon
+2014-06-20T20:12:48 <adriens33> XD
+2014-06-20T20:12:52 * ludvann hoche la tête
+2014-06-20T20:12:52 <Makhai> Maiiiis !
+2014-06-20T20:13:25 <ludvann> ?
+2014-06-20T20:13:54 <LadyNya> quoi u_u
+2014-06-20T20:14:05 <adriens33> il se passe des choses étranges ici.
+2014-06-20T20:14:09 <adriens33> Berry ?
+2014-06-20T20:14:09 <Berry-Punch> adriens33: *hic* Oui ?
+2014-06-20T20:14:11 <ludvann> pourquoi ce "méééhhhh ! "
+2014-06-20T20:14:13 <ludvann> ?
+2014-06-20T20:14:22 <adriens33> Tu veux un verre ? :p
+2014-06-20T20:14:22 <Berry-Punch> J'adore ça *hic* !
+2014-06-20T20:14:25 <adriens33> :)
+2014-06-20T20:14:59 <ludvann> :)
+2014-06-20T20:15:15 <ludvann> allez viens faire un p'tit tour à la maison...
+2014-06-20T20:15:41 <Makhai> Saucisson o/
+2014-06-20T20:16:01 <LadyNya
+[1;37m==> FLushing output buffer[0m> j'arrive o/::[1;37m==> FLushing output buffer[0m:
+2014-06-20T20:16:02 <ludvann> il y a....
+2014-06-20T20:16:09 <ludvann> hum...
+2014-06-20T20:16:18 <ludvann> Yyeahhhh !
+2014-06-20T20:17:26 <LadyNya> bon bah visiblement Leta n'a pas l'air..pour que les nouveaux reste ici alors..ciao ^^
+2014-06-20T20:17:28 *** LadyNya est parti
+2014-06-20T20:17:38 <adriens33> (:
+2014-06-20T20:17:41 <adriens33> *:(
+2014-06-20T20:17:45 <adriens33> (grrr)
+2014-06-20T20:17:48 <ludvann> ^^
+2014-06-20T20:17:53 <adriens33> (*%$µ de clavier)
+2014-06-20T20:17:56 <Makhai> ^^"
+2014-06-20T20:18:27 <ludvann> je t'avais jamais encore Makhai il me semble (je parle de l'irc ^^ )
+2014-06-20T20:18:35 <adriens33> *vu
+2014-06-20T20:18:37 <adriens33> ^^
+2014-06-20T20:18:40 <adriens33> nouveau aussi
+2014-06-20T20:18:42 <ludvann> thx
+2014-06-20T20:18:43 <ludvann> ^^
+2014-06-20T20:18:45 <ludvann> ok
+2014-06-20T20:18:45 <Makhai> Je crois pas en effet
+2014-06-20T20:18:49 <adriens33> @Makhai tu t'es inscrit ce matin il me semble ?
+2014-06-20T20:19:04 <Makhai> Hier midi, mais j'ai été validé ce matin oui ^^
+2014-06-20T20:19:14 <ludvann> ah oui c'est vrai, le poteau de flutterbrony ^^
+2014-06-20T20:19:28 <Makhai> Voila, j'étais chez lui avant le bac
+2014-06-20T20:19:38 <ludvann> O_O'
+2014-06-20T20:19:45 <Makhai> ?
+2014-06-20T20:19:51 <Makhai> Kewa?
+2014-06-20T20:19:59 <ludvann> nan rien ^^
+2014-06-20T20:20:04 <ludvann> ...
+2014-06-20T20:20:42 <Makhai> nan dis ^^"
+2014-06-20T20:20:49 <Letarumavza> Dis moi ludvann, ça fait quel bruit si une pieuvre se tape une cornemuse ?
+2014-06-20T20:20:53 <ludvann> ^^''
+2014-06-20T20:21:00 <ludvann> euh...
+2014-06-20T20:21:12 <ludvann> je sais pas encore...
+2014-06-20T20:21:35 <ludvann> tu vas me le dire ?
+2014-06-20T20:21:50 <Letarumavza> nop, c'était une question.
+2014-06-20T20:21:58 <ludvann> ok
+2014-06-20T20:22:23 <adriens33> ça dépend, si la pieuvre met toutes ses tentacules sur les sorties des tuyaux de la cornemuse ça fait pas de bruit
+2014-06-20T20:22:33 <adriens33> (quoi je suis tordu ? XD)
+2014-06-20T20:22:44 <Letarumavza> Faudra tester
+2014-06-20T20:22:50 <Letarumavza> Qui a une cornemuse ?
+2014-06-20T20:22:59 <Makhai> Qui a une pieuvre?
+2014-06-20T20:23:02 <ludvann> pas moi (not yet)
+2014-06-20T20:23:40 <Letarumavza> https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRQLNXkczV_pZZxwFxMukxTgHgFCOXr1lUBUc7Q-7uHtEMNfd5Z
+2014-06-20T20:23:57 <ludvann> xD
+2014-06-20T20:24:35 <Letarumavza> Ce mec est un dieu
+2014-06-20T20:24:49 <ludvann> leta' tu sais faire de bon ssto sur ksp ?
+2014-06-20T20:24:53 <Makhai> Dieu le père?
+2014-06-20T20:25:19 <Letarumavza> En stock ou avec le pack B9 ?
+2014-06-20T20:25:32 <ludvann> stock = vanilla ?
+2014-06-20T20:25:55 <Letarumavza> (en B9 j'ai un spaceplane qui porte 20 tonnes en orbite basse)
+2014-06-20T20:26:07 <Letarumavza> en vanilla... je peux t'en faire un.
+2014-06-20T20:26:28 <Letarumavza> En revanche je joue avec le FAR
+2014-06-20T20:26:39 <Letarumavza> (aka le meilleur moteur physique atmosphérique)
+2014-06-20T20:26:41 <ludvann> far ? B9 ?
+2014-06-20T20:27:04 <Letarumavza> Le pack B9 est un super pack de pieces.
+2014-06-20T20:27:17 <ludvann> ok
+2014-06-20T20:27:21 <ludvann> vanilla
+2014-06-20T20:27:27 <Letarumavza> Et FAR est un mod qui modifie le modèle physique atmosphérique pour quelque chose de plus réaliste.
+2014-06-20T20:27:36 <Letarumavza> Bon, je désactive FAR et je te fais ça.
+2014-06-20T20:27:48 <Letarumavza> Tu veux un lanceur ou un spaceplane ?
+2014-06-20T20:28:05 <Makhai> Parlez de quoi au juste?
+2014-06-20T20:28:49 <adriens33> de KSP
+2014-06-20T20:28:53 <adriens33> the Kerbal Space Program
+2014-06-20T20:29:18 <Letarumavza> adrien/lud vous jouez à planetside 2 ?
+2014-06-20T20:29:30 <Letarumavza> (MMO FPS tactique F2P)
+2014-06-20T20:29:32 <adriens33> connais pas
+2014-06-20T20:30:11 <Letarumavza> C'est un super jeu, mais je cherche quelqu'un pour jouer les snipe avec moi ^^
+2014-06-20T20:30:18 <adriens33> ^^
+2014-06-20T20:32:14 <Makhai> Je re, dois tester un truc
+2014-06-20T20:32:16 *** Makhai est parti
+2014-06-20T20:34:49 *** Makhai s'est connecté
+2014-06-20T20:34:57 <Makhai> re
+2014-06-20T20:35:21 <adriens33> re
+2014-06-20T20:36:07 <Makhai> Génial... France Telecom à fait des travaux dans le quartier.
+2014-06-20T20:36:17 <Makhai> Je passe d'un débit pourri a un débit encore pire --"
+2014-06-20T20:37:40 <adriens33> bah le jour où ils feront bien leur boulot...
+2014-06-20T20:37:54 <Berry-Punch> Commandes *hic* disponibles :
+2014-06-20T20:37:54 <Berry-Punch> say do flag *hic* reload stop op niorphlo list kick welcome voice help devoice history muffin deop
+2014-06-20T20:37:59 <Berry-Punch> Gère les flags user/canal. *hic* 
+2014-06-20T20:37:59 <Berry-Punch> flag: état de *hic* vos flags
+2014-06-20T20:37:59 <Berry-Punch> flag get <user>: flags enregistrés pour user *hic* 
+2014-06-20T20:38:00 <Berry-Punch> flag set <flags> <user>: modifie les flags enregistrés de user en *hic* flags
+2014-06-20T20:38:00 <Berry-Punch> flag mod <flags> [user]: modifie les flags actuels de user (ou du canal si pas *hic* d'user précisé)
+2014-06-20T20:40:02 <Makhai> *hoc* ?
+2014-06-20T20:42:43 <Berry-Punch> *hac* *hic* *hac*
+2014-06-20T20:42:48 <adriens33> XD
+2014-06-20T20:42:49 <ludvann> re
+2014-06-20T20:42:52 <adriens33> Rheu
+2014-06-20T20:43:10 <Makhai> re
+2014-06-20T20:43:23 <Makhai> *hic* *hoc* *hac*
+2014-06-20T20:43:24 <ludvann> leta fait comme tu veux ^^
+2014-06-20T20:43:31 <ludvann> leta'
+2014-06-20T20:43:32 <ludvann> *
+2014-06-20T20:43:44 <adriens33
+[1;37m==> FLushing output buffer[0m> t'es pas doué avec tes doigts toi ce soir XD::[1;37m==> FLushing output buffer[0m:
+2014-06-20T20:43:51 <ludvann> ...
+2014-06-20T20:43:52 <ludvann> xD
+2014-06-20T20:44:22 <ludvann> et je suis sur pc...
+2014-06-20T20:46:00 <adriens33> ben si tu fais 36 choses à la fois aussi ;)
+2014-06-20T20:46:45 <ludvann> Eeyup
+2014-06-20T20:47:28 <Makhai> Haaaa !
+2014-06-20T20:47:34 <ludvann> j'ai trouvé un moyen pour avoir de la slow-mo sur ksp quand tu attéris ^^
+2014-06-20T20:47:37 <Makhai> Heure de miam, vous laisse
+2014-06-20T20:47:48 <ludvann> @+
+2014-06-20T20:47:50 *** Makhai est parti
+2014-06-20T20:48:45 <ludvann> adriens33 slow-mo ^^
+2014-06-20T20:48:55 <adriens33> nooooooooo
+2014-06-20T20:48:58 <ludvann> ?
+2014-06-20T20:49:06 <ludvann> :)
+2014-06-20T20:49:06 * adriens33 tombe en slow-mo'
+2014-06-20T20:49:21 <ludvann> adriens33 accéléré !
+2014-06-20T20:50:12 <adriens33> *voix super aigüe* nan !!
+2014-06-20T20:50:21 <ludvann> ^^
+2014-06-20T20:50:21 * adriens33 s'écrase comme une météorite
+2014-06-20T20:50:25 <adriens33> aouch
+2014-06-20T20:50:25 <ludvann> adriens33 normal
+2014-06-20T20:51:09 <ludvann> ^^
+2014-06-20T20:51:24 <adriens33> - maman, les gens arrêtent pas de dire que je manipule le temps... -mais non mon chéri, mais remet papa en pause, il a besoin de dormir.
+2014-06-20T20:51:32 <ludvann> xD
+2014-06-20T20:51:40 <ludvann> il va refroidir ^^
+2014-06-20T21:01:21 <adriens33> @Shinsaber tu fais quoi de bô ?
+2014-06-20T21:01:26 <adriens33> (ou de moche, c'est selon)
+2014-06-20T21:01:52 <Shinsaber> je me refais tous les ep de Dr. Who ^^
+2014-06-20T21:02:03 <Shinsaber> je suis a la saison 7 XD
+2014-06-20T21:02:36 <adriens33> ^^
+2014-06-20T21:02:54 <adriens33> moi je suis en train d'essayer d'installer Gentoo sur uen clé usb
+2014-06-20T21:03:04 <adriens33> à première vue c'est une distro géniale
+2014-06-20T21:03:17 <adriens33> par contre c'est vrai que devoir tout compiler ça risque d'être relou
+2014-06-20T21:03:32 <Shinsaber> XD
+2014-06-20T21:03:41 <Shinsaber> je vais bientôt aller dormir je prend le train a 6h30 !
+2014-06-20T21:03:45 <adriens33> oulà
+2014-06-20T21:03:58 <adriens33> bon j'en ai marre, je finirai mes builds plus tard
+2014-06-20T21:04:03 <adriens33> je re
+2014-06-20T21:04:04 <Shinsaber> XD
+2014-06-20T21:04:06 <adriens33> (reboot)
+2014-06-20T21:04:08 *** adriens33 est parti
+2014-06-20T21:11:06 <ludvann> Letarumavza tu sais faire des vtol ? (vanilla) moi j'y arrive ^^
+2014-06-20T21:11:19 <Letarumavza> Moi aussi, ça dépend
+2014-06-20T21:11:28 <Letarumavza> Là je bosse sur ton spaceplane
+2014-06-20T21:11:36 <ludvann> cool :)
+2014-06-20T21:11:43 <ludvann> quel taille ?
+2014-06-20T21:12:41 *** adriens33 s'est connecté
+2014-06-20T21:12:43 <ludvann> re
+2014-06-20T21:12:44 <Letarumavza> Tri-réacteur
+2014-06-20T21:12:47 <Letarumavza> Avec des sabre
+2014-06-20T21:12:53 <ludvann> screens ?
+2014-06-20T21:12:56 <ludvann> :D
+2014-06-20T21:13:11 <Berry-Punch> Commandes disponibles *hic* :
+2014-06-20T21:13:11 <Berry-Punch> say do flag reload stop *hic* op niorphlo list kick welcome voice help devoice history muffin deop
+2014-06-20T21:13:16 <adriens33> re
+2014-06-20T21:13:21 <adriens33> ah,  une interface graphique :)
+2014-06-20T21:13:26 <ludvann> bromph'
+2014-06-20T21:14:21 <Letarumavza> Bon, les gars, qui est pour constituer la BCSA ?
+2014-06-20T21:14:44 <Letarumavza> (BronyCub Space Agency)
+2014-06-20T21:15:03 <Letarumavza> On pourrait créer notre topic sur le forum de KSP fr
+2014-06-20T21:15:04 <ludvann> j'allais le proposer xD
+2014-06-20T21:15:16 <ludvann> ou faire une save commune ^^
+2014-06-20T21:16:05 <Letarumavza> Save commune, ça passera pas, on joue simultanément.
+2014-06-20T21:16:35 <ludvann> comment faire ?
+2014-06-20T21:16:38 <Letarumavza> Mais un échange de nos plans de vaisseaux sous le format de nom "créateur_vaisseau" serait pas mal.
+2014-06-20T21:16:47 <ludvann> eyup
+2014-06-20T21:17:34 <ludvann> et qui héberge la partie ?
+2014-06-20T21:17:38 <ludvann> (save)
+2014-06-20T21:18:22 <Letarumavza> Bon, le spaceplane est lent comme la mort en vol
+2014-06-20T21:18:34 <ludvann> cb de m/s ?
+2014-06-20T21:18:38 <Letarumavza> Je vais voir si ça s'améliore en haute altitude
+2014-06-20T21:18:51 <Letarumavza> à peine 100m/s @1000m
+2014-06-20T21:18:53 <ludvann> à partir de 15km c'est l'idéal
+2014-06-20T21:19:05 <ludvann> (altittude)
+2014-06-20T21:19:24 <Letarumavza> Vu les entrées d'air il est en moteur avion jusqu'à 30km d'altitude
+2014-06-20T21:19:35 <ludvann> O_O
+2014-06-20T21:20:14 <Letarumavza> Je joue avec mechjeb pour faire les test en condition optimales
+2014-06-20T21:20:28 <ludvann> ah ^^
+2014-06-20T21:20:35 <Shinsaber> faux vraiment que je test ce jeu Xd
+2014-06-20T21:20:42 <Shinsaber> XD *
+2014-06-20T21:20:51 <ludvann> windows Shinsaber ?
+2014-06-20T21:20:52 <Letarumavza> Achètes le, il vaut le coups
+2014-06-20T21:21:17 <Shinsaber> je l'ai en dual boot et demain matin j'ai 2h de train XD
+2014-06-20T21:21:24 <ludvann> ah ^^
+2014-06-20T21:21:26 <adriens33> @Shinsaber KSP est dispo sous linux
+2014-06-20T21:21:29 <adriens33
+[1;37m==> FLushing output buffer[0m> :p::[1;37m==> FLushing output buffer[0m:
+2014-06-20T21:21:44 <adriens33> par contre en 64bits faut juste changer la commande de démarrage dans steam
+2014-06-20T21:22:13 <adriens33> faut mettre LC_ALL=C %command%_64 pour qu'il démmarre la version 64bits et pas 32bits sinon le chargement freeze
+2014-06-20T21:22:15 <ludvann> version win Shinsaber http://www.mediafire.com/download/xe9b7iy9fwgv421/KSP+0.23.5+Milo74237.zip
+2014-06-20T21:22:48 <Shinsaber> 18€, je peu pas (pas de taf TT )
+2014-06-20T21:22:55 <adriens33> ah oui c'est vrai…
+2014-06-20T21:22:57 <adriens33> :(
+2014-06-20T21:23:02 <Shinsaber> mais je vais test sous win !
+2014-06-20T21:23:15 <ludvann> ^^
+2014-06-20T21:23:22 <Shinsaber> merki ludvann ^^
+2014-06-20T21:23:27 <ludvann> de rien ^^
+2014-06-20T21:23:35 <ludvann> /)
+2014-06-20T21:23:43 <Letarumavza> Y'a une version 64bits de KSP ?
+2014-06-20T21:23:47 <adriens33> oui
+2014-06-20T21:23:49 <ludvann> si
+2014-06-20T21:23:51 <adriens33> faut croire :)
+2014-06-20T21:23:58 <Letarumavza> En win ?
+2014-06-20T21:24:02 <adriens33> je sais  pas
+2014-06-20T21:24:05 <ludvann> oui
+2014-06-20T21:24:05 <adriens33> sous linux oui en tout ca
+2014-06-20T21:24:08 <adriens33> *cas
+2014-06-20T21:25:48 <Shinsaber> grrr sa me donne trop envie de l'acheter mais il est pas en solde .....
+2014-06-20T21:25:53 <Letarumavza> ok la version windows buge à mort
+2014-06-20T21:25:59 <Letarumavza> il l'était y'a deux semaines
+2014-06-20T21:26:02 <ludvann> :/
+2014-06-20T21:26:09 <Letarumavza> elle est toujours pas release
+2014-06-20T21:26:26 <ludvann> en alpha
+2014-06-20T21:28:21 <Shinsaber> je vais tester sous win et on véras si sa me donne envie de l'acheter ^^
+2014-06-20T21:28:29 <ludvann> ok :)
+2014-06-20T21:31:58 <Shinsaber> bon je vous dit bonne nuit, moi j'ai un train a 6h30 demain matin XD
+2014-06-20T21:32:08 <adriens33> nenuit
+2014-06-20T21:32:09 <ludvann> bonne nuit /)
+2014-06-20T21:32:19 <Shinsaber> ++ /)
+2014-06-20T21:32:22 *** Shinsaber est parti
+2014-06-20T21:33:18 <ludvann> j'ai un mini avion hyper stable ^^
+2014-06-20T21:35:05 <ludvann> et qui va à mach II
+2014-06-20T21:35:39 <Letarumavza> Moteur high bypass + structure simple
+2014-06-20T21:35:52 <ludvann> screens stp ?
+2014-06-20T21:35:56 <ludvann> mods ?
+2014-06-20T21:36:19 <Letarumavza> Bah ton avion est pas conçu comme ça ?
+2014-06-20T21:36:28 <ludvann> ?
+2014-06-20T21:36:38 <ludvann> comme quoi ?
+2014-06-20T21:36:44 <Letarumavza> Bah un moteur haute perf + une structure légère non ?
+2014-06-20T21:36:57 <ludvann> basic jet engine
+2014-06-20T21:37:31 <Letarumavza> 0o
+2014-06-20T21:37:38 <Letarumavza> Avec un basic tu monte à 700m/s ?
+2014-06-20T21:37:40 <ludvann> tu veux des screens ?
+2014-06-20T21:37:51 <Letarumavza> Yep je veux bien
+2014-06-20T21:38:00 <ludvann> ok
+2014-06-20T21:40:36 <ludvann> je fini deux screen
+2014-06-20T21:42:42 <ludvann> upload
+2014-06-20T21:43:20 <ludvann> http://imgur.com/a/XpzYw
+2014-06-20T21:43:54 <ludvann> voilou Letarumavza ^^
+2014-06-20T21:44:08 <ludvann> et sans aucun cheat ^^
+2014-06-20T21:44:17 <Letarumavza> fin et rapide
+2014-06-20T21:44:26 <ludvann> ... ^^
+2014-06-20T21:44:34 <Letarumavza> tu as essayé avec le cockpit tubulaire et l'entrée d'air compresseur
+2014-06-20T21:44:51 <Letarumavza> ?
+2014-06-20T21:45:31 <ludvann> le mk2 ?
+2014-06-20T21:45:59 <ludvann> il y a pas l'iva et les instruments...
+2014-06-20T21:46:05 <ludvann> et moins de gueule ^^
+2014-06-20T21:47:03 <ludvann> et très stable en time warp ^^
+2014-06-20T21:47:14 <ludvann> et physic warp
+2014-06-20T21:47:14 <Letarumavza> Marche pas mon truc...
+2014-06-20T21:47:27 <ludvann> ah... :/
+2014-06-20T21:47:34 <ludvann> screens ?
+2014-06-20T21:50:53 <Letarumavza> déjà delete
+2014-06-20T21:50:59 <ludvann> ah ^^
+2014-06-20T21:51:07 <Letarumavza> En revanche je crée un truc à partir du tien et d'un rapier
+2014-06-20T21:51:20 <Letarumavza> ça grime à 30° d'inclinaison comme dans du beure
+2014-06-20T21:51:31 <ludvann> ah
+2014-06-20T21:52:03 <ludvann> je essayer un record de vitesse
+2014-06-20T21:52:07 <Letarumavza> 200m/s @5000m à 30° d'assiete
+2014-06-20T21:52:09 <ludvann> vais*
+2014-06-20T21:52:16 <ludvann> ça va...
+2014-06-20T21:52:30 <Letarumavza> 300m/s @10000m à 30° d'assiete
+2014-06-20T21:52:40 <ludvann> assiete = ?
+2014-06-20T21:53:22 <ludvann> 200 m/s @1000m 45°
+2014-06-20T21:53:52 <ludvann> et throttle au 2/3 bien sùr ^^
+2014-06-20T21:54:22 <Letarumavza> Nop, full throttle
+2014-06-20T21:54:40 <ludvann> pas pour mi ^^
+2014-06-20T21:54:44 <ludvann> moi *
+2014-06-20T21:55:00 <Letarumavza> apoapsis 75km
+2014-06-20T21:55:34 <ludvann> capture faites au derneir moment ^^ http://imgur.com/CrB8BKU
+2014-06-20T21:55:42 <Letarumavza> Pas assez pour circulariser
+2014-06-20T21:56:11 <ludvann
+[1;37m==> FLushing output buffer[0m> et moi ?::[1;37m==> FLushing output buffer[0m:
+2014-06-20T21:57:45 <ludvann> *rire*
+2014-06-20T21:58:32 <ludvann> 687m/s @17500m 110°
+2014-06-20T21:58:41 <ludvann> 687m/s @17500m 10° *
+2014-06-20T21:59:15 <ludvann> et toi adriens33 ?
+2014-06-20T21:59:26 <Letarumavza> tu sais comment on met un SSTO spaceplane en orbite ?
+2014-06-20T21:59:42 <ludvann> avec des moteurs fusée ?
+2014-06-20T22:00:04 <Letarumavza> 20//45° jusqu'à 20km => 0° jusqu'à vitesse max, et ensuite montée finale de l'apogée
+2014-06-20T22:00:07 <ludvann> + rcs
+2014-06-20T22:00:27 <Letarumavza> Le mieux reste soit un rapier
+2014-06-20T22:00:40 <Letarumavza> Soit un moteur fusée + deux moteurs classiques.
+2014-06-20T22:01:08 <ludvann> basic jet engine + moteurs fusée/nuke
+2014-06-20T22:02:10 <ludvann> c'est ce que je te conseil ^^
+2014-06-20T22:02:52 <Letarumavza> Le nuke est bon qu'en espace pur, il a pas sa place en orbital.
+2014-06-20T22:03:04 <ludvann> ça dépend...
+2014-06-20T22:03:16 <Letarumavza> Vaut mieux deux moteurs strato pour minimiser le burn de circularisation.
+2014-06-20T22:03:34 <Letarumavza> et un moteur aerospike pour finir la trajectoire.
+2014-06-20T22:03:47 <ludvann> tu veux le faire rejoinrde une station orbital ?
+2014-06-20T22:04:44 <Letarumavza> Bah oui
+2014-06-20T22:05:01 <ludvann> taille du ssto ? stp
+2014-06-20T22:05:34 <ludvann> 750m/s @20000m 20°
+2014-06-20T22:07:18 <ludvann> 800m/s @23000m 30°
+2014-06-20T22:07:44 <ludvann> tu peux mettre beaucoup de réservoir avec oxyder sur ton vaisseau ?
+2014-06-20T22:09:23 <ludvann> plus d'essence ...
+2014-06-20T22:09:25 <ludvann> Letarumavza:  ?
+2014-06-20T22:11:50 <Letarumavza> Test de mon SSTO V2
+2014-06-20T22:12:56 <Letarumavza> Circularisation réussie à 71km
+2014-06-20T22:14:47 <ludvann> gg
+2014-06-20T22:14:49 <Letarumavza> http://steamcommunity.com/sharedfiles/filedetails/?id=273416091
+2014-06-20T22:15:32 <ludvann> bravo ^^
+2014-06-20T22:15:40 <Letarumavza> pourquoi tu te casses la tête à upload sur imgur alors que steam gère ça
+2014-06-20T22:16:10 <Letarumavza> Je fais ça sur ta save en plus.
+2014-06-20T22:16:23 <ludvann> laflemme d'utiliser steam + je sais pas comment ça marche ^^
+2014-06-20T22:16:28 <ludvann> sur ma save !
+2014-06-20T22:16:31 <Letarumavza> F12 pour prendre une capture
+2014-06-20T22:16:38 <ludvann> je sais
+2014-06-20T22:16:57 <Letarumavza> Et ensuite tu cliques sur tes captures du jeu dans steam > envoyer tu choisis public, privé ou amis, et tu envoies.
+2014-06-20T22:17:09 <ludvann> pourquoi sur ma save ? (tu en fait ce que tu veux ^^)
+2014-06-20T22:17:13 <ludvann> ah ok
+2014-06-20T22:18:16 <Letarumavza> Look mon skyrim aussi btw http://steamcommunity.com/sharedfiles/filedetails/?id=264692498
+2014-06-20T22:18:34 <Letarumavza> Parce que j'ai que des saves carrière en général, la tienne est en sandbox
+2014-06-20T22:18:44 <ludvann> ok
+2014-06-20T22:18:59 <ludvann> tu es aimes bien les filles qui n'ont pas froid ^^
+2014-06-20T22:19:51 <Letarumavza> ^^
+2014-06-20T22:19:59 <Letarumavza> Mon skyrim est blindé de mods
+2014-06-20T22:20:09 <ludvann> oui bob ^^
+2014-06-20T22:21:25 <Letarumavza> Je trouve plus les flocons de neige trollface...
+2014-06-20T22:22:04 <ludvann> sur ksp, si tu veux compléter la SSK ^^
+2014-06-20T22:22:11 <ludvann> tu fais comme tu veux
+2014-06-20T22:22:34 <ludvann> (d'ailleurs lors de la création je me suis chié, normalement c'est KSS )
+2014-06-20T22:23:25 <Letarumavza> Là je fais une réentrée
+2014-06-20T22:23:32 <Letarumavza> Merde...
+2014-06-20T22:23:34 <Letarumavza> Attends
+2014-06-20T22:23:40 <ludvann> ?
+2014-06-20T22:25:13 <Letarumavza> wait
+2014-06-20T22:25:18 *** Letarumavza est parti
+2014-06-20T22:25:25 <ludvann> ok
+2014-06-20T22:25:30 *** Letarumavza s'est connecté
+2014-06-20T22:27:02 <Letarumavza> Tu as reçu ?
+2014-06-20T22:27:11 <ludvann> oui...
+2014-06-20T22:27:15 <ludvann> késaco ?
+2014-06-20T22:27:28 <Letarumavza> Le .craft du vaisseau que j'ai créé
+2014-06-20T22:27:59 <ludvann> il fait que 1 ligne...
+2014-06-20T22:28:05 <Letarumavza> (oui IRC peut aussi servir à envoyer des fichiers)
+2014-06-20T22:28:30 <ludvann> comment ke lme récup ?
+2014-06-20T22:28:34 <ludvann> le*
+2014-06-20T22:28:37 <ludvann> je*
+2014-06-20T22:28:54 <Letarumavza> Arf,je sais pas si kiwi irc peut récupérer les fichiers
+2014-06-20T22:29:10 <ludvann> ...
+2014-06-20T22:30:05 <ludvann> nan
+2014-06-20T22:30:22 <Letarumavza> chié
+2014-06-20T22:30:40 <Letarumavza> Je te l'envoie pas mail ?
+2014-06-20T22:30:59 <ludvann> si tu veux ^^
+2014-06-20T22:31:09 <ludvann> antonin_du98@yahoo.fr
+2014-06-20T22:32:11 <Letarumavza> et voila
+2014-06-20T22:32:45 <ludvann> reçu
+2014-06-20T22:33:02 <ludvann> sph ou vab
+2014-06-20T22:33:14 <Letarumavza> sph
+2014-06-20T22:33:25 <ludvann> ok
+2014-06-20T22:33:31 <Letarumavza> 30/45° jusqu'à 20km
+2014-06-20T22:33:48 <Letarumavza> ensuite tu gardes 20km d'altitude jusquà ce que le réservoir avant soit vide
+2014-06-20T22:34:01 <ludvann> ok
+2014-06-20T22:34:05 <Letarumavza> Puis tu reprends 30° d'inclinaison pour faire monter ton apogée
+2014-06-20T22:34:17 <Letarumavza> Et ensuite circularises vers 71-72km
+2014-06-20T22:34:20 *** ValCab33 s'est connecté
+2014-06-20T22:34:30 <ValCab33
+[1;37m==> FLushing output buffer[0m> Reuh::[1;37m==> FLushing output buffer[0m:
+2014-06-20T22:34:33 <Letarumavza> Pour l'instant il n'a ni RCS ni dock
+2014-06-20T22:34:38 <ludvann> à 20km je bascule à 30° ?
+2014-06-20T22:34:40 <ludvann> re
+2014-06-20T22:34:42 <ludvann> ok
+2014-06-20T22:35:07 <Letarumavza> à 20km tu gardes l'altitude jusqu'à vider ton réservoir avant, et ensuite tu grimpes
+2014-06-20T22:35:16 <ludvann> ok
+2014-06-20T22:35:22 <ValCab33> J'ai réussi ma mission sur Mun en carrière ^^
+2014-06-20T22:35:22 <Letarumavza> sinon tu vas te trimbaler plus de pétrole que d'oxygène, poids mort
+2014-06-20T22:35:30 <ludvann> ok
+2014-06-20T22:35:35 <ValCab33> (Après 8 tentatives)
+2014-06-20T22:35:36 <ludvann> je vois
+2014-06-20T22:35:44 <Letarumavza> Val, j'en suis à construre une station en orbite de jool.
+2014-06-20T22:35:50 <Letarumavza> en carrière.
+2014-06-20T22:36:07 <Letarumavza> Et mon prochain but est de constuire une station en orbite basse de kerbol.
+2014-06-20T22:36:35 <ValCab33> Oh ca va :p
+2014-06-20T22:36:37 <ludvann> kerbal* ?
+2014-06-20T22:36:59 <ValCab33> J'ai commencé la carrière ya 4 jours :p
+2014-06-20T22:37:17 <ludvann> ^^
+2014-06-20T22:37:28 <Letarumavza> Y'a 4 mois pour moi
+2014-06-20T22:37:37 <ludvann> xD
+2014-06-20T22:37:43 <ludvann> 0 mois
+2014-06-20T22:37:46 <Letarumavza> Ma station kerbol aura une petite particularité :
+2014-06-20T22:37:55 <Letarumavza> Un astéroide comme bouclier thermique.
+2014-06-20T22:38:07 <ludvann> comme danny2462 ^^
+2014-06-20T22:38:35 <Letarumavza> Sauf que là l'astéroide éclipsera la station pour la protéger des radiations.
+2014-06-20T22:38:53 <ludvann> ah ...
+2014-06-20T22:40:00 <ludvann> action group leta' ?
+2014-06-20T22:40:18 <Letarumavza> nop
+2014-06-20T22:40:22 <ludvann> ok
+2014-06-20T22:40:35 <Letarumavza> Le swith automatique convient très bien dans le cas présent.
+2014-06-20T22:40:41 <ludvann> ^^
+2014-06-20T22:41:08 <ludvann> va ! jebediah !
+2014-06-20T22:41:25 <ludvann> nan finalement c'est ribéry ^^
+2014-06-20T22:43:21 <ludvann> design sympa :)
+2014-06-20T22:46:47 <Letarumavza> Alors tu penses quoi de sa perf ?
+2014-06-20T22:46:53 <ludvann> je toast
+2014-06-20T22:47:49 <Letarumavza> Et il a une finesse de malade
+2014-06-20T22:48:06 <ludvann> faut voir à quel moment ^^
+2014-06-20T22:49:07 <Letarumavza> Bah là il est quasi à vide (je finis ma réentrée)
+2014-06-20T22:49:35 <Letarumavza> Et il se tape un coef de trainée de 0.167 pour 5Tonnes de bousin
+2014-06-20T22:49:39 <ludvann> il semble consommer à mort l'oxyder...
+2014-06-20T22:50:05 <Letarumavza> ça c'est sur, tu as 40sec de burn en oxydizer, pas plus.
+2014-06-20T22:50:13 <ludvann> ^^
+2014-06-20T22:50:55 <Letarumavza> lud
+2014-06-20T22:51:03 <ludvann> Eeyup ?
+2014-06-20T22:51:13 <Letarumavza> J'ai un niveau ingénieur en aeronautique ^^
+2014-06-20T22:51:23 <ludvann> yes ?
+2014-06-20T22:51:37 <Letarumavza> ça aide pour KSP (même si le modèle atmosphérique est à chier)
+2014-06-20T22:51:50 <ludvann> ^^
+2014-06-20T22:51:52 <Letarumavza> En gros Il fait une somme sans prendre en compte le soufflage.
+2014-06-20T22:51:59 <Letarumavza> Donc trainée > normale
+2014-06-20T22:52:08 <Letarumavza> Et portance > normale.
+2014-06-20T22:52:25 <Letarumavza> Et aucune perturbation aerodynamique.
+2014-06-20T22:52:35 <Letarumavza> Le mod FAR change ça pour quelque chose de mieux
+2014-06-20T22:52:36 <ludvann> and ?
+2014-06-20T22:52:44 <ludvann> ok
+2014-06-20T22:53:07 <Letarumavza> Et le mod B9 couplé au mod FAR permet de faire des trucs vraiment sympa.
+2014-06-20T22:53:32 <ludvann> tu veux que je que le les installent ?
+2014-06-20T22:54:21 <Letarumavza> Pas forcément
+2014-06-20T22:54:25 <Letarumavza> Mais testes les ^^
+2014-06-20T22:54:31 <Letarumavza> Je pense que ça te plaira
+2014-06-20T22:54:32 <ludvann> ok ^^
+2014-06-20T22:55:19 <ludvann> c'est moi ou il y des cheminées pour VTOL ?
+2014-06-20T22:55:34 <Letarumavza> Tien, il peut même aller aux vaches sans encombres
+2014-06-20T22:55:37 <Letarumavza> Yep
+2014-06-20T22:55:42 <ludvann> vaches ?
+2014-06-20T22:55:45 <Letarumavza> Y'a du matos spécial VTOL dans le pack B9
+2014-06-20T22:55:50 <ludvann> yay
+2014-06-20T22:56:00 <ludvann> tu sais me parler ^^
+2014-06-20T22:56:04 <Letarumavza> (Se poser en pleine nature, en aviation on appelle ça aller aux vaches.
+2014-06-20T22:56:11 <ludvann> ok :)
+2014-06-20T22:56:25 <Letarumavza> Car les vaches sont souvent dans des champs assez grands pour se poser et qu'elles viennent te voir ^^
+2014-06-20T22:56:32 <ludvann> xD
+2014-06-20T22:56:36 <Letarumavza> déjà testé en planeur, c'est fun ^^
+2014-06-20T22:56:53 <ludvann> le ship que tu m'a passé ?
+2014-06-20T22:57:10 <Letarumavza> Yep
+2014-06-20T22:57:15 <Letarumavza> Le delta lourd 1
+2014-06-20T22:57:22 <Letarumavza> (qui est plutot léger au final.)
+2014-06-20T22:57:25 <ludvann> grande surface de glisse ^^
+2014-06-20T23:00:00 <ludvann> orbite failed...
+2014-06-20T23:00:07 <ludvann> (225.000)
+2014-06-20T23:01:01 <Letarumavza> arf
+2014-06-20T23:01:09 <Letarumavza> Tu as peu de marge avec
+2014-06-20T23:01:25 <ludvann> yuo
+2014-06-20T23:01:27 <ludvann> yup*
+2014-06-20T23:02:47 <Letarumavza> Il récupère très bien les décrochage en plus.
+2014-06-20T23:03:07 <Letarumavza> (C'est lié à la forme de l'aile, même si IRL cette aile ne décrocherai tout simplement pas)
+2014-06-20T23:03:13 <ludvann> ^^
+2014-06-20T23:03:25 <ludvann
+[1;37m==> FLushing output buffer[0m> not enought fuel ^^'::[1;37m==> FLushing output buffer[0m:
+2014-06-20T23:03:32 <Letarumavza> Tu es dans le cas d'une flèche a queue de pie delta
+2014-06-20T23:04:13 <Letarumavza> En cas de décrochage, la zone décrochée se fait souffler par le flux induit du moteur ce qui réduit l'assiète et empèche un décrochage complet de l'appareil.
+2014-06-20T23:04:35 <ludvann> ok
+2014-06-20T23:04:39 <Letarumavza> C'est la forme à forte portance de l'aile employée sur les avions de chasse français
+2014-06-20T23:04:43 <ludvann> je me dl b9 mod
+2014-06-20T23:05:12 <Letarumavza> (Le rafale a un delta brisé avec canards, il peut donc faire des décrochages controlés pour augmenter sa vitesse de manoeuvre)
+2014-06-20T23:05:32 <Letarumavza> C'est ce qui en fait le meilleur dogfighter actuel.
+2014-06-20T23:05:51 <ludvann> ^^
+2014-06-20T23:05:51 <Letarumavza> Mais aussi le seul chasseur actuel à ne pas être furtif.
+2014-06-20T23:05:57 <ludvann> xD
+2014-06-20T23:06:01 <ludvann> pourquoi ?
+2014-06-20T23:06:48 <Letarumavza> Inutile de rendre un omniroles furtif
+2014-06-20T23:07:02 <Letarumavza> ça réduirait sa capacité d'emport.
+2014-06-20T23:07:06 <ludvann> ok
+2014-06-20T23:07:13 <Letarumavza> Et son autonomie ainsi que sa manoeuvrabilité.
+2014-06-20T23:07:46 <Letarumavza> Un rafale c'est 25 Tones de bombes qui se déplacent à 1800km/h
+2014-06-20T23:07:56 <ludvann> O_O
+2014-06-20T23:08:11 <Letarumavza> Charge d'emport maximum.
+2014-06-20T23:08:29 <ludvann> beau bébé...
+2014-06-20T23:09:16 <Letarumavza> Et ça balade des missiles exocet
+2014-06-20T23:09:22 <ludvann> j'installe b9
+2014-06-20T23:09:38 <Letarumavza> (165kg de charge explosive sur un exocet)
+2014-06-20T23:10:19 <Letarumavza> Et il est équipé du dispositif de désignation laser damocles...
+2014-06-20T23:10:43 <Letarumavza> En gros c'est la mort volante avec deux réacteurs au cul...
+2014-06-20T23:10:51 <ludvann> au putiang
+2014-06-20T23:10:56 <ludvann> putaing*
+2014-06-20T23:12:36 <ludvann> méchant...
+2014-06-20T23:13:41 <ludvann> je sent que ça va mettre trois plomb au démarrage...
+2014-06-20T23:13:44 <Letarumavza> Je me rapelle qu'un général yankee avait dit en parlant de l'armée française qu'il admirait le fait d'intégrer l'élégance dans le procédé de création de nos armes.
+2014-06-20T23:14:02 <Letarumavza> Et il est surnomé par les pilotes yankee "fire burst"
+2014-06-20T23:14:12 <Letarumavza> "explosion de flammes"
+2014-06-20T23:14:31 <Letarumavza> en rapport avec ce à quoi ressemblent les objectifs quand il attaque.
+2014-06-20T23:15:00 <Letarumavza> Ce qui est marrant car fire burst est aussi la traduction d'une rafale au sens de tir.
+2014-06-20T23:15:16 <Letarumavza> Alors que le rafale tient son nom de l'évènement aerodynamique.
+2014-06-20T23:21:49 <ludvann> Letarumavza ?
+2014-06-20T23:21:54 <Letarumavza> ,
+2014-06-20T23:21:58 <Letarumavza> ?
+2014-06-20T23:22:09 <ludvann> j'over kiff le mod b9 !
+2014-06-20T23:23:07 <Letarumavza> ^^
+2014-06-20T23:25:54 <ludvann> komment kon kontrole les cheminés des vtols ?
+2014-06-20T23:26:07 <Letarumavza> Je me rapelle plus
+2014-06-20T23:26:14 <ludvann> :)
+2014-06-20T23:26:15 <Letarumavza> regardes dans le readme
+2014-06-20T23:26:21 <ludvann> k
+2014-06-20T23:26:23 <Letarumavza> Je fais pas de VTOL
+2014-06-20T23:29:06 <Letarumavza> Je teste une version avec plus de voilure
+2014-06-20T23:29:18 <ludvann> il y a pas de réservoir pour le super sonic cockpit
+2014-06-20T23:29:20 <ludvann> xD
+2014-06-20T23:31:10 <Letarumavza> si
+2014-06-20T23:31:15 <Letarumavza> Mais ils sont dans structure
+2014-06-20T23:31:20 <ludvann> ah...
+2014-06-20T23:31:46 <Letarumavza> Tu as même des réservoir oxy/fuel pour le fuselage type 2
+2014-06-20T23:33:45 <Letarumavza> Et t'as pas vu les pods RCS
+2014-06-20T23:33:46 <Letarumavza> ^^
+2014-06-20T23:33:55 <ludvann> stilay ^^
+2014-06-20T23:33:58 <Letarumavza> Et les trains d'aterrissage/rampes d'éclairage
+2014-06-20T23:34:50 <ludvann> je mets quel moteurs pour le hight speed jet ?
+2014-06-20T23:35:04 <ludvann> hypersonic*
+2014-06-20T23:36:44 <Letarumavza> Boaf ça varie, soit des sabres soit...
+2014-06-20T23:36:54 <Letarumavza> En fair ça dépend vraiment de mon modèle
+2014-06-20T23:37:04 <Letarumavza> généralement des strato, des sabre ou des rapier
+2014-06-20T23:37:46 <ludvann> je t'appelle steam ? il y a adriens33 ^^
+2014-06-20T23:39:05 <ludvann> Letarumavza ?
+2014-06-20T23:39:29 <Letarumavza> why not
+2014-06-20T23:42:38 *** ludvann est parti

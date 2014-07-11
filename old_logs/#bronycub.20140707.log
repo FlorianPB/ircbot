@@ -1,0 +1,1074 @@
+2014-07-06T00:00:12 <adriens33> déjà minuit ? oO
+2014-07-06T00:00:21 <flutterbrony> J'ai eu le droit qu'a 3 mois avec les stats que j'ai donné tout a l'heure
+2014-07-06T00:01:25 <flutterbrony> maintenant, j'ai un truc plus résonnable : http://www.speedtest.net/my-result/3606499041
+2014-07-06T00:01:28 <adriens33> mais t'es en quoi comme techno ? fibre ? adsl ? signaux de fumée ?
+2014-07-06T00:02:02 <flutterbrony> signaux de fumée ? ^^
+2014-07-06T00:02:04 <adriens33> Ah
+2014-07-06T00:02:10 <adriens33> 1Mb/s en ul
+2014-07-06T00:02:13 <adriens33> pas 1Mo/s
+2014-07-06T00:02:15 <flutterbrony> C'est de L'ADSL il me semble
+2014-07-06T00:02:25 <adriens33> non parce que 1Mo/s ça fait 8Mb/s
+2014-07-06T00:02:36 <adriens33> en ul c'est juste techniquement impossible ^^
+2014-07-06T00:02:37 <flutterbrony> ouais mais j'ai eu 1Mo/s jusqu'a il y as 3 semaines
+2014-07-06T00:02:43 <adriens33> …
+2014-07-06T00:02:45 <adriens33> en dl
+2014-07-06T00:02:47 <adriens33> pas en ul
+2014-07-06T00:02:49 <flutterbrony> en tout cas d'après ce site
+2014-07-06T00:03:24 <adriens33> t'as pas suffisamment de canaux sur l'adsl pour avoir autant en up qu'en down
+2014-07-06T00:03:24 <flutterbrony> entre Avril et Juin env
+2014-07-06T00:03:34 <adriens33> donc soit t'avais que dalle en down
+2014-07-06T00:03:43 <adriens33> (auquel cas la box remappait tout en réseau montant)
+2014-07-06T00:03:52 <adriens33> (mais bon j'ai jamais vu ça)
+2014-07-06T00:04:00 <flutterbrony> donc, ca me fait un pic si je regarde sur le graphique de speedtest.net
+2014-07-06T00:04:04 <adriens33> soit ça bug.
+2014-07-06T00:04:18 <flutterbrony> maintenant comme j'ai dit, c'est revenu a la normale
+2014-07-06T00:04:30 <adriens33> ou alors t'es pas en adsl…
+2014-07-06T00:04:42 <adriens33> ah t'es chez free.
+2014-07-06T00:05:12 <flutterbrony> bah techniquement je suis compatible avec la fibre mais j'ai regardé et elle n'arrive pas chez moi avant in 2015
+2014-07-06T00:05:12 <adriens33> si t'es pas trop loin du dslam y'a des chances que tu sois en vdsl2.
+2014-07-06T00:05:30 <adriens33> dans ce cas l'ul de taré s'expliquerait…
+2014-07-06T00:05:40 <flutterbrony> je pense que c'est ca, il est presque a coté
+2014-07-06T00:05:45 <adriens33> ça marche pas comme l'adsl, niveau débit c'est cheaté
+2014-07-06T00:05:50 <adriens33> par contre ça porte pas loin
+2014-07-06T00:06:03 <adriens33> tu peux avoir du genre 50Mb/s en dl et 10Mb/s en ul
+2014-07-06T00:06:07 <adriens33> sur du fil de cuivre.
+2014-07-06T00:06:09 <adriens33> sans fibre.
+2014-07-06T00:06:17 <adriens33> mais pas au delà de 1km
+2014-07-06T00:06:26 <adriens33> après ça descend au niveau de l'adsl
+2014-07-06T00:07:17 <flutterbrony> il est a peu près a 1 km il me semble (tu parle en ligne droite ?)
+2014-07-06T00:07:36 <adriens33> en longueur de ligne
+2014-07-06T00:07:36 <flutterbrony> il est a coté de l'autoroute que j'entends d'ici
+2014-07-06T00:07:52 <adriens33> ah, par contre si t'as un répéteur sur ta ligne le vdsl c'est même pas la peine d'y penser ^^
+2014-07-06T00:14:03 <flutterbrony> Tiens le Dell Inspiron Duo, il est plus puissant que ca ?
+2014-07-06T00:14:04 <flutterbrony> Intel® Atom™ CPU N270 @ 1.60GHz × 2
+2014-07-06T00:14:45 <flutterbrony> niveau proco, je pourrais lire du 1080p en video ou pas ?
+2014-07-06T00:15:55 <adriens33> pff je sais pas, ça dépend du chipset graphique ça
+2014-07-06T00:16:23 <flutterbrony> bon bah plus qu'a test
+2014-07-06T00:16:37 <flutterbrony> je cherche un netbook tactile si possible pour mes études
+2014-07-06T00:16:58 <flutterbrony> le mien n'a pas trop aimé sa 3éme descente des escaliers
+2014-07-06T00:17:31 <flutterbrony> :/
+2014-07-06T00:17:40 <adriens33> c'est bien ce que je vois ?
+2014-07-06T00:17:48 <adriens33> du pc portable avec un intel atom…
+2014-07-06T00:17:52 <adriens33> à 1200€ ??????
+2014-07-06T00:17:59 <flutterbrony> lequel ???
+2014-07-06T00:17:59 <adriens33> mais non !!
+2014-07-06T00:18:09 <adriens33> mais… ouille !
+2014-07-06T00:18:27 <flutterbrony> pas le dell, je l'ai trouvé a 70€, un mec qui a foutu windows en l'air et qui sait pas le remettre
+2014-07-06T00:18:40 <flutterbrony> belle affaire ^^
+2014-07-06T00:18:51 <adriens33> ahok
+2014-07-06T00:18:54 <adriens33> non
+2014-07-06T00:18:56 <flutterbrony> je voulais pas de windows de toute façon
+2014-07-06T00:18:57 <adriens33> me suis gouré
+2014-07-06T00:19:09 <adriens33> misclick sur le site de dell
+2014-07-06T00:19:31 <flutterbrony> sinon, l'Acer Iconia w700 avec le doc clavier
+2014-07-06T00:19:40 <flutterbrony> mais 245€ au min
+2014-07-06T00:19:47 <wildfier> 1h30 pour faire la moitié du run
+2014-07-06T00:19:49 <wildfier> bonsoir
+2014-07-06T00:19:54 <adriens33> 'soir :)
+2014-07-06T00:19:58 * Letarumavza remue du bassin en rythme.
+2014-07-06T00:20:00 <flutterbrony> je dois eviter de dépasser les 150€
+2014-07-06T00:20:05 <flutterbrony> 'soir wildfier
+2014-07-06T00:20:20 <wildfier> comment j'ai suivis tte votre conversation sans pouvoir répondre XD
+2014-07-06T00:20:25 <adriens33> @flutterbrony: les intel atom, niveau conso c'est ridicule (Intel Atom N270@1.6GHz = 4W.)
+2014-07-06T00:20:30 <adriens33> 4 fucking watts.
+2014-07-06T00:20:48 <adriens33> j'ai une machine sur laquelle le chipset graphique consomme 5 fois plus que le CPU  XD
+2014-07-06T00:20:49 <Letarumavza> ...
+2014-07-06T00:20:54 <Letarumavza> Le mien bouffe 130W
+2014-07-06T00:20:58 <adriens33> oui
+2014-07-06T00:21:07 <adriens33> t'as pas un intel atom monocœur@1.6GHz
+2014-07-06T00:21:13 <adriens33>  ^^
+2014-07-06T00:21:14 <flutterbrony> quand la batterie est totalement morte, je m'en fou, je mettrais bien un i5 si possible
+2014-07-06T00:21:30 <flutterbrony> moi, un double cœur a 1.6 ^^
+2014-07-06T00:21:32 <adriens33> non mais niveau conso/autonomie, les intel atom c'est cheaté.
+2014-07-06T00:21:33 <Letarumavza> Pas le même socket il me semble.
+2014-07-06T00:21:49 <flutterbrony> Certain ont mi un Pentium
+2014-07-06T00:21:54 <flutterbrony> mit*
+2014-07-06T00:22:00 <Letarumavza> mis
+2014-07-06T00:22:04 <adriens33> je crois qu'intel avait fait des bench, et on arrive au même niveau qu'avec les proc arm des smartphones ^^
+2014-07-06T00:22:06 <flutterbrony> facepalm
+2014-07-06T00:22:23 <adriens33> @Leta oui, il l'ont refait en dual core
+2014-07-06T00:22:32 <adriens33> du coup t'as un poil plus de puissance
+2014-07-06T00:22:34 <flutterbrony> ah sinon, je testerais bien un Asus TF101 ou 201
+2014-07-06T00:22:48 <adriens33> (bon de base il est hyperthreadé donc ça fait 4 cœurs logiques)
+2014-07-06T00:23:14 <Letarumavza> L'hyperthread devrait être de base.
+2014-07-06T00:23:19 <adriens33> ouaip.
+2014-07-06T00:23:22 <Letarumavza> c'est un gain de puissance brute.
+2014-07-06T00:23:34 <adriens33> AMD a enfin pensé à un concept équivalement il me semble ^^
+2014-07-06T00:23:41 <adriens33> je sasis plus le nom, mais bon
+2014-07-06T00:23:44 <Letarumavza> avec 4 ans de retard...
+2014-07-06T00:23:48 <adriens33> ouaip
+2014-07-06T00:23:54 <adriens33> ben c'est AMD quoi XD
+2014-07-06T00:25:19 <flutterbrony> AMD, ils sont bien mais un peu en retard ^^
+2014-07-06T00:25:27 <Letarumavza> "bien"
+2014-07-06T00:25:35 <Letarumavza> et mon cul c'est du téflon ?
+2014-07-06T00:25:37 <adriens33> si tu cherches un radiateur pas trop cher ouais.
+2014-07-06T00:25:56 <flutterbrony> niveau prix je parlais
+2014-07-06T00:25:58 <adriens33> c'est sur que 150€ le radiateur intégré au pc, ça peut être pratique en hiver.
+2014-07-06T00:25:59 <Letarumavza> C'est hors de prix (pour un radiateur)
+2014-07-06T00:26:19 <Letarumavza> prix brut oui
+2014-07-06T00:26:24 <adriens33> mais pour une utilisation autre que radiateur, faut pas y compter.
+2014-07-06T00:26:29 <adriens33> j'ai vu je sais plus quel bench
+2014-07-06T00:26:32 <Letarumavza> Mais prix/puissance ils sont largement sous intel/nvidia
+2014-07-06T00:26:35 <adriens33> un proc intel vs un proc amd
+2014-07-06T00:26:45 <adriens33> sans ventirad aucun
+2014-07-06T00:26:48 <adriens33> à fond
+2014-07-06T00:26:51 <adriens33> ça donne quoi ?
+2014-07-06T00:27:04 <Letarumavza> L'intel se coupe.
+2014-07-06T00:27:08 <flutterbrony> je compte peut-être me faire une config a base d'AMD (pour débuter dans l'overclok
+2014-07-06T00:27:09 <adriens33> eh ben le intel throttle donc du coup il rame un peu, mais globalement il s'en branle.
+2014-07-06T00:27:12 <adriens33> (même pas XD)
+2014-07-06T00:27:13 <Letarumavza> Sécu thermique.
+2014-07-06T00:27:25 <adriens33> même pas, comme c'est à l'air
+2014-07-06T00:27:30 <adriens33> et que ça throttle
+2014-07-06T00:27:39 <adriens33> ça suffit à le refroidir pour qu'il coupe pas
+2014-07-06T00:27:42 <adriens33> le amd par contre
+2014-07-06T00:27:43 <Letarumavza> ça doit être parce que les miens sont des haute puissance.
+2014-07-06T00:27:53 <adriens33> il monte à 300°C
+2014-07-06T00:28:00 <Letarumavza> et couic ?
+2014-07-06T00:28:07 <adriens33> (ah oui: sans la sécu, sinon c'est pas drôle)
+2014-07-06T00:28:15 <adriens33> le intel ~90°c je crois.
+2014-07-06T00:28:19 <flutterbrony> j'ai trouvé une steam machine de malade ...
+2014-07-06T00:28:22 <adriens33> ah oui, le amd il throttle pas.
+2014-07-06T00:28:25 <adriens33> il rame pas.
+2014-07-06T00:28:31 <flutterbrony> mais j'attends le prix
+2014-07-06T00:28:37 <adriens33> mais bon, il monte à 300°C  en quedalle de temps
+2014-07-06T00:28:39 <flutterbrony> 20To de HDD
+2014-07-06T00:28:40 <Letarumavza> 90°c < 110°C (temp max constructeur)
+2014-07-06T00:28:42 <adriens33> et pfuff
+2014-07-06T00:28:49 <adriens33> plus de proco
+2014-07-06T00:28:52 <adriens33> fumée noire
+2014-07-06T00:28:52 <Letarumavza> 20To HDD => useless
+2014-07-06T00:28:56 <adriens33> grillades
+2014-07-06T00:29:04 <adriens33> 20To ?
+2014-07-06T00:29:09 <adriens33> pour faire quoi ?
+2014-07-06T00:29:33 <adriens33> sauf si c'est pour stocker du pr0n, 2OTo t'as de quoi fap.
+2014-07-06T00:29:33 <Letarumavza> Même sur mon cloud j'ai pas autant de données.
+2014-07-06T00:29:36 <flutterbrony> je sais pas att, je recharche la config
+2014-07-06T00:30:05 <Letarumavza> 20To de .jpeg...
+2014-07-06T00:30:16 <Letarumavza> Même en 1080p ça fait combien ?
+2014-07-06T00:30:25 <flutterbrony> le temps que mon Atom charge ...
+2014-07-06T00:30:29 <Letarumavza> (remarque, même en mpg, 20To)
+2014-07-06T00:30:41 <adriens33> ah, en .bmp 24bits 4k
+2014-07-06T00:30:44 <adriens33> c'est jouable
+2014-07-06T00:31:18 <Letarumavza> Interet du bmp 24bits ?
+2014-07-06T00:31:29 <adriens33> prendre de la place pour rien ?
+2014-07-06T00:31:33 <adriens33> fuck la compression lossless ?
+2014-07-06T00:31:37 <Letarumavza> Pourquoi pas du raw ?
+2014-07-06T00:31:38 <flutterbrony> Processeur : 4770K Core i7 pré-overcloké a 4.2Ghz
+2014-07-06T00:31:40 <adriens33> (ou lossy, selon l'utilisation)
+2014-07-06T00:31:49 <flutterbrony> 2 NVIDIA GeForce GTX Titans de 6Go (en SLI)
+2014-07-06T00:31:57 <Letarumavza> Mauvais choix
+2014-07-06T00:32:00 <adriens33> @flutterbrony: Leta a un 4690X
+2014-07-06T00:32:04 <adriens33> 4960
+2014-07-06T00:32:05 <flutterbrony> Disque Dur : 6 To ou 14 To ou 20To au choix
+2014-07-06T00:32:05 <adriens33> X
+2014-07-06T00:32:07 <adriens33> pardond
+2014-07-06T00:32:09 <adriens33> *pardon
+2014-07-06T00:32:17 <adriens33> c'est… pas le meme niveau XD
+2014-07-06T00:32:20 <Letarumavza> Et une paire de titans black
+2014-07-06T00:32:26 <flutterbrony> Mémoire : 16 Go ou 32 Go 2133 MHz au choix
+2014-07-06T00:32:41 <Letarumavza> flutterbrony: avec un 4770K ton SLI de titan est CPU limited.
+2014-07-06T00:32:51 <flutterbrony> Manette inclue : Steam Controller (grosse merde ca en gros ^^)
+2014-07-06T00:33:03 <Letarumavza> Il peut pas gérer les 14Go/S des PCIE jumelés.
+2014-07-06T00:33:09 <flutterbrony> OS : Dual-Boot : Steam Os + Windows 7 et 8
+2014-07-06T00:33:11 <adriens33> @Letarumavza: si je me fais une config axée puissance de calcul, rappelle moi de te demander conseil.
+2014-07-06T00:33:19 <flutterbrony> on se demande pourquoi 2 windows ...
+2014-07-06T00:33:24 <adriens33> @flutterbrony: ça fait un tri boot ça.
+2014-07-06T00:33:37 <flutterbrony> bah ouais mais c'est leurs annonce ^^
+2014-07-06T00:33:41 <Letarumavza> Euh... non carrément pas, le steam controler est une manette super bien foutue mais bon...
+2014-07-06T00:33:57 <Letarumavza> Et ça doit être 7 ou 8, étant donné que 8 émule 7 @100%
+2014-07-06T00:34:07 <Letarumavza> donc aucun intéret de disposer des deux
+2014-07-06T00:34:15 <Letarumavza> Sans compter que DX12 => win8
+2014-07-06T00:34:17 <flutterbrony> Refroidissement : 3 ventirad Non communiqué – Version 2 avec Watercooling Origin Frostbyte
+2014-07-06T00:34:21 <adriens33> @Leta va dire ça  aux devices compatible 7 et pas 8
+2014-07-06T00:34:30 <adriens33> (y'en a)
+2014-07-06T00:34:30 <Letarumavza> ça existe pas.
+2014-07-06T00:34:54 <Letarumavza> Crois moi, je sais comment est foutu windows. ^^
+2014-07-06T00:34:54 <adriens33> si
+2014-07-06T00:34:55 <flutterbrony> Alimentation : Non communiquée
+2014-07-06T00:34:59 <adriens33> enfin…
+2014-07-06T00:35:04 <Letarumavza> Au moins 1kW
+2014-07-06T00:35:09 <flutterbrony> prix : non communiquée
+2014-07-06T00:35:17 <Letarumavza> min 3k€
+2014-07-06T00:35:26 <Letarumavza> (titan = 1k€ piece)
+2014-07-06T00:35:30 <flutterbrony> Date de sortie : Courant de l’été 2014 (je pense surtout 2015)
+2014-07-06T00:35:40 <Letarumavza> déjà obsolète à sa sortie en fait...
+2014-07-06T00:35:48 <adriens33> sachant que Leta a une config plus cheatée et il l'a déjà ^^
+2014-07-06T00:35:54 <flutterbrony> ou alors ils le sortent sur steamOS ßeta
+2014-07-06T00:35:55 <adriens33> les  compos sont déjà disponibles hein
+2014-07-06T00:36:10 <Letarumavza> Janvier 2k15 => sortie des I7 5xxx
+2014-07-06T00:36:19 <Letarumavza> Et des GTX 8xxx
+2014-07-06T00:36:22 <adriens33> c'est pas ceux à 120cœurs ?
+2014-07-06T00:36:49 <Letarumavza> Nop, ça c'est les intel BC, toujours en prototype, aucune date prévie
+2014-07-06T00:36:56 <adriens33> ah oui ^^'
+2014-07-06T00:36:59 <Letarumavza> probablement deuxième semestre 2015
+2014-07-06T00:37:06 <adriens33> (miam miam :þ)
+2014-07-06T00:37:31 <Letarumavza> Pas forcément, difficile d'arriver à faire tourner une appli sans multitread dessus.
+2014-07-06T00:37:39 <flutterbrony> enfin, j'espère que SteamOS seras une réussite pour avoir plus de jeux sous linux
+2014-07-06T00:37:41 <adriens33> pas faux ^^
+2014-07-06T00:37:44 <Letarumavza> Les coeurs sont peu puissants.
+2014-07-06T00:37:48 <Letarumavza> flutter => non
+2014-07-06T00:37:55 <Letarumavza> DX-12 est trop fumé
+2014-07-06T00:38:09 <Letarumavza> trop rapide et permissif.
+2014-07-06T00:38:31 <Letarumavza> Alors que l'opengl n'égale même pas encore DX11
+2014-07-06T00:38:50 <Letarumavza> (pas de tesselation, pas de vertex shadering, et pas de multitread de texelation)
+2014-07-06T00:38:52 <flutterbrony> Bah, j'aimerais bien des jeux sous linux moi ...
+2014-07-06T00:38:55 <adriens33> Ça doit être le meêm prob que openssl je pense
+2014-07-06T00:39:08 <Letarumavza> LINUX N'EST PAS CONCU POUR LES JEUX !
+2014-07-06T00:39:09 <adriens33> pas assez de dev motivé et faisant du code *propre*
+2014-07-06T00:39:15 <Letarumavza> LE noyau n'est pas pensé pour.
+2014-07-06T00:39:20 <adriens33> gueule pas
+2014-07-06T00:39:50 *** ValCab33 est parti
+2014-07-06T00:39:56 <Letarumavza> Le jeu reste le domaine de windows grâce à directx (qui gère le son, l'image, et la VR dans dx12)
+2014-07-06T00:40:01 <flutterbrony> Y'en as des bien déjà mais je voudrais pas avoir a démmarrer sous windows pour mes jeux
+2014-07-06T00:40:09 *** ValCab33 s'est connecté
+2014-07-06T00:40:11 <Letarumavza> ...
+2014-07-06T00:40:57 <Letarumavza> tu comprends d'où vient le problème ? Tu demandes à un OS a architecture multibranche de gérer des applications qui nécessitent un fonctionnement par radical.
+2014-07-06T00:41:02 <flutterbrony> Driv3r marche mieux sous linux en émulant que sous windows d'ailleurs si on omet un petit beug graphique qui apparaît de temps en temps
+2014-07-06T00:41:31 <Letarumavza> Hum... Attends je note
+2014-07-06T00:42:08 <flutterbrony> je le fait tourner a fond sur mon fixe sous linux alors que sous windows, je le fait tourner en medium
+2014-07-06T00:42:16 <flutterbrony> sans qu'il rame
+2014-07-06T00:42:17 <Letarumavza> ...
+2014-07-06T00:42:32 <Letarumavza> Il rame sous windows parce que win tente de charger en Vram
+2014-07-06T00:42:37 <Letarumavza> Linux charge en ram
+2014-07-06T00:42:42 <wildfier> je comprends pas tes arguments leta
+2014-07-06T00:42:53 <wildfier> dx ?
+2014-07-06T00:42:53 <flutterbrony> j'ai juste un voil verdatre qui apparaît sous certains angles sous linux
+2014-07-06T00:42:58 <Letarumavza> Directx
+2014-07-06T00:42:59 <wildfier> ogl + oal + ...
+2014-07-06T00:43:01 <flutterbrony> voile*
+2014-07-06T00:43:04 <wildfier> dx != ogl
+2014-07-06T00:43:14 <wildfier> d3d ~= ogl
+2014-07-06T00:43:14 <Letarumavza> sauf que...
+2014-07-06T00:43:35 <wildfier> après oui ça manque de devs motivés sous nux
+2014-07-06T00:43:40 <wildfier> mais ça viendra
+2014-07-06T00:43:44 <Letarumavza> ...
+2014-07-06T00:43:45 <wildfier> (thx valve)
+2014-07-06T00:43:55 <Letarumavza> Le problème vient pas de là...
+2014-07-06T00:43:55 <flutterbrony> ouais, c'est ce que j'espère ^^
+2014-07-06T00:44:09 <wildfier> du coup c'est quoi ton arguement ?
+2014-07-06T00:44:09 <Letarumavza> Il vient de comment linux gère les accès mémoire et de comment marche opengl
+2014-07-06T00:44:26 <flutterbrony> bah je pense que c'est quand même possible Letarumavza ...
+2014-07-06T00:44:32 <Letarumavza> Soit il faut virer opengl et créer une gl qui soit performante et à jour pour les architectures actuelles.
+2014-07-06T00:44:42 <adriens33> bonne soluce s'il en est
+2014-07-06T00:44:45 <adriens33> déjà
+2014-07-06T00:44:49 <Letarumavza> Et dans ce cas la gl sera au niveau de dx
+2014-07-06T00:44:59 <Letarumavza> Mais le problème des register ram sera le même
+2014-07-06T00:45:15 <wildfier> du peu développer un peu stp ?
+2014-07-06T00:45:19 <Letarumavza> Le kernel ne sait pas gérer la Vram correctement, et si on laisse ça à la gl on perd de la vitesse.
+2014-07-06T00:45:29 <adriens33> @Leta
+2014-07-06T00:45:32 <adriens33> la vram
+2014-07-06T00:45:34 <Letarumavza> Au lieu de charger en vram il charge en ram.
+2014-07-06T00:45:35 <adriens33> c'est dans  le gpu
+2014-07-06T00:45:39 <adriens33> quand t'as pas accès
+2014-07-06T00:45:45 <adriens33> parce que le pilote c'est une putain de verrue
+2014-07-06T00:45:50 <adriens33> c'est pas étonnant.
+2014-07-06T00:45:50 <wildfier> le kernel à pas à toucher à la vram si ?
+2014-07-06T00:45:54 <Letarumavza> ...
+2014-07-06T00:45:56 <wildfier> blame pas le kernel là
+2014-07-06T00:46:13 <wildfier> après si tu parle de charger des data dans la vram je veux bien
+2014-07-06T00:46:18 <Letarumavza> Le kernel linux pose problème vis à vis du traitement des mémoires ram.
+2014-07-06T00:46:24 <adriens33> et le kms ?
+2014-07-06T00:46:28 <Letarumavza> coder un driver pour linux est un calvaire à cause de ça.
+2014-07-06T00:46:29 <adriens33> nvidia gererait ça
+2014-07-06T00:46:40 <adriens33> ça serait pas mal déjà.
+2014-07-06T00:46:45 <Letarumavza> Ils essayent justement.
+2014-07-06T00:46:49 <adriens33> c'est pas à X11 d'init la gpu
+2014-07-06T00:46:52 <adriens33> c'est au kernel
+2014-07-06T00:47:12 <wildfier> bas ils ont qu'à demander à intel, le pilote libre le gère bien ça
+2014-07-06T00:47:13 <adriens33> (c'est un device, le kernel gere les devices, les apps s'en servent en passant par le kernel & les rviers)
+2014-07-06T00:47:14 <flutterbrony> et Sony a fait un mauvais choix avec leurs ps4 ? (même si c'est pas linux, ca s'en rapproche un peu non ?)
+2014-07-06T00:47:16 <adriens33> *drivers
+2014-07-06T00:47:31 <Letarumavza> Sony a foutu une carte AMD dans la PS4
+2014-07-06T00:47:37 <Letarumavza> T'as ta réponse...
+2014-07-06T00:47:38 <adriens33> @flutterbrony c'est du freebsd et pas du linux
+2014-07-06T00:47:44 <adriens33> déjà
+2014-07-06T00:47:45 <flutterbrony> ce que j'ai dit
+2014-07-06T00:47:47 <wildfier> et nvidia bosse vraiment sur kms ?
+2014-07-06T00:47:52 <adriens33> ça serait bien
+2014-07-06T00:47:55 <wildfier> oui
+2014-07-06T00:48:01 <wildfier> depuis le temps
+2014-07-06T00:48:02 <flutterbrony> c'est pas du linux mais freeBSD, ca s'en rapproche non ?
+2014-07-06T00:48:07 <adriens33> non
+2014-07-06T00:48:08 <adriens33> …
+2014-07-06T00:48:10 <adriens33> c'st
+2014-07-06T00:48:12 <wildfier> pas le même kernel
+2014-07-06T00:48:12 <adriens33> pas l
+2014-07-06T00:48:14 <adriens33> la mêmle chose
+2014-07-06T00:48:23 <adriens33> c'est un unix déjà
+2014-07-06T00:48:31 <Letarumavza> C'est un systeme unix c'est le seul point commun
+2014-07-06T00:48:43 <adriens33> même pas. linux est un unix like, il en reprend les principes
+2014-07-06T00:48:45 <wildfier> linux n'est pas unix
+2014-07-06T00:48:50 <adriens33> mais c'est pas un unix au sens propre
+2014-07-06T00:48:53 <flutterbrony> je croyais qu'il y en avais plus :/
+2014-07-06T00:48:54 <Letarumavza> Linux découle d'unix et partage pas mal de points communs.
+2014-07-06T00:49:02 <adriens33> freebsd c'est une réimplé libre de bsd
+2014-07-06T00:49:10 <adriens33> qui *est* dans les branches d'UNIX
+2014-07-06T00:49:28 <Letarumavza> unix + linus = linux ?
+2014-07-06T00:49:33 <adriens33> même pas
+2014-07-06T00:49:40 <adriens33> Linus voulait l'appeler freax
+2014-07-06T00:49:52 <adriens33> c'est son hébergeur qui a posé linux comme nom de dossier
+2014-07-06T00:49:55 <adriens33> et c'est resté
+2014-07-06T00:50:11 <Letarumavza> Certes
+2014-07-06T00:50:24 <Letarumavza> On fait pas plus random...
+2014-07-06T00:50:36 <adriens33> par contre linux!=unix
+2014-07-06T00:50:42 <adriens33> c'est comme certains qui ont tendance à croire
+2014-07-06T00:50:43 <Letarumavza> "le mec s'apelle linus, boaf je mets en x à la place de s et ça ira..."
+2014-07-06T00:50:49 <adriens33> que MacOSX utilise le noyau linux…
+2014-07-06T00:50:58 *** AlphaDash s'est connecté
+2014-07-06T00:50:59 <Letarumavza> Quel abruti croit ça ?
+2014-07-06T00:51:00 <adriens33> darwin ? non ? personne ?
+2014-07-06T00:51:05 <adriens33> (plein de monde, crois moi)
+2014-07-06T00:51:16 <adriens33> (pour eux, linux = unix = macosx)
+2014-07-06T00:51:20 <Letarumavza> En revanche, on peut facilement installer linux sur un mac
+2014-07-06T00:51:21 <flutterbrony> J'en connais qui croyent ca
+2014-07-06T00:51:22 <adriens33> (ou carrément linux = macosx)
+2014-07-06T00:51:30 <AlphaDash> hello?
+2014-07-06T00:51:33 <flutterbrony> alors là :/
+2014-07-06T00:51:34 <adriens33> hello ^^
+2014-07-06T00:51:35 <wildfier> salut
+2014-07-06T00:51:37 <flutterbrony> salut
+2014-07-06T00:51:41 <Letarumavza> étant donné que les hardware sont design pour unix, et que linux sait très bien les employer.
+2014-07-06T00:51:43 <Letarumavza> salut
+2014-07-06T00:51:54 <AlphaDash> vous allez bien?
+2014-07-06T00:52:09 <adriens33> non en fait, MacOSX = micro kernel mach (Darwin de son p'tit nom de projet) + une couche BSD
+2014-07-06T00:52:14 <adriens33> + une UI
+2014-07-06T00:52:19 <adriens33> + des verrous partout
+2014-07-06T00:52:25 <adriens33> (l'ui s'appelle Quartz je crois)
+2014-07-06T00:52:41 <Letarumavza> De toutes façon => Win = Gamers, Linux = Devs, Mac (même si c'est du x86) = Branle-couilles.
+2014-07-06T00:52:54 <adriens33> (c'est en gros, l'équivalemtn de par exemple X11+Kwin+Qt4/5)
+2014-07-06T00:53:00 <Letarumavza> Les facilités sont comme ça point.
+2014-07-06T00:53:11 <adriens33> c'toi le branle couilles.
+2014-07-06T00:53:25 <adriens33>  ^^
+2014-07-06T00:53:30 <adriens33> oh, wait, t'es dev…
+2014-07-06T00:53:32 <adriens33> XD
+2014-07-06T00:53:33 <flutterbrony> Mac, j'aime pas du tout : trop de verous
+2014-07-06T00:53:35 <Letarumavza> tu peux coder facilement sous win et jouer facilement sous linux, mais c'est pas aussi facile.
+2014-07-06T00:53:36 <adriens33> le mec qui s'auto troll.
+2014-07-06T00:53:37 <AlphaDash> j'approuve o:
+2014-07-06T00:54:01 <Letarumavza> J'aime windows par volonté personnelle.
+2014-07-06T00:54:13 <Letarumavza> enfin, volonté... préférence plutot.
+2014-07-06T00:54:24 <adriens33> Moi j'aime pas parce que bon pour arriver à fouiller comment ça marche…
+2014-07-06T00:54:25 <Letarumavza> Mais pour coder c'est pas le must.
+2014-07-06T00:54:30 <flutterbrony> J'aime pas windows parce que je le trouve trop lent déjà ...
+2014-07-06T00:54:33 <adriens33> je trouve ça absolument pas pratique perso.
+2014-07-06T00:54:38 <adriens33> ben du micro kernel
+2014-07-06T00:54:42 <Letarumavza> ha ha, windows est lent...
+2014-07-06T00:54:51 <flutterbrony> bah sur mes config
+2014-07-06T00:54:51 <adriens33> les drivers sont en userspace pour éviter de crash le noyau
+2014-07-06T00:54:53 <wildfier> c'est un fait
+2014-07-06T00:54:56 <flutterbrony> wp marche nikel
+2014-07-06T00:54:57 <wildfier> win est lent
+2014-07-06T00:55:03 <flutterbrony> xp*
+2014-07-06T00:55:07 <adriens33> mais du coup, les drivers doivent faire plein d'interrputions systeme
+2014-07-06T00:55:09 <adriens33> à chaque acces
+2014-07-06T00:55:19 <adriens33> (et les int c'est lent…)
+2014-07-06T00:55:22 <Letarumavza> Hum... au chargement oui, en fonctionnement la dif de perfs se sent pas.
+2014-07-06T00:55:22 <wildfier> rien qu'à regarder ce qu'une fraiche install arrive à me pomper de cpu pour tourner
+2014-07-06T00:55:23 <flutterbrony> 7 ram avec 8Go de RAM et un I3 a 2.4Ghz
+2014-07-06T00:55:32 <wildfier> alors quand il est là depuis un bon moment ...
+2014-07-06T00:55:36 <wildfier> (merci win update ...)
+2014-07-06T00:55:47 <wildfier> si
+2014-07-06T00:55:55 <adriens33> par contre le défaut d'un noyau monolithique (linux et 90% des UNIX)
+2014-07-06T00:55:57 <Letarumavza> wild => si ton win rame c'est que tu as pas optimisé ton registre.
+2014-07-06T00:56:05 <adriens33> ce qui fait également sa très grande force niveau qualité
+2014-07-06T00:56:08 <wildfier> l'interface sous linux est (suivant le compositeur utilisé) beaucoup plus fluide
+2014-07-06T00:56:13 <adriens33> c'est que la moindre erreur se voit
+2014-07-06T00:56:13 <wildfier> après faut ptet blamer aéro
+2014-07-06T00:56:17 <adriens33> vu que tu casse tout XD
+2014-07-06T00:56:27 <adriens33> pff. le registre.
+2014-07-06T00:56:30 <Letarumavza> Il faut toujours réduire les appels drivers au nombre le plus proche de celui de tes coeurs -1
+2014-07-06T00:56:31 <adriens33> quelle blague cette merde
+2014-07-06T00:57:08 <Letarumavza> La différence entre un système central et un système multiple.
+2014-07-06T00:57:11 <adriens33> oui mais tu fous pas les drivers (qui ont par définition besoin d'accéder au matos) en userspace, les faire passer par des appels systeme pour accéder au systeme c'est une hérésie.
+2014-07-06T00:57:14 <wildfier> j'ai pas besoin de triffouiller les réglages kernel pour qu'il tourne bien mon linux XD
+2014-07-06T00:57:37 <adriens33> c'est d'ailleurs pour ça que le pilote ntfs est lent sous linux
+2014-07-06T00:57:45 <Letarumavza> Le problème c'est que les comparaisons entre linux et win sont souvent faites sur des installes fraiches de win.
+2014-07-06T00:57:46 <adriens33> en tout cas le premier l'était
+2014-07-06T00:57:58 <adriens33> à cause du fait que ça utilisait fuse
+2014-07-06T00:58:07 <Letarumavza> Sauf que win charge par défaut quantité de trucs useless pour être plus user friendly.
+2014-07-06T00:58:14 <adriens33> (un truc qui permet d'implémenter des drivers de système de fichier en userspace)
+2014-07-06T00:58:24 <adriens33> @Leta comme ubuntu
+2014-07-06T00:58:27 <adriens33> ou fedora
+2014-07-06T00:58:30 <adriens33> entre autres.
+2014-07-06T00:58:35 <Letarumavza> Exactement
+2014-07-06T00:58:50 <adriens33> l'userfriendliness ça coute beaucoup en termes d'optimisation & de perfs.
+2014-07-06T00:58:56 <Letarumavza> Mais une fois coupé toutes ces merdes, la dif de perf est vraiment légère.
+2014-07-06T00:58:59 <adriens33> faudra penser à l'expliquer à flo tient ^^
+2014-07-06T00:59:01 <adriens33> *tiens
+2014-07-06T00:59:07 <Letarumavza> Et son sens dépend même du hardware.
+2014-07-06T00:59:08 <wildfier> bas trouve moi une iso de win sans ces merdes
+2014-07-06T00:59:16 <Letarumavza> ...
+2014-07-06T00:59:20 <wildfier> (sérieusement ça m'intéresserais)
+2014-07-06T00:59:29 <Letarumavza> wild... tu les coupes post install...
+2014-07-06T00:59:38 <adriens33> je suis pas spécialement pro linux
+2014-07-06T00:59:40 <wildfier> bas donne moi la liste alors :p
+2014-07-06T00:59:43 <adriens33> surtout orienté UNIX.
+2014-07-06T00:59:47 <Letarumavza> Bah...
+2014-07-06T01:00:04 <adriens33> UNIX c'est tellement jouissif au niveau organisation…
+2014-07-06T01:00:05 <Letarumavza> ça dépend de ton update et de tes progs installés.
+2014-07-06T01:00:08 <adriens33> tout est bien rangé
+2014-07-06T01:00:12 <adriens33> (noramelmetn)
+2014-07-06T01:00:20 <adriens33> tout est accessible via UNE SEULE RACINE
+2014-07-06T01:00:21 <adriens33> C:
+2014-07-06T01:00:23 <adriens33> D:
+2014-07-06T01:00:25 <adriens33> E:
+2014-07-06T01:00:27 <adriens33> c'est stupide.
+2014-07-06T01:00:36 <Letarumavza> Par exemple, le simple fait de jarter tous les duplicatas de dll et d'appeler la même ça vire un paquet de lenteurs...
+2014-07-06T01:00:50 <adriens33> et l'acces au drivers via le fs… mais qui est le génie qui a pensé à ça sérieux ?
+2014-07-06T01:01:02 <wildfier> @leta: c'est pour ça qu'on a des paquets sous nux
+2014-07-06T01:01:05 <adriens33> @Leta avec une IA qui fait 99% du taf forcément c'est moins dur XD
+2014-07-06T01:01:12 <wildfier> ^^
+2014-07-06T01:01:22 <adriens33> il fait même optimiser son kernel linux
+2014-07-06T01:01:24 <adriens33> par son IA
+2014-07-06T01:01:27 <wildfier> XD
+2014-07-06T01:01:29 <adriens33> qui réorga tout le code
+2014-07-06T01:01:30 <Letarumavza> Justement, une IA codé sous win qui utilise les libs de win.
+2014-07-06T01:01:34 <adriens33> vire les dulicatas
+2014-07-06T01:01:38 * Letarumavza _o/
+2014-07-06T01:01:59 <adriens33> ben pour berryv3 va falloir te forcer de faire un peu de dev unix
+2014-07-06T01:02:01 <adriens33> ^^
+2014-07-06T01:02:06 <adriens33> ça peut pas te faire de mal ^^
+2014-07-06T01:02:13 *** AlphaDash est parti
+2014-07-06T01:02:22 <wildfier> comment ça flame sur ce chat quand même
+2014-07-06T01:02:35 <adriens33> non, ça discute calmement là.
+2014-07-06T01:02:36 <Letarumavza> Que dalle, ça va être du C pour le process et du python pour la database (pour les modifs à chaud)
+2014-07-06T01:02:55 <adriens33> ouais, donc du standard
+2014-07-06T01:02:55 <Letarumavza> Ou alors une prog multimodules redondants pour recompiler la database à chaud.
+2014-07-06T01:03:10 <Letarumavza> (plus fiable et plus fun)
+2014-07-06T01:03:14 <wildfier> ^^
+2014-07-06T01:03:18 <adriens33> si tu code bien en utilisant des trucs standard ça aide
+2014-07-06T01:03:19 <wildfier> j'aime cet esprit
+2014-07-06T01:03:46 <Letarumavza> Bah le standard ça reste le plus intéréssant.
+2014-07-06T01:03:50 <Letarumavza> Quoique...
+2014-07-06T01:03:51 <adriens33> Mais je pense  un truc en C
+2014-07-06T01:03:58 <adriens33> avec gestion de la databse en python
+2014-07-06T01:04:01 <adriens33> ça peut être pas mal⋅
+2014-07-06T01:04:03 <adriens33> *.
+2014-07-06T01:04:08 <wildfier> pour berry ?
+2014-07-06T01:04:12 <adriens33> ouep
+2014-07-06T01:04:30 <Letarumavza> Bah...
+2014-07-06T01:04:43 <Letarumavza> J'ai une tronche à coder avec la bite ?
+2014-07-06T01:04:52 <adriens33> pourquoi ?
+2014-07-06T01:04:54 <adriens33> :/
+2014-07-06T01:04:57 <flutterbrony> ...
+2014-07-06T01:04:58 <Letarumavza> (j'ai déjà essayé, j'appuie sur trop de touches à la fois...)
+2014-07-06T01:04:59 <adriens33> j'ai dit une connerie ?
+2014-07-06T01:05:02 <wildfier> XD
+2014-07-06T01:05:11 <flutterbrony> je comprends pas la Leta
+2014-07-06T01:05:12 <Letarumavza> "ça peut être pas mal⋅ "
+2014-07-06T01:05:20 <adriens33> oui et donc ?
+2014-07-06T01:05:25 <adriens33> où est le problème ?
+2014-07-06T01:05:29 <adriens33> que je donne mon avis ?
+2014-07-06T01:05:39 <Letarumavza> Bah je sais pas t'as quoi comme meilleure idée ?
+2014-07-06T01:05:46 <adriens33> J'ai pas d'idée là
+2014-07-06T01:05:53 <adriens33> si j'avance pas dessus c'est pas pour rien
+2014-07-06T01:05:57 <Letarumavza> La redondance C est très performante avec la recompil à chaud et les switchs.
+2014-07-06T01:06:04 <Letarumavza> Mais elle est chiante à coder.
+2014-07-06T01:06:11 <adriens33> défi XD
+2014-07-06T01:06:12 <Letarumavza> Oh je sais ^^
+2014-07-06T01:06:15 <adriens33> c'est plus drôle
+2014-07-06T01:06:24 <Letarumavza> (j'ai déjà la lib en asm)
+2014-07-06T01:06:34 <wildfier> je connais pas le principe, comment ça marche ?
+2014-07-06T01:06:37 <Letarumavza> C'est du GCC craqué.
+2014-07-06T01:07:00 <adriens33> comment ut peux "craquer" un logiciel libre ?
+2014-07-06T01:07:14 <adriens33> l'améliorer, le modifier pour faire autre chose ok
+2014-07-06T01:07:17 <Letarumavza> Bah c'est GCC qu'est craqué
+2014-07-06T01:07:23 <Letarumavza> (craqué au sens cheat)
+2014-07-06T01:07:24 <adriens33> ah, dans ce sens la.
+2014-07-06T01:07:36 <Letarumavza> Manque la virgule en fait.
+2014-07-06T01:07:37 <flutterbrony> comme moi quand je m'étais trompé en disant que je cherchais a craquer open office x)
+2014-07-06T01:07:42 <adriens33> et c'est du GNU…
+2014-07-06T01:07:53 <Letarumavza> Joli flutter
+2014-07-06T01:07:58 <Letarumavza> Et prends libreoffice
+2014-07-06T01:08:10 <Letarumavza> open office est... dead ?
+2014-07-06T01:08:12 <adriens33> (oui, Leta utilise Libreoffice wildfier)
+2014-07-06T01:08:19 <adriens33> C'est à cause d'Oracle
+2014-07-06T01:08:27 <adriens33> il se passe la même chose avec MySQL
+2014-07-06T01:08:35 <Letarumavza> Comment on peut s'appeler comme ça et avoir la vision aussi courte...
+2014-07-06T01:08:40 <flutterbrony> Oui, on s'étais bien foutu de moi jusqu'a ce que je comprenne et que je corrige en Microsoft Office ^^
+2014-07-06T01:08:41 <adriens33> le propre fondateur de MySQL a forké le projet pour le reprendre avec les devs d'origine XD
+2014-07-06T01:08:43 <Letarumavza> tu crois qu'ils font des cookies ?
+2014-07-06T01:08:59 <adriens33> ^^
+2014-07-06T01:09:09 <Letarumavza> (ref à matrix pour les inclutes ^^)
+2014-07-06T01:09:22 <Letarumavza> (pun intended)
+2014-07-06T01:09:35 <adriens33> au fait, z'avez vu que flo a changé le lien vers la visio ?
+2014-07-06T01:09:39 <adriens33> c'est plus appear.in
+2014-07-06T01:09:46 <Letarumavza> C'est appear.out ?
+2014-07-06T01:09:51 <adriens33> ça pourrait être intéressant de voircomment ça donne ?
+2014-07-06T01:09:53 <wildfier> badum-tss
+2014-07-06T01:09:53 <adriens33> XD
+2014-07-06T01:09:55 <adriens33> non
+2014-07-06T01:09:57 <adriens33> vroom.im
+2014-07-06T01:10:05 <Letarumavza> oh oh...
+2014-07-06T01:10:14 <adriens33> et apparemment c'est "propulsé par firewall-services"
+2014-07-06T01:10:14 <Letarumavza> Encore un truc pour gens calés...
+2014-07-06T01:10:22 <Letarumavza> oh ça pue
+2014-07-06T01:10:23 <adriens33> (qui est la boîte de flo pour ceux qui savent pas)
+2014-07-06T01:10:30 <wildfier> c'est ce que j'allais demander
+2014-07-06T01:10:36 <wildfier> si c'est le truc de sa boite
+2014-07-06T01:10:42 <Letarumavza> justement, c'est ce qui faut peur...
+2014-07-06T01:10:44 <wildfier> il en avant parlé
+2014-07-06T01:10:46 * Letarumavza troll
+2014-07-06T01:10:51 <adriens33> corporatisme !!
+2014-07-06T01:10:56 <adriens33> dat manque de respect !!
+2014-07-06T01:11:14 <Letarumavza> Hey, moi je colle pas un tableau html pour une liste de php
+2014-07-06T01:11:31 <Letarumavza> correction => un tableau par php
+2014-07-06T01:11:36 <Letarumavza> (deux en fait même)
+2014-07-06T01:11:36 <adriens33> oui non mais moi je suis une bouze en php (j'ai peu pratiqué et j'ai du mal avec la poo)
+2014-07-06T01:11:42 <adriens33> mais flo a même pas mon niveau.
+2014-07-06T01:11:55 <adriens33> il m'a demandé des trucs que tu trouves sur php.net en cherchant 3s.
+2014-07-06T01:12:04 <Letarumavza> Nop, là le problème c'est pas le php, c'est le html qui a aucun sens.
+2014-07-06T01:12:14 <adriens33> (si, celui de la corbeille XD)
+2014-07-06T01:12:23 <Letarumavza> La database est statique, donc le php n'a rien à foutre ici vu que les modifs se font en manuel.
+2014-07-06T01:12:36 <adriens33> je lui ai filé de quoi faire un truc sympa pourtant.
+2014-07-06T01:12:38 <adriens33> et pas dur en plus
+2014-07-06T01:12:45 <adriens33> t'as juste un tableau à manier sérieux !!
+2014-07-06T01:12:51 <Letarumavza> C'est presque aussi étrange que ce bootstrap pour un site qui n'en a pas besoin..
+2014-07-06T01:13:01 <adriens33> $tab[id_membre][information]
+2014-07-06T01:13:43 <adriens33> bootstrap pour faire un theme pas trop dégueu  sans s'emmerder c'est pas mal
+2014-07-06T01:13:54 <adriens33> mais bon c'est comme tout, faut savoir s'en servir
+2014-07-06T01:14:07 <adriens33> (qui a dit ta femme te l'dit souvent ?)
+2014-07-06T01:14:14 <Letarumavza> Bah bootstrap pour un truc faisable en un CSS ultra simple///
+2014-07-06T01:14:30 <Letarumavza> C'est chasser les mouches avec un tank.
+2014-07-06T01:14:42 <adriens33> XD
+2014-07-06T01:14:45 <Letarumavza> C'est peut être efficace mais ça bouffe masse ressources et c'est lent.
+2014-07-06T01:14:56 <adriens33> ctb
+2014-07-06T01:15:02 <adriens33> ^^
+2014-07-06T01:15:06 <flutterbrony> Bon, j'y vais dormez bien
+2014-07-06T01:15:11 <adriens33> bonnenuit
+2014-07-06T01:15:17 <flutterbrony> pour ceux qui comptent dormir ^^
+2014-07-06T01:15:26 <wildfier> @leta: pour ton histoire de redondance en c, tu fais un code qui vas aller se recompiler et se relancer avec la nouvelle version ?
+2014-07-06T01:15:30 <flutterbrony> je verrais ce que le mec qui veut pas de QT5 m'auras répondu
+2014-07-06T01:15:35 <wildfier> ++ flutter /) !
+2014-07-06T01:15:42 <Letarumavza> Donc tu viens de balancer un ctb sur une phrase pour laquelle ça signifierai que j'ai une grosse bite endurante et éfficace...
+2014-07-06T01:15:50 <Letarumavza> T'as loupé le m ou quoi ?
+2014-07-06T01:15:54 <adriens33> @wildfier il a fait une ia qui crée son propre code machine a partir de l'algo donc bon…
+2014-07-06T01:16:08 <adriens33> @Leta: non, sur le "ça bouffe masse ressources et c'est lent"
+2014-07-06T01:16:09 <Letarumavza> Elle code en C puis elle compile
+2014-07-06T01:16:15 <wildfier> oui mais c'est intéressant comme concept
+2014-07-06T01:16:21 <Letarumavza> Bah ça revient au même adrien
+2014-07-06T01:16:26 <adriens33> oui, natif pas code machine pardon --"
+2014-07-06T01:16:32 <Letarumavza> wild pour faire simple :
+2014-07-06T01:16:33 *** flutterbrony est parti
+2014-07-06T01:16:58 <Letarumavza> Au lancement du processus, le prog lance deux sub process identiques, le premier actif, le second désactivé.
+2014-07-06T01:17:09 <adriens33> comment éviter les erreurs de point virgule mal placé, d'erreur de syntaxe…
+2014-07-06T01:17:21 <adriens33> tu fais de l'algo, et c'est l'ia qui code XD
+2014-07-06T01:17:48 <Letarumavza> adriens33: c'est surtout du pseudo-code que je lui fournis.
+2014-07-06T01:17:57 <adriens33> oui, je m'en doutais un peu.
+2014-07-06T01:18:00 <Letarumavza> l'algo prend plus de temps à être converti.
+2014-07-06T01:18:14 <adriens33> ça doit être tellement jouissif pour coder…
+2014-07-06T01:18:22 <adriens33> t'as pas à t'emmerder avec les specs du langage
+2014-07-06T01:18:27 <adriens33> ni la syntaxe
+2014-07-06T01:18:44 <Letarumavza> Elle sait interpréter un organigramme de décisions et le transformer en code.
+2014-07-06T01:18:49 <adriens33> :o
+2014-07-06T01:19:12 <adriens33> t'es vraiment permacraqué toi tu le sais ça ?
+2014-07-06T01:19:18 <Letarumavza> ?
+2014-07-06T01:19:23 <wildfier> tu peux continuer ton expliquation leta stp ?
+2014-07-06T01:19:42 <Letarumavza> Le code actifs et désactivé utilisent deux dossiers de dll.
+2014-07-06T01:19:45 <Letarumavza> distincts.
+2014-07-06T01:19:50 <Letarumavza> (dll et autres)
+2014-07-06T01:20:09 <Letarumavza> Le second peut être modifié, et push en activité sans couper le programme.
+2014-07-06T01:20:41 <adriens33> tu remplaces le code machine à la volée du coup non ?
+2014-07-06T01:20:47 <Letarumavza> Lorsque le push est fini et activé, il copie ses sources dans le dossier 1, et c'est le premier process qui devient inactif.
+2014-07-06T01:21:01 <adriens33> ah, oui, ok
+2014-07-06T01:21:05 <adriens33> plus simple
+2014-07-06T01:21:06 <Letarumavza> Bah généralement je colle carrément le compilateur dans l'exécutable, comme ça je remplace les sources.
+2014-07-06T01:21:07 <adriens33> ^^
+2014-07-06T01:21:13 <Letarumavza> Mais ça revient au même.
+2014-07-06T01:21:28 <adriens33> si tu intègres gcc dans ton ia tu m'étonne qu'elle pèse 28Go
+2014-07-06T01:21:30 <adriens33> XD
+2014-07-06T01:21:49 <Letarumavza> C'est mon kernel archlinux qui pèse 28Go
+2014-07-06T01:21:55 <Letarumavza> Et y'a lophtcrack dedans...
+2014-07-06T01:21:59 <Letarumavza> et netcat.
+2014-07-06T01:22:04 <Letarumavza> Et un tas de bordel...
+2014-07-06T01:22:22 <Letarumavza> Mais comme aucun fichier n'est dupliqué d'origine ça va.
+2014-07-06T01:22:42 <adriens33> si tu veux m'en faire un optimisé pour ma config (je te filerai tous les détails si tu veux), je dirais pas non… je saif compiler le kernel, mais bon pour la config j'ai pas trop d'expérience.
+2014-07-06T01:22:52 <Letarumavza> Je fais même de la concaténation de fichiers ressemblants en commentant le code disjoint selon l'exécutable.
+2014-07-06T01:23:07 <adriens33> ça c'est du merge XD
+2014-07-06T01:23:08 <Letarumavza> (en gros je fractionne les dlls pour encore réduire les duplicatas)
+2014-07-06T01:23:35 <Letarumavza> Le problème est ailleurs...
+2014-07-06T01:23:40 <adriens33> ?
+2014-07-06T01:23:51 <wildfier> tu devrais faire recoder win par ton ia, on aura ptet un bon os au final (non je cherche pas à relancer le flame gratuitement XD)
+2014-07-06T01:24:50 <Letarumavza> Tu as déjà ouver les dlls de win avec un éditeur hexa ?
+2014-07-06T01:25:03 <wildfier> nope
+2014-07-06T01:25:04 <Letarumavza> C'est que du fail-proof.
+2014-07-06T01:25:33 <Letarumavza> tu peux pas crash totalement un win de manière irrécupérable.
+2014-07-06T01:25:41 <Letarumavza> (sans dégats hardware)
+2014-07-06T01:26:53 <Letarumavza> Toutes les dll ont des infos d'auto-récupération.
+2014-07-06T01:27:10 <Letarumavza> Et y'a une masse de redondance.
+2014-07-06T01:27:56 <Letarumavza> Sans compter certaines manip.
+2014-07-06T01:28:53 <Letarumavza> Comme : toujours installer les drivers en sessions system, pour que les appels drivers ne soient pas vérifiés.
+2014-07-06T01:29:08 <Letarumavza> (session système == root)
+2014-07-06T01:29:30 <adriens33> comment t'y accede à la session system depuis vista ?
+2014-07-06T01:29:43 <Letarumavza> C'est un reboot avec un argument...
+2014-07-06T01:29:49 <adriens33> ah ok
+2014-07-06T01:30:00 <Letarumavza> Je me rapelle pas de la com, je demande un reboot system à un certain programme.
+2014-07-06T01:30:18 <adriens33> un équivalent de reboot linux avec init=/bin/bash comme argument supplémentaire ?
+2014-07-06T01:30:20 <Letarumavza> (elle est installée en system, donc elle peut le call sans blockage)
+2014-07-06T01:30:26 <Letarumavza> yep
+2014-07-06T01:32:02 <Letarumavza> Je me rapelle pas comment reboot en system.
+2014-07-06T01:33:04 <Letarumavza> Il faut avoir le win debugger installé
+2014-07-06T01:33:41 <Letarumavza> Et il me semble que la com est un truc du genre : REMOTE.EXE /c <nom du pc> SYSCMD
+2014-07-06T01:33:53 <Letarumavza> ça te sors le command prompt en droits system.
+2014-07-06T01:34:08 <Letarumavza> ensuite tu coupes les sécurités en manuel. (come le check drivers... etc)
+2014-07-06T01:34:49 <Letarumavza> Et là tu coupes entre 30 et 70% de l'utilisation RAM de win suivant ta config de sécurité anti-crash.
+2014-07-06T01:35:17 <Letarumavza> (en revanche, plus de BSOD, et plus d'auto check-up passé la couche kernel)
+2014-07-06T01:35:37 <Letarumavza> Donc pour toute récup faut passer par le CD
+2014-07-06T01:35:43 <Letarumavza> DVD plutot
+2014-07-06T01:35:48 <Letarumavza> (ou clef USB)
+2014-07-06T01:35:54 <adriens33> boarf, comme un linux qui démarre pllus
+2014-07-06T01:36:03 <adriens33> live cd, tu chroot sur l'install et tu répares.
+2014-07-06T01:36:13 <Letarumavza> Bah...
+2014-07-06T01:36:39 <Letarumavza> C'est dingue comme un win sans sécurité ressemble à un linux coté interaction.
+2014-07-06T01:36:46 <Letarumavza> (l'acces root change tout)
+2014-07-06T01:36:48 <adriens33> c'est pour ça que je préfere linux
+2014-07-06T01:36:55 <adriens33> t'as pas de sécu dans tous les sens par défaut
+2014-07-06T01:37:03 <adriens33> vu que c'est à toi de tout faire normalement.
+2014-07-06T01:37:16 <Letarumavza> Sauf que si tu mets Mme Michu face à un arch linux...
+2014-07-06T01:37:25 <adriens33> archlinux est pas prévu pour mme michu
+2014-07-06T01:37:39 <Letarumavza> win, si.
+2014-07-06T01:37:39 <adriens33> un système linux est pas prévu de base pour le pégu moyen
+2014-07-06T01:37:52 <adriens33> contrairement à ce qu'aimerai faire croire Mark Shuttleworth
+2014-07-06T01:37:55 <Letarumavza> win avec son hyper redondance et sa sécurité, si ^^
+2014-07-06T01:37:58 <adriens33> (le pdg de Canonical quoi)
+2014-07-06T01:38:29 <adriens33> Bah sous linux c'est faisable. Ça demanderai pas mal de conf et de taf, mais c'est faisable. Tout est faisable de toute façon :p
+2014-07-06T01:38:36 <adriens33> Sous ubuntu
+2014-07-06T01:38:42 <adriens33> t'as pas acces au compte root
+2014-07-06T01:38:48 <Letarumavza> Le plus marrant c'est que 95% des problèmes dont les linuxiens se plaignent concernant windows  sont généralement faux, mais nécéssitent un paramettre dans win et sont default dans linux.
+2014-07-06T01:38:49 <adriens33> le login root est inactif
+2014-07-06T01:38:54 <Letarumavza> Et réciproquement.
+2014-07-06T01:39:20 <Letarumavza> Au final win ou linux, c'est principalement une question de préférences perso.
+2014-07-06T01:39:38 <adriens33> si t'aimes avec plein de sécus par défaut
+2014-07-06T01:39:44 <Letarumavza> Les différences de perfs d'installs optimisées sont trop faibles pour être significatives.
+2014-07-06T01:39:46 <adriens33> ou si t'aimes toucher à un peu tout
+2014-07-06T01:39:58 <adriens33> quitte à rendre le truc inbootable
+2014-07-06T01:40:00 <adriens33> XD
+2014-07-06T01:40:06 <Letarumavza> Justement ça c'est cool ^^
+2014-07-06T01:40:09 <adriens33> ^^
+2014-07-06T01:40:21 <adriens33> pour ça que j'adore linux, pour bidouiller dessus c'est cool.
+2014-07-06T01:40:27 <Letarumavza> Win aussi
+2014-07-06T01:40:33 <Letarumavza> faut juste encore plus bidouiller ^^
+2014-07-06T01:40:37 <adriens33> ouais mais bon côté doc c'est moins dur à trouver
+2014-07-06T01:40:45 <Letarumavza> ...
+2014-07-06T01:40:50 <Letarumavza> Tu marques un point
+2014-07-06T01:41:06 <adriens33> bah c'est un des points forts, la communauté et la doc.
+2014-07-06T01:41:06 <Letarumavza> Les 1700 pages du manuel étendu sont un poil longues...
+2014-07-06T01:41:23 <adriens33> bon, après faut pas prendre le fofo ubuntu comme exemple.
+2014-07-06T01:41:36 <Letarumavza> Boaf, j'aime bien aller au zoo moi ^^
+2014-07-06T01:41:39 <adriens33> XD
+2014-07-06T01:41:50 <adriens33> y'a le chan irc si tu veux t'amuser en temps réel
+2014-07-06T01:42:00 <adriens33> #ubuntu-fr est pas mal actif il me semble
+2014-07-06T01:42:05 <Letarumavza> Faut quand même dire, le fofo ubuntu est pire que celui de wow
+2014-07-06T01:42:10 <adriens33> (enfin "actif"…)
+2014-07-06T01:42:41 <adriens33> "heeee aidez moi, je sais pas installer un paquet/changer mon fond d'écran/changer ma couche…"
+2014-07-06T01:42:43 <Letarumavza> Genre tu te co avec le nick "apple4ever" et tu colles "Apple rules, linux sux"
+2014-07-06T01:42:51 <adriens33> ^^
+2014-07-06T01:43:04 <Letarumavza> C'est comme pisser dans une fourmillière ^^
+2014-07-06T01:45:11 <wildfier> bon, je vais me coucher
+2014-07-06T01:45:15 <adriens33> ++
+2014-07-06T01:45:26 <wildfier> bonne continuation sur votre linux vs win ^^
+2014-07-06T01:46:17 <Letarumavza> ça revient au même
+2014-07-06T01:46:29 <Letarumavza> Même un papier et un crayon suffisent pour coder.
+2014-07-06T01:46:32 <adriens33> ^^
+2014-07-06T01:46:40 <adriens33> mais c'est moins optimisé
+2014-07-06T01:46:46 <Letarumavza> Pour l'algo...
+2014-07-06T01:46:51 <adriens33> ah
+2014-07-06T01:46:51 *** wildfier est parti
+2014-07-06T01:46:53 <adriens33> ouais
+2014-07-06T01:46:54 <Letarumavza> Pour les organigrammes...
+2014-07-06T01:47:00 <Letarumavza> Tain...
+2014-07-06T01:47:04 <adriens33> boarf, une appli pour faire des diags c'est pas mal
+2014-07-06T01:47:09 <adriens33> déjà ça évite une gomme
+2014-07-06T01:47:19 <adriens33> et perso ça m'évite des douleurs et des crampes dans la main
+2014-07-06T01:47:22 <Letarumavza> Faut que je fasse ça, faire reconnaître à IDA les scans.
+2014-07-06T01:47:27 <adriens33> ^^
+2014-07-06T01:47:34 <Letarumavza> Comme ça je pourrais coder offline
+2014-07-06T01:48:02 <Letarumavza> C'est ça qu'il faut que je me fasse tatouer sur le dos.
+2014-07-06T01:48:11 <Letarumavza> La séquence d'ignite de mon IA
+2014-07-06T01:48:23 <adriens33> ?
+2014-07-06T01:48:35 <Letarumavza> Posage de couilles de dev ^^
+2014-07-06T01:48:39 <adriens33> genre le prompt qu'elle te sort quand tu la run ?
+2014-07-06T01:48:43 <Letarumavza> yep
+2014-07-06T01:48:55 <adriens33> punaise j'aimerai bien la voir en action quand même…
+2014-07-06T01:49:12 <Letarumavza> Je file récup mon matos en rentrant le 10 aout.
+2014-07-06T01:49:17 <adriens33> oh
+2014-07-06T01:49:22 <adriens33> c'est loin…
+2014-07-06T01:49:29 <Letarumavza> Bah...
+2014-07-06T01:49:37 <Letarumavza> J'ai promis à ma cop de pas prendre de taf avec moi.
+2014-07-06T01:49:43 <adriens33> ah ok  ^^
+2014-07-06T01:50:12 <Letarumavza> Tu me connais, aucune morale, aucune éthique, mais un code d'honneur strict.
+2014-07-06T01:50:27 <adriens33> ^^
+2014-07-06T01:50:33 <Letarumavza> c'est le plus efficace d'un point de vue systémique.
+2014-07-06T01:50:58 <Letarumavza> Et l'ignite donne :
+2014-07-06T01:51:07 <Letarumavza> Check CPU : refcpu
+2014-07-06T01:51:23 <Letarumavza> Check RAM : ram installée
+2014-07-06T01:51:41 <Letarumavza> Check GPU : refgpu + config + version de cuda
+2014-07-06T01:52:00 <Letarumavza> Et ensuite c'est un string qu'elle auto-génère.
+2014-07-06T01:52:10 <adriens33> mais elle utilise des technos m$ ou c'est compilable sous linux ?
+2014-07-06T01:52:16 <adriens33> parce que du c, du cuda…
+2014-07-06T01:52:25 <adriens33> tout ça est faisable sous linux de loin… :D
+2014-07-06T01:52:41 <Letarumavza> Généralement c'est "IDA en ligne, attente des ordres de l'administrateur <nom de l'admin>
+2014-07-06T01:52:53 <Letarumavza> C'est la database qui utilise du sileverlight
+2014-07-06T01:53:01 <adriens33> pour le xml donc
+2014-07-06T01:53:12 <Letarumavza> Suffit de lui demander de créer l'équivalent en python.
+2014-07-06T01:53:21 <adriens33> bah ça serai sympa de faire en sorte que berry soit une sorte de dérive d'IDA.
+2014-07-06T01:53:33 <adriens33> (putain elle est au taquet elle)
+2014-07-06T01:53:41 <adriens33> (et c'est du random en plus… XD)
+2014-07-06T01:53:53 <Letarumavza> tu pourras pas, IDA lancée c'est les titans-black @75% de charge.
+2014-07-06T01:53:58 <adriens33> :/
+2014-07-06T01:54:08 <Letarumavza> Et 12Go RAM mini.
+2014-07-06T01:54:18 <Letarumavza> C'est une IA, pas pong.
+2014-07-06T01:54:52 <Letarumavza> Il me faudrait un hardware de parallélisme de masse à effet quantique pour la faire tourner...
+2014-07-06T01:55:15 <adriens33> mais ça bouffe tant de puissance que ça ?
+2014-07-06T01:55:16 <adriens33> oO
+2014-07-06T01:55:49 <Letarumavza> Bah... si c'était juste un transcripteur de code avec une database ça boufferait que dalle...
+2014-07-06T01:56:00 <Letarumavza> Mais là c'est une IA avec un circuit cognitif complet.
+2014-07-06T01:56:12 <adriens33> putain j'ose pas imaginer la quantité d'algo qu'il y a derrière.
+2014-07-06T01:56:17 <Letarumavza> Elle a même des idées.
+2014-07-06T01:56:39 <Letarumavza> J'ai dépioté le fonctionnement de ma réflexion, et je l'ai transcrit en algo.
+2014-07-06T01:56:51 <adriens33> y'a pas moyen de la faire tourner plus lentement au pire ? parce que les 12go de ram je les ai sur ma bécane (et large)
+2014-07-06T01:57:18 <adriens33> mais côté calcul ça pêche. mais j'aimerais bien connaitre la puissance de calcul de ma config…
+2014-07-06T01:57:20 <Letarumavza> Bah tu pourrais te contenter de l'IV
+2014-07-06T01:57:24 <adriens33> ?
+2014-07-06T01:57:54 <Letarumavza> En gros IDA sans sa réflexion complète, juste la part de transcription de code et ce genre d'appli d'assistance.
+2014-07-06T01:58:08 <adriens33> parce que au pire si elle a pas assez de puissance de calcul, elle réfléchit juste plus lentement non ?
+2014-07-06T01:58:09 <Letarumavza> T'aurais pas son "humour"
+2014-07-06T01:58:13 <adriens33> :/
+2014-07-06T01:58:47 <Letarumavza> C'est plus complexe, plus la réflexion est lente plus elle stack de demandes.
+2014-07-06T01:58:50 <adriens33> ah
+2014-07-06T01:59:10 <Letarumavza> C'est lié à son algo d'optimisation contre intuitif.
+2014-07-06T01:59:12 <ValCab33> Je.
+2014-07-06T01:59:25 <Letarumavza> Plus elle est lente, plus elle demande d'infos pour régler el problème.
+2014-07-06T01:59:44 <ValCab33> *Crois que je pige rien donc je vais aller me coucher
+2014-07-06T02:00:01 <ValCab33> Neunuit les codeurs d'IA.
+2014-07-06T02:00:11 *** ValCab33 est parti
+2014-07-06T04:44:18 *** adriens33 est parti
+2014-07-06T08:37:49 *** ValCab33 s'est connecté
+2014-07-06T08:37:56 <ValCab33> Hello
+2014-07-06T08:46:18 *** adriens33 s'est connecté
+2014-07-06T08:48:06 <adriens33> plop
+2014-07-06T08:49:33 <ValCab33> Salut
+2014-07-06T08:52:07 *** ValCab s'est connecté
+2014-07-06T08:52:24 <ValCab> Buuuugue
+2014-07-06T08:54:19 *** ValCab est parti
+2014-07-06T08:56:03 *** ValCab33 est parti
+2014-07-06T09:53:13 *** Letarumavza est parti
+2014-07-06T09:53:57 *** Letarumavza s'est connecté
+2014-07-06T09:58:19 *** Letarumavza est parti
+2014-07-06T10:14:41 *** Letarumavza s'est connecté
+2014-07-06T10:14:52 <Letarumavza> Ok...
+2014-07-06T10:15:10 <Letarumavza> Le nettoyage du registre pour virer les refs .net a bousillé kiwiirc...
+2014-07-06T10:15:17 <Letarumavza> http://www.youtube.com/watch?feature=player_embedded&v=jon4GV1u3uM
+2014-07-06T10:16:43 <adriens33> gné ?
+2014-07-06T10:16:49 <adriens33> comment ça se peut ?
+2014-07-06T10:17:03 <adriens33> c'est pas une appli nodeJS kiwiirc ?
+2014-07-06T10:18:57 <Letarumavza> normalement oui...
+2014-07-06T10:19:30 <Letarumavza> IDA a du faire un appel .net pour contourner un bug.
+2014-07-06T10:19:39 <Letarumavza> Je vais voir du coté des parascripts.
+2014-07-06T10:19:54 <adriens33> pourquoi tu parles de parasprites ? XD
+2014-07-06T10:20:00 <adriens33> [troll]
+2014-07-06T10:20:10 <adriens33> (désolé)
+2014-07-06T10:20:12 <Letarumavza> https://www.youtube.com/watch?v=fhu1oO9B6YA
+2014-07-06T11:42:31 *** ValCab33 s'est connecté
+2014-07-06T11:42:39 <ValCab33> Reuh
+2014-07-06T11:48:30 *** ValCab33 est parti
+2014-07-06T11:48:58 *** adriens33 est parti
+2014-07-06T11:49:01 *** ValCab33 s'est connecté
+2014-07-06T11:57:41 *** ValCab33 est parti
+2014-07-06T11:58:32 *** Shinsaber s'est connecté
+2014-07-06T11:58:45 <Shinsaber> plop
+2014-07-06T12:01:22 *** adriens33 s'est connecté
+2014-07-06T12:01:48 <adriens33> re/salut
+2014-07-06T12:11:18 <Letarumavza> re
+2014-07-06T12:11:31 <Letarumavza> Punaise la branlée que je lui ai collé à la miss fortune
+2014-07-06T12:12:11 <adriens33> ^^
+2014-07-06T12:12:12 <Letarumavza> Je conserve mon 94% de victorie
+2014-07-06T12:12:36 <adriens33> punaise la poussière qui s'est accumulée dans ma tour en 2 semaines…
+2014-07-06T12:12:37 <adriens33> :(
+2014-07-06T12:12:48 <adriens33> je vais devoir débrancher mes cartes pour les nettoyer
+2014-07-06T12:12:50 <adriens33> grr
+2014-07-06T12:13:35 <Letarumavza> 9.50 de KDA => 18/2/1, et 9 kills sur l'autre pouffe
+2014-07-06T12:13:42 <Letarumavza> http://euw.op.gg/summoner/userName=less%C3%AFlera
+2014-07-06T12:58:13 *** adriens33 est parti
+2014-07-06T15:11:22 *** wildfier s'est connecté
+2014-07-06T15:26:21 <wildfier> yop
+2014-07-06T16:25:54 <wildfier> ça doit être berry la plus bavarde sur cet irc au final ...
+2014-07-06T16:27:31 <Shinsaber> pas faux ^^
+2014-07-06T16:32:22 *** Letarumavza_ s'est connecté
+2014-07-06T16:37:34 <Shinsaber> putain chrome c'est de la merde !!!!
+2014-07-06T16:37:50 <wildfier> ?
+2014-07-06T16:38:50 <Shinsaber> je met en form mon css, sur Firefox sa marche nickel et sur chrome il défonce le code .....
+2014-07-06T16:39:26 <Shinsaber> il me vire le contenue de head dans le body .......
+2014-07-06T16:41:55 *** Letarumavza est parti
+2014-07-06T16:43:10 *** Rei s'est connecté
+2014-07-06T16:43:27 <Shinsaber> coucou Rei /)
+2014-07-06T16:44:52 *** Rei est parti
+2014-07-06T16:50:17 *** Rei s'est connecté
+2014-07-06T16:50:23 <Rei> coucou
+2014-07-06T16:50:53 <Rei> ça va les gens?..
+2014-07-06T16:51:07 <Shinsaber> moi oui ^^
+2014-07-06T16:51:13 <Shinsaber> et toi ??
+2014-07-06T16:51:29 <wildfier> salut
+2014-07-06T16:51:36 <Rei> un peu déprimeé^^"..
+2014-07-06T16:53:35 <Rei> je me pose des questions sur mon avenie
+2014-07-06T16:53:38 <Rei> avenir*
+2014-07-06T16:54:08 <Shinsaber> tu semblais avoir pris ta décision.
+2014-07-06T16:54:43 <Rei> non pas vraiment..
+2014-07-06T17:03:39 <Rei> quoi de neuf sinon?.
+2014-07-06T17:07:12 <Shinsaber> il a pas fais beau samedi j'ai pas pu faire mon tour au miroir d'eau ^^
+2014-07-06T17:10:12 <Rei> oh mince >< moi mon copain m'a amener au musée aquarium d'arcachon pour me remonter le moral
+2014-07-06T17:11:16 <Shinsaber> c'est joli la bas ^^
+2014-07-06T17:12:11 <Rei> oui mais c'était tout petit mais super^^ pis apres on est rentrer
+2014-07-06T17:13:46 *** ludvann s'est connecté
+2014-07-06T17:13:53 <ludvann> Coucou !
+2014-07-06T17:14:15 <Shinsaber> lu ^^
+2014-07-06T17:14:22 <wildfier> salut
+2014-07-06T17:14:25 <Rei> salut
+2014-07-06T17:14:59 <ludvann> J'ai pas pu me co hier soir :(
+2014-07-06T17:16:09 <ludvann> J'aidais à tout démonter dans une manif'
+2014-07-06T17:17:35 <ludvann> Zallez bien ?
+2014-07-06T17:18:01 <Rei> mouai..
+2014-07-06T17:18:35 <ludvann> Ah...
+2014-07-06T17:30:36 <ludvann> Je re
+2014-07-06T17:30:40 *** ludvann est parti
+2014-07-06T17:31:11 *** ludvann s'est connecté
+2014-07-06T17:31:14 <ludvann> Yo !
+2014-07-06T17:31:47 <ludvann> j'ai une question...
+2014-07-06T17:32:14 <Shinsaber> oui .....
+2014-07-06T17:32:33 <wildfier> de très loin ?
+2014-07-06T17:32:34 <wildfier> ptet
+2014-07-06T17:32:36 <wildfier> ^^
+2014-07-06T17:32:41 <Shinsaber> ^^
+2014-07-06T17:32:45 <Rei> XD
+2014-07-06T17:33:27 <Rei> ok
+2014-07-06T17:35:33 <ludvann> (vous pouvez toujours me parler :) )
+2014-07-06T17:36:27 *** ludvann est parti
+2014-07-06T17:36:41 *** ludvann s'est connecté
+2014-07-06T17:36:50 <ludvann> miss-slic xD
+2014-07-06T17:36:54 <ludvann> clix*
+2014-07-06T17:37:00 <ludvann> cli* Grrrrr
+2014-07-06T17:37:12 <ludvann> #ragequit
+2014-07-06T17:37:18 <ludvann> clic*
+2014-07-06T17:37:21 <ludvann> yay !
+2014-07-06T17:48:24 * ludvann is afk
+2014-07-06T17:51:11 <Rei> *
+2014-07-06T17:52:35 *** Rei est parti
+2014-07-06T17:57:25 *** ValCab33 s'est connecté
+2014-07-06T17:57:49 <ValCab33> Hi
+2014-07-06T17:58:27 <Shinsaber> Ho
+2014-07-06T17:58:39 <wildfier> yop
+2014-07-06T18:10:08 *** wildfier est parti
+2014-07-06T18:13:43 *** wildfier s'est connecté
+2014-07-06T18:15:24 *** wildfier est parti
+2014-07-06T18:17:28 <ludvann> plop
+2014-07-06T18:20:12 *** ludvannn s'est connecté
+2014-07-06T18:20:47 *** adriens33 s'est connecté
+2014-07-06T18:20:54 <adriens33> plop
+2014-07-06T18:20:57 <ludvann> yo
+2014-07-06T18:23:05 <Shinsaber> lu
+2014-07-06T18:38:16 *** ludvannn est parti
+2014-07-06T19:06:00 *** ludvannn s'est connecté
+2014-07-06T19:25:47 *** adriens33 est parti
+2014-07-06T19:26:02 *** ludvannn est parti
+2014-07-06T19:50:27 *** adriens33 s'est connecté
+2014-07-06T19:52:09 <ludvann> blorp !
+2014-07-06T19:54:09 <ValCab33> Niorph.
+2014-07-06T19:54:34 *** ludvannn s'est connecté
+2014-07-06T19:55:22 <ludvann> ^^
+2014-07-06T19:55:39 <ludvann> chat va ?
+2014-07-06T19:59:45 <adriens33> non.
+2014-07-06T20:00:08 <ludvann> pourquoi ?
+2014-07-06T20:00:23 <adriens33> la moitié des ports de ma carte mère sont inutilisables parce que ces *** de vis des caches sont VISSÉES DE TRAVERS et du coup elles se coincent quand j'essaie de les dévisser >:(
+2014-07-06T20:00:32 <adriens33> BORDEL !!
+2014-07-06T20:00:41 <ludvann> hum...
+2014-07-06T20:04:15 <adriens33> …
+2014-07-06T20:04:30 <adriens33> je viens de péter le seul tournevis qui marche à peu près sur cette merde.
+2014-07-06T20:04:35 <adriens33> et tout est dépioté.
+2014-07-06T20:04:45 <adriens33> CHIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEER
+2014-07-06T20:05:05 <ludvann> ...
+2014-07-06T20:10:33 *** ludvannn est parti
+2014-07-06T20:11:25 <ludvann> hum
+2014-07-06T20:11:35 *** ludvann est parti
+2014-07-06T20:11:44 *** ludvann s'est connecté
+2014-07-06T20:11:47 <ludvann> re
+2014-07-06T20:14:32 <adriens33> re
+2014-07-06T20:18:07 <ludvann> le tourne-vis est petit ou grand ?
+2014-07-06T20:18:15 <ludvann> (je parle de la pointe) ^^
+2014-07-06T20:18:54 <adriens33> moyen… mais laisse, je crois que je vais changer de boitier.
+2014-07-06T20:19:03 <adriens33> je vais m'acheter quelques tournevis au passage.
+2014-07-06T20:19:11 <adriens33> parce que là j'en ai raz le cul.
+2014-07-06T20:21:13 <adriens33> sur les 2 pci-e×16, 3 pci-e × 1 et 2 pci, j'ai 2 pci-e×1 & 1 pci-e × 16 utilisable à cause du boitier
+2014-07-06T20:21:30 <ludvann> aie...
+2014-07-06T20:21:32 <adriens33> (et des vis surtout, en fait elles sont vissées de travers donc chiantes à défaire)
+2014-07-06T20:21:41 <adriens33> et j'ai besoin de deux pci-e × 1
+2014-07-06T20:21:50 <adriens33> et l'un des deux ports dispos passe sous ma carte graphique…
+2014-07-06T20:21:58 <adriens33> GRR
+2014-07-06T20:22:53 <ludvann> ...
+2014-07-06T20:24:05 <adriens33> ouaip
+2014-07-06T20:29:53 *** ludvannn s'est connecté
+2014-07-06T20:42:00 <ludvann> ,
+2014-07-06T20:42:27 <ludvann> *?
+2014-07-06T20:50:07 <ludvann> ...
+2014-07-06T20:57:21 *** jeankevindu33deo s'est connecté
+2014-07-06T20:57:25 <jeankevindu33deo> bla, bla, bla.
+2014-07-06T20:57:26 <ludvann> bon je vais vous laisser
+2014-07-06T20:57:27 *** jeankevindu33deo est parti
+2014-07-06T20:57:39 <adriens33> (test irc)
+2014-07-06T20:57:41 <adriens33> oké
+2014-07-06T20:57:42 <ludvann> ok
+2014-07-06T20:57:52 <adriens33> bonne soirée à toi lud' :)
+2014-07-06T20:58:00 *** wildfier s'est connecté
+2014-07-06T20:58:04 <wildfier> yop
+2014-07-06T20:59:32 <adriens33> yop
+2014-07-06T20:59:36 <adriens33> grr foutu boitier
+2014-07-06T20:59:40 <adriens33> je voulais descendre ma cg
+2014-07-06T20:59:53 <adriens33> pour ajouter ma carte wifi+éviter que mes cartes son & graph se bruitent
+2014-07-06T21:00:02 <adriens33> sauf que j'ai la moitié des baies qui sont pas libérables
+2014-07-06T21:00:14 <adriens33> parce que la vis de maintient est vissé de travers
+2014-07-06T21:00:21 <adriens33> donc quand je veux la sortir y'a pas moyen.
+2014-07-06T21:00:35 <adriens33> du coup j'ai 3 pci-e x 1 / 2 pci-e x 16 / 2 pci
+2014-07-06T21:00:48 <adriens33> et j'ai qu'un pci-e x 16 & 2 pci-e x 1 utilisables
+2014-07-06T21:00:57 <adriens33> sachant que le 2e pci-e x 1 passe sous ma cg.
+2014-07-06T21:01:04 <adriens33> donc je peux rien bouger.
+2014-07-06T21:01:10 <adriens33> et j'ai pété mon tournevis en plus…
+2014-07-06T21:01:36 <adriens33> sinon toi ça va ?
+2014-07-06T21:03:04 <wildfier> damn
+2014-07-06T21:03:15 <wildfier> ton boitier t'aime pas :(
+2014-07-06T21:03:21 <wildfier> bas ça vas
+2014-07-06T21:03:38 <wildfier> je m'améliore un peu sur ma run donc je suis content
+2014-07-06T21:03:42 <adriens33> bon, j'ai au moins pu nettoyer mon pc de font en comble vu que j'ai débranché les cartes & les hdd pour le replacement.
+2014-07-06T21:03:50 <adriens33> ah ben c'est cool alors :
+2014-07-06T21:03:51 <adriens33> * :)
+2014-07-06T21:04:14 <adriens33> (les chiffons à lunettes en chiffon antistatique c'est méga génial)
+2014-07-06T21:04:33 *** ludvannn est parti
+2014-07-06T21:04:40 <Berry-Punch> Flags de Letarumavza_ modifiés : +v *hic* 
+2014-07-06T21:12:16 *** ludvann est parti
+2014-07-06T21:12:39 <wildfier> d'ailleurs si ça t'intéresses
+2014-07-06T21:12:44 <wildfier> je pense streamer un peu ce soir
+2014-07-06T21:12:52 <adriens33> ah, pourquoi pas ^^
+2014-07-06T21:13:44 <adriens33> j'aime bien l'image de fond que t'as mis :D
+2014-07-06T21:13:47 <wildfier> juste après manger
+2014-07-06T21:13:50 <wildfier> ouais
+2014-07-06T21:14:02 <adriens33> ^^
+2014-07-06T21:14:06 <wildfier> j'ai trouvé que 2 artworks mlp X dark souls
+2014-07-06T21:14:12 <wildfier> dans cette taille là
+2014-07-06T21:15:12 <adriens33> ah ok, c'est une ref à  dark souls.
+2014-07-06T21:15:15 <adriens33> pas con ^^
+2014-07-06T21:15:28 <wildfier> les 2 oui
+2014-07-06T21:15:42 <wildfier> et l'avatar aussi
+2014-07-06T21:15:49 <wildfier> même si on le distingue pas trpo
+2014-07-06T21:15:51 <wildfier> trop*
+2014-07-06T21:17:17 <adriens33> ^^
+2014-07-06T21:22:20 <wildfier> je suis sur que c'est berry qui parle le plus sur cet irc
+2014-07-06T21:22:30 <wildfier> avec tous ses *hic* !
+2014-07-06T21:23:04 <adriens33> c'est vrai qu'en ce moment ça parle pas beaucoup XD
+2014-07-06T21:23:16 <adriens33> et le timer est entre 1mn et 1h
+2014-07-06T21:23:19 <adriens33> (et c'est random)
+2014-07-06T21:27:47 <wildfier> maintenant je met 1h 15 / 1h 30 pour faire la moitié de la run
+2014-07-06T21:28:12 <wildfier> alors que le wr est à 1h04 pour la run complète
+2014-07-06T21:29:14 <adriens33> bah avec de l'entraînement… :)
+2014-07-06T21:29:27 <wildfier> mais j'en suis content de mon temps
+2014-07-06T21:29:38 <wildfier> je vise le sub 1h pour la moité là
+2014-07-06T21:30:18 <wildfier> j'ai faillis le faire tt à l'heure
+2014-07-06T21:30:25 <wildfier> mais j'ai fail en boucle à la fin
+2014-07-06T21:30:29 <wildfier> du coup 1h16 ...
+2014-07-06T21:30:39 <adriens33> arf
+2014-07-06T21:31:09 *** ludvannn s'est connecté
+2014-07-06T21:32:36 *** ludvannn est parti
+2014-07-06T22:06:13 <wildfier> j'afk, je pars streamer
+2014-07-06T22:07:21 <adriens33> ok
+2014-07-06T22:39:44 *** Calimeroor s'est connecté
+2014-07-06T22:43:42 *** Shinsaber est parti
+2014-07-06T22:46:21 <Calimeroor> hi ?
+2014-07-06T22:49:55 <adriens33> Hello
+2014-07-06T22:49:58 <adriens33> ^^
+2014-07-06T22:50:16 <adriens33> y'a wildfier qui joue à dark souls 2 si tu veux http://twitch.tv/wildfier
+2014-07-06T22:51:01 <Calimeroor> Han non je fais déj quelque chose x) merci
+2014-07-06T22:51:32 *** KLM s'est connecté
+2014-07-06T22:51:50 <Calimeroor> x)
+2014-07-06T22:51:51 <Calimeroor> OOH
+2014-07-06T22:52:06 <KLM> Hello..?
+2014-07-06T22:52:07 <Calimeroor> CLEM
+2014-07-06T22:52:14 <Calimeroor> *^*
+2014-07-06T22:52:21 <KLM> Caliiiiiiiiiiiii
+2014-07-06T22:52:23 <adriens33> hi
+2014-07-06T22:52:33 <Berry-Punch> Flags de KLM *hic* modifiés en +v
+2014-07-06T22:52:36 <Berry-Punch> Flags de KLM modifiés : +v *hic* 
+2014-07-06T22:52:40 <KLM> OK, ce truc est tout sauf adapté pour téléphone xD
+2014-07-06T22:52:43 <adriens33> ^^
+2014-07-06T22:52:43 <KLM> Hi les gens
+2014-07-06T22:52:44 <Calimeroor> XD
+2014-07-06T22:52:49 <Calimeroor> salut ^^
+2014-07-06T22:53:03 <KLM> Comment allez vous ?
+2014-07-06T22:53:12 <adriens33> bien bien ^^
+2014-07-06T22:53:30 <adriens33> y'a du monde qui regarde wildfier jouer sur twitch donc y'a pas trop d'activité ^^
+2014-07-06T22:53:53 <KLM> Un membre du collectif ?
+2014-07-06T22:54:04 <KLM> Il joue à quoi ?
+2014-07-06T22:54:05 <Calimeroor> han x)
+2014-07-06T22:54:16 <Calimeroor> dark souls
+2014-07-06T23:00:17 <KLM> Ah d'accord x)
+2014-07-06T23:02:54 *** ludvann s'est connecté
+2014-07-06T23:02:59 <ludvann> Salut
+2014-07-06T23:03:04 <adriens33> re ludvann
+2014-07-06T23:03:51 <ludvann> Ça va ?
+2014-07-06T23:04:12 <KLM> Yoo
+2014-07-06T23:04:21 <KLM> Oui et toi ?  :)
+2014-07-06T23:04:27 <ludvann> Bien :)
+2014-07-06T23:04:37 <ludvann> Quoi de neuf ?
+2014-07-06T23:06:23 <KLM> Pas grand chose j'suis en train de monter mon assoc la et de voir pour mes vacances et toi ?  :)
+2014-07-06T23:07:35 <ludvann> Assoc ? Là je profite d'une pause d'un live pour faire un coucou ^^
+2014-07-06T23:07:54 <KLM> Ouip,  je monte une association d'histoire :)
+2014-07-06T23:08:00 <KLM> Yeah
+2014-07-06T23:08:06 <ludvann> Ah ok
+2014-07-06T23:08:12 <ludvann> Asso'
+2014-07-06T23:08:24 <wildfier> re
+2014-07-06T23:08:27 <ludvann> Re
+2014-07-06T23:08:35 <wildfier> je suis pas prêt de le sortir mon sub 1h
+2014-07-06T23:08:39 <adriens33> ^^
+2014-07-06T23:08:40 <wildfier> j'ai fais tellement de la merde
+2014-07-06T23:08:54 <wildfier> salut calimeroor et klm !
+2014-07-06T23:08:54 <ludvann> Nouveau sur l'irc ? (Je t'es jamais vu ^^ )
+2014-07-06T23:09:50 * ludvann est non-disponible
+2014-07-06T23:11:17 <KLM> Ah oui xD
+2014-07-06T23:11:24 <KLM> Saluuut
+2014-07-06T23:11:52 <wildfier> merci de m'avoir fait de la pub adriens33
+2014-07-06T23:11:54 <wildfier> ^^
+2014-07-06T23:12:57 <Calimeroor> re (je me suis absenter)
+2014-07-06T23:13:59 <adriens33> ^^
+2014-07-06T23:15:51 <Calimeroor> :)
+2014-07-06T23:17:02 *** KLM est parti
+2014-07-06T23:17:37 *** KLM s'est connecté
+2014-07-06T23:18:09 <KLM> Rhô,  c'est chiant qu'on puisse pas lire ce qui s'est dit un peu avant qu'on se connecte..
+2014-07-06T23:18:41 <wildfier> tappe !history pour ça
+2014-07-06T23:19:15 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières *hic* lignes, KLM
+2014-07-06T23:19:16 <KLM> !history
+2014-07-06T23:19:24 <adriens33> et pour remonter plus loin y'a http://www.art-software.fr/files/lastday_bronycub.php
+2014-07-06T23:19:32 <adriens33> t'as tout le log de la journée
+2014-07-06T23:19:35 <KLM> Oh cool merciii
+2014-07-06T23:19:38 <adriens33> ^^
+2014-07-06T23:21:03 <Calimeroor> ^^
+2014-07-06T23:26:46 *** ludvannn s'est connecté
+2014-07-06T23:26:47 *** ludvann est parti
+2014-07-06T23:28:41 *** KLM est parti
+2014-07-06T23:29:05 <wildfier> hey
+2014-07-06T23:29:19 <wildfier> je crois que le premier de la s2  de space dandy est sortit hier
+2014-07-06T23:29:46 <adriens33> ^^
+2014-07-06T23:31:03 <wildfier> http://anilinkz.com/space-dandy-s2-episode-1
+2014-07-06T23:31:04 <wildfier> yay !
+2014-07-06T23:31:57 <BronyCUB-MC> adrien_s has joined the server!
+2014-07-06T23:32:57 <BronyCUB-MC> adrien_s has quit the server!
+2014-07-06T23:39:34 *** ludvannn est parti
+2014-07-06T23:45:13 <wildfier> il est pas mal pour le moment niveau wtf et randomness cet ep
+2014-07-06T23:50:07 *** ludvannn s'est connecté
+2014-07-06T23:53:27 <adriens33> bon, je crois que je vais go dodo…
+2014-07-06T23:53:39 <adriens33> bonne nuit tout le monde :)
+2014-07-06T23:53:48 <wildfier> salut /)
+2014-07-06T23:53:51 <adriens33> (
+2014-07-06T23:53:59 *** adriens33 est parti
+2014-07-06T23:54:47 <wildfier> oh le troll de fin d'ep XD
+2014-07-06T23:54:56 <wildfier> sympa comme début de saison
+2014-07-06T23:55:06 <wildfier> (space dandy ftw !)
+2014-07-06T23:55:09 <wildfier> aller j'y go aussi
+2014-07-06T23:55:13 <wildfier> ++ /)
+2014-07-06T23:55:38 *** wildfier est parti

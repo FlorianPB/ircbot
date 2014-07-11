@@ -1,10 +1,10 @@
 IN_IDX
+\#bronycub.log
 in_buffer*
 in_lnk
 OUT_IDX
 out_buffer*
 out_lnk
-*.log
 pidfile
 .Trash/*
 .bash_history

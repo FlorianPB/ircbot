@@ -1,0 +1,871 @@
+2014-07-10T05:00:08 *** Letarumavza s'est connecté
+2014-07-10T05:14:59 <Letarumavza> Hey berry, on va jouer à un jeu
+2014-07-10T05:15:08 <Letarumavza> à "je te pousse ta mémoire"
+2014-07-10T05:16:40 <Letarumavza> ff d8 ff e1 27 94 45 78 69 66 20 20 4d 4d 20 2a 20 20 20 08 20 07 01 12 20 03 20 20 20 01 20 01 20 20 01 1a 20 05 20 20 20 01 20 20 20 62 01 1b 20 05 20 20 20 01 20 20 20 6a 01 28 20 03 20 20 20 01 20 02 20 20 01 31 20 02 20 20 20 1e 20 20 20 72 01 32 20 02 20 20 20 14 20 20 20 90 87 69 20 04 20 20 20 01 20 20 20 a4 20 20 20 d0 20 0a fc 80 20 20 27
+2014-07-10T05:16:41 <Letarumavza>  10 20 0a fc 80 20 20 27 10 41 64 6f 62 65 20 50 68 6f 74 6f 73 68 6f 70 20 43 53 36 20 28 57 69 6e 64 6f 77 73 29 20 32 30 31 33 3a 30 31 3a 32 37 20 31 38 3a 31 31 3a 35 32 20 20 03 a0 01 20 03 20 20 20 01 20 01 20 20 a0 02 20 04 20 20 20 01 20 20 07 80 a0 03 20 04 20 20 20 01 20 20 04 38 20 20 20 20 20 20 20 06 01 03 20 03 20 20 20 01 20 06 20 2
+2014-07-10T05:16:41 <Letarumavza> 0 01 1a 20 05 20 20 20 01 20 20 01 1e 01 1b 20 05 20 20 20 01 20 20 01 26 01 28 20 03 20 20 20 01 20 02 20 20 02 01 20 04 20 20 20 01 20 20 01 2e 02 02 20 04 20 20 20 01 20 20 26 5e 20 20 20 20 20 20 20 48 20 20 20 01 20 20 20 48 20 20 20 01 ff d8 ff e2 0c 58 49 43 43 5f 50 52 4f 46 49 4c 45 20 01 01 20 20 0c 48 4c 69 6e 6f 02 10 20 20 6d 6e 74 72
+2014-07-10T05:16:41 <Letarumavza> 52 47 42 20 58 59 5a 20 07 ce 20 02 20 09 20 06 20 31 20 20 61 63 73 70 4d 53 46 54 20 20 20 20 49 45 43 20 73 52 47 42 20 20 20 20 20 20 20 20 20 20 20 20 20 20 f6 d6 20 01 20 20 20 20 d3 2d 48 50 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 11 63
+2014-07-10T05:16:41 <Letarumavza>  70 72 74 20 20 01 50 20 20 20 33 64 65 73 63 20 20 01 84 20 20 20 6c 77 74 70 74 20 20 01 f0 20 20 20 14 62 6b 70 74 20 20 02 04 20 20 20 14 72 58 59 5a 20 20 02 18 20 20 20 14 67 58 59 5a 20 20 02 2c 20 20 20 14 62 58 59 5a 20 20 02 40 20 20 20 14 64 6d 6e 64 20 20 02 54 20 20 20 70 64 6d 64 64 20 20 02 c4 20 20 20 88 76 75 65 64 20 20 03 4c 20 2
+2014-07-10T05:16:42 *** Letarumavza est parti
+2014-07-10T05:17:06 *** Letarumavza s'est connecté
+2014-07-10T05:17:42 <Letarumavza> Berry alcool ?
+2014-07-10T05:17:42 <Berry-Punch> Tu *hic* en as pour moi Letarumavza ?
+2014-07-10T07:13:54 <Berry-Punch> Voilà ce *hic* qu'il s'est passé ces 10 dernières lignes, adriens33
+2014-07-10T07:13:56 *** adriens33 s'est connecté
+2014-07-10T07:31:52 <Letarumavza> salut
+2014-07-10T07:32:33 <adriens33> hello
+2014-07-10T07:32:34 <adriens33> :)
+2014-07-10T07:32:54 <adriens33> dis, j'ai regardé le truc en hexa que t'as donné à berry, c'est un bout de jpeg ça :p
+2014-07-10T07:33:12 <Letarumavza> Yep
+2014-07-10T07:33:21 <adriens33> c'était pour quoi faire ?
+2014-07-10T07:33:47 <Letarumavza> Test de si une trace hexa était directement kick du serveur ou transmise avant.
+2014-07-10T07:34:13 <adriens33> pourquoi kick ?
+2014-07-10T07:34:35 <adriens33> berry l'a reçue, et me l'a bien envoyé gentiment quand je me suis connecté et que j'ai fait !history :)
+2014-07-10T07:35:28 <Letarumavza> Bah en gros, en utilisant une grille de connexion et en balançant une chaine hexa particulière je peux induire une action de berry, comme de paramétrer son netcat pour m'ouvrir une voie.
+2014-07-10T07:35:44 <adriens33> heuh ?
+2014-07-10T07:35:50 <adriens33> c'est dans netcat ça ?
+2014-07-10T07:36:04 <Letarumavza> Bah c'est simplement une faille du ram management de linux
+2014-07-10T07:36:08 <adriens33> oulà
+2014-07-10T07:36:35 <Letarumavza> On peut push une adresse ram sur une autre et faire un recouvrement en enregistrant une chaîne hexa contenant les adresses et les codes d'activation.
+2014-07-10T07:36:58 <adriens33> ah ouais…
+2014-07-10T07:37:21 <Letarumavza> C'est lié au ram management de linux et à sa routine de surcharement ram anti plantage.
+2014-07-10T07:37:34 <adriens33> ok
+2014-07-10T07:37:43 <Letarumavza> sur windows la même manip est au mieux refusée, au pire induit un BSOD suivant les adresses touchées
+2014-07-10T07:37:53 <adriens33> ah…
+2014-07-10T07:37:58 <Letarumavza> (refusée si ram user space, crash si system)
+2014-07-10T07:38:24 <adriens33> c'est… ennuyeux.
+2014-07-10T07:38:29 <Letarumavza> Euh...
+2014-07-10T07:38:38 <adriens33> enfin… ça dépend pour qui :p
+2014-07-10T07:38:44 <Letarumavza> On doit être une vingtaine à tout casser à savoir faire ce genre de tricks
+2014-07-10T07:38:49 <adriens33> mais tu sais, au lieu de rentrer par la fenêtre si tu veux les clés pour rentrer par la porte ça peut se faire :)
+2014-07-10T07:39:07 <Letarumavza> C'est moins fun ^^
+2014-07-10T07:39:19 <adriens33> bah avec les clés t'aurais ptet de quoi t'amuser non ?
+2014-07-10T07:39:24 <adriens33> tant que tu casses rien… ^^
+2014-07-10T07:39:37 <Letarumavza> Linux est une putain de passoire codé ram/instruction cpu
+2014-07-10T07:39:44 <adriens33> ouch
+2014-07-10T07:39:48 <adriens33> ça je savais pas
+2014-07-10T07:40:06 <Letarumavza> Comme il n'est pas doté de routines de plantage et de vérifications (pour gagner de la puissance) beaucoup d'abus sont possibles.
+2014-07-10T07:40:23 <Letarumavza> Pour faire simple :
+2014-07-10T07:40:36 <Letarumavza> Le mot de passe root est tout le temps dans la ram sous linux
+2014-07-10T07:40:39 <adriens33> …
+2014-07-10T07:40:45 <adriens33> seriously ?
+2014-07-10T07:40:49 <Letarumavza> Et on peut induire une commande via une chaîne ascII
+2014-07-10T07:40:59 <Letarumavza> (oui, sinon tu pourrais pas sudo espèce de nouille)
+2014-07-10T07:41:33 <adriens33> ben sudo est pas sensé garder le mdp en ram… /etc/shadow ça sert pas pour les chiens.
+2014-07-10T07:41:42 <Letarumavza> Donc en envoyant la bonne string ASCII (en hexa pour dump la ram) je pourrais théoriquement remplacer le "hic" de berry par le mdp root
+2014-07-10T07:41:58 <adriens33> heu… si tu pouvais éviter… ^^
+2014-07-10T07:42:00 <Letarumavza> C'est extrêmement complexe, mais c'est possible.
+2014-07-10T07:42:22 <Letarumavza> (et si je devais faire une modif induite je le remplacerai par un "petite bite"
+2014-07-10T07:42:49 <Letarumavza> Le plus grande force de linux est aussi sa plus grande faiblesse
+2014-07-10T07:43:13 <Letarumavza> La faible redondance et le code source disponibles rendent le piratage plus facilement réalisable que sur windows.
+2014-07-10T07:43:34 <Letarumavza> Cependant les toolz n'existent quasi que pour win, pour des raison de potentiel cible.
+2014-07-10T07:43:39 <adriens33> forcément
+2014-07-10T07:43:48 <adriens33> y'a plus de cibles ^
+2014-07-10T07:43:49 <adriens33> * ^^
+2014-07-10T07:44:00 <Letarumavza> (Et aussi parce que quand on hack en partant d'un linux on fait toujours ça à base de live CD, rendant la riposte adverse impossible)
+2014-07-10T07:44:23 <Letarumavza> Bite, front, tout ça tout ça...
+2014-07-10T07:44:28 <adriens33> XD
+2014-07-10T07:44:30 <adriens33> bon, par contre désolé, je vais devoir go, j'ai mon bus à prendre… on continue cette discu tout à l'heure ?
+2014-07-10T07:44:37 <Letarumavza> np ^^
+2014-07-10T07:44:44 <Letarumavza> Je vais me taper le reste de ziande tien ^^
+2014-07-10T07:44:50 <Letarumavza> +
+2014-07-10T07:44:51 <adriens33> bon app :p
+2014-07-10T07:44:52 *** adriens33 est parti
+2014-07-10T08:51:45 *** Rei s'est connecté
+2014-07-10T08:52:08 <Rei> chalut..
+2014-07-10T08:53:28 <Letarumavza> salut
+2014-07-10T08:53:35 <Rei> vava?..
+2014-07-10T08:53:44 <Letarumavza> Yep
+2014-07-10T08:53:47 <Letarumavza> Et toi ?
+2014-07-10T08:54:21 <Rei> bof.. j'ai vraiment très mal dormi..
+2014-07-10T08:54:30 <Letarumavza> ah ?
+2014-07-10T08:54:52 <Rei> vii.. j'ai fais que cauchemarder..
+2014-07-10T08:55:06 <Letarumavza> arf
+2014-07-10T08:55:10 <Rei> eum demain quand j'arriverai tu ne sera pas encore rentrée du dentiste c'est ça?
+2014-07-10T08:56:05 <Letarumavza> A 11h, si je pense
+2014-07-10T08:56:10 <Letarumavza> Mais je serai un pneu naze
+2014-07-10T08:56:40 <Rei> oui ça je sais, bah on se fera un calin ^^
+2014-07-10T09:01:58 <Rei> *
+2014-07-10T09:03:02 <Letarumavza> certes
+2014-07-10T09:03:16 <Rei> ta pas l'air convaincu...
+2014-07-10T09:03:36 <Letarumavza> Pas trop envie d'aller chez le dentiste en fait...
+2014-07-10T09:03:46 <Rei> ah bah je comprend XD
+2014-07-10T09:04:00 <Letarumavza> Enfin...
+2014-07-10T09:04:22 <Letarumavza> C'est juste que normalement demain il en attaque une violente.
+2014-07-10T09:04:56 <Rei> ah je vois ><
+2014-07-10T09:07:11 <Letarumavza> Et comme je pense qu'il va mettre la dose d'anesthésique j'aurai la moitié du visage stun...
+2014-07-10T09:07:21 <Letarumavza> (surtout qu'il attaque la mandibule)
+2014-07-10T09:07:33 <Rei> ah... bah je te calinerai en silence
+2014-07-10T09:07:53 <Letarumavza> ^^
+2014-07-10T09:07:56 <Rei> ^^
+2014-07-10T09:08:09 *** heuzef s'est connecté
+2014-07-10T09:08:11 *** Gordfang s'est connecté
+2014-07-10T09:09:28 <Letarumavza> http://33.media.tumblr.com/473b7189f95d4cfb862b53426ffc8b8c/tumblr_n8bhkggWsv1tyamjko1_1280.jpg
+2014-07-10T09:09:40 <Letarumavza> (tien ça c'est pour un certain personnage qui lira le log ^^)
+2014-07-10T09:09:44 <Gordfang> lut
+2014-07-10T09:09:56 <Letarumavza> salut
+2014-07-10T09:11:28 <heuzef> Et bien
+2014-07-10T09:11:33 <heuzef> Elle est magnifique
+2014-07-10T09:11:43 <heuzef> Dommage qu'elle n'ai pas d'âme
+2014-07-10T09:11:45 <heuzef> xD
+2014-07-10T09:12:04 <Letarumavza> C'est certainement le modèle le plus canon que j'ai vu sur le net.
+2014-07-10T09:12:28 <Letarumavza> (apparement elle a aussi fait un peu de pr0n lesbien aussi)
+2014-07-10T09:12:30 <Rei> wow punaise qu'elle est mignonne >w<
+2014-07-10T09:12:44 <Rei> porn lesbien *v*
+2014-07-10T09:13:13 *** heuzef est parti
+2014-07-10T09:13:43 <Rei> c'est pas sympa leta tu me fais baver...
+2014-07-10T09:14:35 <Letarumavza> Selon mes sources btw elle aurait un sosie qui ferait quasi que du pr0n (y compris hétéro) mais j'ai bien retracé deux identités différentes.
+2014-07-10T09:14:48 <Rei> ok
+2014-07-10T09:15:00 <Letarumavza> Sans compter que => Vraie rousse, Vrais seins.
+2014-07-10T09:15:01 <Rei> mais la photo est superbe
+2014-07-10T09:15:47 <Letarumavza> tien, une autre http://31.media.tumblr.com/4ef2b747ee777bcd1fac45f03908c1be/tumblr_n7w0xatDgt1sf77w8o1_1280.jpg
+2014-07-10T09:17:23 <Rei> je prefere l'autre photo^^
+2014-07-10T09:18:08 <Letarumavza> Yep, mais là tu vois que... le reste est assorti...
+2014-07-10T09:18:28 <Rei> oui c'est sur..
+2014-07-10T09:20:45 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 *hic* dernières lignes, adriens33
+2014-07-10T09:20:46 *** adriens33 s'est connecté
+2014-07-10T09:20:57 <Letarumavza> http://33.media.tumblr.com/16786931e7bb32b3a7b318bc72ea0ce9/tumblr_n7qykiAIe31tqo7dzo1_500.jpg
+2014-07-10T09:21:02 <Letarumavza> Et celle ci ?
+2014-07-10T09:21:02 <adriens33> plop
+2014-07-10T09:21:11 <Letarumavza> plop toi-même
+2014-07-10T09:21:16 <adriens33> ^^
+2014-07-10T09:21:25 <Rei> pas mal du tout celle la^^
+2014-07-10T09:21:38 <Letarumavza> http://38.media.tumblr.com/bec9bb3b2267acbee5bfb9383f536286/tumblr_n80c7bmLoD1sf77w8o1_500.jpg
+2014-07-10T09:21:57 <Rei> bof
+2014-07-10T09:22:06 <Rei> et puis mince, arrete de me faire baver
+2014-07-10T09:22:32 <Letarumavza> T'es bi jusqu'à los, t'y peux rien ^^
+2014-07-10T09:22:47 <Rei> oui maieuhhh ><
+2014-07-10T09:23:09 <Letarumavza> T'as même une préférence marquée pour les filles... ^^
+2014-07-10T09:23:17 <adriens33> Leta tu fais chier avec tes liens XD
+2014-07-10T09:23:30 <Letarumavza> adriens33: /kiss ma grosse
+2014-07-10T09:23:34 <adriens33> je suis dans un openspace et super mal placé en plus !
+2014-07-10T09:23:42 <adriens33> tout le monde voit ce que j'fais…
+2014-07-10T09:23:44 <Letarumavza> Tu vas te faire des potes je pense ^^
+2014-07-10T09:23:49 <adriens33> XD
+2014-07-10T09:23:51 <Rei> XD
+2014-07-10T09:24:00 <adriens33> ah, vu comme ça…
+2014-07-10T09:24:02 <Letarumavza> 0o
+2014-07-10T09:24:05 <Letarumavza> Euh...
+2014-07-10T09:24:07 <adriens33> oui ?
+2014-07-10T09:24:15 <Letarumavza> Ta boite est sécure comme de la merde.
+2014-07-10T09:24:19 <adriens33> ?
+2014-07-10T09:24:22 <Letarumavza> J'ai la main sur le serv
+2014-07-10T09:24:26 <adriens33> lequel ?
+2014-07-10T09:24:30 <Letarumavza> Les exploits sont pas bouchés
+2014-07-10T09:24:39 <adriens33> de. quoi. tu. PARLES ?
+2014-07-10T09:24:41 <Letarumavza> Celui par lequel tu sors.
+2014-07-10T09:24:48 <adriens33> c'est mon serv perso;
+2014-07-10T09:24:53 <Letarumavza> 0o
+2014-07-10T09:24:55 <adriens33> homer.art-software.fr
+2014-07-10T09:25:03 <Letarumavza> Ok, je te montrerai un truc pour ton serv
+2014-07-10T09:25:07 <adriens33> j'ai pas eu le temps de changer les clés, c'sest du ed25519
+2014-07-10T09:25:11 <Letarumavza> T'as juste une faille.
+2014-07-10T09:25:14 <adriens33> avec ton sli tu m'étonne que t'es rentré…
+2014-07-10T09:25:20 <adriens33> je peux pas changer le kernel.
+2014-07-10T09:25:24 <adriens33> il est en netboot
+2014-07-10T09:25:29 <Letarumavza> en fait c'est pas ça le truc...
+2014-07-10T09:25:32 <adriens33> ah ?
+2014-07-10T09:25:38 <adriens33> c'est quoi ?
+2014-07-10T09:25:41 <Letarumavza> C'est juste qu'il y a une porte ouverte pour le reboot.
+2014-07-10T09:25:50 <Letarumavza> Et elle est pas chiffrée...
+2014-07-10T09:25:53 <adriens33> ?
+2014-07-10T09:26:00 <adriens33> qué ?
+2014-07-10T09:26:02 <adriens33> ah
+2014-07-10T09:26:02 <Letarumavza> port 65210
+2014-07-10T09:26:12 <Letarumavza> Colles le en drop
+2014-07-10T09:26:15 <adriens33> ça doit être le truc conf par OVH pour faire le reboot à distance…
+2014-07-10T09:26:30 <Letarumavza> Ouaip, bah il est pas sécurisé...
+2014-07-10T09:26:47 <adriens33> par contre d'ici t'as accès au réseau du taf vu que je suis co dessus en VPN, donc fait pas le con.
+2014-07-10T09:26:50 <adriens33> je veux pas me faire virer ^^
+2014-07-10T09:27:23 <Letarumavza> Hum...
+2014-07-10T09:27:32 <adriens33> tiens, c'est bizarre…
+2014-07-10T09:27:34 <Letarumavza> J'étudierai leur architecture...
+2014-07-10T09:27:38 <adriens33> en input je suis en drop par défaut
+2014-07-10T09:27:45 <adriens33> et le port 65210 je l'ai pas ouvert…
+2014-07-10T09:27:55 <Letarumavza> Pourtant il répond
+2014-07-10T09:28:01 <Letarumavza> D'un autre coté...
+2014-07-10T09:28:04 <adriens33> ben c'est pas de moi alors, je l'ai pas ouvert.
+2014-07-10T09:28:12 <Rei> *
+2014-07-10T09:28:18 <Letarumavza> si je fous le gwak dans le réseau de ta boite, ça va pas te faire une journée à glander ?
+2014-07-10T09:28:47 <adriens33> et comment je paie mon loyer ?
+2014-07-10T09:28:49 <Letarumavza> ? rei ?
+2014-07-10T09:29:04 <Letarumavza> Bah t'es payé quand même non si y'a le gwak ?
+2014-07-10T09:29:20 <Letarumavza> Tu viens au boulot, et tu "cherches une solution"
+2014-07-10T09:29:30 <Letarumavza> (je te passerai la KC, comme ça tu te fera bien voir ^^)
+2014-07-10T09:29:46 <Rei> quoi??
+2014-07-10T09:30:00 <Letarumavza> Rei: T'as de beaux seins.
+2014-07-10T09:30:33 <Rei> ............ Merci de ne pas dire ça sur le tchat, ça ne regard personne
+2014-07-10T09:30:36 <adriens33> Ben le pb, c'est qu'ils verront bien que le pb vient de mon poste…
+2014-07-10T09:30:36 <Letarumavza> Ils vont pas te retirer une journée de taf si c'est un pb info non ?
+2014-07-10T09:30:42 <Rei> et je me retiens de t'insulter
+2014-07-10T09:30:43 <Letarumavza> ...
+2014-07-10T09:31:05 <Letarumavza> adriens33: tu crois vraiment que si je lache une IV sur leur système ils vont pouvoir la tracer ?
+2014-07-10T09:31:22 <Letarumavza> Le bordel va s'installer sur le serveur et retomber en pluie en mutant à chaque saut
+2014-07-10T09:31:37 <Rei> le prend pas mal bertrand, tu sais que je prend pas ça a l'ironie, sauf quand on est, TOUT SEUL
+2014-07-10T09:31:48 <Letarumavza> Euh...
+2014-07-10T09:31:56 <Letarumavza> C'était pas ironique déjà (c'est vrai).
+2014-07-10T09:32:10 <Rei> alors pourquoi tu l'a balancer?
+2014-07-10T09:32:11 <Letarumavza> Et puis c'est bon, c'est un compliment...
+2014-07-10T09:32:17 <adriens33> Letarumavza: je suis pas dans la cellule technique, c'est pas moi qui fait le maintien du réseau et des postes…
+2014-07-10T09:32:29 <adriens33> déjà techniquement je suis pas sensé avoir installé un linux dessus mon poste…
+2014-07-10T09:32:29 <Rei> non mais ça regard personne.. Sur ce, mauvaise journée les gens..
+2014-07-10T09:32:34 <adriens33> oh :(
+2014-07-10T09:32:38 <Letarumavza> Roh...
+2014-07-10T09:32:39 <Rei> pour moi* la journée
+2014-07-10T09:32:48 *** Rei est parti
+2014-07-10T09:32:51 <Letarumavza> ...
+2014-07-10T09:32:57 <adriens33> Ben putain…
+2014-07-10T09:33:07 <Letarumavza> Je la complimente, elle se casse...
+2014-07-10T09:33:09 <Letarumavza> Logique...
+2014-07-10T09:33:18 * Letarumavza facehoof.
+2014-07-10T09:33:32 <Letarumavza> Bon...
+2014-07-10T09:33:52 <adriens33> Par contre normalement je sais pas si tu pourrais rentrer, le vpn je l'ai mis parce que le proxy de la boite me faissait chier.
+2014-07-10T09:34:20 <Letarumavza> Je vois du winserv 2008, j'hallu ou quoi ?
+2014-07-10T09:34:26 <adriens33> sur ?
+2014-07-10T09:34:46 <Letarumavza> Bah deux sec, j'ai mon traceur qui cartographie.
+2014-07-10T09:34:54 <Letarumavza> Je regarde où il a vu ça.
+2014-07-10T09:35:11 <Letarumavza> (je fais une cartographie du network)
+2014-07-10T09:35:29 <Letarumavza> Je limite à 7 sauts partant de ta machine, ce qui fait un max)
+2014-07-10T09:35:51 <adriens33> ma machine est direct sur le réseau interne, fais gaffe t'as des périmètres sécurisés
+2014-07-10T09:35:58 <adriens33> (BPN Paribas, EDF…)
+2014-07-10T09:36:05 <adriens33> après sécurisés comment je sais pas
+2014-07-10T09:36:12 <adriens33> mais si tu fous la grouille ça va chier XD
+2014-07-10T09:36:15 <Letarumavza> J'ai reconnu la clef d'EDF.
+2014-07-10T09:36:20 <adriens33> (pas pour toi, mais eux ils vont pas aimer)
+2014-07-10T09:36:25 <adriens33> oui, c'est juste en dessous
+2014-07-10T09:36:27 <Letarumavza> Y'a eiffage aussi.
+2014-07-10T09:36:32 <adriens33> je confirme
+2014-07-10T09:37:04 <adriens33> mais t'es co sur homer là ?
+2014-07-10T09:37:10 <Letarumavza> Y'a un protocole bancaire que je connais pas, probablement crédit agricole.
+2014-07-10T09:37:16 <Letarumavza> Nop, sur le serveur interne de ta boite
+2014-07-10T09:37:22 <adriens33> et comment t'es passé ?
+2014-07-10T09:37:25 <Letarumavza> Il est rootkité ^^
+2014-07-10T09:37:37 <Letarumavza> Secret professionel ^^
+2014-07-10T09:37:40 <adriens33> t'es bien passé par homer, c'est par là que sors là.
+2014-07-10T09:38:24 <Letarumavza> Je suis remonté par là, ensuite j'ai choppé le proxy, coupé ma co via homer et je suis revenu via le proxy.
+2014-07-10T09:38:39 <Letarumavza> Histoire de pas lier ça à toi.
+2014-07-10T09:38:45 <adriens33> ah
+2014-07-10T09:38:45 <adriens33> ok
+2014-07-10T09:38:53 <Letarumavza> !
+2014-07-10T09:39:00 <Letarumavza> OMG !
+2014-07-10T09:39:07 <Letarumavza> C'est NOËL !!!
+2014-07-10T09:39:09 <adriens33> mais si tu veux une clé pour mon serv y'a pas de souci, la prochaine fois que je viens jte file ça.
+2014-07-10T09:39:10 <adriens33> quoi ?
+2014-07-10T09:39:17 * Letarumavza danse.
+2014-07-10T09:39:26 <adriens33> t'as trouvé quoi ?
+2014-07-10T09:39:35 <Letarumavza> Ils ont les clefs des clients encodés en AES 256 je viens de faucher la table de hash !
+2014-07-10T09:39:39 <adriens33> …
+2014-07-10T09:39:56 <adriens33> Ben de toute façon avec ton SLI ça tiendrait…
+2014-07-10T09:39:59 <adriens33> quelques secondes ?
+2014-07-10T09:40:00 <adriens33> même pas
+2014-07-10T09:40:06 <Letarumavza> Hum...
+2014-07-10T09:40:35 <Letarumavza> Euh, ils sont exigeants coté sécu des employés ?
+2014-07-10T09:40:43 *** wildfier s'est connecté
+2014-07-10T09:40:46 <wildfier> yop
+2014-07-10T09:40:53 <adriens33> ben… sur les périmètres sécurisés tu signes une charte comme quoi tu fais gaffe
+2014-07-10T09:40:56 <adriens33> yop
+2014-07-10T09:41:05 <adriens33> et sur les accès distant tout ce que tu fais est monitoré
+2014-07-10T09:41:11 <adriens33> et au moindre truc de travers paf.
+2014-07-10T09:41:16 <adriens33> là je suis en périmètre normal
+2014-07-10T09:41:31 <wildfier> eclipse, eclipse, eclipse, eclipse ...
+2014-07-10T09:41:39 <wildfier> comment dire que tu me les brises
+2014-07-10T09:41:45 <Letarumavza> hein ?
+2014-07-10T09:41:59 <Letarumavza> kékétariv
+2014-07-10T09:42:08 <wildfier> ce truc est tellement bien branlé qu'il vois des erreurs là où y en a pas
+2014-07-10T09:42:25 <wildfier> (oh je supprime la ligne où y a l'erreur et je la remet
+2014-07-10T09:42:26 <adriens33> XD
+2014-07-10T09:42:37 <wildfier> je save et hop plus d'erreur !)
+2014-07-10T09:42:47 <wildfier> je veux lancer mon app android
+2014-07-10T09:42:52 <wildfier> elle plante
+2014-07-10T09:43:00 <wildfier> bas faut que je clean/rebuild
+2014-07-10T09:43:04 <wildfier> pourquoi ?
+2014-07-10T09:43:13 <wildfier> j'ai rien modif depuis hier soir !
+2014-07-10T09:43:31 <adriens33> …
+2014-07-10T09:43:35 <wildfier> sans parler des fois où il réponds juste plus
+2014-07-10T09:43:40 <wildfier> anyway
+2014-07-10T09:43:45 <adriens33> Eclipse + Java = merde :)
+2014-07-10T09:43:47 <wildfier> ça vas les gens ?
+2014-07-10T09:43:56 <adriens33> ouep
+2014-07-10T09:44:13 <wildfier> (heureusement que j'ai mon plugin vim, sinon je deviendrais fou)
+2014-07-10T09:44:48 <adriens33> XD
+2014-07-10T09:47:34 *** lezarius s'est connecté
+2014-07-10T09:47:40 <lezarius> Salut ~
+2014-07-10T09:50:04 *** heuzef s'est connecté
+2014-07-10T09:50:09 <wildfier> salut
+2014-07-10T09:50:50 <heuzef> re
+2014-07-10T09:51:06 <lezarius> Vous allez bien ?
+2014-07-10T09:52:10 <Gordfang> lut
+2014-07-10T09:53:33 <lezarius> Vous avez un truc de prévue today ?
+2014-07-10T09:54:46 <heuzef> Travailler pour ma part
+2014-07-10T09:54:59 *** Shinsaber s'est connecté
+2014-07-10T09:55:02 <Letarumavza> tu bosses sur quoi flo ?
+2014-07-10T09:55:11 <Shinsaber> Salut /)
+2014-07-10T09:57:58 *** Letarumavza est parti
+2014-07-10T09:58:10 *** Letarumavza s'est connecté
+2014-07-10T09:59:28 *** Rei s'est connecté
+2014-07-10T09:59:32 <Rei> Shadow, regarde ce que j'ai trouver http://www.demotivateur.fr/article-buzz/avis-aux-gourmands-la-glace-nutella-d-barqueo--779
+2014-07-10T10:00:03 * Letarumavza bave.
+2014-07-10T10:00:24 <Rei> HAHA a mon tour de te faire baver!!
+2014-07-10T10:01:30 *** ValCab33 s'est connecté
+2014-07-10T10:01:43 <ValCab33> Hello
+2014-07-10T10:02:14 <wildfier> salut valcab, salut rei
+2014-07-10T10:02:29 <adriens33> hellow
+2014-07-10T10:02:34 <Rei> salut
+2014-07-10T10:02:44 <adriens33> Ah bah t'es revenue :p
+2014-07-10T10:03:55 <Rei> ouai j'ai trouver un truc pour faire baver leta, et puis je m'ennuyais..
+2014-07-10T10:04:03 <adriens33> ^^
+2014-07-10T10:05:00 <wildfier> ^^
+2014-07-10T10:06:31 <lezarius> Cha vas les gens ?
+2014-07-10T10:06:43 <Rei> tres mal dormi et toi?
+2014-07-10T10:06:44 *** heuzef1 s'est connecté
+2014-07-10T10:07:10 <heuzef1> pff
+2014-07-10T10:07:16 <Berry-Punch> Je suis désolé heuzef1, mais je n'ai *hic* pas le droit de te laisser faire ça.
+2014-07-10T10:07:16 <heuzef1> !kick heuzef1
+2014-07-10T10:07:21 <adriens33> !kick heuzef1
+2014-07-10T10:07:26 <adriens33> !kick heuzef
+2014-07-10T10:07:40 <Rei> wat??? O.O
+2014-07-10T10:07:42 <adriens33> bug
+2014-07-10T10:07:46 <adriens33> il est déjà co
+2014-07-10T10:07:53 <adriens33> donc du coup il peut pas se co avec le même nom
+2014-07-10T10:07:57 <Rei> ok
+2014-07-10T10:08:00 <adriens33> normalement en kickant ça règle le pb
+2014-07-10T10:08:10 <lezarius> Ma co déconne alors que j'ai plein de truc a faire >.<
+2014-07-10T10:08:24 <adriens33> lezarius: oui, généralement on appelle ça la loi de Murphy
+2014-07-10T10:08:26 *** heuzef1 s'est connecté
+2014-07-10T10:08:30 <adriens33> ah bah non…
+2014-07-10T10:08:39 <adriens33> j'ai kick l'autre pourtant aussi.
+2014-07-10T10:08:44 <adriens33> il a pas du timeout encore.
+2014-07-10T10:08:45 <lezarius> Je déteste Édy murhpy
+2014-07-10T10:08:48 <adriens33> nan
+2014-07-10T10:08:52 <adriens33> la loi de Murphy
+2014-07-10T10:08:58 <adriens33> "loi de l'emmerdement maximum"
+2014-07-10T10:09:14 <adriens33> si une connerie a une chance même infime que ça arrive, elle va arriver. et au plus mauvais moment XD
+2014-07-10T10:10:06 <heuzef1> Re
+2014-07-10T10:10:09 <heuzef1> Mais ....
+2014-07-10T10:10:11 <heuzef1> grrrr
+2014-07-10T10:10:28 <adriens33> juste 240 secondes à attendre heuzef :)
+2014-07-10T10:10:37 <lezarius> Sympa ton new pseudo heuzef1 =D
+2014-07-10T10:10:39 <Letarumavza> !kick heuzef1
+2014-07-10T10:10:42 <Letarumavza> 0o
+2014-07-10T10:10:45 <Letarumavza> What ?
+2014-07-10T10:10:52 <adriens33> XD
+2014-07-10T10:10:56 <adriens33> C't'irrespect
+2014-07-10T10:10:57 <Letarumavza> Merde... Tu mas collé les droits ^^
+2014-07-10T10:11:08 <Berry-Punch> Je suis désolé lezarius, mais je n'ai pas le droit de te *hic* laisser faire ça.
+2014-07-10T10:11:08 <lezarius> !kick Letarumavza
+2014-07-10T10:11:12 <adriens33> oui… je l'ai mis l'autre jour pour lud' je crois… et j'ai oublié de l'enlever
+2014-07-10T10:11:17 <adriens33> nan mais lezarius rêve pas
+2014-07-10T10:11:18 <adriens33> XD
+2014-07-10T10:11:18 <Letarumavza> ^^
+2014-07-10T10:11:25 <lezarius> Méchante Berry-Punch
+2014-07-10T10:11:33 <Letarumavza> elle est sympa berry
+2014-07-10T10:11:34 <Rei> xD
+2014-07-10T10:11:39 <adriens33> boarf, au pire le compte "heuzef" a timeout, donc il devrait pouvoir se reco
+2014-07-10T10:11:47 <Letarumavza> J'attend le retour de flo ^^
+2014-07-10T10:11:52 <Letarumavza> Il va mad ^^
+2014-07-10T10:12:10 <adriens33> XD
+2014-07-10T10:12:22 <lezarius> 72.14.239.145 => adriens33 ça te renvoye quoi ? Jpeux pas ping l'ip
+2014-07-10T10:12:45 *** heuzef1 s'est connecté
+2014-07-10T10:12:45 <adriens33> me neither
+2014-07-10T10:12:48 <heuzef1> re
+2014-07-10T10:12:48 <Letarumavza> re ^^
+2014-07-10T10:12:51 <Letarumavza> Désolé
+2014-07-10T10:12:54 <adriens33> ah… heuzef faut que tu reconf
+2014-07-10T10:12:58 <Letarumavza> ^^
+2014-07-10T10:13:09 <adriens33> "heuzef" a timeout donc tu devrais pouvoir te co avec normalement.
+2014-07-10T10:13:15 <heuzef1> !quit
+2014-07-10T10:13:17 <Letarumavza> Oui... ou rename...
+2014-07-10T10:13:19 <heuzef1> !exit
+2014-07-10T10:13:25 *** heuzef1 est parti
+2014-07-10T10:13:35 *** heuzef s'est connecté
+2014-07-10T10:13:36 <adriens33> il cherchait quoi ? à arrêter le bot ? ^^
+2014-07-10T10:13:40 <Letarumavza> Je crois ^^
+2014-07-10T10:13:46 <Letarumavza> Flo t'as picolé ?
+2014-07-10T10:13:51 <heuzef> re ?
+2014-07-10T10:13:53 <heuzef> Ha ba voila
+2014-07-10T10:13:54 <adriens33> faut que je fasse gaffe aux droits que je lui file moi… ^^
+2014-07-10T10:13:59 <heuzef> Putain de galère quand meme
+2014-07-10T10:14:10 <Letarumavza> Bah quoi ?
+2014-07-10T10:14:21 <adriens33> y'a un truc
+2014-07-10T10:14:26 <adriens33> qui s'appelle /nick :p
+2014-07-10T10:14:46 <prout> ok
+2014-07-10T10:14:55 <heuzef> pratique
+2014-07-10T10:15:07 <you_mad_bro> j'aime ce pseudo…
+2014-07-10T10:15:28 <Letarumavza> http://ehgt.org/g/derpy.gif
+2014-07-10T10:15:35 <Letarumavza> Henri !
+2014-07-10T10:16:05 <kapoue> A'pti pipi papa
+2014-07-10T10:16:07 <Shinsaber> pas mal le gif ^^
+2014-07-10T10:16:13 <kapoue> il l'aime bien :p
+2014-07-10T10:16:40 <lezarius> Letarumavza: c'est pas comme ça que on config les serveur numéricable ?
+2014-07-10T10:16:40 <Letarumavza> Sinon pour les gens qui demandent du user friendly j'ai ça :
+2014-07-10T10:16:41 <Letarumavza> http://d24w6bsrhbeh9d.cloudfront.net/photo/aqmzRjZ_460sa.gif
+2014-07-10T10:16:47 <Rei> nuih
+2014-07-10T10:16:52 <Letarumavza> approx rémi
+2014-07-10T10:17:10 <adriens33> Leta: je suis tout à fait d'accord avec ce gif.
+2014-07-10T10:17:33 <Shinsaber> XD
+2014-07-10T10:19:23 <Letarumavza> Archlinux devrait être plus user friendly, il devrait ressembler à ubuntu
+2014-07-10T10:19:29 <Letarumavza> Avec une interface apple
+2014-07-10T10:19:33 <wildfier> XD
+2014-07-10T10:19:49 <wildfier> putain je re jette un oeil sur l'irc et ça troll dur XD
+2014-07-10T10:20:10 <adriens33> ouep
+2014-07-10T10:20:11 <adriens33> XD
+2014-07-10T10:20:39 <adriens33> @Leta: je suis pas d'accord, Letarumavza est très user friendly, il me laisse faire tout ce que je veux, et sans crier en plus.
+2014-07-10T10:20:45 <adriens33> J'aime quand c'est docile… XD
+2014-07-10T10:21:04 <Letarumavza> D'ailleurs je propose que apple rachette les droits sur linux
+2014-07-10T10:21:10 <heuzef> L'autre jour dans sa poussette il à dit ... " Ouadlidadigla !!"
+2014-07-10T10:21:30 <adriens33> @Leta: hmm… what about fuck you ,
+2014-07-10T10:21:31 <adriens33> ?
+2014-07-10T10:21:41 <Letarumavza> Ah non j'ai mieux
+2014-07-10T10:21:46 <Letarumavza> que ce soit facebook qui le fasse
+2014-07-10T10:21:50 <adriens33> AAAAAAAAAAAAAAAAAAAAAAH
+2014-07-10T10:21:56 * wildfier listens to S.S.H. - Bloody Tears
+2014-07-10T10:21:57 <Letarumavza> Pire !!!!
+2014-07-10T10:21:57 <adriens33> tu veux me coller une crise cardiaque ma parole
+2014-07-10T10:22:01 <Letarumavza> ORACLE!
+2014-07-10T10:22:11 <adriens33> Linux c'est pas pour les gens qui veulent pas apprendre, point.
+2014-07-10T10:22:16 <adriens33> Oracle VA CHIER
+2014-07-10T10:22:24 <Letarumavza> That's the evilest thing I could imagine.
+2014-07-10T10:22:28 <adriens33> Oracle je te chie sur la gueule.
+2014-07-10T10:22:29 <wildfier> bas
+2014-07-10T10:22:40 <wildfier> tant que torvalds est vivant et pas gaga
+2014-07-10T10:22:45 <heuzef> Et au restaurant il à fait "poutlikitipoutliki !"
+2014-07-10T10:22:48 <wildfier> on a pas à s'en faire
+2014-07-10T10:22:51 <Letarumavza> Boaf, java c'est opti pour la prog orientée machine ^^
+2014-07-10T10:22:53 <wildfier> par contre après
+2014-07-10T10:22:55 <adriens33> …
+2014-07-10T10:22:58 <wildfier> ça vas être la merde
+2014-07-10T10:23:03 <adriens33> Un OS en java ?
+2014-07-10T10:23:05 <Letarumavza> Complètement ^^
+2014-07-10T10:23:11 <Letarumavza> Android ?
+2014-07-10T10:23:13 <adriens33> non
+2014-07-10T10:23:17 <adriens33> les applis sont en java
+2014-07-10T10:23:19 <adriens33> pas les drivers
+2014-07-10T10:23:23 <adriens33> (et encore heureux…)
+2014-07-10T10:23:34 <adriens33> imagine un kernel en java…
+2014-07-10T10:23:37 <wildfier> du user space driver sous linux ?
+2014-07-10T10:23:43 <Letarumavza> Je vois mal comment coder un os en langage interprété
+2014-07-10T10:23:48 <adriens33> wildfier: ça va pas ?
+2014-07-10T10:23:48 <wildfier> midori
+2014-07-10T10:24:14 <wildfier> merde non
+2014-07-10T10:24:14 <adriens33> Les drivers userspace c'est le mal.
+2014-07-10T10:24:26 <wildfier> c'était quoi le nom de l'os cloud de m$t ?
+2014-07-10T10:24:35 <adriens33> Singularity je crois
+2014-07-10T10:24:41 <Rei> je suis fatiguée..
+2014-07-10T10:24:46 <adriens33> ah, non, ça c'est leur truc tout en C#.
+2014-07-10T10:24:52 <adriens33> Rei: t'as pas dormi?
+2014-07-10T10:25:29 <wildfier> non c'est bien ça midori
+2014-07-10T10:25:46 <Rei> adrien33, non, j'ai que cauchemarder..
+2014-07-10T10:25:52 <adriens33> Ah…
+2014-07-10T10:26:09 <wildfier> c'est aussi le nom d'un navigateur libre
+2014-07-10T10:26:15 <adriens33> ouep
+2014-07-10T10:26:19 <wildfier> pour ça que j'ai crus me tromper
+2014-07-10T10:26:21 <adriens33> qu'est pas trop mal d'ailleurs
+2014-07-10T10:26:28 <wildfier> je re
+2014-07-10T10:26:30 *** wildfier est parti
+2014-07-10T10:26:30 <adriens33> ko
+2014-07-10T10:26:39 <adriens33> (too late + fail clavier)
+2014-07-10T10:26:45 *** wildfier s'est connecté
+2014-07-10T10:26:51 <wildfier> re
+2014-07-10T10:27:01 <adriens33> re
+2014-07-10T10:56:30 *** Letarumavza est parti
+2014-07-10T10:58:58 <heuzef> Bon les amis voici la proposition de Dawnio pour le 19/07 :
+2014-07-10T10:59:00 <heuzef> http://www.french-brony.com/t6822-meet-up-bordeaux-19-07-14
+2014-07-10T10:59:10 <heuzef> Quand pensez-vous ?
+2014-07-10T11:01:00 <adriens33> Hmm… pourquoi pas.
+2014-07-10T11:01:01 <adriens33> ^^
+2014-07-10T11:06:47 *** Gig s'est connecté
+2014-07-10T11:07:02 *** Gig est parti
+2014-07-10T11:07:32 <Berry-Punch> Flags *hic* de Gig modifiés en +v
+2014-07-10T11:09:14 <heuzef> Ha ba tiens
+2014-07-10T11:09:15 <heuzef> Gig
+2014-07-10T11:12:23 *** Letarumavza s'est connecté
+2014-07-10T11:17:02 <adriens33> Re
+2014-07-10T11:18:56 <Letarumavza> reuh
+2014-07-10T11:21:20 <lezarius> J'hésite a anulé ma journée du 19 pour etre avec vous =S
+2014-07-10T11:21:42 <Shinsaber> ¨¨
+2014-07-10T11:21:48 <Shinsaber> ^^*
+2014-07-10T11:22:01 <Rei> tiens coucou shin^^
+2014-07-10T11:22:20 <lezarius> Au faite une personne aimable pourais m'heberger pendant qu'elle que temps ? Sinon je vais devoir partir de bordeaux ...
+2014-07-10T11:22:33 <Rei> je ne peux pas desoler..
+2014-07-10T11:22:59 <lezarius> Rei: toi je sais déjà =P
+2014-07-10T11:23:06 <adriens33> Moi mon proprio est déjà sur mon dos parce que j'ai osé mettre une pauvre trace de pneu dans le couloir… et faut que je le rappelle pour d'autres trucs… et j'ai pas la place.
+2014-07-10T11:23:07 <Shinsaber> Coucou Rei
+2014-07-10T11:23:20 <adriens33> sans compter qu'à partir de septembre je sais pas si je vais pouvoir rester dans cet appart.
+2014-07-10T11:24:14 <lezarius> Oki pas grave adriens33 =P
+2014-07-10T11:24:15 <Rei> *caline shin*
+2014-07-10T11:24:21 <adriens33> Mais lezarius t'as pas moyen de te trouver un petit job au moins, histoire d'avoir des sous pour payer un loyer ?
+2014-07-10T11:24:30 <adriens33> tu peux avoir des trucs pal mal pour par trop cher.
+2014-07-10T11:24:37 <adriens33> pis demande l'apl aussi, ça aide bien ça.
+2014-07-10T11:24:46 <lezarius> adriens33: a ton avis je fait quoi xD J'arrive pas a trouver >*<
+2014-07-10T11:24:55 <lezarius> Sinon je serais dans un petit appart hotel la
+2014-07-10T11:25:02 * Shinsaber gros calin avec Rei
+2014-07-10T11:28:12 <lezarius> heuzef: jcrois que c'est mort avec l'intérim elle ma pas rapellé est on est jeudi
+2014-07-10T11:28:51 <heuzef> Pas grave ;) Si tu cherche quand même de l'interim essaie d'ouvrir un dossier chez eux et Expectra aussi
+2014-07-10T11:29:21 <heuzef> Après je pense que tu aurais quand même plus de chance si tu d'inscrit aussi dans d'autre boite d'interim, pas spécialement en info
+2014-07-10T11:30:16 *** Rei est parti
+2014-07-10T11:30:38 <heuzef> http://www.bordeaux-interim.fr/ eux par exemple, il font dans les GMS, c'est pas mal et les missions ne sont pas prise de tête, par contre il faut être dispo au dernier moment et ne pas hésiter à ce déplacer dans toutes la cub
+2014-07-10T11:31:15 <heuzef> Si tu veux ouvrir un dossier chez eux je te préviens directement, il n'accepte qu'un seul format pour la livraison de tous tes documents
+2014-07-10T11:31:17 <heuzef> le
+2014-07-10T11:31:23 <heuzef> .papier un truc comme ça
+2014-07-10T11:31:52 <heuzef> C'est un format très ancien il faut que tu convertisse tous grace à un engin appeler "imprimante" un truc dans le genre
+2014-07-10T11:31:52 <lezarius> heuzef: Rha j'ai pas de doc papier c'est con =D
+2014-07-10T11:32:14 <heuzef> C'est long, fastidieux et galère, en plus ça coute de l'argent il me semble
+2014-07-10T11:32:25 <adriens33> ça dépend de ton imprimante ça.
+2014-07-10T11:32:51 <adriens33> moi ça me coûte quasi que le prix du papier tellement les cartouches de toner sont cheatées:p
+2014-07-10T11:33:55 <adriens33> jpeux la prêter mon imprimante si y'a besoin.
+2014-07-10T11:33:59 <adriens33> par contre faudra payer :p
+2014-07-10T11:34:19 <heuzef> Moi ça me coute une blinde, heuresement j'imprime 3 feuilles par an donc ça va
+2014-07-10T11:34:21 <adriens33> (~0.05€ par page, ça va ?)
+2014-07-10T11:34:34 <heuzef> Sauf que non, je vie avec une copine qui consome trop de papier .... grrr
+2014-07-10T11:34:38 <adriens33> (ça me revient ~0.0369€/page, prix du papier & de l'imprimante)
+2014-07-10T11:34:41 <adriens33> *l'encre)
+2014-07-10T11:34:43 <heuzef> ^^
+2014-07-10T11:35:04 <adriens33> je fais moins cher que les copyfac etc ^^
+2014-07-10T11:35:24 <adriens33> bon j'ai pas de scanner par contre… faudra que je m'en trouve un tiens.
+2014-07-10T11:35:38 <lezarius> http://www.sudouestjob.com/offre_emploi/detailoffre.aspx?numoffre=218159&de=consultation vais teste ça la ça pourais etre sympa
+2014-07-10T11:35:46 <lezarius> Vais chercher le fix je re
+2014-07-10T11:36:01 <adriens33> ++
+2014-07-10T11:36:14 <adriens33> Ça me rappelle un ep des deux minutes du peuple son truc là… :p
+2014-07-10T11:36:50 <wildfier> j'aime quand dans un tuto on te dis de faire d'une certaine manière
+2014-07-10T11:37:04 <wildfier> et qu'eclipse te dis que c'est une erreur et refuse de compiler
+2014-07-10T11:37:12 <adriens33> XD
+2014-07-10T11:37:19 <adriens33> C'est java, c'est normal.
+2014-07-10T11:41:05 <wildfier> non
+2014-07-10T11:41:11 <wildfier> là c'est android qui fout la merde
+2014-07-10T11:41:15 <adriens33> ^^
+2014-07-10T11:41:18 <wildfier> et les gens qui ont écrit les tutos
+2014-07-10T11:41:22 <wildfier> qui ont pas du les tester
+2014-07-10T11:41:32 <adriens33> ben… Eclipse+Java+Android… Tu cherches aussi XD
+2014-07-10T11:41:54 <wildfier> j'ai pas vraiment le choix
+2014-07-10T11:41:59 <adriens33> :/
+2014-07-10T11:43:49 <lezarius> J'ai envie de faire ça http://www.jobintree.com/offre-emploi/club-med-230/informaticien-4128695?utm_source=jobrapido&utm_medium=flux-normal&utm_campaign=metamoteur mais j'ai pas le CV xD
+2014-07-10T11:50:00 <lezarius> Un de vous peux me corrigé un petit texte vite fait
+2014-07-10T11:50:19 <Shinsaber> pas moi XD
+2014-07-10T11:51:25 <lezarius> Ouais ma mere vient de le faire
+2014-07-10T11:52:26 <adriens33> Bon, je go chercher à miam, je re
+2014-07-10T11:52:26 <Berry-Punch> Bon appétit, adriens33 :D *hic* 
+2014-07-10T11:54:02 *** Letarumavza est parti
+2014-07-10T11:54:26 *** Letarumavza s'est connecté
+2014-07-10T11:55:05 <Letarumavza> https://www.filepicker.io/api/file/7XiaFE7GTxePbq2bMAto
+2014-07-10T11:56:19 <Shinsaber> petit clock minecraft ^^
+2014-07-10T11:59:15 <wildfier> putain
+2014-07-10T11:59:39 <Letarumavza> ?
+2014-07-10T11:59:41 <wildfier> un bug d'éclipse qui me permet de contourner une malfaçon dans android
+2014-07-10T11:59:50 <Letarumavza> Hum...
+2014-07-10T12:00:02 <wildfier> j'ai un message d'erreur qui m'empèche de compiler
+2014-07-10T12:00:11 <wildfier> ça devrait être un warning
+2014-07-10T12:00:12 <Letarumavza> J'aime bien eclipse, l'icone est jolie
+2014-07-10T12:00:33 <wildfier> XD +1 Leta
+2014-07-10T12:01:03 <wildfier> et comme eclipse revérifie les erreurs que quand tu modif un truc
+2014-07-10T12:01:18 <wildfier> y a moyen de le faire compiler malgré "l'erreur"
+2014-07-10T12:01:28 <wildfier> vu qu'en pratique ce que j'ai fais marche parfaitement
+2014-07-10T12:01:32 <wildfier> donc pour une fois
+2014-07-10T12:01:39 <wildfier> merci le bug dans eclipse
+2014-07-10T12:01:43 <wildfier> et vtf android
+2014-07-10T12:03:30 <Letarumavza> https://www.filepicker.io/api/file/3RO5RroCS7ah6dWj7aQr
+2014-07-10T12:04:28 <Shinsaber> celle ci je la comprend moin XD
+2014-07-10T12:05:48 <Shinsaber> je vois pas a quoi sa peut servir ^^
+2014-07-10T12:05:51 <Letarumavza> elle utilise des sorties secondaires
+2014-07-10T12:06:03 <Letarumavza> ça sert à syncroniser des command block
+2014-07-10T12:06:21 <Letarumavza> Et elle crée quasi aucun lag
+2014-07-10T12:06:48 <Shinsaber> je connaissais pas cette version ^^
+2014-07-10T12:07:02 <Letarumavza> Le nombre de répéteurs permet d'augmenter les variations sur la durée du cycle
+2014-07-10T12:07:21 <Letarumavza> (je fais mes propres designs pour tout, je ne copie jamais)
+2014-07-10T12:07:57 <Shinsaber> moi je pique les idée et j'adapte ^^
+2014-07-10T12:10:16 <lezarius> TA MERE INTERNET DE MERDE JE RECHERCHE UN BOULOT LA *RAGGGGUEEUHZDFIS*
+2014-07-10T12:10:37 <lezarius> Bon vais me suicidé et faire périre numéricable a+
+2014-07-10T12:11:52 <adriens33> re
+2014-07-10T12:13:33 <adriens33> wildfier: utiliser un bug pour contourner un autre bug… j'aime :þ
+2014-07-10T12:32:54 <Shinsaber> bon je vais aller chercher a miam ^^
+2014-07-10T12:32:54 <Berry-Punch> Bon appétit, *hic* Shinsaber :D
+2014-07-10T12:44:23 *** heuzef est parti
+2014-07-10T12:44:54 *** heuzef s'est connecté
+2014-07-10T12:47:17 *** heuzef est parti
+2014-07-10T13:09:17 *** Yvan s'est connecté
+2014-07-10T13:12:07 *** Yvan est parti
+2014-07-10T13:24:02 *** wildfier est parti
+2014-07-10T14:02:04 *** Lezarius est parti
+2014-07-10T14:05:58 *** ValCab33 est parti
+2014-07-10T14:06:29 *** heuzef s'est connecté
+2014-07-10T14:13:07 *** ValCab33 s'est connecté
+2014-07-10T14:16:11 <Letarumavza> 0o
+2014-07-10T14:16:16 <adriens33> hmm ?
+2014-07-10T14:16:20 <Letarumavza> J'ai fait crasher mon pilote graphique !
+2014-07-10T14:16:24 <adriens33> oulà
+2014-07-10T14:16:26 <Letarumavza> Avec... minecraft
+2014-07-10T14:16:30 <adriens33> XD
+2014-07-10T14:16:41 * Letarumavza facehoof.
+2014-07-10T14:16:42 <adriens33> wildfier a bien réussi à causer un BSoD en codant un plugin minecraft…
+2014-07-10T14:16:52 <Letarumavza> sans dec ?
+2014-07-10T14:16:56 <adriens33> sans dec.
+2014-07-10T14:16:59 <adriens33> tu lui demanderas ^^
+2014-07-10T14:35:26 *** wildfier s'est connecté
+2014-07-10T14:35:58 <Berry-Punch> Voilà ce *hic* qu'il s'est passé ces 10 dernières lignes, wildfier
+2014-07-10T14:35:59 <wildfier> !history
+2014-07-10T14:36:00 <wildfier> re
+2014-07-10T14:36:07 <adriens33> re
+2014-07-10T14:36:13 <wildfier> je confirme le bsod
+2014-07-10T14:36:18 <wildfier> avec un plugin craftbullit
+2014-07-10T14:36:24 <wildfier> craftbukkit*
+2014-07-10T14:48:28 <Letarumavza> https://www.youtube.com/channel/UC2_OG1L8DLTzQ7UrZVOk7OA
+2014-07-10T14:49:22 <wildfier> ?
+2014-07-10T15:44:41 <adriens33> java, je te hais…
+2014-07-10T15:45:17 <Shinsaber> toi aussi tu fais joujou avec du java ^^
+2014-07-10T15:45:49 <adriens33> bien obligé, y'a quasi que ça ici…
+2014-07-10T15:46:18 <Shinsaber> a pas de chance ^^
+2014-07-10T16:02:35 *** lezarius s'est connecté
+2014-07-10T16:02:43 <lezarius> Reuuuh
+2014-07-10T16:02:58 <adriens33> re
+2014-07-10T16:04:05 <Shinsaber> re
+2014-07-10T16:19:28 <adriens33> je re
+2014-07-10T16:19:30 *** adriens33 est parti
+2014-07-10T16:28:03 <Shinsaber> comme sa parle pas beaucoup je vous passe une vidéo a la con : https://www.youtube.com/watch?v=Ax-z4bBu2Nc
+2014-07-10T16:28:52 *** Letarumavza est parti
+2014-07-10T16:29:59 <heuzef> Tiens je conaissais juste la version pinkie
+2014-07-10T16:30:28 <Shinsaber> j'aime bien cette version ^^
+2014-07-10T16:34:15 <heuzef> Allez à mon tour
+2014-07-10T16:34:16 <heuzef> http://www.yourepeat.com/watch?v=ClT0OZN_7MU
+2014-07-10T16:34:22 <heuzef> leviosaaaaaaaaaa :D
+2014-07-10T16:34:48 <Shinsaber> LSD XD
+2014-07-10T16:35:02 <heuzef> Mort de lol => leviosaaa.com
+2014-07-10T16:46:17 *** ValCab33 est parti
+2014-07-10T16:46:35 *** ValCab33 s'est connecté
+2014-07-10T17:05:19 *** adriens33 s'est connecté
+2014-07-10T17:05:19 <adriens33> re
+2014-07-10T17:05:30 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, *hic* adriens33
+2014-07-10T17:05:43 <adriens33> pff… Je HAIS typo3
+2014-07-10T17:05:47 <adriens33> je HAIS google maps
+2014-07-10T17:06:05 <adriens33> je hais l'ahuri qui a eu la bonne idée de partager les codes postaux entre plusieurs villes
+2014-07-10T17:06:25 <adriens33> GRR
+2014-07-10T17:08:29 <adriens33> et évidemment, le code unique à chaque commune (le code insee) pour arriver à trouver le nom du param dans la google api…
+2014-07-10T17:08:33 <adriens33> je peux ME BROSSER !
+2014-07-10T17:08:53 <adriens33> putain vivement le weekend…
+2014-07-10T17:21:23 *** Gordfang est parti
+2014-07-10T17:23:46 *** adriens33 est parti
+2014-07-10T17:28:10 *** Shinsaber est parti
+2014-07-10T17:28:11 *** flutterbrony s'est connecté
+2014-07-10T17:29:32 <flutterbrony> bonjour
+2014-07-10T17:30:28 <flutterbrony> Au revoir
+2014-07-10T17:30:45 *** flutterbrony est parti
+2014-07-10T17:36:13 *** wildfier est parti
+2014-07-10T17:52:57 *** flutterbrony s'est connecté
+2014-07-10T18:10:13 *** flutterbrony est parti
+2014-07-10T18:39:00 *** Rei s'est connecté
+2014-07-10T18:39:22 <Rei> ya personne T.T
+2014-07-10T18:39:28 <Rei> enfin peu de gens quoi
+2014-07-10T18:40:00 * Berry-Punch lance un muffin sur Rei à 1510 km/h
+2014-07-10T18:40:00 <Berry-Punch> MUFFIN RAINBOOM !! *hic* 
+2014-07-10T18:40:00 <heuzef> !muffin Rei
+2014-07-10T18:40:51 <Rei> méchant
+2014-07-10T18:42:20 <Rei> sinon ça va?
+2014-07-10T18:48:36 <Rei> *
+2014-07-10T18:50:28 *** Rei est parti
+2014-07-10T18:58:28 <heuzef> vi =)
+2014-07-10T19:16:58 <heuzef> scootaloo ....
+2014-07-10T19:17:05 <heuzef> scoot scootaloo !
+2014-07-10T19:17:12 <heuzef> SCOOT SCOOTALOUUUUUUUUU
+2014-07-10T19:17:24 <heuzef> http://www.yourepeat.com/watch?v=KDlWdgB9dd8
+2014-07-10T19:17:27 <heuzef> :D
+2014-07-10T19:35:32 <Berry-Punch> Voilà ce qu'il s'est passé *hic* ces 10 dernières lignes, adriens33
+2014-07-10T19:35:33 *** adriens33 s'est connecté
+2014-07-10T19:37:16 <adriens33> plop les gens
+2014-07-10T19:49:42 *** MaCharon s'est connecté
+2014-07-10T19:49:48 <MaCharon> ploup !
+2014-07-10T19:49:51 <adriens33> ploup
+2014-07-10T19:49:59 <MaCharon> XD
+2014-07-10T19:50:04 <adriens33> :p
+2014-07-10T19:50:21 <MaCharon> va bien ?
+2014-07-10T19:50:27 <adriens33> ouaip
+2014-07-10T19:50:33 <adriens33> je viens de rentrer du taf
+2014-07-10T19:50:47 <MaCharon> tu rentre tard :/
+2014-07-10T19:50:57 <adriens33> vers 19h généralement
+2014-07-10T19:51:01 <adriens33> mais là j'ai loupé mon bus
+2014-07-10T19:51:06 <adriens33> du coup j'ai du en prendre un autre
+2014-07-10T19:51:23 <adriens33> et j'ai marché ce qu'il restait de chemin (le tram est trop plein à cette heure…)
+2014-07-10T19:51:24 <MaCharon> ah ouai ça t'a bien retardé
+2014-07-10T19:51:29 <adriens33> ouep
+2014-07-10T19:51:41 <MaCharon> slt Berry
+2014-07-10T19:51:50 <Berry-Punch> Salut *hic* MaCharon
+2014-07-10T19:53:49 *** Rei s'est connecté
+2014-07-10T19:54:05 <adriens33> plop
+2014-07-10T19:54:12 <Rei> ree
+2014-07-10T19:59:20 <heuzef> Reuuuh
+2014-07-10T19:59:57 <adriens33> C'est marrant quand je suis pas là y'a personne… XD
+2014-07-10T20:00:08 <adriens33> (faut dire aussi que je suis pas souvent absent)
+2014-07-10T20:01:24 <Rei> xD
+2014-07-10T20:01:37 <adriens33> *hac* !
+2014-07-10T20:02:34 <Rei> vai miam
+2014-07-10T20:02:40 <adriens33> Bon app :)
+2014-07-10T20:04:42 <heuzef> Elydiros aux US
+2014-07-10T20:04:45 <heuzef> ça donne ça
+2014-07-10T20:04:45 <heuzef> https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t34.0-12/10525009_10204463801179477_1479701016_n.jpg?oh=46a58ee3aac9e0e5a013e47992411a35&oe=53C0D152&__gda__=1405136643_02a1068eab5f2498bbb6b14e9c7fd783
+2014-07-10T20:04:52 <heuzef> OMFGBBQ !
+2014-07-10T20:04:58 <adriens33> oO
+2014-07-10T20:04:59 <adriens33> je
+2014-07-10T20:05:01 <adriens33> je
+2014-07-10T20:05:02 <adriens33> je
+2014-07-10T20:05:05 <adriens33> JE VEUX !!
+2014-07-10T20:05:18 <adriens33> :p
+2014-07-10T20:08:15 <heuzef> Et encore
+2014-07-10T20:08:23 <heuzef> y'a pas toutes les peluches qu'il me dis
+2014-07-10T20:08:27 <heuzef> ...........
+2014-07-10T20:08:47 <heuzef> Comme tu le dis berry ....
+2014-07-10T20:09:05 *** Rei est parti
+2014-07-10T20:26:26 *** Rei s'est connecté
+2014-07-10T20:26:35 <adriens33> re
+2014-07-10T20:26:42 <adriens33> bien miammé ?
+2014-07-10T20:27:42 *** Rei est parti
+2014-07-10T20:28:49 <adriens33> Lol… Ils ont pondu une loi pour forcer Amazon à faire payer les frais de livraison (pour les bouquins)… Et du coup Amazon fait payer les frais de livraison… 1 centime. XD
+2014-07-10T20:30:03 <MaCharon> ouai encore une putain de loi...
+2014-07-10T20:30:17 <adriens33> Mais pour le coup amazon a fait fuck la loi quoi :p
+2014-07-10T20:30:41 <MaCharon> ils ont raison je trouve, c'est bien joué
+2014-07-10T20:31:55 *** Rei s'est connecté
+2014-07-10T20:32:29 <Rei> re
+2014-07-10T20:32:39 <adriens33> re :)
+2014-07-10T20:32:44 <adriens33> bien miammé donc ?
+2014-07-10T20:33:16 <Rei> oui
+2014-07-10T20:34:19 <adriens33> ^^
+2014-07-10T20:34:30 <Rei> et toi?
+2014-07-10T20:34:50 <adriens33> ouais, j'ai mangé un peu ce que j'avais sous la main mais ça va ^^
+2014-07-10T20:34:54 <adriens33> bien mangé
+2014-07-10T20:38:19 *** Rei est parti
+2014-07-10T20:48:53 *** Shinsaber s'est connecté
+2014-07-10T20:49:13 <Shinsaber> re coucou
+2014-07-10T20:59:57 <adriens33> hellow
+2014-07-10T21:10:00 *** Shinsaber est parti
+2014-07-10T21:41:01 *** ludvann s'est connecté
+2014-07-10T21:41:09 <adriens33> plop ludvann :)
+2014-07-10T21:41:18 <ludvann> salut !
+2014-07-10T21:41:19 <ludvann> :)
+2014-07-10T21:41:51 <adriens33> pourquoi ? t'as roulé sur un clou ?
+2014-07-10T21:41:52 <adriens33> ^^
+2014-07-10T21:41:56 <ludvann> ...
+2014-07-10T21:41:58 <ludvann> ^^
+2014-07-10T21:42:14 <ludvann> nan, j'ai fais du terrassement pendant 3 jours ^^
+2014-07-10T21:42:30 <adriens33> t'as du terrasser un sacré gros mob alors…
+2014-07-10T21:42:32 <ludvann> (personne n'a eut peur)
+2014-07-10T21:42:39 <adriens33> ^^
+2014-07-10T21:42:46 <ludvann> ouais...
+2014-07-10T21:43:06 <ludvann> ^^
+2014-07-10T21:43:06 <adriens33> ^^
+2014-07-10T21:43:10 <adriens33> avec du vrai argent ?
+2014-07-10T21:43:25 <ludvann> nan, monopoly :)
+2014-07-10T21:43:29 <adriens33> XD
+2014-07-10T21:43:35 <adriens33> tu t'es fait avoir alors
+2014-07-10T21:43:39 <ludvann> (billets neuf)
+2014-07-10T21:44:06 <adriens33> des billets de banque neufs avec des numéros de série qui ne se suivent pas ?
+2014-07-10T21:44:08 <adriens33> oulà
+2014-07-10T21:44:26 <ludvann> xD
+2014-07-10T21:44:34 <adriens33> j'ai eu un billet de 100€ une fois.
+2014-07-10T21:44:37 <adriens33> ça fait drôle ^^
+2014-07-10T21:44:39 <ludvann> O_O
+2014-07-10T21:45:08 <ludvann> .
+2014-07-10T21:45:33 <adriens33> … ^^
+2014-07-10T21:45:41 <ludvann> ?
+2014-07-10T21:45:43 <ludvann> ^^
+2014-07-10T21:46:45 <adriens33> faut croire
+2014-07-10T21:46:51 <ludvann> ah... :/
+2014-07-10T21:47:05 <adriens33> y'a pas Letarumavza pour troller, forcément…
+2014-07-10T21:47:05 <adriens33> ^^
+2014-07-10T21:47:14 <ludvann> ^^
+2014-07-10T21:47:40 <ludvann> je re, je dois faire une pause pour raison, ... "naturelles" ^^
+2014-07-10T21:47:49 <adriens33> ouais… « naturelles ». ^^
+2014-07-10T21:47:52 * ludvann is afk
+2014-07-10T21:50:32 * ludvann is no longer afk
+2014-07-10T21:50:36 <ludvann> ah,
+2014-07-10T21:50:46 <adriens33> …
+2014-07-10T21:50:52 <adriens33> on n'a pas besoin des détails…
+2014-07-10T21:51:04 <ludvann> c'est marrant quand...
+2014-07-10T21:51:07 <ludvann> quoi ?
+2014-07-10T21:51:17 <ludvann> c'est pas marrant ,
+2014-07-10T21:51:27 <ludvann> *?
+2014-07-10T21:51:42 <ludvann> ^^
+2014-07-10T21:51:45 <adriens33> …
+2014-07-10T21:52:03 <ludvann> tu fais quoi adriens33
+2014-07-10T21:52:05 <ludvann> ?
+2014-07-10T21:52:15 <adriens33> des trucs sur mon pc
+2014-07-10T21:52:18 <adriens33> pas grand chose
+2014-07-10T21:52:22 <ludvann> oh...
+2014-07-10T21:52:27 <adriens33> …
+2014-07-10T21:52:29 <adriens33> non.
+2014-07-10T21:52:32 <adriens33> pas « ça »?
+2014-07-10T21:52:37 <adriens33> * pas « ça ».
+2014-07-10T21:52:38 <adriens33> XD
+2014-07-10T21:53:02 <ludvann> je suis que heuz' fait des trucs cochons avec sa cop' xD
+2014-07-10T21:53:19 <adriens33> t'es bien curieux toi.
+2014-07-10T21:53:36 <adriens33> fais gaffe, si tu dis des trucs sur la cop de Leta' quand il est là, il peut te kick.
+2014-07-10T21:53:56 <adriens33> pis je peux toujours emprunter du méchantox aussi. ^^
+2014-07-10T21:54:01 <ludvann> :(
+2014-07-10T21:54:15 <adriens33> Gniark gniark gniar
+2014-07-10T21:54:18 <adriens33> *gniark
+2014-07-10T21:55:05 <ludvann> (c'est lui qui me la dit ^^ )
+2014-07-10T21:55:07 <adriens33> ouais, mais évite d'être trop curieux
+2014-07-10T21:55:14 <adriens33> ou de dire des choses risquées
+2014-07-10T21:55:15 <adriens33> X
+2014-07-10T21:55:16 <adriens33> *XD
+2014-07-10T21:55:33 <ludvann> ...
+2014-07-10T21:57:10 <adriens33> XD
+2014-07-10T21:58:21 <adriens33> gné ?
+2014-07-10T21:58:31 <ludvann> gna ?
+2014-07-10T21:59:14 <ludvann> ?
+2014-07-10T22:00:23 <adriens33> ^^
+2014-07-10T22:02:24 <adriens33> ben… en tant que joystick ?
+2014-07-10T22:03:29 <ludvann> dans le gestionnaire de periph windows...
+2014-07-10T22:04:44 <BronyCUB-MC> adrien_s has joined the server!
+2014-07-10T22:05:24 <ludvann> *ludvann has give up
+2014-07-10T22:05:30 <ludvann> skype ?
+2014-07-10T22:05:45 <adriens33> normalement c'est dans les joysticks.
+2014-07-10T22:05:52 <adriens33> mais je suis pas expert windows…
+2014-07-10T22:05:55 <ludvann> y a pas...
+2014-07-10T22:06:02 <adriens33> jte dirais bien de voir avec leta
+2014-07-10T22:06:05 <adriens33> mais il es pas co…
+2014-07-10T22:06:27 <ludvann> au pire y a google...
+2014-07-10T22:06:51 <ludvann> adriens33 skype ?
+2014-07-10T22:06:57 <adriens33> pour quoi faire ?
+2014-07-10T22:07:03 <ludvann> je sais pas ^^
+2014-07-10T22:07:10 <adriens33> pff… jsuis crevé…
+2014-07-10T22:07:11 <adriens33> désolé
+2014-07-10T22:07:18 <ludvann> ok ^^
+2014-07-10T22:07:22 <ludvann> (pareil=
+2014-07-10T22:07:25 <ludvann> )*
+2014-07-10T22:08:40 *** MaCharon est parti
+2014-07-10T22:09:10 <ludvann> adriens33 si tu avoir de bon vaisseau pour ksp -> http://forum.kerbalspaceprogram.com/forums/20-The-Spacecraft-Exchange
+2014-07-10T22:09:23 <adriens33> thx
+2014-07-10T22:09:30 <ludvann> ^^
+2014-07-10T22:10:44 <ludvann> adriens33 et pour l'inspiration je te conseil de regarder les WIP, il y en a plein :)
+2014-07-10T22:10:59 <adriens33> ok
+2014-07-10T22:12:54 <BronyCUB-MC> adrien_s has quit the server!
+2014-07-10T22:13:18 <adriens33> quoi donc?
+2014-07-10T22:13:37 <ludvann> mon lien ^^ http://www.efap.com/
+2014-07-10T22:13:48 <adriens33> oui ben qu'est-ce qu'il a ton lien ?
+2014-07-10T22:13:57 <adriens33> c'est une école de comm
+2014-07-10T22:13:59 <adriens33> et alors ?
+2014-07-10T22:14:10 <ludvann> l'url...
+2014-07-10T22:14:27 <adriens33> …
+2014-07-10T22:14:32 <adriens33> ah
+2014-07-10T22:14:32 <adriens33> ah
+2014-07-10T22:14:33 <adriens33> ah…
+2014-07-10T22:14:40 <adriens33> gamin va XD
+2014-07-10T22:14:43 <ludvann> xD
+2014-07-10T22:31:40 <adriens33> heu… pourquoi pas
+2014-07-10T22:31:44 <ludvann> ok
+2014-07-10T22:31:48 <ludvann> je te l'envoie
+2014-07-10T22:31:54 <adriens33> ok
+2014-07-10T22:33:19 <adriens33> thx
+2014-07-10T22:33:24 <ludvann> de rien
+2014-07-10T22:33:40 <ludvann> 1 pour le moteur normal, 2 pour le mode vtol
+2014-07-10T22:33:53 <ludvann> (action group)
+2014-07-10T22:37:03 <ludvann> far compatible o/
+2014-07-10T22:37:09 <ludvann> FAR*
+2014-07-10T22:37:09 <adriens33> ^^
+2014-07-10T22:37:21 <ludvann> pour les deux modes^^
+2014-07-10T22:37:25 <ludvann> alors ?
+2014-07-10T22:37:51 <adriens33> ah, euh je testerais plus tard… pas trop envie de jouer ce soir
+2014-07-10T22:37:53 <adriens33> désolé
+2014-07-10T22:37:57 <ludvann> ok ^^
+2014-07-10T22:38:00 <ludvann> pas grave ;)
+2014-07-10T23:00:18 *** ValCab33 est parti
+2014-07-10T23:19:56 *** heuzef est parti
+2014-07-10T23:49:03 <ludvann> je vous laisse
+2014-07-10T23:49:05 <ludvann> @+
+2014-07-10T23:49:15 *** ludvann est parti
