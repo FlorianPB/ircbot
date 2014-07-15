@@ -47,6 +47,15 @@ cmd_kick()
 {
 	local name reason;
 	name="$1"; shift;
+	[ "$name" == "$NICK" ] && {
+		send "PRIVMSG $irc_back :Non mais ça va pas ? Je vais pas me kicker !"
+		return;
+	}
+	[ "$name" == "adriens33" ] && {
+		send "PRIVMSG $irc_back :Tu rêves là."
+		return;
+	}
+
 	reason="${@}";
 
 	[ "$reason" != "" ] && reason=":${reason}";
