@@ -62,7 +62,7 @@ log_last()
 
 	send "PRIVMSG $irc_back :Voilà ce qu'il s'est passé ces 10 dernières lignes, $irc_user";
 	
-	tail -n 10 "$logdir/${logchan}.log" | while [ "$A" != "" ]; do
+	tail -n 11 "$logdir/${logchan}.log" | head -n 10 | while [ "$A" != "" ]; do
 		read A;
 		[ "$A" != "" ] && {
 			send_sec "PRIVMSG $irc_back :${A}";
