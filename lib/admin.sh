@@ -49,6 +49,10 @@ admin_getflag()
 admin_setflag()
 {
 	local user_="$2";
+	[ "$user_" == "$NICK" ] && {
+		send "PRIVMSG $irc_back :Ne touche pas à ça, toi !"
+		return;
+	}
 	local flags_="$1";
 	if [ "$user_" == "" ] || [ "$flags_" == "" ]; then
 		send "PRIVMSG $irc_back :Paramètres requis: flags, username"
@@ -69,6 +73,10 @@ admin_modflag()
 {
 	local flags_="$1";
 	local user_="$2";
+	[ "$user_" == "$NICK" ] && {
+		send "PRIVMSG $irc_back :Ne touche pas à ça, toi !"
+		return;
+	}
 	if [ "$flags_" == "" ]; then
 		send "PRIVMSG $irc_back :Paramètres requis: flags, username"
 		return;
