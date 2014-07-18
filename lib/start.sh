@@ -55,9 +55,6 @@ joinchannel()
 
 	msg "Done. I'm now fully operationnal.";
 	send 'PRIVMSG #bronycub :Salut tout le monde !';
-
-	# lancement du hic aléatoire en arrière-plan
-	random_hic &
 }
 exitbot()
 {
@@ -86,15 +83,3 @@ reload_libs()
 	send_sec "PRIVMSG $irc_user :Rechargement terminé."
 }
 
-# Envoie un 'hic' sur le canal
-# en marquant un délai aléatoire
-random_hic()
-{
-	local hic_delay;
-
-	while [ -f pidfile ]; do
-		hic_delay=$(($RANDOM%60))m
-		sleep ${hic_delay};
-		send_sec "PRIVMSG #bronycub :*hic* !";
-	done
-}
