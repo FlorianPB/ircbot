@@ -1,0 +1,283 @@
+2014-07-19T00:00:06 <wildfier> m'étonne pas
+2014-07-19T00:00:25 <Letarumavza> Il a exactement le même problème que moi
+2014-07-19T00:00:29 <wildfier> j'ai bien vu qu'ils avaient optimisé les driver nvidia sous linux pendant leur portage de source
+2014-07-19T00:00:30 <Letarumavza> Et... La même config
+2014-07-19T00:00:59 <Letarumavza> (enfin pas exactement la même, il a des 780 à la place des titans black)
+2014-07-19T00:01:52 <Letarumavza> Bref, on sort xperf, et on attaque ma machine, une fois qu'on a testé une solution dessus, on en teste une autre sur la sienne.
+2014-07-19T00:01:52 <wildfier> anyway, si je reste plus longtemps je vais enchainer avec le prochain ep de nostalgia critic
+2014-07-19T00:02:02 <Letarumavza> Avatar ?
+2014-07-19T00:02:06 <Letarumavza> Batman&robin ?
+2014-07-19T00:02:11 <Letarumavza> Ghost dad ?
+2014-07-19T00:02:17 <wildfier> devil
+2014-07-19T00:02:21 <Letarumavza> Oh...
+2014-07-19T00:02:24 <wildfier> pas encore vue
+2014-07-19T00:02:41 <wildfier> (je les regarde dans l'ordre de la playlist yt)
+2014-07-19T00:02:45 <Letarumavza> Bah...
+2014-07-19T00:02:47 <wildfier> (du dernier au premier ...)
+2014-07-19T00:02:48 <Letarumavza> C'est...
+2014-07-19T00:03:21 <Letarumavza> Disons qu'on peut détecter le diable suivant le coté duquel tombe une tartine selon ce film.
+2014-07-19T00:03:32 <Letarumavza> Voila voila...
+2014-07-19T00:04:07 <Letarumavza> euh les mecs...
+2014-07-19T00:04:13 <Letarumavza> J4ai une idée de mon problème...
+2014-07-19T00:04:22 <adriens33> ah ?
+2014-07-19T00:04:28 <Letarumavza> Je suis passé en déobfusquation des erreurs non signées...
+2014-07-19T00:05:10 <Letarumavza> Putain les mecs, j'ai peur
+2014-07-19T00:05:14 <adriens33> ?
+2014-07-19T00:05:18 <adriens33> comment ça ?
+2014-07-19T00:05:56 *** Letarumavza est parti
+2014-07-19T00:06:08 *** Letarumavza s'est connecté
+2014-07-19T00:06:24 <Letarumavza> https://www.filepicker.io/api/file/xF3sUPZTOyiHPERu8HaQ
+2014-07-19T00:06:31 <Letarumavza> ça c'est ma liste de drivers...
+2014-07-19T00:06:52 <adriens33> heu…
+2014-07-19T00:06:56 <adriens33> y'a pas un souci ?
+2014-07-19T00:07:05 <Letarumavza> Complètement...
+2014-07-19T00:07:11 <adriens33> t'as beaucoup de trucs en "autres périphs"…
+2014-07-19T00:07:26 *** wildfier est parti
+2014-07-19T00:07:43 <Letarumavza> Aucun n'est signé...
+2014-07-19T00:07:49 <Letarumavza> Je sais même pas ce que c'est...
+2014-07-19T00:07:51 <adriens33> :/
+2014-07-19T00:07:56 <Letarumavza> bon, on va tenter le poker
+2014-07-19T00:09:57 <Letarumavza> http://www.touslesdrivers.com en fait...
+2014-07-19T00:09:57 *** ValCab33 est parti
+2014-07-19T00:12:19 <Letarumavza> ah mais dire que ça sent la merde c'est juste un PUTAIN D'EUPHEMISME !!!
+2014-07-19T00:12:24 <adriens33> :/
+2014-07-19T00:12:32 <Letarumavza> Les bordels sont des artefacts de drivers...
+2014-07-19T00:12:42 <adriens33> t'as pas les cds avec les pilotes fournis avec la cm/la cg/etc ?
+2014-07-19T00:14:41 <Letarumavza> Bah... Je les ai déjà setup
+2014-07-19T00:14:52 <Letarumavza> Tu crois que j'ai installé mon matos comment ?
+2014-07-19T00:14:52 <adriens33> ouch…
+2014-07-19T00:20:24 *** Letarumavza est parti
+2014-07-19T00:29:30 *** Letarumavza s'est connecté
+2014-07-19T00:29:31 <Letarumavza> ok, il me manque un truc
+2014-07-19T00:29:57 <adriens33> ah ? quoi donc ?
+2014-07-19T00:38:10 <Letarumavza> Un driver intel apparement
+2014-07-19T00:38:23 <Letarumavza> Ils ont tous la signature PCIVEN_8086
+2014-07-19T00:38:37 <Letarumavza> et 8086 c'est un des indicatif d'intel.
+2014-07-19T00:38:42 <Letarumavza> Seulement...
+2014-07-19T00:39:10 <Letarumavza> Normalement mon chipset, ma carte réseau, et mon sata son à jour...
+2014-07-19T00:40:10 <adriens33> ben ça peut être quoi alors ?
+2014-07-19T00:40:50 <Letarumavza> Un driver non reconu
+2014-07-19T00:41:04 <Letarumavza> en gros les fichiers du driver sont présents, mais pas chargés par le kernel.
+2014-07-19T00:41:34 <adriens33> ah
+2014-07-19T00:50:26 <Letarumavza> Ok... Quand tu te retrouves à fouiller les .inf à la recherche du nom de ton merdier...
+2014-07-19T00:53:57 <adriens33> bonne chasse ^^
+2014-07-19T00:55:07 <Letarumavza> J'ai trouvé
+2014-07-19T00:55:17 <Letarumavza> Il m'en faut trois
+2014-07-19T00:55:33 <Letarumavza> PCIVEN_8086&DEV_0E34
+2014-07-19T00:55:48 <Letarumavza> PCIVEN_8086&DEV_0EAA
+2014-07-19T00:56:07 <Letarumavza> PCIVEN_8086&DEV_0EC3
+2014-07-19T01:02:46 <adriens33> bon… je crois que je vais dodo…
+2014-07-19T01:02:53 <adriens33> tu viens tout à l'heure du coup ?
+2014-07-19T01:04:29 *** adriens33 est parti
+2014-07-19T01:47:38 *** Letarumavza est parti
+2014-07-19T02:12:07 <ludvann> bonne nuit xD
+2014-07-19T02:12:16 <ludvann> Berry-Punch, bonne nuit !
+2014-07-19T02:12:25 *** ludvann est parti
+2014-07-19T06:47:08 *** ValCab33 s'est connecté
+2014-07-19T06:48:07 <ValCab33> Je crois que je suis le seul à me lever tôt pour aller au meetup :p
+2014-07-19T07:35:58 <ValCab33> Comment ca personne n'est debout à 7h30 un samedi ? :p
+2014-07-19T07:47:17 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, adriens33 *hic* 
+2014-07-19T07:47:19 *** adriens33 s'est connecté
+2014-07-19T07:53:05 <ValCab33> Kuku
+2014-07-19T07:53:39 <adriens33> salut :)
+2014-07-19T07:54:00 <ValCab33> Ca va ?
+2014-07-19T07:54:17 <adriens33> ouep… j'avais mis le réveil à 8h et j'me suis réveillé avant… ^^
+2014-07-19T07:54:20 <adriens33> et toi ?
+2014-07-19T07:55:01 <ValCab33> Bien. Levé à 6h45 :p
+2014-07-19T07:56:11 <adriens33> ouch
+2014-07-19T07:56:14 <adriens33> t'es un fou ^^
+2014-07-19T07:56:23 <ValCab33> Mais non :p
+2014-07-19T07:56:33 <adriens33> Ça fait des années que j'me suis pas levé avant 7h
+2014-07-19T07:56:42 <ValCab33> J'ai pas d'autre train.
+2014-07-19T07:57:12 <adriens33> fut un temps ou je me levais à 6h et que je prenais le bus qui prenait 1h pour aller de chez moi au lycée… c'était méga chiant ^^
+2014-07-19T07:57:12 <ValCab33> Ca fait 1 mois et demie que je me suis pas levé avant 7h
+2014-07-19T07:57:39 <adriens33> après on a déménagé à côté, ce qui a pas mal simplifié le truc. ^^
+2014-07-19T07:58:31 <ValCab33> Quand j'habitait à villenave, je prenais bus+tram pour aller au lycée, 1h de trajet le matin, 1h30 le soir...
+2014-07-19T07:58:52 <adriens33> que de souvenirs ^^
+2014-07-19T07:59:03 <ValCab33> Ué ^^
+2014-07-19T08:00:51 *** ValCab s'est connecté
+2014-07-19T08:00:51 *** ValCab est parti
+2014-07-19T08:02:00 *** ValCab s'est connecté
+2014-07-19T08:02:26 <ValCab> C'est très le bug de passage du wifi a la 4g
+2014-07-19T08:02:39 <adriens33> ah
+2014-07-19T08:02:59 <ValCab> Bon tu va timeout faux moi ??
+2014-07-19T08:03:04 <adriens33> faut  que t'attendes que ton autre compte timeout… (je peux le kick, mais ça va pas le déco d'irc)
+2014-07-19T08:03:09 <adriens33> (faut attendre 240 secondes)
+2014-07-19T08:03:15 <adriens33> (après le prochain ping)
+2014-07-19T08:03:24 <ValCab> Ué je sait
+2014-07-19T08:04:34 *** ValCab33 est parti
+2014-07-19T08:04:42 <ValCab> Ah
+2014-07-19T08:04:47 *** ValCab est parti
+2014-07-19T08:04:48 <adriens33> ^
+2014-07-19T08:04:56 *** ValCab33 s'est connecté
+2014-07-19T08:05:14 <ValCab33> Mieux comme ca ^^
+2014-07-19T08:05:52 <adriens33> ^^
+2014-07-19T08:05:52 <adriens33> bon
+2014-07-19T08:05:59 <adriens33> ben moi faut que je décolle le cul de mon orti
+2014-07-19T08:06:01 <adriens33> *ordi
+2014-07-19T08:06:12 <adriens33> donc gigot :)
+2014-07-19T08:06:14 <adriens33> ++
+2014-07-19T08:06:22 *** adriens33 est parti
+2014-07-19T08:10:14 <ValCab33> Encore tout seul :(
+2014-07-19T08:19:33 *** Dawnio s'est connecté
+2014-07-19T08:19:53 *** Dawnio est parti
+2014-07-19T08:29:25 <ValCab33> Ca fait 10 minutes que le train devrait etre la...
+2014-07-19T08:32:37 *** MaCharon s'est connecté
+2014-07-19T08:32:54 <MaCharon> *baille* salut
+2014-07-19T08:33:40 <MaCharon> >.>
+2014-07-19T08:33:43 <MaCharon> <.<
+2014-07-19T08:33:48 <MaCharon> personne
+2014-07-19T08:34:00 *** MaCharon est parti
+2014-07-19T08:37:12 <ValCab33> Pourquoi les gens sont là quand je regarde pas l'irc ?
+2014-07-19T08:37:17 <ValCab33> :(
+2014-07-19T08:37:39 <ValCab33> +20min.
+2014-07-19T08:38:02 <ValCab33> Je devrait arriver à la gare de bdx la normalement...
+2014-07-19T08:44:36 <ValCab33> Y u no come motherbucking train ?
+2014-07-19T08:50:41 <ValCab33> Bon ben merde hein, je prend un bus.
+2014-07-19T08:51:45 *** Shinsaber s'est connecté
+2014-07-19T08:52:07 <ValCab33> Kuku
+2014-07-19T08:52:14 <Shinsaber> salut /)
+2014-07-19T08:52:44 <Shinsaber> tu vien au Meet Up ??
+2014-07-19T08:52:51 <ValCab33> Ouais
+2014-07-19T08:52:57 <Shinsaber> cool ^^
+2014-07-19T08:53:33 <ValCab33> Mais je risque d'arriver jn peu en retard, mon train n'est toujours pas la donc je prend un bus...
+2014-07-19T08:54:24 <Shinsaber> a con !
+2014-07-19T08:54:33 <ValCab33> Motherbucking SNCF
+2014-07-19T08:55:28 <ValCab33> Here comes the bus
+2014-07-19T09:04:02 <ValCab33> Tu viens à quelle heure toi ?
+2014-07-19T09:05:06 <Shinsaber> je vais essayer d'y allez pour 9h30 mais sa va dépendre du tram XD
+2014-07-19T09:05:26 <ValCab33> :p
+2014-07-19T09:05:50 <ValCab33> Moi je pense arriver vers 10h30...
+2014-07-19T09:06:04 <ValCab33> Toussa a cause de la sncf.
+2014-07-19T09:06:22 <ValCab33> Y zaurait pu prévenir quand meme...
+2014-07-19T09:06:47 <ValCab33> C'estait meme pas marqué sur le site...
+2014-07-19T09:06:56 <Shinsaber> a quant mm
+2014-07-19T09:08:04 <ValCab33> Le trajet en bus est long, et il m'emmene que jusqua la buttinière..
+2014-07-19T09:08:31 <Shinsaber> c'est déjà ça....
+2014-07-19T09:08:46 <ValCab33> Certes
+2014-07-19T09:09:57 <ValCab33> Et comme un con j'ai pas pri mes écouteurs...
+2014-07-19T09:14:46 * ValCab33 is getting bored
+2014-07-19T09:16:11 *** Shinsaber est parti
+2014-07-19T09:18:53 *** Shinsaber s'est connecté
+2014-07-19T09:19:04 * ValCab33 is now alone.
+2014-07-19T09:19:11 <ValCab33> Ah non
+2014-07-19T09:19:49 <Shinsaber> Re, je vient de prendre mon tel ^^
+2014-07-19T09:20:07 <ValCab33> Rheu
+2014-07-19T09:21:05 <ValCab33> Le trajet en bus met moins de temps que ce que je pensait ^^
+2014-07-19T09:21:31 <ValCab33> Chui déja a lormont
+2014-07-19T09:24:07 <Shinsaber> Moi mon tram vient d'arrivé ^^
+2014-07-19T09:26:02 <ValCab33> J'arrive à la buttinière.
+2014-07-19T09:27:08 <ValCab33> To the tram.
+2014-07-19T09:29:36 <ValCab33> Je devrait arriver vers 10h - 10h15
+2014-07-19T09:29:40 <ValCab33> Je pense
+2014-07-19T09:30:05 <Shinsaber> Sa va ^^
+2014-07-19T09:31:09 <ValCab33> Je pense que d'ici là vous serez au parc ?
+2014-07-19T09:31:50 <Shinsaber> Je sais pas trop ^^ possible !
+2014-07-19T09:32:07 <Shinsaber> Moi je suis a Stalingrad ^^
+2014-07-19T09:33:05 <ValCab33> Ok
+2014-07-19T09:42:23 <ValCab33> Stalingrad
+2014-07-19T09:44:12 <ValCab33> C'est Jardin Public l'arret de tram du parc ?
+2014-07-19T09:45:09 <Shinsaber> Oui
+2014-07-19T09:45:36 <ValCab33> Thx
+2014-07-19T09:46:57 <Shinsaber> Nous on part !
+2014-07-19T09:47:43 <ValCab33> De l'hotel de ville ?
+2014-07-19T09:48:07 <Shinsaber> Oui
+2014-07-19T09:48:14 <Shinsaber> A pied
+2014-07-19T09:48:30 <ValCab33> Ok
+2014-07-19T09:56:38 <ValCab33> Tiens, j'ai croisé le tram rose
+2014-07-19T09:59:56 <Shinsaber> XD
+2014-07-19T10:01:11 <ValCab33> Ayé je suis devant la grille
+2014-07-19T10:03:00 <ValCab33> Vouzétou ?
+2014-07-19T10:17:35 *** Shinsaber est parti
+2014-07-19T10:19:41 *** ValCab33 est parti
+2014-07-19T10:35:25 *** Yvan s'est connecté
+2014-07-19T10:35:54 <Yvan> Vous etes ou la?
+2014-07-19T10:36:55 *** Yvan est parti
+2014-07-19T10:37:35 *** Yvan s'est connecté
+2014-07-19T10:38:54 *** Yvan est parti
+2014-07-19T10:53:41 *** ValCab33 s'est connecté
+2014-07-19T10:53:44 *** ValCab33 est parti
+2014-07-19T10:54:01 *** adriens33 s'est connecté
+2014-07-19T10:54:16 *** adriens33 est parti
+2014-07-19T11:15:43 *** ValCab33 s'est connecté
+2014-07-19T11:15:50 *** ValCab33 est parti
+2014-07-19T11:33:08 *** Letarumavza s'est connecté
+2014-07-19T11:48:33 *** ValCab33 s'est connecté
+2014-07-19T11:49:08 *** ValCab33 est parti
+2014-07-19T11:52:55 *** ValCab33 s'est connecté
+2014-07-19T11:52:58 *** adriens33 s'est connecté
+2014-07-19T11:53:07 <adriens33> Plop
+2014-07-19T11:53:11 <ValCab33> Plop
+2014-07-19T11:53:23 <Letarumavza> gah gné
+2014-07-19T11:53:53 <adriens33> T'as loupé la journaliste
+2014-07-19T11:54:09 <Letarumavza> volonté perso
+2014-07-19T11:54:29 <adriens33> Ah… ^^
+2014-07-19T11:55:02 *** adriens33 est parti
+2014-07-19T12:05:01 *** ValCab33 est parti
+2014-07-19T12:08:27 *** adriens33 s'est connecté
+2014-07-19T12:16:00 *** adriens33 est parti
+2014-07-19T12:16:09 *** adriens33 s'est connecté
+2014-07-19T12:29:37 *** adriens33 est parti
+2014-07-19T12:59:10 <Letarumavza> Hum...
+2014-07-19T13:00:43 *** adriens33 s'est connecté
+2014-07-19T13:01:52 <Letarumavza> Hum...
+2014-07-19T13:02:09 <Letarumavza> Mon socket est détecté deux fucking fois
+2014-07-19T13:02:29 <Letarumavza> ...
+2014-07-19T13:02:32 <Letarumavza> fuck me...
+2014-07-19T13:02:45 <Letarumavza> a tout les coups c'est à cause des 64bits d'adressage étendu
+2014-07-19T13:02:47 <adriens33> ?
+2014-07-19T13:03:08 <adriens33> Quel socket ?
+2014-07-19T13:03:14 <Letarumavza> De ma MB
+2014-07-19T13:03:33 <Letarumavza> win m'en détecte deux utilisant des pilotes différents.
+2014-07-19T13:03:39 <adriens33> Ah… merde
+2014-07-19T13:03:59 *** adriens33 est parti
+2014-07-19T13:04:31 *** adriens33 s'est connecté
+2014-07-19T13:06:58 <adriens33> Putain… lezarius qui veut trainer tt le monde a la plage… grr
+2014-07-19T13:07:14 <Letarumavza> Euh...
+2014-07-19T13:07:19 <Letarumavza> On parle bien de remy là ?
+2014-07-19T13:07:31 <Letarumavza> Le mec qui se permet de mentir et de faucher ?
+2014-07-19T13:07:53 <Letarumavza> Flo est vraiment une version humanisée de fluttershy...
+2014-07-19T13:08:47 <Letarumavza> M'enfin bon, il a peut-être raison.
+2014-07-19T13:09:31 <adriens33> Oep. Rémy
+2014-07-19T13:09:45 <Letarumavza> Et il veut y aller comment ?
+2014-07-19T13:10:02 <Letarumavza> (il a ni pognon ni bagnole, je suis curieux de savoir sa solution)
+2014-07-19T13:10:23 <adriens33> En bus / tram vers bdx lac
+2014-07-19T13:10:47 <Letarumavza> ...
+2014-07-19T13:13:14 <adriens33> [Troll] ben c'est gratuit non ?
+2014-07-19T13:13:36 * Letarumavza facehoof.
+2014-07-19T13:13:54 <Letarumavza> M'en tape, perso je suis devant mon pc avec mon jus de pomme, mes chips et ma pastèque !
+2014-07-19T13:14:43 <Letarumavza> (quand au fait d'aller à la plage... Soleil + chaleur + eau...)
+2014-07-19T13:15:21 <Letarumavza> Pas mon truc quoi ^^'
+2014-07-19T13:16:53 <Letarumavza> "Qui que vous soyez, pour un mort vous sentez plus la bière que la biere."
+2014-07-19T13:16:53 <Berry-Punch> Qu'est-ce *hic* que j'ai soif…
+2014-07-19T13:23:31 <adriens33> XD
+2014-07-19T13:30:29 <Letarumavza> c'est du dickens
+2014-07-19T13:31:18 <adriens33> ^^
+2014-07-19T13:37:50 *** ValCab33 s'est connecté
+2014-07-19T13:37:53 <adriens33> Bon… glandage au Jardin Public
+2014-07-19T13:38:03 <Letarumavza> héhé
+2014-07-19T13:38:04 <ValCab33> Tout à fait
+2014-07-19T13:38:07 *** ValCab33 est parti
+2014-07-19T13:38:08 <Letarumavza> comme d'hab quoi
+2014-07-19T13:38:12 <adriens33> ^^
+2014-07-19T13:38:40 <adriens33> Non, ce matin y'avait une journaliste.
+2014-07-19T13:39:11 <Letarumavza> Alors ça s'est passé comment ?
+2014-07-19T13:39:47 <adriens33> Pas trop mal de ce que j'en ai entendu
+2014-07-19T13:39:59 <adriens33> Ca discutait bien
+2014-07-19T13:52:40 <adriens33> …
+2014-07-19T13:52:57 <adriens33> Y'a makhai…
+2014-07-19T14:14:27 <Letarumavza> ?
+2014-07-19T14:14:51 <Letarumavza> Ah tu vois le point commun entre ragator et lui ?
+2014-07-19T14:16:15 <adriens33> Pas encore, mais je sais pas si je veux savoir.
+2014-07-19T14:16:33 <Letarumavza> Ah...
+2014-07-19T14:52:11 *** ValCab33 s'est connecté
+2014-07-19T14:52:27 *** ValCab33 est parti
+2014-07-19T15:10:44 *** Letarumavza est parti
+2014-07-19T15:21:19 *** adriens33 est parti
+2014-07-19T15:34:30 *** Letarumavza s'est connecté
+2014-07-19T16:29:04 *** ValCab33 s'est connecté
+2014-07-19T16:29:18 *** ValCab33 est parti
+2014-07-19T21:25:44 *** ValCab33 s'est connecté
+2014-07-19T21:49:07 *** ValCab33 est parti
+2014-07-19T21:49:24 *** ValCab33 s'est connecté
+2014-07-19T22:08:49 *** ValCab33 est parti
