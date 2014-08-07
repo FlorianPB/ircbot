@@ -1,0 +1,585 @@
+2014-07-29T00:03:52 <MaitrePanda> https://www.youtube.com/watch?v=9GtPSJVo5E8&feature=youtu.be
+2014-07-29T00:20:25 *** wildfier est parti
+2014-07-29T00:59:57 *** ELiDYROS est parti
+2014-07-29T02:01:26 *** ValCab33 est parti
+2014-07-29T03:00:30 *** MaitrePanda est parti
+2014-07-29T04:50:35 *** ludvannn s'est connecté
+2014-07-29T04:55:17 *** ludvannn est parti
+2014-07-29T05:43:39 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, adriens33 *hic* 
+2014-07-29T05:43:40 *** adriens33 s'est connecté
+2014-07-29T08:08:06 *** Letarumavza est parti
+2014-07-29T09:05:55 *** Letarumavza s'est connecté
+2014-07-29T09:32:09 *** ludvannn s'est connecté
+2014-07-29T09:32:18 *** Gordfang s'est connecté
+2014-07-29T09:32:33 <Gordfang> lu
+2014-07-29T09:32:43 <adriens33> salut :)
+2014-07-29T09:45:08 *** adriens33 est parti
+2014-07-29T09:46:23 *** ludvannn est parti
+2014-07-29T10:13:00 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières *hic* lignes, adriens33
+2014-07-29T10:13:01 *** adriens33 s'est connecté
+2014-07-29T10:41:21 *** ludvannn s'est connecté
+2014-07-29T10:46:23 *** ludvannn est parti
+2014-07-29T10:53:52 *** ludvann s'est connecté
+2014-07-29T10:53:57 <ludvann> coucou !
+2014-07-29T10:54:06 <ludvann> /salut
+2014-07-29T10:54:53 <ludvann> Letarumavza,  tu sais si on peut faire de la programmation modulaire sous arduino ?
+2014-07-29T10:57:33 <adriens33> il dort Leta ^^
+2014-07-29T10:57:38 <adriens33> salut au passage
+2014-07-29T10:57:38 <adriens33> ^^
+2014-07-29T10:57:46 <ludvann> xD
+2014-07-29T10:57:49 <ludvann> salut :)
+2014-07-29T10:58:05 <adriens33> tu veux faire de la prog modulaire ?
+2014-07-29T10:58:08 <ludvann> il dors sans le casque je pense ^^
+2014-07-29T10:58:15 <adriens33> achète toi un raspberry pi et code en python
+2014-07-29T10:58:23 <adriens33> y'a pas mieux que le python ^^
+2014-07-29T10:58:24 <ludvann> nope
+2014-07-29T10:59:15 <ludvann> je veux juste savoir si c'est possible en arduino, (perso j'en chie en C et j'en suis même pas aux pointeurs xD )
+2014-07-29T10:59:33 <adriens33> t'en démords pas de ton arduino ma parole ^^
+2014-07-29T10:59:43 <adriens33> t'as des actions chez eux ou quoi . XD
+2014-07-29T10:59:45 <adriens33> *?
+2014-07-29T11:00:18 <ludvann> xd
+2014-07-29T11:00:20 <ludvann> Xdµ
+2014-07-29T11:00:28 <ludvann> xD
+2014-07-29T11:00:40 <ludvann> actionnaire majoritaire
+2014-07-29T11:00:54 <adriens33> Mouais… XD
+2014-07-29T11:01:39 <ludvann> nan, c'est juste que c'est ce que j'ai sous la main et si je change de truc, je veux au moins faire des trucs bien avec le précédent (dans mon cas l'arduino)
+2014-07-29T11:01:50 <adriens33> ok
+2014-07-29T11:01:55 <adriens33> ben moi j'ai un rpi
+2014-07-29T11:02:01 <adriens33> et je suis en train d'apprendre le python
+2014-07-29T11:02:15 <adriens33> (d'ailleurs va falloir que je le réinstall mon pi…)
+2014-07-29T11:02:22 <ludvann> et j'ai un peu la flemme de débourser 20€ et apprendre le python :|
+2014-07-29T11:02:30 <adriens33> c'est super simple.
+2014-07-29T11:02:37 <adriens33> t'as le tuto de démarrage sur le site ^^
+2014-07-29T11:02:48 <adriens33> {"2012-08":[],"2012-09":[],"2012-10":[],"2012-11":[],"2012-12":[],"2013-01":[],"2013-02":[],"2013-03":[],"2013-04":[],"2013-05":[],"2013-06":[],"2013-07":[],"2013-08":[],"2013-09":[],"2013-10":[],"2013-11":[],"2013-12":[],"2014-01":[],"2014-02":[],"2014-03":[],"2014-04":[],"2014-05":[],"2014-06":[],"2014-07":[{"label":"GNU/Linux","nb_visits":9,"nb_actions":18,"max_actions":7,"sum_visit_length":697,"bounce_count":7,"nb_
+2014-07-29T11:02:49 <adriens33> visits_converted":0,"sum_daily_nb_uniq_visitors":9,"logo":"plugins/UserSettings/images/os/LIN.gif"}]}
+2014-07-29T11:02:52 <adriens33> (raté)
+2014-07-29T11:02:56 <adriens33> https://docs.python.org/3/
+2014-07-29T11:02:58 <ludvann> #include <sti.lib>
+2014-07-29T11:02:59 <ludvann> xD
+2014-07-29T11:03:12 <adriens33> prog de base en c:
+2014-07-29T11:03:16 <adriens33> #include <stdio.h>
+2014-07-29T11:03:20 <adriens33> #include <stdlib.h>
+2014-07-29T11:03:22 <adriens33> void main()
+2014-07-29T11:03:24 <adriens33> {
+2014-07-29T11:03:32 <adriens33>     printf("hellon");
+2014-07-29T11:03:33 <adriens33> }
+2014-07-29T11:03:37 <adriens33> et en python ça donne:
+2014-07-29T11:03:42 <adriens33> print("hello")
+2014-07-29T11:03:56 <adriens33> sinon y'a aussi:
+2014-07-29T11:03:59 <adriens33> import sys
+2014-07-29T11:04:05 <adriens33> sys.stdout.write("hellon")
+2014-07-29T11:05:32 *** ludvannn s'est connecté
+2014-07-29T11:07:58 <ludvann> re
+2014-07-29T11:08:19 <adriens33> re
+2014-07-29T11:08:21 <ludvann> pourquoi je suis double co ?
+2014-07-29T11:08:32 <adriens33> ton phone non ?
+2014-07-29T11:08:41 *** ludvannn est parti
+2014-07-29T11:08:53 <ludvann> Eeyup
+2014-07-29T11:09:19 <ludvann> quand on m'a appelle, androirc en a profiter pour ce co ^^
+2014-07-29T11:09:31 <adriens33> ^^
+2014-07-29T11:09:46 <adriens33> ça c'est parce que t'as dû activer la 3G/4G
+2014-07-29T11:09:56 <ludvann> nope wi-fi ^^
+2014-07-29T11:10:00 <adriens33> ah
+2014-07-29T11:10:05 <adriens33> ben un accès internet quoi.
+2014-07-29T11:10:08 <ludvann> je suis chez moi donc pas de 3G
+2014-07-29T11:10:17 <ludvann> ^^
+2014-07-29T11:10:24 <adriens33> ça coûte moins cher la WiFi :p
+2014-07-29T11:10:39 <ludvann> tout a fait Thierry !
+2014-07-29T11:10:46 <adriens33> ^^
+2014-07-29T11:11:03 <adriens33> T'es en forme ce matin dis donc ^^
+2014-07-29T11:11:10 <ludvann> je suis en train de m'amuser avec une sardine ^^
+2014-07-29T11:11:29 <ludvann> c'est la seule explication possible
+2014-07-29T11:11:37 <adriens33> ouate de phoque ?
+2014-07-29T11:11:56 <ludvann> je suis en forme parce que je m'amuse avec une sardine
+2014-07-29T11:12:11 <adriens33> Donc t'es en forme de sardine ?
+2014-07-29T11:12:15 <ludvann> toi avoir compris ?
+2014-07-29T11:12:19 <ludvann> ...
+2014-07-29T11:12:35 <adriens33> ^^
+2014-07-29T11:12:54 <ludvann> Pour faire une chanson facile, facile,
+2014-07-29T11:12:54 <ludvann> Faut d’abord des paroles débiles, débiles,
+2014-07-29T11:12:54 <ludvann> Une petite mélodie qui te prend bien la tête,
+2014-07-29T11:12:54 <ludvann> Et une chorégraphie pour bien faire la fête,
+2014-07-29T11:12:54 <ludvann> Dans celle là, on se rassemble, à 5, ou 6, ou 7
+2014-07-29T11:12:55 <ludvann> Et on se colle tous ensemble, en chantant à tue tête.
+2014-07-29T11:13:05 <adriens33> ludvann...
+2014-07-29T11:13:14 <ludvann> quoi ? xD
+2014-07-29T11:13:14 <adriens33> pas de Patrick Sébastien s'il te plaît.
+2014-07-29T11:13:21 <adriens33> on va pas s'entendre sinon XD
+2014-07-29T11:13:37 <ludvann> tu m'as tendu la perche, désolé ^^
+2014-07-29T11:13:52 <adriens33> Ouais ouais...
+2014-07-29T11:14:00 <adriens33> C'est pas une excuse valide ça ^^
+2014-07-29T11:14:21 <ludvann> bon pour me faire pardonner bit.ly/1tm8Ubn
+2014-07-29T11:14:44 <adriens33> ...
+2014-07-29T11:15:15 <adriens33> Tiens, c'est marrant, firefox a tellement aprécié ta blague qu'il a décidé de se fermer de lui même ^^
+2014-07-29T11:15:43 <ludvann> xD
+2014-07-29T11:15:59 <adriens33> Brave firefox ^^
+2014-07-29T11:16:04 <ludvann> toi quand tu entends tu patrick sébastien bit.ly/1zpFIk9
+2014-07-29T11:18:59 <ludvann> ^^
+2014-07-29T11:22:50 <adriens33> je re
+2014-07-29T11:22:51 *** adriens33 est parti
+2014-07-29T11:24:58 *** heuzef s'est connecté
+2014-07-29T11:25:04 <heuzef> yop =)
+2014-07-29T11:25:07 <heuzef> Letarumavza: ?
+2014-07-29T11:25:22 <heuzef> Letarumavza youhou !?
+2014-07-29T11:25:41 <heuzef> Létareumaveza
+2014-07-29T11:25:43 <heuzef> letrazoigfgbqer
+2014-07-29T11:25:45 <heuzef> grrr
+2014-07-29T11:27:24 <heuzef> Letarumavza on à prévu de passer cet aprem, tiens moi au jus stp
+2014-07-29T11:27:35 *** heuzef est parti
+2014-07-29T11:49:18 <Berry-Punch> Voilà ce qu'il s'est passé *hic* ces 10 dernières lignes, adriens33
+2014-07-29T11:49:19 *** adriens33 s'est connecté
+2014-07-29T11:51:58 <adriens33> mince, j'ai manqué flo… ^^
+2014-07-29T11:52:03 <adriens33> faudra lui dire que leta pionce
+2014-07-29T11:52:04 <adriens33> :)
+2014-07-29T11:52:45 <ludvann> ^^
+2014-07-29T12:05:36 *** Gordfang est parti
+2014-07-29T12:06:01 <adriens33> sympa le message de quit ^^
+2014-07-29T12:19:42 *** MaitrePanda s'est connecté
+2014-07-29T12:22:48 *** ValCab33 s'est connecté
+2014-07-29T12:22:54 <adriens33> Salut panda :)
+2014-07-29T12:22:58 <ValCab33> Hello
+2014-07-29T12:23:02 <adriens33> plop val' :)
+2014-07-29T12:23:20 <adriens33> (en fait y'a pas besoin que le bot dise bonjour aux arrivants, je le fait à sa place… XD)
+2014-07-29T12:34:45 *** MaitrePanda est parti
+2014-07-29T12:36:20 <Berry-Punch> Entrez help <commande> pour *hic* avoir de l'aide sur cette commande.
+2014-07-29T12:36:33 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, _Berry-Punch_ *hic* 
+2014-07-29T12:55:35 <ludvann> salut
+2014-07-29T13:31:26 *** Gordfang s'est connecté
+2014-07-29T14:06:53 <ludvann> Letarumavza, tu es réveillés ?
+2014-07-29T14:09:53 *** heuzef s'est connecté
+2014-07-29T14:10:02 <heuzef> Plop
+2014-07-29T14:10:08 <ludvann> niorph !
+2014-07-29T14:10:14 <heuzef> Adrien ?
+2014-07-29T14:10:17 <ludvann> ça va ?
+2014-07-29T14:10:21 <heuzef> Yep
+2014-07-29T14:10:34 <heuzef> Bertrand ?
+2014-07-29T14:10:40 <ludvann> il dors
+2014-07-29T14:10:48 <ludvann> depuis un bon bout de temps
+2014-07-29T14:10:52 <heuzef> Il dors ????
+2014-07-29T14:11:09 <ludvann> c'est ce dont adriens33 à déduit ^^
+2014-07-29T14:11:11 <heuzef> Mais on est en route pour chez lui la ...
+2014-07-29T14:11:19 <adriens33> Non, là il dort plus narmolement
+2014-07-29T14:11:25 <ludvann> ah...
+2014-07-29T14:11:25 <adriens33> (salut au passage)
+2014-07-29T14:11:41 <ludvann> vous connaissez le nom des CG de bertrand ?
+2014-07-29T14:11:47 <heuzef> J'arrive pas a le joindre
+2014-07-29T14:11:52 <ludvann> xD
+2014-07-29T14:11:57 <heuzef> On est en route pour chez lui
+2014-07-29T14:12:15 <heuzef> Pour nettoyage de son jardin
+2014-07-29T14:12:24 <ludvann> les restes de corps ?
+2014-07-29T14:12:31 <ludvann> des*
+2014-07-29T14:12:34 <heuzef> Lol
+2014-07-29T14:12:41 <ludvann> vous connaissez le nom des CG de bertrand ?
+2014-07-29T14:12:57 <heuzef> Black Titan
+2014-07-29T14:13:05 <ludvann> ref ?
+2014-07-29T14:13:07 <ludvann> stp
+2014-07-29T14:13:17 <heuzef> Adrien tu viens ?
+2014-07-29T14:14:27 <adriens33> où ?
+2014-07-29T14:14:52 <heuzef> Chez bertrand
+2014-07-29T14:15:09 <adriens33> heu.. t'as regardé mon ip ^^ ?
+2014-07-29T14:15:12 <heuzef> Pour preparer son jardin
+2014-07-29T14:15:14 <adriens33> (/whois adriens33)
+2014-07-29T14:16:15 *** heuzef est parti
+2014-07-29T14:16:37 *** heuzef s'est connecté
+2014-07-29T14:17:54 *** heuzef est parti
+2014-07-29T14:38:36 <ludvann> je suis afk
+2014-07-29T14:41:28 *** AFK|ludvann est parti
+2014-07-29T14:53:23 *** adriens33 est parti
+2014-07-29T14:55:25 <Berry-Punch> Voilà ce qu'il s'est *hic* passé ces 10 dernières lignes, adriens33
+2014-07-29T14:55:27 *** adriens33 s'est connecté
+2014-07-29T14:55:38 *** adriens33 est parti
+2014-07-29T15:19:44 *** ValCab33 est parti
+2014-07-29T16:06:27 *** Gordfang est parti
+2014-07-29T16:08:18 *** Gordfang s'est connecté
+2014-07-29T16:08:22 <Gordfang> re
+2014-07-29T16:15:32 *** AFK|ludvann s'est connecté
+2014-07-29T16:18:32 *** Letarumavza est parti
+2014-07-29T16:18:59 *** Letarumavza s'est connecté
+2014-07-29T16:35:17 <AFK|ludvann> coucou Letarumavza
+2014-07-29T16:37:53 <ludvann> hey ho !
+2014-07-29T16:53:58 <Gordfang> lu
+2014-07-29T17:08:46 *** Gordfang est parti
+2014-07-29T17:14:57 *** MaitrePanda s'est connecté
+2014-07-29T17:20:10 <ludvann> salut
+2014-07-29T17:26:40 *** Letarumavza est parti
+2014-07-29T17:32:44 *** Lezarius s'est connecté
+2014-07-29T17:32:50 <Lezarius> Salut
+2014-07-29T18:02:38 *** MaCharon s'est connecté
+2014-07-29T18:02:41 <MaCharon> slt
+2014-07-29T18:03:40 *** Letarumavza s'est connecté
+2014-07-29T18:17:52 <ludvann> salut
+2014-07-29T18:17:58 *** ValCab33 s'est connecté
+2014-07-29T18:18:03 <ludvann> salut
+2014-07-29T18:18:05 <ValCab33> Reuh
+2014-07-29T18:18:27 <MaitrePanda> salut
+2014-07-29T18:18:31 <MaitrePanda> pardon pour le retard
+2014-07-29T18:18:45 <ludvann> (ça vaut pas moi ^^ )
+2014-07-29T18:19:17 <ludvann> il y en a qui sont un peu calé en électronique ici ? (oui je sais il y a leta)
+2014-07-29T18:19:32 <ValCab33> Du tout.
+2014-07-29T18:19:38 <ludvann> k
+2014-07-29T18:19:57 <Letarumavza> re
+2014-07-29T18:20:07 <ludvann> re
+2014-07-29T18:20:09 <Letarumavza> +v ludvann
+2014-07-29T18:20:13 <Letarumavza> !+v ludvann
+2014-07-29T18:20:18 <Letarumavza> ...
+2014-07-29T18:20:18 <ludvann> /
+2014-07-29T18:20:22 <Berry-Punch> Flags de Letarumavza modifiés : +o *hic* 
+2014-07-29T18:20:22 <Letarumavza> !op Letarumavza
+2014-07-29T18:20:26 <ludvann> si tu mets un /
+2014-07-29T18:20:35 <Letarumavza> mod +v ludvann
+2014-07-29T18:20:42 <ludvann> :/
+2014-07-29T18:21:12 <Letarumavza> Désolé je suis complètement crevé
+2014-07-29T18:21:14 <ludvann> thx :)
+2014-07-29T18:21:20 <Berry-Punch> Flags de Letarumavza modifiés *hic* : -o
+2014-07-29T18:21:20 <Letarumavza> !deop Letarumavza
+2014-07-29T18:21:27 *** heuzef s'est connecté
+2014-07-29T18:21:34 <Letarumavza> re flo
+2014-07-29T18:21:37 <heuzef> re ;)
+2014-07-29T18:21:41 <ValCab33> Hi
+2014-07-29T18:21:51 <ludvann> Letarumavza, toi qui beau gentil et intelligent, tu peu me renseigner 2minutes en électronique ? :D
+2014-07-29T18:21:58 <ludvann> salut flo
+2014-07-29T18:22:09 <Lezarius> Salut
+2014-07-29T18:22:42 <heuzef> Bon à a bien taffé chez Letarumavza, on à nettoyer toute la veranda
+2014-07-29T18:22:50 <Letarumavza> thx flo
+2014-07-29T18:22:51 <ludvann> o/
+2014-07-29T18:22:57 <Letarumavza> kékitariv lud ?
+2014-07-29T18:22:58 <heuzef> C'est en très bonne voie pour le 17 :D
+2014-07-29T18:23:33 <ludvann> c'est à propos d'oscilloscope
+2014-07-29T18:24:18 <Letarumavza> Hum...
+2014-07-29T18:24:25 <Letarumavza> Attends qu'adrien soit de retour
+2014-07-29T18:24:31 <Letarumavza> Il en a codé un.
+2014-07-29T18:25:26 <ludvann> savoir si celui là vaut le coup bit.ly/1kkXG46  ou, savoir si il vaut mieux négocier pour avoir le premier bit.ly/XafeW5
+2014-07-29T18:25:42 <ludvann> après je crache pas sur un truc plus compact ^^
+2014-07-29T18:25:56 <ludvann> (comme le truc d'adrien)
+2014-07-29T18:26:20 <Letarumavza> Tu sais qu'une carte son peut faire oscillo, non ?
+2014-07-29T18:26:38 <ludvann> je crois que tu me l'avais dit une fois ^^
+2014-07-29T18:26:53 <ludvann> (lors des émettteurs gsm...)
+2014-07-29T18:27:12 <ludvann> faudra que tu m'explique comment on fait... :D
+2014-07-29T18:29:03 <ludvann> wait, une carte son ?
+2014-07-29T18:29:12 <ludvann> ça existe toujours c'est truc ?
+2014-07-29T18:30:15 <Letarumavza> ...
+2014-07-29T18:30:25 <ludvann> xD
+2014-07-29T18:30:31 <ludvann> :|
+2014-07-29T18:33:22 <ludvann> sinon ça vaut le coup ou non les offres ?
+2014-07-29T18:36:41 <Letarumavza> Carrément pas...
+2014-07-29T18:36:51 <ludvann> heuzef, si on est des abeilles, comment on communiquerais ?
+2014-07-29T18:36:56 <ludvann> ok thx
+2014-07-29T18:37:01 <Letarumavza> Pour 30€ t'as une carte son avec 96kHz de pooling
+2014-07-29T18:37:29 <ludvann> tu m'expliquerais comment on fait ou google ?
+2014-07-29T18:40:23 <Letarumavza> google toujours avant
+2014-07-29T18:41:10 <ludvann> (c'est ce que je fais en ce moment même ^^ )
+2014-07-29T18:44:55 <ludvann> qu'est ce qu'a programmé adrien au fait, j'ai pas très bien compris...
+2014-07-29T18:49:19 <ludvann> je sais que je vais passer pour con (même si je le suis déjà), mais pour faire un oscillo avec une carte son il me faut obligatoirement un ordi Letarumavza ?
+2014-07-29T18:49:48 <heuzef> Lezarius: ?
+2014-07-29T18:52:46 <ludvann> heuzef, si on est des abeilles, comment on communiquerais ?
+2014-07-29T18:53:31 <heuzef> Avec des phéromones non ?
+2014-07-29T18:53:37 <ludvann> nope
+2014-07-29T18:53:41 <ludvann> par e-miel
+2014-07-29T18:54:00 * ludvann sort en courant
+2014-07-29T18:54:23 <heuzef> :D
+2014-07-29T18:54:39 <ludvann> ;)
+2014-07-29T18:54:41 <MaCharon> par e-miel Carl ! Par E-MIEL !!!
+2014-07-29T18:55:00 <heuzef> J'approuve cette blague
+2014-07-29T18:55:04 <heuzef> MaCharon ?
+2014-07-29T18:55:31 <MaCharon> non c'est un meme sur fb par rapport a Walking dead
+2014-07-29T18:55:42 <heuzef> MaCharon ?
+2014-07-29T18:55:57 <ludvann> Mhoulou et Allan son devant une maison, qui est-ce qui sonne ?
+2014-07-29T18:56:13 <ludvann> Mhouloud*
+2014-07-29T18:56:25 <heuzef> MaCharon ?
+2014-07-29T18:56:34 <MaCharon> ?
+2014-07-29T18:56:44 <MaCharon> quoi ?
+2014-07-29T18:56:44 <heuzef> Je peux te confier une petite mission ? =)
+2014-07-29T18:56:55 <MaCharon> dit toujours
+2014-07-29T18:57:16 <heuzef> Réaliser une petite décoration sur le site avec un countdown pour le 17 aout
+2014-07-29T18:57:39 <MaCharon> je sais même pas comment onfait
+2014-07-29T18:57:45 <ludvann> xD
+2014-07-29T18:57:47 <heuzef> Tu pourrais par exemple
+2014-07-29T18:57:53 <heuzef> Utiliser cette image
+2014-07-29T18:57:54 <heuzef> http://fc07.deviantart.net/fs70/i/2014/186/f/f/cake__by_magister39-d7pb3c6.png
+2014-07-29T18:57:58 <MaCharon> pas que ça me derange
+2014-07-29T18:58:01 <heuzef> Réaliser une banderole
+2014-07-29T18:58:09 <heuzef> Comme sur le site http://ponycountdown.com/
+2014-07-29T18:58:31 <heuzef> Trouver un dev qui à la main sur le site pour faire le countdown et mettre ça en place sur le site ;)
+2014-07-29T18:59:29 <heuzef> Le truc c'est que peu importe le dev qui va te faire ça, ce sont des billes en graphisme et il leur faut au moins l'image
+2014-07-29T18:59:47 <MaCharon> je comprend l'utilité du denier site
+2014-07-29T19:00:00 <MaCharon> je comprend pas trop*
+2014-07-29T19:00:17 <heuzef> Y'a un countdown à chaque saison pour savoir quand sort le prochain episode
+2014-07-29T19:00:25 <MaCharon> ok
+2014-07-29T19:00:51 <heuzef> Mais dans le cas présent c'est juste pour que tu récupére la banderole et trouve un moyen de glisser ça sur le site
+2014-07-29T19:01:00 <heuzef> Avec une image rigolote de celestia ou autre
+2014-07-29T19:01:23 <MaCharon> ok je vois ce que tu veut dire je pense
+2014-07-29T19:01:30 <heuzef> Voici la liste des gens pouvant t'aider concernant la partie devloppement et integration au site : https://github.com/orgs/bronycub/people
+2014-07-29T19:01:58 <MaCharon> ouai personne quoi
+2014-07-29T19:02:04 <ludvann> xD
+2014-07-29T19:02:18 <MaCharon> tu pouvais me le dire direct XD
+2014-07-29T19:02:40 <heuzef> Ha oups non
+2014-07-29T19:02:53 <heuzef> Tu n'as pas les autorisations pour consulter la liste
+2014-07-29T19:03:03 <heuzef> désolé au temps pour moi
+2014-07-29T19:03:08 <MaCharon> np
+2014-07-29T19:03:20 <ludvann> heuzef, où auras lieu l'anniv de BronyCub ?
+2014-07-29T19:03:26 <heuzef> Adrien Sohier
+2014-07-29T19:03:26 <heuzef> adrien-s
+2014-07-29T19:03:26 <heuzef> Adrien Sohier
+2014-07-29T19:03:27 <heuzef> 1 team  Private  Owner
+2014-07-29T19:03:27 <heuzef>  
+2014-07-29T19:03:27 <heuzef> GigAnon
+2014-07-29T19:03:27 *** heuzef est parti
+2014-07-29T19:03:37 <ludvann> xD
+2014-07-29T19:03:47 *** heuzef s'est connecté
+2014-07-29T19:03:48 <ludvann> GG
+2014-07-29T19:03:54 <heuzef> Grrr
+2014-07-29T19:03:59 <ludvann> heuzef, où auras lieu l'anniv de BronyCub ?
+2014-07-29T19:04:01 <heuzef> Tu as eu la liste au moins
+2014-07-29T19:04:03 <heuzef> ???
+2014-07-29T19:04:30 <ludvann> ?
+2014-07-29T19:04:57 <Letarumavza> Putain les mecs
+2014-07-29T19:05:04 <ludvann> Watt ?
+2014-07-29T19:05:05 <Letarumavza> J'ai surdosé la codéine...
+2014-07-29T19:05:16 <MaCharon> ah ben bravo
+2014-07-29T19:05:20 <heuzef> MaCharon: http://i.imgur.com/XXoxTEZ.png
+2014-07-29T19:05:26 <heuzef> Bordel de merde xD
+2014-07-29T19:05:41 <heuzef> ludvann: oui chez Letarumavza : pad.strycore.com/p/bronycub
+2014-07-29T19:06:11 <heuzef> MaCharon je compte sur toi ;) Oublie pas que tu as le BBBFF sur les bras aussi quand même ;)
+2014-07-29T19:06:24 <MaCharon> ok, mais la honnetement je pense voir ça plutot genre demain ou apres demain pare que j'ai sale coup de barre
+2014-07-29T19:06:56 <heuzef> MaCharon ba comme tu le sens, après ça serais cool de mettre ça en ligne avant le 17 quand même xd
+2014-07-29T19:07:18 <MaCharon> je vais essayer que soit le cas
+2014-07-29T19:07:23 <MaCharon> que ça soit*
+2014-07-29T19:07:27 <heuzef> ;)
+2014-07-29T19:08:05 <Berry-Punch> Voilà ce qu'il s'est passé *hic* ces 10 dernières lignes, adriens33
+2014-07-29T19:08:06 *** adriens33 s'est connecté
+2014-07-29T19:08:13 <ludvann> salut !
+2014-07-29T19:08:24 <Lezarius> Oui heuzef ? dsl j'était pas la
+2014-07-29T19:08:28 <adriens33> re les gens
+2014-07-29T19:08:34 <ludvann> heuzef, ce sera de quelle heure à quelle heure environ ?
+2014-07-29T19:09:00 <ludvann> (je rappelle que j'ai des contraintes :'( )
+2014-07-29T19:10:02 <heuzef> ludvann: toute la matinée, aprem, soirée, nuit ? :D
+2014-07-29T19:10:12 <ludvann> adriens33, j'ai ouë dire que tu as programmé un oscilloscope :)
+2014-07-29T19:10:14 <ludvann> ah...
+2014-07-29T19:10:20 <ludvann> ceci est ...
+2014-07-29T19:10:32 <ludvann> problématique
+2014-07-29T19:10:34 <adriens33> un pti prog sur mon pc qui affiche la courbe du signal sortant de la carte son
+2014-07-29T19:10:35 <heuzef> Lezarius adriens33 : MaCharon veux vous parler d'un projet de banderole countdown sur le site :D
+2014-07-29T19:10:53 <Lezarius> Pour quoi faire ? xD
+2014-07-29T19:11:12 <heuzef> J'en sais rien moi :P Demande lui
+2014-07-29T19:12:10 <ludvann> heuzef: si je viens, je pourrais ramener pas mal de jeu saturn :D )
+2014-07-29T19:12:22 <MaCharon> je suis pas trop en état la ^^"
+2014-07-29T19:12:32 <Letarumavza> http://g.e-hentai.org/g/723589/d9d8b0bee2/
+2014-07-29T19:12:33 <adriens33> ah, et ludvann: bien entendu que les cartes son ça existe. Je te signale que les merdes intégrées aux cartes mères standard ('intel audio « hd »') c'est pas ce qu'il y a de mieux. (pour le 7.1 et/ou sortie numérique, une carte dédiée c'est achement mieux par exemple ^^)
+2014-07-29T19:12:43 <ludvann> (et de jeu wii (mais pour ça il faut que je ramène la mienne ^^)
+2014-07-29T19:12:58 *** Ambrocidus s'est connecté
+2014-07-29T19:13:02 <Ambrocidus> Bonsoir
+2014-07-29T19:13:06 <ludvann> salut
+2014-07-29T19:13:16 <ludvann> ok
+2014-07-29T19:13:28 *** MaitrePanda est parti
+2014-07-29T19:13:51 <adriens33> Tiens, Ambrocidus, tu vas être content: heuzef est là, tu vas pouvoir lui parler :)
+2014-07-29T19:14:17 <Ambrocidus> Je sais, merci ;), ont s'est contactés par mail ^^.
+2014-07-29T19:14:21 <adriens33> ok ^^
+2014-07-29T19:14:33 <MaCharon> Lezarius : c'est en gros pour modifier la page d’accueil en vue de faire un rappel pour l'anniv de Brony CUB
+2014-07-29T19:15:40 <Lezarius> Aw. Ouais pourquoi pas je fait ça vite fait alors ... enfin la pas trop la motive vient de me faire suspendre mon Dédié faute de payement >0<
+2014-07-29T19:16:17 <Ambrocidus> Heuzef ?
+2014-07-29T19:16:23 <heuzef> Ambrocidus ;)
+2014-07-29T19:16:37 <Ambrocidus> Nous pouvons finalement parler ;)
+2014-07-29T19:16:52 <heuzef> Yep, en Privé du coup pour pas embeter les autres
+2014-07-29T19:18:26 <ludvann> ^^
+2014-07-29T19:19:02 <ludvann> le vais courir après le miam (pizzas). AFK
+2014-07-29T19:19:02 <Berry-Punch> Bon appétit, *hic* ludvann :D
+2014-07-29T19:22:08 <Letarumavza> Hey les mecs, je suis une fonction python !
+2014-07-29T19:22:29 <MaCharon> et ça change quoi ?
+2014-07-29T19:22:39 <MaCharon> tu mord ?
+2014-07-29T19:22:43 <adriens33> Letarumavza: ah bon ?
+2014-07-29T19:23:37 <Letarumavza> MaCharon, regardes la syntaxe des fonctions python et leur déclaration
+2014-07-29T19:24:05 <MaCharon> nn mais deja tu me parles chinois la XD
+2014-07-29T19:24:53 <adriens33> ah
+2014-07-29T19:24:53 <adriens33> …
+2014-07-29T19:24:57 <adriens33> il est 'def' ^^
+2014-07-29T19:25:30 <adriens33> (en python pour déclarer une fonction c'est « def mafonctiondelamortquitue(): »)
+2014-07-29T19:25:49 <Letarumavza> def <name> (var1, var2, ..., varn):
+2014-07-29T19:25:51 <adriens33> (le temps que je m'en souviennes… ^^)
+2014-07-29T19:25:58 <adriens33> oui bon ça va  hein ;)
+2014-07-29T19:26:08 <MaCharon> ooooookkkk, et donc ?
+2014-07-29T19:26:17 <adriens33> ben… on vient de te le diure
+2014-07-29T19:26:18 <adriens33> *dire
+2014-07-29T19:26:19 <adriens33> il est def
+2014-07-29T19:26:52 <MaCharon> mouais rien compris XD
+2014-07-29T19:26:57 <adriens33> …
+2014-07-29T19:39:24 <BronyCUB-MC> adrien_s has joined the server!
+2014-07-29T20:03:29 *** Seiko s'est connecté
+2014-07-29T20:03:37 *** Seiko est parti
+2014-07-29T20:06:31 <BronyCUB-MC> adrien_s has quit the server!
+2014-07-29T20:12:58 <heuzef> Hey les gens ? ^^
+2014-07-29T20:13:05 <heuzef> Devinez quoi
+2014-07-29T20:13:06 <adriens33> ouipe ?
+2014-07-29T20:14:04 <heuzef> J'ai l'honneur de vous annoncer, en ce 29 Juillet 2014, la naissance de BronyCAT
+2014-07-29T20:14:17 <heuzef> Communauté d’Agglomération de Toulon
+2014-07-29T20:14:23 <heuzef> Alors que dite vous de ça ? :D
+2014-07-29T20:14:25 <MaCharon> cool
+2014-07-29T20:14:33 <adriens33> Ttoutes mes ficelles de caleçon :)
+2014-07-29T20:14:35 <adriens33> *Toutes
+2014-07-29T20:26:33 *** Ambrocidus est parti
+2014-07-29T20:27:58 *** Ambrocidus s'est connecté
+2014-07-29T20:49:20 *** Ambrocidus est parti
+2014-07-29T20:50:16 <ludvann> re !
+2014-07-29T20:50:33 <adriens33> re
+2014-07-29T20:51:03 <ludvann> miaüm
+2014-07-29T20:51:07 <adriens33> ^^
+2014-07-29T20:51:39 <ludvann> dans ma chambre j'ai une de ces pinces...
+2014-07-29T20:51:55 <adriens33> On veut pas savoir ce que tu fais chez toi XD
+2014-07-29T20:52:05 <ludvann> je peux soulever mon bureau  tellement ell sert fort !
+2014-07-29T20:52:20 <ludvann> bah, des choses marrantes ;D
+2014-07-29T20:52:24 <adriens33> …
+2014-07-29T20:52:48 <ludvann> bon ok
+2014-07-29T20:52:56 <ludvann> je torture des gens
+2014-07-29T20:53:00 <ludvann> content ?
+2014-07-29T20:54:07 <ludvann> ;D
+2014-07-29T21:04:47 *** ELiDYROS s'est connecté
+2014-07-29T21:05:42 <ELiDYROS> yo
+2014-07-29T21:08:35 <ludvann> salut
+2014-07-29T21:09:15 <ludvann> adriens33, si je branche un routeur wi-fi sur mon ordi, je peux creer un réseau wi-fi avec mon ordi ?
+2014-07-29T21:09:44 <adriens33> t'as pas besoin de routeur wifi si t'as un pc portable et que t'es connecté à la box avec une prise RJ45
+2014-07-29T21:09:55 <adriens33> tu peux le faire avec la carte wifi intégrée normalement
+2014-07-29T21:10:04 <adriens33> hello ELiDYROS
+2014-07-29T21:10:09 <ELiDYROS> faut juste que le wifi de l'ordi soit dispo non ?
+2014-07-29T21:10:15 <ELiDYROS> et que l'ordi soit connecté autrement
+2014-07-29T21:10:16 <ludvann> mais je peux emplifier mon réseau avec un routeur ?
+2014-07-29T21:10:22 <ludvann> amplifier*
+2014-07-29T21:10:41 <adriens33> wut ?
+2014-07-29T21:10:46 <adriens33> ça sert pas à ça un router…
+2014-07-29T21:10:48 <adriens33> *routeur
+2014-07-29T21:10:59 <ludvann> hum...
+2014-07-29T21:11:17 <ludvann> à quoi sert un root-heure ?
+2014-07-29T21:11:28 <ELiDYROS> question : tu es connecté comment à la base ?
+2014-07-29T21:11:33 <adriens33> un routeur utilise plusieurs ports RJ45 pour brancher généralement un sous réseau à un autre
+2014-07-29T21:12:21 <ludvann> connecté à la base? par "base", tu parles de la box ?
+2014-07-29T21:13:06 <ELiDYROS> j'essaye de comprendre pourquoi tu veux "amplifier"
+2014-07-29T21:13:10 <ludvann> (tu vas en ch*r des patates avec moi xD)
+2014-07-29T21:13:19 <ludvann> en gros
+2014-07-29T21:13:21 <ludvann> :
+2014-07-29T21:14:32 <ludvann> je voudrais contrôler quelque chose avec mon ordi par wi-fi, et je veux que ça est une porté plutôt grande (100m minimun terrain dégagéà
+2014-07-29T21:14:39 <ludvann> dégagé*
+2014-07-29T21:15:00 <adriens33> Heu… avec du wifi c'est pas possible, que ce soit avec une box ou un wifi de pc portable XD
+2014-07-29T21:15:19 <ludvann> justement...
+2014-07-29T21:15:46 <ludvann> (ce que je veux contrôler est une chose dont j'ai des actions...
+2014-07-29T21:15:49 <ludvann> )
+2014-07-29T21:15:51 <adriens33> whut ?
+2014-07-29T21:15:54 <ELiDYROS> ?
+2014-07-29T21:15:58 <ludvann> un arduino ^^
+2014-07-29T21:16:01 <adriens33> ah…
+2014-07-29T21:16:03 <adriens33> ok…
+2014-07-29T21:16:11 <ludvann> rho..
+2014-07-29T21:16:39 <ludvann> est je crois qu'il y a pas d'émetteur longue distance...
+2014-07-29T21:16:41 <adriens33> ben pour le WiFi demande à Leta, il peut ptet t'aider (enfin pas tout de suite, ça m'étonnerait qu'il soit en état de te répondre vu comment il était tout à l'heure…)
+2014-07-29T21:16:42 <ludvann> et*
+2014-07-29T21:16:50 <ludvann> ^^
+2014-07-29T21:16:55 <adriens33> c'est une histoire de réglementation, de puissance max…
+2014-07-29T21:17:13 <ludvann> après il y a toujours par le GSM field mais bon...
+2014-07-29T21:17:15 <adriens33> en effet, avoir un wifi qui fuite chez les voisins d'à 100m c'est pas super autorisé
+2014-07-29T21:17:31 <ludvann> ouep...
+2014-07-29T21:17:38 <adriens33> (c'est 10 ou 100mW la puissance d'émission max je crois)
+2014-07-29T21:17:56 <ludvann> sais pas...
+2014-07-29T21:18:47 <ludvann> contrôler l'arduino par bluetooth ? --> []
+2014-07-29T21:19:06 <ELiDYROS> il te sert à quoi ton arduino ? arroser les plantes ? ^^
+2014-07-29T21:19:08 <adriens33> le bluetooth non plus portera pas à 100m…
+2014-07-29T21:19:17 <ludvann> trirotor
+2014-07-29T21:19:36 <adriens33> (enfin… y'a trois limites: <10m, <25m et <100m, classes A B et C si ma mémoire est bonne)
+2014-07-29T21:19:37 <ludvann> tricopter*
+2014-07-29T21:20:22 <ludvann> et mon problem est tel: comment transmettre les ordres sans passer par les radiocommandes...
+2014-07-29T21:20:31 <ludvann> Oh p*tain le con !
+2014-07-29T21:20:37 <ludvann> les ondes radios
+2014-07-29T21:20:40 <ludvann> !
+2014-07-29T21:20:42 <adriens33> Une radiocommande non plus portera pas à 150m…
+2014-07-29T21:20:42 <ludvann> o/
+2014-07-29T21:20:58 <adriens33> t'as pas le droit d'avoir un truc à titre personnel qui émet autant.
+2014-07-29T21:21:09 <ludvann> euh s'cuse moi mais certaine on une très grande portée...
+2014-07-29T21:21:23 <adriens33> ça dépend de la longueur d'onde après ça
+2014-07-29T21:21:31 <adriens33> mais en tout cas ça peut pas faire >100mW
+2014-07-29T21:21:39 <ELiDYROS> on peut pas genre (je vais dire de la merde) mettre des trucs qui receptionnerait à divers en droit pour rallonger le réseau ?
+2014-07-29T21:21:59 <adriens33> des cellules ? oui mais dans ce cas faut pas que les fréquences de chaque cellule soit la même
+2014-07-29T21:22:09 <adriens33> sinon les ondes se chevauchent et ça parasite le signal
+2014-07-29T21:22:23 <ludvann> mouais, bof
+2014-07-29T21:22:25 <adriens33> (c'est le principe du téléphone cellulaire, qu'on appelle GSM d'ailleurs)
+2014-07-29T21:22:54 <ELiDYROS> bof peut être mais je doute qu'il y ait 10 000 solutions
+2014-07-29T21:23:31 <ludvann> les ondes radio sont les plus "safe"
+2014-07-29T21:24:50 <ludvann> une "bonne" manette de modélisme atteint 1Km...
+2014-07-29T21:26:15 <ludvann> avec ça, plus de problème ;) bit.ly/1tXfB0Q
+2014-07-29T21:26:57 <adriens33> tu sais que pour émettre avec ce genre de matériel il te faut une license ?
+2014-07-29T21:27:21 <adriens33> (surtout que vu l'antenne c'est bien supérieur au watt comme puissance là…)
+2014-07-29T21:28:18 <ludvann> et quelque chose a êu près équivalent à une radio de modélisme...
+2014-07-29T21:28:48 <adriens33> Mais en fait tu cherches à faire quoi ?
+2014-07-29T21:29:46 <ludvann> comme dit plus haut, un tricopter...
+2014-07-29T21:30:10 <adriens33> oui non mais pour quoi faire ? des hélicoptères radiocommandés tu peux en trouver déja faits…
+2014-07-29T21:30:15 <ValCab33> Mwa j'ai un avion.
+2014-07-29T21:30:20 <ludvann> pareil
+2014-07-29T21:30:26 <ludvann> (un semi-planeur)
+2014-07-29T21:30:53 <adriens33> je re, je vais miam
+2014-07-29T21:30:53 <Berry-Punch> Bon *hic* appétit, adriens33 :D
+2014-07-29T21:31:00 <ValCab33> Bonap
+2014-07-29T21:31:14 <ludvann> 1) j'aime me faire mes propres trucs 2) ça coûte moins cher 3) euh...
+2014-07-29T21:31:18 <ludvann> bon app adriens33|afk
+2014-07-29T21:31:54 <ludvann> ValCab33, tu sait combien coûte un radio de modélisme de bonne qualité ?
+2014-07-29T21:38:55 *** heuzef est parti
+2014-07-29T21:39:23 *** TrappyTickles s'est connecté
+2014-07-29T21:39:44 <ludvann> salut
+2014-07-29T21:39:57 <TrappyTickles> oi ^^
+2014-07-29T21:41:00 <ludvann> ça va ?
+2014-07-29T21:44:34 <TrappyTickles> bof.. jviens de repérer un antibrony french qui a eu la mauvaise idée de commenter une de mes vidéos.. du coup il verra plus mon yt :p
+2014-07-29T21:44:48 <TrappyTickles> et son g+ vole haut https://plus.google.com/u/0/114008304178318668457/posts
+2014-07-29T21:45:23 <TrappyTickles> rien que par le username "SergieFaisDesVideos"... super bateau et avec une grosse faute d'orthographe XD
+2014-07-29T21:45:55 <TrappyTickles> sinon jade va mieux en passant
+2014-07-29T21:46:11 <TrappyTickles> et je sais plus qui m'avait posé la question, mais oui, c'est bien moi dont la femme est une pegasis :p
+2014-07-29T21:46:23 <ludvann> <c'est oam
+2014-07-29T21:46:30 <ludvann> c'est quoi ce mec...
+2014-07-29T21:46:32 <TrappyTickles> c'est ce qui me semblait ^^
+2014-07-29T21:46:59 <TrappyTickles> je sais pas, mais j'lui aurais bien fait sauter un truc ou deux sur son pc juste pour le fun, un coup, si je pouvais :p
+2014-07-29T21:47:29 <ludvann> je sais à qui il faut en parler pour ça... ^^
+2014-07-29T21:47:57 <TrappyTickles> hehe, remarque, c'est pour ça que j'ai posté le lien, je sentais que ça pourrait lui plaire ^^
+2014-07-29T21:48:34 <ludvann> tu sais qui c'est ?
+2014-07-29T21:48:49 <ludvann> la personne à qui il faut en parler ?
+2014-07-29T21:48:51 <ELiDYROS> ça me tue les gens qui perdent du temps juste pour critiquer les gouts des autres
+2014-07-29T21:49:47 <ludvann> tu fais des vidéos ?
+2014-07-29T21:49:53 <TrappyTickles> et son commentaire aussi juste "bullshit" sur ma vidéo de skyrim (alors que j'ai des vidéos de pony qui sont mieux :p)
+2014-07-29T21:50:09 <TrappyTickles> je fais un peu n'importe quoi comem vidéos sur yt, c'est un peu ma pouvelle
+2014-07-29T21:50:16 <TrappyTickles> y a surtout des let's play, mais y a un peu de tout
+2014-07-29T21:50:25 <ludvann> ok
+2014-07-29T21:50:39 <TrappyTickles> ah tiens, j'en ai une pour vous tous, un test de sony vegas 10 par moi-même avec des ponies :p
+2014-07-29T21:50:45 <ludvann> moi aussi je fais des vidéos, bon c'est un peu à l'arret mais bon :D
+2014-07-29T21:50:58 <TrappyTickles> pareil à cause de mon école :p
+2014-07-29T21:51:05 <ludvann> (surtout problème matériel)
+2014-07-29T21:51:21 <ludvann> mes ordis sont...
+2014-07-29T21:51:22 <TrappyTickles> http://tumblr.maxlefou.com/post/85058064305/voila-a-quoi-je-mamuse-quand-on-me-file-sony la vidéo :p
+2014-07-29T21:52:39 <ludvann> on dirait un
+2014-07-29T21:52:44 <ludvann> Füs
+2014-07-29T21:52:50 <ludvann> Roh
+2014-07-29T21:52:53 <ludvann> yay
+2014-07-29T21:52:59 <TrappyTickles> louder! - YAAAAAAAAAAAY!!! - ......louder!
+2014-07-29T21:53:10 <TrappyTickles> lol ui
+2014-07-29T21:53:23 <TrappyTickles> d'ailleurs, je connais le cri draconique qui fait pleurer les dragons
+2014-07-29T21:53:24 <ludvann> ^^
+2014-07-29T21:53:29 <TrappyTickles> Hao Daer Yu
+2014-07-29T21:53:30 <ludvann> xD
+2014-07-29T21:54:21 <adriens33> re
+2014-07-29T21:54:28 <ludvann> re
+2014-07-29T21:54:41 <TrappyTickles> re
+2014-07-29T22:15:04 <ludvann> j'adorerais toujours cette vidéo xD https://www.youtube.com/watch?v=1eSxSwfPpOA&index=49&list=PL1Z5gCcIbeaAowIBUbr4KxjTZeWNTbbjo
+2014-07-29T22:15:34 <ELiDYROS>  Lezarius ?
+2014-07-29T22:15:45 <Lezarius> Oui ?
+2014-07-29T22:15:50 <ELiDYROS> → https://soundcloud.com/zomboy/never-say-die-vol-59-mixed-by-zomboy
+2014-07-29T22:27:06 <TrappyTickles> oh boi la video XD
+2014-07-29T22:27:23 <Lezarius> Ça a l'air cool ELiDYROS
+2014-07-29T22:27:38 <ELiDYROS> ça n'a pas l'air, ça l'est
+2014-07-29T22:35:27 <ludvann> bon je vais vous laisser
+2014-07-29T22:35:30 <ludvann> @
+2014-07-29T22:35:33 <ludvann> @+
+2014-07-29T22:35:35 <adriens33> ++ ludvan
+2014-07-29T22:35:38 <adriens33> *ludvann
+2014-07-29T22:35:45 <ludvann> #bisou #bonnenuit
+2014-07-29T22:35:50 <ludvann> ^^
+2014-07-29T22:35:57 <adriens33> grr pas de hashtag XD
+2014-07-29T22:36:07 <ludvann> #désolé
+2014-07-29T22:36:10 *** ludvann est parti
+2014-07-29T22:36:11 <adriens33> (jme demande si ça existe, un canal #bisou…)
+2014-07-29T22:36:29 <adriens33> (oui, et y'a qu'une personne dessus XD)
+2014-07-29T23:14:55 *** ValCab33 est parti
+2014-07-29T23:44:06 *** Trappy_Tickles s'est connecté
+2014-07-29T23:45:47 *** TrappyTickles est parti
+2014-07-29T23:46:00 <Berry-Punch> Flags de Trappy_Tickles modifiés : +v *hic* 
+2014-07-29T23:46:06 <Berry-Punch> Flags de *hic* Trappy_Tickles modifiés en +v
