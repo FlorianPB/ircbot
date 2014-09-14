@@ -1,0 +1,797 @@
+2014-09-05T00:35:43 <Letarumavza> Hum;..
+2014-09-05T00:36:05 <Letarumavza> C'est jamais bon quand je sens la rage monter.
+2014-09-05T00:38:12 <adriens33> qu'est-ce qu'il se passe ?
+2014-09-05T00:46:15 *** TrappyTickles est parti
+2014-09-05T00:58:51 <Letarumavza> Hum...
+2014-09-05T00:59:18 <Letarumavza> J'ai juste envie d'un newgame+
+2014-09-05T01:07:05 <adriens33> rhââ… j'aime mon hexacore… <3
+2014-09-05T01:10:51 <Letarumavza> hum...
+2014-09-05T01:11:00 <Letarumavza> tu parles du 980x ?
+2014-09-05T01:11:04 <adriens33> yup
+2014-09-05T01:11:20 <adriens33> 12 threads quand tu compiles  un gros truc c'est du bonheur ^^
+2014-09-05T01:11:20 <Letarumavza> Il envoie hein ^^
+2014-09-05T01:11:34 <adriens33> voui il envoie :p
+2014-09-05T01:11:54 <adriens33> par contre je vais finir par coller un watercooling sur cette bécane moi un jour …
+2014-09-05T01:11:57 <Letarumavza> C'est encore une machine de guerre. ^^
+2014-09-05T01:12:14 <Letarumavza> Tu as des kits à 30-40€ pour du watercool CPU
+2014-09-05T01:12:22 <adriens33> ça va ^^
+2014-09-05T01:12:51 <adriens33> putain… j'ai pris un café à 18h et la caféine fait encore effet…
+2014-09-05T01:12:52 <Letarumavza> Yep, je file me chercher un truc à boire, je re, ptet que ça fera passer la déprime...
+2014-09-05T01:12:58 <adriens33> oki
+2014-09-05T01:13:09 <adriens33> (ça c'est du vrai café, et pas de la flotte colorée :p)
+2014-09-05T01:13:18 <adriens33> (pourtant c'est du lyophilisé)
+2014-09-05T01:25:17 *** MaCharon est parti
+2014-09-05T01:34:51 <Letarumavza> re
+2014-09-05T01:34:57 <adriens33> re
+2014-09-05T01:38:07 <Letarumavza> Je note mon coportement très sain.
+2014-09-05T01:38:11 <adriens33> ?
+2014-09-05T01:38:19 <Letarumavza> ça va pas => saccages des trucs.
+2014-09-05T01:38:41 <adriens33> bawi, narmol ^^
+2014-09-05T01:39:17 <adriens33> vaut mieux péter un truc que la gueule à quelqu'un … ^^
+2014-09-05T01:39:21 <Letarumavza> https://www.youtube.com/watch?v=K-rK7fYBdX8
+2014-09-05T01:39:33 <Letarumavza> vidage de cerveau
+2014-09-05T01:39:40 <adriens33> ^^
+2014-09-05T01:40:57 <Letarumavza> Depuis que j'ai vu un jap chanter en ancien bavarois, en imitant des yoddle suisses, et en faisant la poule...
+2014-09-05T01:41:03 <adriens33> XD
+2014-09-05T01:41:46 <Letarumavza> J'ai l'impression d'être une kali face à un .exe
+2014-09-05T01:44:03 <Letarumavza> D'ailleurs, pourquoi tu tournes sous arch et pas kali ?
+2014-09-05T01:45:57 <adriens33> heu… bah parce que c'est la première distro sur laquelle je suis tombé et qui m'a vraiment plu ^^
+2014-09-05T01:46:04 <adriens33> je suis dessus depuis octobre 2011
+2014-09-05T01:46:20 <Letarumavza> Hum
+2014-09-05T01:46:22 <adriens33> j'ai jamais vraiment eu envie d'en changer depuis :p
+2014-09-05T01:46:41 <adriens33> (et j'ai eu ma première connexion internet en septembre 2011, en arrivant à l'iut
+2014-09-05T01:46:42 <adriens33> )
+2014-09-05T01:46:52 <adriens33> (coincidence ? I think not. ^^)
+2014-09-05T01:46:53 <Letarumavza> Kali c'est une distrib spécialisée pour le "pentest"
+2014-09-05T01:46:59 <adriens33> voui
+2014-09-05T01:47:25 <adriens33> mais bon arch j'aime bien le côté "y'a rien de choisi à ta place, c'est toi qui met tout ce que tu veux comme tu veux"
+2014-09-05T01:47:28 <adriens33> et puis pacman ftw
+2014-09-05T01:47:41 <Letarumavza> Bon pour faire simple : Quand un mec fait mumuse à tomber des serveurs comme des mouches, généralement il tourne sur une kali//backtrack
+2014-09-05T01:47:48 <adriens33> je sais
+2014-09-05T01:47:54 <adriens33> mais bon c'était pas mon objectif premier
+2014-09-05T01:48:06 <adriens33> avant sep 2011 j'avais jamais eu de co internet je te rapelle ^^'
+2014-09-05T01:49:25 <adriens33> et comme je connaissais un poil linux (docu aux CDIs, etc), et que j'avais envie de me faire les mains sur un truc sympa, et vraiment controller ce qui tourne sur ma machine (et que après l'avoir vu sur la machine d'un pote le concept m'avait bien tapé dans l'œil… ^^)
+2014-09-05T01:57:16 <Letarumavza> http://img-9gag-lol.9cache.com/photo/ad6jzPV_700b.jpg
+2014-09-05T01:57:26 <adriens33> XD
+2014-09-05T02:03:33 <Letarumavza> Grumpf...
+2014-09-05T02:05:26 <Letarumavza> Quelqu'un m'explique pourquoi ça : Il est 2h du mat, je chante le générique de la S1 de pokemon en bucant un chocolat, mangeant des chips, et je regarde les dates des LoL championships
+2014-09-05T02:05:35 <Letarumavza> So...
+2014-09-05T02:05:43 <adriens33> XD
+2014-09-05T02:05:57 <Letarumavza> Viellir est nécéssaire.
+2014-09-05T02:06:01 <adriens33> you are Letarumavza, and that's a good enouth reason.
+2014-09-05T02:06:05 <Letarumavza> Grandir est facultatif.
+2014-09-05T02:06:42 <Letarumavza> En fait, quand on y pense, j'organise des fêtes chez moi, je suis total random, j'ai les cheveux en mode bagdad...
+2014-09-05T02:06:51 <Letarumavza> Euh...
+2014-09-05T02:06:53 <adriens33> Welcome Pinkie Pie !!
+2014-09-05T02:07:17 <Letarumavza> J'ai comme une envie de cupcakes pour demain.
+2014-09-05T02:07:22 <adriens33> ^^
+2014-09-05T02:07:23 <adriens33> heu…
+2014-09-05T02:07:27 <adriens33> cupcakes genre normaux
+2014-09-05T02:07:33 <adriens33> ou cupcakes au poney ??
+2014-09-05T02:07:36 * adriens33 commence à avoir peur
+2014-09-05T02:08:50 <Letarumavza> Non, demain on fera juste des blagues sur les saucisses ^^
+2014-09-05T02:09:02 <adriens33> yay, une ambiance bicurieuse !
+2014-09-05T02:09:05 <adriens33> XD$
+2014-09-05T02:09:08 <adriens33> * XD
+2014-09-05T02:11:44 *** Letarumavza2 s'est connecté
+2014-09-05T02:11:48 <Letarumavza2> Et ben
+2014-09-05T02:11:53 <adriens33> whut ?
+2014-09-05T02:11:54 <Letarumavza2> Dat reboot à l'arrache
+2014-09-05T02:11:57 <adriens33> ah
+2014-09-05T02:11:58 <adriens33> ok
+2014-09-05T02:12:00 <adriens33> crash ?
+2014-09-05T02:12:03 <Letarumavza2> (j'ai posé un truc sur la multiprise)
+2014-09-05T02:12:06 <adriens33> ah.
+2014-09-05T02:12:06 <adriens33> XD
+2014-09-05T02:12:10 <adriens33> bourrin
+2014-09-05T02:12:25 <Letarumavza2> hey, 1min pour boot
+2014-09-05T02:12:29 <Letarumavza2> bitch please
+2014-09-05T02:12:31 <adriens33> ça va
+2014-09-05T02:12:44 <adriens33> on sait t'en a une grosse.
+2014-09-05T02:12:50 <Letarumavza2> ^^
+2014-09-05T02:12:52 <adriens33> (je parle du pc, hein, le reste je veux pas savoir)
+2014-09-05T02:12:57 <Letarumavza2> C'est pour tout à l'heure
+2014-09-05T02:13:35 <Letarumavza2> Bah si tu veux savoir, voila une photo lors d'une partie fine
+2014-09-05T02:13:38 <adriens33> na
+2014-09-05T02:13:38 <Letarumavza2> http://www.charlottenormand.com/touffeverte/images/cure%20dent.jpg
+2014-09-05T02:13:38 <adriens33> na
+2014-09-05T02:13:43 <adriens33> chébon
+2014-09-05T02:13:44 *** Letarumavza est parti
+2014-09-05T02:13:45 <adriens33> chachufi
+2014-09-05T02:14:02 <Berry-Punch> Flags de Letarumavza modifiés : *hic* +v
+2014-09-05T02:14:02 <adriens33> !voice Letarumavza
+2014-09-05T02:14:24 <Letarumavza> Bah t'as loupé la vanne ^^
+2014-09-05T02:14:49 <Letarumavza> J'en ai profité pour boot sous win
+2014-09-05T02:15:08 <adriens33> ah t'étais pas sous windows là ?
+2014-09-05T02:15:24 <Letarumavza> Je l'ai pas dit ?
+2014-09-05T02:15:30 <adriens33> nan
+2014-09-05T02:15:45 <Letarumavza> Bah je suis sur une kali là.
+2014-09-05T02:15:53 <Letarumavza> (je pensais l'avoir dit quand je t'en ai parlé)
+2014-09-05T02:16:05 <Letarumavza> enfin pas là, là, là je suis sur win
+2014-09-05T02:16:13 <Letarumavza> (Lol powa ^^)
+2014-09-05T02:16:48 <Letarumavza> Choc incoming...
+2014-09-05T02:17:06 <Letarumavza> J'ai les couilles qui grattent, faut que je me les rase, à l'acide.
+2014-09-05T02:17:10 <Letarumavza> Fin de choc.
+2014-09-05T02:17:27 <adriens33> nan tu l'as pas dit
+2014-09-05T02:17:47 <Letarumavza> si
+2014-09-05T02:17:53 <adriens33> (j'étais en train de sortir la Sainte Pelle, pour déterrer l'historique dans le fin fond de l'ascenseur de la page)
+2014-09-05T02:18:11 <Letarumavza> (en réalité, j'ai ce putain de fil qui dépasse du boxer et qui gratte.
+2014-09-05T02:18:18 <Letarumavza> Tu le connais ce putain de fil ?
+2014-09-05T02:18:31 <adriens33> t'as dit :
+2014-09-05T02:18:32 <adriens33> <adriens33> XD
+2014-09-05T02:18:32 <adriens33> <Letarumavza> J'ai l'impression d'être une kali face à un .exe
+2014-09-05T02:18:33 <adriens33> <Letarumavza> D'ailleurs, pourquoi tu tournes sous arch et pas kali ?
+2014-09-05T02:18:33 <adriens33> <adriens33> heu… bah parce que c'est la première distro sur laquelle je su
+2014-09-05T02:18:33 <Letarumavza> C'est comme la putain d'étiquette du T-shirt qui te bousille la nuque !
+2014-09-05T02:18:39 <adriens33> (pas que *t'étais* sous kali)
+2014-09-05T02:18:49 <adriens33> ben tu coupes !!
+2014-09-05T02:18:55 <adriens33> (le fil, pas les couilles XD)
+2014-09-05T02:19:08 <Letarumavza> C'est là où ça fait chier, ce con fait à peine un mm
+2014-09-05T02:19:14 <adriens33> ok
+2014-09-05T02:19:15 <adriens33> XD
+2014-09-05T02:19:20 <Letarumavza> Donc, Quasi impossible à couper, mais il gratte !!!!
+2014-09-05T02:19:36 <Letarumavza> Je nomme ce problème "le fil moustique"
+2014-09-05T02:19:48 <Letarumavza> Il est petit, chiant, il gratte, et super chiant à chopper.
+2014-09-05T02:19:52 <adriens33> comme toi ^^
+2014-09-05T02:20:04 <Letarumavza> Les moustiquent puent paS?.
+2014-09-05T02:20:09 <adriens33> XD
+2014-09-05T02:20:33 <adriens33> ça dépend, avant ou après les avoir écrasés ?
+2014-09-05T02:20:47 <Letarumavza> euh, les deux
+2014-09-05T02:20:55 <Letarumavza> Jamais remarqué une odeur de moustique
+2014-09-05T02:21:17 <adriens33> bah c'est plutot lui qui sent ton odeur généralement…
+2014-09-05T02:21:37 <Letarumavza> ça explique les moustiques morts dans mes alentours.
+2014-09-05T02:21:38 <adriens33> JAAPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOON
+2014-09-05T02:22:42 <adriens33> my god… un lapin géant  avec des couilles grosses comme des ballons de foot…
+2014-09-05T02:22:50 <adriens33> avec une gamine devant…
+2014-09-05T02:22:58 <Letarumavza> http://img-9gag-lol.9cache.com/photo/aGVxLyn_460s.jpg
+2014-09-05T02:23:25 <Letarumavza> apple bottom.
+2014-09-05T02:23:33 <adriens33> gh^
+2014-09-05T02:24:34 <Letarumavza> http://img-9gag-lol.9cache.com/photo/areR2j6_460s.jpg
+2014-09-05T02:25:29 <adriens33> kernel panic — brain respond timed out !
+2014-09-05T02:32:51 <adriens33> [   22.001122] brain0: attempting to treat image
+2014-09-05T02:32:51 <adriens33> [   25.002154] brain0: got no response in time !
+2014-09-05T02:32:51 <adriens33> [   25.002155] Kernel panic – brain not responding
+2014-09-05T02:32:51 <adriens33> [   25.003241] Call Trace:
+2014-09-05T02:32:51 <adriens33> [   25.003342] [<ffffffff815d4ee5>] panic+0x91/0x194
+2014-09-05T02:32:52 <adriens33> [   25.003425] [<ffffffff81ad1031>] female_view+0xde/0x18e
+2014-09-05T02:32:53 <adriens33> [   25.003425] [<ffffffff81ad126a>] human_form+0x40/0x986
+2014-09-05T02:32:55 <adriens33> [   25.003426] [<ffffffff81ad13dc>] image_work+0x7f/0x74e
+2014-09-05T02:39:00 <Letarumavza> gné ?
+2014-09-05T02:39:10 <Letarumavza> a pu neurones
+2014-09-05T02:39:12 <adriens33> ^^
+2014-09-05T02:39:18 <adriens33> voui c'était l'idée
+2014-09-05T02:39:32 <adriens33> un faux kernel panic, genre mon cerveau répond plus ^^
+2014-09-05T02:48:58 <adriens33> bon, je crois que je vais aller dood…
+2014-09-05T02:49:00 <adriens33> *dodo
+2014-09-05T02:49:03 <adriens33> bonne nuit
+2014-09-05T02:49:08 <Letarumavza> ok ^^
+2014-09-05T02:49:11 <Letarumavza> bonne nuit
+2014-09-05T02:49:12 *** adriens33 est parti
+2014-09-05T03:51:29 <Silou> .
+2014-09-05T04:24:34 <Berry-Punch> Voilà ce qu'il s'est *hic* passé ces 10 dernières lignes, adriens33
+2014-09-05T04:24:35 *** adriens33 s'est connecté
+2014-09-05T04:24:52 <adriens33> grr…
+2014-09-05T04:25:43 <adriens33> faudra que j'apprenne à doser le café un jour.
+2014-09-05T04:26:04 <adriens33> 10h et demie et cette saloperie fait encore effet…
+2014-09-05T04:28:12 <Silou> Lol
+2014-09-05T04:28:17 <adriens33> c'pas drôle…
+2014-09-05T04:28:23 <Silou> Ne fume pas de join alors x)
+2014-09-05T04:28:30 <adriens33> je… fume pas…
+2014-09-05T04:28:39 <Silou> "oh putin ca fait 20 heures que je plane gros" *hippie de SLG*
+2014-09-05T04:28:59 <adriens33> j'ai juste pris un café vers 18h pour me remonter le moral (ça marche bien sur moi… je ressemble à pinkie pie quand je prends un bon gros café)
+2014-09-05T04:29:08 <Silou> La chance
+2014-09-05T04:29:10 <adriens33> mais là ça fait un peu trop longtemps qu'il fait effet ce con…
+2014-09-05T04:29:13 <Silou> Moi ca me fait assez peu d'effet :/
+2014-09-05T04:29:21 <adriens33> parce que t'es habitué
+2014-09-05T04:29:36 <adriens33> faut éviter de dépasser les 300mg de cafféine par jour (~3 tasses)
+2014-09-05T04:29:45 <adriens33> en dessous de ce seuil y'a peu ou pas d'accoutumance
+2014-09-05T04:30:06 <Silou> En plus j'en consomme assez rarement xD
+2014-09-05T04:30:22 <adriens33> et moi ça marche parce que je suis quelqu'un de nerveux de base, et qu'en temps normal je suis juste +déprimé etfatigué.
+2014-09-05T04:30:30 <adriens33> la caféine permet juste de me booster
+2014-09-05T04:31:11 <Silou> http://9gag.tv/p/a9pAOE/how-your-morning-coffee-really-works-on-your-brain-caffeine?ref=fbl9
+2014-09-05T04:31:30 <adriens33> nan mais… je sais comment ça marche la caféine hein ;)
+2014-09-05T04:33:40 <adriens33> oki ^^
+2014-09-05T05:15:05 <Letarumavza> Fuck les araignées !!!!
+2014-09-05T05:15:10 <adriens33> qué ?
+2014-09-05T05:15:20 <Letarumavza> Il semblerait que je sois allergiques
+2014-09-05T05:15:25 <adriens33> ah… merde…
+2014-09-05T05:15:43 <Letarumavza> Bah une de ces saloperies étaient sur mon lavabo, donc je lui ai mis une tarte, elle m'a mordu.
+2014-09-05T05:16:16 <Letarumavza> Ma mai droite fait super mal et mon index avait doublé de volume j'ai du passer 5min avec le doigts sous l'eau froide pour dégonfler...
+2014-09-05T05:16:23 <Letarumavza> En revanche...
+2014-09-05T05:16:40 <Letarumavza> Le bousin faisait la taille de la paume de ma main.
+2014-09-05T05:16:46 <adriens33> ah ouais…
+2014-09-05T05:16:48 <Letarumavza> C'est pas un poil balèse ?
+2014-09-05T05:17:05 <adriens33> quand tu te prends une araignée dans la main tu prends pas le modèle réduit toi
+2014-09-05T05:17:46 <Letarumavza> tkt Silou, elle a pris un bouquin en pleine face, j'ai appliqué un mod 0% à sa valeur height
+2014-09-05T05:17:54 <adriens33> XD
+2014-09-05T05:17:56 <Silou> xD
+2014-09-05T05:18:09 <Silou> :')*
+2014-09-05T05:18:17 <Silou> Leta vs Spider
+2014-09-05T05:18:19 <adriens33> putain il est déjà 5h…
+2014-09-05T05:18:20 <Letarumavza> Tain, j'ai toute la main rouge et gonflée
+2014-09-05T05:18:33 <Letarumavza> J'ai l'impression de devenir zoidberg...
+2014-09-05T05:18:37 <Silou> Tu pourra dire que c'est une blessure de guerre
+2014-09-05T05:19:01 <Letarumavza> Mais y'a un truc qui me rapelle quelque chose que j'ai vu dans wow
+2014-09-05T05:19:10 <Letarumavza> elle avait une sorte de sablier rouge sur l'abdomen.
+2014-09-05T05:19:12 <adriens33> Tu me diras si tu te mets à marcher sur les murs et à balancer des toiles d'araignées par les mains ^^ ?
+2014-09-05T05:19:26 <adriens33> on sait jamais, des fois que…
+2014-09-05T05:19:40 <Letarumavza> (enfin, un truc qui ressemble à deux triangles liés par la pointe)
+2014-09-05T05:20:19 <Letarumavza> Le truc était noir avec cette marque, et plutot balèze, vous savez ce que c'est (j'en avais jamais vu)
+2014-09-05T05:20:39 <adriens33> oulà…
+2014-09-05T05:20:41 <Letarumavza> Bah elle va plus aller loin.
+2014-09-05T05:20:48 <Letarumavza> En revanche putain, j'ai mal.
+2014-09-05T05:21:08 <adriens33> ça ?
+2014-09-05T05:21:09 <adriens33> http://fr.wikipedia.org/wiki/Veuve_noire#mediaviewer/File:Black_Widow_Spider_California.jpg
+2014-09-05T05:21:46 <Letarumavza> Euh... ça y ressemble
+2014-09-05T05:21:48 <Letarumavza> Plus petite
+2014-09-05T05:21:51 <Letarumavza> Mais oui
+2014-09-05T05:21:54 <adriens33> bah ça c'est une veuve noire…
+2014-09-05T05:21:59 <Letarumavza> ça fait mal
+2014-09-05T05:22:05 <adriens33> bah oui tu m'étonnes…
+2014-09-05T05:23:03 <adriens33> si c'est bien ça c'est venimeux les veuves noires, donc bon…
+2014-09-05T05:23:49 <Letarumavza> Bah si c'est bien une de ces merdes, heureusement que je l'ai dégagé au moment où j'ai senti la morsure.
+2014-09-05T05:23:54 <adriens33> voui…
+2014-09-05T05:24:06 <Letarumavza> Mais putain j'ai super mal, et la main engourdie.
+2014-09-05T05:24:52 <Letarumavza> On note, je suis le seul mec à se faire mordre à 5h du mat dans sa salle de bain à bordeaux par une putain d'araignée des zones désertiques d'amérique du nord...
+2014-09-05T05:25:13 <adriens33> heum… y'a pas que la sous espèce qui vit en amérique du nord…
+2014-09-05T05:25:18 <adriens33> y'a d'autres types de veuves noires
+2014-09-05T05:25:38 <Silou> http://www.astrium.com/espace-medecins/risques-et-situations/Veuve-noire.html
+2014-09-05T05:26:10 <adriens33> merci Silou :)
+2014-09-05T05:26:30 <Silou> Ca parle pas des salles de bain dans la section habitat
+2014-09-05T05:26:33 <Silou> :troll:
+2014-09-05T05:26:44 <Letarumavza> Hum...
+2014-09-05T05:26:52 <Silou> Mais sur la carte il semblerait qu'il y en ai en France
+2014-09-05T05:26:55 <Letarumavza> Y'a un truc qui colle pas.
+2014-09-05T05:27:08 <Silou> Et tes symptomes ne collent pas trop
+2014-09-05T05:27:18 <Letarumavza> Yep c'est ce que j'allais dire.
+2014-09-05T05:27:26 <Letarumavza> Pourtant elle ressemble vraiment.
+2014-09-05T05:27:52 <adriens33> bah une sous espèce ?
+2014-09-05T05:27:55 <Letarumavza> Mais d'un autre coté, c'est peut-etre une réaction allergique.
+2014-09-05T05:27:58 <Silou> T'as plus son cadavre ?
+2014-09-05T05:28:06 <Letarumavza> Silou, pas exploitable.
+2014-09-05T05:28:12 <Silou> Arf
+2014-09-05T05:28:26 <Letarumavza> bouqin en pleine gueule + frottage sur sol
+2014-09-05T05:28:32 <Silou> Arf
+2014-09-05T05:28:36 <Silou> Le frottage fut de trop
+2014-09-05T05:28:50 <Letarumavza> Mais c'est une allergie que je fais là.
+2014-09-05T05:29:00 <adriens33> putain déjà que j'arrivais pas à dormir… si t'as trouvé ce genre de merde chez toi je sais pas si je vais arriver à venir tout à l'heure moi XD
+2014-09-05T05:29:15 <Letarumavza> (gonflement, sensation de chaleur, démangeaison)
+2014-09-05T05:29:53 <Letarumavza> Bah je regarde pour l'instant.
+2014-09-05T05:30:04 <Letarumavza> Mais ça a pas l'air d'empirer
+2014-09-05T05:30:07 <adriens33> l'ennui c'est que sans la bestiole pour identification de l'espèce exacte et du venin ça va être dur…
+2014-09-05T05:31:20 <Letarumavza> Mes amis, une minute de silence, si moi j'ai été mordu à la main et j'ai un mal de chien, quelqu'un quelque part dans le monde s'est fait mordre aux burnes...
+2014-09-05T05:31:30 <Letarumavza> Par le même genre de bestiole.
+2014-09-05T05:31:39 <adriens33> XD
+2014-09-05T05:31:39 <Letarumavza> Compatissons à son sort.
+2014-09-05T05:34:01 <Letarumavza> Trouvé
+2014-09-05T05:34:44 <Letarumavza> Bien visé les mecs, c'est la bonne bestiole, mais c'est une variété européenne.
+2014-09-05T05:35:21 <Letarumavza> Particuliarité : morsure douloureuse et entrainant une inflamation, mais sans riques...
+2014-09-05T05:35:28 <adriens33> (ouf déjà)
+2014-09-05T05:37:10 <Letarumavza> En fait, si j'en crois wikipedia (et les liens vers l'oms) tous les latrodectus ont des venins différents.
+2014-09-05T05:37:24 <adriens33> c'est laquelle la tienne ,
+2014-09-05T05:37:25 <adriens33> ?
+2014-09-05T05:37:36 <Letarumavza> Allant du neurotoxique à l'inflamatoire léger.
+2014-09-05T05:38:56 <Letarumavza> Latrodectus geometricus apparement.
+2014-09-05T05:39:05 <Letarumavza> (elle y ressemble beaucoup)
+2014-09-05T05:39:24 <adriens33> ouh
+2014-09-05T05:39:26 <adriens33> ouh
+2014-09-05T05:39:29 <adriens33> bordel de merde.
+2014-09-05T05:39:30 <adriens33> oulà
+2014-09-05T05:39:33 <adriens33> que c'est moche…
+2014-09-05T05:39:36 <Letarumavza> note intéréssante, elle semble construire ses toiles de manière extrèmement précise et proche du nombre d'or...
+2014-09-05T05:39:37 <adriens33> beuarg
+2014-09-05T05:39:45 <adriens33> (d'ou le geometricus ?)
+2014-09-05T05:39:50 <Letarumavza> Me suis fait mordre par une araignée geek...
+2014-09-05T05:39:57 <Silou> gg
+2014-09-05T05:39:57 <Letarumavza> ...
+2014-09-05T05:40:01 <adriens33> spiderman !!
+2014-09-05T05:40:08 <Letarumavza> Y'a qu'à moi que ce genre de trucs arrivent...
+2014-09-05T05:40:13 <Letarumavza> J'en ai ma claque.
+2014-09-05T05:40:20 <Letarumavza> Et oui, c'est vachement très moche.
+2014-09-05T05:40:32 <adriens33> bah de toute façon une araignée en gros plan sur mon écran…
+2014-09-05T05:40:39 <adriens33> moi qui suis arachnophobe…
+2014-09-05T05:40:46 <adriens33> en plus ce genre de mocheté…
+2014-09-05T05:40:49 <adriens33> comment dire… ^^'
+2014-09-05T05:40:49 <Letarumavza> Vais pas me faire emmerder par un truc qui fait moins d'un millième de mon volume.
+2014-09-05T05:41:05 <Letarumavza> Silou, déjà fait.
+2014-09-05T05:41:30 <Letarumavza> Faut chopper derrière la tête, comme ça elle te mord pas.
+2014-09-05T05:41:56 <Letarumavza> C'est super vif comme bestiole.
+2014-09-05T05:42:09 <Letarumavza> Mais la mienne avait les crocs pris dans la boucle de mes rangers.
+2014-09-05T05:42:56 <Letarumavza> Comme je savais pas comment la buter j'ai mordu dedans jusqu'à sentir craquer et qu'elle arrête de bouger.
+2014-09-05T05:43:27 <Silou> :D
+2014-09-05T05:43:29 <Letarumavza> (j'ai été élevé un poil à la dure, parfois ça se voit un peu)
+2014-09-05T05:44:09 <Letarumavza> ma main commence à dégonfler, la zoidbergite aigue c'est pas pour aujourd'hui.
+2014-09-05T05:44:28 <Letarumavza> (quasiment une heure quand-même)
+2014-09-05T05:45:28 <Letarumavza> adrien, au crétacté y'avait des migales de 4m de diamètre.
+2014-09-05T05:45:33 <adriens33> ta gueule ><
+2014-09-05T05:45:34 <Letarumavza> (on en a des fossiles)
+2014-09-05T05:46:04 <Letarumavza> Mais la diminution de la part d'oxygène dans l'atmosphère a diminué drastiquement la taille de la mégafaune.
+2014-09-05T05:46:46 <Letarumavza> D'un autre coté, je vois une migale comme ça, mon cerveau va buger entre : Mais c'est de la viande // mais ça mord.
+2014-09-05T05:47:06 <adriens33> bah… après avec le % d'oxygene requis
+2014-09-05T05:47:14 <adriens33> je pense que ton cerveau bugguera avant XD
+2014-09-05T05:47:15 <Letarumavza> 4m, j'avoue que je foncerai pas dedans...
+2014-09-05T05:47:35 <Letarumavza> J4aurai plutot tendance à y coller un coups de fusil
+2014-09-05T05:47:54 <Letarumavza> Et à me barrer...
+2014-09-05T05:47:57 <adriens33> leta ! attaque fusil !
+2014-09-05T05:48:01 <adriens33> * rien ne se passe *
+2014-09-05T05:48:27 <adriens33> mygale géante ennemie lance attaque écrasement !
+2014-09-05T05:48:33 <adriens33> * c'est super efficace !
+2014-09-05T05:48:44 <Letarumavza> 10 contre 1 qu'il y a pas d'arraignées aux concerts de rammstein ^^
+2014-09-05T05:48:53 <Letarumavza> (les lance flammes, ça aide)
+2014-09-05T05:49:33 <adriens33> ^^
+2014-09-05T05:49:52 <Letarumavza> D'ailleurs, quand j'ai tenté de la prendre en photo (avant de lui mettre la tarte) j'ai remarqué que les ocelles des aracnides sont réfléchissants.
+2014-09-05T05:50:02 <adriens33> les… ?
+2014-09-05T05:50:06 <Letarumavza> yeux
+2014-09-05T05:50:09 <adriens33> ow
+2014-09-05T05:50:11 <adriens33> voui
+2014-09-05T05:50:25 <Letarumavza> J'avais jamais remarqué
+2014-09-05T05:50:31 <adriens33> (non, j'en ai pas vu en vrai, je sais juste lire ^^)
+2014-09-05T05:50:37 <Letarumavza> Faut que j'ajoute ça dans skyrim.
+2014-09-05T05:50:39 <adriens33> ^^
+2014-09-05T05:51:09 <Letarumavza> N'empèche, je l'ai entendu croustiller quand le bouquin l'a percutée.
+2014-09-05T05:51:14 <Letarumavza> Foiré de tank
+2014-09-05T05:51:51 <Letarumavza> Mais tu vois adrien, autant la peur des souris je pige pas, autant l'arcnophobie je commence à saisir le concept.
+2014-09-05T05:51:59 <Letarumavza> ça fait un mal de chien...
+2014-09-05T05:52:03 <adriens33> le plus pres que j'ai été d'une araignée c'est quand j'en ai trouvé une dans mon lit, quand je me foutais sous la couverture… au début ça chatouillait, je pigeais pas. pis quand j'ai levé la couverture j'ai sursauté comme pas permis… et depuis je peux plus dormir dans le noir complet ><
+2014-09-05T05:52:27 <adriens33> (pis c'était pas une toute petite en plus)
+2014-09-05T05:53:00 <Letarumavza> Une toute petite tu l'aurais pas sentie.
+2014-09-05T05:53:20 <adriens33> heu… si elle te vadrouille sous la plante du pied si…
+2014-09-05T05:53:26 <adriens33> quand même…
+2014-09-05T05:53:43 <Letarumavza> J'ai un nom commun pour les araignées et tout ce qui rampe.
+2014-09-05T05:53:49 <Letarumavza> "scrotch"
+2014-09-05T05:53:51 <adriens33> XD
+2014-09-05T05:53:53 <adriens33> j'aime
+2014-09-05T05:54:10 <adriens33> sinon y'a
+2014-09-05T05:54:14 <adriens33> « bouquin <3 »
+2014-09-05T05:54:25 <Letarumavza> Mon beau père qui m'a fait chier parce que 'jai tué la bestiole au lieu de la mettre dehors...
+2014-09-05T05:54:30 <adriens33> AH AH AH
+2014-09-05T05:54:36 <adriens33> l'avais qu'à pas te mordre
+2014-09-05T05:54:43 <adriens33> nanméo
+2014-09-05T05:55:17 <Letarumavza> Bah apparement cette espèce ne bouffe que des petites bestioles mais pas de moustiques;
+2014-09-05T05:55:35 <Letarumavza> Donc elle fait juste chier et rend même pas service...
+2014-09-05T05:55:35 <adriens33> c'est con…
+2014-09-05T05:55:51 <adriens33> moi j'en ai une petite dans un coin d'un mur…
+2014-09-05T05:55:59 <adriens33> à cet endroit l'an dernier j'avais des fourmis
+2014-09-05T05:56:00 <Letarumavza> Les faucheux, ça me gène pas, leurs toiles sont légères, et ça mord pas.
+2014-09-05T05:56:05 <adriens33> depuis qu'elle est là j'en ai plus :p
+2014-09-05T05:56:30 <adriens33> du coup celle ci comme elle est petite et qu'elle reste cachée j'y touche pas
+2014-09-05T05:56:36 <Letarumavza> Si elle a bien été nourrie elle a du pondre des oeufs un peu partout.
+2014-09-05T05:56:42 <adriens33> huuuhr
+2014-09-05T05:56:51 <Letarumavza> (comment déclencher une paranoïa en une phrase)
+2014-09-05T05:56:59 <adriens33> (apres elle s'est ptet cassée… jla vois plus depuis un bail)
+2014-09-05T05:57:08 <adriens33> nan mais c'est pas une paranoïa là…
+2014-09-05T05:57:14 <Letarumavza> Donc tu sais même pas où elle est...
+2014-09-05T05:57:17 <adriens33> tu vas me coller une crise d'angoisse avec tes conneries…
+2014-09-05T05:57:23 <adriens33> bordel ><
+2014-09-05T05:57:36 <adriens33> (entre ça et ce que t'as trouvé chez toi…)
+2014-09-05T05:57:48 <Letarumavza> Y'a une de ses potes qui m'a pourri mon rituel du matin...
+2014-09-05T05:58:03 <adriens33> bon… on peut pas changer de sujet ?
+2014-09-05T05:58:21 <Letarumavza> Tien, une question que je me pose :
+2014-09-05T05:58:32 <Letarumavza> Pourquoi les aracnides ont huit pattes ?
+2014-09-05T05:58:46 <adriens33> oulà
+2014-09-05T05:58:50 <adriens33> bonne question
+2014-09-05T05:58:51 <Letarumavza> Qu'est-ce qui a mené à ça dans l'évolution ?
+2014-09-05T05:59:13 <adriens33> ben… pourquoi nous on a dix doigts ?
+2014-09-05T05:59:18 <adriens33> pourquoi pas huit ?
+2014-09-05T05:59:22 <adriens33> pourquoi pas douze ?
+2014-09-05T05:59:47 <adriens33> (bon… pour le systeme métrique c'aurait un peu été la merde :p)
+2014-09-05T06:00:43 <adriens33> brrrr… bordel de merde…
+2014-09-05T06:02:10 <Letarumavza> Le système métrique est basé sur un système décimal qui n'a rien à voir avec le nombre de nos doigts
+2014-09-05T06:02:20 <Letarumavza> En plus en en a 20 des doigts...
+2014-09-05T06:02:25 <adriens33> oui bon hé ça
+2014-09-05T06:02:26 <adriens33> va
+2014-09-05T06:02:31 <adriens33> il est 6h du mat
+2014-09-05T06:02:36 <adriens33> j'ai 23h d'uptime
+2014-09-05T06:02:40 <Letarumavza> D'ailleurs pourquoi le système décimal ?
+2014-09-05T06:02:53 <adriens33> justement parce qu'on a dix doigts au mains nigaud :p
+2014-09-05T06:02:59 <Letarumavza> l'hexal est moins problématiques pour bien des théorèmes.
+2014-09-05T06:03:10 <adriens33> c'est le premier truc sur lequel l'homme a commencé à compter
+2014-09-05T06:03:13 <adriens33> ses doigts
+2014-09-05T06:03:23 <Letarumavza> adrien, les egyptien antiques utilisaient la base 64 et les puissances de 2
+2014-09-05T06:03:29 <Letarumavza> y'a 7000 ans...
+2014-09-05T06:03:46 <adriens33> oui mais c'est pas pratique
+2014-09-05T06:03:52 <adriens33> on a pas autant de doigts
+2014-09-05T06:04:08 <adriens33> ou alors les égyptiens sont pas humains…
+2014-09-05T06:04:09 <Letarumavza> Oui, mais en base 64 certains irationels sont exprimables.
+2014-09-05T06:05:17 <Letarumavza> L'hexal reste mieux selon moi...
+2014-09-05T06:05:36 <Letarumavza> en hexal les divisons par 2 et par 3 tombent juste.
+2014-09-05T06:06:13 <Letarumavza> Le dodécal est bien aussi
+2014-09-05T06:08:23 <Letarumavza> Tien je me fais chier, je vais coder un truc en C
+2014-09-05T06:08:33 <adriens33> cool ta vie,  tu veux un cookie ?
+2014-09-05T06:08:45 <adriens33> (pas le biscuit, l'autre)
+2014-09-05T06:08:56 <Letarumavza> Y'a entre 150 et 200 oeufs dans un sac déposé par une araignée communes
+2014-09-05T06:09:04 <Letarumavza> Elles peuvent en laisser une vingtaine.
+2014-09-05T06:09:04 <adriens33> ta gueule putain !
+2014-09-05T06:09:15 <Letarumavza> Et j'aime bien les cookies ^^
+2014-09-05T06:09:31 <Letarumavza> C'est essentiel d'affronter sa peur.
+2014-09-05T06:09:50 <Letarumavza> Surtout quand elle ne présente objectivement aucun risque.
+2014-09-05T06:10:15 <adriens33> en provoquant une crise de panique ? t'es tres marrant toi.
+2014-09-05T06:10:37 <Letarumavza> Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique
+2014-09-05T06:10:37 <Letarumavza> ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique ! Pas nique !
+2014-09-05T06:10:41 <adriens33> …
+2014-09-05T06:10:48 <adriens33> nan mais sérieux, me sens pas top là…
+2014-09-05T06:10:50 <Letarumavza> ^^
+2014-09-05T06:11:11 <Letarumavza> Prends un bon bouquin
+2014-09-05T06:11:31 <Letarumavza> (n'empèche, c'est vrai que la connaissance peut être une arme)
+2014-09-05T06:11:50 <adriens33> pourquoi tu sors ça maintenant ?
+2014-09-05T06:12:39 <Letarumavza> Bah le constat qu'un bouquin en pleine gueule est un moyen éfficace de boussiller ces zergs au rabais.
+2014-09-05T06:12:45 <adriens33> ah
+2014-09-05T06:13:33 <adriens33> lol
+2014-09-05T06:13:34 <adriens33> http://fr.wikipedia.org/wiki/Unit%C3%A9s_de_mesure_anglo-saxonnes#Longueur
+2014-09-05T06:13:50 <adriens33> paye tes correspondances d'unités
+2014-09-05T06:14:36 <adriens33> un pouce=1/12 de pied, un yard fait 3 pieds, un mille fait 8 sillons qui font chacun 10 chaines, une chaine fait 4 perches, une perche fait 5yard etdemi…
+2014-09-05T06:14:40 <Letarumavza> Demandes à la nasa, ils ont pommé un rover parce qu'un mec a fait les calculs avec les unités impériales au lieu du SI
+2014-09-05T06:14:41 <adriens33> ce bordel XD
+2014-09-05T06:15:02 <Letarumavza> Il parrait qu'il a été lourdé dans l'heure.
+2014-09-05T06:15:50 <adriens33> mais… genre… y'a des gens qui font des vrais calculs avec ces trucs ?
+2014-09-05T06:15:55 <adriens33> y'a des gens qui s'en servent ?
+2014-09-05T06:16:06 <adriens33> c'est possible ? o.O
+2014-09-05T06:16:34 <Letarumavza> En l'occurence il avait confondu yards et metres.
+2014-09-05T06:16:39 <adriens33> ah
+2014-09-05T06:16:41 <adriens33> ouais…
+2014-09-05T06:16:44 <Letarumavza> Pour une altitude d'ouverture de parachute...
+2014-09-05T06:16:52 * adriens33 faceground
+2014-09-05T06:17:08 <adriens33> tiens, le parachute s'ouvre trop tard, me demande pourquoi…
+2014-09-05T06:17:26 <Letarumavza> Il a du se dire que 0.9m et 1m changeraient pas grand chose.
+2014-09-05T06:17:30 <adriens33> XD
+2014-09-05T06:17:49 <Letarumavza> Sauf que la rétropoussée, à 1000m pour arriver à 2m du plateau ça marche.
+2014-09-05T06:18:10 <adriens33> pas à 1.8m ? ^^
+2014-09-05T06:18:14 <Letarumavza> La rétropoussée à 900m pour arriver à 2m d'un plateau à 998m de haut...
+2014-09-05T06:18:30 <adriens33> voui…
+2014-09-05T06:18:36 <adriens33> pas tout à fait pareil.
+2014-09-05T06:18:45 <Letarumavza> Adieu le rover à plusieurs milliards.
+2014-09-05T06:18:55 <Letarumavza> Et adieu le taf à la nasa pour le mec
+2014-09-05T06:19:25 <Letarumavza> Tain, mais j'aime à quel point la réalité ressemble parfois à KSP
+2014-09-05T06:20:58 <Letarumavza> D'ailleurs, une petite branlette et je go kfc ^^
+2014-09-05T06:21:04 <Letarumavza> ksp*
+2014-09-05T06:21:06 <adriens33> "square yard"
+2014-09-05T06:21:10 <adriens33> "verge carrée"…
+2014-09-05T06:21:11 <Letarumavza> Quoique...
+2014-09-05T06:21:13 <adriens33> LOOOOL
+2014-09-05T06:21:24 <adriens33> y'a que moi que ça fait bugguer, verge carrée ?
+2014-09-05T06:21:57 <Letarumavza> http://g.e-hentai.org/g/720384/4b51155edd/
+2014-09-05T06:22:06 <adriens33> XD
+2014-09-05T06:22:25 <adriens33> nana mais une unité avec un tel nom dans le système des unités de mesure du royaume uni…
+2014-09-05T06:22:30 <adriens33> c'est… drole.
+2014-09-05T06:22:44 <Letarumavza> On avait le même avant napoléon.
+2014-09-05T06:23:02 <Letarumavza> C'est lui qui a ordoné une réforme des mesures.
+2014-09-05T06:23:29 <adriens33> je sais
+2014-09-05T06:25:47 <Silou> Un Hentai MC oO
+2014-09-05T06:26:03 <Letarumavza> welcome to my world
+2014-09-05T06:32:23 <Letarumavza> BOARF
+2014-09-05T06:32:27 <Letarumavza> me fait pardoner
+2014-09-05T06:32:39 <Letarumavza> http://g.e-hentai.org/g/734923/e9a5f78270/
+2014-09-05T06:34:02 * Silou retourne bosser
+2014-09-05T06:34:17 <Letarumavza> Tu bosses sur quoi ?
+2014-09-05T06:34:43 <Silou> La page d'info de mon site
+2014-09-05T06:37:14 <Letarumavza> Yeah
+2014-09-05T06:37:20 <Letarumavza> J'ai fait un avion stable avec FAR
+2014-09-05T06:37:27 <Letarumavza> Et manoeuvrant !
+2014-09-05T06:49:47 *** Lenile s'est connecté
+2014-09-05T06:50:02 <Lenile> Yop
+2014-09-05T06:52:37 <Silou> Plop
+2014-09-05T06:56:53 <Letarumavza> Et hop, un ssto manoeuvrant
+2014-09-05T06:56:57 <Letarumavza> Mais sans charge utile
+2014-09-05T06:57:09 <Letarumavza> salut ^^
+2014-09-05T06:58:39 <Lenile> Gg !
+2014-09-05T06:58:52 <Lenile> Moi c'ets "Et hop ! Un sac de cours fini !"
+2014-09-05T06:59:05 <Lenile> xD
+2014-09-05T06:59:22 <Letarumavza> Je pense à toi lenile
+2014-09-05T06:59:27 <Letarumavza> Depuis mon peignor
+2014-09-05T06:59:31 <Letarumavza> devant KSP
+2014-09-05T06:59:33 <Lenile> Letarumavza : j'ai un service à te demander o/
+2014-09-05T06:59:37 <Lenile> Pourquoi ? O.o
+2014-09-05T06:59:39 <Letarumavza> ?
+2014-09-05T06:59:43 <Lenile> KSP ?
+2014-09-05T06:59:47 <Lenile> Kapersky ?
+2014-09-05T06:59:57 <Lenile> xD
+2014-09-05T07:00:12 <Letarumavza> T'as besoin de quoi ?
+2014-09-05T07:00:14 <Lenile> Bref bref ! Quand même un truc à te demander !
+2014-09-05T07:00:17 <Letarumavza> (kerbal space program)
+2014-09-05T07:00:19 <Lenile> T'a pas 3Euro via paypal ? x)
+2014-09-05T07:00:24 <Lenile> Je te les rend le 3 du mois prochain x)
+2014-09-05T07:00:33 <Lenile> Haa ouais Kerbal est aps mal.
+2014-09-05T07:00:35 <Letarumavza> Nop, mais j'ai une kali de setup
+2014-09-05T07:00:46 <Lenile> J'vois pas se que c'est ._.
+2014-09-05T07:00:53 <Lenile> Et ça me servira surement pas ._.
+2014-09-05T07:01:09 <Letarumavza> adrien, parrait qu'une kali ça sert à rien pour un paiement paypal ^^
+2014-09-05T07:01:22 <Lenile> S'quoi une Kali ?
+2014-09-05T07:01:40 <Lenile> Ha au fait
+2014-09-05T07:01:47 <Lenile> Le DD de mon Pc portable rend l'ame o/
+2014-09-05T07:01:53 <Lenile> C'est génial.
+2014-09-05T07:02:09 <Letarumavza> J'ai pas de quoi payer un monument, désolé
+2014-09-05T07:02:16 <Lenile> . . .
+2014-09-05T07:02:17 <Lenile> xD
+2014-09-05T07:02:29 <Lenile> 2eme chose. tu va à L'animasia ?
+2014-09-05T07:02:34 <Letarumavza> Biensur
+2014-09-05T07:02:45 <Lenile> Faut que je te rendre une figurine qu'es partit dans ma poche quand j'ai ranger toutes les miennes
+2014-09-05T07:02:56 <Letarumavza> Laquelle ?
+2014-09-05T07:02:58 <Lenile> J'est embraqué une des tiennes sans avoir fait gaffe x)
+2014-09-05T07:03:03 <Lenile> Heuuuu Verte et jaune
+2014-09-05T07:03:07 <Lenile> Ressemble à Pinkie
+2014-09-05T07:03:19 <Letarumavza> NNop, ça c'est pas à moi
+2014-09-05T07:03:21 <Lenile> La CM c'est une orange j'crois
+2014-09-05T07:03:27 <Lenile> Ha o.o
+2014-09-05T07:03:32 <Lenile> C'est pas à moi non plus.
+2014-09-05T07:03:46 <Lenile> J'demanderais à tout le monde à l'animasia ecoute ~
+2014-09-05T07:05:44 <Lenile> Bon !
+2014-09-05T07:05:57 <Lenile> Je vais à l'école comem un élève modèle que je suis !
+2014-09-05T07:05:59 <Lenile> Bisous
+2014-09-05T07:06:02 <Lenile> x)
+2014-09-05T07:06:04 *** Lenile est parti
+2014-09-05T08:04:40 <adriens33> tiens on va faire un test.
+2014-09-05T08:04:44 <adriens33> Letarumavza ?
+2014-09-05T08:04:53 <adriens33> http://img-9gag-lol.9cache.com/photo/aLQ2Dy6_700b.jpg
+2014-09-05T08:05:00 <adriens33> qu'y a t'il de particulier dans cette image ?
+2014-09-05T08:14:29 <Silou> Une svastika
+2014-09-05T08:14:35 <adriens33> chuteuh
+2014-09-05T08:14:41 <adriens33> je voulais voir la réaction de leta
+2014-09-05T08:14:48 <adriens33> s'il allait la voir avant la madame devant
+2014-09-05T08:14:50 <Silou> Maiiis il est afk
+2014-09-05T08:14:56 <adriens33>  félicitations, tu est gay ^^
+2014-09-05T08:15:00 <Silou> Merci
+2014-09-05T08:15:05 <adriens33> comment tu sasis ça ?
+2014-09-05T08:15:10 <adriens33> (qu'il est pas là)
+2014-09-05T08:15:15 <Silou> Bah ca fait 10mn que tu l'as hl
+2014-09-05T08:15:18 <adriens33> ah
+2014-09-05T08:15:27 <Silou> Donc il est afk :p
+2014-09-05T08:15:55 <adriens33> sache une chose: le seul moment où il est pas devant son pc, soit il dort, soit il est quelque part dans sa maison. il sort très rarement.
+2014-09-05T08:16:09 <adriens33> là à mon avis il doit dodo vu ses horaires… particuliers :p
+2014-09-05T08:16:12 <Silou> Comme nous tous :)
+2014-09-05T08:16:29 <adriens33> heu… non. pire.
+2014-09-05T08:16:50 <adriens33> est ce que tu sors dehors parfois ?
+2014-09-05T08:16:53 <Silou> Genre la je me demande si je vais aller dormir dans 1h ou tenir plus tard
+2014-09-05T08:16:58 <Silou> Ca peut m'arriver
+2014-09-05T08:17:06 <adriens33> (genre pour aller faire les courses/voir des gens chez eux etc)
+2014-09-05T08:17:09 <Silou> (en dehors de faire les courses et aller en cours)
+2014-09-05T08:17:19 <adriens33> bah déjà tu vas en cours donc tu sors plus que lui.
+2014-09-05T08:17:20 <adriens33> ^^
+2014-09-05T08:17:24 <Silou> Lol ^^
+2014-09-05T08:17:32 <Silou> Bon ok il est pire alors :p
+2014-09-05T08:17:41 <adriens33> bah c'est un peu un hacker donc bon…
+2014-09-05T08:17:45 <Silou> xD
+2014-09-05T08:17:47 <Silou> "un hacker"
+2014-09-05T08:17:51 <Silou> J'aime bien ce mot :)
+2014-09-05T08:18:13 <Silou> Tu sais j'en connais de vrais hackers, et pourtant il ne sont pas comme lui
+2014-09-05T08:18:17 <adriens33> nan, là c'en est vraiment un, pas un jean kévin avec un windows moddé
+2014-09-05T08:18:31 <Silou> J'ai cru comprendre ca
+2014-09-05T08:18:33 <adriens33> leta est particulier… mais je peux rien dire. ^^
+2014-09-05T08:19:28 <adriens33> mais si t'amene de la barbaque et de la binouse et que t'aime bien causer boobs/jeux vidéo/info/ou plein d'autres trucs, il t'accueillira à bras ouverts :p
+2014-09-05T08:19:37 <Silou> xD
+2014-09-05T08:19:48 <Silou> boobs : non, JV : j'y joue peu, info : j'adore
+2014-09-05T08:19:54 <adriens33> ^^
+2014-09-05T08:20:04 <Silou> Mais j'aimerais savoir en quoi il est un "hacker"
+2014-09-05T08:20:20 <adriens33> tu lui demandera à lui, c'est à lui de voir ce qu'il peut t'en dire.
+2014-09-05T08:20:35 <adriens33> bah justement lui m'a dit deux trois trucs
+2014-09-05T08:20:45 <adriens33> mais… je connais même pas son pseudo de hacker don bon…
+2014-09-05T08:21:02 <adriens33> il m'a pas dit "je suis un hacker lol"
+2014-09-05T08:21:19 <adriens33> il m'a plus montré et expliqué des trucs qui font que oui, c'en est un, pas de doute.
+2014-09-05T08:21:48 <adriens33> il avait pondu une IA qui pouvait réorganiser le code du noyau linux et il le personnalisait comme ça…
+2014-09-05T08:22:02 <Silou> Mouai
+2014-09-05T08:22:19 <adriens33> il l'avait branchée sur l'irc brièvement y'a quelque temps
+2014-09-05T08:22:27 <adriens33> le peu que j'ai interagi avec j'ai été soufflé
+2014-09-05T08:22:33 <Silou> C'est du dev system ca
+2014-09-05T08:22:37 <adriens33> heu…
+2014-09-05T08:22:42 <adriens33> il code en asm
+2014-09-05T08:22:50 <adriens33> et sa box il a modifié le firmware
+2014-09-05T08:23:01 <Silou> Du system ..
+2014-09-05T08:23:03 <adriens33> et mon pc, qui était à lui avant, a  un bios entierement personnalisé.
+2014-09-05T08:23:15 <adriens33> normalement il supporte pas le pci-e 3.0…
+2014-09-05T08:23:20 <adriens33> mais le matos en est capable.
+2014-09-05T08:23:53 <adriens33> (bah un gars qui aime bien tout triturer jusque dans les moindres recoins pour faire des trucs dont c'est pas le but de base, c'est pas la définition même du hacker ?)
+2014-09-05T08:24:07 <adriens33> non… lui il a pas "recodé" un noyau linux.
+2014-09-05T08:24:31 <adriens33> son IA le faisait automatiquement en virant tout ce qui était redondant et en ajoutant quelques trucs.
+2014-09-05T08:24:37 <adriens33> mais elle faisait pas que ça.
+2014-09-05T08:24:52 <adriens33> ah, si tu veux le faire rager un peu: quand il t'explique un truc tu l'appelles jamy ^w^
+2014-09-05T08:24:59 <Silou> xD
+2014-09-05T08:25:22 <adriens33> (mais des fois à l'entendre, ça serait limite ça… en bien moins simple à comprendre  XD)
+2014-09-05T08:26:38 <adriens33> enfin bref, c'est très loin d'être un jean kévin
+2014-09-05T08:27:43 <adriens33> ^^
+2014-09-05T08:27:57 <adriens33> « alala, j'ai changé le fond d'écran de windows je suis trop un hacker lol »
+2014-09-05T08:28:06 * adriens33 prend la voix de jean kévin de Bob Lennon
+2014-09-05T08:28:54 <Silou> Non mais des mecs qui m'ont tenu des propos, j'en riais
+2014-09-05T08:28:59 <adriens33> du genre ?
+2014-09-05T08:29:35 <adriens33> LOOL
+2014-09-05T08:29:54 <adriens33> pis l'histoire avec la CIA c'est du lol aussi…
+2014-09-05T08:30:46 <adriens33> un vrai hacker a pas besoin de LOIC pour ça
+2014-09-05T08:30:54 <adriens33> (voy, je connais)
+2014-09-05T08:31:30 <adriens33> c'est comme la bite, plus elle est petite plus t'en parle.
+2014-09-05T08:31:44 <Silou> Voila ;)
+2014-09-05T08:31:58 <adriens33> ^^
+2014-09-05T08:32:11 <adriens33> je sais
+2014-09-05T08:32:14 <Silou> :p
+2014-09-05T08:32:16 <adriens33> mais c'est moins rigolo comme expression
+2014-09-05T08:32:23 <Silou> Yep
+2014-09-05T08:45:21 <adriens33> ^^
+2014-09-05T08:46:19 <adriens33> pas de sous s?
+2014-09-05T08:46:37 <Silou> Plus trop :/
+2014-09-05T08:48:36 <Silou> ( https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/s480x480/1010133_10204565151949893_3940111230470352506_n.jpg?oh=b8d478e60c3dbbe83d1535b69711fc79&oe=548AA361&__gda__=1418000804_bdc5f729878633bcc2ed36d40bbe0a7d )
+2014-09-05T08:49:00 <adriens33> :o
+2014-09-05T08:49:18 <adriens33> awééé
+2014-09-05T09:16:50 *** heuzef s'est connecté
+2014-09-05T09:18:53 <Silou> o/
+2014-09-05T09:40:10 *** TrappyTickles s'est connecté
+2014-09-05T10:25:20 *** Silou est parti
+2014-09-05T10:37:53 *** heuzef est parti
+2014-09-05T10:46:00 *** adriens33 est parti
+2014-09-05T10:57:45 *** wildfier s'est connecté
+2014-09-05T11:00:37 <wildfier> yop
+2014-09-05T11:59:59 <TrappyTickles> oi
+2014-09-05T12:01:45 *** heuzef s'est connecté
+2014-09-05T12:05:28 <wildfier> ho heuzef
+2014-09-05T12:05:33 <wildfier> tant que t'es là
+2014-09-05T12:05:44 <wildfier> j'aimerais mettre en ligne la v3
+2014-09-05T12:05:59 <wildfier> mais j'ai une erreur 500
+2014-09-05T12:06:14 <wildfier> y a moyen que j'accède aux logs d'apache pour voir d'où viens le pb ?
+2014-09-05T12:16:07 *** heuzef est parti
+2014-09-05T13:04:20 *** Gordfang s'est connecté
+2014-09-05T13:11:59 *** wildfier est parti
+2014-09-05T13:16:19 <Berry-Punch> Voilà ce qu'il s'est passé *hic* ces 10 dernières lignes, adriens33
+2014-09-05T13:16:20 *** adriens33 s'est connecté
+2014-09-05T13:29:44 <adriens33> hoi
+2014-09-05T13:30:46 <Gordfang> yo
+2014-09-05T13:51:15 <Letarumavza> gné...
+2014-09-05T14:06:55 *** wildfier s'est connecté
+2014-09-05T14:07:00 <wildfier> re
+2014-09-05T14:14:06 <Letarumavza> Bon, d'une part, je désengage la poursuite de ma cible.
+2014-09-05T14:14:36 <Letarumavza> Et d'autre part je commence à avoir l'impression d'esquiver une balle en le faisant.
+2014-09-05T14:33:12 <TrappyTickles> oi Letarumavza ? regarde tes IMs
+2014-09-05T14:44:32 *** adriens33 est parti
+2014-09-05T15:25:18 <Letarumavza> re
+2014-09-05T15:25:30 <TrappyTickles> re aussi
+2014-09-05T15:25:58 <TrappyTickles> j'ai eu mon 1er taf pour ma bourse au permis.. faut que j'aille chez des commerçants pour coller des affiches pour le festival culturel :p
+2014-09-05T15:26:14 <TrappyTickles> et faut qu'y ait une cagna pas possible :p
+2014-09-05T15:27:12 <Letarumavza> Tain j'en chie...
+2014-09-05T15:27:38 <Letarumavza> J'en ai plein le cul d'être organique...
+2014-09-05T15:28:15 <TrappyTickles> j'admets, moi aussi je mettrais bien mon âme dans mon avatar de sl pour être sur la grid et avoir d'autres problèmes que ceux là :p
+2014-09-05T15:30:19 <TrappyTickles> ce serait quasi la vie éternelle
+2014-09-05T15:49:35 <TrappyTickles> bon, re au taf
+2014-09-05T16:04:15 *** MaCharon s'est connecté
+2014-09-05T16:04:23 <MaCharon> slt
+2014-09-05T16:08:45 <Letarumavza> Mais qu'est-ce que je suis entrain de faire...
+2014-09-05T16:19:09 *** ValCab33 s'est connecté
+2014-09-05T16:19:32 <ValCab33> Hellow
+2014-09-05T16:28:02 *** Yvan33 s'est connecté
+2014-09-05T16:28:13 <Yvan33> Salut salut
+2014-09-05T16:28:34 <Yvan33> Leta, tu es réveillé ou pas?
+2014-09-05T16:30:17 *** Bybeez s'est connecté
+2014-09-05T16:30:20 <Bybeez> Patate !
+2014-09-05T16:30:43 <Yvan33> Yo
+2014-09-05T16:30:44 <Yvan33> Tu viens au barbuk?
+2014-09-05T16:33:58 <Bybeez> Nope
+2014-09-05T16:34:37 <Yvan33> Je vois
+2014-09-05T16:34:54 <Yvan33> Alors gfo contrer la vague de contenue que shadow nous met sur le wiki
+2014-09-05T16:35:08 <Yvan33> Heuzef il va tomber en dépression
+2014-09-05T16:49:13 *** Yvan33 est parti
+2014-09-05T17:10:15 <Letarumavza> Yep reveillé
+2014-09-05T17:28:43 *** ValCab33 est parti
+2014-09-05T17:55:54 *** ELiDYROS s'est connecté
+2014-09-05T18:07:14 *** Lezarius s'est connecté
+2014-09-05T18:07:20 <Lezarius> Salut
+2014-09-05T18:14:02 <ELiDYROS> Salut Lezarius
+2014-09-05T18:14:21 <Lezarius> Sa va ELiDYROS
+2014-09-05T18:15:21 <ELiDYROS> Jusque là oui, et toi ?
+2014-09-05T18:16:04 *** Silou s'est connecté
+2014-09-05T18:22:19 *** wildfier est parti
+2014-09-05T18:42:29 *** ludvann s'est connecté
+2014-09-05T18:42:38 <ludvann> plop  everypony :D
+2014-09-05T18:44:04 <ludvann> (d'ailleurs j'ai jamais cru qu'il y avait autant de différence au niveau de l'audio entre le 144p et le 480p sur youtube...)
+2014-09-05T18:56:31 *** MaCharon est parti
+2014-09-05T18:59:04 *** Gordfang est parti
+2014-09-05T19:25:46 *** Silou est parti
+2014-09-05T19:28:12 *** Lezarius est parti
+2014-09-05T19:47:23 *** Makhai s'est connecté
+2014-09-05T19:47:56 <Makhai> Yop
+2014-09-05T19:48:08 <Bybeez> plop
+2014-09-05T19:53:27 *** Makhai est parti
+2014-09-05T19:53:35 *** ELiDYROS est parti
+2014-09-05T20:17:18 *** Bybeez est parti
+2014-09-05T20:17:40 *** Bybeez s'est connecté
+2014-09-05T20:46:09 *** Bybeez est parti
+2014-09-05T21:20:07 *** ValCab33 s'est connecté
+2014-09-05T21:20:26 <ValCab33> Coucou les poneys
+2014-09-05T21:39:27 *** flutterbrony s'est connecté
+2014-09-05T21:48:53 *** TrappyTickles est parti
+2014-09-05T21:50:25 *** flutterbrony est parti
+2014-09-05T22:07:52 *** Gordfang s'est connecté
+2014-09-05T22:33:18 *** Letarumavza est parti
+2014-09-05T22:47:43 <ludvann> ValCab33 ça va ? :D
+2014-09-05T22:48:33 <ValCab33> Ouais et toi ?
+2014-09-05T22:49:53 <ludvann> bien :)
+2014-09-05T22:50:08 <ludvann> tu as des trucs de prévus ce WE ? ^^
+2014-09-05T22:51:38 <ValCab33> Samedi je bosse et dimanche je vais a un meeting de moto avec un pote.
+2014-09-05T22:51:45 <ValCab33> Pourquoi ?
+2014-09-05T22:53:37 <ludvann> pour savoir :)
+2014-09-05T22:54:49 <ludvann> savoir si on pouvait parler ou essayer du ksp en multi ^^
+2014-09-05T22:56:59 <ValCab33> Lundi peut etre ?
+2014-09-05T22:57:49 <ludvann> je peux aller sur l'ordi que le WE :'(
+2014-09-05T22:57:58 <ludvann> le WE prochain , ::)
+2014-09-05T22:59:10 <ludvann> ? :) *
+2014-09-05T22:59:58 <ValCab33> Wé nan t'es au lycée je suppose...
+2014-09-05T23:00:01 <ValCab33> Du multi avec BDA ca doit etre enorme :p
+2014-09-05T23:00:39 <ValCab33> Le WE prochain normalement c'est bon (le dimanche)
+2014-09-05T23:01:03 <ludvann> ok :)
+2014-09-05T23:01:38 <ludvann> je vais essayer de me rensaigner à propos du multi :)
+2014-09-05T23:02:39 <ValCab33> C'est le mod DarkMultiPlayer nan ?
+2014-09-05T23:03:19 <ludvann> je crois ^^'
+2014-09-05T23:03:32 <ludvann> je vais voir deux sec :)
+2014-09-05T23:04:58 <ludvann> ouais il me semble bien :)
+2014-09-05T23:05:11 <ludvann> qui hébergera ? ^^'
+2014-09-05T23:05:21 <ValCab33> Heu
+2014-09-05T23:05:26 <ludvann> (mon ordi est bof bof les allouettes...
+2014-09-05T23:05:26 <ValCab33> Heuheu
+2014-09-05T23:05:28 <ludvann> )
+2014-09-05T23:05:35 <ludvann> xD
+2014-09-05T23:05:37 <ValCab33> Idem
+2014-09-05T23:05:56 <ludvann> la bande de bras cassés xD
+2014-09-05T23:06:20 <ValCab33> Chui connecté en wifi sur la box et mon ordi est pas très performant
+2014-09-05T23:06:28 <ValCab33> (Surtout sur ksp)
+2014-09-05T23:06:38 <ValCab33> (Et MC)
+2014-09-05T23:07:02 <ludvann> hum...
+2014-09-05T23:07:12 <ludvann> je peut toujours essayer ^^
+2014-09-05T23:07:31 <ludvann> mais je sais pas si c'est compatble avec les mods... :/
+2014-09-05T23:07:32 <ValCab33> Après ya des serveurs publics il me semble
+2014-09-05T23:07:42 <ValCab33> Faut voir.
+2014-09-05T23:08:15 <ludvann> ouais mais on peut pas faire les (cons) superbes bases spatiales sur cela (àdétruire avec une ICBM)
+2014-09-05T23:09:36 <ValCab33> Repeat please
+2014-09-05T23:09:41 <ValCab33> In french
+2014-09-05T23:09:46 <ValCab33> :p
+2014-09-05T23:10:12 <ludvann> les serveurs perso sont mieux pour faire les cons ^^
+2014-09-05T23:10:31 <ludvann> (carrer/sandbox/science ?)
+2014-09-05T23:10:38 <ludvann> (pour le serveur)
+2014-09-05T23:11:06 <ValCab33> Sandbox
+2014-09-05T23:11:11 <ValCab33> Of course
+2014-09-05T23:11:29 <ValCab33> Sinon on peut moins faire les cons
+2014-09-05T23:11:43 <ludvann> ouep :D
+2014-09-05T23:11:50 <ludvann> au fait,
+2014-09-05T23:12:00 <ludvann> késaco le dogfight ^^'
+2014-09-05T23:12:09 <ludvann> (en aviation)
+2014-09-05T23:12:25 <ValCab33> Dogfight = combat rapproché
+2014-09-05T23:12:38 <ValCab33> Au gun
+2014-09-05T23:12:46 <ValCab33> Et a la manoeuvre
+2014-09-05T23:13:05 <ludvann> ok :)
+2014-09-05T23:13:15 <ludvann> si ça marche on en fera , :D
+2014-09-05T23:13:19 <ludvann> ?*
+2014-09-05T23:13:25 <ValCab33> Ouqip
+2014-09-05T23:13:53 <ludvann> sans bda ça va êtrer chaud xD
+2014-09-05T23:14:29 <ValCab33> Je prendrai des avions de Maczerez555 (ou un truc comme ca), des super répliques super maniables (pour la plupart)
+2014-09-05T23:14:30 <ludvann> tu connais mareczex ? (c'st un truc du genre)
+2014-09-05T23:14:37 <ValCab33> xD
+2014-09-05T23:14:39 <ludvann> j'ai rien dit ^^'
+2014-09-05T23:15:00 <ValCab33> Son F-35 :bave:
+2014-09-05T23:15:02 <ludvann> ouais mais il y a trop de part pour moi xD
+2014-09-05T23:15:18 <ValCab33> Srsly ?
+2014-09-05T23:15:26 <ludvann> ouep :/
+2014-09-05T23:15:37 <ludvann> 'fin ça rame un petit peu
+2014-09-05T23:15:54 <ValCab33> Y doit y avoir 130 parts grand max par avion...
+2014-09-05T23:16:35 <ValCab33> J'imagine meme pas un lander Eve a 500 parts sur ton ordi :p
+2014-09-05T23:16:48 <ludvann> c'est une impression que j'ai eut a près donc ^^
+2014-09-05T23:17:48 <ludvann> mais c'est que ses reproductions...
+2014-09-05T23:17:57 <ludvann> c'est vrai*
+2014-09-05T23:18:58 <ludvann> tu as vu sa vidéo (la dernière en date) où il a une sorte de kerbtown ? (c'est le launchpad amélioré)
+2014-09-05T23:20:59 <ValCab33> Kerbin City.
+2014-09-05T23:21:38 <ValCab33> Non ?
+2014-09-05T23:21:51 <ludvann> nah
+2014-09-05T23:22:23 <ludvann> tu as vu ça vidéo "fix subscribers craft" ? (ladernière)
+2014-09-05T23:23:41 <ValCab33> Je crois pas...
+2014-09-05T23:24:16 <ludvann> regardes là, elle est super sympa :D
+2014-09-05T23:24:22 <ValCab33> Oki
+2014-09-05T23:26:49 <ValCab33> La dernière c'est une nouvelle version du F-16, sortie il y a 21heures :p
+2014-09-05T23:28:39 <ludvann> yay !
+2014-09-05T23:31:11 <ValCab33> Définitivement le meilleur pilote du monde.
+2014-09-05T23:31:19 <ValCab33> :O
+2014-09-05T23:31:42 <ludvann> c'est que maintenant que tu t'en rends compte ? ;-D
+2014-09-05T23:32:56 <ValCab33> Nan mais serieux
+2014-09-05T23:33:10 <ValCab33> Sa video avec le F16
+2014-09-05T23:33:20 <ValCab33> Nan mais what quoi
+2014-09-05T23:33:46 <ValCab33> C'est pas possible, il doit bien y avoir un truc...
+2014-09-05T23:34:35 <ludvann> je vais voir dans deux min...
+2014-09-05T23:39:25 <ludvann> hum...
+2014-09-05T23:39:48 <ludvann> même si il fait plusieurs prise, il est super bon :D
+2014-09-05T23:40:23 <ludvann> (je sais pas s'il utilise un joystick ou s'il fait clavier + joystick...)
+2014-09-05T23:41:10 <ludvann> d'ailleurs tu savais qu'il est polonais ? 'polish)
+2014-09-05T23:41:17 <ludvann> (polish)*
+2014-09-05T23:45:49 <ValCab33> This guy is awesome.
+2014-09-05T23:45:55 <ludvann> Eeyup
+2014-09-05T23:54:38 <ValCab33> http://forum.kerbalspaceprogram.com/threads/82785-0-23-5-Kerbin-Side-v0-29-More-Bases-On-Kerbin
+2014-09-05T23:54:53 <ValCab33> MOAR THINGZ

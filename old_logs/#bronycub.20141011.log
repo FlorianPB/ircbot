@@ -1,0 +1,359 @@
+2014-10-10T00:21:53 *** Tsumenokage est parti
+2014-10-10T00:25:37 *** adriens33 est parti
+2014-10-10T00:53:43 *** MaCharon est parti
+2014-10-10T00:54:15 *** MaCharon s'est connecté
+2014-10-10T00:54:50 *** MaCharon est parti
+2014-10-10T01:43:37 *** ValCab33 s'est connecté
+2014-10-10T01:47:12 *** NoPony est parti
+2014-10-10T01:56:01 *** ValCab33 est parti
+2014-10-10T07:56:41 <Berry-Punch> Voilà *hic* ce qu'il s'est passé ces 10 dernières lignes, adriens33
+2014-10-10T07:56:42 *** adriens33 s'est connecté
+2014-10-10T08:27:42 <adriens33> tain j'aime airdroid… je suis co depuis l'interface web externe (web.airdroid.com), et comme l'appli a détecté que le téléphone était dans mon réseau local, les transferts de fichier se font en local, sans passer par leur serveur... c'est bien foutu ce truc quand même.... :3
+2014-10-10T08:28:05 <adriens33> ah
+2014-10-10T08:28:12 <adriens33> comment backup ses sms sous android:
+2014-10-10T08:28:31 <adriens33> étape 1: copier le fichier /data/data/com.android.providers.telephony/databases/mmssms.db
+2014-10-10T08:28:32 <adriens33> fin
+2014-10-10T08:28:33 <adriens33> :3
+2014-10-10T08:29:14 <adriens33> (bon faut être root je pense, vu que j'ai pas réussi à pull le fichier depuis adb et je le récup à la main avec es explorer sur mon tel qui est rooté)
+2014-10-10T09:05:09 *** heuzef s'est connecté
+2014-10-10T09:45:34 *** Silou s'est connecté
+2014-10-10T09:50:55 *** Letarumavza est parti
+2014-10-10T10:00:42 *** Silou est parti
+2014-10-10T11:08:44 *** MaCharon s'est connecté
+2014-10-10T11:08:51 <MaCharon> salut
+2014-10-10T11:09:14 <adriens33> hello
+2014-10-10T11:12:25 *** heuzef est parti
+2014-10-10T11:12:40 *** heuzef s'est connecté
+2014-10-10T11:53:25 *** heuzef est parti
+2014-10-10T13:05:08 *** TrappyTickles s'est connecté
+2014-10-10T14:04:21 *** heuzef s'est connecté
+2014-10-10T14:16:48 *** Silou s'est connecté
+2014-10-10T15:16:31 *** TrappyTickles est parti
+2014-10-10T15:19:51 *** TrappyTickles s'est connecté
+2014-10-10T15:51:31 <heuzef> adriens33 ?
+2014-10-10T15:55:18 <adriens33> salut
+2014-10-10T15:55:22 <adriens33> quoi qui n'ya ?
+2014-10-10T15:56:50 *** Gordfang s'est connecté
+2014-10-10T15:59:04 <adriens33> oulà tant de monde connecté depuis ce matin ^^'
+2014-10-10T15:59:09 <adriens33> bonjour tout les gens
+2014-10-10T15:59:21 <Silou> plop
+2014-10-10T16:07:34 <Gordfang> lut
+2014-10-10T16:10:26 <heuzef> Dis moi
+2014-10-10T16:10:38 <heuzef> Comment je peut merge le commit de Gordfang  ici ?
+2014-10-10T16:10:48 <heuzef> https://github.com/bronycub/v2/network
+2014-10-10T16:11:01 <Gordfang> tu accepte juste le pull request non?
+2014-10-10T16:11:12 <adriens33> github te le dit il me semble
+2014-10-10T16:11:12 <heuzef> comment ?
+2014-10-10T16:11:25 <heuzef> Ou ?
+2014-10-10T16:11:33 <heuzef> ha !
+2014-10-10T16:11:34 <heuzef> trouvé
+2014-10-10T16:11:45 <heuzef> boom
+2014-10-10T16:11:52 <Gordfang> XD
+2014-10-10T16:11:53 <adriens33> ^^
+2014-10-10T16:12:02 <adriens33> le temps que je retourne sur l'accueil du projet :p
+2014-10-10T16:12:32 <heuzef> Ha dommage Gordfang
+2014-10-10T16:12:38 <heuzef> Presque parfait ton inscription
+2014-10-10T16:12:42 <heuzef> à un poile de cul prêt
+2014-10-10T16:12:47 <Gordfang> ?
+2014-10-10T16:12:49 <adriens33> *poil
+2014-10-10T16:12:54 <adriens33> *près
+2014-10-10T16:12:59 <Gordfang> poele*
+2014-10-10T16:13:15 <heuzef> pouelle
+2014-10-10T16:13:16 <adriens33> si t'as un poële sous le cul, ça va chauffer pour tes fesses…
+2014-10-10T16:13:17 <adriens33> ^^
+2014-10-10T16:13:49 <heuzef> Un poële sous le cul, plus de poils au cul !
+2014-10-10T16:14:02 <adriens33> car plus de cul tout court.
+2014-10-10T16:14:10 <adriens33> (enfin si, mais brulé au 28e degré)
+2014-10-10T16:18:38 <heuzef> Gordfang:
+2014-10-10T16:18:39 <heuzef> https://github.com/bronycub/v2/commit/fcf006571667e2b11291dd95e45d7f2d48219632#diff-f1b8ecb6d1bd6a88e78ee4c8a0ded621R12
+2014-10-10T16:18:45 <heuzef> Voici les modifs
+2014-10-10T16:19:06 <heuzef> Quelques modification de mise en forme, mais le plus important étant à la ligne 12
+2014-10-10T16:19:14 <heuzef> +$pony="<img
+2014-10-10T16:19:32 <heuzef> Le fait d'oublier le < casse toute la structure
+2014-10-10T16:19:35 <heuzef> vu ?
+2014-10-10T16:19:50 <Gordfang> ah ouai
+2014-10-10T16:19:58 <Gordfang> erreur de copier coller
+2014-10-10T16:20:12 <heuzef> Dommage j'y ai cru
+2014-10-10T16:39:57 *** heuzef est parti
+2014-10-10T16:40:16 *** heuzef s'est connecté
+2014-10-10T16:44:57 *** heuzef1 s'est connecté
+2014-10-10T16:46:43 *** heuzef est parti
+2014-10-10T17:09:23 *** heuzef s'est connecté
+2014-10-10T17:11:02 *** heuzef1 est parti
+2014-10-10T17:24:41 *** Lenile s'est connecté
+2014-10-10T17:24:49 <Lenile> Yop'
+2014-10-10T17:25:15 <Lenile> Bah en fait j'me casse o/
+2014-10-10T17:25:16 <Lenile> Ciao o/
+2014-10-10T17:25:20 *** Lenile est parti
+2014-10-10T17:26:51 <adriens33> bonjour lenile
+2014-10-10T17:26:55 <adriens33> au revoir lenile
+2014-10-10T17:57:22 *** Gordfang est parti
+2014-10-10T17:58:27 *** Gordfang s'est connecté
+2014-10-10T18:23:42 <heuzef> Hi
+2014-10-10T18:29:23 *** heuzef est parti
+2014-10-10T18:37:10 *** Letarumavza s'est connecté
+2014-10-10T18:37:38 <Letarumavza> Salut ^^
+2014-10-10T18:37:56 <adriens33> tiens, un fantome !
+2014-10-10T18:37:57 <adriens33> salut
+2014-10-10T18:38:02 <adriens33> alors ? :p
+2014-10-10T18:38:18 <Letarumavza> Quoi ?
+2014-10-10T18:38:49 <adriens33> boaf, rien, laisse.
+2014-10-10T18:41:51 *** Bybeez s'est connecté
+2014-10-10T18:42:04 <Bybeez> Asdf movie 8 est sortie !
+2014-10-10T18:42:24 <adriens33> ouais :p
+2014-10-10T18:42:27 <adriens33> salut Bybeez
+2014-10-10T18:42:32 <adriens33> bien, mais un peu court
+2014-10-10T18:42:34 <adriens33> mais bin
+2014-10-10T18:42:37 <adriens33> *bien
+2014-10-10T18:42:43 <Bybeez> Ouaip c'est vrai !
+2014-10-10T18:52:12 *** MaCharon est parti
+2014-10-10T19:12:03 *** Silou est parti
+2014-10-10T20:00:42 *** TenoriCat s'est connecté
+2014-10-10T20:01:42 *** TenoriCat est parti
+2014-10-10T20:30:32 *** TenoriCat s'est connecté
+2014-10-10T20:30:41 *** TenoriCat est parti
+2014-10-10T20:58:23 *** Yvan33 s'est connecté
+2014-10-10T20:58:49 <Yvan33> Coucou?
+2014-10-10T20:59:24 <adriens33> soir
+2014-10-10T20:59:46 <Yvan33> Tranquile la vieN
+2014-10-10T20:59:48 <Yvan33> ?
+2014-10-10T21:00:22 <Yvan33> Ah merde je vais manger ^^"
+2014-10-10T21:00:22 <Berry-Punch> Bon appétit, *hic* Yvan33 :D
+2014-10-10T21:00:29 <Yvan33> Merci ;)
+2014-10-10T21:00:31 *** Yvan33 est parti
+2014-10-10T21:02:31 *** Lenile s'est connecté
+2014-10-10T21:02:49 <Lenile> Yop"
+2014-10-10T21:03:43 <Lenile> Tin j'doit avoué que la soundrack de l'écran d'accueil de
+2014-10-10T21:03:49 <Lenile> Lol est exquise ~
+2014-10-10T21:07:10 *** Lenile est parti
+2014-10-10T21:40:06 *** Tsumenokage s'est connecté
+2014-10-10T21:40:17 <Tsumenokage> Salut
+2014-10-10T21:54:19 *** Trappy_Tickles s'est connecté
+2014-10-10T21:55:55 *** Bybeez est parti
+2014-10-10T21:57:49 *** TrappyTickles est parti
+2014-10-10T22:00:25 *** bite s'est connecté
+2014-10-10T22:01:15 <bite> salut
+2014-10-10T22:04:25 <adriens33> bonsoir
+2014-10-10T22:04:30 <adriens33> qui est tu, petit malin ?
+2014-10-10T22:04:34 <Tsumenokage> bonsoir
+2014-10-10T22:04:39 <adriens33> (salut Tsumenokage )
+2014-10-10T22:04:44 <adriens33> (désolé, j'étais occupé)
+2014-10-10T22:04:54 <Tsumenokage> (salut adriens33)
+2014-10-10T22:05:01 <Tsumenokage> (tkt pas de souci :) )
+2014-10-10T22:05:18 <adriens33> hey ! Letarumavza ! y'a une bite dans le chat !
+2014-10-10T22:05:27 <Tsumenokage> XD
+2014-10-10T22:05:28 <adriens33> help !
+2014-10-10T22:07:18 *** flutterbrony s'est connecté
+2014-10-10T22:07:19 <flutterbrony> plop
+2014-10-10T22:07:23 <bite> J'ai trouvé votre truc sur /cartable/
+2014-10-10T22:08:14 <Tsumenokage> plop flutterbrony
+2014-10-10T22:09:55 <flutterbrony> J'ai enfin terminé de réglé tous mes problèmes sous windows 10 Beta ^^
+2014-10-10T22:10:37 <flutterbrony> J'ai juste la langue qui est encore en Anglais parce que Microsoft s'est toujours pas décidé a le traduire ...
+2014-10-10T22:10:42 <bite> ça ressemble à quoi le futur ?
+2014-10-10T22:11:01 <flutterbrony> ah les accents passent pas
+2014-10-10T22:11:28 <Tsumenokage> ah mince, je pense que ca vient de moi
+2014-10-10T22:11:41 <bite> sans doute, il a été prouvé que ça marche
+2014-10-10T22:11:55 <flutterbrony> Ouais, tes accents passent pas mais ceux de bite passent
+2014-10-10T22:12:14 <flutterbrony> D'ailleurs, c'est quoi ce pseudo ? C'est qui derrière ?
+2014-10-10T22:12:22 <bite> Anon
+2014-10-10T22:12:40 <bite> j'ai trouvé ce site sur /cartable/, mais je ne suis pas du tout bordelais
+2014-10-10T22:12:47 <Tsumenokage> Jeremy un nouveau membre depuis cette semaine pour moi
+2014-10-10T22:13:58 <TrappyTickles> c'est quoi ça /cartable/? c'est quel chan?
+2014-10-10T22:13:58 <flutterbrony> Bon et pour répondre a la précédente question, Un mélange de Windows 8 et seven
+2014-10-10T22:14:10 <bite> raté
+2014-10-10T22:14:37 <flutterbrony> Je vais tester les performances en jeux quand Steam auras fini de téléchargé ma bibliothèque de jeu
+2014-10-10T22:14:43 <Tsumenokage> flutterbrony : ah ca a l'air simpa
+2014-10-10T22:14:55 <bite> ça ressemble à quoi Windows 10 ?
+2014-10-10T22:15:02 <Tsumenokage> bite : si mais faut relancer le PC et j'ai la flemme :)
+2014-10-10T22:15:04 <flutterbrony> Surtout un gros points : retour du menu démmarré !!!
+2014-10-10T22:15:12 <Tsumenokage> eninf !!
+2014-10-10T22:15:12 <bite> j'ai envie de retourner sur Linux prochainement, mais j'ai un peu la flemme
+2014-10-10T22:15:16 <Tsumenokage> enfin*
+2014-10-10T22:15:34 <flutterbrony> e peux pas prendre de capture d'écran, ca marche pas :/
+2014-10-10T22:16:03 <Tsumenokage> ah mince, meme en passant pas un programme (genre puush) ?
+2014-10-10T22:16:14 <Tsumenokage> par*
+2014-10-10T22:16:18 <bite> Microsoft ont plus d'inspiration pour les noms de leur OS
+2014-10-10T22:16:23 <flutterbrony> je vais tester
+2014-10-10T22:16:33 <flutterbrony> ils ont sauté le 9 !
+2014-10-10T22:17:14 <Tsumenokage> y'a eu tellement d'histoire sur  pourquoi ils ont pas fait le 9 qu'on sait pas laquelle est vrai
+2014-10-10T22:17:15 <flutterbrony> http://hpics.li/8c44e65
+2014-10-10T22:17:54 <Tsumenokage> ah oui simpa
+2014-10-10T22:18:18 <flutterbrony> ont voit beaucoup le chat ^^
+2014-10-10T22:18:21 <bite> rien de ressemble plus à windows qu'un autre windows
+2014-10-10T22:18:25 <bite> *ne
+2014-10-10T22:18:29 <Tsumenokage> par contre y'a toujours IE d'installer de base je vois *troll*
+2014-10-10T22:18:41 <flutterbrony> J'ai pas encore testé celui-là
+2014-10-10T22:18:47 <flutterbrony> j'y vais de ce pas
+2014-10-10T22:18:58 <bite> il parrais que les derniers IE sont cool
+2014-10-10T22:19:37 <flutterbrony> bah ils s'améliorent, ils sont obligé
+2014-10-10T22:19:53 <flutterbrony> premier bug
+2014-10-10T22:20:03 <Tsumenokage> ah, quoi comme bug ?
+2014-10-10T22:20:29 <bite> http://toastytech.com/evil/
+2014-10-10T22:20:33 <flutterbrony> tu vas voir
+2014-10-10T22:20:39 <flutterbrony> http://hpics.li/7e87d37
+2014-10-10T22:20:57 <flutterbrony> a cause de puush
+2014-10-10T22:21:18 <flutterbrony> C'est sale ce que j'ai entendu a la TV qui est a coté de moi
+2014-10-10T22:21:37 <Tsumenokage> ah ^^, dommage pour puush
+2014-10-10T22:21:45 <Tsumenokage> qu'a tu entendu ?
+2014-10-10T22:21:46 <flutterbrony> une dame dans une réunion ou personne ne l'écoute lance : "vous voulez voir ma chatte ?"
+2014-10-10T22:21:48 <bite> c'est encore une version de développement, non ?
+2014-10-10T22:22:00 <flutterbrony> tout le monde se tait et la regarde ...
+2014-10-10T22:22:04 <bite> Pourquoi tu regarde un documentaire animalier
+2014-10-10T22:22:06 <Tsumenokage> flutterbrony : Oo
+2014-10-10T22:22:24 <TrappyTickles> flutterbrony, cette pub a traumatisé jade aussi lol
+2014-10-10T22:22:32 <TrappyTickles> et c'est une pub sexiste a mort
+2014-10-10T22:22:38 <flutterbrony> J'ai vu un sous-entendu tellement énorme là que je sais même plus ce qu'étais cette pub ^^
+2014-10-10T22:22:50 <bite> ça vas enflamer Tumblr à coup sûr
+2014-10-10T22:23:52 <TrappyTickles> faudrait que jade le publie sur le sien, ça lui fera des vues lol
+2014-10-10T22:24:16 <flutterbrony> je reteste
+2014-10-10T22:24:25 <Berry-Punch> Flags de TrappyTickles *hic* modifiés : +v
+2014-10-10T22:24:25 <adriens33> !voice TrappyTickles
+2014-10-10T22:24:33 <TrappyTickles> mci
+2014-10-10T22:26:12 <flutterbrony> Par contre, dans les paramètres, j'ai vu d'activé des options qui ne me plaisent pas trop
+2014-10-10T22:27:01 <flutterbrony> qui dans les descriptions, donnent le droit a Micro$oft de récolter tes photos, ta localisation, MDP, historique web etc...
+2014-10-10T22:27:17 <flutterbrony> encore plus fliqué qu'avant
+2014-10-10T22:27:29 <Tsumenokage> Big brother is watching you !!
+2014-10-10T22:27:29 <Tsumenokage> :)
+2014-10-10T22:27:54 <bite> hahaha
+2014-10-10T22:28:28 <bite> vous vous rappellez de l'époque où un ordinateur ou un téléphone pouvais fonctionner sans internet ?
+2014-10-10T22:28:30 <flutterbrony> on est obligé de faire un compte pour puush ou pas ?
+2014-10-10T22:28:39 <bite> ouais, c'est naze
+2014-10-10T22:28:44 <flutterbrony> J'ai réussi a le lancer
+2014-10-10T22:30:00 <bite> http://i.imgur.com/NZVVPeE.png
+2014-10-10T22:30:35 <Tsumenokage> XD
+2014-10-10T22:31:57 <flutterbrony> xp
+2014-10-10T22:32:05 <flutterbrony> et il les sauvegarde ou les captures ?
+2014-10-10T22:32:47 <Tsumenokage> il les met en ligne directement et te passe le lien
+2014-10-10T22:33:15 <flutterbrony> http://puu.sh/c7cVM/2c75369d51.png
+2014-10-10T22:33:21 <bite> avant, j'utilisais Hyperdesktop, qui utilise Imgur
+2014-10-10T22:33:40 <bite> mais mon connard d'antivirus l'a viré sans raison récament
+2014-10-10T22:33:47 <bite> et le logiciel est plus en développement
+2014-10-10T22:33:52 <flutterbrony> captures pas super bien centré alors que j'ai fait tous l'écran normalement
+2014-10-10T22:34:43 <flutterbrony> http://puu.sh/c7dbu/c1d50ac56c.png
+2014-10-10T22:35:36 <flutterbrony> http://puu.sh/c7dgh/be2a8ba227.png je fais avec tant pis
+2014-10-10T22:36:12 <flutterbrony> http://puu.sh/c7dkp/cdabb4485c.jpg
+2014-10-10T22:36:13 <Tsumenokage> l'interface est pas degueulasse
+2014-10-10T22:36:35 <flutterbrony> Plusieurs bureau, comme sur linux ou mac os (ENFIN !!!)
+2014-10-10T22:36:41 <bite> cool
+2014-10-10T22:36:52 <Tsumenokage> ouais ca c'est l'ajout qui me tente le plus
+2014-10-10T22:36:57 <bite> enfin, j'espère que c'est mieux foutus que sur OSX
+2014-10-10T22:37:18 *** flutterbronyonIE s'est connecté
+2014-10-10T22:37:30 <flutterbrony> oui, je trouve que c'est mieux
+2014-10-10T22:37:39 *** albano s'est connecté
+2014-10-10T22:37:40 <flutterbronyonIE> un troll sur IE est entré
+2014-10-10T22:37:45 <Tsumenokage> ^^
+2014-10-10T22:38:00 <flutterbronyonIE> 1er impression, IE de Windows 10 super lent comme d'hab
+2014-10-10T22:38:11 <flutterbronyonIE> mais j'ai l'impression qu'il l'est encore plus
+2014-10-10T22:38:27 <Tsumenokage> microsoft a pas change les bonnes habitudes de son navigateur alors X)
+2014-10-10T22:38:43 <bite> essaie d'aller sur des sites biens lourdinques, genre Facebook ou Youtube
+2014-10-10T22:38:57 <flutterbronyonIE> IE11
+2014-10-10T22:39:06 <flutterbronyonIE> C'est lequel sur Windows 8 ?
+2014-10-10T22:39:15 <Tsumenokage> eeuh
+2014-10-10T22:39:20 <Tsumenokage> je tchek
+2014-10-10T22:39:24 <flutterbronyonIE> Il m'as l'air aussi nul
+2014-10-10T22:39:25 <bite> IE avec l'interface Canc... Metro
+2014-10-10T22:39:34 <flutterbronyonIE> avec rien de changé
+2014-10-10T22:40:30 <Tsumenokage> version 11 aussi sous windows 8 (enfin sur mon PC en tout cas)
+2014-10-10T22:41:08 <flutterbronyonIE> OK, donc c'est le même pour le moment
+2014-10-10T22:41:59 <flutterbrony> bon, 5 min et je teste portal 1 en maximum (il n'as pas fait celui que je voulais en premiers, tant pis)
+2014-10-10T22:42:47 <flutterbronyonIE> Je vais tenter de faire buger IE sur Facebook ...
+2014-10-10T22:42:54 <flutterbronyonIE> Ca doit pas être trop difficile
+2014-10-10T22:43:09 <Tsumenokage> ^^ pas trop dure en effet je pense
+2014-10-10T22:43:17 <Tsumenokage> sinon test un MMO sous navigateur
+2014-10-10T22:43:32 <flutterbronyonIE> commence déjà a ramer
+2014-10-10T22:43:33 <bite> https://8chan.co/shrek/
+2014-10-10T22:44:32 <flutterbronyonIE> Il n'as pas planté mis a part que la barre de recherche Facebook prenais 1/2 de l'écran ...
+2014-10-10T22:45:15 <Tsumenokage> ouais, IE11 a encore des probleme de compatibilite avec le CSS alors
+2014-10-10T22:45:54 *** flutterbronyonIE est parti
+2014-10-10T22:46:14 <flutterbrony> Super le login sur radiobrony aussi
+2014-10-10T22:46:25 <flutterbrony> il me demande après de  ...
+2014-10-10T22:46:29 <flutterbrony> Me connecter !
+2014-10-10T23:05:09 *** albano est parti
+2014-10-10T23:18:51 *** ludvann s'est connecté
+2014-10-10T23:19:04 <ludvann> hellow les ponies :D
+2014-10-10T23:19:12 <Tsumenokage> salut
+2014-10-10T23:19:20 <ludvann> ça va ?
+2014-10-10T23:19:26 <bite> salut bro
+2014-10-10T23:19:38 <ludvann> serais-tu nouveau tsumeno ?
+2014-10-10T23:19:39 <Tsumenokage> yep et toi ?
+2014-10-10T23:19:41 <Tsumenokage> oui
+2014-10-10T23:19:43 <ludvann> ^^
+2014-10-10T23:19:53 <ludvann> ça va ma bite ?
+2014-10-10T23:20:02 <ludvann> bien bien :D
+2014-10-10T23:20:41 <Berry-Punch> Have you niorphed today, *hic* Tsumenokage ?
+2014-10-10T23:20:41 <ludvann> !niorph Tsumenokage
+2014-10-10T23:20:46 <ludvann> yay :D
+2014-10-10T23:21:11 <Tsumenokage> Wut ? niorphed ?
+2014-10-10T23:21:20 <ludvann> préterit de niorph
+2014-10-10T23:21:44 <ludvann> (faut pas chercher plus loin xD)
+2014-10-10T23:21:57 <ludvann> (c'est un mot que j'ai inventé)
+2014-10-10T23:22:03 <Tsumenokage> ah ok ^
+2014-10-10T23:22:09 <Tsumenokage> et cela signifie ?
+2014-10-10T23:22:13 <ludvann> euh...
+2014-10-10T23:22:18 <ludvann> tout ? ^^
+2014-10-10T23:22:21 <Tsumenokage> XD
+2014-10-10T23:22:47 <ludvann> tu t'es déjà présenté tsumeno ?
+2014-10-10T23:22:51 <ludvann> :-)
+2014-10-10T23:23:33 <Tsumenokage> oui, normalemnt j'ai etait rajoute sur la page membres du site aussi :-)
+2014-10-10T23:24:23 <ludvann> ohhh
+2014-10-10T23:24:30 <ludvann> je vais voir ça ^^
+2014-10-10T23:25:42 <ludvann> hum je vois...
+2014-10-10T23:25:48 <ludvann> sujet à traiter
+2014-10-10T23:25:53 <ludvann> nan j'blague xD
+2014-10-10T23:26:01 <Tsumenokage> :)
+2014-10-10T23:26:39 <ludvann> tu joues à osu ? (et écoutes-tu les vocaloid ?)
+2014-10-10T23:27:29 <Tsumenokage> oui pour osu (mais je suis vraiment mauvais) et j'ecoute aussi les vocaloid de temps en temps
+2014-10-10T23:27:38 <ludvann> oky :-D
+2014-10-10T23:27:50 <ludvann> tu veux jouer contre moi ? (please :D
+2014-10-10T23:27:52 <ludvann> )
+2014-10-10T23:28:01 <ludvann> je m'y suis mis mercredi)
+2014-10-10T23:28:06 <ludvann> ^^
+2014-10-10T23:28:24 <ludvann> (et je fais de B-A en easy ^^)
+2014-10-10T23:28:50 <Tsumenokage> pk pas ^^
+2014-10-10T23:28:52 <Tsumenokage> je le lance
+2014-10-10T23:28:54 <ludvann> oky :D
+2014-10-10T23:29:03 <ludvann> même pseudo ?
+2014-10-10T23:29:07 <Tsumenokage> yep
+2014-10-10T23:30:33 <ludvann> ouah t'es un vieux x)
+2014-10-10T23:31:01 <Tsumenokage> oui mais je joue quasiment jamais
+2014-10-10T23:31:11 <Tsumenokage> d'ailleur faut que je fasse les maj
+2014-10-10T23:32:07 <ludvann> ^^
+2014-10-10T23:32:52 <ludvann> en tout cas tu es pas co là ^^
+2014-10-10T23:33:12 <ludvann> tu as des préférences pour les musiques ?
+2014-10-10T23:33:12 <Tsumenokage> yep le jeu continue de ce mettre a jour (90%)
+2014-10-10T23:33:25 <Tsumenokage> pas tellement
+2014-10-10T23:33:43 <ludvann> une vaca préférées ? ^^
+2014-10-10T23:34:06 <Tsumenokage> mmh non plus :) je les aimes bien toutes ^^
+2014-10-10T23:34:09 <ludvann> voca*
+2014-10-10T23:35:05 <Tsumenokage> ma connexion est vraiment mauvaise ce soir par contre -_- dsl si je te fais attendre
+2014-10-10T23:35:08 <ludvann> 'tain je bois trop d'eau xD
+2014-10-10T23:35:08 <Berry-Punch> Non, c'est *hic* même pas vrai d'abord !
+2014-10-10T23:35:38 <Tsumenokage> Berry qui pense qu'on parle d'alcool XD
+2014-10-10T23:35:38 <Berry-Punch> J'adore ça *hic* !
+2014-10-10T23:35:41 <ludvann>  épas grave :-)
+2014-10-10T23:35:49 <ludvann> x)
+2014-10-10T23:36:04 <ludvann> toujours ausii bien... programé ^^
+2014-10-10T23:36:16 <ludvann> (le programmeur de berry est co ^^')
+2014-10-10T23:36:32 <ludvann> préviens moi quand tu es co :)
+2014-10-10T23:36:44 <Tsumenokage> ok
+2014-10-10T23:36:51 <Tsumenokage> suis co normalement
+2014-10-10T23:37:25 <ludvann> je t'es invité ^^
+2014-10-10T23:37:47 <ludvann> par contre je pense parlé uniquement sur le chat intégré (plus simple)
+2014-10-10T23:37:54 <Tsumenokage> ok
+2014-10-10T23:38:23 <Tsumenokage> je vois pas ton invite par conte
+2014-10-10T23:38:25 <Tsumenokage> contre*
+2014-10-10T23:39:14 <ludvann> mot de passe: niorph
+2014-10-10T23:44:11 <ludvann> Tsumenokage tu recoits les messages ?
+2014-10-10T23:44:19 <ludvann> .-.
+2014-10-10T23:44:29 <Tsumenokage> je regardai le bon channel
+2014-10-10T23:44:30 <Tsumenokage> dsl
+2014-10-10T23:44:37 <Tsumenokage> j'etait sur le multiplayer
+2014-10-10T23:44:38 <ludvann> aoké xD
+2014-10-10T23:54:58 <flutterbrony> Euro Truck Simulator ne passe pas sur windows 10, GTA Sa non plus, demain je testerais Skyrim
+2014-10-10T23:55:10 <Tsumenokage> ah dommage
+2014-10-10T23:55:11 <flutterbrony> et je vais me coucher, bonne nuit
+2014-10-10T23:55:21 <Tsumenokage> bonne nuit
+2014-10-10T23:55:45 <flutterbrony> Among the sleep ramme enormément et notre tête reste sur place, pas sur le corp du personnage x)
+2014-10-10T23:55:58 <flutterbrony> Portal 1 passe bien
+2014-10-10T23:56:13 <flutterbrony> Allez, @+
+2014-10-10T23:56:19 *** flutterbrony est parti

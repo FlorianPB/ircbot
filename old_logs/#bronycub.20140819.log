@@ -1,0 +1,1038 @@
+2014-08-18T00:22:29 *** TrappyTickles est parti
+2014-08-18T00:27:12 *** ELiDYROS est parti
+2014-08-18T00:32:16 *** flutterbrony s'est connecté
+2014-08-18T00:33:35 *** flutterbrony est parti
+2014-08-18T00:34:01 *** ELiDYROS s'est connecté
+2014-08-18T00:34:02 *** flutterbrony s'est connecté
+2014-08-18T00:34:38 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, flutterbrony *hic* 
+2014-08-18T00:36:09 *** flutterbrony est parti
+2014-08-18T00:36:24 *** flutterbrony s'est connecté
+2014-08-18T00:37:04 *** ELiDYROS est parti
+2014-08-18T00:42:51 *** flutterbrony est parti
+2014-08-18T00:43:02 *** flutterbrony s'est connecté
+2014-08-18T01:00:58 *** flutterbrony est parti
+2014-08-18T01:25:25 *** ValCab33 est parti
+2014-08-18T07:05:12 *** Zecora_bot est parti
+2014-08-18T07:05:13 *** Letarumavza est parti
+2014-08-18T08:59:50 <Berry-Punch> Voilà *hic* ce qu'il s'est passé ces 10 dernières lignes, adriens33
+2014-08-18T08:59:52 *** adriens33 s'est connecté
+2014-08-18T09:05:43 *** BronyCUB-MC s'est connecté
+2014-08-18T09:29:11 *** heuzef s'est connecté
+2014-08-18T09:52:40 *** Zecora_bot s'est connecté
+2014-08-18T09:52:50 *** Letarumavza s'est connecté
+2014-08-18T09:53:01 <Letarumavza> $events
+2014-08-18T09:53:08 <Letarumavza> $event
+2014-08-18T09:54:56 *** Zecora_bot est parti
+2014-08-18T09:55:06 *** Zecora_bot s'est connecté
+2014-08-18T09:55:14 <Letarumavza> $event
+2014-08-18T09:55:22 <Letarumavza> $events
+2014-08-18T09:55:48 *** Zecora_bot est parti
+2014-08-18T09:55:57 *** Zecora_bot s'est connecté
+2014-08-18T09:56:19 <Letarumavza> $events
+2014-08-18T09:57:18 *** Zecora_bot est parti
+2014-08-18T09:57:27 *** Zecora_bot s'est connecté
+2014-08-18T09:57:31 <Letarumavza> Et la palme de la connerie de dev....
+2014-08-18T09:57:33 <Letarumavza> $events
+2014-08-18T09:57:56 <adriens33> hello all
+2014-08-18T09:58:01 <adriens33> t'as du mal ce matin toi
+2014-08-18T09:58:44 *** Zecora_bot est parti
+2014-08-18T09:58:52 *** Zecora_bot s'est connecté
+2014-08-18T09:59:20 <Letarumavza> $events
+2014-08-18T10:00:46 *** Zecora_bot est parti
+2014-08-18T10:00:58 *** Zecora_bot s'est connecté
+2014-08-18T10:01:06 <Letarumavza> $events
+2014-08-18T10:01:06 <Zecora_bot> Event test
+2014-08-18T10:01:11 <Letarumavza> Impec !
+2014-08-18T10:01:34 <Letarumavza> Bon, reste plus qu'à parser la page du site, et zecora pourra annoncer les events.
+2014-08-18T10:02:01 <Letarumavza> (une annonce du prochain event toutes les heures pourrait être pas mal non ?)
+2014-08-18T10:02:12 <adriens33> t'as un fichier pour l'agenda me semble.
+2014-08-18T10:04:09 <adriens33> je viens de regarder, t'as pas besoin de parser la page du site, il suffit de récupérer le fichier ics
+2014-08-18T10:04:14 <adriens33> (regarde dans agenda.php)
+2014-08-18T10:07:05 <Letarumavza> Faut quand-même parser le fichier
+2014-08-18T10:07:39 <adriens33> oui, mais c'est plus simple de parser un fichier contenant directement la liste des events plutôt qu'une page web non ?
+2014-08-18T10:08:15 <Letarumavza> ça revient au même au final, ça reste du str.find, disons que la page web est plus lente
+2014-08-18T10:14:49 <Letarumavza> Tain je dois avoir sévèrement la tête dans le cul, je pide même pas l'architecture de la page...
+2014-08-18T10:15:12 <Letarumavza> (Le mal de tronche doit pas aider)
+2014-08-18T10:16:56 <Letarumavza> En fait si, j'ai pigé le fonctionnement de la page
+2014-08-18T10:17:09 <Letarumavza> Sauf que je peux pas l'exploiter de manière éfficace.
+2014-08-18T10:19:26 <adriens33> ça ? https://www.google.com/calendar/ical/bronycub%40gmail.com/public/basic.ics
+2014-08-18T10:19:29 <Letarumavza> javascript c'est à chier sur les murs
+2014-08-18T10:20:31 <Letarumavza> Yep, le formatage du fichier sur les strings va être chiant à coder, va falloir def une fonction pour convertir les séquences d'échappement.
+2014-08-18T10:22:07 <Letarumavza> Sans compter que les events sont triés par date de création et que les anciens events ne sont pas purgés.
+2014-08-18T10:22:53 <adriens33> pourquoi ils ont pas fait ça en JSON, ç'aurait été plus pratique ^^
+2014-08-18T10:24:04 <Letarumavza> Donc il faut : Que je get le fichier, que je reformate, que je définisse l'event de plus proche de la date actuelle, et que je le print en convertissant les séquences d'échappement...
+2014-08-18T10:24:10 <Letarumavza> Bon, j'ai une idée
+2014-08-18T10:24:18 *** Zecora_bot est parti
+2014-08-18T10:25:18 *** Zecora_bot s'est connecté
+2014-08-18T10:25:22 <Letarumavza> $events
+2014-08-18T10:25:22 <Zecora_bot> http://bronycub.org/agenda.php
+2014-08-18T10:25:27 <Letarumavza> voila
+2014-08-18T10:25:32 <Letarumavza> Vais me faire un café
+2014-08-18T10:25:40 <adriens33> traduction: "démerde toi pour les events, moi j'ai la flemme ^^"
+2014-08-18T10:26:02 <Letarumavza> C'est du putain de feignasse code
+2014-08-18T10:26:24 <Letarumavza> Fonctionel et basé sur une string précodée
+2014-08-18T10:27:02 <Letarumavza> (en fait c'est surtout le temps de traitement du fichier qui me pose problème, je pourrais coder la fonction, mais le temps de latence serait trop haut pour mes standards)
+2014-08-18T10:27:56 <Letarumavza> C'est quand même un GET + Find + Lecture sur un fichier de 3ko
+2014-08-18T10:28:42 <Letarumavza> à moins que je préalloue la mémoire et les handle CPU au lancement de zeco
+2014-08-18T10:29:06 <Letarumavza> 3ko ça passe en un seul tour d'horloge cpu.
+2014-08-18T10:29:57 <Letarumavza> Donc j'alloue la mémoire de traitement avant de dl le fichier, il arrive direct dans le cache cpu => traitement => deletion après le print & libération de la mémoire.
+2014-08-18T10:30:25 <Letarumavza> (Et voila comment un simple bot en python va se retrouver compilé et édité en ASM si je me laisse faire...)
+2014-08-18T10:30:33 <adriens33> ^^
+2014-08-18T10:33:19 *** Zecora_bot est parti
+2014-08-18T10:33:29 *** Zecora_bot s'est connecté
+2014-08-18T10:33:37 *** Zecora_bot est parti
+2014-08-18T10:33:47 *** Zecora_bot s'est connecté
+2014-08-18T10:34:07 <Letarumavza> ?
+2014-08-18T10:34:30 <Letarumavza> Et voila !
+2014-08-18T10:34:36 <Letarumavza> Le log marche
+2014-08-18T10:34:42 <Letarumavza> $doom Berry-Punch
+2014-08-18T10:34:42 <Zecora_bot> You're doomed, berry-punch
+2014-08-18T10:40:01 <Berry-Punch> noooooooooooo *hic* noooooooooooo
+2014-08-18T10:40:13 <Letarumavza> ?
+2014-08-18T10:41:03 <adriens33> quoi "?"
+2014-08-18T10:41:11 <adriens33> c'est quoi qui te dérange ?
+2014-08-18T10:41:13 <adriens33> le bug ?
+2014-08-18T10:41:26 <adriens33> ou le "no" en lui même ?
+2014-08-18T10:42:09 <Letarumavza> le hic
+2014-08-18T10:42:14 <adriens33> en fait
+2014-08-18T10:42:16 <Letarumavza> y'a comme un hic
+2014-08-18T10:42:23 * Letarumavza put his glasses on*
+2014-08-18T10:42:29 <adriens33> ça place le hic à un espace entre deux mots
+2014-08-18T10:42:44 <adriens33> sauf que quand y'en a qu'un, ça répète le mot parce que la découpe est mal faite…
+2014-08-18T10:42:47 <adriens33> et que j'ai pas corrig&é
+2014-08-18T10:42:56 <adriens33> (par flemme notamment)
+2014-08-18T11:38:27 *** flutterbrony s'est connecté
+2014-08-18T11:39:28 *** flutterbrony est parti
+2014-08-18T11:39:38 *** flutterbrony s'est connecté
+2014-08-18T11:40:59 *** Lezarius est parti
+2014-08-18T11:47:07 *** flutterbrony est parti
+2014-08-18T11:47:43 *** flutterbrony s'est connecté
+2014-08-18T12:03:15 *** flutterbrony est parti
+2014-08-18T12:07:52 *** heuzef est parti
+2014-08-18T12:27:32 *** adriens33 est parti
+2014-08-18T12:28:57 *** ELiDYROS s'est connecté
+2014-08-18T12:29:11 <ELiDYROS> uuh y a personne :x
+2014-08-18T12:37:40 *** ValCab33 s'est connecté
+2014-08-18T12:37:54 <ValCab33> Hello
+2014-08-18T12:38:12 <ELiDYROS> Good day, sir.
+2014-08-18T12:38:18 <Letarumavza> tain j'ai la tronche comme un tamtam
+2014-08-18T12:38:32 <ELiDYROS> Encore ?
+2014-08-18T12:38:51 <Letarumavza> yep...
+2014-08-18T12:38:59 <Letarumavza> JE vais aller chez le toubib demain
+2014-08-18T12:39:36 <Letarumavza> 4 jours que je suis en vrac
+2014-08-18T12:39:57 <Letarumavza> et vous ça c'est bien passé le retour ?
+2014-08-18T12:40:34 <ELiDYROS> Nickel on m'a ramené en voiture du coup je me suis pas détruit les bras avec les valises
+2014-08-18T12:40:59 <Letarumavza> C'est mieux ^^
+2014-08-18T12:41:19 <ELiDYROS> Btw ton chien est fun
+2014-08-18T12:41:29 <Letarumavza> ?
+2014-08-18T12:41:43 <ELiDYROS> Je sais pas hier il voulait jouer avec moi il était trop marrant
+2014-08-18T12:53:20 *** ValCab33 est parti
+2014-08-18T13:01:38 *** wildfier s'est connecté
+2014-08-18T13:14:55 *** flutterbrony s'est connecté
+2014-08-18T13:24:28 *** flutterbrony est parti
+2014-08-18T13:30:35 *** flutterbrony s'est connecté
+2014-08-18T13:32:58 *** flutterbrony est parti
+2014-08-18T13:33:25 *** flutterbrony s'est connecté
+2014-08-18T13:46:22 *** flutterbrony est parti
+2014-08-18T13:46:48 *** flutterbrony s'est connecté
+2014-08-18T13:50:10 *** ELiDYROS est parti
+2014-08-18T14:02:42 *** flutterbrony est parti
+2014-08-18T14:14:42 *** MaCharon s'est connecté
+2014-08-18T14:14:46 <MaCharon> slt
+2014-08-18T14:15:43 *** Yvan33 s'est connecté
+2014-08-18T14:20:06 *** wildfier est parti
+2014-08-18T14:22:40 *** wildfier s'est connecté
+2014-08-18T14:23:40 *** wildfier est parti
+2014-08-18T14:33:33 *** ValCab33 s'est connecté
+2014-08-18T14:33:48 <ValCab33> Re
+2014-08-18T14:34:31 <Yvan33> yo
+2014-08-18T14:38:02 *** Yvan33 est parti
+2014-08-18T15:01:36 *** ludvann s'est connecté
+2014-08-18T15:01:40 <ludvann> plop !
+2014-08-18T15:02:02 <ludvann> hellow zecora, Letarumavza, MaCharon et ValCab33 :D
+2014-08-18T15:02:20 <ValCab33> Hai
+2014-08-18T15:02:35 <ludvann> ça va ?
+2014-08-18T15:04:54 *** wildfier s'est connecté
+2014-08-18T15:05:34 <ludvann> hello wildfier
+2014-08-18T15:05:43 <wildfier> yop
+2014-08-18T15:06:04 <ludvann> petite question
+2014-08-18T15:06:21 <ludvann> est-ce que fedora est bien ou tu me conseil une autre distrib ?
+2014-08-18T15:07:42 <ludvann> wildfier ?
+2014-08-18T15:15:38 *** ELiDYROS s'est connecté
+2014-08-18T15:18:49 <ludvann> hellow
+2014-08-18T15:25:31 *** ELiDYROS est parti
+2014-08-18T15:48:49 <wildfier> pardon j'étais afk
+2014-08-18T15:49:08 <wildfier> heu je connais pas grand chose d'autre que Arch ^^
+2014-08-18T15:49:09 <wildfier> dsl
+2014-08-18T15:49:33 <wildfier> mais tu peux essayer
+2014-08-18T15:49:49 <wildfier> de ce que j'ai vu ça a pas l'air mal
+2014-08-18T15:49:56 <ludvann> essayer quoi ?
+2014-08-18T15:50:11 <ludvann> (je vois un blanc ^^' )
+2014-08-18T15:50:18 <wildfier> bas tu me demandais pour fedora ...
+2014-08-18T15:50:27 <ludvann> ah ok :)
+2014-08-18T15:50:39 <ludvann> merci :)
+2014-08-18T15:51:18 <ludvann> bon je suis indispo, je vais record :D
+2014-08-18T16:06:01 *** Gordfang s'est connecté
+2014-08-18T16:11:51 <Gordfang> lut
+2014-08-18T16:14:27 <ludvann|indispo> ‎ludvann
+2014-08-18T16:14:35 <ludvann> *
+2014-08-18T16:14:40 <ludvann> hellow :D
+2014-08-18T16:15:17 <Gordfang> re
+2014-08-18T16:17:42 *** heuzef s'est connecté
+2014-08-18T16:18:17 <Gordfang> lu
+2014-08-18T16:18:26 <Gordfang> heuzef pense a mettre les nouveaux ticke
+2014-08-18T16:19:04 *** heuzef est parti
+2014-08-18T16:19:11 <Gordfang> lol
+2014-08-18T16:19:17 <ludvann> il t'aime pas ^^
+2014-08-18T16:19:58 *** heuzef s'est connecté
+2014-08-18T16:22:02 <Gordfang> on dirai
+2014-08-18T16:22:09 <Gordfang> heuzef arrete de fuir!
+2014-08-18T16:22:17 <heuzef> Yo
+2014-08-18T16:22:40 <Gordfang> "pense a mettre les nouveaux ticket"
+2014-08-18T16:22:44 <heuzef> Bien reçu Gordfang ;)
+2014-08-18T16:23:23 <Gordfang> ^^
+2014-08-18T16:23:43 <wildfier> yop Gordfang et heuzef
+2014-08-18T16:24:09 <Gordfang> yo wildfier
+2014-08-18T16:33:32 *** wildfier est parti
+2014-08-18T16:33:59 *** wildfier s'est connecté
+2014-08-18T16:34:30 *** heuzef est parti
+2014-08-18T16:35:29 *** heuzef s'est connecté
+2014-08-18T16:39:05 *** heuzef1 s'est connecté
+2014-08-18T16:41:59 *** heuzef est parti
+2014-08-18T17:05:50 *** Zecora_bot est parti
+2014-08-18T17:05:50 *** Letarumavza est parti
+2014-08-18T17:08:56 *** heuzef1 est parti
+2014-08-18T17:09:26 *** heuzef s'est connecté
+2014-08-18T17:10:06 <ludvann> est-ce que quelqu'un aurait des soundpack ? ou des librairires de son ?
+2014-08-18T17:10:16 <ludvann> librairies*
+2014-08-18T17:10:47 <wildfier> pour faire quoi ?
+2014-08-18T17:10:54 <ludvann> (son en tout genre & aussi samples (je prends tout :D))
+2014-08-18T17:11:07 <ludvann> pleins de chose et des musics
+2014-08-18T17:11:17 <ludvann> pas pour pirater quelque chose xD
+2014-08-18T17:12:12 <ludvann> pourquoi cette question wildfier ?
+2014-08-18T17:12:40 <wildfier> parce que tu doist pouvoir trouver des banques de son sur le ne
+2014-08-18T17:12:50 <wildfier> dois* net*
+2014-08-18T17:13:01 <wildfier> (foutu touch pad qui bouge la souris quand tu tappe ...)
+2014-08-18T17:13:47 <ludvann> ouais mais c'est galère, (je suis en train d'en choper un en torrent de 4.2Go)
+2014-08-18T17:14:16 <ludvann> merci quand même ^^
+2014-08-18T17:14:26 <wildfier> ^^
+2014-08-18T17:15:10 <ludvann> une réception de presqua 500ko/s
+2014-08-18T17:15:13 <ludvann> yay...
+2014-08-18T17:15:26 <ludvann> presque*
+2014-08-18T17:16:34 <ludvann> plus q'une heure et demie o/
+2014-08-18T17:17:34 <heuzef> Envoie le lien de ton torrent stp ludvann
+2014-08-18T17:17:44 <ludvann> why ?
+2014-08-18T17:18:46 <ludvann> ça me dérange pas mais pourquoi ? ^^
+2014-08-18T17:22:04 <ludvann> URI magnétique: magnet:?xt=urn:btih:f2576f27d6b5e92e8a0ca217b1037fd12c951dad&dn=OLPC+Sound+Samples+v2&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.ccc.de%3A80
+2014-08-18T17:23:15 <wildfier> http://www.numerama.com/magazine/30290-comment-chrome-envoie-tous-vos-mots-de-passe-a-google.html
+2014-08-18T17:23:41 <wildfier> j'aime quand les gens se disent que "mais non, ils font pas ça quand même"
+2014-08-18T17:23:45 <ludvann> j'ai firefox o/
+2014-08-18T17:23:57 <wildfier> une raison de plus de fuir le privatif
+2014-08-18T17:24:02 <ludvann> ^^
+2014-08-18T17:24:14 <wildfier> et puis j'aime pas chrome anyway
+2014-08-18T17:24:30 *** Yvan33 s'est connecté
+2014-08-18T17:26:46 <Yvan33> heuzef?
+2014-08-18T17:26:58 <ludvann> hello !
+2014-08-18T17:28:03 <Yvan33> Tiens salut, ça va?
+2014-08-18T17:28:15 <ludvann> ouep :)
+2014-08-18T17:28:18 <Yvan33> Réveillé a quelle heure finalement?
+2014-08-18T17:28:25 <ludvann> 09h
+2014-08-18T17:28:28 <wildfier> yop
+2014-08-18T17:28:40 <ludvann> et toi ?
+2014-08-18T17:28:47 <Yvan33> Ouah, moi 12
+2014-08-18T17:29:04 <ludvann> bah moi j'ai des parents donc bon...
+2014-08-18T17:29:09 <Yvan33> Je pensais que tu avais pas dormis
+2014-08-18T17:29:17 <ludvann> bah si ^^
+2014-08-18T17:29:23 <Yvan33> Ah mouais. Salut wild ;)
+2014-08-18T17:29:27 <ludvann> pourquoi j'aurais pas dormi ?
+2014-08-18T17:29:30 <Yvan33> Nan mais la veille
+2014-08-18T17:29:35 <ludvann> ?
+2014-08-18T17:30:26 <Yvan33> Non? Ok alors je confond
+2014-08-18T17:30:30 <Yvan33> My bad
+2014-08-18T17:30:50 <ludvann> pas grave :)
+2014-08-18T17:31:32 <ludvann> j'adore pas mon torrent...
+2014-08-18T17:32:03 <Yvan33> Hum, pourquoi?
+2014-08-18T17:32:05 <ludvann> il passe du 1mo/s à 400ko/s...
+2014-08-18T17:32:17 <ludvann> et il y a 4.2Go
+2014-08-18T17:32:40 <heuzef> Re
+2014-08-18T17:32:44 <ludvann> plop
+2014-08-18T17:32:44 <Yvan33> lol
+2014-08-18T17:32:47 <Yvan33> Re
+2014-08-18T17:32:51 <ludvann> :(
+2014-08-18T17:33:17 <Yvan33> Tu entends quoi par "avancer sur le sujet" heuzef?
+2014-08-18T17:34:03 <heuzef> Dison que en l'état
+2014-08-18T17:34:08 <heuzef> je ne le trouve pas encore présentable
+2014-08-18T17:34:36 <ludvann> de qui ?
+2014-08-18T17:34:56 <Yvan33> Ah. Mais c'est un jeu de role que tu créé ou un scénario?
+2014-08-18T17:35:03 <ludvann> aoké
+2014-08-18T17:35:15 <heuzef> Et un univers entier
+2014-08-18T17:35:20 <ludvann> je dirais les deux moi ^^
+2014-08-18T17:35:28 <heuzef> ludvann il parle bien de EcoMonde ;)
+2014-08-18T17:35:36 <ludvann> o/
+2014-08-18T17:36:09 <heuzef> J'aurais besoin d'un maximum d'aide concernant les stats classique
+2014-08-18T17:36:24 <Yvan33> Je comprends pas ce que tu essaie de faire
+2014-08-18T17:36:31 <heuzef> Inventer des classes avec des talents par exemple
+2014-08-18T17:36:31 <ludvann> +1
+2014-08-18T17:36:33 <Yvan33> univers + JDR
+2014-08-18T17:36:38 <Yvan33> ?
+2014-08-18T17:37:15 <heuzef> Yvan33: c'est pour ça que j'ai envie d'avoir suffisement avancer pour présenter un truc claire
+2014-08-18T17:37:40 <Yvan33> Ok je vois. Et tu as besoin d'aide?
+2014-08-18T17:38:38 <heuzef> Possible
+2014-08-18T17:38:52 <ludvann> (je copie colle un fichier de 37Go de mon HDD externe vers mon ordi xD )
+2014-08-18T17:39:09 <heuzef> Pour l'instant j'aimerais savoir comment créer un espace membre en PHP qui n’appuierais sur une BDD local géré par DokuWiki
+2014-08-18T17:39:11 <Yvan33> Et le temps est éstimé à?
+2014-08-18T17:39:42 <ludvann> Yvan33: avec 25Mo/s de transfert -> 23 minutes o/
+2014-08-18T17:40:11 <Yvan33> Ok, moi je suis pas encore a ce niveau de langage heuzef x)
+2014-08-18T17:40:28 <ludvann> par contre moi...
+2014-08-18T17:40:50 <Yvan33> ludvann Bah ça va c'est pas la mort, te plein pas ^^
+2014-08-18T17:40:59 <heuzef> Je te rassure je galère à trouver une solution de mon côté donc bon ^^
+2014-08-18T17:41:21 <heuzef> En faite le JDR sera accessible sur ecomonde.land
+2014-08-18T17:41:39 <heuzef> Et il s'appuie entièrement sur son wiki
+2014-08-18T17:41:40 <ludvann> je me plein pas, je suis content que ça aille vite ^^ après il y aura le montage vidéo à faire...
+2014-08-18T17:41:44 <heuzef> wiki.ecomonde.land
+2014-08-18T17:41:50 <heuzef> Mais pour l'instant
+2014-08-18T17:42:18 <heuzef> On doit se faire un compte sur le site ET sur le WIKI, ce qui est inutile je trouve
+2014-08-18T17:42:39 <heuzef> J'aimerais que le site s'appuie sur la BDD du wiki comme ça un seul compte pour les 2 ;)
+2014-08-18T17:43:55 <ludvann> j'ai rien compris mais +1
+2014-08-18T17:43:55 <Yvan33> Je vois, coté background tu as juste installé les fondements d'un univers
+2014-08-18T17:44:51 <heuzef> Ouais, mais j'ai remarqué que le côté "simple" est aussi terriblement efficace
+2014-08-18T17:45:15 <Yvan33> Tu voudrais un système simple donc
+2014-08-18T17:45:56 <heuzef> 1 partie a 6 joueurs (dont 2 newbies) = 6h de jeux
+2014-08-18T17:45:57 <heuzef> 1 partie a 3 joueurs expérimenté en mode rapide = 4h de jeux
+2014-08-18T17:46:08 <heuzef> Pour un scenario basique
+2014-08-18T17:46:31 <heuzef> Franchement le BG de l'univers doit être propre, mais surtout simple et efficace
+2014-08-18T17:46:38 <heuzef> Et ça marche super bien
+2014-08-18T17:46:45 <heuzef> Pour n'importe quel type de joueur
+2014-08-18T17:47:00 <Yvan33> Ah, un jeu qui se fini rapidement en fait
+2014-08-18T17:47:09 <ludvann> c'est pas moi le BG de ecomonde ?
+2014-08-18T17:47:25 <ludvann> (BG = ?)
+2014-08-18T17:48:18 <Yvan33> bg= beau gosse?
+2014-08-18T17:48:23 <ludvann> OH le con !
+2014-08-18T17:48:28 <heuzef> BG = Background = Fond
+2014-08-18T17:48:32 <ludvann> ok
+2014-08-18T17:48:52 <ludvann> j'ai failli me casser la gueule en m'étirant les bras en arrière xD
+2014-08-18T17:49:04 <Yvan33> Mince, presque
+2014-08-18T17:49:08 <heuzef> Yvan33 oui j'aimerais que les scénarios soit surtout de type one shoot usage unique
+2014-08-18T17:49:23 <ludvann> comme les condoms ?
+2014-08-18T17:49:33 * ludvann sort en courant
+2014-08-18T17:49:35 <Yvan33> Avec un système fluide. Je vois.
+2014-08-18T17:49:38 <heuzef> Les campagnes pourquoi pas mais c'est réservé au rôliste pur souche ça, qui peuvent ce voir réguliérement et sans fautes
+2014-08-18T17:50:11 <Yvan33> Moi j'ai créer une campagne sur D&D avec l'aide d'un ami.
+2014-08-18T17:50:45 <Yvan33> Et c'est impossible de réunir 5 joueur régulièrement quand vous êtes pas dans la même ville
+2014-08-18T17:51:49 <heuzef> Oui
+2014-08-18T17:51:55 <ludvann> Eeyup
+2014-08-18T17:52:14 <heuzef> Donc je tiens à ce que ce JDR soit surtout adapaté a des One Shoot
+2014-08-18T17:52:23 <ludvann> ...
+2014-08-18T17:52:35 * ludvann se retient de refaire une blague
+2014-08-18T17:52:39 <Yvan33> Si tu veux de l'aide dans les mécaniques de jeu, quand tu auras avancé assez dans ton truc je pourrais t'aider
+2014-08-18T17:54:04 <ludvann> phoque !
+2014-08-18T17:54:12 <ludvann> faux contact de m*rde...
+2014-08-18T17:54:25 <Yvan33> Geuh?
+2014-08-18T17:54:35 <heuzef> Yvan33 avec plaisir ;) Tu sais te servir d'un Wiki ?
+2014-08-18T17:55:13 <Yvan33> J'ai jamais cherché a apprendre, mais si tu me dis où trouver les bases je devrais m'adapter assez vite
+2014-08-18T17:56:07 <heuzef> Hyper simple
+2014-08-18T17:56:09 <heuzef> http://wiki.ecomonde.land/doku.php?id=syntax
+2014-08-18T17:56:10 <ludvann> (le HDD externe c'eqst déco en ayant à peine touché le fil...)
+2014-08-18T17:57:34 <Yvan33> D'accord, et donc tu voudrais que je fasse quoi avec ça?
+2014-08-18T17:58:59 <heuzef> Pour le moment c'est encore trop tôt pour le dire, il faut que je commence à mettre tous ce que j'ai déjà dans la tête sur ce Wiki pour y poser les bases
+2014-08-18T17:59:13 <heuzef> Ensuite il faudrat enrichir ça, alimenter, améliorer, optimiser
+2014-08-18T17:59:50 <ludvann> comme les rapports...
+2014-08-18T18:00:00 <ludvann> avec les chats/chiens...
+2014-08-18T18:00:11 <ludvann> tortue/poneys
+2014-08-18T18:00:40 <Yvan33> Je vois, bah j'ai déjà quelques idées pour un potentiel système de combat, si tu en met un, ou pour les tests de compétences.
+2014-08-18T18:02:15 <heuzef> Ouais mais pour ça il faudrait déjà que je te brief sur le JDR en lui même et son fonctionnement actuel
+2014-08-18T18:02:38 <heuzef> Le plus simple serait que j'organise une session de jeux
+2014-08-18T18:03:03 <Yvan33> Bah c'est quand tu le sens écoute
+2014-08-18T18:03:22 <Yvan33> Mais pour ça tu vas devoir organiser un évènement
+2014-08-18T18:03:31 <heuzef> Ba quand j'aurais enfin mis en ligne le jeux, au moins le minimum
+2014-08-18T18:03:53 <Yvan33> Bon, bah t'as déjà un joueur alors ^^
+2014-08-18T18:04:02 <heuzef> yep ^^
+2014-08-18T18:04:45 <heuzef> va falloir que je trouve quelqu'un pour m'aider concernant l'authentification
+2014-08-18T18:04:57 <heuzef> Sinon je vais pas y arriver tous seul
+2014-08-18T18:05:48 <ludvann> :/
+2014-08-18T18:06:31 <Yvan33> J'ai aucune base en programmation, pas que je veuille pas en faire mais j'ai pas eus l'occasion et l'envie
+2014-08-18T18:06:42 <Yvan33> En même temps
+2014-08-18T18:06:45 <ludvann> heuzef tu tournes sous fedora ?
+2014-08-18T18:06:49 <ludvann> ah :/
+2014-08-18T18:06:50 <heuzef> oui
+2014-08-18T18:06:55 <ludvann> ok thx
+2014-08-18T18:07:07 <Yvan33> Bon par contre je dois y aller, je vous dis à une prochaine fois
+2014-08-18T18:07:51 *** Yvan33 est parti
+2014-08-18T18:09:17 <ludvann> plus que 17Go !
+2014-08-18T18:09:21 <ludvann> yay !
+2014-08-18T18:12:34 <ludvann> mon HDD interne rame, il a trop d'info en même temps xD
+2014-08-18T18:16:34 <MaCharon> heuzef, faudra changer la banderole du site
+2014-08-18T18:16:48 <heuzef> Ha oui, je m'en occupe de suite sinon vais oublié
+2014-08-18T18:17:14 <ludvann> :D
+2014-08-18T18:17:26 <MaCharon> ^^
+2014-08-18T18:18:35 <ludvann> je rame :(
+2014-08-18T18:19:01 * ludvann lache la pagaie
+2014-08-18T18:20:24 <ludvann> plus que 3Go o/
+2014-08-18T18:21:07 <heuzef> MaCharon: voilou c'est fait ;) merci
+2014-08-18T18:23:54 <ludvann> one minute remaininig
+2014-08-18T18:24:49 <ludvann> FINISH !!!!!!!!!
+2014-08-18T18:24:53 <ludvann> hum...
+2014-08-18T18:25:16 <ludvann> sorry ^^'
+2014-08-18T18:26:06 <ludvann> maintenant la décompression...
+2014-08-18T18:34:47 <ludvann> "vous dormez ?
+2014-08-18T18:34:51 <ludvann> vous*
+2014-08-18T18:34:54 <wildfier> je bosse perso
+2014-08-18T18:34:57 <ludvann> ok
+2014-08-18T18:34:58 <ludvann> ^^
+2014-08-18T18:35:03 <wildfier> je regarde pas trop ^^
+2014-08-18T18:35:16 <ludvann> tu bosses dans quoi ?
+2014-08-18T18:35:29 <wildfier> ya quelques secondes mon stage
+2014-08-18T18:35:35 <wildfier> et maintenant un projet perso
+2014-08-18T18:36:32 <ludvann> ok
+2014-08-18T18:36:33 <wildfier> et je regarde bob en chier pour faire son battle lennon sur gundam
+2014-08-18T18:36:39 <ludvann> xD
+2014-08-18T18:36:40 <wildfier> sur twitch en même temps
+2014-08-18T18:36:46 <ludvann> x2
+2014-08-18T18:36:53 <heuzef> wildfier t'as 5 min ?
+2014-08-18T18:36:59 <ludvann> tu es dans une boite d'info
+2014-08-18T18:37:07 <ludvann> je te laisse wild ;)
+2014-08-18T18:37:15 <ludvann> heuz'
+2014-08-18T18:37:49 <wildfier> oui heuzef ?
+2014-08-18T18:38:27 <heuzef> J'aurais besoin d'un pti tuyau pour EcoMonde
+2014-08-18T18:38:38 <wildfier> sur du php ?
+2014-08-18T18:38:47 <heuzef> Je fait un espace membre en PHP oui
+2014-08-18T18:39:27 <heuzef> Mais en faite j'aimerais qu'il s'appuie sur une BDD existante d'un DokuWiki déjà en place
+2014-08-18T18:40:49 <heuzef> Les infos de connexions sont dans un fichier PHP sous cette forme
+2014-08-18T18:40:50 <heuzef> login:passwordhash:Real Name:email:groups,comma,seperated
+2014-08-18T18:41:03 <wildfier> heu, il te faut les accès à la bd et aller voir la doc php pour la bd
+2014-08-18T18:41:14 <heuzef> Y'a pas de BDD du coup
+2014-08-18T18:41:41 <wildfier> tu viens pas de dire qu'elle existait déjà la bd ?
+2014-08-18T18:41:57 <heuzef> oui mais dans un fichier PHP
+2014-08-18T18:42:05 <heuzef> C'est un DokuWiki
+2014-08-18T18:42:08 <wildfier> oui donc elle existe pas
+2014-08-18T18:42:11 <heuzef> https://github.com/splitbrain/dokuwiki/blob/master/conf/users.auth.php.dist
+2014-08-18T18:42:16 <wildfier> un fichier php c'est pas une bd XD
+2014-08-18T18:42:34 <heuzef> C'est tous comme ici
+2014-08-18T18:43:19 <heuzef> Mais je ne sais pas récupérer des infos stocké ici et je ne sais pas non pus comme on traitre une authentification d'un MDP salé
+2014-08-18T18:43:32 <heuzef> J'aurais besoin d'une piste
+2014-08-18T18:43:51 <wildfier> ouais, c'est pour ça que j'utilise des framework ^^
+2014-08-18T18:44:05 <heuzef> ;)
+2014-08-18T18:44:11 <wildfier> t'as fais quoi pour le moment
+2014-08-18T18:44:13 <wildfier> ?
+2014-08-18T18:44:21 <heuzef> Le view
+2014-08-18T18:44:36 <heuzef> Le wiki et sa "bdd" est en place
+2014-08-18T18:46:04 <wildfier> http://www.legorafi.fr/2014/08/18/facebook-va-tester-le-signalement-des-vrais-articles-de-presse-journalistique/?utm_source=rss&utm_medium=rss&utm_campaign=facebook-va-tester-le-signalement-des-vrais-articles-de-presse-journalistique
+2014-08-18T18:46:10 <wildfier> http://www.nextinpact.com/news/89291-facebook-vous-tient-par-main-et-teste-mention-pour-sites-satiriques.htm?utm_source=PCi_RSS_Feed&utm_medium=news&utm_campaign=pcinpact
+2014-08-18T18:46:38 <heuzef> j'imaginais pas ce type de piste
+2014-08-18T18:46:40 <wildfier> je trouvais très bon l'article du gorafi jusqu'à ce que je vois pourquoi il est sortit ...
+2014-08-18T18:46:56 <wildfier> maintenant  j'ai envie de facepalm ...
+2014-08-18T18:47:00 *** TrappyTickles s'est connecté
+2014-08-18T18:47:19 <wildfier> mais il a pas de bdd le docuwiki si ?
+2014-08-18T18:48:13 <heuzef> wildfier oui il à une bdd stocké dans un fichier php sous le format
+2014-08-18T18:48:14 <heuzef> login:passwordhash:Real Name:email:groups,comma,seperated
+2014-08-18T18:48:48 <wildfier> oui donc c'est pas une bdd c'est bien ce que je dis
+2014-08-18T18:48:57 <wildfier> c'est juste des infos dans un fichier php
+2014-08-18T18:49:25 <heuzef> oui
+2014-08-18T18:49:47 <wildfier> donc il te faut quoi, un moyen de lire ce fichier ?
+2014-08-18T18:50:08 <heuzef> Oui J'ai essayé de voir comment DokuWiki traite ce fichier mais bon la je suis largué
+2014-08-18T18:51:45 <heuzef> Et en plus même si j'arrive à récupérer les infos, je sais pas comment les traité, jusqu'à présent j'ai toujours fait ça avec des requetes SQL
+2014-08-18T18:52:05 <wildfier> bas la c'est sur que ça sera pas du sql sans bd ^^
+2014-08-18T18:53:46 <heuzef> Une idée ?
+2014-08-18T18:54:03 <wildfier> bas faut jeter un oeil à la doc php pour parser des fichiers
+2014-08-18T18:54:19 <wildfier> et les opérations possibles sur une string
+2014-08-18T18:55:02 <heuzef> Oui admettons ça je pense finir par trouver une solution, c'est surtout l'authentification qui m'embête
+2014-08-18T18:55:32 <heuzef> Je stock ça dans des variables et avec une grosse fonction PHP ça roule ?
+2014-08-18T18:56:03 *** Bybeez s'est connecté
+2014-08-18T18:56:13 <Bybeez> Salut les patates !
+2014-08-18T18:56:31 <wildfier> oui heuzef
+2014-08-18T18:56:40 <heuzef> Yo Bybeez , t'as la frite ? :P
+2014-08-18T18:56:48 <wildfier> badum-tss
+2014-08-18T18:56:51 <heuzef> wildfier: hmm ok 'est assez claire dans ma tête
+2014-08-18T18:56:59 <heuzef> Je pense pouvoir avancer maintenant
+2014-08-18T18:57:00 <Bybeez> Absolument !
+2014-08-18T18:57:28 <heuzef> erci =)
+2014-08-18T18:57:31 <heuzef> m*
+2014-08-18T18:57:48 <wildfier> dsl, j'ai presque pas fait de plain php donc je connais pas trop l'api. Par contre la doc est plutôt fournie.
+2014-08-18T19:00:08 <heuzef> ;)
+2014-08-18T19:01:19 <ludvann> salut Bybeez
+2014-08-18T19:07:31 *** ELiDYROS s'est connecté
+2014-08-18T19:07:35 <ELiDYROS> re
+2014-08-18T19:16:54 <wildfier> yop
+2014-08-18T19:17:26 <ludvann> hello
+2014-08-18T19:20:24 <TrappyTickles> oi les poneys
+2014-08-18T19:24:49 *** IckleDominia s'est connecté
+2014-08-18T19:25:11 <IckleDominia> Hello every pony !
+2014-08-18T19:25:20 <TrappyTickles> tiens bonjour ^^ qqn de nouveau ou que je connais pas encore?
+2014-08-18T19:26:12 <IckleDominia> Pas vraiment nouveau, je crois que j'avais un compte à mot de passe, mais comme un nigo j'ai du le perdre :') !
+2014-08-18T19:26:16 *** IckleDominia est parti
+2014-08-18T19:26:40 *** IckleDominia s'est connecté
+2014-08-18T19:26:45 <wildfier> Salut
+2014-08-18T19:26:51 <IckleDominia> Woops petit fail :3
+2014-08-18T19:26:53 <TrappyTickles> ah non ça me revient! jt'ai vu sur LoE!
+2014-08-18T19:26:59 <TrappyTickles> :D
+2014-08-18T19:27:14 <wildfier> ya des servs up en se moment de loe ?
+2014-08-18T19:27:15 <IckleDominia> Ah oui aussi :D !!
+2014-08-18T19:27:32 <IckleDominia> Bah tu m'as sur skype normalement :p !
+2014-08-18T19:27:38 <TrappyTickles> ouaip ^^
+2014-08-18T19:27:47 <TrappyTickles> là non, c'était le weekend d'avant
+2014-08-18T19:28:00 <TrappyTickles> le fameux brony de bordeaux que j'ai croisé par hasard :p
+2014-08-18T19:28:33 <IckleDominia> ^^, que de coïncidences !
+2014-08-18T19:29:51 <TrappyTickles> ^^
+2014-08-18T19:30:09 <TrappyTickles> d'aileurs à part gofish t'es le seul french que j'ai croisé :p
+2014-08-18T19:30:11 <ludvann> hellow IckleDominia
+2014-08-18T19:30:19 <TrappyTickles> mais gofish c'est normal c'est un admin technique :p
+2014-08-18T19:30:44 <IckleDominia> Hey ludvann ;)
+2014-08-18T19:31:07 <ludvann> j'ai le "tapis de souris" le plus classe au monde :D
+2014-08-18T19:31:43 <TrappyTickles> mmm moi aussi même s'il a vécu
+2014-08-18T19:32:04 <IckleDominia> Moi j'en ai pas, et je vais en acheter un quand j'achèterais une nouvelle souris :')
+2014-08-18T19:32:13 * TrappyTickles a un tapis de souris manga avec moka de Rosario+vampire et les boobs qui font coussins de repos pour le poignet :p
+2014-08-18T19:32:28 <wildfier> c'est classique ça ^^
+2014-08-18T19:32:55 <TrappyTickles> ui mais faudrait que jle change, il a vraiment vraiment vécu :p
+2014-08-18T19:33:01 <IckleDominia> J'ai une idée de tapis de souris, je préfère ne pas en parler =|
+2014-08-18T19:33:06 <TrappyTickles> avec les taches d'usure et tout :p
+2014-08-18T19:33:46 <TrappyTickles> les seins de moka sont tout noirs lol
+2014-08-18T19:34:29 <IckleDominia> Les reposes poignets, c'est pour les faibles ! xD
+2014-08-18T19:34:47 <ludvann> nope moi c'est ça :D http://imgur.com/VsEvBM6
+2014-08-18T19:34:55 <MaCharon> moi j'ai un touhou et c'est super confortable
+2014-08-18T19:34:57 <TrappyTickles> nope, c'est du confort :p je pourrais m'en passer s'il le fallait :p
+2014-08-18T19:35:17 <ludvann> best image ever
+2014-08-18T19:35:36 <TrappyTickles> je changerais bien pour une fluttershy anthro avec des gros nénés :p
+2014-08-18T19:35:43 <TrappyTickles> j'suis sur que ça peut s'arranger ça :p
+2014-08-18T19:35:55 <ludvann> xD
+2014-08-18T19:36:14 <ludvann> co;;e lq szeetie belle sur ton telephone M 5lq coaue-
+2014-08-18T19:36:15 <IckleDominia> Je me vois mal jouer à Cs:go avec un repose poignet x) [N'empêche les fanarts pony nue encore ok, mais les trucs de fesses faut que certains m'expliquent leurs délires :|
+2014-08-18T19:36:31 <ludvann> Grrrr
+2014-08-18T19:36:44 <ludvann> ouep
+2014-08-18T19:36:57 <TrappyTickles> :p
+2014-08-18T19:37:07 <TrappyTickles> mmm ptet si jle comissionne à l'artiste oui
+2014-08-18T19:37:15 <TrappyTickles> c'est Ambris son nom je crois
+2014-08-18T19:37:23 <ludvann> de qui ?
+2014-08-18T19:37:45 <TrappyTickles> celui qui a dessiné sweetie belle sur mon phone
+2014-08-18T19:38:29 <ludvann> ok :)
+2014-08-18T19:38:41 <ludvann> TrappyTickles en attendant la FS ;D bit.ly/1qkcZGH
+2014-08-18T19:39:03 <TrappyTickles> mmm j'aime bien. pouce vert :p
+2014-08-18T19:39:21 <TrappyTickles> sa fs est pas mal non plus ^^
+2014-08-18T19:39:39 <wildfier> pitié
+2014-08-18T19:39:43 <wildfier> pas des anthros ...
+2014-08-18T19:39:47 <TrappyTickles> ça pourrait mêem faire l'affaire pour le tapis :p http://d-xross.deviantart.com/art/MLP-Human-Flutter-Boobs-411438309
+2014-08-18T19:39:55 <ludvann> zut... bit.ly/1tfCzAL
+2014-08-18T19:40:00 <ludvann> pas assez vite
+2014-08-18T19:40:01 <TrappyTickles> c'est pas anthro c'est humanized :p
+2014-08-18T19:40:14 <ludvann> (perso je trouve ces images anthro pas belles...)
+2014-08-18T19:40:18 <wildfier> en tout cas c'est trop humain
+2014-08-18T19:40:21 <ludvann> ouep
+2014-08-18T19:40:26 <wildfier> et yep c'est moche
+2014-08-18T19:41:01 <TrappyTickles> bof, j'irai pas cracher sur les humanized, mais jpréfère les anthros ou les feral :p
+2014-08-18T19:41:06 <IckleDominia> .___. Si seulement j'avais le don de savoir dessiner et pas faire des trucs cheloux comme ça: http://puu.sh/aXRs5/e6e205e1ff.png
+2014-08-18T19:41:19 <IckleDominia> j'abuse mais bon xD (dessin inspirer de: http://img3.wikia.nocookie.net/__cb20140508041218/flutterbutter/images/f/f5/FANMADE_DJ_Pon-3_by_Likonan.png)
+2014-08-18T19:41:21 <TrappyTickles> omg j'suis choqué, je viens de tilter un truc
+2014-08-18T19:41:25 <IckleDominia> Je re bonne ap tout le monde ! x)
+2014-08-18T19:41:30 <TrappyTickles> qqn ici a joué à saints row 2?
+2014-08-18T19:41:34 <TrappyTickles> bonap
+2014-08-18T19:42:26 <wildfier> bon app
+2014-08-18T19:42:30 <wildfier> nope pas le 2
+2014-08-18T19:42:49 <TrappyTickles> ben ulthor, dans la série, ça te dit kekchose?
+2014-08-18T19:43:07 <TrappyTickles> la multinationale qui dirige saints row
+2014-08-18T19:43:52 <ludvann> Watt the... bit.ly/1rOl1K9
+2014-08-18T19:43:53 <TrappyTickles> enfin bref regarde http://img4.wikia.nocookie.net/__cb20100808121332/saintsrow/images/5/59/Ultor_logo.jpg ça te rappelle pas quelque chose, le logo?
+2014-08-18T19:44:13 <TrappyTickles> miam une r63 de discord en anthro... j'aime :3
+2014-08-18T19:44:23 <wildfier> red faction ?
+2014-08-18T19:44:24 <ludvann> ^^
+2014-08-18T19:44:29 <TrappyTickles> nope
+2014-08-18T19:44:40 <wildfier> ça me dis qqch mais je sais plus quoi
+2014-08-18T19:44:49 <wildfier> deus ex ?
+2014-08-18T19:44:54 <TrappyTickles> http://images.wikia.com/mlp/images/archive/c/c5/20110805223032!Celestia_cutie_mark_Discover_the_Difference_game.svg ça peut être? :p
+2014-08-18T19:45:06 <wildfier> ah ça
+2014-08-18T19:45:21 <wildfier> je pensais que tu parlais du nom de la boite
+2014-08-18T19:45:25 <wildfier> ultor
+2014-08-18T19:45:28 <TrappyTickles> non le logo j'ai dit :p
+2014-08-18T19:45:40 <TrappyTickles> celestia est derrière ulthor omg XD
+2014-08-18T19:45:45 <wildfier> mais ça m'étonnerais qu'il y ai un lien
+2014-08-18T19:45:59 <TrappyTickles> je crois pas, mais jvais faire le mème pour le fun :p
+2014-08-18T19:47:05 <wildfier> ^^
+2014-08-18T20:00:05 <ludvann> re
+2014-08-18T20:02:37 <Gordfang> re
+2014-08-18T20:03:06 <IckleDominia> re
+2014-08-18T20:05:19 <IckleDominia> Personne à des tips à donner en dessin sur photoshop ? .-.
+2014-08-18T20:06:44 <Berry-Punch> Voilà ce *hic* qu'il s'est passé ces 10 dernières lignes, adriens33
+2014-08-18T20:06:46 *** adriens33 s'est connecté
+2014-08-18T20:08:45 <adriens33> bonchoire les gens :)
+2014-08-18T20:08:52 <ludvann> chatlu
+2014-08-18T20:08:57 <TrappyTickles> oi
+2014-08-18T20:09:18 <IckleDominia> Bonsoir !
+2014-08-18T20:09:24 <adriens33> Bonsoir !
+2014-08-18T20:09:33 <adriens33> un nouveau, ou juste de passage ?
+2014-08-18T20:09:46 <Berry-Punch> Bienvenue sur le chat de BronyCUB, IckleDominia ! *hic* 
+2014-08-18T20:09:46 <Berry-Punch> Amuse-toi *hic* bien !
+2014-08-18T20:10:03 <IckleDominia> Merci bien ._.
+2014-08-18T20:10:22 *** BronyCUB-MC est parti
+2014-08-18T20:10:40 <IckleDominia> Je me demande vraiment quel était mon nom d’utilisateur confirmer nom de zeus ._.
+2014-08-18T20:11:11 *** BronyCUB-MC s'est connecté
+2014-08-18T20:11:20 <IckleDominia> Trouver je re :3
+2014-08-18T20:11:23 *** IckleDominia est parti
+2014-08-18T20:11:39 *** Ikledoreboline s'est connecté
+2014-08-18T20:12:14 <Ikledoreboline> Définitivement je n'étais pas passer en membre confirmer ? Me semble que si pourtant .-.
+2014-08-18T20:12:28 <adriens33> Non en fait faut que j'ajoute le flag à la main ^^
+2014-08-18T20:12:41 <Ikledoreboline> Ah ok, autant pour toi x'3
+2014-08-18T20:12:42 <adriens33> et généralement je le fais quand le profil du membre est sur le site
+2014-08-18T20:13:02 <adriens33> (là faut attendre heuzef, généralement c'est lui qui fait les inscriptions)
+2014-08-18T20:13:04 <Ikledoreboline> J'y suis, j'avais eut 2/3 soucis en plus héhé !... x)
+2014-08-18T20:14:13 <Ikledoreboline> D'ailleurs mon Gravatar c'est toujours pas mit... :(
+2014-08-18T20:51:19 <wildfier> yop adriens33
+2014-08-18T20:51:21 <ludvann> re
+2014-08-18T20:51:26 <adriens33> salut wildfier
+2014-08-18T20:51:28 <adriens33> comment va ?
+2014-08-18T20:51:32 <wildfier> super
+2014-08-18T20:51:33 <adriens33> 'lu ludvann
+2014-08-18T20:51:52 <adriens33> tiens c'est ton anniv demain
+2014-08-18T20:52:37 <wildfier> je m'amuse à essayer d'ajout un système d'annimation par squelette dans open bar
+2014-08-18T20:52:40 <wildfier> et oui ^^
+2014-08-18T20:52:45 <adriens33> ^^
+2014-08-18T20:52:49 <adriens33> tu fais un truc ou pas ?
+2014-08-18T20:53:12 <wildfier> j'ai rien prévu
+2014-08-18T20:53:45 <wildfier> on peut toujours aller au lucifer ce we ^^
+2014-08-18T20:53:52 <adriens33> bonne idée :p
+2014-08-18T20:54:27 <ELiDYROS> Le Lucifer ils sont nuls en 'non-bière' :'|
+2014-08-18T20:54:27 <Berry-Punch> Qu'est-ce que j'ai soif… *hic* 
+2014-08-18T20:54:33 <ludvann> xD
+2014-08-18T20:54:57 <wildfier> j'avais vu un truc dans mes rss dont je voulais te parler ce matin mais j'ai oublié quoi ...
+2014-08-18T20:55:04 <adriens33> ah ?
+2014-08-18T20:55:12 <ludvann> si ils sont nuls en non-bière... ça va pas être terrible pour moi si je viens... :/
+2014-08-18T20:55:12 <Berry-Punch> Qu'est-ce que j'ai soif… *hic* 
+2014-08-18T20:55:23 <adriens33> berry, espèce de soiffarde
+2014-08-18T20:55:30 <ELiDYROS> je voulais dire en alcool fort c'est pas la fête
+2014-08-18T20:55:30 <Berry-Punch> J'adore ça ! *hic* 
+2014-08-18T20:55:56 <wildfier> ah oui he m'en souviens !
+2014-08-18T20:56:00 <wildfier> c'était pas mes rss
+2014-08-18T20:56:12 <adriens33> ah ?
+2014-08-18T20:56:17 <adriens33> c'était pour quoi donc ?
+2014-08-18T20:56:37 <ludvann> ELiDYROS pour moi tout ce qui est alcoolisé...
+2014-08-18T20:56:37 <Berry-Punch> Qu'est-ce *hic* que j'ai soif…
+2014-08-18T20:56:46 <wildfier> https://www.youtube.com/watch?v=2onsOFWme-Q
+2014-08-18T20:56:55 <wildfier> la conf en elle même est sympa
+2014-08-18T20:56:56 <adriens33> bah à 15 ans et demi ludvann t'as pas grand chose à boire XD
+2014-08-18T20:57:01 <adriens33> thx wildfier
+2014-08-18T20:57:01 <wildfier> mais vers 1h50
+2014-08-18T20:57:17 <ludvann> ouep :/
+2014-08-18T20:57:20 <wildfier> quand il commence à passer dans sa 2ème "identité" XD
+2014-08-18T20:57:24 <ludvann> 15 3/4
+2014-08-18T20:57:50 <ludvann> tu veux dire ma deuxième carte d'identité wildfier ?
+2014-08-18T20:57:53 <adriens33> j'ai ajouté à ma playlist
+2014-08-18T20:58:02 <adriens33> (j'ai plein de vidéos en retard déjà  XD)
+2014-08-18T20:58:05 <wildfier> nope
+2014-08-18T20:58:10 <wildfier> je parle du lien youtube
+2014-08-18T20:58:15 <wildfier> que j'ai posté
+2014-08-18T20:58:15 <ludvann> quoi alors ?
+2014-08-18T20:58:21 <ludvann> aoké
+2014-08-18T20:58:26 <wildfier> c'est une conférence de richard stalman
+2014-08-18T20:58:34 <wildfier> sur le logiciel libre
+2014-08-18T20:58:37 <wildfier> (surprise)
+2014-08-18T20:58:56 <adriens33> et en fait il dit que windows et le soft propriétaire c'est plus mieux !
+2014-08-18T20:58:59 <adriens33> [troll]
+2014-08-18T20:58:59 <wildfier> mais le délire qu'il se tappe juste avant la session de questions / réponses est magique
+2014-08-18T20:59:16 <adriens33> (patapé)
+2014-08-18T20:59:24 <Ikledoreboline> re
+2014-08-18T20:59:27 <adriens33> re :)
+2014-08-18T20:59:29 <wildfier> XD
+2014-08-18T20:59:36 <Ikledoreboline> Et bonne anniversaire en avance wildfier du coup .-.
+2014-08-18T20:59:57 <adriens33> ah bah tiens t'es sur le site ^^
+2014-08-18T21:00:02 <adriens33> javais pas vu
+2014-08-18T21:00:02 <wildfier> bas tu sais dans la conf il tappe gentilement sur linus torvalds parce que linux est pas à 100% libre
+2014-08-18T21:00:11 <wildfier> salut Ikledoreboline, et merci :)
+2014-08-18T21:00:11 <Berry-Punch> Flags de Ikledoreboline *hic* modifiés en +v
+2014-08-18T21:00:11 <adriens33> !flag set +v Ikledoreboline
+2014-08-18T21:00:14 <Berry-Punch> Flags de Ikledoreboline *hic* modifiés : +v
+2014-08-18T21:00:14 <adriens33> !flag mod +v Ikledoreboline
+2014-08-18T21:00:52 <adriens33> wildfier: ouais, mais sans les firmware propriétaires le noyau serait inutilisable --"
+2014-08-18T21:01:02 <adriens33> ok, des firmwares libres ça serait mieux
+2014-08-18T21:01:07 <adriens33> mais en attendant, on fait avec ce qu'on a
+2014-08-18T21:01:17 <adriens33> torvalds va pas enlever les firmware parce qu'ils sont pas libre
+2014-08-18T21:01:22 <adriens33> sinon le kernel sera pas utilisable
+2014-08-18T21:01:24 *** heuzef est parti
+2014-08-18T21:01:40 <wildfier> bas c'est pas grave parce que stalman les enlève lui ^^
+2014-08-18T21:01:46 <adriens33> c'est pas sur torvalds qu'il faut taper
+2014-08-18T21:01:49 <adriens33> il fait ce qu'il peut
+2014-08-18T21:01:55 <wildfier> il lui tappe pas dessus
+2014-08-18T21:01:56 <adriens33> c'est sur les constructeurs qu'il faut chier
+2014-08-18T21:02:07 <wildfier> il dis juste que c'est pas 100% libre
+2014-08-18T21:02:12 <adriens33> "bas tu sais dans la conf il tappe gentilement sur linus torvalds parce que linux est pas à 100% libre"
+2014-08-18T21:02:19 <adriens33> pour le coup c'est pas sa faute à torvalds :p
+2014-08-18T21:02:25 <wildfier> oui note le gentilement ^^
+2014-08-18T21:02:29 <adriens33> mais bon
+2014-08-18T21:02:32 <adriens33> note quand même
+2014-08-18T21:02:35 <adriens33> que stallman
+2014-08-18T21:02:41 <adriens33> est l'une des seules personnes au monde
+2014-08-18T21:02:48 <adriens33> à avoir un pc contenant un BIOS libre…
+2014-08-18T21:02:53 <adriens33> donc bon déjà voilà quoi
+2014-08-18T21:02:54 <wildfier> oui et il en a parlé
+2014-08-18T21:03:12 <adriens33> le souci du BIOS c'est que par essence faire un bios libre c'est pas possible
+2014-08-18T21:03:17 <adriens33> c'est trop dépendant du matériel
+2014-08-18T21:03:23 <adriens33> tu peux pas faire de truc générique
+2014-08-18T21:03:34 <Ikledoreboline> et merci pour le petit + ^^
+2014-08-18T21:03:35 <adriens33> (ou alors très limité)
+2014-08-18T21:03:43 <wildfier> c'était une des questions
+2014-08-18T21:03:45 <wildfier> à la fin
+2014-08-18T21:03:46 <adriens33> Ikledoreboline: de rien :p
+2014-08-18T21:03:49 <wildfier> je te laisse regarder
+2014-08-18T21:04:01 <wildfier> mais j'ai adoré la fin
+2014-08-18T21:04:08 <wildfier> j'étais plié en 2
+2014-08-18T21:04:10 <adriens33> wildfier: bah quand je tomberai dessus, ma playlist est un peu longue donc ça risque de mettre un peu de temps XD
+2014-08-18T21:04:25 <wildfier> bas regarde au moins juste le passage de la fin
+2014-08-18T21:04:33 <wildfier> vers 1h50 je crois
+2014-08-18T21:06:01 <wildfier> 1h 53 pour être précis
+2014-08-18T21:06:06 <adriens33> ^^
+2014-08-18T21:10:37 <Ikledoreboline> Je sais pas quoi faire ce soir .ç.
+2014-08-18T21:11:14 <wildfier> excellent ce smiley ^^
+2014-08-18T21:19:46 <Ikledoreboline> J'ai fait une découverte. L'ennuis ne tue pas. Il ennui juste ! Où est ma médaille ? >3<
+2014-08-18T21:20:44 <wildfier> heureusement ^^
+2014-08-18T21:22:52 <wildfier> t'as pas un jeu que d'autres personnes ici ont ?
+2014-08-18T21:22:57 <wildfier> on sais jamais
+2014-08-18T21:24:26 <Ikledoreboline> Bah, les personnes peuvent toujours m'ajouter sur steam, après j'ai typiquement minecraft. ^^ "Steam nom actuel: Dj'Ctavia" ou lien direct: http://steamcommunity.com/profiles/76561198036625864
+2014-08-18T21:30:40 <wildfier> oh cool, ils sont pas encore passé au flat degeux sur steam sous linux :p
+2014-08-18T21:31:02 <wildfier> la version linux de steam est meilleure ! XD
+2014-08-18T21:31:17 * adriens33 aimerait changer de nez
+2014-08-18T21:31:18 <Ikledoreboline> La nouvelle interface est juste ignoble, elle me donne envie de vomir x_x
+2014-08-18T21:32:27 <wildfier> je t'ai ajouté si je me suis pas planté ^^
+2014-08-18T21:33:21 <Ikledoreboline> c'est ça ^^
+2014-08-18T21:39:03 <Ikledoreboline> Garry's mod ça fait longtemps que j'y ai pas touché, mais en même temps le menu du début et pour rejoindre les serveurs c'est tellement remplit de bugs !
+2014-08-18T21:39:14 <wildfier> yep
+2014-08-18T21:39:24 <wildfier> le peu que j'ai testé du jeu
+2014-08-18T21:39:35 <wildfier> c'était un calvaire pour trouver un serv
+2014-08-18T21:39:51 <Ikledoreboline> Bah après ça dépend se que tu veux faire. ^^
+2014-08-18T21:40:35 *** ELiDYROS est parti
+2014-08-18T21:41:41 <Bybeez> Oui, pareil j'ai galéré pour rejoindre un serveur
+2014-08-18T21:42:41 <Ikledoreboline> Les serveurs te font télécharger 200 trucs, pour qu'à la fin tu plantes x3
+2014-08-18T21:42:50 <wildfier> tellement ça
+2014-08-18T21:43:57 <Bybeez> Après, j'ai pas trop tester les serveur de prop hunt ou de trouble in terrorist town donc je sais pas comment c'est ^^
+2014-08-18T21:44:24 <Ikledoreboline> ^^ Moi j'ai fait que du DarkRP perso.
+2014-08-18T22:05:45 <Ikledoreboline> Je viens de me couper la langue avec un couteau rond du côté plat, pgm... x)
+2014-08-18T22:09:08 <Bybeez> GG !!
+2014-08-18T22:09:20 * Berry-Punch lance un muffin sur Ikledoreboline à 1729 km/h
+2014-08-18T22:09:20 <Berry-Punch> MUFFIN *hic* RAINBOOM !!
+2014-08-18T22:09:20 <Bybeez> !muffin Ikledoreboline
+2014-08-18T22:21:18 *** ValCab33 est parti
+2014-08-18T22:21:38 *** ValCab33 s'est connecté
+2014-08-18T22:34:45 * Berry-Punch lance un muffin sur ValCab33 à 1455 km/h
+2014-08-18T22:34:45 <Berry-Punch> MUFFIN RAINBOOM *hic* !!
+2014-08-18T22:34:45 <ludvann> !muffin ValCab33
+2014-08-18T22:34:48 <ludvann> :D
+2014-08-18T22:35:11 <ValCab33> Miam.
+2014-08-18T22:35:29 <ludvann> ^^
+2014-08-18T22:35:42 *** adriens33 est parti
+2014-08-18T22:35:52 <wildfier> argh
+2014-08-18T22:35:53 * Berry-Punch lance un muffin sur ludvann à 998 km/h
+2014-08-18T22:35:53 <ValCab33> !muffin ludvann
+2014-08-18T22:35:58 <ValCab33> Duh.
+2014-08-18T22:36:03 <ludvann> miôm :)
+2014-08-18T22:36:06 <wildfier> adriens33 qui se déco quand je veux lui poser une question !
+2014-08-18T22:36:11 <ludvann> xD
+2014-08-18T22:36:35 <Bybeez> c'est son pinkie sense qui l'a fait partir
+2014-08-18T22:37:02 <ludvann> ^^
+2014-08-18T22:38:16 <wildfier> bon tant pis, je vais assumer que j'ai raison alors :p
+2014-08-18T22:40:33 <ludvann> pour quoi ?
+2014-08-18T22:40:54 <wildfier> une connerie technique de compatibilité sur opengl
+2014-08-18T22:41:31 <wildfier> quelle version je peux utiliser en étant sur que ça tourne chez à peu près tt le monde
+2014-08-18T22:42:02 <Ikledoreboline> Oh non pas encore un muffin :o !
+2014-08-18T22:43:30 <wildfier> parce que je me souviens lui avoir passé un projet qui tournais pas chez lui
+2014-08-18T22:46:53 *** Yvan33 s'est connecté
+2014-08-18T22:50:14 * Berry-Punch lance un muffin sur wildfier à 1951 km/h
+2014-08-18T22:50:15 <Berry-Punch> MUFFIN *hic* RAINBOOM !!
+2014-08-18T22:50:15 <Ikledoreboline> !muffin wildfier
+2014-08-18T22:50:18 <ludvann> vous connaissez des noms de musiques que l'on met généralement dans les accélérés ?
+2014-08-18T22:50:46 <Ikledoreboline> heu, en nightcore ?
+2014-08-18T22:51:12 <ludvann> c'est bon trouvé o/
+2014-08-18T22:51:14 <ludvann> Yakety Sax
+2014-08-18T22:52:59 <ludvann> Ikledoreboline nightcore c'est pas ce que je recherchais mais merci quand même (mis dans les favoris :D )
+2014-08-18T22:53:12 <Yvan33> Dans les accélérés de quoi?
+2014-08-18T22:54:23 <ludvann> vidéo
+2014-08-18T22:54:29 <ludvann> vidéos*
+2014-08-18T22:54:51 <Yvan33> Nan mais quel genre je demande
+2014-08-18T22:55:38 <ludvann> ah !
+2014-08-18T22:55:43 <ludvann> jeux-video
+2014-08-18T22:55:53 <ludvann> un truc universel
+2014-08-18T22:56:04 <ludvann> (la musique)
+2014-08-18T22:56:27 <Yvan33> Ok, passe le lien car je pige pas un foin de ce que tu dis
+2014-08-18T22:57:03 <ludvann> xD
+2014-08-18T22:57:11 <ludvann> qu'est ce que tu comprends pas ?
+2014-08-18T22:58:14 <Yvan33> Tu parle d'accéléré de jeux vidéo? De musique? de truc universel?
+2014-08-18T22:58:22 <ludvann> ok
+2014-08-18T22:58:54 <ludvann> je disais une musique plutôt universel pour faire un accéléré (dans mon cas un jeux-vidéo)
+2014-08-18T22:58:57 <ludvann> better ?
+2014-08-18T22:59:09 <Berry-Punch> Voilà ce qu'il s'est *hic* passé ces 10 dernières lignes, adriens33
+2014-08-18T22:59:10 *** adriens33 s'est connecté
+2014-08-18T22:59:11 <wildfier> tu dev un jeu ?
+2014-08-18T22:59:15 <wildfier> ah adriens33 !
+2014-08-18T22:59:45 <ludvann> wildfier c'est un de mes rêves mais non, pas encore :(
+2014-08-18T23:01:26 <Yvan33> Je crois, une musique qui colle a plusieurs situations pour faire un accéléré, que je ne sais pas ce que ça ve dire
+2014-08-18T23:02:25 <ludvann> ?
+2014-08-18T23:02:27 <ludvann> gné xD
+2014-08-18T23:02:53 <wildfier> oui tu perd tt le monde là je crois
+2014-08-18T23:03:42 <ludvann> xD
+2014-08-18T23:03:48 <Yvan33> OK, je vais vider mon ésprit avec des poneys et je reviens
+2014-08-18T23:04:16 <ludvann> pas grave, j'ai trouvé ce qu'il me fallé (je sais plus éccrire)
+2014-08-18T23:04:24 <ludvann> a plus Yvan33 ;D
+2014-08-18T23:05:04 <Yvan33> Ok xd
+2014-08-18T23:05:06 <Yvan33> XD
+2014-08-18T23:05:32 <Bybeez> Tu as la musique de Benny hill pour un accéléré
+2014-08-18T23:05:53 <adriens33> tu prends la musique de Benny Hill
+2014-08-18T23:05:56 <wildfier> un classique, je plussoie Bybeez
+2014-08-18T23:06:01 <adriens33> tu prend n'importe quelle vidéo, même triste
+2014-08-18T23:06:02 <Bybeez> ça :https://www.youtube.com/watch?v=MK6TXMsvgQg
+2014-08-18T23:06:03 <adriens33> tu l'accélère
+2014-08-18T23:06:07 <adriens33> tu met la zic dessus
+2014-08-18T23:06:12 <adriens33> et ça fait un truc comique.
+2014-08-18T23:06:16 <adriens33> effet garanti.
+2014-08-18T23:06:18 <Bybeez> Exactement
+2014-08-18T23:06:18 <wildfier> prends la version mlp
+2014-08-18T23:06:21 <adriens33> elle est magique cette musique XD
+2014-08-18T23:06:55 <wildfier> bon j'y vais les gens
+2014-08-18T23:06:59 <wildfier> @+ /)
+2014-08-18T23:07:19 <adriens33> ++
+2014-08-18T23:07:23 <Bybeez> ++
+2014-08-18T23:08:01 *** wildfier est parti
+2014-08-18T23:08:25 <Bybeez> Perso, j'adore le PonyRap
+2014-08-18T23:08:44 <Ikledoreboline> a+++
+2014-08-18T23:08:47 <ludvann> @+
+2014-08-18T23:08:49 <adriens33> ++
+2014-08-18T23:08:55 <Yvan33> Mais euh
+2014-08-18T23:08:59 <ludvann> ?
+2014-08-18T23:09:03 <Yvan33> Il s'est déjà barré
+2014-08-18T23:09:07 <adriens33> qui ? wildfier ?
+2014-08-18T23:09:09 <ludvann> déki ?
+2014-08-18T23:09:16 <Yvan33> Avant que vous ne lui dite a +
+2014-08-18T23:09:32 <ludvann> Eeyup :(
+2014-08-18T23:09:44 <Yvan33> Too slow
+2014-08-18T23:09:47 <ludvann> :/
+2014-08-18T23:10:33 <ludvann> c'est quoi déjà le son de RD où on dirait une "cantatrise" avec ta ta taaaa
+2014-08-18T23:10:45 <ludvann> (il y a pas plus clair xD )
+2014-08-18T23:10:54 <Yvan33> Euh
+2014-08-18T23:11:03 <Yvan33> Je check cancatrise avannt de te répondre
+2014-08-18T23:11:04 <ludvann> ^^'
+2014-08-18T23:11:15 <ludvann> cantatrice*
+2014-08-18T23:11:38 <Yvan33> ok je vois
+2014-08-18T23:11:45 <ludvann> yay !
+2014-08-18T23:11:46 <Yvan33> Désolé je ne sais pas
+2014-08-18T23:11:50 <ludvann> :(
+2014-08-18T23:12:20 <Yvan33> Et puis "ta ta taaaa" aide pas des masses non plus
+2014-08-18T23:13:03 <ludvann> dans le ravin(il me semble) dans l'ep may the best pet win
+2014-08-18T23:13:32 <Yvan33> Hum hum
+2014-08-18T23:14:07 <Yvan33> Désolé de ne pas me rappeler de l’intonation de ce moment précis ^^"
+2014-08-18T23:14:15 <ludvann> ?
+2014-08-18T23:14:31 <Bybeez> Et bah ludvann, tu vas te retaper l'épisode et voila !
+2014-08-18T23:14:54 <Yvan33> Je connais que une musique ou la voix est modifié par celle de RD et je doute que ca soit une cantatrise
+2014-08-18T23:15:15 <ludvann> j'ai pas que ça à faire que de séparer la bande audio et vidéo, trouver la minute et secondes du moment et sauvegarder que ce moment ^^
+2014-08-18T23:15:39 <Yvan33> tape "ta ta taaaa mlp" sur google
+2014-08-18T23:15:50 <Yvan33> Ca devrait marcher
+2014-08-18T23:16:52 <ludvann> nope :(
+2014-08-18T23:16:57 * ludvann give up
+2014-08-18T23:19:39 <Yvan33> Ca ressemble à ça? :hap: https://www.youtube.com/watch?v=CaVprpjSqQo
+2014-08-18T23:20:18 <ludvann> nope
+2014-08-18T23:20:32 <ludvann> mais la musique à l'air sympa :D
+2014-08-18T23:20:38 <ludvann> it is
+2014-08-18T23:20:44 * ludvann approuved
+2014-08-18T23:21:05 <Yvan33> J'ai trouvé des "nanana" à la place
+2014-08-18T23:21:09 <Yvan33> Si tu veux
+2014-08-18T23:21:33 <ludvann> ziva frère !
+2014-08-18T23:21:48 <ludvann> (je vais rester normal je pense...)
+2014-08-18T23:21:56 <ludvann> (en mode normal)*
+2014-08-18T23:23:25 <Yvan33> https://www.youtube.com/watch?v=nwY8nzUAGWc
+2014-08-18T23:24:00 <Ikledoreboline> m'ok XD
+2014-08-18T23:24:21 <ludvann> nope .5
+2014-08-18T23:24:33 <Yvan33> Waaa yen a plein des music reprise avec la voix de RD
+2014-08-18T23:24:34 <ludvann> :( *
+2014-08-18T23:25:01 <Ikledoreboline> Je me demande si c'est la doubleuse qui fait la voix de RD qui chante ça ou si c'est juste une voix modifier.
+2014-08-18T23:25:35 <Yvan33> https://www.youtube.com/watch?v=Feaw3k9DULA
+2014-08-18T23:25:42 <ludvann> bon je laisse tomber pour ça ... https://www.youtube.com/watch?v=DLTZctTG6cE
+2014-08-18T23:25:46 <Yvan33> Elle est bien je trouve
+2014-08-18T23:26:17 <Ikledoreboline> Yay !!!
+2014-08-18T23:26:43 <ludvann> ^^
+2014-08-18T23:33:53 <Yvan33> Ya une musique comme ça remixé qu'avec des yay
+2014-08-18T23:35:15 <ludvann> flutershy ass
+2014-08-18T23:35:20 <ludvann> avast
+2014-08-18T23:35:29 <ludvann> c'est ça ?
+2014-08-18T23:35:35 <ludvann> par wooden toaster ?
+2014-08-18T23:35:41 <Yvan33> J'ai pas retenue le non
+2014-08-18T23:35:44 <Yvan33> Oui surement
+2014-08-18T23:35:44 <ludvann> ^^
+2014-08-18T23:35:55 <ludvann> montage fini o/
+2014-08-18T23:36:05 <ludvann> je vais lancer le rendu...
+2014-08-18T23:36:07 <Yvan33> J'adore les musiques de wooden toater
+2014-08-18T23:38:08 <ludvann> rendering en cours !
+2014-08-18T23:38:33 <ludvann> c'est vrai qu'elles sont sympa ces musiques ^^
+2014-08-18T23:38:58 * Berry-Punch lance un muffin sur ludvann à 1117 km/h
+2014-08-18T23:38:58 <Ikledoreboline> !muffin ludvann
+2014-08-18T23:39:11 <ludvann> mé euh !
+2014-08-18T23:39:18 <ludvann> pourquoi ? :(
+2014-08-18T23:39:18 <Ikledoreboline> Mange ton muffin è_é
+2014-08-18T23:39:26 <Ikledoreboline> Il est au chocolat ._.
+2014-08-18T23:40:12 <ludvann> :D
+2014-08-18T23:40:23 * ludvann is miaming his muffin
+2014-08-18T23:40:56 <ludvann> mais c'est qu'il ce fait vite ce rendu :D
+2014-08-18T23:41:16 <adriens33> ta femme te le dit souvent.
+2014-08-18T23:41:39 <Yvan33> Popopo!!!!!!!!!!!!!!!!
+2014-08-18T23:41:46 <ludvann> xD
+2014-08-18T23:41:52 <ludvann> taykon adriens33 xD
+2014-08-18T23:42:32 <Yvan33> Berry punch, c'est un modo qui balance des conneries au hasard pour animer le chat?
+2014-08-18T23:42:40 <adriens33> c'est un bot…
+2014-08-18T23:42:44 <ludvann> un bot plus précisement
+2014-08-18T23:43:24 <Yvan33> Hum, je me disais qu'il était la souvent
+2014-08-18T23:43:35 <ludvann> bah c'est un bot ^^'
+2014-08-18T23:43:37 <adriens33> ben elle est tout le temps co
+2014-08-18T23:43:43 <adriens33> elle est sur mon serveur dédié
+2014-08-18T23:43:51 <adriens33> pis comme ça ça permet d'avoir tout le log :)
+2014-08-18T23:43:51 <ludvann> elle a pas de vie sociale...
+2014-08-18T23:43:59 <adriens33> c'est un script, on s'en fout XD
+2014-08-18T23:44:04 <ludvann> à par c'est boureilles...
+2014-08-18T23:44:11 <ludvann> bouteilles*
+2014-08-18T23:44:17 <Yvan33> Je vois ^^
+2014-08-18T23:44:18 <adriens33> ludvann, t'en a pris ?  ^^
+2014-08-18T23:44:28 <ludvann> elle fait que pi pi picoller !
+2014-08-18T23:44:47 <Berry-Punch> Bah moi au moins *hic* je peux
+2014-08-18T23:45:15 <ludvann> :'(
+2014-08-18T23:45:54 <Yvan33> Huh, comment tu l'as fais répondre?
+2014-08-18T23:46:01 <Berry-Punch> po po pooo *hic* 
+2014-08-18T23:46:01 <adriens33> !say po po pooo
+2014-08-18T23:46:04 <ludvann> par télépathie
+2014-08-18T23:46:15 <adriens33> en faisant /msg Berry-Punch !say machintruc
+2014-08-18T23:46:22 <adriens33> ça permet de pas montrer le !say
+2014-08-18T23:46:25 <adriens33> c'est plus propre :p
+2014-08-18T23:46:35 <Berry-Punch> niorph (i'm anonymous) *hic* 
+2014-08-18T23:46:48 <Berry-Punch> machintruc *hic* machintruc
+2014-08-18T23:46:51 <Berry-Punch> ludvann est stupide *hic* 
+2014-08-18T23:47:00 <Yvan33> Je vois, et le hic se place automatiquement ou bien?
+2014-08-18T23:47:02 <Berry-Punch> prout *hic* prout
+2014-08-18T23:47:04 <adriens33> ouip
+2014-08-18T23:47:11 <adriens33> par contre s'tu met qu'un mot ça bug
+2014-08-18T23:47:16 <adriens33> j'ai eu la flemme de corriger
+2014-08-18T23:47:24 <adriens33> parce que j'étais en train de faire une nouvelle version
+2014-08-18T23:47:40 <Berry-Punch> kaka boudin prout prout *hic* 
+2014-08-18T23:47:47 <Yvan33> Et ça sert à quoi finalement?
+2014-08-18T23:47:55 <Berry-Punch> /me lance une patate sur ludvann a *hic* beaucoup de km/h
+2014-08-18T23:47:55 <adriens33> en fait
+2014-08-18T23:47:59 <Berry-Punch> arriba couroucou pof *hic* pof
+2014-08-18T23:48:09 <adriens33> le bot sert surtout pour l'admin
+2014-08-18T23:48:18 <adriens33> ça permet de gérer les flags / kick/voice/etc
+2014-08-18T23:48:22 <adriens33> sans avoir à passer op
+2014-08-18T23:48:24 <ludvann> ...
+2014-08-18T23:48:27 <adriens33> c'est plus simple
+2014-08-18T23:48:32 <Bybeez> et si je suis triste, elle sert de l'alcool
+2014-08-18T23:48:32 <Berry-Punch> Qu'est-ce que j'ai *hic* soif…
+2014-08-18T23:48:32 * Berry-Punch Donne un verre de saké à Bybeez
+2014-08-18T23:48:32 <Berry-Punch> Tiens Bybeez, pour te consoler *hic* :)
+2014-08-18T23:48:35 <Berry-Punch> Je suis désolé ludvann, mais je n'ai *hic* pas le droit de te laisser faire ça.
+2014-08-18T23:48:44 <ludvann> ouf...
+2014-08-18T23:48:48 <Bybeez> Merci Berry !
+2014-08-18T23:48:55 <Yvan33> Mais tout le monde peu être admin du coup
+2014-08-18T23:48:59 <adriens33> nope
+2014-08-18T23:49:07 <ludvann> nope
+2014-08-18T23:49:08 <adriens33> les commandes admin marchent pas avec tout le monde
+2014-08-18T23:49:14 <adriens33> j'suis pas con à ce point quand même XD
+2014-08-18T23:49:16 <ludvann> je viens de test ;D
+2014-08-18T23:49:17 <adriens33> si tu teste
+2014-08-18T23:49:22 <adriens33> elle te prévient trois fois
+2014-08-18T23:49:26 <Berry-Punch> N'insiste pas, s'il te plaît, ludvann… *hic* 
+2014-08-18T23:49:26 <ludvann> !op
+2014-08-18T23:49:27 <adriens33> et la quatrième elle te kicke
+2014-08-18T23:49:29 <Berry-Punch> Bon. ludvann, prochaine tentative, je te *hic* vire. OKAY ??
+2014-08-18T23:49:30 <ludvann> !op
+2014-08-18T23:49:32 <Berry-Punch> PRIVMSG #bronycub: Désolé, je t'avais *hic* prévenu ludvann .
+2014-08-18T23:49:32 <ludvann> !op
+2014-08-18T23:49:42 <Yvan33> Je vois
+2014-08-18T23:49:43 *** ludvann s'est connecté
+2014-08-18T23:49:44 <adriens33> ludvann: faut mettre un pseudo apres op…
+2014-08-18T23:49:50 <Berry-Punch> Flags *hic* de adriens33 modifiés : +o
+2014-08-18T23:49:50 <adriens33> !op adriens33
+2014-08-18T23:49:55 <Berry-Punch> Flags de *hic* adriens33 modifiés : -o
+2014-08-18T23:49:55 <adriens33> !deop adriens33
+2014-08-18T23:50:00 <ludvann> mé euh  :(
+2014-08-18T23:50:06 <Berry-Punch> Flags de ludvann modifiés : -v *hic* 
+2014-08-18T23:50:06 <adriens33> !devoice ludvann
+2014-08-18T23:50:13 <ludvann> ouin
+2014-08-18T23:50:15 <Berry-Punch> Flags de ludvann modifiés : +v *hic* 
+2014-08-18T23:50:15 <adriens33> !flag mod +v ludvann
+2014-08-18T23:50:16 <Yvan33> Lol
+2014-08-18T23:50:18 <ludvann> yay
+2014-08-18T23:50:46 <Yvan33> Donc en fait, certains pseudo ont la possibilité de mettre la veste "admin" a tout moment
+2014-08-18T23:50:52 <adriens33> ouep
+2014-08-18T23:50:55 <ludvann> comme pas moi...
+2014-08-18T23:50:57 <adriens33> mais les pseudo en question
+2014-08-18T23:50:59 <adriens33> sont register
+2014-08-18T23:51:00 <ludvann> ouib
+2014-08-18T23:51:03 <ludvann> ouin
+2014-08-18T23:51:03 <adriens33> donc si tu essaie de le prendre
+2014-08-18T23:51:10 <adriens33> freenode te demande le mot de passe quivabien
+2014-08-18T23:51:20 <adriens33> donc toi par exemple tu peut pas prendre le pseudo adriens33
+2014-08-18T23:51:26 <ludvann> pour ma par c'est poneyEnFeu
+2014-08-18T23:51:49 <ludvann> (c'est pour pas dire en cha...)
+2014-08-18T23:51:58 <ludvann> ventilateur !
+2014-08-18T23:52:04 <adriens33> samuel ?
+2014-08-18T23:52:06 <ludvann> yay gagné !
+2014-08-18T23:52:24 <Bybeez> Patate !
+2014-08-18T23:52:30 <adriens33> balançoire !
+2014-08-18T23:52:34 <ludvann> balançoire
+2014-08-18T23:52:35 <ludvann> Grrrrrr
+2014-08-18T23:52:39 <ludvann> :(
+2014-08-18T23:52:43 * ludvann boude
+2014-08-18T23:52:43 * Berry-Punch Donne un verre de vodka à ludvann
+2014-08-18T23:52:43 <Berry-Punch> Tiens ludvann, pour te *hic* consoler :)
+2014-08-18T23:52:43 <adriens33> ludvann t'es lent
+2014-08-18T23:52:51 * adriens33 reprend la vodka
+2014-08-18T23:52:51 <Berry-Punch> J'adore ça ! *hic* 
+2014-08-18T23:52:54 <ludvann> je veux ru Rhum :(
+2014-08-18T23:52:58 <Yvan33> Ok ok
+2014-08-18T23:53:00 <ludvann> du*
+2014-08-18T23:53:07 <Yvan33> Par contre j'ai encore 2 question
+2014-08-18T23:53:10 <Bybeez> Il peut deja plus parler sans avoir bu
+2014-08-18T23:53:17 <Ikledoreboline> Quelqu'un m’envoi un muffin ._.
+2014-08-18T23:53:19 <adriens33> oui Yvan33 ?
+2014-08-18T23:53:23 * Berry-Punch lance un muffin sur Ikledoreboline à 630 km/h
+2014-08-18T23:53:23 <ludvann> !muffin Ikledoreboline
+2014-08-18T23:53:24 <Yvan33> C'est /me pour mettre les trucs en italique?
+2014-08-18T23:53:29 <ludvann> Eeyup
+2014-08-18T23:53:31 <adriens33> en itaquoi ?
+2014-08-18T23:53:39 <adriens33> ah les action
+2014-08-18T23:53:42 <adriens33> pour toi c'est /me
+2014-08-18T23:53:47 <adriens33> pour le bot c'est !do action
+2014-08-18T23:53:47 <ludvann> appuis sur tab ;)
+2014-08-18T23:53:49 * Berry-Punch dormir
+2014-08-18T23:53:49 <adriens33> !do dormir
+2014-08-18T23:53:56 * Berry-Punch boit une vodka
+2014-08-18T23:53:56 <adriens33> !do boit une vodka
+2014-08-18T23:53:57 <Berry-Punch> J'adore ça ! *hic* 
+2014-08-18T23:54:00 <Yvan33> Ok, et sinon
+2014-08-18T23:54:00 * Berry-Punch chutageidjkfghkfhklsdlfkljzsjs
+2014-08-18T23:54:00 <ludvann> !do chutageidjkfghkfhklsdlfkljzsjs
+2014-08-18T23:54:08 <Berry-Punch> !do lance une patate sur ludvann a beaucoup de km/h *hic* 
+2014-08-18T23:54:19 <adriens33> non, !say !do ça fait rien
+2014-08-18T23:54:22 <Yvan33> Fighting is magic, pour y jouer faut télécharger quels fichiers?
+2014-08-18T23:54:29 <ludvann> tout ?
+2014-08-18T23:54:45 <ludvann> prends la tribute edition ;)
+2014-08-18T23:55:01 <ludvann> rendu à 60%
+2014-08-18T23:55:04 <ludvann> yay
+2014-08-18T23:55:09 <Bybeez> et après ça explose !!!
+2014-08-18T23:55:14 <ludvann> naoooooon
+2014-08-18T23:55:18 * ludvann booom
+2014-08-18T23:55:38 <Yvan33> Je vois, parce que moi l'application de la tribute a été supprimé
+2014-08-18T23:55:46 <ludvann> ?
+2014-08-18T23:55:47 <Ikledoreboline> Il était lent ton muffin ._.
+2014-08-18T23:55:50 <Yvan33> Donc c'est pas pratique pour jouer
+2014-08-18T23:55:56 <ludvann> ah
+2014-08-18T23:55:59 * Berry-Punch lance un muffin sur Ikledoreboline à 2303 km/h
+2014-08-18T23:55:59 <Berry-Punch> MUFFIN RAINBOOM *hic* !!
+2014-08-18T23:56:08 * Berry-Punch à j'ai mal au dos ! Et à la bouche maintenant !
+2014-08-18T23:56:08 <Ikledoreboline> !do à j'ai mal au dos ! Et à la bouche maintenant !
+2014-08-18T23:56:15 <ludvann> ...
+2014-08-18T23:56:16 <Yvan33> Je l'ai décompresser et l'application a disparu
+2014-08-18T23:56:36 * Berry-Punch lance une patate sur ludvann a beaucoup de km/h
+2014-08-18T23:56:39 * Berry-Punch lance un muffin sur m à 1487 km/h
+2014-08-18T23:56:39 <Berry-Punch> MUFFIN RAINBOOM *hic* !!
+2014-08-18T23:56:54 * Berry-Punch lance un muffin sur m à 1302 km/h
+2014-08-18T23:56:54 <Berry-Punch> MUFFIN RAINBOOM !! *hic* 
+2014-08-18T23:57:03 <Ikledoreboline> yay
+2014-08-18T23:57:10 <ludvann> Yvan33 bizarre...
+2014-08-18T23:57:40 <Yvan33> Ah nan c'est mon antivirus qui le dégae
+2014-08-18T23:57:43 * Berry-Punch prends Ikledoreboline dans ses bras
+2014-08-18T23:57:50 <Yvan33> Lorsque je le décompresse
+2014-08-18T23:57:52 <Ikledoreboline> Vous faites quoi de beau ?
+2014-08-18T23:58:15 <Bybeez> Je vais me coucher perso !
+2014-08-18T23:58:28 <Bybeez> Donc, bonne nuit les patates !
+2014-08-18T23:58:38 <ludvann> je fais le rendu de ma vidéo
+2014-08-18T23:58:38 *** Bybeez est parti
+2014-08-18T23:59:16 <ludvann> Ikledoreboline
+2014-08-18T23:59:54 <ValCab33> Kerbodyne ?
+2014-08-18T23:59:59 <Yvan33> Quel vidéo au passage?

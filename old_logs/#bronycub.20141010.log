@@ -1,0 +1,763 @@
+2014-10-09T01:06:57 *** Silou est parti
+2014-10-09T07:57:09 <Berry-Punch> Voilà *hic* ce qu'il s'est passé ces 10 dernières lignes, adriens33
+2014-10-09T07:57:10 *** adriens33 s'est connecté
+2014-10-09T08:03:22 <adriens33> salut Letarumavza…
+2014-10-09T09:02:06 *** Letarumavza_ s'est connecté
+2014-10-09T09:04:52 *** Letarumavza est parti
+2014-10-09T09:31:02 *** heuzef s'est connecté
+2014-10-09T10:16:39 *** adriens33 est parti
+2014-10-09T10:35:55 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, adriens33 *hic* 
+2014-10-09T10:35:56 *** adriens33 s'est connecté
+2014-10-09T10:41:43 *** adriens33 est parti
+2014-10-09T11:01:51 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, *hic* adriens33
+2014-10-09T11:01:52 *** adriens33 s'est connecté
+2014-10-09T11:02:02 <Berry-Punch> Flags de Letarumavza_ modifiés : +v *hic* 
+2014-10-09T11:02:02 <adriens33> !voice Letarumavza_
+2014-10-09T11:02:41 <adriens33> Letarumavza_ ?
+2014-10-09T11:08:44 <Letarumavza> autorelog sur perte de connexion
+2014-10-09T11:09:38 <Letarumavza> So....
+2014-10-09T11:11:45 <adriens33> quoi de neuf ?
+2014-10-09T11:12:09 <Letarumavza> Je croise les doigts ^^
+2014-10-09T11:14:14 <adriens33> ok ^^ par contre si je viens tout à l'heure, je pourrai pas manger
+2014-10-09T11:14:24 <adriens33> faudrait que je prenne rdv chez un dentiste d'abord.
+2014-10-09T11:14:32 <adriens33> j'ai un pansement qui s'est tiré, j'ai une dent à l'air…
+2014-10-09T11:37:12 *** adriens33 est parti
+2014-10-09T11:37:52 <Berry-Punch> Voilà ce *hic* qu'il s'est passé ces 10 dernières lignes, adriens33
+2014-10-09T11:37:53 *** adriens33 s'est connecté
+2014-10-09T11:54:26 *** TrappyTickles s'est connecté
+2014-10-09T11:55:21 <Letarumavza> TrappyTickles !
+2014-10-09T11:55:32 <TrappyTickles> oi
+2014-10-09T11:55:47 <Letarumavza> J'ai presque fini de bidouiller le prototype de la dll
+2014-10-09T11:55:52 <Letarumavza> Je te la passerai asap
+2014-10-09T11:55:58 <TrappyTickles> great ^^
+2014-10-09T11:56:02 <TrappyTickles> j'ai hate de voir ça ^^
+2014-10-09T11:56:25 <Letarumavza> Mouais, je suis pas mal limité par le protocole, il a fallu trouver des workaround
+2014-10-09T11:56:36 <Letarumavza> Mais globalement, ça commence à marcher sur certains points.
+2014-10-09T11:56:48 <Letarumavza> (le proto en question est juste sur le texture caching)
+2014-10-09T11:58:12 <TrappyTickles> ok
+2014-10-09T12:51:33 *** heuzef est parti
+2014-10-09T12:54:54 *** MaCharon s'est connecté
+2014-10-09T12:54:59 <MaCharon> hellow
+2014-10-09T13:00:26 <adriens33> salut
+2014-10-09T13:06:50 *** Silou s'est connecté
+2014-10-09T13:11:30 <adriens33> hello Silou
+2014-10-09T13:11:38 <Silou> Plop
+2014-10-09T13:28:32 *** heuzef s'est connecté
+2014-10-09T13:52:36 *** Silou est parti
+2014-10-09T13:52:52 *** Silou s'est connecté
+2014-10-09T14:29:45 *** adriens33 est parti
+2014-10-09T14:58:54 <heuzef> TrappyTickles:
+2014-10-09T14:59:00 <heuzef> Trappy Trappy ? ^^
+2014-10-09T14:59:42 <Letarumavza> TrappyTickles !
+2014-10-09T14:59:44 <Letarumavza> TrappyTickles !
+2014-10-09T14:59:44 <Letarumavza> TrappyTickles !
+2014-10-09T15:00:08 <Letarumavza> ah l'invocation marche pas ?
+2014-10-09T15:04:11 *** heuzef1 s'est connecté
+2014-10-09T15:05:27 *** heuzef est parti
+2014-10-09T15:06:16 <heuzef> !voic heuzef
+2014-10-09T15:06:20 <Berry-Punch> Flags de heuzef *hic* modifiés : +v
+2014-10-09T15:06:20 <heuzef> !voice heuzef
+2014-10-09T15:49:55 *** Gordfang s'est connecté
+2014-10-09T15:49:58 <Gordfang> lut
+2014-10-09T15:50:04 <heuzef> prout
+2014-10-09T17:02:04 <Letarumavza> hey...
+2014-10-09T17:12:46 <Gordfang> yo
+2014-10-09T17:25:54 <MaCharon> slt
+2014-10-09T17:38:19 <Berry-Punch> Voilà ce qu'il *hic* s'est passé ces 10 dernières lignes, adriens33
+2014-10-09T17:38:20 *** adriens33 s'est connecté
+2014-10-09T17:46:28 <TrappyTickles> oi Letarumavza je suis re lol
+2014-10-09T17:47:00 <adriens33> bonchoire les gens
+2014-10-09T18:14:54 <Letarumavza> ^^
+2014-10-09T18:50:32 *** Lenile s'est connecté
+2014-10-09T18:50:40 <Lenile> Yow
+2014-10-09T18:50:46 <Lenile> Toujours pas de Mathias en vue ?
+2014-10-09T18:50:50 <Letarumavza> nop
+2014-10-09T18:51:04 <Lenile> J'éspere que ces voisins ont pas voler la bolo et les pates que je lui est mit devant sa porte xD
+2014-10-09T18:55:44 <Lenile> League of Legend c'est de la merde ou c'est juste un jeux ou le seul but est de faire des mise à jour ?
+2014-10-09T18:55:48 <Lenile> M'enfin
+2014-10-09T18:55:53 <Lenile> Download simulator quoi.
+2014-10-09T18:56:10 <Letarumavza> ...
+2014-10-09T18:56:41 <MaCharon> oh c'est rogolo quand meme
+2014-10-09T18:56:46 <MaCharon> rigolo*
+2014-10-09T18:56:54 <Letarumavza> Lenile, mon cher garçon ne seriez vous pas un peu abruti.
+2014-10-09T18:57:36 <Letarumavza> (Tain au trai où ça va, mon clavier va être plus vieux que certains membres du collectif, il date 1998)
+2014-10-09T18:57:42 <heuzef> MaCharon ? =)
+2014-10-09T18:58:11 <Lenile> Letarumavza Pourquoi ?
+2014-10-09T18:58:18 <Letarumavza> LoL est un excellent jeu, patché régulièrement de manière à corriger les bugs, améliorer la technologie employée, et améliorer l'équilibrage...
+2014-10-09T18:58:37 <MaCharon> on parle de moi ?
+2014-10-09T18:58:40 <heuzef> MaCharon:  J'ai procédé, à la demande de CDPP, à une invalidation du programme dans la commande d'impression.
+2014-10-09T18:58:50 <Letarumavza> Si tu considères que des patchs d'ajouts de contenu fréquents sont signes d'un mauvais jeu....
+2014-10-09T18:58:51 <heuzef> Il y à encore des modif de dernières minutes
+2014-10-09T18:58:54 <heuzef> :/
+2014-10-09T18:59:01 <MaCharon> .... >.>
+2014-10-09T18:59:09 <heuzef> Mais bon je vais m'en occuper t'inquiete
+2014-10-09T18:59:23 <MaCharon> c'est toi qui voit
+2014-10-09T18:59:30 <heuzef> ;)
+2014-10-09T18:59:37 <Lenile> Letarumavza Bah vu le nom des Maj dans les logs.... "Refonte de' l'interface + ajout d'un champion"
+2014-10-09T18:59:39 <Lenile> Waaaaaaaa
+2014-10-09T19:00:13 * Letarumavza facedesk.
+2014-10-09T19:01:18 <Letarumavza> Tu as conscience du travail d'ergonomie/optimisation derriere une interface ?
+2014-10-09T19:01:34 <Lenile> Nan car je ne suis pas un developpeur mais un Gamer
+2014-10-09T19:01:35 <Letarumavza> Et de la difficulté d'équilibrage des techniques de champions dans un moba ?
+2014-10-09T19:01:39 <Lenile> Donc je juge sur du gameplay.
+2014-10-09T19:02:06 <Lenile> si je vois que le gameplay n'est pas recherché et les mise à jours pratiques je n'y trouve aucune utilitée
+2014-10-09T19:02:15 <adriens33> …
+2014-10-09T19:02:17 <Letarumavza> ...
+2014-10-09T19:02:20 <adriens33> okay je repars !
+2014-10-09T19:02:23 <Lenile> Hé ouais les mecs.
+2014-10-09T19:02:28 <adriens33> nan mais sérieux quoi…
+2014-10-09T19:02:31 <Letarumavza> ...
+2014-10-09T19:02:32 <Lenile> Différence entre vous et moi c:
+2014-10-09T19:02:45 <adriens33> à partir du moment ou une maj te bouleverse pas totalement tout le jeu ça sert à rien pour toi ?
+2014-10-09T19:02:53 <Letarumavza> Yep, toi, t'es un abruti qui ne respecte pas le travail des autres.
+2014-10-09T19:03:06 <adriens33> (doucement leta, j'irais pas jusqu'à là quand même…)
+2014-10-09T19:03:12 <Letarumavza> Top la différence... T'as de quoi être fier.
+2014-10-09T19:03:39 <adriens33> je crois qu'il se rend pas trop compte de la masse de travail que ça représente, des mises à jour constantes.
+2014-10-09T19:03:52 <adriens33> c'est pire qu'un tamagotchi
+2014-10-09T19:04:03 <adriens33> le tamagotchi tu t'en occupe pas il crève
+2014-10-09T19:04:12 <Letarumavza> Les mecs de riot se sont cassés le cul à pondre un nouveau système de dl p2p sans utiliser la tech pando, ils ont créé un new champ, de news skins, et ont supprimé pas mal de lags d'interface, et l'autre il dit que ça sert à rien...
+2014-10-09T19:04:15 <adriens33> là le jeu tu t'en occupe pas c'est tous les devs qui crèvent la dalle :p
+2014-10-09T19:04:20 <Lenile> Exactement car je le répète, je ne suis pas développeur donc etre un "Abruti" je ne pense pas. Nous ne sommes pas tous des supers calculateurs humains les mecs.
+2014-10-09T19:04:26 <Lenile> J'y connais pas grand chose en dev'
+2014-10-09T19:04:34 <adriens33> j'ai pas dit ça moi Lenile…
+2014-10-09T19:04:38 <Lenile> C'est peut etre du boulot mais ils sont payers pour.
+2014-10-09T19:04:41 <adriens33> …
+2014-10-09T19:04:44 <Letarumavza> ...
+2014-10-09T19:04:50 <adriens33> c'est pas une raison pour leur chier à la figure non plus !
+2014-10-09T19:04:56 <Lenile> Touts travail mérite salaire donc je pense que ils ne font pas ça bénévolement.
+2014-10-09T19:05:00 <adriens33> c'est pas parce qu'ils sont payés pour faire ça
+2014-10-09T19:05:01 <Letarumavza> Lenile, t'es sur d'être brony ?
+2014-10-09T19:05:07 <Lenile> De plus Rio Games est une grosse entreprise.
+2014-10-09T19:05:11 <adriens33> que t'as le droit de leur chier à la gueule s'il y a une virgule de travers !
+2014-10-09T19:05:18 <Lenile> Letarumavza est-ce que tu veux que l'on parle de toi ?
+2014-10-09T19:05:22 <adriens33> love & tolerate ça s'applique aussi aux salariés…
+2014-10-09T19:05:46 <adriens33> (je sais ce que ça fait d'être dev dans une grande boite, même si moi c'est qu'une ssii…)
+2014-10-09T19:05:49 <adriens33> (tu te sens ridicule…)
+2014-10-09T19:06:00 <Letarumavza> Et riot n'est pas une grosse boite...
+2014-10-09T19:06:08 <Letarumavza> riot n'a qu'une license.
+2014-10-09T19:06:08 <Lenile> Love & tolerate ça s'applique aussi aux térroriste alors si c'est une réplique universelle ~)
+2014-10-09T19:06:14 <adriens33> …
+2014-10-09T19:06:16 <Letarumavza> ...
+2014-10-09T19:06:27 <Lenile> Letarumavza : Une license qui touche des millions.
+2014-10-09T19:06:39 <Letarumavza> C'est pas un gros éditeur.
+2014-10-09T19:06:45 <Letarumavza> C'est un des plus petits en mmo.
+2014-10-09T19:06:52 <Letarumavza> Derrière CCP
+2014-10-09T19:07:08 <Letarumavza> Ne confonds pas clientelle et moyens.
+2014-10-09T19:07:16 <Letarumavza> riot peine à suivre son succès.
+2014-10-09T19:07:31 <Lenile> Plus petit mmo ?
+2014-10-09T19:07:34 <Lenile> En une license ?
+2014-10-09T19:07:42 <Letarumavza> Coté devs oui.
+2014-10-09T19:07:49 <Lenile> 624 Millions de dollards en 2013 ?
+2014-10-09T19:08:02 <Lenile> Pour un Free to play
+2014-10-09T19:08:03 <Letarumavza> ça a rien à voir avec l'équipe de dev ça.
+2014-10-09T19:08:08 <Lenile> qui ne propose même pas de Paye to Win
+2014-10-09T19:08:19 <Lenile> Excuse moi mais c'est une blague ?
+2014-10-09T19:08:20 <adriens33> (c'est sensé être un défaut ça ?)
+2014-10-09T19:08:26 <Lenile> Bah non.
+2014-10-09T19:08:44 <Letarumavza> Le P2W est un buisness model qui ne marche pas de toutes façons.
+2014-10-09T19:08:44 <Lenile> Mais quand on est un FTP et un No-PTW 624M de $ c'est énorme.
+2014-10-09T19:09:11 <Lenile> Letarumavza : c'est vrai le PTW ne marche pas. Regardons l'éxemple avec Wakfu et Dofus.
+2014-10-09T19:09:12 <Letarumavza> Avec près de 300M$ qui viennent des accords comerciaux.
+2014-10-09T19:09:27 <Lenile> S'pas comme si ils se faisait des couilles en or avec les boutiques dédiées aux Paye To win :)
+2014-10-09T19:09:37 <Letarumavza> euh...
+2014-10-09T19:09:47 <Letarumavza> tu ne sais pas de quoi tu parles là...
+2014-10-09T19:09:49 <adriens33> heuzef ? besoin d'un médiateur là ><
+2014-10-09T19:09:57 <heuzef> ?
+2014-10-09T19:10:02 <Lenile> Au contraire.
+2014-10-09T19:10:03 <heuzef> Kékiya ?
+2014-10-09T19:10:07 <Lenile> C'est toi qui n'en sais rien.
+2014-10-09T19:10:15 <adriens33> Letarumavza et Lenile se battent pour une histoire de patchs XD
+2014-10-09T19:10:22 <adriens33> (je te laisse lire le log)
+2014-10-09T19:10:27 <Lenile> League of legend à engendré 460M de dollards d'achat.
+2014-10-09T19:10:31 <Letarumavza> Non, je lui gueule dessus parce qu'il chie sur le travails de devs...
+2014-10-09T19:10:51 <Lenile> Excuse moi mais tes arguments sont bidons Letarumavza
+2014-10-09T19:10:53 <heuzef> Désolé j'ai des choses franchement plus violente à régler que vos histoires :/
+2014-10-09T19:10:57 <adriens33> (Letarumavza dans le fond je suis d'accord avec toi, ayant bossé comme dev dans une boite je sais ce que ça fait, là n'est pas la question)
+2014-10-09T19:11:02 <Lenile> De plus dire que je ne suis pas un Brony juste car j'ai dit ça.
+2014-10-09T19:11:12 <adriens33> heuzef j'essaie de trouver un moyen de calmer le jeu, ça risque de partir en couille connaissant leta…
+2014-10-09T19:11:20 <Lenile> C'est un peut déplacer de la part de quelqun qui traite les filles commes des jambons.
+2014-10-09T19:11:22 <Lenile> tu ne trouve pas ?
+2014-10-09T19:11:34 <Lenile> J't'aime bien mais la tu me tape cévèrement sur le systeme
+2014-10-09T19:11:40 <Letarumavza> Dixit le mec qui ramasse les numéros/pages facebook...
+2014-10-09T19:11:41 <adriens33> Lenile calme toi…
+2014-10-09T19:11:48 <adriens33> évite de l'énerver
+2014-10-09T19:11:54 <Letarumavza> Surtout contre moi.
+2014-10-09T19:11:55 <adriens33> il peut être très dangereux si tu le met en colère.
+2014-10-09T19:11:56 <adriens33> crois moi.
+2014-10-09T19:12:01 <Lenile> Letarumavza : Je n'est ajouté personne de l'Animasia. Elles m'ont toutes rajoutées.
+2014-10-09T19:12:02 <heuzef> En même tant je cherche moi aussi en restant logué ...
+2014-10-09T19:12:03 <adriens33> même à distance
+2014-10-09T19:12:05 <adriens33> surtout à distance
+2014-10-09T19:12:06 <heuzef> Bon les gens
+2014-10-09T19:12:09 <heuzef> https://upload.firewall-services.com/?t=1c94dbe02588b5c6a89a6384c8a0f255
+2014-10-09T19:12:10 <Lenile> Et je n'est même demander aucun numéro :)
+2014-10-09T19:12:14 <heuzef> Z'en dite quoi ? :D
+2014-10-09T19:12:39 <Letarumavza> Gné
+2014-10-09T19:12:48 <adriens33> heuzef: keskecé ?
+2014-10-09T19:12:51 <Letarumavza> Flo, tu m'expliques cette histoire en mp ?
+2014-10-09T19:13:11 <adriens33> (vive les target=blank, firefox sait lire les pdf et là je suis obligé de le dl… c'est propre)
+2014-10-09T19:13:16 <Lenile> Flo : T'a femme est seulement en Visa ?
+2014-10-09T19:13:24 <Letarumavza> Lenile, j'ai un jeu : 48h, je te laisse trouver à quoi ça correspond.
+2014-10-09T19:13:26 <Letarumavza>  /kiss
+2014-10-09T19:13:39 <adriens33> (leta tu peux mettre un / en début de ligne, suffit de le doubler)
+2014-10-09T19:13:44 <adriens33> /test
+2014-10-09T19:13:48 <Letarumavza> Je sais
+2014-10-09T19:13:51 <adriens33> ok
+2014-10-09T19:13:51 <heuzef> ba ouais
+2014-10-09T19:13:52 <Letarumavza> Mais l'habitude de wow
+2014-10-09T19:13:55 <adriens33> ^^
+2014-10-09T19:13:56 <heuzef> bientot plus de visa
+2014-10-09T19:14:04 <adriens33> quéquequoi ?
+2014-10-09T19:14:17 <Lenile> Heuzef : vous êtes officiellement mariées ?
+2014-10-09T19:14:22 <Letarumavza> ...
+2014-10-09T19:14:25 <Letarumavza> Lis putain...
+2014-10-09T19:14:29 <heuzef> Ba justement non
+2014-10-09T19:14:45 <heuzef> Parcequ'il me manque 1 document sur 15
+2014-10-09T19:14:51 <Lenile> Chaud...
+2014-10-09T19:15:05 <Letarumavza> Ah et pour les dl qui servent à rien de lol => http://euw.leagueoflegends.com/fr/news/game-updates/patch/notes-de-patch-418 quand on sait pas lire un patchnote, on la ferme.
+2014-10-09T19:15:11 <heuzef> Le pire c'est que je l'ai déjà
+2014-10-09T19:15:18 <adriens33> Letarumavza doucement…
+2014-10-09T19:15:21 <heuzef> Mais il à plus de 3 mois ....
+2014-10-09T19:15:30 <adriens33> heuzef: ah, les administrations françaises
+2014-10-09T19:15:40 <adriens33> si y'a un truc pour lequel la france est toujours n°1
+2014-10-09T19:15:48 <adriens33> c'est bien la chiantitude de nos administrations.
+2014-10-09T19:15:59 <Letarumavza> Vu la lenteur elle sera explusé pour ses 90 ans...
+2014-10-09T19:16:02 <Letarumavza> no stress flo ^^
+2014-10-09T19:16:27 <Lenile> Tes encore la dessus Letarumavza ?
+2014-10-09T19:16:41 * Lenile hausse les épaules
+2014-10-09T19:16:55 <heuzef> ^^
+2014-10-09T19:17:08 <heuzef> Je vous laisse
+2014-10-09T19:17:12 <Letarumavza> Lenile, juste un truc, ton av est pourrave.
+2014-10-09T19:17:22 <Lenile> Mon av ?
+2014-10-09T19:17:26 <Lenile> Kezako ?
+2014-10-09T19:17:29 <heuzef> Berry jettera des muffins en mon absence si les 2 relou continue de crier
+2014-10-09T19:17:30 <Lenile> Ha Anti Virus
+2014-10-09T19:17:33 <Lenile> J'en est pas.
+2014-10-09T19:17:44 <heuzef> @peluche
+2014-10-09T19:17:52 <Lenile> Je m'en tape un peut des av en fait.
+2014-10-09T19:17:58 <Lenile> Vu que bon.
+2014-10-09T19:17:59 *** heuzef est parti
+2014-10-09T19:18:00 <Letarumavza> Euh, flo...
+2014-10-09T19:18:03 <Letarumavza> merde...
+2014-10-09T19:18:12 <Lenile> Tout est sur mon Externe.
+2014-10-09T19:18:17 <Lenile> Et je vient de le débrancher c:
+2014-10-09T19:18:25 <Letarumavza> Trop tard
+2014-10-09T19:19:13 <adriens33> Lenile,
+2014-10-09T19:19:20 <adriens33> je t'ai dit qu'il fallait pas chercher Letarumavza…
+2014-10-09T19:19:26 <adriens33> j'ai osé le ban par mégarde un jour…
+2014-10-09T19:19:33 <Letarumavza> ^^
+2014-10-09T19:19:35 <adriens33> il a failli me cramer mon dédié
+2014-10-09T19:19:36 <Lenile> Letar je veux pas etre mechant hein.
+2014-10-09T19:19:44 <adriens33> (il s'est fait des sécurités automatiques un peu partout)
+2014-10-09T19:20:00 <adriens33> donc s'il te dit que c'est trop tard…
+2014-10-09T19:20:01 <Lenile> Mais
+2014-10-09T19:20:05 <Letarumavza> Comme sur tous le matos info dont j'ai chippé les ip sur le canal
+2014-10-09T19:20:05 <adriens33> prie pour avoir un backup offline…
+2014-10-09T19:20:19 <Lenile> Tu ne trouve pas ça dangeureux de t'ataquer à quelqun qui te connais de face ?
+2014-10-09T19:20:25 <adriens33> moi ?
+2014-10-09T19:20:28 <adriens33> je m'attaquais pas à lui
+2014-10-09T19:20:34 <Lenile> Nan pas toi adriens
+2014-10-09T19:20:35 <Letarumavza> Merci protocole IRC et exploit ^^
+2014-10-09T19:20:40 <Lenile> Letarumavza
+2014-10-09T19:20:49 <adriens33> il avait fait une connerie, je voulais calmer le jeu mais je connaissais pas sa sécurité sinon j'y aurais pas touché.
+2014-10-09T19:20:49 <Lenile> Donc je te prévien Letar
+2014-10-09T19:20:53 <Letarumavza> tu passe ma porte, je te saigne
+2014-10-09T19:20:55 <Lenile> Si tu me cherche
+2014-10-09T19:20:57 <Letarumavza> Compris ?
+2014-10-09T19:20:58 <adriens33> STOP !!!
+2014-10-09T19:21:03 <Lenile> je te ferais la misère Mentale à vie n.n
+2014-10-09T19:21:03 <adriens33> sinon je vous kicke !!
+2014-10-09T19:21:07 <adriens33> TOUS LES DDEUX !!
+2014-10-09T19:21:11 <Lenile> J'ai déja détruit des gens mentalement n.n
+2014-10-09T19:21:15 <Letarumavza> Misère mentale...
+2014-10-09T19:21:16 <Lenile> Evidement j'aime pas le faire n.n
+2014-10-09T19:21:17 <Letarumavza> Sur moi...
+2014-10-09T19:21:19 <adriens33> Lenile: fais gaffe à ce que tu dis…
+2014-10-09T19:21:21 <Lenile> Ouais.
+2014-10-09T19:21:23 <Lenile> Sur toi.
+2014-10-09T19:21:32 <Lenile> Je peut savoir énormément de chose sur toi.
+2014-10-09T19:21:34 <adriens33> Lenile
+2014-10-09T19:21:36 <Lenile> Facilement en plus de ça.
+2014-10-09T19:21:41 <Letarumavza> Tu sais que te faire péter les genous ne me couterai que 200€
+2014-10-09T19:21:41 <adriens33> tu lui fera rien…
+2014-10-09T19:21:45 <Letarumavza> Et que j'ai 600 de dispo...
+2014-10-09T19:21:49 <Lenile> Avec des façons ou ton talent de developpeur ne pourra rien aidé
+2014-10-09T19:21:56 <adriens33> pas de manière émotionnelle en tout cas…
+2014-10-09T19:22:12 <Lenile> adriens : je peut détruire nimporte qui de façon émotionnelle
+2014-10-09T19:22:14 <adriens33> (@Lenile)
+2014-10-09T19:22:15 <adriens33> non
+2014-10-09T19:22:15 <Lenile> Et Letar
+2014-10-09T19:22:19 <Lenile> ça peut finir au tribunal
+2014-10-09T19:22:20 <Letarumavza> Tien, y'a un super dentiste route de toulouse.
+2014-10-09T19:22:21 <adriens33> pas quelqu'un qui ne ressent pas d'émotion.
+2014-10-09T19:22:39 <adriens33> dans ce cas là c'est comme de vouloir manger du vide…
+2014-10-09T19:22:43 <Letarumavza> adriens33, laisses, il est mignon, il pense pouvoir attaquer le mental d'un psychopathe ^^
+2014-10-09T19:22:57 <Lenile> Je peut te rendre plus fou que se que tu est déjaz
+2014-10-09T19:23:02 <adriens33> Lenile fais gaffe aux menaces que tu profère en public.
+2014-10-09T19:23:08 <adriens33> je garde absolument chaque ligne de ce qui sort ici.
+2014-10-09T19:23:18 <adriens33> et en cas de différent ça peut faire office de preuve de menace.
+2014-10-09T19:23:22 <adriens33> donc pour leta
+2014-10-09T19:23:25 <Lenile> adrien : dans se cas la tu peut gardé le fait qu'il est dit qu'il voulais engager quelqun pour me faire du mal ?
+2014-10-09T19:23:27 <adriens33> tu regle çça en privé
+2014-10-09T19:23:36 <Letarumavza> adriens33, c'est stocké sur ton dédié...
+2014-10-09T19:23:39 <adriens33> mais si tu fais du mal comme ça à quelqu'un d'autre fais gaffe
+2014-10-09T19:23:40 <adriens33> non
+2014-10-09T19:23:44 <Letarumavza> Enfin je dis ça, je dis rien...
+2014-10-09T19:23:44 <adriens33> leta c'est aussi stocké sur githug
+2014-10-09T19:23:46 <adriens33> *github
+2014-10-09T19:23:51 <adriens33> ça commite tous les jours
+2014-10-09T19:23:59 <adriens33> et mon dédié est backup tous les soirs
+2014-10-09T19:24:01 <adriens33> en intégralité
+2014-10-09T19:24:05 <adriens33> de toute maniè_re.
+2014-10-09T19:24:08 <Letarumavza> Soir, c'est le mot clef ^^
+2014-10-09T19:24:15 <adriens33> bah tous les logs sont sur le github
+2014-10-09T19:24:32 <adriens33> donc lenile je te menace pas moi, hein. j'ai rien contre toi
+2014-10-09T19:24:41 <Letarumavza> Lenile, le dernier qui m'a fait chier, c'était ludvann
+2014-10-09T19:24:41 <adriens33> mais évite de dire que tu peux détruire quelqu'un mentalement
+2014-10-09T19:24:45 <Lenile> Tu sais que te faire péter les genous ne me couterai que 200€
+2014-10-09T19:24:46 <Lenile> +adriens33
+2014-10-09T19:24:46 <Lenile> tu lui fera rien…
+2014-10-09T19:24:48 <Letarumavza> On l'a rarement vu sur le chan depuis.
+2014-10-09T19:24:53 <Lenile> C'est pas uen menace ça peut etre ?
+2014-10-09T19:24:55 <adriens33> si
+2014-10-09T19:24:58 <adriens33> je dis pas le contraire.
+2014-10-09T19:25:05 <adriens33> mais leta ne voit pas les choses de la même manière.
+2014-10-09T19:25:12 <adriens33> leta tu te calmes un peu quand même.
+2014-10-09T19:25:13 <Lenile> ça n'explique rien
+2014-10-09T19:25:16 <Letarumavza> Faux, c'est pas une menace, il a pas six genous ^^
+2014-10-09T19:25:21 <adriens33> chut
+2014-10-09T19:25:33 <Lenile> J'suis désoler mais la adriens33 tu dit nimporte quoi.
+2014-10-09T19:25:44 <Lenile> Aucune différence entre Leta et quelqun d'autre
+2014-10-09T19:25:51 <adriens33> si…
+2014-10-09T19:25:55 <Lenile> Non
+2014-10-09T19:25:58 <adriens33> lui ne fonctionne que de manière algorithmique
+2014-10-09T19:26:01 <adriens33> il ne ressent pas les émotions
+2014-10-09T19:26:07 <adriens33> il est obligé de faire semblant.
+2014-10-09T19:26:19 <Lenile> La colère est un émotion
+2014-10-09T19:26:26 <adriens33> (les raisons, il te les expliquera s'il le veut)
+2014-10-09T19:26:28 <Letarumavza> Oui et non.
+2014-10-09T19:26:29 <adriens33> ah
+2014-10-09T19:26:33 <adriens33> il est pas en colère la.
+2014-10-09T19:26:35 <Lenile> Le fait de dire "La dernière personne à m'avoir fait chier" est un signe d'émotion
+2014-10-09T19:26:38 <Letarumavza> La colère n'est pas un sentiment.
+2014-10-09T19:26:39 <adriens33> tu l'as pas vu en colère.
+2014-10-09T19:26:43 <adriens33> crois moi
+2014-10-09T19:26:46 <Lenile> La colère est un sentiment
+2014-10-09T19:27:09 <Lenile> Si la colère n'est pas un sentiment c'est quoi ?
+2014-10-09T19:27:11 <Letarumavza> C'est une émotion d'origine hormonale...
+2014-10-09T19:27:26 <Lenile> Puis vous ne connaissez pas mon passé. Vous ne savez pas grand chose de moi à part se que je montre.
+2014-10-09T19:27:29 <Letarumavza> Une pulsion, pas quelque chose de lié à une réflexion.
+2014-10-09T19:27:44 <Letarumavza> Mis à part que t'es un gamin qui ne réalise pas ce qui l'entoure...
+2014-10-09T19:27:53 <Letarumavza> C'est vrai que tu ne montres pas grand chose.
+2014-10-09T19:27:57 <Lenile> Letarumavza : Dans se cas la une pulsion lié par reflexion c'est quoi pour toi ?
+2014-10-09T19:28:12 <Lenile> Letarumavza : je suis bien plus adulte que toi.
+2014-10-09T19:28:22 <adriens33> calmez-vous, par pitié…
+2014-10-09T19:28:26 <Lenile> Je réalise se qui m'entours. J'aide les gens.
+2014-10-09T19:28:27 <adriens33> s'il vous plait…
+2014-10-09T19:28:28 <Letarumavza> Oh mais ça se voit.
+2014-10-09T19:28:32 <Lenile> Je suis quelqun de bien pour dire ça.
+2014-10-09T19:28:42 <Letarumavza> Euh, je peux me marrer ?.
+2014-10-09T19:29:01 <Lenile> Est-ce que tu te souvient d'une des première chose que tu m'a dit ?
+2014-10-09T19:29:04 <Letarumavza> Le mec chie sur le travail d'une team de dev et se définit comme quelqu'un de bien...
+2014-10-09T19:29:24 <Letarumavza> Oh tu penses que je passe mon temps à dire la vérité.
+2014-10-09T19:29:36 * Letarumavza slowly claps.
+2014-10-09T19:29:37 <adriens33> bon.
+2014-10-09T19:29:40 <adriens33> dernier averto.
+2014-10-09T19:29:47 <adriens33> le prochain qui moufte je le kicke.
+2014-10-09T19:29:49 <Lenile> Bah pour une personne qui me demande en phrase d'approche "Comment tu fait pour couché avec plein de filles"
+2014-10-09T19:29:53 <Lenile> Si c'est pas de la véritée
+2014-10-09T19:29:57 <adriens33> !kick lenile chut
+2014-10-09T19:30:02 <adriens33> pour pas de jaloux
+2014-10-09T19:30:05 <adriens33> !kick Letarumavza chit
+2014-10-09T19:30:15 <adriens33> voilà.
+2014-10-09T19:30:19 *** Letarumavza s'est connecté
+2014-10-09T19:30:27 <Letarumavza> "chit"
+2014-10-09T19:30:32 <adriens33> oui, ma main a glissé.
+2014-10-09T19:30:33 *** Lenile s'est connecté
+2014-10-09T19:30:40 <Letarumavza> Je m'disais aussi ^^
+2014-10-09T19:30:42 <adriens33> vous vous calmez sil vous plait.
+2014-10-09T19:30:42 <Lenile> Donc je disait pour la phrase de fin.
+2014-10-09T19:30:43 <Letarumavza> manquait un S
+2014-10-09T19:30:47 <adriens33> si vous voulez régler vos comptes
+2014-10-09T19:30:54 <adriens33> VOUS LE FAITES EN PRIVÉ PUTAIN DE MERDE !
+2014-10-09T19:30:59 <adriens33> PAS ICI !
+2014-10-09T19:31:00 <Lenile> "La curiositée est un sentiment induit par la reflexion"
+2014-10-09T19:31:08 <Lenile> adriens33 ?N
+2014-10-09T19:31:13 <Lenile> Tu m'a kick.
+2014-10-09T19:31:16 <adriens33> oui
+2014-10-09T19:31:18 <Letarumavza> yep
+2014-10-09T19:31:18 <adriens33> j'ai kick leta aussi.
+2014-10-09T19:31:22 <Letarumavza> yep
+2014-10-09T19:31:24 <Lenile> Mais tu n'a qu'a kick aussi Leta c:
+2014-10-09T19:31:31 <adriens33> mais il s'est reco
+2014-10-09T19:31:31 <Lenile> Ha j'avais pas vu
+2014-10-09T19:31:34 <adriens33> …
+2014-10-09T19:31:34 <Lenile> Autant pour moi.
+2014-10-09T19:31:38 <Lenile> Désoley
+2014-10-09T19:31:39 <Letarumavza> Autologin
+2014-10-09T19:31:46 <Lenile> bon.
+2014-10-09T19:31:55 <Lenile> J'vais faire une partit de Lol avec Elodie et sa frangine.
+2014-10-09T19:31:58 <Lenile> plus plus
+2014-10-09T19:31:59 <Lenile> Biz
+2014-10-09T19:32:17 <Letarumavza> Moi je me mare dans 47h30
+2014-10-09T19:32:21 <adriens33> chut toi !
+2014-10-09T19:32:26 <adriens33> t'en rajoutes pas je te prie !
+2014-10-09T19:32:31 <Lenile> Ha et Letar. Désoler pour tout ça.
+2014-10-09T19:32:35 <adriens33> j'peux pas te ban mais je me t'auto kicK.
+2014-10-09T19:32:39 <adriens33> *peux
+2014-10-09T19:32:43 <Lenile> Mais il y à juste une chose qui m'a énerver, rien de bien méchant n.n
+2014-10-09T19:33:02 <Lenile> C'est pas le fait d'avoir dit "Tu est sur d'etre un Brony"
+2014-10-09T19:33:11 <Lenile> Nan c'est ton avis ça libre à toi d'en avoir un n.n
+2014-10-09T19:33:27 <Lenile> Juste pour répondre à ta phrase (qui n'est pas bien méchante)
+2014-10-09T19:33:39 <Lenile> que tu à dit sur le fait que je choppe touts les numéros des filles de l'animasia.
+2014-10-09T19:33:51 <Lenile> Je n'est absolument rajouté PERSONNE sur facebook :)
+2014-10-09T19:33:57 <Lenile> Sauf peut etre Odessa.
+2014-10-09T19:34:04 <Letarumavza> Lenile, tu sais ce qu'est un MBR ?
+2014-10-09T19:34:06 <Lenile> Ouais elle je l'es rajoutée
+2014-10-09T19:34:09 <Lenile> N?ope
+2014-10-09T19:34:11 <Lenile> Nope*
+2014-10-09T19:34:12 <Letarumavza> Domage
+2014-10-09T19:34:21 <Lenile> C'est ta bombe que tu peut pas désactivée ?
+2014-10-09T19:34:25 <Letarumavza> Non
+2014-10-09T19:34:29 <Lenile> Comme t'avais fait croire à Adri ?
+2014-10-09T19:34:31 <Lenile> Ha ?
+2014-10-09T19:34:37 <Lenile> Bah va y raconte :)
+2014-10-09T19:34:45 <Letarumavza> 47h30 et tu saura.
+2014-10-09T19:35:05 <Letarumavza> (enfin 47h30 à la louche)
+2014-10-09T19:35:38 <Lenile> Bah si ça t'fait plaisir.
+2014-10-09T19:36:33 <Lenile> Au fait Letar.
+2014-10-09T19:36:37 <Lenile> Mon pc je m'en tape
+2014-10-09T19:36:46 <Lenile> Mais ta bien fait gaffe de pas bousiller celui de ma mère hein ?
+2014-10-09T19:36:52 <Lenile> S'juste pas cool pour elle quoi.
+2014-10-09T19:37:26 <Letarumavza> Sur la liste de mes priorités, c'est juste après la vérification des trajets migratoire des grues...
+2014-10-09T19:38:16 <Lenile> Bah écoute.
+2014-10-09T19:38:27 <Lenile> Si tu l'a fait par contre
+2014-10-09T19:38:37 <Lenile> Parce que j'ai un immence respect pour cette femme qui est ma mère
+2014-10-09T19:38:42 <Lenile> Je te calerais un proces au cul.
+2014-10-09T19:38:48 <Lenile> Je suis tout à fait serieux.
+2014-10-09T19:38:54 <Lenile> Mon pc je m'en tape.
+2014-10-09T19:39:02 <Lenile> Par contre l'irrespect pour ma mère.
+2014-10-09T19:39:06 <Lenile> ça je ne pardonne pas
+2014-10-09T19:39:29 <Letarumavza> Dr freud ! On a un oeudipe mal réglé !
+2014-10-09T19:39:44 <adriens33> *œdipe
+2014-10-09T19:40:05 <Letarumavza> adriens33, Enfoiré le linuxien !
+2014-10-09T19:40:13 <adriens33> hey
+2014-10-09T19:40:18 <Lenile> Letarumavza je te retourne la question
+2014-10-09T19:40:26 <Lenile> Est-ce que tu est sur d'être un Brony ?
+2014-10-09T19:40:39 <adriens33> le noctambule tu sais ce qu'il te dit le linuxien ?
+2014-10-09T19:40:48 <adriens33> Lenile…
+2014-10-09T19:40:50 <adriens33> s'il te plait…
+2014-10-09T19:41:03 <Lenile> non mais je suis désoler.
+2014-10-09T19:41:11 <Letarumavza> Que la différence entre toi et moi c'est la pathologie mentale que je me trimbale ma grosse.
+2014-10-09T19:41:47 <Letarumavza> Et qu'aller attaquer quelqu'un sur une pathologie incurable, c'est pas le must que tu puisses faire...
+2014-10-09T19:41:53 <Letarumavza> crétin
+2014-10-09T19:42:31 <Lenile> Mhhh
+2014-10-09T19:42:38 <Lenile> Excuse moi
+2014-10-09T19:42:50 <Lenile> tu crois que mon 19 ans en seconde c'est juste de la fainientise ?
+2014-10-09T19:43:12 <adriens33> lenile, s'il te plait, le provoque pas non plus… T.T
+2014-10-09T19:44:33 <Letarumavza> C'est lié à quoi, au fait d'avoir le cerveau dans la queue en étant micropénéen ?
+2014-10-09T19:44:49 <Letarumavza> (celle là je la retiens)
+2014-10-09T19:47:20 <Letarumavza> deux minutes se sont écoulées, Letarumavza troll vainqueur par K.O.
+2014-10-09T19:47:26 <Letarumavza> Champion incontesté du canal.
+2014-10-09T19:47:36 * Letarumavza s'auto congratule.
+2014-10-09T19:47:48 <Lenile> Mhhh ?
+2014-10-09T19:48:00 <Lenile> Désoler je faisait quelque chose de bien plus intelligent que toi :)
+2014-10-09T19:48:02 <Lenile> Bref.
+2014-10-09T19:48:14 <Lenile> Comme je l'est promis à une haute autoritée
+2014-10-09T19:48:28 <Letarumavza> Une heure à feed un troll.
+2014-10-09T19:48:42 <Letarumavza> Y'a pas à dire, tu fonces tête baissée ^^
+2014-10-09T19:49:05 <Lenile> Je m'xcuse moi Raphaël Chammah d'avoir été insolent envers toi Bertran alias Letarumavza. Je ne me rend pas contre du travail des developpeurs et j'ai porté des propos diffamatoire enversz ceux-ci et envers toi.
+2014-10-09T19:49:11 <Lenile> Excuse publiques. Fait
+2014-10-09T19:49:15 <Lenile> adriens33 est témoin
+2014-10-09T19:49:36 <Letarumavza> Perso je m'en carre, le but était de te faire courrir et péter un plomb pour un prétexte foireux.
+2014-10-09T19:49:37 <Lenile> Et je le pense Letar
+2014-10-09T19:49:40 <Lenile> Prend le comme tu veux.
+2014-10-09T19:49:49 <Lenile> Bah
+2014-10-09T19:49:51 <Lenile> Je sais
+2014-10-09T19:49:58 <Lenile> on m'a aussi dit que tu bluffais sur le MBR
+2014-10-09T19:49:58 <Letarumavza> La vie est un jeu pour moi.
+2014-10-09T19:50:00 <Lenile> Mais merci
+2014-10-09T19:50:16 <Lenile> j'ai réussit à prendre la main sur le petit morceau de paranoïa que j'ai dans le cerveux
+2014-10-09T19:50:32 <Letarumavza> Euh...
+2014-10-09T19:50:38 <Lenile> Oui, je suis attein d'une légère paranoïa.
+2014-10-09T19:50:45 <Letarumavza> Le MBR, c'était pas du bluff...
+2014-10-09T19:50:52 <Letarumavza> M'enfin pas grave ^^
+2014-10-09T19:51:20 <Lenile> Bah tu peut le désactivé de toute façon n.n
+2014-10-09T19:51:30 <Lenile> M'enfin. Le reste ne regarde que moi.
+2014-10-09T19:51:35 <Lenile> adriens33 est le témoin
+2014-10-09T19:51:52 <Lenile> Et voila.
+2014-10-09T19:51:53 <Letarumavza> adriens33, tu as les records de ludvann ?
+2014-10-09T19:51:57 <adriens33> arrêtez de me prendre à témoin, j'ai autre chose à foutre de ma vie que de vous regarder vous déchirer en public T.T
+2014-10-09T19:52:02 <Letarumavza> Je veux voir lequel des deux a tenu le plus longtemps ^^
+2014-10-09T19:52:02 <adriens33> je suis pas votre jouet moi T.T
+2014-10-09T19:52:13 <Lenile> J'ai surement tenu plus longtemps xD
+2014-10-09T19:52:17 <adriens33> toi avec ton concours de qui a la plus grosse tu m'emmerde lea
+2014-10-09T19:52:18 <Letarumavza> Euh...
+2014-10-09T19:52:20 <adriens33> *leta
+2014-10-09T19:52:30 <Lenile> Je suis une tête de mule xD
+2014-10-09T19:52:30 <Letarumavza> Ludvann nous en a fait une belle...
+2014-10-09T19:52:32 <adriens33> et toi lenile continuer à le chercher c'était pas malin non plus
+2014-10-09T19:52:43 <adriens33> bah t'es grand, tu va le chercher le log, il est sur le github T.T
+2014-10-09T19:52:50 <Letarumavza> Je crois que c'est notre champion dans la catégorie boulet ^^
+2014-10-09T19:52:54 <Lenile> Nan mais Leta c'est bon Leta j'suis calmer. C'était drole quand même Gg ( et je dit même pas ça par ironie
+2014-10-09T19:52:55 <adriens33> tiens, j'te file le lien si t'es trop feignant
+2014-10-09T19:53:03 <adriens33> https://github.com/bronycub/berry-punch
+2014-10-09T19:53:04 <Letarumavza> Pas vrais adriens33, l'histoire de la pétition ^^
+2014-10-09T19:53:14 <Lenile> La pétition pour te viré ?
+2014-10-09T19:53:24 <adriens33> putain mais stoppez vous bordel :'(
+2014-10-09T19:53:24 <Letarumavza> ah, y'a eu ça ?
+2014-10-09T19:53:34 <Lenile> Ons est calmes adriens33
+2014-10-09T19:53:38 <Lenile> Pas vrai Letarumavza
+2014-10-09T19:53:39 <Lenile> ?
+2014-10-09T19:53:40 <adriens33> ouais c'est ça…
+2014-10-09T19:53:40 <adriens33> T.T
+2014-10-09T19:53:51 <Letarumavza> adriens33, une pétition pour me virer, je trouve ça flatteur ^^
+2014-10-09T19:53:53 <adriens33> amitié et respect, hein ?
+2014-10-09T19:53:57 <adriens33> pff…
+2014-10-09T19:54:00 <adriens33> que du vent…
+2014-10-09T19:54:08 <Lenile> adriens33 Les brony ~
+2014-10-09T19:54:27 <Lenile> Letar ?
+2014-10-09T19:54:30 <Lenile> Juste pour etre sur.
+2014-10-09T19:54:35 <Lenile> M'enfin
+2014-10-09T19:54:35 <Letarumavza> oui ?
+2014-10-09T19:54:39 <Lenile> Juste pour rire
+2014-10-09T19:54:44 <Letarumavza> Grouilles, j'ai envie de pisser.
+2014-10-09T19:54:51 <Lenile> J'ai quoi dans mon dossier "Mes documents" ?
+2014-10-09T19:54:57 <Lenile> Okay okay o.o
+2014-10-09T19:55:10 <Letarumavza> J4ai pas que ça à foutre de faire de la cartographie de chemins
+2014-10-09T19:55:16 <Lenile> xD
+2014-10-09T19:55:18 <Lenile> xD
+2014-10-09T19:55:22 <Lenile> Fail ~
+2014-10-09T19:55:41 <Lenile> Je sais que t'en est capable mais je voulais voir en combien de temps.
+2014-10-09T19:55:43 <Lenile> Aller plus simple
+2014-10-09T19:55:59 <Lenile> Le numéro de téléphone sur mon bureau
+2014-10-09T19:56:03 <Lenile> C'est quoi ?
+2014-10-09T19:58:01 <Letarumavza> re
+2014-10-09T19:58:24 <Lenile> Rer
+2014-10-09T19:58:50 <Letarumavza> Tain l'eau est glaciale dans le lavabo de mes chiottes c'est une horreur...
+2014-10-09T19:59:32 <Lenile> Tu trempe ton cul dans l'eau des toilettes toi ? O.O
+2014-10-09T20:00:07 <Letarumavza> 0o
+2014-10-09T20:00:26 <Letarumavza> T'as picolé ?
+2014-10-09T20:00:58 <Lenile> Non pourquoi ? o.o
+2014-10-09T20:01:37 <Lenile> Ha ouais j'ai compris ._.
+2014-10-09T20:01:45 <Lenile> Tu te lave les mains apres la sortit des chiottes ? e.e
+2014-10-09T20:01:46 <adriens33> ouai, il a un lavabo dans les chiottes
+2014-10-09T20:02:03 <adriens33> bah lenile
+2014-10-09T20:02:07 <Letarumavza> Euh...
+2014-10-09T20:02:07 <adriens33> c'est un peu la base non ?
+2014-10-09T20:02:15 <adriens33> de se laver les mains quant tu sors des wc
+2014-10-09T20:02:20 <adriens33> *quand
+2014-10-09T20:02:25 <Lenile> adriens33 je me lave jamais les mains à la sortit des chiottes ._.
+2014-10-09T20:02:31 <Letarumavza> ...
+2014-10-09T20:02:39 <adriens33> même quand tu chie ?
+2014-10-09T20:02:43 <adriens33> Berk ><
+2014-10-09T20:02:52 <Lenile> Bah je me touche pas le trou du cul ._.
+2014-10-09T20:02:53 <Letarumavza> non carrément mec, là t'es crade...
+2014-10-09T20:02:54 <adriens33> rappelle moi de jamais venir bouffer chez toi…
+2014-10-09T20:02:57 <adriens33> bah même
+2014-10-09T20:02:59 <Lenile> xD
+2014-10-09T20:03:03 <adriens33> les bactéries ça vole ><
+2014-10-09T20:03:08 <Lenile> Je me lave les mains selon les situations
+2014-10-09T20:03:22 <Lenile> Letar : Parle pour toi 8D
+2014-10-09T20:03:33 <Letarumavza> (d'un autre coté, quand je vais pisser je me lave les mains avant et après)
+2014-10-09T20:03:35 <adriens33> dans l'idéal s'tu fais que pisser, faudrait même faire avant et après.
+2014-10-09T20:03:42 <adriens33> (voilà)
+2014-10-09T20:03:50 <Lenile> Techniquement
+2014-10-09T20:03:54 <Lenile> l'urine ça tue les microbes
+2014-10-09T20:04:04 <adriens33> sauf que en pratique
+2014-10-09T20:04:09 <adriens33> bah y'en a plein.
+2014-10-09T20:04:19 <adriens33> c'est pas stérile l'urine, hein.
+2014-10-09T20:04:27 <Lenile> Nan nan l'urine c'est stérile.
+2014-10-09T20:04:27 <Letarumavza> carrément...
+2014-10-09T20:04:33 <Lenile> Donc 0 bactéries
+2014-10-09T20:04:46 <Lenile> tout se qui sort du corps c'est stérile
+2014-10-09T20:04:47 <adriens33> ouais.... à la sortie des reins je veux bien.
+2014-10-09T20:04:47 <adriens33> pas après.
+2014-10-09T20:04:50 <Lenile> Ou juste pathogène
+2014-10-09T20:05:05 <Letarumavza> http://fr.wikipedia.org/wiki/Staphylococcus
+2014-10-09T20:05:41 <Letarumavza> http://fr.wikipedia.org/wiki/Staphylococcus_saprophyticus
+2014-10-09T20:05:56 <Letarumavza> et là j'en cite juste un dans le tas
+2014-10-09T20:06:07 <adriens33> sauf si tu te lave la vessie toutes les heures à l'alcool à 90°C
+2014-10-09T20:06:07 <Berry-Punch> J'aimerais bien *hic* en reprendre, mais Colgate va se fâcher après…
+2014-10-09T20:06:19 <adriens33> parce que sinon les germes ça se développe partout.
+2014-10-09T20:06:30 <adriens33> regarde ta peau au microscope, t'auras plus envie de te toucher les doigts.
+2014-10-09T20:06:32 <Lenile> Le staphilocoque c'est une organisation des bactéries.
+2014-10-09T20:06:51 <Lenile> en grappe
+2014-10-09T20:07:03 <Lenile> apres tout dépend de la bactérie
+2014-10-09T20:07:18 <Letarumavza> http://fr.wikipedia.org/wiki/Streptocoque
+2014-10-09T20:07:28 <Lenile> Mais en générale l'organisme défonce touts les Staphilocoque
+2014-10-09T20:07:48 <Letarumavza> "en général"
+2014-10-09T20:07:50 <Lenile> Le Strptocoque c'est autre chose encore
+2014-10-09T20:07:55 <Lenile> C'est une autre organisation
+2014-10-09T20:07:59 <adriens33> donc c'est une raison pour refiler tes staphilocoques qui sortent de ta vessie à tes invités en guise de repas ?
+2014-10-09T20:08:00 <adriens33> merci bien.
+2014-10-09T20:08:10 <Lenile> adriens33 j'suis pas aussi crade 8D
+2014-10-09T20:08:22 <Lenile> J'me lave les mains quand il y à des inviters
+2014-10-09T20:08:31 <Lenile> Pis je fait toujour pipi le soir avant de me doucher
+2014-10-09T20:08:35 <Lenile> Apres je fait plus pipi
+2014-10-09T20:08:47 <Letarumavza> http://www.larousse.fr/dictionnaires/francais/lavabo/46439?q=lavabo#46361
+2014-10-09T20:08:59 <Letarumavza> w00t ?
+2014-10-09T20:09:07 <Lenile> Et puis, encore adriens j'veux bien e.e
+2014-10-09T20:09:12 <Lenile> Mais toi letar me faire la moral.
+2014-10-09T20:09:16 <Letarumavza> ok... le message qui pop avec 10min de retard.
+2014-10-09T20:09:19 <adriens33> je fais pas la morale moi…
+2014-10-09T20:09:26 <adriens33> je te donne mon point de vue…
+2014-10-09T20:09:26 <Lenile> Alors que c'est cher toi que quand j'ai touché une pate crue il y avais de la mort au rat dessus e.e
+2014-10-09T20:09:43 <Letarumavza> C'est le principe d'un appat piégé...
+2014-10-09T20:10:00 <Letarumavza> Un truc comestible avec un poison...
+2014-10-09T20:10:47 <Lenile> Bah ouais mais j'ai jamais eu ça cher moi e.e
+2014-10-09T20:10:49 <Lenile> des rats e.e
+2014-10-09T20:10:58 <Lenile> Même quand j'habitait dans une maison e.e
+2014-10-09T20:11:01 <Letarumavza> T'as un jardin potager et des oiseaux avec du grain ?
+2014-10-09T20:11:05 <Lenile> J'avais
+2014-10-09T20:11:12 <Lenile> Mes grand parents ont dailleur
+2014-10-09T20:11:17 <Lenile> Et n'ont jamais eu de rat e.e
+2014-10-09T20:11:23 <Letarumavza> Ils sont en ville ?
+2014-10-09T20:11:26 <Lenile> Ouaip'
+2014-10-09T20:11:36 <Lenile> C'est au moin autant la ville que cher toi
+2014-10-09T20:11:36 <Letarumavza> Bah coups de bol pour eux.
+2014-10-09T20:11:41 <Lenile> Bah non ._.
+2014-10-09T20:11:42 *** Gordfang est parti
+2014-10-09T20:12:01 <Lenile> S'juste que cher mes grands parents il y à pas un pet de poussière e.e
+2014-10-09T20:12:07 <Letarumavza> Mais avec du grain et un potager, les rats, c'est un risque inhérent.
+2014-10-09T20:12:08 <Lenile> Mon grand père à même un atelier à bois !
+2014-10-09T20:12:36 <Lenile> Attend ils ont un jardin/potager, une cave qui fait office de menuiserie, un local de rangement et un composte
+2014-10-09T20:12:41 <Letarumavza> Et il a jamais eu le moindre rat ?
+2014-10-09T20:12:44 <Lenile> Et 0 rats ._.
+2014-10-09T20:12:54 <Lenile> Ils ont même un chien ._.
+2014-10-09T20:13:02 <Letarumavza> cherches pas...
+2014-10-09T20:13:15 <Letarumavza> Si ils ont le chien dans la maison normal que les rats ne viennent pas.
+2014-10-09T20:13:28 <Lenile> Bah au moin dans la menuiserie les rats
+2014-10-09T20:13:31 <Letarumavza> Mais moi mes clebs sont pas foutus de les chopper...
+2014-10-09T20:13:34 <Lenile> Le chien n'y va jamais
+2014-10-09T20:13:45 <Lenile> Et toi t'a 2 chiens et des chats ._.
+2014-10-09T20:13:50 <Lenile> S'bien toi qui à les chats hein ?
+2014-10-09T20:14:01 <Letarumavza> Un chat, qui... se fout totalement des rats.
+2014-10-09T20:14:08 <Letarumavza> (enfin, il les regarde passer)
+2014-10-09T20:14:14 <Letarumavza> Et j'ai eu des rats qu'une semaine.
+2014-10-09T20:14:15 <Lenile> Bah écoute leur chien aussi ne chasse pas les rats...
+2014-10-09T20:14:20 <Lenile> Il en à jamais vu en plus ._.
+2014-10-09T20:14:26 <Letarumavza> Avec les appats, je les ai couchés.
+2014-10-09T20:14:39 <adriens33> tiens /away ça a une utilité ? O.o
+2014-10-09T20:14:43 <adriens33> je savais pas.
+2014-10-09T20:14:54 <Letarumavza> Bah y'avait jamais eu de rat chez moi jusqu'à récement.
+2014-10-09T20:14:57 <Lenile> Letar j'veux pas etre mechant hein... Mais s'juste que cher toi il y à des choses stoker de partout. et il y à masse poussière
+2014-10-09T20:15:09 <Lenile> J't'aurais bien aidé à tout réorganisé
+2014-10-09T20:15:14 <Lenile> Mais j'ai peur de ta cave...
+2014-10-09T20:15:19 <Letarumavza> Et puis y'a un boisin qui a déménagé, et 2-4 jours après on en avait.
+2014-10-09T20:15:34 <Lenile> Ha ça je veux bien te croire
+2014-10-09T20:15:40 <Letarumavza> Donc ils devaient venir de là, mais le problème est réglé.
+2014-10-09T20:15:45 <Lenile> On à eu une masse de cafard en alsace apres le passage d'un voisin asser crade
+2014-10-09T20:16:00 <adriens33> beuh… ><
+2014-10-09T20:16:25 <Letarumavza> après, y'a des souris chez moi, mais ça... je dois t'avouer que je m'en fous, elles me gênent pas, et elles s'en prennent pas à la bouffe (boites en métal)
+2014-10-09T20:16:28 <Lenile> adriens33 s'pas pire que les rats...
+2014-10-09T20:16:43 <Letarumavza> Les cafards ? si.
+2014-10-09T20:16:49 <adriens33> ouais… m'enfin moi y'a deux ans j'étais dans une chambre étudiant dans un village du crous…
+2014-10-09T20:16:50 <Letarumavza> Beaucoup plus chiant à virer que les rats.
+2014-10-09T20:16:51 <Lenile> Les souris et les rats ça rentre dans le même sac è.é
+2014-10-09T20:16:54 <adriens33> rempli de cafards partout…
+2014-10-09T20:17:04 <adriens33> t'ouvre l'abat jour en verre de la lampe de chevet
+2014-10-09T20:17:07 <Lenile> S'mignons les cafard ~
+2014-10-09T20:17:10 <adriens33> y'en a trouze mille de morts…
+2014-10-09T20:17:21 <adriens33> j'en étais à un point ou le jour ou j'ai vu une grosse araignée
+2014-10-09T20:17:24 <adriens33> j'étais soulagé de voir ça
+2014-10-09T20:17:32 <adriens33> plutot qu'un cafard
+2014-10-09T20:17:35 <Letarumavza> Les souris ne mangent pas les cables, et en plus elles sont sympa et aprivoisables.
+2014-10-09T20:17:37 <adriens33> alors que je suis arachnophobe…
+2014-10-09T20:17:51 <Letarumavza> Oo toi soulagé de voir un truc à huit pattes ?
+2014-10-09T20:17:53 <Letarumavza> damned !
+2014-10-09T20:17:54 <adriens33> oui !!
+2014-10-09T20:18:03 <adriens33> mais les cafards y'en avait partout T.T
+2014-10-09T20:18:12 <adriens33> j'avais la fenêtre uqi moisissait à cause de l'isolation
+2014-10-09T20:18:30 <adriens33> en hiver j'avais de la buée sur la vitre qui dégoulinait en dessous…
+2014-10-09T20:18:40 <adriens33> enfin une chambre du crous, quoi
+2014-10-09T20:18:48 <adriens33> c'pas cher
+2014-10-09T20:18:52 <adriens33> mais j'y retournerai plus T.T
+2014-10-09T20:18:55 <adriens33> jamais…
+2014-10-09T20:19:06 <Letarumavza> Même ma cave est mieux ^^
+2014-10-09T20:19:21 <Lenile> Bref
+2014-10-09T20:19:23 <Lenile> je vais joué
+2014-10-09T20:19:28 <Lenile> voir mon level alakon sur lol
+2014-10-09T20:19:29 <Lenile> Plus
+2014-10-09T20:19:34 <Lenile> !quit
+2014-10-09T20:19:37 <Lenile> ...
+2014-10-09T20:19:38 *** Lenile est parti
+2014-10-09T20:38:11 *** MaCharon est parti
+2014-10-09T20:38:29 *** MaCharon s'est connecté
+2014-10-09T20:39:45 *** Tsumenokage s'est connecté
+2014-10-09T20:40:00 <Tsumenokage> Salut
+2014-10-09T20:41:09 <adriens33> salut
+2014-10-09T21:01:30 *** Lenile s'est connecté
+2014-10-09T21:01:32 <Lenile> Reuh ♪
+2014-10-09T21:01:40 <Lenile> J'aime bien gagné ~
+2014-10-09T21:01:42 <Tsumenokage> re
+2014-10-09T21:01:48 <Lenile> Salut Tsume
+2014-10-09T21:02:14 <Lenile> C'est bon Letarumavza tu me retire ton truc de mon réseau ? 8D
+2014-10-09T21:02:29 <adriens33> c'est pas ddans le réseau…
+2014-10-09T21:02:35 <adriens33> le mbr c'est le premier secteur de ton disque dur
+2014-10-09T21:02:44 <adriens33> là ou y'a le prog qui démarre windows
+2014-10-09T21:02:49 <adriens33> (en très gros)
+2014-10-09T21:10:14 <Lenile> S'pas grave ça 8D
+2014-10-09T21:11:37 <adriens33> si...
+2014-10-09T21:11:47 <adriens33> c'est dans ta machine, donc c'est mort.
+2014-10-09T21:11:48 <adriens33> :p
+2014-10-09T21:11:52 <adriens33> sauf s'il le désactive
+2014-10-09T21:12:19 <Lenile> Bah c'est ça le but 8D
+2014-10-09T21:12:38 <adriens33> comment ça ?
+2014-10-09T21:13:16 <Lenile> Qu'il me le retire ? ._.
+2014-10-09T21:13:25 <adriens33> hm.
+2014-10-09T21:13:34 <adriens33> bah demande lui..
+2014-10-09T21:14:11 <Lenile> C'est se que je fait la 8D
+2014-10-09T21:14:52 <adriens33> ok
+2014-10-09T21:27:12 *** Lenile est parti
+2014-10-09T22:08:56 *** NoPony s'est connecté
+2014-10-09T22:12:32 *** Silou est parti
+2014-10-09T22:24:39 *** Tsumenokage__ s'est connecté
+2014-10-09T22:25:03 *** Bybeez s'est connecté
+2014-10-09T22:25:14 <Bybeez> Salut les gens !
+2014-10-09T22:26:08 <Letarumavza> meuh
+2014-10-09T22:26:29 <Bybeez> Comment ça va ?
+2014-10-09T22:26:40 <Letarumavza> meuh
+2014-10-09T22:26:59 <Bybeez> patate !
+2014-10-09T22:27:06 <Letarumavza> meuh
+2014-10-09T22:27:17 *** Tsumenokage est parti
+2014-10-09T22:27:21 <Bybeez> Patate !
+2014-10-09T22:27:30 <Letarumavza> meuh
+2014-10-09T22:27:38 <Bybeez> patate !
+2014-10-09T22:27:43 <Letarumavza> meuh
+2014-10-09T22:27:43 <adriens33> soir Bybeez
+2014-10-09T22:27:48 <adriens33> Letarumavza qui meuh…
+2014-10-09T22:27:56 <Bybeez> 'soir adriens
+2014-10-09T22:27:57 <Berry-Punch> Flags de *hic* Tsumenokage__ modifiés : +v
+2014-10-09T22:27:57 <adriens33> !voice Tsumenokage__
+2014-10-09T22:27:59 <Bybeez> patate !
+2014-10-09T22:28:03 <Letarumavza> meuh
+2014-10-09T22:28:03 <adriens33> c'toi la patate
+2014-10-09T22:28:13 <adriens33> c'est qui nopony ? o.o
+2014-10-09T22:28:25 <Bybeez> Aucune idée, je viens d'arriver
+2014-10-09T22:28:28 <Letarumavza> meuh
+2014-10-09T22:28:30 <adriens33> hmm... l'adresse me dit quelque chose..
+2014-10-09T22:28:38 <adriens33> sweetieBelle@une adresse free..
+2014-10-09T22:28:47 <Letarumavza> Je peux ?
+2014-10-09T22:28:49 <adriens33> quoi ?
+2014-10-09T22:28:52 <Letarumavza> Devines
+2014-10-09T22:28:55 <adriens33> ^w^
+2014-10-09T22:28:57 <adriens33> l'abime pas
+2014-10-09T22:30:54 <Letarumavza> je trouve ça à rennes
+2014-10-09T22:31:11 <adriens33> hmm..
+2014-10-09T22:31:18 <Letarumavza> silou ?
+2014-10-09T22:31:55 <Letarumavza> (Le problème avec free, c'est qu'avec leurs redirs je suis pas sur d'avoir la bonne localisation)
+2014-10-09T22:32:11 <Letarumavza> 3 Place Henri Terrière, 35200 Rennes
+2014-10-09T22:32:46 <adriens33> ouais c'est lui
+2014-10-09T22:32:51 <NoPony> Re, dsl
+2014-10-09T22:32:55 <NoPony> Freenode qui déconne
+2014-10-09T22:32:59 <NoPony> Je suis passé sur le 3eme nick
+2014-10-09T22:33:04 <adriens33> (je viens de trouver une trace de co dans mon log ^^)
+2014-10-09T22:33:06 <Letarumavza> ^^
+2014-10-09T22:33:13 <Letarumavza> Je suis content ^^
+2014-10-09T22:33:33 <Letarumavza> Tu dépends bien du relai à cette adresse ?
+2014-10-09T22:45:52 <Bybeez> Bon, je vous laisse bonne nuit les patates !
+2014-10-09T22:45:57 *** Bybeez est parti
+2014-10-09T23:40:36 *** TrappyTickles est parti
+2014-10-09T23:51:09 *** Tsumenokage_ s'est connecté
+2014-10-09T23:54:18 *** Tsumenokage__ est parti

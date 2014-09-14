@@ -1,0 +1,391 @@
+2014-10-11T00:00:37 *** adriens33 est parti
+2014-10-11T00:14:17 *** TrappyTickles est parti
+2014-10-11T00:28:04 <Tsumenokage> bon bonne nuit les gens moi je vais me coucher aussi
+2014-10-11T00:28:09 <Tsumenokage> @+
+2014-10-11T00:28:20 *** Tsumenokage est parti
+2014-10-11T00:29:17 <ludvann> ouah
+2014-10-11T00:29:28 <ludvann> j'suis crevé ^^
+2014-10-11T00:29:38 <ludvann> neunuit aux gens qui dorment pas ^^
+2014-10-11T00:29:41 *** ludvann est parti
+2014-10-11T00:42:53 *** Gordfang est parti
+2014-10-11T01:06:11 *** bite est parti
+2014-10-11T07:13:46 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, adriens33 *hic* 
+2014-10-11T07:13:48 *** adriens33 s'est connecté
+2014-10-11T08:56:39 *** TrappyTickles s'est connecté
+2014-10-11T09:28:16 *** Trappy_Tickles s'est connecté
+2014-10-11T09:30:21 *** TrappyTickles est parti
+2014-10-11T09:31:53 *** TrappyTickles s'est connecté
+2014-10-11T09:33:16 *** Trappy_Tickles est parti
+2014-10-11T09:55:15 *** Trappy_Tickles s'est connecté
+2014-10-11T09:56:54 *** TrappyTickles est parti
+2014-10-11T10:27:49 *** Tsumenokage s'est connecté
+2014-10-11T10:28:05 <Tsumenokage> Salut
+2014-10-11T10:28:19 *** TrappyTickles s'est connecté
+2014-10-11T10:30:05 *** Trappy_Tickles est parti
+2014-10-11T10:48:00 <adriens33> salut
+2014-10-11T10:48:12 <adriens33> trappy qui pollue le chan… XD
+2014-10-11T10:48:32 <Tsumenokage> ^^
+2014-10-11T10:52:27 *** ludvann s'est connecté
+2014-10-11T10:52:35 <ludvann> hellow
+2014-10-11T10:53:36 <adriens33> oh !
+2014-10-11T10:53:39 <adriens33> un revenant !
+2014-10-11T10:53:41 <adriens33> salut toi !
+2014-10-11T10:53:44 <Tsumenokage> salut ludvann
+2014-10-11T10:53:51 <adriens33> ça fait combien de temps que t'étais pas venu ? XD
+2014-10-11T11:06:33 <adriens33> (veent)
+2014-10-11T11:06:54 <Letarumavza> Coucou ludvann...
+2014-10-11T11:07:00 <adriens33> salut Letarumavza
+2014-10-11T11:07:10 <Tsumenokage> Salut Letarumavza
+2014-10-11T11:07:11 <adriens33> j'aime les points de suspension dans ta phrase >:)
+2014-10-11T11:07:26 <adriens33> en mode "salut toi... tu veux mourir gnek gnek gnek ?"
+2014-10-11T11:08:07 <Letarumavza> Euh, un pneu excessif là.
+2014-10-11T11:08:13 <adriens33> tu crois ?
+2014-10-11T11:08:15 <adriens33> ah bon.
+2014-10-11T11:08:54 <adriens33> n'empêche pour troller il est fort ce con. il lui a suffit de se connecter et de dire bonjour…
+2014-10-11T11:09:10 <Tsumenokage> Dat troll en effet XD
+2014-10-11T11:09:20 <adriens33> ah, au fait ludvann: le programmeur du bot mal codé il t'emmerde. avec tout son amour bien sur <3
+2014-10-11T11:09:34 <adriens33> (oui, je lis tous les logs)
+2014-10-11T11:09:42 <adriens33> bawi
+2014-10-11T11:09:50 <Tsumenokage> (savais pas ^^)
+2014-10-11T11:09:51 <adriens33> mais il a de la chance, hier soir j'étais pas dispo.
+2014-10-11T11:10:14 <adriens33> (un simple script bash qui se co sur irc et réagit à certaines phrases en utilisant des expressions régulières en fait)
+2014-10-11T11:10:15 <Letarumavza> Combien de lignes sur berry ?
+2014-10-11T11:10:27 <adriens33> de ? de lignes de code ? ou de log ?
+2014-10-11T11:10:28 *** bite s'est connecté
+2014-10-11T11:10:34 *** Trappy_Tickles s'est connecté
+2014-10-11T11:10:34 <Letarumavza> code
+2014-10-11T11:10:41 <adriens33> euuuh faut que j'compte
+2014-10-11T11:10:46 <bite> yo
+2014-10-11T11:11:07 <Letarumavza> Je pense pas.
+2014-10-11T11:11:08 <adriens33> pas trop en fait, j'ai commit ça comme un malade en quelques jours au taf.
+2014-10-11T11:11:16 <Letarumavza> Le script est ultra simple en fait
+2014-10-11T11:11:24 <adriens33> j'avais rien à bosser, je m'emmerdais, et j'avais envie de tester le protocole irc à la mano.
+2014-10-11T11:11:32 <Tsumenokage> tu rentabilises tes heures de boulot je vois XD
+2014-10-11T11:11:33 <adriens33> (rfc 1459 si tu veux y jeter un œil)
+2014-10-11T11:11:37 <Letarumavza> C'est un bot sans IV et sans template.
+2014-10-11T11:11:46 <adriens33> bah c'est un script bash leta…
+2014-10-11T11:12:06 <Letarumavza> Oui, d'où la dite simplicité.
+2014-10-11T11:12:16 <Letarumavza> (tu peux faire des templates en bash)
+2014-10-11T11:12:21 <Tsumenokage> faudra que je regarde le code de Berry en effet
+2014-10-11T11:12:26 <Letarumavza> C'est juste pas worth it
+2014-10-11T11:12:31 <adriens33> https://github.com/bronycub/berry-punch
+2014-10-11T11:12:33 *** TrappyTickles est parti
+2014-10-11T11:12:45 <adriens33> bah j'ai codé ça vite fait, mais c'est plus flexible que le prog que j'avais installé avant.
+2014-10-11T11:12:58 <adriens33> et là j'ai pas réussi à faire la v3 encore, pas la motivation*
+2014-10-11T11:13:43 <adriens33> sinon Letarumavza pour répondre à ta question, en comptant à la barbare (donc shebang et lignes vides comprises) j'en suis à 768
+2014-10-11T11:13:51 <adriens33> (donc quedal)
+2014-10-11T11:14:10 <adriens33> et 912
+2014-10-11T11:14:13 <adriens33> en comptant la config
+2014-10-11T11:14:22 <adriens33> (y'a les regexp dedans)
+2014-10-11T11:14:29 <Letarumavza> 278 lignes sur zecora
+2014-10-11T11:14:35 <Letarumavza> En comptant les commentaires.
+2014-10-11T11:14:49 <adriens33> oui, mais en python. c'est pas la même chose ^^
+2014-10-11T11:15:25 <Letarumavza> à ce sujet, j'ai toujours pas réglé mon problème avec la commande kick
+2014-10-11T11:15:34 <Letarumavza> if (command[0] == "kick"): #syntaxe : $kick <nick> #kick de la personne
+2014-10-11T11:15:34 <Letarumavza>                     t = 'trytest'
+2014-10-11T11:15:35 <Letarumavza>                     try :
+2014-10-11T11:15:35 <Letarumavza>                         t = command[2]
+2014-10-11T11:15:35 <Letarumavza>                         raison = ' '.join(command[2:])
+2014-10-11T11:15:35 <Letarumavza>                     except IndexError:
+2014-10-11T11:15:37 <Letarumavza>                         raison = ('il doit partir, sans coups férir.')%(command[1])
+2014-10-11T11:15:39 <Letarumavza>                     print ('KICK ' + channel +' '+ command[1] +' :'+ raison)
+2014-10-11T11:15:41 <Letarumavza>                     self.irc_sock.send(('KICK ' + channel +' '+ command[1] + ((' :%s rn')%(raison)) ).encode())
+2014-10-11T11:15:44 <Letarumavza>                     print("kick ",command[1])
+2014-10-11T11:16:17 <Letarumavza> En l'absence d'une commande elle n'a pas la même réaction que quand elle en a une.
+2014-10-11T11:16:31 <Letarumavza> Démonstration, ludvann c'est pour la science.
+2014-10-11T11:16:41 *** Zecora_bot s'est connecté
+2014-10-11T11:16:46 <ludvann> re
+2014-10-11T11:16:49 <adriens33> (je pourrai pas t'aider là, j'ai pas la tete à ça en ce moment :S)
+2014-10-11T11:16:59 <Letarumavza> Donc regardes
+2014-10-11T11:17:01 <ludvann> désolé j'ai eut un petit empèchement  ^^'
+2014-10-11T11:17:02 <adriens33> mais Tsumenokage fait de l'info aussi :3
+2014-10-11T11:17:23 <Tsumenokage> yep, et tjs pret a aider sur les proj d'ailleurs
+2014-10-11T11:17:23 <Letarumavza> $kick ludvann raison
+2014-10-11T11:17:36 *** ludvann s'est connecté
+2014-10-11T11:17:39 <Letarumavza> Tu vois, avec un argument, ça marche
+2014-10-11T11:17:41 <ludvann> mais euh :(
+2014-10-11T11:17:43 <Letarumavza> mais si je fais
+2014-10-11T11:17:59 <Letarumavza> $kick chell
+2014-10-11T11:18:04 <Letarumavza> là j'ai une erreur
+2014-10-11T11:18:12 <chell> yo glados ?
+2014-10-11T11:18:21 <chell> y a *
+2014-10-11T11:18:31 <Tsumenokage> ^^
+2014-10-11T11:18:31 <adriens33> $kick chell meurs
+2014-10-11T11:18:42 <adriens33> tiens, zecora m'aime plus.
+2014-10-11T11:18:43 <ludvann> science
+2014-10-11T11:18:46 <ludvann> xD
+2014-10-11T11:18:47 <adriens33> elle a ses règles ? XD
+2014-10-11T11:18:52 <adriens33> !kick ludvann meurs quand même
+2014-10-11T11:18:56 <adriens33> eh eh
+2014-10-11T11:19:00 <Tsumenokage> XD
+2014-10-11T11:19:08 <adriens33> (ça me démangeait)
+2014-10-11T11:19:09 *** ludvann s'est connecté
+2014-10-11T11:19:22 <ludvann> mais euh
+2014-10-11T11:19:23 <Tsumenokage> je peux moi aussi ? Xp
+2014-10-11T11:19:27 <Letarumavza> TypeError : not all arguments converted during string formating (l'erreur de zecora)
+2014-10-11T11:19:40 <ludvann> j'en marre d'être tout le temps cobaie xD
+2014-10-11T11:19:44 <Letarumavza> Et non, zecora plante sur une demande de kick sans param
+2014-10-11T11:19:46 <ludvann> cobay*
+2014-10-11T11:19:52 <Letarumavza> ?
+2014-10-11T11:19:57 <adriens33> Tsumenokage: faut que je t'ajoute la permissionn
+2014-10-11T11:19:59 <adriens33> mais why not
+2014-10-11T11:20:03 <Letarumavza> ...
+2014-10-11T11:20:05 <ludvann> ...
+2014-10-11T11:20:09 <Tsumenokage> ...
+2014-10-11T11:20:18 <ludvann> :-D
+2014-10-11T11:20:28 <adriens33> !reload
+2014-10-11T11:20:30 <adriens33> ayé
+2014-10-11T11:20:35 <Letarumavza> oh le con...
+2014-10-11T11:20:37 <adriens33> eh eh
+2014-10-11T11:20:39 <Letarumavza> oh le con...
+2014-10-11T11:20:45 <Letarumavza> Oh putain le con...
+2014-10-11T11:20:52 <adriens33> Letarumavza: bakwa ?
+2014-10-11T11:20:53 <ludvann> nothing to do here
+2014-10-11T11:20:54 <Letarumavza> J'ai foutu un try à la place d'un if...
+2014-10-11T11:20:57 <adriens33> AH AH AH
+2014-10-11T11:21:03 <adriens33> pardon.
+2014-10-11T11:21:03 <Tsumenokage> XD
+2014-10-11T11:21:04 <adriens33> :3
+2014-10-11T11:21:06 * Letarumavza facedesk.
+2014-10-11T11:21:10 *** ludvann est parti
+2014-10-11T11:21:12 <adriens33> Tsumenokage: tu peux kick, fais toi plais
+2014-10-11T11:21:14 <adriens33> merde…
+2014-10-11T11:21:14 *** Zecora_bot est parti
+2014-10-11T11:21:24 <adriens33> le con s'est tiré :')
+2014-10-11T11:21:27 <Tsumenokage> rhho
+2014-10-11T11:21:27 <adriens33> il a eu peur
+2014-10-11T11:21:33 <Tsumenokage> il est parti trop tot XD
+2014-10-11T11:21:33 <adriens33> l'est même pas drole.
+2014-10-11T11:21:40 <Letarumavza> Hum...
+2014-10-11T11:21:41 *** ludvann s'est connecté
+2014-10-11T11:21:48 <ludvann> j'ai oublié mes clées
+2014-10-11T11:21:55 <Tsumenokage> !kick ludvann bon retour xp
+2014-10-11T11:22:01 <Letarumavza> Comment tu testes l'existence d'une var en python déjà ?
+2014-10-11T11:22:10 <Letarumavza> (bordel de langage haut niveau...à
+2014-10-11T11:22:15 <Tsumenokage> XD merci adriens33 (promis j'en abuse pas)
+2014-10-11T11:22:30 <adriens33> Letarumavza: euuuh
+2014-10-11T11:22:39 <Tsumenokage> le python peut pas t'aider je m'y suis mis y'a moin d'une semain dsl
+2014-10-11T11:22:53 <adriens33> http://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists-in-python
+2014-10-11T11:22:54 <Letarumavza> Bon, vous faites pas chier
+2014-10-11T11:23:02 <adriens33> première réponse. ^^
+2014-10-11T11:23:08 <adriens33> vive stackoverflow
+2014-10-11T11:23:21 <Letarumavza> Marche pas pour une part de string parsée.
+2014-10-11T11:23:24 <adriens33> ah.
+2014-10-11T11:23:35 <Tsumenokage> en TP d'info a l'iut ce site etait tellement utile ;)
+2014-10-11T11:23:40 <Letarumavza> ça va toujours me dire qu'elle existe, mais elle correspondra à du vide.
+2014-10-11T11:23:50 <Letarumavza> ...
+2014-10-11T11:24:08 <Letarumavza> if (var == ""):
+2014-10-11T11:24:14 <Letarumavza> string vide...
+2014-10-11T11:24:32 <Tsumenokage> ah oui tient ca peut marcher comme ca :)
+2014-10-11T11:24:34 <adriens33> tu veux tester quoi leta ?
+2014-10-11T11:24:39 <Letarumavza> En gros
+2014-10-11T11:25:22 <Letarumavza> Si $kick personne arg => kick personne arg, si $kick personne => kick personne defaultarg
+2014-10-11T11:25:47 <adriens33> t'as pas besoin
+2014-10-11T11:25:58 <adriens33> tu peux envoyer directement la commande KICK #channel pseudo
+2014-10-11T11:26:02 <adriens33> si tu met pas d'argument
+2014-10-11T11:26:09 <Letarumavza> J'ai pas besoin de coder le bot non-plus.
+2014-10-11T11:26:11 <adriens33> ça marque le pseudo
+2014-10-11T11:26:19 <Letarumavza> Mais je veux mettre cette fonction.
+2014-10-11T11:26:27 <Letarumavza> (précisément parce que j'arrive pas à la mettre)
+2014-10-11T11:26:29 <adriens33> ce que je veux dire, c'est que t'as pas obligé de mettre un defaultarg. :3
+2014-10-11T11:26:40 <Letarumavza> je sais
+2014-10-11T11:26:55 <adriens33> c'est qui cette bite dans le chat à la fin ? ça me perturbe.
+2014-10-11T11:27:03 <Letarumavza> !kick bite
+2014-10-11T11:27:03 *** ludvann s'est connecté
+2014-10-11T11:27:09 <Tsumenokage> elle etait deja la hier soir ^^
+2014-10-11T11:27:10 <adriens33> c'te méchanceté !
+2014-10-11T11:27:10 <Letarumavza> héhé
+2014-10-11T11:27:14 <adriens33> Letarumavza a tiré sur la bite !!
+2014-10-11T11:27:17 <adriens33> (pardon)
+2014-10-11T11:27:23 <Letarumavza> J'ai kick la bite du chat
+2014-10-11T11:27:25 <Letarumavza> ^^
+2014-10-11T11:27:30 <Tsumenokage> XD
+2014-10-11T11:27:31 <adriens33> nan, t'as tiré dessus. nuance.
+2014-10-11T11:27:34 *** bite s'est connecté
+2014-10-11T11:27:36 <bite> raciste
+2014-10-11T11:27:39 <adriens33> XD
+2014-10-11T11:27:44 <Tsumenokage> :=)
+2014-10-11T11:27:47 <Letarumavza> ^^
+2014-10-11T11:27:51 <adriens33> elle est coriace en plus
+2014-10-11T11:27:58 <ludvann> -_-'
+2014-10-11T11:27:59 <adriens33> elle s'en va et elle revient dans le chat…
+2014-10-11T11:28:04 <Letarumavza> Plus c'est petit, plus c'est corriace
+2014-10-11T11:28:10 <adriens33> ta femme te le dit souvent.
+2014-10-11T11:28:16 <ludvann> ta femme te le dit souvent ^^
+2014-10-11T11:28:25 <adriens33> ludvann t'es lent !!
+2014-10-11T11:28:25 <bite> héhé
+2014-10-11T11:28:29 <adriens33> (ctb)
+2014-10-11T11:28:38 <Letarumavza> C'est une insulte ça ?
+2014-10-11T11:28:40 <Tsumenokage> d'ailleurs adriens33 si je fait un !list pour voir les commande de berry ca me les affiche que pour moi ou pour tout le chan ?
+2014-10-11T11:28:49 <Berry-Punch> Commandes disponibles : *hic* 
+2014-10-11T11:28:49 <Berry-Punch> say do flag reload stop op niorphlo list kick welcome voice help devoice niorph history *hic* muffin deop
+2014-10-11T11:28:49 <Letarumavza> !list
+2014-10-11T11:28:49 <Berry-Punch> Commandes disponibles : *hic* 
+2014-10-11T11:28:49 <Berry-Punch> say do flag reload stop op niorphlo list *hic* kick welcome voice help devoice niorph history muffin deop
+2014-10-11T11:28:49 <ludvann> !list
+2014-10-11T11:28:52 <adriens33> Tsumenokage: si tu le fais sur le chat public
+2014-10-11T11:28:54 <Letarumavza> tout le chan
+2014-10-11T11:28:54 <adriens33> tout le moonde le voit.
+2014-10-11T11:28:59 <adriens33> si c'est en PV elle te répond en pv
+2014-10-11T11:29:13 <Tsumenokage> ok thx
+2014-10-11T11:29:15 <Letarumavza> en plus elle fout des pv...
+2014-10-11T11:29:19 <adriens33> XD
+2014-10-11T11:29:21 <adriens33> ouai
+2014-10-11T11:29:22 <Letarumavza> Salope de bot
+2014-10-11T11:29:26 <adriens33> berry est vilaine >:)
+2014-10-11T11:29:40 <Letarumavza> Gaffe ou je sors le fouet ^^
+2014-10-11T11:29:41 <Tsumenokage> mais non il est super ce bot :)
+2014-10-11T11:29:42 <ludvann> +1
+2014-10-11T11:29:51 <adriens33> Letarumavza: fais gaffe à ce que tu dis… ^^
+2014-10-11T11:29:58 <ludvann> (+1 pour leta)
+2014-10-11T11:30:09 <adriens33> ludvann qui veut se faire fouetter… XD
+2014-10-11T11:30:13 <ludvann> xD
+2014-10-11T11:30:16 <Letarumavza> ludvann, penches toi en avant, et pense à des poneys
+2014-10-11T11:30:19 <ludvann> wait
+2014-10-11T11:30:19 <adriens33> XD
+2014-10-11T11:30:27 <ludvann> what xD
+2014-10-11T11:30:37 <Letarumavza> Je vais te présenter un ami, un cactus
+2014-10-11T11:30:42 <adriens33> XD
+2014-10-11T11:30:49 <adriens33> cactus l'anus ?
+2014-10-11T11:30:53 <ludvann> il a une pancarte free hugs ?
+2014-10-11T11:31:40 <bite> cactanus
+2014-10-11T11:31:46 <adriens33> ^^
+2014-10-11T11:31:48 <ludvann> c'est quoi ce silence ?
+2014-10-11T11:31:57 <adriens33> *a tumbleweed rolls away*
+2014-10-11T11:32:00 <Letarumavza> Je me sapais
+2014-10-11T11:32:02 <Tsumenokage> je regarde le code de berry, j'adore adriens33 qui se met une protection contre le kick XD
+2014-10-11T11:32:06 <Letarumavza> Tain ça me gonfle...
+2014-10-11T11:32:08 <adriens33> bah quand même… XD
+2014-10-11T11:32:12 <ludvann> xD
+2014-10-11T11:32:19 <Letarumavza> Les boxers existent en deux tailles ont dirait :
+2014-10-11T11:32:27 <ludvann> ? .-.
+2014-10-11T11:32:27 <adriens33> minuscule
+2014-10-11T11:32:30 <adriens33> et trop grand.
+2014-10-11T11:32:30 <bite> http://upload.wikimedia.org/wikipedia/commons/a/ad/Quarter_rest.svg
+2014-10-11T11:32:39 <adriens33> c'est ça leta ? :p
+2014-10-11T11:32:41 <Letarumavza> confortable, mais avec 15bornes de larges au niveau de la taille, donc qui tombe tout le temps.
+2014-10-11T11:32:50 <Letarumavza> Ou écrase burne, mais qui tient.
+2014-10-11T11:32:54 <ludvann> xD
+2014-10-11T11:32:58 <adriens33> ouais, donc minuscule ou trop grand.
+2014-10-11T11:33:10 <Letarumavza> en conséquence => je vais mettre une ceinture
+2014-10-11T11:33:17 <ludvann> o/
+2014-10-11T11:33:33 <Berry-Punch> Commandes disponibles : *hic* 
+2014-10-11T11:33:33 <Berry-Punch> say do flag reload stop op niorphlo list *hic* kick welcome voice help devoice niorph history muffin deop
+2014-10-11T11:33:50 <Letarumavza> N'empèche, quand on relis le chan, y'a une ambiance légèrement bicurieuse parfois...
+2014-10-11T11:33:55 * Berry-Punch lance un muffin sur test à 128 km/h
+2014-10-11T11:34:05 <ludvann> ouaip...
+2014-10-11T11:34:11 <Tsumenokage> ah mince les commande en PV se mette sur le chan principal
+2014-10-11T11:34:18 <Tsumenokage> bon je note :)
+2014-10-11T11:34:23 <adriens33> oui, tu peux pas envoyer de muffin en pv
+2014-10-11T11:34:25 <Letarumavza> Shhht ludvann, restes penché
+2014-10-11T11:34:26 <adriens33> c'est pas drole sinon.
+2014-10-11T11:34:29 <Letarumavza> J'ai d'autes cactus
+2014-10-11T11:34:34 <Letarumavza> Et un ananas
+2014-10-11T11:34:38 <ludvann> mais j'ai mal...
+2014-10-11T11:34:39 <adriens33> enfin tu peux taper la commande en pv
+2014-10-11T11:34:48 <adriens33> mais le muffin est envyé depuis le chat public
+2014-10-11T11:34:52 <Letarumavza> https://www.youtube.com/watch?v=42oucm_lj50
+2014-10-11T11:34:58 <ludvann> heil
+2014-10-11T11:35:00 <Tsumenokage> oui comme ca tu sais pas qui a envoyer le muffin au moins
+2014-10-11T11:35:07 <adriens33> ouais voilà
+2014-10-11T11:35:16 <Tsumenokage> c'est fourbe XD
+2014-10-11T11:35:21 <Tsumenokage> j'adore
+2014-10-11T11:35:26 <adriens33> tiens, y'a un argument secret sur la commande muffin, si t'es dans le code il devrait pas être dur à trouver.
+2014-10-11T11:35:39 <adriens33> (ça rajoute +2000 km/h à la vitesse dudit muffin)
+2014-10-11T11:35:42 <Letarumavza> Sinon ma petite vidéo ?
+2014-10-11T11:36:05 <adriens33> Letarumavza t'es pas obligé de te filmer avec ton cactus XD
+2014-10-11T11:36:12 <ludvann> ...
+2014-10-11T11:36:23 <ludvann> tu l'avais déjà balancé ^^
+2014-10-11T11:36:28 <ludvann> (la vidéo)
+2014-10-11T11:36:50 * Berry-Punch lance un muffin sur adriens33 à 3611 km/h
+2014-10-11T11:36:50 <Berry-Punch> MUFFIN *hic* RAINBOOM !!
+2014-10-11T11:36:50 <Tsumenokage> !muffin adriens33 m
+2014-10-11T11:36:57 <adriens33> ah, bien.
+2014-10-11T11:37:00 <Tsumenokage> ah ben j'ai trouve :p
+2014-10-11T11:37:04 <adriens33> mais t'aurais pu le faire en pv…
+2014-10-11T11:37:07 <Tsumenokage> ah dsl
+2014-10-11T11:37:11 <adriens33> histoire de laisser les autres chercher. ^
+2014-10-11T11:37:23 <ludvann> je la connaissais déjà ^^
+2014-10-11T11:37:33 <Tsumenokage> my bad, vraiment dsl adriens33
+2014-10-11T11:37:35 <Tsumenokage> (
+2014-10-11T11:37:40 <Letarumavza> chercher...
+2014-10-11T11:37:45 <Letarumavza> Sur du code opensource...
+2014-10-11T11:37:46 <ludvann> science
+2014-10-11T11:37:50 <ludvann> xD
+2014-10-11T11:38:39 <adriens33> Letarumavza: c'est un test d'intelligence simple.
+2014-10-11T11:39:03 <adriens33> enfin… un test pour voir si tu sais lire et réfléchir un minimum en l'occurence ^^
+2014-10-11T11:39:18 <adriens33> Tsumenokage: tkt, pas grave ^^
+2014-10-11T11:39:36 <Tsumenokage> je viens de voir que la vitesse est mise de aleatoirement
+2014-10-11T11:39:41 <adriens33> pas grand monde lit les logs, et d'ici demain il sera seuelement visible sur le github (les logs sont commités au fur et à mesure)
+2014-10-11T11:39:44 <adriens33> ouaip
+2014-10-11T11:39:51 <adriens33> de 0 à 2000km/h
+2014-10-11T11:39:57 <Tsumenokage> la premiere fois que j'ai vu cette commande le muffin avait 1664km/h
+2014-10-11T11:40:06 <adriens33> et au dela de 1440, comme ça dépasse le mur du son ça fait un muffin rainboom.
+2014-10-11T11:40:13 <Tsumenokage> j'ai cru que cetait voulu XD
+2014-10-11T11:40:31 <adriens33> (1224 pardon)
+2014-10-11T11:43:55 <adriens33> Tsumenokage: bah non, c'est la beauté de l'aléatoire. :')
+2014-10-11T11:48:09 <ludvann> me gusta :D https://www.youtube.com/watch?v=UXeCYmAQg6U&feature=youtube_gdata
+2014-10-11T11:55:55 <bite> what is love?
+2014-10-11T12:17:45 <Letarumavza> Hum...
+2014-10-11T12:18:00 <Letarumavza> Il me vient l'impression diffuse mais persistante d'avoir fait une connerie...
+2014-10-11T12:18:10 <Tsumenokage> ah ?
+2014-10-11T12:20:22 <adriens33> qu'est ce qu'il t'arrive Letarumavza ?
+2014-10-11T12:52:43 <Letarumavza> Et non ^^
+2014-10-11T12:52:48 <Letarumavza> en fait, pas de connerie
+2014-10-11T12:53:18 <adriens33> ok…
+2014-10-11T12:53:31 * Letarumavza danse.
+2014-10-11T12:53:43 <adriens33> fais gaffe aux bouts de verre ;)
+2014-10-11T13:54:42 *** Tsumenokage est parti
+2014-10-11T14:08:08 <ludvann> bon je bouge moi c't'aprem ^^
+2014-10-11T14:08:14 <ludvann> @+ le ponies
+2014-10-11T14:08:19 *** ludvann est parti
+2014-10-11T14:29:54 *** Letarumavza est parti
+2014-10-11T14:30:45 *** MaCharon s'est connecté
+2014-10-11T14:30:50 <MaCharon> salut
+2014-10-11T14:30:57 <adriens33> hello
+2014-10-11T14:31:20 <MaCharon> wow je m'attendais a plus de monde
+2014-10-11T14:35:40 <adriens33> ^^
+2014-10-11T14:36:08 <MaCharon> ben on est quand même en week-end
+2014-10-11T14:36:35 <adriens33> ouai, justement, on est samedi, y'a pas mal de monde qui a eu cours dans la semaine et qui doit encore faire dodo… XD
+2014-10-11T14:36:56 <adriens33> ou qui ont juste pas envie de se co pour rester tranquille peinard
+2014-10-11T14:37:53 <MaCharon> la deuxieme solution me parait plus probable (enfin j'espere, plus de 14h ça fait vachement tard quand même)
+2014-10-11T14:38:03 *** Tsumenokage s'est connecté
+2014-10-11T14:38:07 <adriens33> t'as pas vu mon frangin toi.
+2014-10-11T14:38:10 <Tsumenokage> Re
+2014-10-11T14:38:21 <adriens33> quand il est en vacances il peut dormir super tard (re Tsumenokage )
+2014-10-11T14:38:22 <MaCharon> salut
+2014-10-11T14:38:35 <adriens33> genre une fois il est sorti de sa chambre il était 19h
+2014-10-11T14:38:43 <adriens33> en mode "salut, y'a quoi au ptit dej ?"
+2014-10-11T14:38:44 <MaCharon> moi je met mon reveil a 13h apres ça me nique ma journée
+2014-10-11T14:38:51 <MaCharon> omg
+2014-10-11T14:39:05 <adriens33> (c'est mon frère… tu le laisse dormir il se réveille pas XD)
+2014-10-11T14:39:29 <MaCharon> hard quand même
+2014-10-11T14:39:31 <adriens33> ^^
+2014-10-11T14:40:19 <adriens33> (moi par contre j'aime pas dormir tard… c'est chiant apres)
+2014-10-11T14:58:10 *** Tsumenokage_ s'est connecté
+2014-10-11T14:58:46 *** Tsumenokage est parti
+2014-10-11T14:59:09 *** adriens33 est parti
+2014-10-11T15:27:28 <bite> https://scontent-a-fra.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10696161_873207462690765_4179318212937656979_n.jpg?oh=5ff6c979239d07eb5bc5371cad8a18d2&oe=54CA62E9
+2014-10-11T18:16:15 *** bite est parti
+2014-10-11T18:57:39 <Berry-Punch> Voilà ce qu'il s'est passé ces *hic* 10 dernières lignes, adriens33
+2014-10-11T18:58:38 *** adriens33 s'est connecté
+2014-10-11T19:01:31 <Berry-Punch> Flags de Tsumenokage modifiés *hic* : +v
+2014-10-11T19:01:31 <adriens33> !voice Tsumenokage
+2014-10-11T19:01:38 <adriens33> bonsoir tout le monde :3
+2014-10-11T19:02:27 <Tsumenokage> bonsoir
+2014-10-11T19:10:34 <adriens33> comment va ?
+2014-10-11T19:11:20 <Tsumenokage> bien bien et toi ?
+2014-10-11T19:11:29 <adriens33> ça va, juste attrapé froid ><
+2014-10-11T19:11:38 <adriens33> mais bon rien de grave :p
+2014-10-11T19:11:41 <Tsumenokage> ah mince
+2014-10-11T19:16:11 <Tsumenokage> bon moi j'y vais pour ce soir
+2014-10-11T19:16:19 <Tsumenokage> @+ tout le monde
+2014-10-11T19:16:22 <adriens33> ++
+2014-10-11T19:16:31 *** Tsumenokage est parti
+2014-10-11T21:15:36 *** MaCharon est parti
+2014-10-11T21:15:59 *** MaCharon s'est connecté
+2014-10-11T21:22:30 *** Letarumavza s'est connecté
+2014-10-11T21:22:39 <adriens33> bonsoir Letarumavza
+2014-10-11T22:18:03 <Trappy_Tickles> re et oi
+2014-10-11T23:28:52 *** adriens33 est parti
+2014-10-11T23:33:14 *** Trappy_Tickles est parti

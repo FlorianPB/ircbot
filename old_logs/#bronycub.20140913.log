@@ -1,0 +1,525 @@
+2014-09-12T00:29:37 *** Trappy_Tickles est parti
+2014-09-12T01:30:29 *** adriens33 est parti
+2014-09-12T02:13:03 *** Zecora_bot est parti
+2014-09-12T02:14:18 *** Letarumavza est parti
+2014-09-12T02:14:46 *** Letarumavza s'est connecté
+2014-09-12T02:28:54 <Letarumavza> Rah
+2014-09-12T02:29:00 <Letarumavza> Gord, silou ?
+2014-09-12T02:29:06 <Silou> Oui ?
+2014-09-12T02:29:17 <Letarumavza> L'un de vous connait un addon firefox pour afficher les onglets verticalement.
+2014-09-12T02:29:27 <Silou> Nope
+2014-09-12T02:29:30 <Letarumavza> chié...
+2014-09-12T02:30:10 * Letarumavza facehoof*
+2014-09-12T02:30:21 <Letarumavza> Y'en a un... qui s'apelle... Vertical Tab
+2014-09-12T02:30:38 * Letarumavza facedesk *
+2014-09-12T02:30:38 <Silou> xD
+2014-09-12T02:30:49 <Silou> *plom plom plom*
+2014-09-12T02:30:54 * Letarumavza faceground *
+2014-09-12T02:35:12 <Silou> Putin j'ai du rédiger un roman pour m'expliquer sur la journée d'aujourd'hui
+2014-09-12T02:35:32 <Letarumavza> woot ?
+2014-09-12T02:36:03 <Silou> http://www.twitlonger.com/show/n_1s9m5ns
+2014-09-12T02:36:17 <Silou> Je l'insulterais bien ici mais ca ne serais pas cool
+2014-09-12T02:36:23 <Silou> Mais putin de ******
+2014-09-12T02:40:47 <Letarumavza> Il est juste crédule et il calcule mal.
+2014-09-12T02:54:49 <Silou> http://perso.silouatien.fr/explications_silou/explications_silou.html Letarumavza
+2014-09-12T02:54:52 <Silou> tu en penses quoi ?
+2014-09-12T02:54:57 <Silou> (faut juste que je regle un truc)
+2014-09-12T02:56:33 <Letarumavza> tl:dr
+2014-09-12T02:56:47 <Letarumavza> non je déconne ^^
+2014-09-12T02:56:51 <Letarumavza> Enfin...
+2014-09-12T02:57:08 <Letarumavza> C'est un poil trop long, tu devrais pouvoir condenser ça un poil.
+2014-09-12T02:57:20 <Letarumavza> Tu veux que je fouille le passé de la gonzesse en question ?
+2014-09-12T02:57:35 <Silou> Non pas la peine
+2014-09-12T02:57:49 <Silou> Mais bon j'ai essayé de détailler au max
+2014-09-12T02:57:57 <Silou> En espérant que ca ne joue pas contre moi
+2014-09-12T02:58:14 <Silou> Je publie ou pas ?
+2014-09-12T03:02:42 <Letarumavza> Envoies
+2014-09-12T03:02:52 <Silou> Att je demande l'avis à une fille ^^'
+2014-09-12T03:03:00 <Silou> 1 mec/ 1 fille, joli ratio !
+2014-09-12T03:03:03 <Letarumavza> Ceci dit, saches une chose.
+2014-09-12T03:03:34 <Letarumavza> Si cette histoire dégénère, je leur lache OmegA au cul.
+2014-09-12T03:03:43 <Silou> Omegazelle ?
+2014-09-12T03:03:55 <Letarumavza> Pour faire une émission, faut du matos informatique.
+2014-09-12T03:04:39 <Silou> Et omega est une personne ou un logiciel ?
+2014-09-12T03:04:46 <Letarumavza> OmegA est un worm dont le code et l'encapsulations changent à chaque saut en fonction de variables environement.
+2014-09-12T03:05:36 <Letarumavza> Auto-propagé, il attaque les mbr après s'être reproduit et corrompt la table de partitions.
+2014-09-12T03:05:45 <Silou> Waw :s
+2014-09-12T03:05:59 <Letarumavza> Oh il dispose d'une soeur.
+2014-09-12T03:06:01 <Letarumavza> Antares
+2014-09-12T03:06:09 <Letarumavza> Qui fait la même chose, mais sur les systèmes unix.
+2014-09-12T03:06:58 <Letarumavza> Sauf qu'antares est plus lente et difficile à propager.
+2014-09-12T03:07:25 <Silou> En meme temps unix est concu d'une manière totalement différente et plus sure que windows ^^'
+2014-09-12T03:07:54 <Letarumavza> Certes, mais les sources disponibles rendent, la découverte de failles aisée.
+2014-09-12T03:08:12 <Letarumavza> Ce qui change entre win32 et unix, c'est la fenêtre d'exécution des failles;
+2014-09-12T03:08:22 <Letarumavza> Celles des systèmes unix sont corrigées très vite.
+2014-09-12T03:08:44 <Letarumavza> Mais elles le sont car elles sont visibles facilement.
+2014-09-12T03:09:09 <Letarumavza> Théoriquement un linux est aussi vulnérable qu'un win lors d'une attaque ciblée.
+2014-09-12T03:09:33 <Letarumavza> Mais en pratique, les versions de noyaux, les modifs locales & cie le rendent plus difficile à attaquer.
+2014-09-12T03:09:57 <Letarumavza> Cependant, une fois le root obtenu, tu peux faire beaucoup plus de dégats rapidement sur un unix.
+2014-09-12T03:10:05 <Silou> C'est vrai
+2014-09-12T03:10:10 <Letarumavza> rm -rf /*
+2014-09-12T03:10:26 <Silou> C'est un peu le point fort et faible de linux : le root
+2014-09-12T03:10:29 <Letarumavza> Encapsulé et posté en exploit, une seule ligne exécutée, et le pc est au tas.
+2014-09-12T03:10:50 <Letarumavza> Sous win, faut forcément redémarrer pour passer en system.
+2014-09-12T03:11:14 <Letarumavza> Et pour ça faut berner le check d'intégrité des system files.
+2014-09-12T03:11:56 <Letarumavza> Linux est un morceau de papier dans une forteresse.
+2014-09-12T03:12:07 <Letarumavza> Win est une maison en brique.
+2014-09-12T03:12:27 <Silou> C'est bien résumé :)
+2014-09-12T03:12:37 <Letarumavza> Accéder aux fichiers de base d'un win ne sert à rien, il est difficile voir impossible de les supprimer.
+2014-09-12T03:12:45 <Letarumavza> Sur un linux...
+2014-09-12T03:12:53 <Letarumavza> Touches le coeur et la bête tombe.
+2014-09-12T03:12:59 <Letarumavza> Après ça dépend de la distrib.
+2014-09-12T03:13:19 <Letarumavza> Une ubuntu est bien plus facile à attaquer qu'une backtrack ou une kali.
+2014-09-12T03:13:27 <Letarumavza> (ou même une fedora)
+2014-09-12T03:13:51 <Letarumavza> ça fait combien de temps que tu fais de la sécurité ?
+2014-09-12T03:13:56 <Silou> Peu de temps
+2014-09-12T03:13:58 <Silou> Genre 1 an
+2014-09-12T03:14:15 <Silou> Je connais Kali, c'est ce que j'utilise en OS linux, mais je ne sai spas réellement m'en servir
+2014-09-12T03:14:27 <Letarumavza> J'ai commencé sur mon premier PC avec une connexion internet
+2014-09-12T03:14:32 <Letarumavza> C'était... en 1999
+2014-09-12T03:14:55 <Letarumavza> J'avais 6 ans. Et je découvrais l'outil, à l'époque ça m'a fasciné.
+2014-09-12T03:15:25 <Letarumavza> J'étais tombé sur un forum black hat par hasard, j'ai lu, j'ai essayé, j'ai fait mes armes...
+2014-09-12T03:15:54 <Silou> J'essaye d'éviter tout ce genre de forum, ca doit etre peuplé de kikoo ..
+2014-09-12T03:16:03 <Letarumavza> Oui et non.
+2014-09-12T03:16:07 <Letarumavza> ça dépend des quels.
+2014-09-12T03:16:08 <Silou> Pourtant je ne suis pas WH dans l'ame
+2014-09-12T03:16:23 <Letarumavza> Déjà on parle plus de lamers que de kikoos.
+2014-09-12T03:16:27 <Silou> Car pour mon taff il va bien falloir que j'apprenne ou et comment se forment le sgens
+2014-09-12T03:16:43 <Silou> Car c'est cool les challenges, mais ce n'est pas de la vraie pratique
+2014-09-12T03:16:44 <Letarumavza> C'est quoi ton taf ?
+2014-09-12T03:17:03 <Silou> J'en ai pas encore :p
+2014-09-12T03:17:08 <Silou> La j'attaque mon M2
+2014-09-12T03:17:21 <Silou> Donc j'ai un stage de 6 mois d'ici 5 mois
+2014-09-12T03:17:26 <Silou> Et après go marché du travail
+2014-09-12T03:18:12 <Letarumavza> M2 en ,
+2014-09-12T03:18:13 <Letarumavza> ?
+2014-09-12T03:18:16 <Silou> SSI
+2014-09-12T03:18:23 <Silou> (securité des systemes)
+2014-09-12T03:18:47 <Letarumavza> ...
+2014-09-12T03:18:50 <Letarumavza> Chuis con ^^
+2014-09-12T03:19:33 <Letarumavza> Rapelles toi d'une chose, tu dois toujours être silencieux, la seule trace que tu dois laisser c'est les éventuels dégats que tu causes.
+2014-09-12T03:19:35 <Letarumavza> Pas de signature
+2014-09-12T03:19:47 <Silou> Je sais
+2014-09-12T03:19:53 <Letarumavza> Et surtout, fais toujours des dégats collatéraux;
+2014-09-12T03:19:57 <Silou> Et ca justement comme je ne sais pas trop faire, je ne fais pas le con
+2014-09-12T03:20:05 <Letarumavza> ça te rendra difficile à target.
+2014-09-12T03:20:12 <Letarumavza> Pour faire simple.
+2014-09-12T03:20:40 <Letarumavza> Mieux vaut transformer la machine de madame michu en zombie et attaquer depuis celle-ci en étant sur un timer différé.
+2014-09-12T03:22:31 <Letarumavza> adrien a un bon dédié, essayes de voir avec lui pour faire des pentest
+2014-09-12T03:22:58 <Silou> Pour des pentest il me faudrait plus d'expérience
+2014-09-12T03:23:02 <Silou> Et j'ai Root-me pour ca
+2014-09-12T03:23:21 <Silou> Ainsi que des machines locales pour faire tourner des metasploitables ou autre
+2014-09-12T03:23:37 <Silou> Et j'ai aussi une équipe qui serait chaude pour faire du pentest avec moi
+2014-09-12T03:41:02 *** Letarumavza est parti
+2014-09-12T03:42:02 *** Letarumavza s'est connecté
+2014-09-12T04:07:14 <Letarumavza> fuck ma co
+2014-09-12T04:22:53 <Silou> Re :)
+2014-09-12T04:22:54 <Silou> Mec
+2014-09-12T04:23:06 <Letarumavza> ?
+2014-09-12T04:23:10 <Silou> ttp%3A%2F%2Fpic.silouatien.fr%2Fxxs6l.jpg&h=QAQGaEGjF
+2014-09-12T04:23:13 <Silou> FCK
+2014-09-12T04:23:17 <Silou> http://pic.silouatien.fr/xxs6l.jpg
+2014-09-12T04:23:19 <Silou> Voila :)
+2014-09-12T04:23:24 <Silou> FB et ses url a la con ><
+2014-09-12T04:23:35 <Silou> La nana je l'ai achevée :')
+2014-09-12T04:26:59 <Silou> Alors Letarumavza  tu en pense quoi :D ?
+2014-09-12T04:27:11 <Letarumavza> provocateur
+2014-09-12T04:27:18 <Silou> Ouep
+2014-09-12T04:27:24 <Silou> C'est ma façon de lui dire au revoir
+2014-09-12T04:27:44 <Silou> Mais je pense qu'elle est déja au courant de ces infos
+2014-09-12T04:43:49 <Letarumavza> hum...
+2014-09-12T04:44:20 <Letarumavza> J'ai quand même ma queue qui remue sur ce coups
+2014-09-12T04:57:05 <Silou> Whut ?
+2014-09-12T04:57:28 <Letarumavza> Je sens venir une connerie
+2014-09-12T04:57:36 <Silou> Maybe
+2014-09-12T04:57:45 <Silou> On verra ce que le futur nous réserve :)
+2014-09-12T04:57:56 <Letarumavza> Coups de pute en préparation.
+2014-09-12T04:58:06 <Letarumavza> ça sent l'interview de mec auto-proclamé brony.
+2014-09-12T04:58:15 <Silou> On verra :/
+2014-09-12T04:58:30 <Silou> Il y a des choses que on ne peux pas éviter car on ne les controle pas
+2014-09-12T04:58:39 <Letarumavza> Pour les goths m6 avait interview tibato...
+2014-09-12T04:58:44 <Silou> On aura fait notre max puis .. bah c'est le destin
+2014-09-12T04:59:51 <Silou> Bon sur ce je me couche ! Bonne nuit :)
+2014-09-12T05:00:48 <Letarumavza> ++
+2014-09-12T05:04:42 *** Silou est parti
+2014-09-12T05:07:23 *** Gordfang est parti
+2014-09-12T05:09:02 *** Letarumavza est parti
+2014-09-12T05:09:50 *** Letarumavza s'est connecté
+2014-09-12T05:14:10 *** Letarumavza est parti
+2014-09-12T05:15:14 *** Letarumavza s'est connecté
+2014-09-12T07:36:48 *** Ikledoreboline s'est connecté
+2014-09-12T07:37:03 <Ikledoreboline> Yo Letra
+2014-09-12T07:38:40 *** Ikledoreboline est parti
+2014-09-12T07:48:27 <Berry-Punch> Voilà ce qu'il s'est *hic* passé ces 10 dernières lignes, adriens33
+2014-09-12T07:48:29 *** adriens33 s'est connecté
+2014-09-12T07:54:04 <Berry-Punch> Flags de adriens33 modifiés : -o *hic* 
+2014-09-12T07:54:04 <adriens33> !deop adriens33
+2014-09-12T07:54:25 <Berry-Punch> Flags de Letarumavza modifiés : *hic* +v
+2014-09-12T07:54:25 <adriens33> !voice Letarumavza
+2014-09-12T07:54:33 <Letarumavza> zone d'élites lvl100 de mes deux !!!
+2014-09-12T07:54:36 <adriens33> ?
+2014-09-12T07:54:39 <adriens33> bonjour ^^
+2014-09-12T09:02:36 *** heuzef s'est connecté
+2014-09-12T09:08:42 *** wildfier s'est connecté
+2014-09-12T09:08:51 <wildfier> Yop
+2014-09-12T09:09:02 <heuzef> plop
+2014-09-12T10:08:40 *** MaCharon s'est connecté
+2014-09-12T10:08:57 *** wildfier est parti
+2014-09-12T10:17:21 *** TrappyTickles s'est connecté
+2014-09-12T10:18:10 *** wildfier s'est connecté
+2014-09-12T11:14:22 *** adriens33 est parti
+2014-09-12T11:17:37 *** Lezarius s'est connecté
+2014-09-12T11:44:50 *** heuzef est parti
+2014-09-12T11:48:56 <Berry-Punch> Voilà ce qu'il s'est passé ces *hic* 10 dernières lignes, adriens33
+2014-09-12T11:48:57 *** adriens33 s'est connecté
+2014-09-12T12:02:29 *** wildfier est parti
+2014-09-12T12:08:57 *** Lezarius est parti
+2014-09-12T12:15:05 *** Lezarius s'est connecté
+2014-09-12T12:15:21 *** Ikledoreboline s'est connecté
+2014-09-12T12:16:45 <Ikledoreboline> Yi
+2014-09-12T12:16:49 *** wildfier s'est connecté
+2014-09-12T12:16:53 <Lezarius> Yi
+2014-09-12T12:17:27 <Lezarius> wildfier: moyen de passer recup mon stuff
+2014-09-12T12:17:54 <Lezarius> Ou de faire moite moite niveaux terrain ? Cr la je suis au capu =P
+2014-09-12T12:18:31 *** Ikledoreboline est parti
+2014-09-12T12:19:16 *** Ikledoreboline s'est connecté
+2014-09-12T12:20:18 *** Ikledoreboline est parti
+2014-09-12T12:25:06 *** Ikledoreboline s'est connecté
+2014-09-12T12:26:06 *** Ikledoreboline est parti
+2014-09-12T12:29:16 *** Ikledoreboline s'est connecté
+2014-09-12T12:30:17 *** Ikledoreboline est parti
+2014-09-12T12:30:38 *** Ikledoreboline s'est connecté
+2014-09-12T12:33:04 *** Ikledoreboline est parti
+2014-09-12T12:33:16 *** Lezarius est parti
+2014-09-12T12:47:49 *** adriens33 est parti
+2014-09-12T12:49:48 *** wildfier est parti
+2014-09-12T12:51:37 *** wildfier s'est connecté
+2014-09-12T12:56:32 *** Ikledoreboline s'est connecté
+2014-09-12T12:56:46 <Ikledoreboline> Huuu
+2014-09-12T13:01:57 *** Silou s'est connecté
+2014-09-12T13:02:57 *** Ikledoreboline est parti
+2014-09-12T13:53:46 *** heuzef s'est connecté
+2014-09-12T14:17:04 *** Gordfang s'est connecté
+2014-09-12T14:29:27 <Gordfang> lut all
+2014-09-12T14:29:41 <Gordfang> heuzef c'est a quelle heure demain?
+2014-09-12T14:30:23 <heuzef> Samedi 13 septembre 2014        de 9h30 à 12h30 et de 13h30 à 16h30
+2014-09-12T14:30:37 <heuzef> 17 rue des Menuts,
+2014-09-12T14:30:37 <heuzef> 33000 BORDEAUX.
+2014-09-12T14:30:44 <heuzef> Tram A et C : station porte de Bourgogne
+2014-09-12T14:31:04 <Gordfang> merci
+2014-09-12T14:42:11 *** Lezarius s'est connecté
+2014-09-12T14:42:15 <Lezarius> Salut
+2014-09-12T14:42:20 <Silou> Plop
+2014-09-12T14:43:29 <Gordfang> lut
+2014-09-12T14:45:07 <Lezarius> Bon amis dev (surtout heuzef ) je cherche un pack d icon en css sympa autre que celui use par BootStrap =P
+2014-09-12T14:45:14 <Lezarius> SInon vous allez bien ? xD
+2014-09-12T14:46:55 <Gordfang> bien et toi?
+2014-09-12T14:50:20 <Lezarius> Cha va je dev un petit truc et je me met sur la V3 un peux enfin si j ai la force
+2014-09-12T14:51:26 <heuzef> http://glyphsearch.com/
+2014-09-12T14:58:16 *** Ikledoreboline s'est connecté
+2014-09-12T14:58:33 <Ikledoreboline> Re une heure de pose.
+2014-09-12T14:58:47 <Ikledoreboline> Enfin 10 lol
+2014-09-12T14:59:43 <Lezarius> Salut Ikledoreboline
+2014-09-12T15:00:06 <Ikledoreboline> Yup bien ?
+2014-09-12T15:06:23 <Lezarius> Oui et toi
+2014-09-12T15:06:58 <Ikledoreboline> Ui bon j'y go ++
+2014-09-12T15:07:58 <Lezarius> ++
+2014-09-12T15:08:01 *** Ikledoreboline est parti
+2014-09-12T16:02:55 *** Bybeez s'est connecté
+2014-09-12T16:03:03 <Bybeez> Yo !
+2014-09-12T16:07:15 <Lezarius> Yo
+2014-09-12T16:17:42 <heuzef> Lezarius ?
+2014-09-12T16:19:57 <heuzef> Bon .........
+2014-09-12T16:20:00 <heuzef> Silou ?
+2014-09-12T16:20:46 <heuzef> Décidément
+2014-09-12T16:23:35 <Letarumavza> Euh les mecs, pour ce soir les grillades c'est annulé. Je suis malade comme un chien.
+2014-09-12T16:38:59 <Letarumavza> Tain...
+2014-09-12T16:39:20 <Lezarius> Oui
+2014-09-12T16:39:28 <Lezarius> Heuzef
+2014-09-12T16:39:40 <Letarumavza> J'ai l'impression qu'une bestiole me bouffe de l'intérieur... Gastro tendance alien...
+2014-09-12T16:40:20 <heuzef> Lezarius ça avance pour Mandora ?
+2014-09-12T16:40:33 <Lezarius> Pas du tout lundi.
+2014-09-12T16:41:01 <Lezarius> J ai pas trop eu le temps je cherche du taff avant tout
+2014-09-12T16:41:17 <Letarumavza> Silou, du nouveau pour l'affaire de hier ?
+2014-09-12T16:44:23 <heuzef> dac
+2014-09-12T17:02:21 *** Lezarius est parti
+2014-09-12T17:04:46 *** Lenile s'est connecté
+2014-09-12T17:04:51 <Lenile> Salut.
+2014-09-12T17:04:56 <Lenile> Bien ouej Silou
+2014-09-12T17:05:02 <Lenile> Te devenu le nouveau roi des brony
+2014-09-12T17:05:09 <Lenile> Fin' à s'que j'ai entendu
+2014-09-12T17:06:28 <Lenile> heuzef pour demain c'est bon ou pas ?
+2014-09-12T17:06:59 <heuzef> Yep
+2014-09-12T17:07:03 <heuzef> Et tu été bien inscrit
+2014-09-12T17:07:05 <heuzef> pas de souci
+2014-09-12T17:07:14 <Lenile> Ok nickel.
+2014-09-12T17:08:45 *** Ikledoreboline s'est connecté
+2014-09-12T17:08:55 <Ikledoreboline> Re / plop
+2014-09-12T17:10:24 <heuzef> Lenile: ?
+2014-09-12T17:10:39 <heuzef> Fait moi penser demain à prendre le temps de discuter d'un projet avec toi concernant LPB ;)
+2014-09-12T17:11:02 <heuzef> Ikledoreboline tu viens ce soir ? =)
+2014-09-12T17:11:53 <Lenile> Heuzef : Ok
+2014-09-12T17:12:00 <Lenile> heuzef : il y à quoi se soir ? o.o
+2014-09-12T17:12:11 <Ikledoreboline> Dafuq ?
+2014-09-12T17:12:32 <Ikledoreboline> Je sais pas mon téléphone à mit un message auto O.o
+2014-09-12T17:12:40 <heuzef> Ikledoreboline je voulais juste savoir si tu voulais venir ce soir à l'Aikido c'est tous ^^
+2014-09-12T17:14:33 <Ikledoreboline> Oh c'est pas moi qui est mit le message, Heuzef faut que je vois si j'ai pas un truc à faire là soucis technique avec une personne..
+2014-09-12T17:15:05 <Letarumavza> Je hais les gastros !!!
+2014-09-12T17:15:28 <Lenile> Letar : Vu ton environnement tes sencé avoir plus qu'une gastro tu crois pas ? 8D
+2014-09-12T17:15:32 <heuzef> dac, tiens moi au jus pas trop tard, que je sâche si je m'équipe avec mes rollers :P
+2014-09-12T17:15:46 <Ikledoreboline> Lol letra vaut mieux vomir par la bouche qu'avoir la chiasse xD
+2014-09-12T17:15:58 <Lenile> Vous avez lu mon article sur la reproduction des poneys ? ~
+2014-09-12T17:16:05 <Ikledoreboline> Oui Heuzef je te préviens t'inquiète ^^
+2014-09-12T17:16:16 <Ikledoreboline> Non Le ni le dafuq
+2014-09-12T17:17:21 <heuzef> C'est un gros troll ton tel mec
+2014-09-12T17:18:12 <heuzef> Lenile : regarde ça stp : dev.brony.fr
+2014-09-12T17:19:11 <Lenile> Yep
+2014-09-12T17:19:12 <Lenile> Vu
+2014-09-12T17:19:13 <Lenile> Et ?
+2014-09-12T17:19:14 <Lenile> xD
+2014-09-12T17:20:07 <heuzef> Je suis moyen chaud pour que cette map ce retrouve sur brony.fr, c'est un peu compliquer l'histoire
+2014-09-12T17:20:15 <heuzef> Donc j'ai pensé à un truc
+2014-09-12T17:20:33 <Lenile> La posée sur LPB ?
+2014-09-12T17:20:41 <heuzef> Si le LPB veux bien on pourrais faire une page sur leur site qui affiche cette fameuse map
+2014-09-12T17:20:44 <heuzef> oui
+2014-09-12T17:20:52 <Ikledoreboline> Oui Heuzef mon téléphone troll et ça fait à peine 1 an que je l'ai lol !
+2014-09-12T17:21:08 <heuzef> Plutôt que de lister tous les collectif les un les autres dans meet-up
+2014-09-12T17:21:25 <heuzef> Sachant que la map je m'occupe de la mettre à jour, donc aucune maintenance pour eux, c'est benef
+2014-09-12T17:22:23 <Lenile> J'ai fait passé à Loan
+2014-09-12T17:22:42 <heuzef> Merci pour l'efficacité
+2014-09-12T17:22:52 <Lenile> J'suis toujour efficace
+2014-09-12T17:22:55 <heuzef> Plus efficace que le webmaster brony.fr en tous cas xD
+2014-09-12T17:23:08 <Lenile> Ouais mais moi j'suis redac cher LPB
+2014-09-12T17:23:16 <Lenile> Donc l'éfficacitée s'mon truc
+2014-09-12T17:23:16 <heuzef> ;)
+2014-09-12T17:23:24 <Lenile> Apres Loann va encore mettre du temps à réponde
+2014-09-12T17:23:25 <Ikledoreboline> X3
+2014-09-12T17:23:31 <Lenile> (J'suis le plus réactif de LPB en fait...)
+2014-09-12T17:25:29 <Ikledoreboline> Petit poney, petit poney tu es tout gris et tout petit..
+2014-09-12T17:27:15 <Ikledoreboline> Désolé. XD
+2014-09-12T17:27:27 *** heuzef est parti
+2014-09-12T17:29:14 *** heuzef s'est connecté
+2014-09-12T17:34:29 *** Ikledoreboline est parti
+2014-09-12T17:34:48 *** Ikledoreboline s'est connecté
+2014-09-12T17:37:29 <Ikledoreboline> Heuzef pour le moment j'ai quelques soucis personnels rien avoir avec la famille juste avec une personne sur qui je repose essentiellement à première vue je sais pas si je vais venir je te tiens au jus quand même mais c'est mal parti.
+2014-09-12T17:38:54 *** Ikledoreboline est parti
+2014-09-12T17:39:42 *** heuzef est parti
+2014-09-12T17:41:02 *** heuzef s'est connecté
+2014-09-12T17:42:04 *** Ikledoreboline s'est connecté
+2014-09-12T17:47:14 <heuzef> Ikledoreboline: ok
+2014-09-12T17:51:48 <Ikledoreboline> Bon c'est sûr se soir je pourrais pas tu m'excuses heuzef je reviendrais la semaine prochaine mais là c'est un peu trop important pour moi et ça va vite me saouler.
+2014-09-12T17:52:17 <heuzef> dac
+2014-09-12T18:18:29 *** Ikledoreboline est parti
+2014-09-12T18:27:10 <Letarumavza> je rappelle => je suis malade, rien ce soir chez moi.
+2014-09-12T18:33:17 <Silou> Re heuzef Lenile *
+2014-09-12T18:33:25 <Silou> Non je n'ai pas de nouveau
+2014-09-12T18:57:22 *** MaCharon est parti
+2014-09-12T19:02:12 *** Gordfang est parti
+2014-09-12T19:02:51 *** Gordfang s'est connecté
+2014-09-12T19:11:38 *** Yvan33 s'est connecté
+2014-09-12T19:11:53 <Yvan33> yo
+2014-09-12T19:19:13 <heuzef> Haha !
+2014-09-12T19:19:19 <heuzef> Bonne nouvelle les gens
+2014-09-12T19:19:31 <heuzef> www.bronyoise.org
+2014-09-12T19:19:40 <heuzef> ça avance bien dans l'Oise ^^
+2014-09-12T19:19:54 <Letarumavza> Hum...
+2014-09-12T19:20:07 <Letarumavza> tu leur vend le site ?
+2014-09-12T19:20:10 <Letarumavza> Ou tu le passe gratos ?
+2014-09-12T19:20:15 <heuzef> Gratos bien evidement
+2014-09-12T19:20:26 <heuzef> ça sert à ça
+2014-09-12T19:25:57 <Yvan33> Ey
+2014-09-12T19:26:06 <Yvan33> pourquoi on a pas Maude?
+2014-09-12T19:26:12 <Lenile> Ils ont quand même pas mal de truc à changé
+2014-09-12T19:26:20 <Letarumavza> Genre les couleurs
+2014-09-12T19:26:21 <Lenile> La CB est reliée à leur site x)
+2014-09-12T19:26:32 <Lenile> Quand t'ouvre la page elle s'appelle BronyCUB xµD
+2014-09-12T19:26:40 <Letarumavza> Peut-être un CSS uniquement dédié au skin.
+2014-09-12T19:26:49 <heuzef> Ha ouais mais y'a tous à changer ça ils sont au courrant
+2014-09-12T19:26:54 <Letarumavza> Et un petit script java de rename
+2014-09-12T19:26:56 <Lenile> Au final, ils ont juste changé l'image de garde
+2014-09-12T19:27:07 <heuzef> oui
+2014-09-12T19:27:19 <heuzef> Mais bon le site est en ligne depuis 1h
+2014-09-12T19:27:22 <Lenile> Letar, t'a qu'a aller le faire au lieu de nous jeter ton informatique à la tronche *fuis*
+2014-09-12T19:27:32 <Letarumavza> Flo !
+2014-09-12T19:27:35 <Letarumavza> Catch him !
+2014-09-12T19:27:47 * Berry-Punch lance un muffin sur heuzef à 1607 km/h
+2014-09-12T19:27:47 <Berry-Punch> MUFFIN RAINBOOM !! *hic* 
+2014-09-12T19:27:47 <heuzef> !muffin heuzef
+2014-09-12T19:27:54 <heuzef> Raté +_-
+2014-09-12T19:28:02 <Yvan33> You missed
+2014-09-12T19:28:18 <Gordfang> euh heuzef demain je vais surement arriver a la bourre genre de quelque minute
+2014-09-12T19:28:34 <heuzef> C ON TEU !
+2014-09-12T19:28:37 * Berry-Punch lance un muffin sur Lenile à 900 km/h
+2014-09-12T19:28:37 <Lenile> !muffin Lenile
+2014-09-12T19:28:43 <Lenile> x.x
+2014-09-12T19:28:52 <Yvan33> Demain on squatte chez flo?
+2014-09-12T19:28:59 <Lenile> Yesss
+2014-09-12T19:29:08 <heuzef> ouat ?
+2014-09-12T19:29:32 <Yvan33> Ok alors
+2014-09-12T19:29:36 <Yvan33> A demain
+2014-09-12T19:29:38 <Gordfang> picole?
+2014-09-12T19:29:50 <heuzef> ouayte ouat ?
+2014-09-12T19:30:01 <Lenile> heuzef : s'moi qui décide 8D
+2014-09-12T19:30:10 <Yvan33> Tequila
+2014-09-12T19:30:12 <wildfier> je sais pas de quoi tu parles Yvan33 mais je suis pour !
+2014-09-12T19:30:26 <Gordfang> vodka!
+2014-09-12T19:30:26 <Berry-Punch> J'adore ça ! *hic* 
+2014-09-12T19:30:29 <Lenile> Tous cher Flo pour la picole !
+2014-09-12T19:30:36 <Letarumavza> Picole chez flo ?
+2014-09-12T19:30:38 <Letarumavza> Dac dac !
+2014-09-12T19:30:49 <Lenile> Tes malade Letarumavza repose toi ~=
+2014-09-12T19:30:57 <Lenile> T'avais pas dit que t'avais la gastro ?
+2014-09-12T19:31:06 <Lenile> 8D
+2014-09-12T19:31:34 <Yvan33> La tequila ca va faire passer tout ça
+2014-09-12T19:31:49 <Lenile> Yvan : Il est trop malade pour recevoir du monde se soir 8D
+2014-09-12T19:31:54 <Lenile> Autant le laissé se reposer 8D
+2014-09-12T19:32:00 <Lenile> *foutteur de merde ON*
+2014-09-12T19:32:06 <wildfier> et faut se lever demain XD
+2014-09-12T19:32:10 <Lenile> N'est-ce pas heuzef ? 8D
+2014-09-12T19:32:30 <heuzef> Ca risque d'être chocolat, ma femme doit recevoir des invités
+2014-09-12T19:32:47 <Yvan33> Cool, plus on est de fou plus on rit
+2014-09-12T19:32:54 <Lenile> heuzef : S'toujour l'homme qui déçide o/
+2014-09-12T19:37:44 <heuzef> On en discute demain
+2014-09-12T19:37:48 <heuzef> ;)
+2014-09-12T19:39:40 <Yvan33> Nan mais moi je blague, j'ai trop de taf
+2014-09-12T19:40:03 <Yvan33> Anglais, Ds de physique, DS de maths, DM de maths, TD de SI, de physique
+2014-09-12T19:40:14 <Yvan33> Lire un livre de français
+2014-09-12T19:40:22 <heuzef> Sale étudient
+2014-09-12T19:40:23 <Yvan33> Tout un programme
+2014-09-12T19:40:29 <Lenile> Pareil
+2014-09-12T19:40:34 <Lenile> Mais flemme de tout faire
+2014-09-12T19:40:38 <heuzef> Bandes d'étudiant
+2014-09-12T19:40:42 <Yvan33> C'est dur de devenir l'élite de la nation
+2014-09-12T19:40:45 <Lenile> étudiants*
+2014-09-12T19:40:52 <heuzef> Manger un étudiant, sauver un appart
+2014-09-12T19:40:52 <Yvan33> *Bande
+2014-09-12T19:41:14 <Yvan33> Bah moi je suis dans une maison, pas besoin d'être mangé
+2014-09-12T19:41:32 <Lenile> Pareil
+2014-09-12T19:41:37 <heuzef> Sale étudiant !!
+2014-09-12T19:41:38 <heuzef> Bouuuh
+2014-09-12T19:41:38 <Lenile> J'habite à la villa lartigue ~
+2014-09-12T19:41:45 <heuzef> Jettez lui des muffins !
+2014-09-12T19:41:48 * Berry-Punch lance un muffin sur Yvan33 à 910 km/h
+2014-09-12T19:41:48 <heuzef> !muffin Yvan33
+2014-09-12T19:41:57 * Berry-Punch lance un muffin sur heuzef à 1068 km/h
+2014-09-12T19:41:57 <Lenile> !muffin heuzef
+2014-09-12T19:42:02 <heuzef> xD
+2014-09-12T19:42:06 <Lenile> J'ai plus de force ~
+2014-09-12T19:42:18 <heuzef> Bon aller je file
+2014-09-12T19:42:20 * Berry-Punch lance un muffin sur  à 1810 km/h
+2014-09-12T19:42:20 <Berry-Punch> MUFFIN RAINBOOM *hic* !!
+2014-09-12T19:42:20 <Lenile> !muffin
+2014-09-12T19:42:24 <heuzef> à demain les gens !
+2014-09-12T19:42:27 <Lenile> 1810 !
+2014-09-12T19:42:35 <Lenile> Ciao !
+2014-09-12T19:42:39 * Berry-Punch lance un muffin sur -m à 456 km/h
+2014-09-12T19:42:39 <heuzef> !muffin -m Lenile
+2014-09-12T19:42:41 * Berry-Punch lance un muffin sur  à 500 km/h
+2014-09-12T19:42:41 <Lenile> !muffin
+2014-09-12T19:42:48 <Lenile> Toujour supperieur ~~
+2014-09-12T19:42:52 * Berry-Punch lance un muffin sur m à 187 km/h
+2014-09-12T19:42:52 <heuzef> !muffin m Lenile
+2014-09-12T19:42:53 * Berry-Punch lance un muffin sur  à 485 km/h
+2014-09-12T19:42:53 <Lenile> !muffin
+2014-09-12T19:42:57 <Lenile> noob
+2014-09-12T19:43:07 * Berry-Punch lance un muffin sur heuzef à 1019 km/h
+2014-09-12T19:43:07 <Lenile> !muffin heuzef
+2014-09-12T19:43:11 <heuzef> ++
+2014-09-12T19:43:13 <Letarumavza> gné ?
+2014-09-12T19:43:14 <Lenile> ++
+2014-09-12T19:43:21 * Berry-Punch lance un muffin sur Letarumavza à 624 km/h
+2014-09-12T19:43:21 <Lenile> !muffin Letarumavza
+2014-09-12T19:43:23 <Letarumavza> Mais vous foutez quoi ?
+2014-09-12T19:43:25 *** heuzef est parti
+2014-09-12T19:52:32 *** Lenile est parti
+2014-09-12T19:52:37 *** Ikledoreboline s'est connecté
+2014-09-12T19:53:04 <Ikledoreboline> Re all.
+2014-09-12T20:22:00 <Yvan33> re
+2014-09-12T20:22:15 <Yvan33> Désolé, je regarde un documentaire sur les brony
+2014-09-12T20:22:22 <wildfier> lequel ?
+2014-09-12T20:22:56 <Yvan33> https://www.youtube.com/watch?v=t2EOfhvvURY
+2014-09-12T20:23:02 <Yvan33> Il dure une heure
+2014-09-12T20:35:50 <Ikledoreboline> Des personnes ici qui écoute des vocaloids ?
+2014-09-12T20:38:27 <Bybeez> moi, vite fait
+2014-09-12T20:39:57 <Ikledoreboline> écoutes ceci https://www.youtube.com/watch?v=z4i-lPWliW8 une de mes préférés si tu veux en envoyer une aussi ^^
+2014-09-12T20:40:53 <Bybeez> ok, juste après que j'ai mangé alors ^^
+2014-09-12T20:41:15 <Ikledoreboline> Ok, bonne ap ^^
+2014-09-12T20:41:24 <Bybeez> merki
+2014-09-12T20:49:54 <Yvan33> oh bybeez!
+2014-09-12T20:50:07 <Yvan33> RWBY a 2 new épisodes
+2014-09-12T21:28:11 <Bybeez> oui je suis arrivé en retard en regardant le 7 ce matin ^^
+2014-09-12T21:28:22 <Bybeez> Ils sortent le vendredi a 3h du mat a peu près
+2014-09-12T21:31:42 <Yvan33> Ah ouais
+2014-09-12T21:31:49 <Yvan33> T'as rien a faire vendredi?
+2014-09-12T21:31:59 <Ikledoreboline> x3
+2014-09-12T21:32:35 <Bybeez> Si, je dois aller en cours ^^
+2014-09-12T21:32:58 <Bybeez> Et merci ikle, j'adore
+2014-09-12T21:33:16 <Ikledoreboline> De rien ;)
+2014-09-12T21:34:07 <Ikledoreboline> Personnellement j'écoute tout type de musique, mais principalement Dubstep / Electro et Vocaloid ^^
+2014-09-12T21:36:25 <Bybeez> Moi je suis plutot métal, mais j'aime bien un peu de J-pop ou de voca de temps en temps ^^
+2014-09-12T21:37:14 <Bybeez> et contrairement a beaucoup de gens, j'adore Miku Hatsune
+2014-09-12T21:39:05 *** Gordfang est parti
+2014-09-12T21:39:51 <Yvan33> c'est qui?
+2014-09-12T21:40:35 <Bybeez> Une vocaloïd, la premiere a être mondialement connue
+2014-09-12T21:41:29 <Yvan33> Les vocaloids, c'est quoi exactement? Je connais le programme mais pas le now
+2014-09-12T21:41:33 <Yvan33> *nom
+2014-09-12T21:44:40 <Ikledoreboline> C'est des personnages et enfaite chaque vocaloid à une personnalité et une voix. ^^
+2014-09-12T21:44:43 <Bybeez> Les vocaloïd, ce sont les différentes voix disponible, et par extension on s'en sert pour parler des personnages associé
+2014-09-12T21:44:56 <Bybeez> XD
+2014-09-12T21:45:07 <Ikledoreboline> ^^
+2014-09-12T21:46:19 <Ikledoreboline> Après niveau dubstep j'ai ça qui est apaisant et qui peut plair à une majorité, perso c'est mon réveil xD https://www.youtube.com/watch?feature=player_embedded&v=QMxUCfGiZ9Q
+2014-09-12T21:46:37 *** Silou est parti
+2014-09-12T21:47:10 <Bybeez> Je me reveille avec ça : https://www.youtube.com/watch?v=lo24Wq8NZlk
+2014-09-12T21:48:00 <Ikledoreboline> ah bah xD
+2014-09-12T21:48:11 <Ikledoreboline> Classique ! :3
+2014-09-12T21:51:18 <Yvan33> Huh
+2014-09-12T21:51:29 <Yvan33> Je connais le premier couplet et le refrain
+2014-09-12T21:51:42 <Yvan33> Et je peux le jouer à guitar hero III en moyen
+2014-09-12T21:51:51 <Bybeez> ^^
+2014-09-12T21:52:44 <Ikledoreboline> Moi en difficile un temps mais en expert trop hard XD
+2014-09-12T21:56:43 <Yvan33> Jamais été assez habile pour difficile
+2014-09-12T21:56:55 <Yvan33> Je me faisais poutré dés le début
+2014-09-12T21:57:27 <Yvan33> Quand à mon niveau en général je suis allé jusqu'au 5ème niveau en expert
+2014-09-12T22:06:00 <Ikledoreboline> x'D
+2014-09-12T22:12:07 *** Yvan33 est parti
+2014-09-12T22:12:44 *** Yvan33 s'est connecté
+2014-09-12T22:15:40 <Yvan33> J'ai trouvé the best trailler de MLP
+2014-09-12T22:15:49 <Yvan33> https://www.youtube.com/watch?v=us_rY141vic&list=WL4C124E95EB59606B
+2014-09-12T22:19:42 *** Lezarius s'est connecté
+2014-09-12T22:22:26 <Lezarius> yoo
+2014-09-12T22:22:46 <Yvan33> lut
+2014-09-12T22:28:50 *** Lezarius est parti
+2014-09-12T22:38:16 *** Yvan33 est parti
+2014-09-12T22:39:32 <Ikledoreboline> J'en ai marre de tomber sur des parties pas équilibrés..
+2014-09-12T22:49:34 <Letarumavza> Gné ,
+2014-09-12T22:49:36 <Letarumavza> ?
+2014-09-12T22:54:59 <Ikledoreboline> Cs:go -o-
+2014-09-12T22:56:04 <Letarumavza> ah
+2014-09-12T22:56:08 <Letarumavza> Il se passe quoi ?
+2014-09-12T22:57:17 <Ikledoreboline> Bah je joue avec des nova 2 je suis nova 3 on tombe avec des ak --'
+2014-09-12T22:57:39 <Letarumavza> Hum...
+2014-09-12T22:57:57 <Letarumavza> Deux sec, je google ça, j'ai aucune idée des grades
+2014-09-12T22:58:03 <Ikledoreboline> x'3
+2014-09-12T22:58:12 <Ikledoreboline> http://static.mnium.org/images/contenu/actus/CSGO/csgo_skillgroup_all.jpg
+2014-09-12T22:58:51 <Ikledoreboline> 4 grades de différence avec moi quoi. x)
+2014-09-12T22:59:04 <Letarumavza> Hum...
+2014-09-12T22:59:11 <Letarumavza> si c'est un classement elo, c'est normal
+2014-09-12T22:59:31 <Letarumavza> Tu dois avoir un gros winrate de base, donc tu es placé face à des adversaires plus forts.
+2014-09-12T23:00:41 <Ikledoreboline> Non, juste qu'ils jouaient avec 2 non classés donc du coup sa baisse les grades trouvé pour eux
+2014-09-12T23:00:49 <Ikledoreboline> Un sysème mal foutu quoi. x)
+2014-09-12T23:00:54 <Bybeez> Bon, je vais me coucher A+
+2014-09-12T23:01:08 *** Bybeez est parti
+2014-09-12T23:01:11 <Ikledoreboline> Bonne nuit Bybeez
+2014-09-12T23:01:57 <Letarumavza> Hum...
+2014-09-12T23:02:09 <Letarumavza> Dans lol y'a parfois ce problème là en alea
+2014-09-12T23:02:15 <Ikledoreboline> ^^
+2014-09-12T23:02:26 <Letarumavza> L'autre jour je suis tombé avec 4 diamant1
+2014-09-12T23:02:31 <Letarumavza> En face, que des bronzes...
+2014-09-12T23:02:39 <Ikledoreboline> Sauf que LoL et cs:go c'est pas le même type de skill, car c'est équilibré en général sauf defois.
+2014-09-12T23:02:53 <Ikledoreboline> Puis cs:go les ak t'es sur qu'ils ont mini 50% d'hs
+2014-09-12T23:08:14 *** wildfier est parti
+2014-09-12T23:08:46 *** wildfier s'est connecté
+2014-09-12T23:08:49 *** wildfier est parti
+2014-09-12T23:36:06 <Ikledoreboline> *se pouffe de rire* http://www.gentside.com/rupture/cet-homme-a-trouve-un-moyen-radical-pour-se-venger-de-son-ex-petite-amie_art64705.html
+2014-09-12T23:59:31 <Ikledoreboline> Jouer à skyrim en 2k x)
+2014-09-13T00:00:00 <Letarumavza> hum ?

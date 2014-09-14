@@ -1,0 +1,546 @@
+2014-10-08T00:51:01 *** adriens33 est parti
+2014-10-08T07:25:58 *** Silou s'est connecté
+2014-10-08T07:45:48 *** Silou est parti
+2014-10-08T07:57:22 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières *hic* lignes, adriens33
+2014-10-08T07:57:23 *** adriens33 s'est connecté
+2014-10-08T07:59:12 <adriens33> salut Letarumavza
+2014-10-08T08:50:54 *** Gordfang s'est connecté
+2014-10-08T08:51:08 <Gordfang> lut
+2014-10-08T08:51:12 <adriens33> bonjour
+2014-10-08T09:12:57 *** heuzef s'est connecté
+2014-10-08T09:17:49 *** adriens33 est parti
+2014-10-08T09:37:19 *** Letarumavza est parti
+2014-10-08T09:47:02 <Gordfang> eh bien?
+2014-10-08T09:48:02 <heuzef> yo
+2014-10-08T09:48:10 <Gordfang> yo
+2014-10-08T09:49:17 <heuzef> Il faut que je demande à Trappy s'il est chaud pour continuer à aider pour les inscriptions des nouveaux
+2014-10-08T09:49:35 <Gordfang> ah il nous aider?
+2014-10-08T09:52:53 <heuzef> Oui
+2014-10-08T09:52:59 <Gordfang> ok
+2014-10-08T09:53:13 <heuzef> Il m'avance au moins 60% du boulot sur les inscriptions
+2014-10-08T09:53:17 <heuzef> Du luxe pour moi
+2014-10-08T09:54:26 <Gordfang> tu m'étonne
+2014-10-08T09:54:58 <heuzef> Et toi tu sais versionner sur github ?
+2014-10-08T09:55:21 <Gordfang> normalement
+2014-10-08T09:55:32 <Gordfang> si tu veut dire créer des commit et les pusher oui
+2014-10-08T09:55:41 <heuzef> Trop cool ça !
+2014-10-08T09:56:04 <Gordfang> mais pourquoi?
+2014-10-08T09:56:13 <heuzef> On fait un test ? En commençant par ajouter un nouveau
+2014-10-08T09:56:32 <Gordfang> ? sur github tu veut dire?
+2014-10-08T09:56:35 <heuzef> https://github.com/bronycub/v2/tree/master/membres
+2014-10-08T09:56:45 <heuzef> Chaque fichier php ici représente un membre
+2014-10-08T09:57:04 <heuzef> Ce sont des fichiers assez sensible, il faut qu'il soient parfait
+2014-10-08T09:57:07 <heuzef> sinon tous plante
+2014-10-08T09:57:22 <Gordfang> (ta encore ton système de fichier php?)
+2014-10-08T09:57:36 <heuzef> ba vi, en attendant la V3
+2014-10-08T09:58:11 <heuzef> Je te transfère par un les infos d'un nouveau, et tu tente de pusher ça ?
+2014-10-08T10:00:04 <heuzef> Transféré, essaie ça voir ;)
+2014-10-08T10:00:21 <Gordfang> je peut tenter
+2014-10-08T10:00:42 <heuzef> yep
+2014-10-08T10:04:31 <Gordfang> c'est quoi le chiffre chelou pour gravatar?
+2014-10-08T10:05:28 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, adriens33 *hic* 
+2014-10-08T10:05:29 *** adriens33 s'est connecté
+2014-10-08T10:11:50 <adriens33> hellow
+2014-10-08T10:20:24 <Gordfang> hellow
+2014-10-08T10:26:20 <heuzef> C'est le hash gravatar
+2014-10-08T10:26:37 <heuzef> c'est en faite l'email de l'utilisateur chiffré en md5
+2014-10-08T10:27:50 <Gordfang> ok
+2014-10-08T10:28:27 <heuzef> Le plus simple pour l'avoir c'est soir :
+2014-10-08T10:28:34 <heuzef> http://fr.gravatar.com/<PSEUDO>.xml
+2014-10-08T10:28:38 <heuzef> Par exemple
+2014-10-08T10:28:39 <heuzef> http://fr.gravatar.com/heuzef.xml
+2014-10-08T10:28:50 <heuzef> Y'a un noeud avec "hash"
+2014-10-08T10:29:17 <heuzef> Ou sinon, tu ouvre ton terminal echo -n "<EMAIL>" | md5sum
+2014-10-08T10:29:27 <heuzef> ça te renvoi le MD5 du mail
+2014-10-08T10:29:41 <heuzef> echo -n "contact@heuzef.com" | md5sum
+2014-10-08T10:29:42 <heuzef> c0f08ae603e364cb554fe71c9fc94ffd  -
+2014-10-08T10:29:56 *** Tsumenokage s'est connecté
+2014-10-08T10:30:12 <heuzef> Tiens voila justement ton cobay qui ce connect
+2014-10-08T10:30:12 <Tsumenokage> Salut
+2014-10-08T10:30:16 <heuzef> yo ^^
+2014-10-08T10:30:28 <Tsumenokage> Ah, un cobaye pour ?
+2014-10-08T10:31:41 <Gordfang> ton inscription ^^
+2014-10-08T10:32:11 <Tsumenokage> Ah ^^
+2014-10-08T10:35:41 <Tsumenokage> D'ailleurs j'ai vu que ça parlais de la V3 du site avant que j'arrive, si ya besoin d'aide, je suis dispo ^^
+2014-10-08T10:36:51 <Gordfang> faut t'adresser a wildfier pour ça ^^
+2014-10-08T10:37:45 <Tsumenokage> Ok ^^ merci pour l'info
+2014-10-08T10:39:44 <heuzef> Tu parle qu'il y à besoin d'aide !
+2014-10-08T10:39:51 <heuzef> Et aussi pour BBBFF
+2014-10-08T10:40:06 <heuzef> 2 projets vital qui avance bien trop lentement
+2014-10-08T10:40:37 <Tsumenokage> BBBFF ? C'est quoi comme projet ?
+2014-10-08T10:41:18 <Gordfang> une base de donnée de média
+2014-10-08T10:41:32 <Gordfang> pour les image, photo, vidéo, musique qui sera liée a la V3
+2014-10-08T10:42:28 <Tsumenokage> Ouah intéressant comme projet, en effet ça me semble bien vital ^^
+2014-10-08T10:44:23 *** heuzef est parti
+2014-10-08T10:48:25 <Gordfang> quand se sera en place adrien compte mettre tous les épisode Australien et tous les comic
+2014-10-08T10:49:02 <Tsumenokage> Yeah ça sera super complet alors tant mieux ^^
+2014-10-08T10:49:55 *** heuzef s'est connecté
+2014-10-08T10:49:58 <Tsumenokage> D'ailleurs il me semble avoir découvert hier qu'Adrien et moi étions au même dut info ^^
+2014-10-08T10:50:20 <heuzef> Lequel adrien
+2014-10-08T10:50:30 <heuzef> Il pleut des adriens
+2014-10-08T10:50:36 <heuzef> Y'en à partout des adriens
+2014-10-08T10:50:38 <Tsumenokage> Adrien33 il me semble
+2014-10-08T10:50:44 <heuzef> adriens33
+2014-10-08T10:50:46 <heuzef> ok
+2014-10-08T10:50:48 <adriens33> Tsumenokage: pour le dut info c'est sans doute de moi qu'il parle.
+2014-10-08T10:50:52 <adriens33> heuzef parle de l'autre adrien
+2014-10-08T10:50:55 <adriens33> shinsaber
+2014-10-08T10:51:03 <Tsumenokage> Ah ok ^^
+2014-10-08T10:51:25 <Tsumenokage> Je connais pas encore les prénoms qui correspondent au pseudo des membres
+2014-10-08T10:51:37 <adriens33> il suffit d'aller faire un tour dans la liste des membres.
+2014-10-08T10:51:37 <heuzef> Heuresement on à prévu ce cas de figure la
+2014-10-08T10:51:40 <heuzef> ;)
+2014-10-08T10:51:49 <adriens33> http://bronycub.org/membres.php
+2014-10-08T10:52:04 <adriens33> en dessous du pseudo, généralement il y a le nom en dessous
+2014-10-08T10:52:52 <Tsumenokage> Je vois :)
+2014-10-08T10:53:59 <Gordfang> Adrien shindaber est dans mon école heuzef :D
+2014-10-08T10:54:19 <adriens33> avec wildfier, ils sont à ingésup
+2014-10-08T10:55:49 <Gordfang> yup
+2014-10-08T10:59:11 <Gordfang> heuzef tu as eu le pull request?
+2014-10-08T11:01:52 <adriens33> Gordfang: normalement si tu est inscrit dans le groupe bronycub sur github tu n'as pas besoin de faire une pull request
+2014-10-08T11:02:05 <adriens33> si tu ne l'es pas je peux toujours t'y ajouter.
+2014-10-08T11:02:14 <adriens33> tu pourras modif directement le site et même le bot ^^
+2014-10-08T11:02:15 <Gordfang> j'ai fait un fork ou cas ou
+2014-10-08T11:02:20 <adriens33> d'accord.
+2014-10-08T11:02:29 <adriens33> mais tu sais, tu peux aussi faire une branche sur le dépot original
+2014-10-08T11:02:39 <adriens33> c'est plus simple :)
+2014-10-08T11:04:05 <adriens33> je t'ai ajouté au groupe/
+2014-10-08T11:04:13 <adriens33> https://github.com/bronycub
+2014-10-08T11:08:07 *** TrappyTickles s'est connecté
+2014-10-08T11:08:38 <adriens33> salut TrappyTickles
+2014-10-08T11:08:51 <TrappyTickles> oi les poneys
+2014-10-08T11:08:57 <heuzef> Yo Trappy
+2014-10-08T11:09:04 <heuzef> Je voulais justement voir avec toi
+2014-10-08T11:09:23 <heuzef> Si tu été chaud pour t'occuper de nouvelle inscription
+2014-10-08T11:09:42 <heuzef> Sachant que Gordfang commence à ce former pour ça avec Tsumenokage en cobay
+2014-10-08T11:10:24 <Tsumenokage> Salut
+2014-10-08T11:12:21 <adriens33> pauvre Tsumenokage qui sert de cobaye à tout le monde... ^^
+2014-10-08T11:12:33 <Tsumenokage> ^^
+2014-10-08T11:12:37 <adriens33> en fait heuzef a pour second prénom GLaDOS.
+2014-10-08T11:12:44 <adriens33> et il recherche des sujets de tests
+2014-10-08T11:12:48 <adriens33> pour ses expériences secrètes.
+2014-10-08T11:12:55 <Tsumenokage> J'espère qu'il q p
+2014-10-08T11:12:59 <adriens33> mais chut, il faut pas le dire ;)
+2014-10-08T11:13:24 <Tsumenokage> J'espère qu'il a pas les neurotxines ? ^^
+2014-10-08T11:13:38 <adriens33> ça je n'en sais rien, tu n'as qu'à essayer de voir :p
+2014-10-08T11:13:47 <adriens33> *essayer pour voir
+2014-10-08T11:27:48 *** Letarumavza s'est connecté
+2014-10-08T11:27:56 <adriens33> bonjour Letarumavza
+2014-10-08T11:28:11 <Tsumenokage> Salut
+2014-10-08T11:31:58 <adriens33> j'ai bougé mon pc devant mon lit, je peux enfin regarder un film peinard au pieu o/
+2014-10-08T11:32:20 <Letarumavza> feignasse
+2014-10-08T11:32:26 <adriens33> et c'est toi qui dit ça.
+2014-10-08T11:32:44 <adriens33> en fait j'ai mis le lit dans un coin et avec la place que j'ai gagné j'ai collé le bureau.
+2014-10-08T11:33:12 <adriens33> (mais je l'avoue, je suis une feignasse, tous les programmeurs le sont de toute manière ;) )
+2014-10-08T11:33:20 <Tsumenokage> XD
+2014-10-08T11:33:32 <Letarumavza> T'as fait ce que j'ai fait quoi...
+2014-10-08T11:33:40 <adriens33> oui, voilà.
+2014-10-08T11:33:45 <Letarumavza> (pour le lit, j'ai pas bougé le bureau)
+2014-10-08T11:33:51 <adriens33> ça je m'en doutais :p
+2014-10-08T11:33:57 <adriens33> mais ta chambre est plus grande que la mienne.
+2014-10-08T11:34:22 <adriens33> mais du coup faudra que je m'achète une deuxième table, j'ai plus grand chose dans le salon du coup..
+2014-10-08T11:46:25 <adriens33> au fait Letarumavza, comment va ton orteil ?
+2014-10-08T11:46:50 <Letarumavza> Moins violet
+2014-10-08T11:46:58 <adriens33> ah, bah c'est bon signe ça. ^^
+2014-10-08T11:54:02 <adriens33> sinon faudra que je vienne faire un tour un de ces jours qu'on se boive une bière. ^^ j'ai pas grand chose à faire en ce moment en plus, ça tombe bien.
+2014-10-08T11:54:02 <Berry-Punch> J'adore ça *hic* !
+2014-10-08T11:54:12 <adriens33> Berry, retourne cuver...
+2014-10-08T11:54:43 <Letarumavza> Pas auhjourd'hui
+2014-10-08T11:54:55 <adriens33> bah j'ai pas dit ça non plus. ^^
+2014-10-08T11:54:58 <Letarumavza> J'ai un rendez vous dans un café à 15h ^^
+2014-10-08T11:55:01 <adriens33> oh.
+2014-10-08T11:55:08 <Letarumavza> Merci trappy btw
+2014-10-08T11:55:11 <adriens33> tu te fais tout beau tout propre alors ? :p
+2014-10-08T11:55:17 <Letarumavza> affirmatif ^^
+2014-10-08T11:55:24 <adriens33> d'accord. je vois ;)
+2014-10-08T11:55:34 <adriens33> ben amuse toi bien alors.
+2014-10-08T11:55:38 <Letarumavza> TrappyTickles !
+2014-10-08T11:55:52 <adriens33> t'as oublié « au pied. »
+2014-10-08T11:56:20 <TrappyTickles> j'suis là
+2014-10-08T11:56:38 <adriens33> Le sieur Letarumavza ici présent semble vouloir parler  avec toi. :)*
+2014-10-08T11:56:48 <TrappyTickles> j'ai vu oui :p
+2014-10-08T11:56:55 <Letarumavza> Non, juste le remercier d'avoir jouer l'homme pont sur ce coups ^^
+2014-10-08T11:57:00 <adriens33> ah.
+2014-10-08T11:57:02 <adriens33> ok.
+2014-10-08T11:57:08 <TrappyTickles> ah? ^^
+2014-10-08T11:57:10 <adriens33> Brave TrappyTickles dans ce cas :)
+2014-10-08T11:57:31 <TrappyTickles> j'ai du louper un épisode :p
+2014-10-08T11:57:42 <TrappyTickles> mais content de voir que ça a marché :p
+2014-10-08T11:59:40 <adriens33> ils sont drôles... un article qui parle des consoles next gen
+2014-10-08T11:59:50 <Letarumavza> PS5 ?
+2014-10-08T11:59:52 <adriens33> nan
+2014-10-08T11:59:56 <adriens33> PS4/XBox one
+2014-10-08T12:00:06 <adriens33> apparemment le CPU commencerai déjà à montrer ses limites.
+2014-10-08T12:00:07 <Letarumavza> Bah c'est pas next gen, puisqu'elles sont en ventes...
+2014-10-08T12:00:13 <Letarumavza> AMD
+2014-10-08T12:00:14 <adriens33> on se demande bien pourquoi avec un CPU AMD... ^^
+2014-10-08T12:00:26 <Tsumenokage> Déjà ? Wouah ça fait tôt quand meme
+2014-10-08T12:00:26 <adriens33> (oui enfin tu m'as compris, cherche pas la petite bête :p)
+2014-10-08T12:00:45 <adriens33> bah c'est du AMD, c'est même étonnant qu'ils ne s'en soient pas aperçus avant.
+2014-10-08T12:00:53 <Letarumavza> héhé
+2014-10-08T12:00:59 <adriens33> attends..
+2014-10-08T12:01:01 <Letarumavza> PC GAMER MASTER RACE !
+2014-10-08T12:01:06 <adriens33> un CPU AMD cadencé à seulement 1.6/1.7GHz ?
+2014-10-08T12:01:08 <adriens33> mais...
+2014-10-08T12:01:09 <adriens33> mais...
+2014-10-08T12:01:15 <adriens33> c'est ridicule o.O
+2014-10-08T12:01:30 <Tsumenokage> +1 Letarumavza
+2014-10-08T12:01:36 <adriens33> bon y'a huit cœurs mais quand même. XD
+2014-10-08T12:01:37 <Letarumavza> I7 4960x, 12 threads @4.5GHz !
+2014-10-08T12:01:41 <adriens33> ouais !
+2014-10-08T12:01:49 <Letarumavza> 32mo cache
+2014-10-08T12:01:52 <adriens33> moi i7 980x 12 threads @4.0GHz
+2014-10-08T12:02:04 <adriens33> (je le monte pas plus tant que j'ai pas de watercooling)
+2014-10-08T12:02:18 <adriens33> (mais déjà il dépote pour un cpu de 2010)
+2014-10-08T12:02:37 <heuzef> Comment on fait un selectionné tout + copier dans VIM ?
+2014-10-08T12:02:45 <adriens33> en mode normal:
+2014-10-08T12:02:55 <Letarumavza> tu retapes tout
+2014-10-08T12:02:58 * Letarumavza troll.
+2014-10-08T12:03:04 <adriens33> 1GvG
+2014-10-08T12:03:13 <adriens33> puis
+2014-10-08T12:03:20 <adriens33> si tu veux copier dans le presse papiers X11
+2014-10-08T12:03:23 <adriens33> "+y
+2014-10-08T12:03:33 *** Tsumenokage_ s'est connecté
+2014-10-08T12:03:33 <adriens33> sinon y pour copier dans vim puis p pour coller dans vim
+2014-10-08T12:03:44 <Letarumavza> Hum... Va savoir pourquoi, je préfère np++
+2014-10-08T12:03:51 <adriens33> chacun ses habitudes.
+2014-10-08T12:03:59 <adriens33> moi quand j'utilise n'importe quel autre éditeur que vim
+2014-10-08T12:04:03 <Letarumavza> ctrl+a => ctrl+c
+2014-10-08T12:04:04 <adriens33> j'ai tendance à taper mes raccourcis vim…
+2014-10-08T12:04:16 <adriens33> bah dans emacs c'est pire...
+2014-10-08T12:04:22 <adriens33> rien que pour l'aide.
+2014-10-08T12:04:25 <adriens33> ctrl x
+2014-10-08T12:04:26 <adriens33> ctrl c
+2014-10-08T12:04:29 <adriens33> h
+2014-10-08T12:04:32 <heuzef> 1GvGy ?
+2014-10-08T12:04:41 <heuzef> Pas bon chez moi
+2014-10-08T12:04:46 <adriens33> t'es en mode normal ?
+2014-10-08T12:04:50 <adriens33> (echap)
+2014-10-08T12:04:54 <adriens33> si t'es en vim terminal
+2014-10-08T12:05:00 <adriens33> tu peux pas copier dans le presse papier x11
+2014-10-08T12:05:03 <adriens33> il te faut gvim
+2014-10-08T12:05:09 <adriens33> si tu veux copier coller dans le même vim
+2014-10-08T12:05:16 <adriens33> c'est 1GvGy
+2014-10-08T12:05:19 <heuzef> 116 lignes copiées  ok
+2014-10-08T12:05:26 <adriens33> puis tu te pose à l'endroit ou coller
+2014-10-08T12:05:27 <adriens33> puis p
+2014-10-08T12:05:32 <Letarumavza> C'est le même mec qui me sort que vim est plus simple que np++...
+2014-10-08T12:05:35 <adriens33> (y=yank, p=paste)
+2014-10-08T12:05:42 <heuzef> Mais pour coller sur un gedit par exemple ?
+2014-10-08T12:05:54 <adriens33> heuzef: bah faut passer par le presse papiers X11...
+2014-10-08T12:05:58 <adriens33> si t'es en vim terminal
+2014-10-08T12:06:01 <adriens33> (= pas gvim)
+2014-10-08T12:06:02 <adriens33> tu peux pas.
+2014-10-08T12:06:09 <heuzef> grrr
+2014-10-08T12:06:14 <adriens33> vim est extrêmement bien car flexible à mort.
+2014-10-08T12:06:19 <heuzef> ok
+2014-10-08T12:06:29 <adriens33> mais pas adapté pour les tâches simples ni les gens qui ne souhaitent qu'un éditeur simple.
+2014-10-08T12:06:40 <Letarumavza> Hum...
+2014-10-08T12:06:50 <adriens33> si tu veux copier dans gedit ouvre le fichier dans gedit directement, ça sera plus simple./
+2014-10-08T12:06:55 <Letarumavza> np++ et ses macros => plus simple, plus optimisé, plus puissant.
+2014-10-08T12:07:07 <adriens33> Letarumavza: vim a des macros aussi.
+2014-10-08T12:07:12 <adriens33> et un langage de script
+2014-10-08T12:07:17 <heuzef> Sauf que mon fichier ce trouve sur serveur
+2014-10-08T12:07:17 <Letarumavza> (mais bon, np++ est bien plus récent)
+2014-10-08T12:07:21 <heuzef> Super relou quand même
+2014-10-08T12:07:21 <adriens33> et tu peux même faire du python dedans
+2014-10-08T12:07:35 <adriens33> et vim c'est pas vi, faut pas confondre.
+2014-10-08T12:07:50 <Letarumavza> Bah vi... c'est pire...
+2014-10-08T12:07:53 <adriens33> oui, justement
+2014-10-08T12:07:57 *** Tsumenokage est parti
+2014-10-08T12:07:59 <adriens33> c'est les défauts de vim
+2014-10-08T12:08:01 <adriens33> sans la flexibilité.
+2014-10-08T12:08:08 <adriens33> ni le langage de script
+2014-10-08T12:08:56 <adriens33> faudra que j'essaie l'interpréteur python intégré à vim. ça peut donner des trucs bien puissants je pense..
+2014-10-08T12:09:13 <adriens33> Tsumenokage encore sur 3G ? ^^
+2014-10-08T12:09:21 <Tsumenokage> Oui ^^
+2014-10-08T12:10:00 <adriens33> c'est ballot ça.
+2014-10-08T12:10:13 <adriens33> mais bon tu spamme pas trop donc ça n'est pas grave ^^
+2014-10-08T12:10:23 <adriens33> (avec les déco / reco je parle)
+2014-10-08T12:10:36 <Letarumavza> TrappyTickles, parfois lui, il clignotte ^^
+2014-10-08T12:10:51 <Tsumenokage> XD
+2014-10-08T12:11:00 <adriens33> TrappyTickles a une connexion branchée sur un sapin de noël.
+2014-10-08T12:11:26 <TrappyTickles> ça s'appelle une freebox -_-
+2014-10-08T12:11:29 <heuzef> lol
+2014-10-08T12:11:32 <adriens33> c'est pareil.
+2014-10-08T12:19:34 *** Silou s'est connecté
+2014-10-08T12:20:19 <Tsumenokage> Bon je vais y aller moi, à plus tout le monde.
+2014-10-08T12:20:26 <adriens33> à plus
+2014-10-08T12:20:51 *** Tsumenokage est parti
+2014-10-08T12:22:15 *** Letarumavza est parti
+2014-10-08T12:39:21 *** heuzef est parti
+2014-10-08T13:15:20 *** heuzef s'est connecté
+2014-10-08T13:42:30 *** Gordfang est parti
+2014-10-08T13:56:35 *** Gordfang s'est connecté
+2014-10-08T13:59:59 <Gordfang> re
+2014-10-08T14:07:35 <adriens33> re
+2014-10-08T14:09:19 *** MaCharon s'est connecté
+2014-10-08T14:09:25 <MaCharon> yop
+2014-10-08T14:10:16 <adriens33> hello MaCharon
+2014-10-08T14:13:36 *** heuzef est parti
+2014-10-08T14:13:43 *** heuzef1 s'est connecté
+2014-10-08T15:29:01 <Berry-Punch> Flags de *hic* heuzef1 modifiés : +v
+2014-10-08T15:29:01 <adriens33> !voice heuzef1
+2014-10-08T16:58:09 *** Gordfang est parti
+2014-10-08T17:25:34 *** adriens33 est parti
+2014-10-08T18:01:08 *** heuzef s'est connecté
+2014-10-08T18:02:53 *** heuzef1 est parti
+2014-10-08T18:04:18 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 dernières lignes, adriens33 *hic* 
+2014-10-08T18:04:19 *** adriens33 s'est connecté
+2014-10-08T18:06:59 *** heuzef1 s'est connecté
+2014-10-08T18:07:33 *** heuzef est parti
+2014-10-08T18:08:19 <Berry-Punch> Flags de heuzef1 modifiés : +v *hic* 
+2014-10-08T18:08:19 <adriens33> !voice heuzef1
+2014-10-08T18:09:06 *** Yvan33 s'est connecté
+2014-10-08T18:09:43 <Yvan33> Coucou tout le monde
+2014-10-08T18:10:28 <MaCharon> slt
+2014-10-08T18:11:00 <Yvan33> Bien, après 4 heures de boulot intensif je vais me vider l'esprit
+2014-10-08T18:11:12 <Yvan33> Quel manga prendre en premier?
+2014-10-08T18:11:31 <adriens33> hello :3
+2014-10-08T18:11:41 <MaCharon> code geass ?
+2014-10-08T18:11:47 <Yvan33> Nan, Densetsu no Yusha no Densetsu
+2014-10-08T18:11:55 <Yvan33> Son nom veut rien dire
+2014-10-08T18:12:01 <Yvan33> Salut adriens
+2014-10-08T18:12:09 <Yvan33> Tranquile?
+2014-10-08T18:12:22 <MaCharon> dsl son nom veut dire quelque chose
+2014-10-08T18:12:41 <MaCharon> mais tres bon choix sinn
+2014-10-08T18:13:13 <Yvan33> Bah voilà, je vais regarder jusqu'à comprendre ce que ça veut dire
+2014-10-08T18:13:57 <Yvan33> Hum, VO ou VF pour celui la?
+2014-10-08T18:14:01 <MaCharon> en gros : les legendaires reliques des heros legendaires , ou un truc du genre
+2014-10-08T18:14:12 <MaCharon> enleve la vf de ta tete
+2014-10-08T18:14:21 <Yvan33> Je vois ^^
+2014-10-08T18:14:29 <Yvan33> Ou en scan maybe?
+2014-10-08T18:14:32 <adriens33> Yvan33: ça peut aller, je rentre des courses
+2014-10-08T18:14:34 <MaCharon> moi c'est vostfr oblige
+2014-10-08T18:14:48 <MaCharon> pour celui la c'est streaming
+2014-10-08T18:15:22 <MaCharon> il y a des sans mais tres peux
+2014-10-08T18:15:23 <Yvan33> adriens33: tu achète en excès comme tu fais pour la viande au barbaque de Leta ou bien tu te modère? ;)
+2014-10-08T18:15:26 <MaCharon> scans*
+2014-10-08T18:15:35 <Yvan33> Oki Doki Loki
+2014-10-08T18:16:32 <MaCharon> tu devrais adoré si t'est un fan de fantasy, mais si la fin est dommage vu qu'il n'y a pas de saison 2
+2014-10-08T18:16:39 <MaCharon> meme*
+2014-10-08T18:17:13 <Yvan33> Hum
+2014-10-08T18:17:41 <MaCharon> d'heroic fantasy pardon
+2014-10-08T18:17:53 <adriens33> Yvan33: nan, juste des courses pour miam, pour remplir mes réserves.
+2014-10-08T18:17:58 <adriens33> (pas grand chose)
+2014-10-08T18:18:29 <MaCharon> moi je creve la dalle
+2014-10-08T18:18:37 <adriens33> bah mange :p
+2014-10-08T18:18:56 <Yvan33> Ecoute la voix de la sagesse
+2014-10-08T18:18:59 <MaCharon> c'est le probleme, il n'y a plus grand chose
+2014-10-08T18:19:01 <Yvan33> Il a raison
+2014-10-08T18:19:04 <Yvan33> Ah
+2014-10-08T18:19:08 <MaCharon> :/
+2014-10-08T18:19:19 <Yvan33> Bah squatte chez adriens, vu qu'il a refait les stocks
+2014-10-08T18:19:24 <adriens33> heu... nope
+2014-10-08T18:19:27 <MaCharon> XD
+2014-10-08T18:19:30 <adriens33> c'est pas encore tout rangé chez moi
+2014-10-08T18:19:38 <adriens33> et je suis en calbute parce que j'ai chaud. ^^'
+2014-10-08T18:19:52 <adriens33> [/mavie]
+2014-10-08T18:20:03 <MaCharon> serieux t'as chaud avec le temps qu'il fait ?
+2014-10-08T18:20:25 <adriens33> je viens d'aller faire les courses à pied t'es marrant T.T
+2014-10-08T18:20:33 <MaCharon> mouais....
+2014-10-08T18:20:35 <Yvan33> Moi j'ai pas de chauffage, ça tombe tellement bien
+2014-10-08T18:20:37 <adriens33> et même s'il fait pas beau il fait relativement étouffant quand même.
+2014-10-08T18:26:30 <Yvan33> C'est ou pour modifier la qualité sur rutube?
+2014-10-08T18:28:27 <MaCharon> no que ce
+2014-10-08T18:32:00 <adriens33> ¡ no sé !
+2014-10-08T18:32:51 <MaCharon> ouai aussi
+2014-10-08T18:35:11 <adriens33> (purée… si je me mets à causer espagnol vu le peu de restes que j'ai ça risque d'être drôle :p)
+2014-10-08T18:35:27 <MaCharon> ^^
+2014-10-08T18:36:32 <adriens33> hey on s'moque pas dans l'fond XD
+2014-10-08T18:37:06 <heuzef1> j'ai une demande d'optimisation de Gaspard sur le site
+2014-10-08T18:37:17 <MaCharon> je me moque pas, tu parles deja mieux que moi ^^
+2014-10-08T18:37:30 <heuzef1> E parlant du bouton plus sur la page membre
+2014-10-08T18:37:30 <heuzef1> "Bah dans l'idéal je pense qu'il faudra régler la coupure différemment (pour éviter la césure en milieu de phrase/mot composé), rendre le bouton plus discret et insérer un bouton développer tous les boutons"
+2014-10-08T18:37:35 <heuzef1> C'est pas bête je trouve
+2014-10-08T18:38:06 <heuzef1> Par contre ça risque d'être coton
+2014-10-08T18:38:13 <MaCharon> c'est pas faux
+2014-10-08T18:40:06 <adriens33> MaCharon: ah. bah en fait au lycée en terminale, j'avais 6 de moyenne. j'ai eu 13 a l'épreuve d'espagnol au bac, je sais même pas comment… XD
+2014-10-08T18:40:16 <adriens33> (session 2011)
+2014-10-08T18:40:37 <MaCharon> 13 O.O gg
+2014-10-08T18:40:42 <adriens33> mais trop !
+2014-10-08T18:40:47 <adriens33> j'étais une bille  pourtant T.T
+2014-10-08T18:40:54 <adriens33> j'espérais même pas la moyenne
+2014-10-08T18:41:17 <adriens33> (en tout mon bac s je l'ai eu à 12.05)
+2014-10-08T18:41:29 <MaCharon> tu bosse peut etre mieux sous pression
+2014-10-08T18:41:32 <adriens33> non…
+2014-10-08T18:41:34 <adriens33> pas du tout…
+2014-10-08T18:41:45 <adriens33> quand je suis stressé je fais que de la merde, je panique et j'angoisse.
+2014-10-08T18:41:58 <adriens33> au contraire
+2014-10-08T18:42:04 <adriens33> c'était ma 2e terminale en fait
+2014-10-08T18:42:12 <adriens33> du coup pour le bac j'étais plutot serein
+2014-10-08T18:42:37 <adriens33> (toute l'année avait été plutot tranquille, vu que le programme je le connaissais déjà à peu pres, c'était une année révision en gros quoi)
+2014-10-08T18:42:46 <MaCharon> je vois
+2014-10-08T18:43:22 <adriens33> bah 1e année: stressé, raté à 9.5 et quelques
+2014-10-08T18:43:31 <adriens33> 2e année: tranquille, posé: eu à 12.05
+2014-10-08T18:43:36 <adriens33> y'a pas photo B-)
+2014-10-08T18:43:59 <MaCharon> c'est sur que dans ces cas la...
+2014-10-08T18:44:06 <adriens33> heuzef1: t'as fait un ticket ? :p
+2014-10-08T18:44:11 <adriens33> MaCharon: ouaip.. ^^
+2014-10-08T18:44:27 <heuzef1> https://github.com/bronycub/v2/issues/17
+2014-10-08T18:45:07 <adriens33> heuzef1: comment t'as flag wildfier sans aucun respect… XD
+2014-10-08T18:46:32 <heuzef1> ouais
+2014-10-08T18:46:38 <heuzef1> mais en même temps
+2014-10-08T18:46:50 <heuzef1> à 80% de chance que ce soit lui qui s'en occupe
+2014-10-08T18:46:52 <heuzef1> pour la V3
+2014-10-08T18:46:55 <adriens33> ouais.
+2014-10-08T18:46:57 <adriens33> pas faux.
+2014-10-08T18:46:58 <adriens33> XD
+2014-10-08T18:47:10 <heuzef1> Ou alors Shinsaber
+2014-10-08T18:47:21 <heuzef1> vu comment il commit comme un ouf malade sur BBBFF
+2014-10-08T18:47:27 <adriens33> aussi. mais les deux sont en cours…
+2014-10-08T18:47:28 <adriens33> ah ?
+2014-10-08T18:47:32 <heuzef1> Il avance à mort
+2014-10-08T18:47:36 * adriens33 s'empresse d'aller vérifier le github
+2014-10-08T18:48:24 <heuzef1> https://github.com/bronycub/bbbff
+2014-10-08T18:48:25 <adriens33> ah oui…
+2014-10-08T18:48:27 <adriens33> XD
+2014-10-08T18:48:30 <heuzef1> 1 commit en 4 mois
+2014-10-08T18:48:31 <adriens33> (j'avais vu, hein)
+2014-10-08T18:48:33 <heuzef1> puissance :
+2014-10-08T18:48:35 <adriens33> par toi :p
+2014-10-08T18:48:39 <heuzef1> http://dev.audemar.fr/BBBFF/
+2014-10-08T18:49:02 * heuzef1 pleure de désespoir dans un coin
+2014-10-08T18:49:15 <adriens33> (tiens, berry réagit pas)
+2014-10-08T18:49:17 <adriens33> (réessaie en disant que t'es triste ?)
+2014-10-08T18:49:34 <heuzef1> snif ?
+2014-10-08T18:49:39 <heuzef1> je suis triste
+2014-10-08T18:49:39 * Berry-Punch Donne un verre de whisky à heuzef1
+2014-10-08T18:49:39 <Berry-Punch> Tiens heuzef1, pour *hic* te consoler :)
+2014-10-08T18:49:42 <adriens33> ah.
+2014-10-08T18:49:49 <adriens33> bon, bah faudra que j'ajoute une regexp.
+2014-10-08T18:49:54 <adriens33> (plus tard… flemme)
+2014-10-08T18:49:54 <heuzef1> Je bois pas d'alchool :'(
+2014-10-08T18:49:59 <adriens33> bah... bah....
+2014-10-08T18:50:01 <adriens33> tant pis !
+2014-10-08T18:50:02 <adriens33> XD
+2014-10-08T18:51:44 <adriens33> (la v3 avance bien par contre… doucement mais elle avance bien :p)
+2014-10-08T18:52:20 <adriens33> oh btw heuzef1 tu peux reprendre ton nick normal, il est libre
+2014-10-08T18:52:30 <adriens33> (suffit de faire /whois heuzef pour le voir)
+2014-10-08T18:52:40 <adriens33> (s'il te répond rien, c'est que le pseudo est pas utilisé)
+2014-10-08T18:52:47 <adriens33> (ce qui est le cas ici)
+2014-10-08T18:53:48 *** Lenile s'est connecté
+2014-10-08T18:53:55 <Lenile> Yow
+2014-10-08T18:54:01 <adriens33> hello Lenile
+2014-10-08T18:54:29 *** heuzef s'est connecté
+2014-10-08T18:54:32 *** heuzef1 est parti
+2014-10-08T18:54:53 <MaCharon> slt
+2014-10-08T18:54:54 <adriens33> ^^
+2014-10-08T18:55:04 <adriens33> (c'est juste heuzef qui se reco MaCharon ^^)
+2014-10-08T18:55:06 <Lenile> C'est hyper chaud de dessinner sur du tissu x)
+2014-10-08T18:55:19 <Lenile> Salut Flo
+2014-10-08T18:55:24 <adriens33> pourquoi tu dessines sur du tissu?
+2014-10-08T18:55:30 <adriens33> tu te fais un tee shirt à la main ?
+2014-10-08T18:55:43 <adriens33> (ou une banderolle peut-être ?)
+2014-10-08T18:55:52 <Lenile> Je fait un cosplay
+2014-10-08T18:55:53 <MaCharon> nn mais je dit bonjour a Lenile
+2014-10-08T18:55:59 <adriens33> Lenile: ah ok
+2014-10-08T18:56:05 <adriens33> MaCharon: ah... excuse moi ><
+2014-10-08T18:56:27 <Lenile> Macharon ?
+2014-10-08T18:56:38 <Lenile> t'a pas une paire de converse rouge T43 ?
+2014-10-08T18:57:55 <MaCharon> lol c'est a peine si je pense a changer de chaussures ^^
+2014-10-08T18:59:04 <Lenile> xD
+2014-10-08T18:59:11 <Lenile> Me faut des sortes de tenis Rouge xD
+2014-10-08T18:59:58 <Lenile> Je me l'achèterais le mois prochain ~
+2014-10-08T19:00:08 <adriens33> bah tu prends des tennis de n'importe quelle couleur et tu les teint en rouge: p
+2014-10-08T19:00:11 <adriens33> * :p
+2014-10-08T19:01:21 <Lenile> J'sais pas comment on fait :(
+2014-10-08T19:02:02 <adriens33> moi non plus, j'ai jamais eu besoin de faire, mais demande à notre cher ami m. google, je suis sûr qu'il saura te trouver une réponse. ^^
+2014-10-08T19:02:02 <MaCharon> ben tu prend un pot de peinture et tu met tes chaussures dedans :D
+2014-10-08T19:02:09 <adriens33> MaCharon: ouais, aussi.
+2014-10-08T19:02:18 <adriens33> M. Google sait tout.
+2014-10-08T19:02:29 <MaCharon> google est ton ami
+2014-10-08T19:02:29 <adriens33> (ce qui est un peu effrayant quand on y pense…)
+2014-10-08T19:02:32 <adriens33> non
+2014-10-08T19:02:42 <MaCharon> ah :/
+2014-10-08T19:02:44 <adriens33> pas mon.
+2014-10-08T19:02:47 <adriens33> *moi
+2014-10-08T19:02:51 <adriens33> je le trouve trop intrusif perso.
+2014-10-08T19:03:10 <adriens33> mais bon y'a pas que lui :p
+2014-10-08T19:03:17 <adriens33> y'a startpage, ixquick, duckduckgo…
+2014-10-08T19:03:22 <adriens33> et tout un tas d'autres
+2014-10-08T19:04:20 <Lenile> Nan$
+2014-10-08T19:04:23 <Lenile> C'est sale
+2014-10-08T19:04:28 <Lenile> Le pot de peintre
+2014-10-08T19:04:31 <Lenile> C'est moche
+2014-10-08T19:05:50 *** heuzef est parti
+2014-10-08T19:07:18 *** Lenile est parti
+2014-10-08T19:14:30 <Yvan33> Bon, pour le moment, ça a l'air enorme
+2014-10-08T19:20:15 <adriens33> cmb
+2014-10-08T19:23:01 <adriens33> rhâ c'est pas drôle si personne ne réagit.
+2014-10-08T19:25:20 *** Letarumavza s'est connecté
+2014-10-08T19:25:35 <adriens33> salut Letarumavza
+2014-10-08T19:25:43 <adriens33> ça a donné quoi la pêche aujourd'hui ? :p
+2014-10-08T19:26:02 <Letarumavza> TrappyTickles !
+2014-10-08T19:26:06 <Letarumavza> TrappyTickles !
+2014-10-08T19:26:07 <Letarumavza> TrappyTickles !
+2014-10-08T19:26:27 <adriens33> ah.
+2014-10-08T19:26:30 <adriens33> il a l'air content.
+2014-10-08T19:26:39 <Letarumavza> Hum...
+2014-10-08T19:26:43 <adriens33> ou pas ?
+2014-10-08T19:26:46 <adriens33> tu me fais douter.
+2014-10-08T19:26:47 <adriens33> XD
+2014-10-08T19:26:47 <Letarumavza> Plutot, croisons les doigts.
+2014-10-08T19:26:50 <adriens33> ah.
+2014-10-08T19:27:13 <adriens33> trappy a pas donné signe de vie depuis midi.
+2014-10-08T19:27:23 <adriens33> (même s'il est toujours co)
+2014-10-08T19:27:25 <TrappyTickles> je suis là, Letarumavza
+2014-10-08T19:27:28 <Letarumavza> ^^
+2014-10-08T19:27:41 <adriens33> ah bah si. ^^
+2014-10-08T19:48:37 <Letarumavza> Adrien !
+2014-10-08T19:48:44 <adriens33> ouaip ?
+2014-10-08T19:48:46 <Yvan33> Adrien !
+2014-10-08T19:48:53 <adriens33> quoi ?
+2014-10-08T19:49:02 <Letarumavza> Faudra que je te parle boulot demain, j'ai un tech qui m'a fait une petite merveille, on va se marrer ^^
+2014-10-08T19:49:03 <adriens33> (criez pas j'ai bobo la tête ><)
+2014-10-08T19:49:08 <adriens33> Letarumavza: ah ,
+2014-10-08T19:49:08 <adriens33> ?
+2014-10-08T19:55:31 *** Tsumenokage s'est connecté
+2014-10-08T19:55:40 <Tsumenokage> Salut
+2014-10-08T19:57:04 <Yvan33> Yop
+2014-10-08T19:59:14 <MaCharon> slt
+2014-10-08T19:59:39 <adriens33> bonchoire Tsumenokage
+2014-10-08T19:59:52 <Tsumenokage> ca va toujours ?
+2014-10-08T20:01:52 <Yvan33> Qu'est ce qui va? Si tu ne défini pas ton objet c'est 0
+2014-10-08T20:02:14 <adriens33> Yvan33 qui joue aux philosophes..
+2014-10-08T20:02:17 <Yvan33> Pardon, les cours de maths envahissent ma vie on dirait.
+2014-10-08T20:02:19 <adriens33> Tsumenokage: oui ça peut aller
+2014-10-08T20:29:00 <adriens33> Letarumavza pour demain aprem, je ramène du miam ? ^^
+2014-10-08T20:47:06 <adriens33> c'est un peu beaucoup trop calme…
+2014-10-08T20:47:16 <adriens33> je préfère quand c'est un peu trop plus moins calme.
+2014-10-08T20:47:23 <Tsumenokage> ^
+2014-10-08T20:47:25 <Tsumenokage> ^^
+2014-10-08T20:48:39 *** Yvan33 est parti
+2014-10-08T20:54:37 <Letarumavza> Quelqu'un sait qui est Jérémy Albouys-perrois ?
+2014-10-08T20:54:55 <Letarumavza> Que je sache si je le nitrate immédiatement ou si je l'accepte en ami.
+2014-10-08T20:55:03 <adriens33> c'est un pote à moi
+2014-10-08T20:55:14 <Tsumenokage> oui c'est moi ^
+2014-10-08T20:55:17 <adriens33> (avant l'animasia ça faisait un moment que je 'lavais pas vu )
+2014-10-08T20:55:19 <adriens33> aaaah
+2014-10-08T20:55:22 <adriens33> c'est toi ?
+2014-10-08T20:55:23 <Tsumenokage> XD
+2014-10-08T20:55:27 <Tsumenokage> oui
+2014-10-08T20:55:29 <adriens33> ok.
+2014-10-08T20:55:31 <adriens33> d'accord.
+2014-10-08T20:55:36 <adriens33> putain jsuis trop con ><
+2014-10-08T20:55:57 <adriens33> donc non couché Letarumavza tu le dézingues pas XD
+2014-10-08T20:56:13 <Letarumavza> Tu joues à lol ?
+2014-10-08T20:56:22 <Tsumenokage> yep
+2014-10-08T20:56:29 <Letarumavza> Quel div ?
+2014-10-08T20:56:35 <Tsumenokage> unranked
+2014-10-08T20:58:06 <Letarumavza> Hum, tu joues quelle rôle.
+2014-10-08T20:58:19 <Tsumenokage> support principalement
+2014-10-08T20:58:41 <Tsumenokage> et toi ?
+2014-10-08T20:58:50 <Letarumavza> ADC
+2014-10-08T21:46:13 <Tsumenokage> bon je re d'ici un moment
+2014-10-08T21:46:18 *** QUIT :Quit: � toute 2014-10-08T22:16:27 <adriens33> je go dormir
+2014-10-08T22:16:29 <adriens33> ++ les gens
+2014-10-08T22:16:42 *** adriens33 est parti
+2014-10-08T22:36:03 *** Tsumenokage s'est connecté
+2014-10-08T22:36:13 <Tsumenokage> re
+2014-10-08T22:42:29 <MaCharon> re
+2014-10-08T22:56:16 *** Tsumenokage_ s'est connecté
+2014-10-08T22:59:32 *** Tsumenokage est parti
+2014-10-08T23:08:40 *** Tsumenokage_ est parti
+2014-10-08T23:15:38 *** MaCharon est parti
+2014-10-08T23:39:32 *** TrappyTickles est parti

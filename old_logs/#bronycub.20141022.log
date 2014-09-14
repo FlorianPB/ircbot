@@ -1,0 +1,173 @@
+2014-10-21T00:00:10 <Yvan33> c'est ton tour
+2014-10-21T00:00:30 <MaCharon> mouai je vais essayer de voir ça
+2014-10-21T00:00:37 <Yvan33> Sur ce, je go regarder le film
+2014-10-21T00:00:43 <Yvan33> a +
+2014-10-21T00:00:47 <MaCharon> ++
+2014-10-21T00:00:50 *** Yvan33 est parti
+2014-10-21T00:06:03 *** adriens33 est parti
+2014-10-21T00:45:50 *** MaCharon est parti
+2014-10-21T00:47:41 *** MaCharon s'est connecté
+2014-10-21T00:51:06 *** MaCharon est parti
+2014-10-21T02:30:00 *** Silou est parti
+2014-10-21T02:49:57 *** Jinxypie est parti
+2014-10-21T02:50:28 *** Jinxypie s'est connecté
+2014-10-21T08:48:52 *** Gordfang s'est connecté
+2014-10-21T08:49:35 <Gordfang> yo
+2014-10-21T09:06:19 *** heuzef s'est connecté
+2014-10-21T09:11:01 <Gordfang> yo heuzef
+2014-10-21T09:21:44 <heuzef> plop =)
+2014-10-21T09:25:22 <Berry-Punch> Voilà ce qu'il s'est passé ces 10 *hic* dernières lignes, adriens33
+2014-10-21T09:25:23 *** adriens33 s'est connecté
+2014-10-21T09:25:59 <adriens33> salut
+2014-10-21T09:33:03 <Gordfang> lut
+2014-10-21T09:33:37 *** heuzef1 s'est connecté
+2014-10-21T09:35:21 *** heuzef est parti
+2014-10-21T09:44:24 *** Gordfang est parti
+2014-10-21T09:46:03 *** Silou s'est connecté
+2014-10-21T10:08:07 *** Silou est parti
+2014-10-21T10:08:47 *** Gordfang s'est connecté
+2014-10-21T10:31:08 <adriens33> ok… je regarde la page  wikipedia d'un projet libre… la page a été supprimée pour "violation de copyright"…
+2014-10-21T10:31:13 <adriens33> sur UN PROJET LIBRE ??!
+2014-10-21T10:31:42 <adriens33> (consolekit en l'occurence)
+2014-10-21T10:31:47 <adriens33> non mais dafuq ?
+2014-10-21T10:31:55 <heuzef1> c'est possible quand on y réfléchit bien, si je lance un projet libre qui s'appel windows, je risque d'avoir microsoft au cul
+2014-10-21T10:31:59 <adriens33> oui
+2014-10-21T10:32:03 <adriens33> mais là c'est pas le cas
+2014-10-21T10:32:22 <heuzef1> Pas de souci dans ce cas, la page sera réouverte
+2014-10-21T10:32:31 <adriens33> je pense pas…
+2014-10-21T10:32:37 <adriens33> et y'a même pas la version fr…
+2014-10-21T10:32:51 <heuzef1> Sans preuve de violation (c) la page est cloturé ?
+2014-10-21T10:32:55 <adriens33> Beh…
+2014-10-21T10:33:15 <adriens33> ils ont bien sorti que certaines théories n'existaient pas parce qu'elle n'étaient  pas sorties en livre non autoédité…
+2014-10-21T10:33:22 <adriens33> wikipedia se barre en couille¿
+2014-10-21T10:33:24 <adriens33> *…
+2014-10-21T10:34:35 <adriens33> et puis consolekit c'est un truc du freedesktop.org… c'pas comme si ça s'appelait UAC quoi merde… ><
+2014-10-21T10:35:06 <heuzef1> Tu peux pas faire passer le message ?
+2014-10-21T10:35:37 <adriens33> j'ai même pas la page, faudrait que je look la discussion d'abord. là je suis juste tombé dessus comme ça…
+2014-10-21T10:35:45 <adriens33> 'fin merde quoi.
+2014-10-21T10:36:07 <adriens33> (le message de suppression date de 2008, je pense pas que la page reviendra…)
+2014-10-21T10:36:50 <adriens33> putain y'a même plus la discussion, j'peux même pas la lire… ><
+2014-10-21T10:39:13 <heuzef> et la team de consolekit elle s'en fou ou quoi ?
+2014-10-21T10:40:55 <adriens33> beh consolekit est un peu abandonné en ce moment à cause de (cette merde de) systemd… (merci redhat ! merci lennard poettering ><), même s'il y a un fork qui a été fait apparemment
+2014-10-21T10:41:02 <adriens33> meme debian veut passer à systemd…
+2014-10-21T10:41:10 <heuzef> Après de ce que je vois c'est pas grave
+2014-10-21T10:41:10 <heuzef> https://wiki.archlinux.org/index.php/ConsoleKit
+2014-10-21T10:41:44 <adriens33> (ce truc bancal, même pas audité et qui cherche à remplacer tout le système dans un seul programme et que tu peux même pas relancer en plus, si tu le maj t'es obligé de reboot)
+2014-10-21T10:42:03 <adriens33> les logs sont dans un format binaire, à peine documenté et dans un tmpfs par défaut.
+2014-10-21T10:42:09 <adriens33> y'a que journalctl qui sait le lire.
+2014-10-21T10:42:15 <adriens33> sérieusement, y'a moyen de faire encore plus con ?
+2014-10-21T10:45:36 *** heuzef est parti
+2014-10-21T10:46:23 *** heuzef s'est connecté
+2014-10-21T10:48:37 *** adriens33 est parti
+2014-10-21T10:55:26 <Gordfang> http://underpable.deviantart.com/art/Berryscratch-No-489387534
+2014-10-21T10:55:35 <Gordfang> heuzef c'était ca l'image dont je parlai
+2014-10-21T11:12:05 <heuzef> Gordfang: trop cute ^^
+2014-10-21T11:12:13 <heuzef> Mais c'est pourquoi ?
+2014-10-21T11:12:17 <heuzef> J'ai loupé le contexte
+2014-10-21T11:14:44 *** TrappyTickles s'est connecté
+2014-10-21T11:14:45 <Gordfang> non juste car elle m'a fait marrer :D
+2014-10-21T11:15:08 <Gordfang> et aussi par rapport au fait qu'il y a eu scrachy sur le site lors des 1 ans
+2014-10-21T11:18:05 <heuzef> =)
+2014-10-21T11:24:53 *** Gordfang est parti
+2014-10-21T11:25:17 *** Gordfang s'est connecté
+2014-10-21T11:26:27 <heuzef> Autrement, des idées concernant le serveur backup pour BBBFF ?
+2014-10-21T11:26:45 <Gordfang> euh
+2014-10-21T11:26:55 <Gordfang> a part celui de shinsaber?
+2014-10-21T11:27:17 <heuzef> Non celui de shinsaber c'est celui de prod
+2014-10-21T11:27:34 <heuzef> Il nous faut un serveur de stockage pour dupliquer BBBFF
+2014-10-21T11:27:43 <heuzef> on prévoie dans les 500 Go
+2014-10-21T11:27:56 <heuzef> Budget : 0€
+2014-10-21T11:28:05 <heuzef> donc ça risque d'être hardcore
+2014-10-21T11:28:35 <heuzef> En général les solution gratos montent à 50 Go max
+2014-10-21T11:29:46 <heuzef> La solution la plus crédible pour le moment serais de scouater mon NAS
+2014-10-21T11:30:08 <heuzef> J'ai assez de débit decendant pour syncrho hebdo
+2014-10-21T11:30:42 <heuzef> Et 500 Go c'est néociable, au pire je peux toujours acheter un nouveau DD si vraiment je suis en rade de stockage
+2014-10-21T11:31:59 <Gordfang> J'en est pas de 500go disponbile :(
+2014-10-21T11:33:34 <heuzef> J'ai déjà sur mon NAS un DD dédié a des backup
+2014-10-21T11:33:36 <heuzef> 1 To
+2014-10-21T11:33:49 <Gordfang> pas mal
+2014-10-21T11:33:51 <heuzef> J'utilise 300 Go actuellement
+2014-10-21T11:33:56 <Gordfang> (faut que je les fasse d'ailleur les backup)
+2014-10-21T11:34:02 <heuzef> Donc Reste 700 Go
+2014-10-21T11:34:13 <heuzef> ça peux être pas trop mal
+2014-10-21T11:34:28 <heuzef> Et puis du coup je vais bénéficier de BBBFF en local chez moi
+2014-10-21T11:34:34 <Gordfang> le mec XD
+2014-10-21T11:34:34 <heuzef> plutôt cool quand même ^^
+2014-10-21T11:35:06 <heuzef> Ba on peux pas ce permettre de laisser BBBFF sans backup
+2014-10-21T11:35:15 <heuzef> Trop risqué
+2014-10-21T11:35:36 <Gordfang> pas faux
+2014-10-21T11:36:18 <heuzef> ouais, a defaut de trouver meilleur solution d'ici la, on utilisera mon NAS
+2014-10-21T11:40:18 <Gordfang> k
+2014-10-21T11:42:40 *** heuzef est parti
+2014-10-21T12:25:13 *** heuzef s'est connecté
+2014-10-21T13:35:56 *** heuzef1 s'est connecté
+2014-10-21T13:37:24 *** heuzef est parti
+2014-10-21T13:37:25 *** Gordfang est parti
+2014-10-21T13:54:31 <TrappyTickles> oi les poneys ^^
+2014-10-21T13:54:38 <heuzef1> oi
+2014-10-21T13:56:21 *** AndroUser s'est connecté
+2014-10-21T13:57:19 <heuzef_> Trappy ?
+2014-10-21T13:59:42 *** heuzef_ est parti
+2014-10-21T14:00:07 <TrappyTickles> mh?
+2014-10-21T14:02:27 <TrappyTickles> vite, faut que j'ailel faire des courses :p
+2014-10-21T14:07:05 <heuzef1> Ok
+2014-10-21T14:07:13 <heuzef1> J'aimerais discuter avec toi à l'occasion
+2014-10-21T14:07:29 <heuzef1> Pour savoir si tu veux t'occuper d'un pti projet
+2014-10-21T14:25:58 <Jinxypie> Salut tout le monde
+2014-10-21T14:26:05 <Jinxypie> Putain, j'ai la crève...
+2014-10-21T15:27:39 <Berry-Punch> Voilà ce qu'il s'est *hic* passé ces 10 dernières lignes, adriens33
+2014-10-21T15:27:40 *** adriens33 s'est connecté
+2014-10-21T15:34:59 <adriens33> salut la compagnie
+2014-10-21T15:40:55 <TrappyTickles> oi
+2014-10-21T15:41:40 <TrappyTickles> de la*
+2014-10-21T15:42:10 <adriens33> beuark
+2014-10-21T15:42:49 <adriens33> ah. ^^
+2014-10-21T15:43:05 <TrappyTickles> pas d'ancetre de twilight non plus, ni d'applejack :p
+2014-10-21T15:43:21 <TrappyTickles> et au moins, scorpan a du temps d'antenne lol
+2014-10-21T15:45:39 <TrappyTickles> mmm par contre la G3, j'ai beau faire, j'y arrive pas :p
+2014-10-21T15:46:00 <adriens33> y'a des limites au supportable XD
+2014-10-21T16:19:21 *** MaCharon s'est connecté
+2014-10-21T16:19:27 <MaCharon> salut
+2014-10-21T16:19:41 <Jinxypie> re
+2014-10-21T16:19:43 <adriens33> plop
+2014-10-21T16:34:11 *** Silou s'est connecté
+2014-10-21T17:43:04 *** heuzef1 s'est connecté
+2014-10-21T17:45:05 *** heuzef est parti
+2014-10-21T17:57:22 *** adriens33 est parti
+2014-10-21T18:43:16 *** heuzef1 est parti
+2014-10-21T20:47:21 *** Lenile s'est connecté
+2014-10-21T20:47:21 <Lenile> Salut les sourds ~
+2014-10-21T20:47:35 <MaCharon> salut
+2014-10-21T20:47:42 <Lenile> Bienvenu Jlnxypie
+2014-10-21T20:49:00 <Lenile> Jinxypie:
+2014-10-21T20:49:05 <Lenile> Jinxypie
+2014-10-21T20:49:09 <Lenile> 8D
+2014-10-21T20:49:14 <Jinxypie> Fais un whois...
+2014-10-21T20:49:28 <Lenile> Bienvenu 8D
+2014-10-21T20:49:34 <Jinxypie> ...
+2014-10-21T20:49:42 <Lenile> Tes nouveau bnon ? 8D
+2014-10-21T20:49:47 <Jinxypie> T'es mignon mais t'es un tout petit breton.
+2014-10-21T20:49:55 <Jinxypie> Quelqu'un lui explique ?
+2014-10-21T20:50:16 <Lenile> . . .
+2014-10-21T20:51:07 <MaCharon> ^^
+2014-10-21T20:51:15 <MaCharon> fait le toi même
+2014-10-21T20:59:10 *** Lenile est parti
+2014-10-21T21:14:33 *** Bybeez s'est connecté
+2014-10-21T21:14:35 <Bybeez> Chocolatine !
+2014-10-21T21:14:44 <Bybeez> Bonjours !
+2014-10-21T21:14:49 <Bybeez> Bonjour* !
+2014-10-21T21:15:54 <MaCharon> salut
+2014-10-21T21:17:08 <MaCharon> dis moi tu fais quelque chose jeudi ou vendredi aprem ?
+2014-10-21T21:17:50 <MaCharon> pendant que j'y pense
+2014-10-21T21:18:00 <Bybeez> Jeudi aprem je dois aller a la foire mais je suis pas sur d'y aller sinon je fais rien pourquoi ?
+2014-10-21T21:18:41 <MaCharon> avec Yvan on compte se faire un McDo principalement donc si ça te tente...
+2014-10-21T21:19:21 <Bybeez> Ouais pourquoi pas, je vais voir niveau fric si je peux, je vous tient au courant ^^
+2014-10-21T21:19:38 <MaCharon> pour chopper les figurines MLP :p
+2014-10-21T21:20:10 <Bybeez> Ok, je pense que niveau fric je peux me debrouiller pour manger et avoir des figurine
+2014-10-21T21:21:00 <Bybeez> ^^
+2014-10-21T21:21:05 <MaCharon> cool donc du coup jeudi ou vendredi ?
+2014-10-21T21:21:24 <Bybeez> Les deux me vont donc comme vous voulez
+2014-10-21T21:21:48 <MaCharon> faut voir apres si d'autres veulent venir
+2014-10-21T21:21:57 <Bybeez> Ouaip !
+2014-10-21T22:10:50 <Bybeez> Bonne nuit !
+2014-10-21T22:10:58 *** Bybeez est parti
