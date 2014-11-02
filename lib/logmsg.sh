@@ -10,7 +10,6 @@ HOOKS["cmd_received"]+="log_action;";
 
 # ---------- Settings ----------
 logdir="./";
-logchan="#bronycub";
 
 # ---------- Fcts ----------
 # Logue un message utilisateur (ou une action, ie. « * machintruc fait ceci »)
@@ -18,11 +17,11 @@ log_message()
 {
 	[ "${irc_target:0:1}" != "#" ] && return;
 
-	echo -n "$(date +%Y-%m-%dT%H:%M:%S) " >> "${logdir}/${logchan}.log"
+	echo -n "$(date +%Y-%m-%dT%H:%M:%S) " >> "${logdir}/${CHAN}.log"
 	if [ $(printf "%d" \'${irc_msg:0:1}) -eq 1 ] && [ "${irc_msg:1:7}" == "ACTION " ]; then
-		echo "* $irc_user $(echo "$irc_msg"|tr "\01" " "|sed 's| ACTION ||;s| $||')" >> "${logdir}/${logchan}.log"
+		echo "* $irc_user $(echo "$irc_msg"|tr "\01" " "|sed 's| ACTION ||;s| $||')" >> "${logdir}/${CHAN}.log"
 	else
-		echo "<$irc_user> $irc_msg" >> "${logdir}/${logchan}.log";
+		echo "<$irc_user> $irc_msg" >> "${logdir}/${CHAN}.log";
 	fi
 }
 
@@ -35,14 +34,14 @@ log_action()
 
 	action="$(echo "$LINE"|sed 's/^:\([^!]*\)![^ ]* \(QUIT\|JOIN\|PART\).*$/\2 \1/')"
 	name="$(echo "$LINE"|sed 's/^:\([^!]*\)![^ ]* .*$/\1/')"
-	echo -n "$(date +%Y-%m-%dT%H:%M:%S) *** $(echo "$action"|cut -d' ' -f2-) " >> "${logdir}/${logchan}.log"
+	echo -n "$(date +%Y-%m-%dT%H:%M:%S) *** $(echo "$action"|cut -d' ' -f2-) " >> "${logdir}/${CHAN}.log"
 	action="$(echo "$action"|cut -d' ' -f1)";
 
 	case $action in
 		"QUIT"|"PART")
-			echo "est parti" >> "${logdir}/${logchan}.log";;
+			echo "est parti" >> "${logdir}/${CHAN}.log";;
 		"JOIN")
-			echo "s'est connecté" >> "${logdir}/${logchan}.log";
+			echo "s'est connecté" >> "${logdir}/${CHAN}.log";
 			# irc_back="$name";
 			# irc_user="$name";
 			# log_last;;
@@ -62,7 +61,7 @@ log_last()
 
 	send "PRIVMSG $irc_back :Voilà ce qu'il s'est passé ces 10 dernières lignes, $irc_user";
 	
-	tail -n 11 "$logdir/${logchan}.log" | head -n 10 | while [ "$A" != "" ]; do
+	tail -n 11 "$logdir/${CHAN}.log" | head -n 10 | while [ "$A" != "" ]; do
 		read A;
 		[ "$A" != "" ] && {
 			send_sec "PRIVMSG $irc_back :${A}";

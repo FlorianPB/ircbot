@@ -60,7 +60,7 @@ cmd_kick()
 
 	[ "$reason" != "" ] && reason=":${reason}";
 
-	send_sec "KICK #bronycub $name ${reason}"
+	send_sec "KICK ${CHAN} $name ${reason}"
 }
 
 # Aide pour une commande
@@ -133,13 +133,13 @@ stop_the_bot()
 do_smgth()
 {
 	local args="${@}"
-	send_sec "PRIVMSG #bronycub :\x01ACTION ${args}\x01";
+	send_sec "PRIVMSG ${CHAN} :\x01ACTION ${args}\x01";
 }
 # Fait dire quelque chose au bot
 say_smgth()
 {
 	local args="${@}"
-	send "PRIVMSG #bronycub :${args}";
+	send "PRIVMSG ${CHAN} :${args}";
 }
 
 # Lance un muffin sur quelqu'un

@@ -24,7 +24,7 @@ admin_flags()
 
 	flags="$(grep "^${user_}=" $conf_admin|cut -d= -f2)"
 	if [ "$flags" != "" ] ; then
-		send "MODE #bronycub ${flags} ${user_}"
+		send "MODE ${CHAN} ${flags} ${user_}"
 	fi
 }
 
@@ -82,7 +82,7 @@ admin_modflag()
 		return;
 	fi
 	msg "$user_: Modified flags ($flags_)"
-	send_sec "MODE #bronycub $flags_ $user_";
+	send_sec "MODE ${CHAN} $flags_ $user_";
 	send "PRIVMSG $irc_back :Flags de $user_ modifiés : $flags_";
 }
 

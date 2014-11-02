@@ -40,8 +40,8 @@ identify()
 # Permet de rejoindre un canal
 joinchannel()
 {
-	msg "Joining #bronycub";
-	send "JOIN #bronycub";
+	msg "Joining ${CHAN}";
+	send "JOIN ${CHAN}";
 	sleep 1;
 
 	nb=$(cat in_buffer|wc -l);
@@ -54,11 +54,11 @@ joinchannel()
 	done;
 
 	msg "Done. I'm now fully operationnal.";
-	send 'PRIVMSG #bronycub :Salut tout le monde !';
+	send "PRIVMSG ${CHAN}"' :Salut tout le monde !';
 }
 exitbot()
 {
-	send "PART #bronycub :Bye bye :)";
+	send "PART ${CHAN} :Bye bye :)";
 	sleep 1;
 	send "QUIT :bye";
 	sleep 1;
