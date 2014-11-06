@@ -27,6 +27,8 @@ declare -Ag cmdtable=(['stop']="stop_the_bot"
 					 ['deop']="admin_flagcmd mod -o \$args"
 					 ['help']="cmd_help \$args"
 					 ['kick']="cmd_kick \$args"
+					 ['ban']="cmd_ban \$args"
+					 ['unban']="cmd_ban - \$args"
 					 ['list']="list_cmds");
 
 # Droit d'accès à certaines commandes
@@ -40,6 +42,31 @@ list_cmds()
 	local a="${!cmdtable[@]}"
 	send "PRIVMSG $irc_back :Commandes disponibles :";
 	send "PRIVMSG $irc_back :$a";
+}
+
+# Permet de bannir / débannir quelqu'un
+cmd_ban()
+{
+	local mask hostip INV;
+
+	INV=0;
+	[ "$1" == "-" ] && INV=1;
+
+	mask="${1}"; shift;
+	hostip="$(LC_ALL=c host "${HOST}"|sed "s@^.*address @@")"
+	if [ $INV -eq 0 ]; then
+		[ $(echo "${mask}"|grep "${BAN_WHITELIST}"|wc -l) -gt 0 ] && {
+			send "PRIVMSG $irc_back :Tu rêves là."
+			return;
+		}
+		[ $(echo "${mask}"|grep "${NICK}\|${HOST}\|${hostip}"|wc -l) -gt 0 ] && {
+			send "PRIVMSG $irc_back :Donc tu penses que je vais me bannir. Raté, je suis bourrée mais pas à ce point XD";
+			return;
+		}
+		send_sec "MODE ${CHAN} +b ${mask}"
+	else
+		send_sec "MODE ${CHAN} -b ${mask}"
+	fi
 }
 
 # Permet de kick quelqu'un
@@ -75,6 +102,10 @@ cmd_help()
 		return
 	}
 	case "$cmd" in
+		"ban")	helptext=("Bannit quelqu'un du canal." "${cmd_char}ban xxx!yyy@zzz xxx=pseudo yyy=username zzz=adresse")
+			;;
+		"unban")	helptext=("Enlève l'état de banissement de quelqu'un sur le canal." "${cmd_char}unban xxx!yyy@zzz xxx=pseudo yyy=username zzz=adresse")
+			;;
 		"kick")	helptext=("Kicke (vire) quelqu'un du canal." "${cmd_char}kick <nom> [raison]")
 			;;
 		"niorphlo") helptext=("Dit bonjour à quelqu'un." "${cmd_char}niorphlo <nom>")
