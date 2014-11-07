@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 
+source config/SHBot.cfg
+
 params()
 {
 	declare -Ag LOGDIR LOGARCHDIR LOGBASENAME NB_ROTATIONS
 
-	LOGDIR=/home/berry-punch
-	LOGARCHDIR=/home/berry-punch/old_logs
-	LOGBASENAME=\#bronycub
+	LOGDIR=$(dirname "$0")
+	LOGARCHDIR=${LOGDIR}/old_logs
+	LOGBASENAME="${CHAN}"
 	NB_ROTATIONS=7
 }
 make_dirs()
