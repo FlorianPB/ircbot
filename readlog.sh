@@ -12,6 +12,6 @@ disp()
 if [ "$1" == "-a" ]; then
 	cat old_logs/* "./${CHAN}".log | disp
 else
-	cat "old_logs/${CHAN}.$(date +%Y%m)*" ./"${CHAN}".log | disp
+	cat old_logs/${CHAN}.$(date +%Y%m)* ./"${CHAN}".log | disp
 fi
 
