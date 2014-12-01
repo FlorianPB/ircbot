@@ -178,4 +178,4 @@ while [ -f pidfile ]; do
 		eval "${HOOKS["cmd_received"]}"
 	fi
 done
-rm IN_IDX OUT_IDX in_buffer.* out_buffer.* in_lnk out_lnk;
+rm IN_IDX OUT_IDX in_buffer.* out_buffer.* in_lnk out_lnk /tmp/brain-dic.pid;
