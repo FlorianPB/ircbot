@@ -1,0 +1,372 @@
+2014-12-07T01:26:58 *** adriens33 est parti
+2014-12-07T03:03:05 *** Gordfang est parti
+2014-12-07T10:10:52 *** adriens33 s'est connecté
+2014-12-07T10:25:40 <adriens33> bijour Trappy
+2014-12-07T10:41:06 <TrappyTickles> oi
+2014-12-07T10:54:42 <TrappyTickles> putqin jd2teste 9q
+2014-12-07T11:04:50 <adriens33> tu déteste quoi ? XD
+2014-12-07T11:04:57 <adriens33> c'est pas très lisible ce que tu écris..
+2014-12-07T11:05:11 <adriens33> t'es en qwerty peut-être ?
+2014-12-07T11:10:46 <TrappyTickles> ....tas remarqué
+2014-12-07T11:10:56 <TrappyTickles> c'est bon c'est résolu.. a moitié
+2014-12-07T11:11:38 <TrappyTickles> une nouvelle connerie de windows: t'as un raccourci clavier pour passer de azerty a qwerty et inversement: ALT+MAJ. Juste alt+maj!!!
+2014-12-07T11:11:45 <TrappyTickles> et impossible de désactiver ça!!
+2014-12-07T11:11:51 <TrappyTickles> FUCKIN GENIUS
+2014-12-07T11:49:12 <adriens33> si
+2014-12-07T11:49:26 <adriens33> faut aller dans les options de la barre de langue je crois
+2014-12-07T11:49:45 <adriens33> (je connais ce f**ing raccourci, c'est hyper débile de l'avoir placé sur alt maj)
+2014-12-07T11:49:59 <adriens33> (mais bon c'est microsoft, hein XD)
+2014-12-07T12:47:14 <TrappyTickles> tain ça m'énerve... y a des scripts pour convertir un truc sous blender en model pour sfm et gmod, mais le script il fait que 12% du taf
+2014-12-07T12:51:08 <adriens33> comment ça ?
+2014-12-07T12:52:14 <TrappyTickles> ben il faut pratiquement tout faire soi même. le script il combine juste tout en fichiers valve...
+2014-12-07T12:52:40 <TrappyTickles> exporter directement un model à l'arrache, ça marche pas.. y a genre tonne de préparations à faire, dont la rédaction d'un fichier qc soi mêem!
+2014-12-07T12:54:35 <adriens33> bah sinon t'as une autre solution, tu apprends le python et tu te fais ton propre plugin. (pis c'est pas un mal, le python c'est vachement bien)
+2014-12-07T12:55:00 <adriens33> quitte à faire les choses toi-même autant les automatiser :)
+2014-12-07T12:55:59 *** Gordfang s'est connecté
+2014-12-07T12:56:08 <adriens33> salut Gordfang
+2014-12-07T12:56:11 <TrappyTickles> oui mais là c'est 6e année de python le niveau
+2014-12-07T12:56:23 <TrappyTickles> à python je suis juste bon à faire des visual novels :p
+2014-12-07T12:56:55 <Gordfang> yo
+2014-12-07T12:57:02 <adriens33> nahh tu suis deux trois tutos (en gardant le site de python en bookmark, c'est tellement rempli de doc que ça en dégueule presque)
+2014-12-07T12:57:08 <adriens33> ça vient vite.
+2014-12-07T12:57:38 <adriens33> et pis surtout ce qui est génial, c'est que la syntaxe du python te force à être plus rigoureux ^^
+2014-12-07T12:58:18 <TrappyTickles> mais je sais rien faire sur blender non plus
+2014-12-07T12:58:19 <adriens33> apres le reste c'est de l'algo classique hein. le langage diffère
+2014-12-07T12:58:38 <TrappyTickles> j'ai réussi à chopper le model de fluttershy humaine pour blender, mais j'arrive mêem pas à lui faire bouger un bone
+2014-12-07T12:58:46 <adriens33> mais c'est juste comme de changer les mots pour dire la même idée
+2014-12-07T12:58:59 <adriens33> tu t'es mis en pose mode ?
+2014-12-07T12:59:21 <TrappyTickles> ben oui
+2014-12-07T12:59:30 <TrappyTickles> mais le seul truc que j'ai pu faire bouger c'est ses chveux
+2014-12-07T12:59:38 <TrappyTickles> on dirait que seuls ses chveux ont des bones oO
+2014-12-07T12:59:39 <adriens33> bah tu clic sur un bone et tu fais G pour le déplacement
+2014-12-07T12:59:46 <adriens33> ou es le souci ?
+2014-12-07T12:59:53 <adriens33> ou alors c'est qu'elle est mal squelettée
+2014-12-07T12:59:54 <TrappyTickles> jviens de le dire
+2014-12-07T13:00:07 <TrappyTickles> je sais pas.. 'jy connais rien en blender
+2014-12-07T13:00:19 <TrappyTickles> sur sfm je m'en sors, mais pas sur blender
+2014-12-07T13:00:24 <adriens33> oui mais le temps que je tape je peux pas tout lire ce que tu écris je suis pas une machine XD
+2014-12-07T13:00:46 <adriens33> fais voir ton .blend ?
+2014-12-07T13:00:52 <TrappyTickles> lol ok atta
+2014-12-07T13:01:19 <TrappyTickles> http://maxlefou.deviantart.com/art/Fluttershy-497716745 le download link est dans la desc
+2014-12-07T13:04:37 <adriens33> grr mediafire sale merde tu peux pas me filer un VRAI LIEN VERS LE FICHIER ENCULE ??
+2014-12-07T13:04:40 <adriens33> pardon.
+2014-12-07T13:04:41 <adriens33> XD
+2014-12-07T13:21:51 <TrappyTickles> c'est tout ce que ce con a on dirait... mais jpeux essayer de le upload sur mega
+2014-12-07T13:23:44 *** adriens331 s'est connecté
+2014-12-07T13:27:13 *** adriens33 est parti
+2014-12-07T13:27:37 <adriens33> nan mais c'est bon
+2014-12-07T13:27:43 <adriens33> et l'armature est bien faite
+2014-12-07T13:28:07 <adriens33> tu attrappes par exemple l'espece de u autour du pied
+2014-12-07T13:28:21 <adriens33> tu le grab avec G et tu peux bouger toute la jambe
+2014-12-07T13:37:54 <adriens33> TrappyTickles: tiens look ses vidéos, ça t'aidera peut-être pour blender :P https://www.youtube.com/channel/UCtAQA36rk33gFnD1rpjHa1g
+2014-12-07T13:39:13 <TrappyTickles> blender me fait serieusement pas envie. Moi je voulais juste convertir le model pour sfm
+2014-12-07T13:39:34 <adriens33> bah comme tu veux,  hein. mais c'est un putain de soft quand même.
+2014-12-07T13:40:01 <TrappyTickles> peut-être mais c'est trop using a gaz
+2014-12-07T13:40:07 <adriens33> AH AH AH
+2014-12-07T13:40:08 <TrappyTickles> sfm est déjà limite
+2014-12-07T13:40:15 <adriens33> c'est pas usine à gaz
+2014-12-07T13:40:23 <TrappyTickles> en plus ces cons m'ont trollé
+2014-12-07T13:40:24 <adriens33> tu sais ce que ce terme veut dire au moins ?
+2014-12-07T13:40:27 <adriens33> non.
+2014-12-07T13:40:33 <adriens33> sinon tu t'en servirai pas.
+2014-12-07T13:40:40 <TrappyTickles> tu va voir que quand j'aurai enfin appris à m'en servir, ils vont encore changer toute l'interface et faudra tout réapprendre
+2014-12-07T13:40:41 <adriens33> le modelling 3D est complexe
+2014-12-07T13:40:48 <adriens33> ._.
+2014-12-07T13:41:01 <adriens33> c'est même pas la peine je parle à un mur.
+2014-12-07T13:41:07 <TrappyTickles> je sais pas modeler, moi
+2014-12-07T13:41:27 <TrappyTickles> je sais animer (et encore) mais pas modeler
+2014-12-07T13:44:10 <adriens33> mec. une usine à gaz c'est quand t'as trop de fonctions inutiles dans un logiciel. là on parle de modélisation / animation / rendering 3D. c'est un domaine vaste et hyper complexe et blender en a pas d'inutile crois moi. c'est juste que c'est un logiciel hyper vaste du fait du domaine auquel il touche, c'est tout. Apprends à en utiliser quelques unes et tu verra qu'elles sont très loin d'être inutile.
+2014-12-07T13:54:21 <TrappyTickles> tu connais des jeux qui sont faits uniquement sur blender? sur blender y a une fonction pour ça, apparemment
+2014-12-07T14:05:15 <adriens33> pas vraiment, mais blender est super flexible donc en utilisant le moteur 3D + le moteur physique + le système d'animation + des scripts bah.. oui tu peux faire des jeux. parce que blender est juste super puissant.
+2014-12-07T14:05:33 <TrappyTickles> QUe avec blender? sans rien d'additionnel?
+2014-12-07T14:05:36 <adriens33> bah oui
+2014-12-07T14:05:42 <adriens33> si
+2014-12-07T14:05:43 <TrappyTickles> ça jdremande a voir
+2014-12-07T14:05:49 <adriens33> un peu d'huile de coude :)
+2014-12-07T14:07:13 <adriens33> ça fait longtemps que j'ai pas touché a ca et j'ai pas trop touché a l'api python de blender encore. mais faudra que je m'y remette, j'avais testé vite fait a une époque et même en y connaissant pas grand chose j'avais fait un truc ou tu peux faire avancer une voiture sur un terrain
+2014-12-07T14:07:37 <adriens33> (avec la caméra qui suit la voiture of course)
+2014-12-07T14:10:30 <TrappyTickles> a mon avis tu pourras pas coder un clone de WoW avec ça
+2014-12-07T14:10:54 <adriens33> bah.. ce qui manque en natif sur les moteurs de blender
+2014-12-07T14:11:00 <adriens33> tu peux le scripter en python
+2014-12-07T14:11:16 <adriens33> donc c'est à voir
+2014-12-07T14:11:24 <adriens33> bien sur ça demanderai un taf de dingue
+2014-12-07T14:11:51 <adriens33> mais bon au moins l'avantage c'est que t'a ni le moteur 3D ni le moteur physique à coder.
+2014-12-07T14:11:54 <TrappyTickles> un taf de dingue? il faudrait 10 ans à un type tout seul pour faire un truc pareil
+2014-12-07T14:11:58 <adriens33> et l'éditeur est intégré :D
+2014-12-07T14:12:07 <TrappyTickles> ou 2 ans mininmum a temps plein sans faire dodo ni bouffer
+2014-12-07T14:12:44 <adriens33> tiens, pour le rainbow dash simulator on aurait pu aller par là :P a voir si blender supporte l'oculus.
+2014-12-07T14:13:09 <adriens33> avoir le moteur 3D & physique + un éditeur intégré ça enlève pas mal de boulot déjà.
+2014-12-07T17:55:49 *** adriens331 s'est connecté
+2014-12-07T17:59:00 *** adriens33 est parti
+2014-12-07T19:45:27 *** Gordfang est parti
+2014-12-07T20:19:31 *** Jinxypie s'est connecté
+2014-12-07T20:19:38 <Jinxypie> c'est encore mort ?
+2014-12-07T20:20:33 <Jinxypie> !kick Jinxiepie
+2014-12-07T20:20:46 <Jinxypie> tien, elle réagit plus ?
+2014-12-07T20:20:57 <adriens33> !help
+2014-12-07T20:20:58 <adriens33> si
+2014-12-07T20:21:00 <adriens33> salut
+2014-12-07T20:21:05 <Jinxypie> salut ^^
+2014-12-07T20:21:20 <Jinxypie> Le canal est mort ?
+2014-12-07T20:22:55 <adriens33> ouaui
+2014-12-07T20:23:05 <adriens33> c'est mort depuis un moment
+2014-12-07T20:23:09 <adriens33> y'a plus grand monde
+2014-12-07T20:40:01 <adriens33> tu fais quoi toi sinon ?
+2014-12-07T20:56:16 *** Gordfang s'est connecté
+2014-12-07T21:06:13 <adriens33> Jinxypie: pour le !kick c'est normal si elle a rien fait
+2014-12-07T21:06:34 <adriens33> c'est parce que y'a un réglage pour mettre une whitelist sur ça et le ban
+2014-12-07T21:07:01 <adriens33> (bon avec un message ça serait mieux mais bon..)
+2014-12-07T21:16:35 <Jinxypie> Yep
+2014-12-07T21:16:38 <Jinxypie> Pas grave
+2014-12-07T21:16:47 <Jinxypie> Tain chuis mort, j'ai une crève qui me fout mal de tronche...
+2014-12-07T21:17:04 <Jinxypie> Oui je finis la gastro, je démare un rhume...
+2014-12-07T21:17:06 <Jinxypie> fuck it
+2014-12-07T21:20:49 <adriens33> XD
+2014-12-07T21:20:55 <adriens33> t'as pas de pot toi dis
+2014-12-07T21:21:52 <adriens33> ça te réussi pas de sortir de ta chambre on  dirait... XD
+2014-12-07T21:22:36 <Jinxypie> yep...
+2014-12-07T21:26:05 <adriens33> bon remarque moi je dis ça mais je fais pratiquement du h24 alterné pc/pieu avec du remplissage du garde manger quand y'a plus que dalle depuis... bah depuis que j'ai finit mon taf & raté mon dut en juillet/aout en fait.
+2014-12-07T21:26:26 <adriens33> tu déteins sur moi espèce de con :P
+2014-12-07T21:45:23 <Jinxypie> héhé
+2014-12-07T21:45:27 <Jinxypie> dis moi...
+2014-12-07T21:45:39 <Jinxypie> ça te dis de bosser sur un de mes projets avec moi ?
+2014-12-07T21:45:57 <Jinxypie> Je peux pas tout faire tout seul, et je sais que tu en as les compétences...
+2014-12-07T21:52:38 <adriens33> c'est quoi comme truc ?
+2014-12-07T22:11:02 *** Elidyros s'est connecté
+2014-12-07T22:15:23 <Elidyros> Bonsoir.
+2014-12-07T22:15:56 <adriens33> hello Elidyros
+2014-12-07T22:17:46 <Elidyros> Tu es tout seul ?
+2014-12-07T22:18:11 <Jinxypie> re
+2014-12-07T22:23:08 <adriens33> nope y'a leta ^^
+2014-12-07T22:23:13 *** ludvann s'est connecté
+2014-12-07T22:23:22 <ludvann> hellow
+2014-12-07T22:23:24 <ludvann> :D
+2014-12-07T22:23:39 <adriens33> hello ludvann
+2014-12-07T22:23:43 <ludvann> ça va ?
+2014-12-07T22:24:33 <ludvann> ;_;
+2014-12-07T22:25:04 <adriens33> ouai
+2014-12-07T22:25:14 <Elidyros> Bonsoir ludvann
+2014-12-07T22:25:16 <ludvann> quoi de neuf ?
+2014-12-07T22:25:21 <adriens33> tu sais si on répond pas dans la demie seconde c'est normal hein
+2014-12-07T22:25:23 <ludvann> ça va Elidyros ? :-)
+2014-12-07T22:25:34 <Elidyros> Nickel, et toi ?
+2014-12-07T22:25:36 <ludvann> ah bon ? .-.
+2014-12-07T22:25:54 <adriens33> bah oui... tu sais on est pas forcément le nez collé sur la fenetre d'irc..
+2014-12-07T22:25:55 <ludvann> ouais plutôt bien même si j'ai mal au bras ^^'
+2014-12-07T22:26:10 <adriens33> ah bah a force.. change de bras ^^"
+2014-12-07T22:26:10 <ludvann> adriens33 c'est bon je rigole ;-)
+2014-12-07T22:26:14 <Elidyros> Ceci dit l'image de toi le nez collé à l'écran est amusante adriens33
+2014-12-07T22:26:19 <ludvann> xD
+2014-12-07T22:26:24 <ludvann> x2
+2014-12-07T22:26:25 <adriens33> Elidyros: pourquoi ?..
+2014-12-07T22:26:36 <Elidyros> Aucune idée
+2014-12-07T22:26:40 <adriens33> ._.
+2014-12-07T22:26:53 <Elidyros> Juste, l'image.
+2014-12-07T22:27:18 <ludvann> je voudrais bien changer de bras mais mon bras gauche est moins rapide et précis... :-/
+2014-12-07T22:27:39 <adriens33> ludvann: ...
+2014-12-07T22:27:47 <ludvann> (j'ai mal au bras parce que j'ai trié environ 5000 perles...)
+2014-12-07T22:27:48 <adriens33> Elidyros:okay...
+2014-12-07T22:27:59 <ludvann> adriens33: tordu...
+2014-12-07T22:28:04 <Elidyros> Je ris d'un rien adriens33
+2014-12-07T22:28:12 <adriens33> ludvann: ouai t'aime bien enfiler des perles, c'bien c'que je dis.
+2014-12-07T22:28:20 <adriens33> Elidyros: tant mieux pour toi alor
+2014-12-07T22:28:22 <adriens33> *alors
+2014-12-07T22:28:29 <Elidyros> Il y a un soucis ?
+2014-12-07T22:28:32 <adriens33> nope
+2014-12-07T22:28:45 <Elidyros> D'accord.
+2014-12-07T22:28:51 <ludvann> btw n'oubliez pas de vérif' vot' box mail ^^
+2014-12-07T22:29:21 <adriens33> ludvann...
+2014-12-07T22:29:24 <adriens33> « J'espère que vous allez bien et si ce n'est pas le cas je m'en fiche ;-) »
+2014-12-07T22:29:26 <ludvann> watt ?
+2014-12-07T22:29:31 <adriens33> c'est pas très sympa ça.
+2014-12-07T22:29:32 <ludvann> ah x)
+2014-12-07T22:29:46 <adriens33> t'aurai pu t'en passer
+2014-12-07T22:29:47 <ludvann> il y a pas mal d'humour dans le mail ^^
+2014-12-07T22:29:55 <ludvann> ^^'
+2014-12-07T22:30:01 <adriens33> nah mais l'humour j'veux bien XD
+2014-12-07T22:30:13 <ludvann> *sifflote*
+2014-12-07T22:30:23 <adriens33> mais ça c'est pas drole. ^^ c'est juste méchant tu vois ? y'a une différence
+2014-12-07T22:31:02 <ludvann> mouais ^^
+2014-12-07T22:35:13 <ludvann> c'est assez calme ce soir...
+2014-12-07T22:36:31 <adriens33> ludvann: ça fait des semaines que c'est calme.
+2014-12-07T22:36:47 <adriens33> pardon, plus d'un mois.. (et je suis gentil..)
+2014-12-07T22:36:48 <ludvann> ouais j'imagine...
+2014-12-07T22:36:54 <ludvann> c'est triste...
+2014-12-07T22:37:11 <Elidyros> Moi j'aurais dit que ça a toujours été comme ça mais je n'ai pas envie de me faire taper dessus.
+2014-12-07T22:37:16 <adriens33> oui bon ça va n'en rajoute pas non plus ludvann ><
+2014-12-07T22:37:41 <ludvann> Elidyros: il fut un temps où je mettais l'ambiance ^^
+2014-12-07T22:37:44 <adriens33> Elidyros: non.. c'est faux.. y'avait bien plus de discu avant
+2014-12-07T22:37:53 <ludvann> (jusqu'au kick 'fin bon ^^)
+2014-12-07T22:37:54 <adriens33> ce soir y'a du monde
+2014-12-07T22:38:02 <adriens33> mais c'est exeptionnel..
+2014-12-07T22:38:03 <ludvann> du monde afk*
+2014-12-07T22:38:21 <adriens33> ça fait un mois au moins que y'a que moi et Trappy et parfois Gordfang.
+2014-12-07T22:38:34 <Gordfang> hmm?
+2014-12-07T22:38:37 <ludvann> je vais essayer de me co plus souvent ^^
+2014-12-07T22:38:42 <adriens33> désolé Gordfang XD
+2014-12-07T22:38:47 <adriens33> je t'ai réveillé ? XD
+2014-12-07T22:38:50 <ludvann> x)
+2014-12-07T22:38:59 <Gordfang> ah c'est rien? je peut retourner dans ma grotte alors
+2014-12-07T22:39:04 <adriens33> XDDD
+2014-12-07T22:39:10 <ludvann> xD
+2014-12-07T22:39:10 <adriens33> ouai retourne dormir ><
+2014-12-07T22:39:34 <Elidyros> Bon moi je vais retourner à mes essais sur Twitch. A plus (qui sait).
+2014-12-07T22:39:43 <ludvann> j'adore, j'ai plus de jeux steam que d'amis facebok x) (en même temps FB...)
+2014-12-07T22:39:55 <Gordfang> ah je l'avais dit :D je suis co si jamais on as besoin de moi mais sinon j'aime bien rester seul du coup je parle pas souvent quand je n'est rien a dire ^^
+2014-12-07T22:40:11 <ludvann> bah dis quelque chose ^^
+2014-12-07T22:40:22 <Gordfang> juste je n'est rien a dire :D
+2014-12-07T22:40:26 <Gordfang> sauf que dragon age est génial
+2014-12-07T22:40:26 <adriens33> *n'ai
+2014-12-07T22:40:32 <adriens33> *à
+2014-12-07T22:40:36 <ludvann> bah nah puisque tu parles ^^
+2014-12-07T22:40:42 <Gordfang> :p
+2014-12-07T22:40:48 <ludvann> :-P
+2014-12-07T22:41:08 <ludvann> En fait c'est quoi Dragon age ? .-.
+2014-12-07T22:41:15 <adriens33> bah un jeu..
+2014-12-07T22:41:20 <ludvann> nah ....
+2014-12-07T22:41:24 <ludvann> sans blquge
+2014-12-07T22:41:24 <adriens33> google is your friend ^^
+2014-12-07T22:41:31 <ludvann> blague*
+2014-12-07T22:41:34 <Elidyros> Un jeu de chez BioWare
+2014-12-07T22:41:42 <Elidyros> Les créateurs de Mass Effect
+2014-12-07T22:42:01 <ludvann> adriens33: si je fais google il y a pas de discussion -_-'
+2014-12-07T22:42:08 <Elidyros> Heroic Fantasy, on en est 3ème épisode
+2014-12-07T22:42:15 <ludvann> Elidyros: oky. c'est quoi comme style ?
+2014-12-07T22:42:23 <ludvann> oky :)
+2014-12-07T22:42:36 <ludvann> TPS ou FPS ?
+2014-12-07T22:42:42 <Elidyros> Plus ou moins du RPG au tour par tour
+2014-12-07T22:42:53 <Gordfang> merci Eli
+2014-12-07T22:43:03 <Elidyros> Tu controles une équipe dans un monde semi-ouvert
+2014-12-07T22:43:10 <Gordfang> sauf que c'est quand même plus action que tour par tour
+2014-12-07T22:43:27 <ludvann> comme fallout ? .-.
+2014-12-07T22:43:33 <Elidyros> Cela reste hybride dans tous les cas
+2014-12-07T22:43:49 <Gordfang> hmm y a les base mais c'est different
+2014-12-07T22:43:59 <Gordfang> ouai mais un bon hybride
+2014-12-07T22:44:05 <ludvann> différent à quel points ?
+2014-12-07T22:44:18 <Elidyros> Tu peux stopper le temps pour donner des ordres mais c'est très limité
+2014-12-07T22:44:29 <Gordfang> tu est pas concentrer sur un seul perso mais une équipe
+2014-12-07T22:44:42 <ludvann> mais il y a canigou ! x)
+2014-12-07T22:44:51 <Gordfang> du coup c'est pas la même approche que dans fallout
+2014-12-07T22:44:51 <ludvann> désolé...
+2014-12-07T22:45:38 <ludvann> ça à l'air très sympathique comme jeu :D
+2014-12-07T22:45:55 <Elidyros> C'est sympa mais tout dépend de ce dont tu en attends
+2014-12-07T22:46:27 <ludvann> ^^
+2014-12-07T22:47:17 <Gordfang> tu n'a pas était convaincu eli?
+2014-12-07T22:47:37 <Elidyros> Si moi j'aime bien, mais y a des points sur lesquels je le trouve moyen.
+2014-12-07T22:47:48 <Elidyros> Mais cela reste un jeu d'aventure sympa.
+2014-12-07T22:48:11 <ludvann> en tout cas avec 91 de metacrtic ^^
+2014-12-07T22:48:13 <Gordfang> j'en suis a 60-65h je croit et je l'adore perso
+2014-12-07T22:48:16 <ludvann> metacritic*
+2014-12-07T22:48:26 <Gordfang> après ouai y a des points que je trouve un peu dommage mais que veut tu
+2014-12-07T22:49:06 <Elidyros> Bah cela reste un gros AAA donc il ne faut pas attendre à trop de prises de risque.
+2014-12-07T22:49:15 <Elidyros> s'attendre*
+2014-12-07T22:50:33 <ludvann> Elidyros, c'est quoi ton style de jeux ?
+2014-12-07T22:50:40 <Elidyros> Tout.
+2014-12-07T22:50:41 <ludvann> pareil pour toi Gordfang ^^
+2014-12-07T22:51:00 <ludvann> réponse claire et précise ^^
+2014-12-07T22:51:03 <Gordfang> ouai sauf les simulation et les sport
+2014-12-07T22:51:14 <Gordfang> pareil*
+2014-12-07T22:51:36 <Elidyros> J'ai beaucoup trop de jeux pour me spécialiser de toutes façons.
+2014-12-07T22:51:47 <ludvann> à ce point ? .-.
+2014-12-07T22:51:54 <Elidyros> Il y a juste des styles sur lesquels je passe plus de temps que d'autres.
+2014-12-07T22:52:03 <ludvann> comme ?
+2014-12-07T22:52:05 <Elidyros> Bah je vais pas sortir les chiffres, sauf si t'es curieux
+2014-12-07T22:52:27 <ludvann> j'adore énormément voir même trop les Jeux-vidéos ^^
+2014-12-07T22:52:34 <ludvann> voire*
+2014-12-07T22:52:39 <ludvann> voir*
+2014-12-07T22:52:45 <Elidyros> Pour moi c'est une passion depuis pas mal d'années
+2014-12-07T22:53:00 <adriens33> ludvann: nan, voire dans ce contexte était corrict ;)
+2014-12-07T22:53:05 <adriens33> *correct
+2014-12-07T22:53:08 <Gordfang> faite chier faut que je trouve un verbe pour surencherir
+2014-12-07T22:53:17 <ludvann> xD
+2014-12-07T22:53:30 <Jinxypie> Eli d'un autre coté il me semble que tu fuis certains types de jeux, comme les fps
+2014-12-07T22:53:43 <Elidyros> Je fuis ? Non pas vraiment.
+2014-12-07T22:53:47 <adriens33> Jinxypie: il fuit pas les fps
+2014-12-07T22:53:55 <adriens33> c'est le point rouge du laser qu'il fuit XD
+2014-12-07T22:54:02 <Elidyros> FPS j'aime tout ce qui est fast paced
+2014-12-07T22:54:18 <Jinxypie> Du genre ?
+2014-12-07T22:54:23 <Elidyros> Quake ou Unreal
+2014-12-07T22:54:50 <Gordfang> jamais tester le dernier wolfeinstein?
+2014-12-07T22:54:59 <ludvann> oups, j'ai pas vu l'heure...
+2014-12-07T22:55:05 <Jinxypie> Les fps tactiques, pas ton truc donc.
+2014-12-07T22:55:13 <ludvann> bon, je vais dormir ^^'
+2014-12-07T22:55:21 <Elidyros> Tout dépend de ce que tu appelles tactique
+2014-12-07T22:55:26 <Elidyros> Et ça dépend d'avec qui je joue.
+2014-12-07T22:55:27 <Jinxypie> Planetside 2
+2014-12-07T22:55:31 <ludvann> call of duty
+2014-12-07T22:55:41 <ludvann> #troll4ever
+2014-12-07T22:55:46 <adriens33> ludvann: get. out.
+2014-12-07T22:55:51 <ludvann> xD
+2014-12-07T22:56:07 <Elidyros> PlanetSide je n'ai joué qu'au premier
+2014-12-07T22:57:30 <ludvann> counter strike ?
+2014-12-07T22:57:41 <Elidyros> Et le dernier Wolfeinstein je n'ai pas entendu parler du multi joueur donc non je n'ai pas essayé.
+2014-12-07T22:58:45 <Jinxypie> Et unreal ?
+2014-12-07T22:58:54 <Elidyros> Unreal quoi ?
+2014-12-07T22:58:54 <Jinxypie> tu y joues encore ?
+2014-12-07T22:59:08 <Elidyros> De temps en temps, là il n'est plus installé.
+2014-12-07T22:59:23 * ludvann se sent seul... ;_;
+2014-12-07T22:59:35 * adriens33 s'en fout
+2014-12-07T22:59:35 <Elidyros> ludvann: non je ne joue pas à CS
+2014-12-07T22:59:41 <ludvann> oky ^^
+2014-12-07T22:59:42 <Jinxypie> J'ai toujours trovué le gameplay trop rapide;
+2014-12-07T22:59:58 <Gordfang> re
+2014-12-07T23:00:03 <Elidyros> C'est ce que j'aime, mais cela reste plus lent que Quake
+2014-12-07T23:00:09 <Jinxypie> (sur CS on a quelques grosses références francaises)
+2014-12-07T23:00:18 <ludvann> comme ?
+2014-12-07T23:00:21 <Gordfang> ah non pour wolf c'est la campagne qui est pas mal
+2014-12-07T23:00:23 <Jinxypie> Ah ça, les mods de doom...
+2014-12-07T23:01:01 <Elidyros> Mais pour ce genre je m'y suis surtout penché lorsque que Quake 3 est sorti
+2014-12-07T23:01:17 <Jinxypie> Jamais joué non plus.
+2014-12-07T23:01:24 <Jinxypie> Mais j'ai beaucoup joué à doom.
+2014-12-07T23:01:42 <ludvann> un des jeux qui a bercé mon enface ^^'
+2014-12-07T23:01:51 <ludvann> (le 1)
+2014-12-07T23:02:06 <Jinxypie> C'est le lvl design qui m'est le plus resté.
+2014-12-07T23:02:28 <ludvann> nah moi c'est surtout les musiques
+2014-12-07T23:02:58 <Elidyros> Sinon ouais surtout c'est plus jeux de fight, 4X et quelques rpgs pc
+2014-12-07T23:04:11 <Jinxypie> Mouais
+2014-12-07T23:04:38 <Jinxypie> Moi je niche plutot du coté WoW, EvE online, minecraft...
+2014-12-07T23:05:13 <Jinxypie> LoL aussi
+2014-12-07T23:05:25 <ludvann> KSP, CS (je vais commencer), Portal, terraria
+2014-12-07T23:05:56 <Gordfang> ksp ca me dit un truc
+2014-12-07T23:06:07 <ludvann> Kerbal space program
+2014-12-07T23:06:10 <ludvann> ^^
+2014-12-07T23:06:11 <Elidyros> Bon je pars streamer, bye.
+2014-12-07T23:06:14 <Jinxypie> ksp est bien plus un délie de devs qu'un vrai jeu.
+2014-12-07T23:06:17 <Jinxypie> délire*
+2014-12-07T23:06:19 *** Elidyros est parti
+2014-12-07T23:06:28 <ludvann> ah bon ?
+2014-12-07T23:07:04 <Jinxypie> Simple => pas d'objectif.
+2014-12-07T23:07:20 <ludvann> comme minecraft
+2014-12-07T23:07:30 <Jinxypie> Qui est aussi un délire de dev?.
+2014-12-07T23:07:31 <ludvann> ou tout les leux sandbox
+2014-12-07T23:07:40 <ludvann> nah, pas d'oblectifs
+2014-12-07T23:07:57 <adriens33> ludvann: tu te plends poul un chinois ? XD
+2014-12-07T23:07:58 <Jinxypie> Minecraft a un objectif.
+2014-12-07T23:08:10 <ludvann> nop
+2014-12-07T23:08:10 <Jinxypie> Deux en fait maintenant.
+2014-12-07T23:08:36 <ludvann> adriens33: why ?
+2014-12-07T23:08:51 <Jinxypie> Un boss avec une mécanique de combat propre qui déclenche les crédits de fin, c'est un objectif.
+2014-12-07T23:08:54 <adriens33> Letarumavza: 1) pas mourir et 2) pas exploser ? XD
+2014-12-07T23:09:12 <Jinxypie> adriens33, ender dragon et wither.
+2014-12-07T23:09:17 <adriens33> oui mais il y était pas de base ça a été ajouté après
+2014-12-07T23:09:35 <ludvann> ils sont purement facultatif
+2014-12-07T23:09:36 <adriens33> de base y'avait effectivement pas d'autre objectif que de pas crever
+2014-12-07T23:09:40 <ludvann> facultatifs*
+2014-12-07T23:10:05 <Jinxypie> C'est aussi purement facultatif d'aller fumer du boss en raid dans wow si tu vas par là.
+2014-12-07T23:10:24 <ludvann> je connais rien à wow
+2014-12-07T23:11:00 <Gordfang> techniquement y a pas d'objectif a wow autre que ceux que tu te donne
+2014-12-07T23:12:30 <Jinxypie> Si tu suis l'histoire, si/
+2014-12-07T23:12:51 <ludvann> j'ai peut être un peu exagéré mais il pas obligatoire de se battre contre le wither & enderdragon, il donne presque rien mais rien qui t'oblige à les battre pour continuer à jouer (hormis le beacon...)
+2014-12-07T23:13:28 <Jinxypie> en fait la valeur d'objectif de l'ender dragon, est qu'il déclenche les crédits, qui sont une expérience extradiégétique.
+2014-12-07T23:14:09 <ludvann> extradiégétique = ?
+2014-12-07T23:14:11 <Jinxypie> Dans wow la récompense du joueur est généralement une cinématique ou un dialogue marquant la victoire sur le raid.
+2014-12-07T23:15:06 <Jinxypie> Dans eve online l'objectif est presque inaccéssible, puisque le seul permis par le gameplay consisterait à full skill un perso, ce qui prendrait près de douzze ans.
+2014-12-07T23:15:41 <Jinxypie> Mais de nombreux objectifs secondaires sont présents dans le gameplay, tels que les anomalies.
+2014-12-07T23:16:42 <Jinxypie> Dans ksp, les seuls objectifs sont les contrats, et leur rng fait que dans 3/4 des cas ils ne correspondent pas à une expérience normale de jeu, on a donc une rupture de suspension consentie de l'incrédulité.
+2014-12-07T23:17:08 <Jinxypie> On est bien face au coté play, mais pas face au coté game.
+2014-12-07T23:17:32 <Jinxypie> La différence est ténue, mais elle est présente.
+2014-12-07T23:17:57 <Jinxypie> Ksp est comparable à l'indev de minecraft sur ce point.
+2014-12-07T23:18:17 <Jinxypie> En soit ksp est plus une preuve de concept et un démonstrateur technique.
+2014-12-07T23:25:29 <ludvann> bon je vous laisse.
+2014-12-07T23:25:33 <ludvann> je vais dodoter
+2014-12-07T23:25:47 *** ludvann est parti

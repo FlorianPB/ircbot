@@ -1,0 +1,133 @@
+2014-12-06T00:35:08 *** TrappyTickles est parti
+2014-12-06T00:53:16 *** Elidyros s'est connecté
+2014-12-06T00:53:58 <Elidyros> Miam.
+2014-12-06T00:55:09 <Elidyros> :'|
+2014-12-06T00:56:37 * Elidyros miom miam.
+2014-12-06T01:04:22 *** Elidyros est parti
+2014-12-06T02:23:31 <adriens33> ah merde je l'ai pas vu passer XDD
+2014-12-06T02:45:25 *** adriens33 est parti
+2014-12-06T11:02:31 *** TrappyTickles s'est connecté
+2014-12-06T12:02:29 *** adriens33 s'est connecté
+2014-12-06T12:16:32 *** Gordfang s'est connecté
+2014-12-06T12:21:36 <Gordfang> yo
+2014-12-06T13:23:57 *** TrappyTickles_ s'est connecté
+2014-12-06T13:26:37 *** TrappyTickles est parti
+2014-12-06T13:48:58 *** TrappyTickles s'est connecté
+2014-12-06T13:51:21 *** TrappyTickles_ est parti
+2014-12-06T14:06:27 *** TrappyTickles_ s'est connecté
+2014-12-06T14:08:58 *** TrappyTickles est parti
+2014-12-06T14:09:05 *** TrappyTickles s'est connecté
+2014-12-06T14:09:38 <TrappyTickles> commence à m'emmerder freenode
+2014-12-06T14:10:02 <Gordfang> ^^
+2014-12-06T14:10:42 <TrappyTickles> tiens au fait, pour les poneys, mon dernier mashup https://www.youtube.com/watch?v=ObjR6ydbqCI
+2014-12-06T14:10:52 *** TrappyTickles_ est parti
+2014-12-06T14:15:16 *** TrappyTickles est parti
+2014-12-06T14:15:50 *** TrappyTickles s'est connecté
+2014-12-06T14:17:18 <TrappyTickles> COMMENCE A M'EMMERDER FREE
+2014-12-06T15:37:32 *** adriens33 est parti
+2014-12-06T16:19:04 *** adriens33 s'est connecté
+2014-12-06T17:02:51 <TrappyTickles> lol
+2014-12-06T17:03:20 <TrappyTickles> trouvé sur grosbill.com: "Audio - Compatible avec les formats suivants: JPEG, GIF, PNG, BMP
+2014-12-06T17:03:29 <TrappyTickles> go home grosbill, you're drunk
+2014-12-06T17:23:59 <adriens33> gné ?
+2014-12-06T17:24:16 <adriens33> what the actual fuck ¿?
+2014-12-06T17:33:54 <TrappyTickles> véridique, j'ai encore la capture d'écran :p
+2014-12-06T17:36:14 *** Makhai s'est connecté
+2014-12-06T17:36:33 <Makhai> Yop
+2014-12-06T17:37:15 <adriens33> TrappyTickles: XDD
+2014-12-06T17:37:19 <adriens33> hello Makhai
+2014-12-06T17:37:55 <Makhai> wut?
+2014-12-06T17:38:55 <adriens33> oh, et TrappyTickles: c'est pas freenode qui te déco..
+2014-12-06T17:39:04 <adriens33> si tu déco reco c'est pas à cause de freenode.
+2014-12-06T17:39:23 <TrappyTickles> le premier coup, si. j'ai vérifié dans les logs de la box
+2014-12-06T17:39:32 <adriens33> c'est qu'entre freenode et ta box y'a un nœud qui déconne.
+2014-12-06T17:39:37 <TrappyTickles> les autres fois je dis pas, mais la 1ère fois de lajournée c'est bien freenode
+2014-12-06T17:39:43 <adriens33> non.
+2014-12-06T17:39:51 <adriens33> t'es le seul à avoir ce problème XD
+2014-12-06T17:40:12 <adriens33> et moi quand je déco c'est carrément ma box qui désynchro du signal adsl
+2014-12-06T17:40:25 <adriens33> (tu va pas me dire que c'est freenode qui me désynchro XD)
+2014-12-06T17:41:02 <TrappyTickles> alors pkoi ces déconnexions arrivent pas avec ponychat et canternet?
+2014-12-06T17:41:03 <adriens33> donc soit:
+2014-12-06T17:41:03 <adriens33> 1- y'a un nœud pourri quelque part
+2014-12-06T17:41:03 <adriens33> 2- ton client est mal foutu et répond mal aux ping du serveur
+2014-12-06T17:41:27 <adriens33> parce que sur internet t'as plein de chemins possibles
+2014-12-06T17:41:42 <TrappyTickles> je suis connecté à freenode, ponychat et canternet en même temps, et freenode est le seul a avoir ces déconnexions
+2014-12-06T17:41:48 <adriens33> et que le chemin pour aller à freenode est OBVIOUSLY différent de celui pour aller à canternet!!
+2014-12-06T17:42:05 <adriens33> c'est pas forcément freenode si ca arrive sur freenode
+2014-12-06T17:42:21 <adriens33> ça veut dire que c'est entre le serv de freenode et ta box
+2014-12-06T17:42:27 <adriens33> ça peux etre n''importe ou
+2014-12-06T17:42:40 <adriens33> et vu que freenode est seulement le bout de la chaine
+2014-12-06T17:43:03 <adriens33> c'est quasi sur que ça vient pas de freedone
+2014-12-06T17:43:06 <adriens33> *freenode
+2014-12-06T17:43:21 <adriens33> mais d'un nœud entre les deux (chez ton Fai par ex)
+2014-12-06T17:46:57 <adriens33> toi -> nœud1 -> nœud2 -> nœud3 -> canternet
+2014-12-06T17:46:57 <adriens33> toi -> nœud1 -> nœud4 -> nœud5 -> freenode
+2014-12-06T17:46:58 <adriens33> toi -> nœud6 -> nœud4 -> nœud5 -> freenode (route ≠)
+2014-12-06T17:46:58 <adriens33> moi -> nœud8 -> nœud7 -> nœud5 -> freenode
+2014-12-06T17:46:58 <adriens33> typiquement sur ce schéma la le fait que ça te déco sur freenode seulement et que ça arrive que a toi..
+2014-12-06T17:46:58 <adriens33> ça peut etre que le nœud 6 ou 4. si c'était freenode directement ca déconnectenait *tout le monde*. réfléchis ;)
+2014-12-06T17:47:26 <adriens33> (flemme de faire un dessin)
+2014-12-06T17:48:06 <TrappyTickles> mouais ben jvais faire des recherches.. y a surement un moyen de forcer hexchat à me connecter avec un autre serveur freenode. ils en ont surement plusieurs
+2014-12-06T17:48:26 <adriens33> si tu as mis chat.freenode.net c'est déjà le cas.
+2014-12-06T17:48:43 <adriens33> freenode tourne sur un pool de serveurs qui tournent a chaque reco
+2014-12-06T17:49:03 <adriens33> donc quand tu te log, chaque fois tu es sur un serveur différent du même réseau.
+2014-12-06T17:49:16 <TrappyTickles> mouais ben vu que ça fait ça complètement au pif, c'est un de ces serveurs en particulier et pas les autres
+2014-12-06T17:49:34 <TrappyTickles> me reste plus qu'à en choisir un fixe, voir s'il déco tout seul, et si oui, en prendre un autre
+2014-12-06T17:49:52 <adriens33> t'es sur lequel ? (regarde l'onglet « Freenode », au début de la co ça te le dit)
+2014-12-06T17:51:17 * Makhai suit la conversation. De loin.
+2014-12-06T17:51:25 <adriens33> pense aussi que tu es en ipv6.
+2014-12-06T17:51:25 <TrappyTickles> là sur morgan. mais c'est holmes qui me déconnectait
+2014-12-06T17:51:32 <TrappyTickles> j'ai les deux
+2014-12-06T17:51:36 <adriens33> ça peut venir du point de conversion.
+2014-12-06T17:51:54 <adriens33> tu as la liste des serveurs ici https://freenode.net/irc_servers.shtml
+2014-12-06T17:52:04 <adriens33> ça t'évitera de chercher. ;)
+2014-12-06T17:52:08 <adriens33> Makhai: désolé ^^"
+2014-12-06T17:52:16 <adriens33> tiens quoi de neuf ? :P
+2014-12-06T17:52:22 <Makhai> ^pas de soucis xD
+2014-12-06T17:52:45 <Makhai> Pas grand chose, juste une fin d'année bien chargée
+2014-12-06T17:52:46 <TrappyTickles> je sais, j'suis en train de changer pour prendre barjavel. c'est le plus proche et il a que l'ipv4
+2014-12-06T17:52:50 <Makhai> Et pour vous?
+2014-12-06T17:52:56 *** TrappyTickles est parti
+2014-12-06T17:53:01 <adriens33> bah.. encore moins que toi pour le moment XD
+2014-12-06T17:53:15 *** TrappyTickles s'est connecté
+2014-12-06T17:53:57 <Makhai> ça s'en va et ça revient ^^
+2014-12-06T17:54:32 <TrappyTickles> c'était voulu là. j'ai forcé hexchat à prendre le serveur barjavel pour freenode. on va voir si c'est stable ici
+2014-12-06T17:55:53 <adriens33> j'ai loupé les inscriptions en début d'année. plus de place.. et pourtant j'avais demandé avant, mais on m'avait juste pas répondu, donc j'ai été voir sur place et la « ah ben y'a plus de place, fallait venir avant monsieur ». BAH VOUS REPONDIEZ PAS CONNASSE. enfin. du coup là j'attends l'an prochain pour *enfin* pouvoir aller a la fac. (jusqu'a aout j'étais en iut, mais je l'ai pas eu bref)
+2014-12-06T17:56:13 <adriens33> en attendant je me repose.
+2014-12-06T17:56:26 <adriens33> et je vais bosser un peu pour me faire un peu de sous.
+2014-12-06T17:56:39 <Makhai> Ha zut, les fails halakon :/
+2014-12-06T17:56:47 <adriens33> ouai..
+2014-12-06T17:57:30 <Makhai> J'ai faillit choisir iut mais j'ai plein d'autre trucs alternatifs >.<
+2014-12-06T17:57:40 <Makhai> trop de choix tue le choix
+2014-12-06T17:57:50 <adriens33> je re ^^
+2014-12-06T17:57:55 <Makhai> oki
+2014-12-06T18:02:43 <adriens33> reuh
+2014-12-06T18:05:21 <Makhai> re
+2014-12-06T18:06:36 <adriens33> quoi donc comme choix ? :p
+2014-12-06T18:10:40 <Makhai> bachelor tech, exia, cesi entreprise
+2014-12-06T18:10:46 <Makhai> entre autres
+2014-12-06T18:10:49 <Makhai> et dut
+2014-12-06T18:11:09 <adriens33> oki
+2014-12-06T18:11:18 <adriens33> effectivement y'a du choix
+2014-12-06T18:13:22 <Makhai> ouais, trop limite x)
+2014-12-06T18:13:43 <adriens33> vaut mieux avoir trop de choix que d'avoir à choisir entre rien et rien XD
+2014-12-06T18:13:55 <adriens33> (ou rien encore, voir rien aussi)
+2014-12-06T18:59:18 *** Makhai est parti
+2014-12-06T21:31:25 *** Gordfang est parti
+2014-12-06T21:35:00 *** Gordfang s'est connecté
+2014-12-06T21:35:22 <adriens33> berry tu dors ?
+2014-12-06T21:36:31 <adriens33> o.o pourquoi elle met tant de temps ? o.o
+2014-12-06T21:36:34 <adriens33> Berry ?
+2014-12-06T21:36:45 <adriens33> !help
+2014-12-06T21:36:51 <adriens33> ok..
+2014-12-06T21:37:11 <adriens33> ah ouai mais t'es complètement raide toi en fait.
+2014-12-06T21:39:36 *** Berry-Punch s'est connecté
+2014-12-06T21:39:43 <adriens33> Berry ?
+2014-12-06T21:39:52 <adriens33> Tu bois trop toi..
+2014-12-06T21:40:11 <adriens33> si, t'as vu le temps que tu met à répondre ? :(
+2014-12-06T21:40:11 *** Gordfang est parti
+2014-12-06T21:41:42 *** Berry-Punch s'est connecté
+2014-12-06T21:41:51 <adriens33> Berry ?
+2014-12-06T21:42:05 <adriens33> Berry ?
+2014-12-06T21:42:12 <adriens33> tu m'a fait peur.
+2014-12-06T21:43:36 *** Gordfang s'est connecté

@@ -1,0 +1,239 @@
+2014-12-26T00:34:08 *** TrappyTickles est parti
+2014-12-26T01:08:41 *** flutterbrony est parti
+2014-12-26T02:37:03 *** Lenile s'est connecté
+2014-12-26T02:37:10 <Lenile> Salut
+2014-12-26T02:52:00 *** Lenile est parti
+2014-12-26T06:01:37 *** adriens33 est parti
+2014-12-26T09:02:08 *** heuzef s'est connecté
+2014-12-26T09:11:15 *** adriens33 s'est connecté
+2014-12-26T09:35:44 *** heuzef1 s'est connecté
+2014-12-26T09:36:32 *** heuzef est parti
+2014-12-26T09:38:55 *** heuzef s'est connecté
+2014-12-26T09:42:14 *** heuzef1 est parti
+2014-12-26T11:01:44 *** TrappyTickles s'est connecté
+2014-12-26T11:34:00 <adriens33> hello heuzef & TrappyTickles :)
+2014-12-26T11:34:08 <heuzef> yop =)
+2014-12-26T11:34:12 <adriens33> z'avez passé un noyeux joel?
+2014-12-26T11:34:15 <heuzef> Alors comment va le foie ?
+2014-12-26T11:34:24 <TrappyTickles> mh?
+2014-12-26T11:34:25 <heuzef> tranquile =) J'ai rien fait perso
+2014-12-26T11:34:28 <TrappyTickles> ava
+2014-12-26T11:34:31 <adriens33> moi ça va, j'ai pas fait de folie alors bon suis tranquille
+2014-12-26T11:34:46 <adriens33> en fait j'ai rien fait tout court XD *part pleurer dans son coin*
+2014-12-26T11:35:08 <heuzef> J'ai profité du break pour dev la fonction Phone View sur EcoMonde
+2014-12-26T11:35:26 <heuzef> On peux maintenant afficher les stats directement sur son smatphone
+2014-12-26T11:35:34 <heuzef> Bien classe quand même :D
+2014-12-26T11:35:53 <adriens33> yeah B-)
+2014-12-26T11:36:12 <adriens33> prochaine étape, une appli?
+2014-12-26T11:36:36 <heuzef> D’ailleurs j'ai galérer comme un port pour faire une génération de Qrcode en PHP
+2014-12-26T11:36:49 <heuzef> Avant de découvrir une appli super badasse de Google pour ça
+2014-12-26T11:36:49 <adriens33> je déconne, a mort les wrappers de site web dégueulasses pour remplacer un bon site bien développé =3
+2014-12-26T11:36:56 <adriens33> XD
+2014-12-26T11:37:01 <adriens33> ah  bah ça..
+2014-12-26T11:37:14 <heuzef> Ils font chier Google à toujours proposer des solutions super efficace
+2014-12-26T11:37:29 <adriens33> bah c'est leur fond de commerce, t'es drôle toi. XD
+2014-12-26T11:37:43 <heuzef> Je voulais rester full libre mais pour le coup j'ai renoncer pour le Qrcode
+2014-12-26T11:38:07 <adriens33> bah sinon t'a pas un ptit truc un php pour faire ça bien avec gd ? c'est étonnant.
+2014-12-26T11:39:22 <heuzef> J'en ai testé 2
+2014-12-26T11:39:33 <adriens33> et?
+2014-12-26T11:39:36 <adriens33> pas convaincu?
+2014-12-26T11:39:47 <adriens33> parce que quand meme, a mort google quoi XD
+2014-12-26T11:39:59 <heuzef> Franchement galère et pas réussis à faire tombé en marche, au mieux j'ai réussis à afficher des caractères étrange ??PNG????
+2014-12-26T11:40:04 <heuzef> https://developers.google.com/chart/infographics/docs/qr_codes
+2014-12-26T11:40:12 <heuzef> ça par contre c'est violent
+2014-12-26T11:40:20 *** Yvan33 s'est connecté
+2014-12-26T11:40:20 <heuzef> Juste un lien IMG et c'est plié
+2014-12-26T11:40:31 <adriens33> euh...
+2014-12-26T11:40:31 <Yvan33> Salut
+2014-12-26T11:40:41 <adriens33> tu sais que le ??PNG?? c'est le header de l'image...
+2014-12-26T11:40:41 <Yvan33> Joyeux Noel en retard adriens
+2014-12-26T11:40:56 <adriens33> t'a juste oublié le Content: image/png XD
+2014-12-26T11:41:07 <adriens33> hello Yvan33 :3
+2014-12-26T11:41:20 <adriens33> merchi et noyeux joel en retard a toi aussi =3
+2014-12-26T11:41:25 <heuzef> Sérieux ? pffff en faite j'été vraiment pas loin alors
+2014-12-26T11:41:29 <adriens33> bah oui XD
+2014-12-26T11:41:42 <adriens33> ouvre un png dans gedit, tu verra XD
+2014-12-26T11:41:50 <heuzef> Yvan33 alors t'as trouvé pour ton problème avec les musiques ?
+2014-12-26T11:42:01 <Yvan33> Ah bah tiens je vais tester
+2014-12-26T11:42:37 <adriens33> heuzef: « tomber en marche » t'es québécquois ou bien ? XD
+2014-12-26T11:43:29 <heuzef> Yvan33 test au passage le Phone View pour me donner ton feedback
+2014-12-26T11:43:32 <heuzef> Tabarnak
+2014-12-26T11:43:35 <adriens33> *Content-Type: image/png et pas Content (c'est le header HTTP a mettre ;) )
+2014-12-26T11:43:52 <Yvan33> ok atta
+2014-12-26T11:44:30 <adriens33> Ctrl-Shift-m pour tester en vue téléphone sous firefox ;)
+2014-12-26T11:45:08 <heuzef> En faite suffi de scanner un Qrcode avec ton tel pour qu'il t'ouvre un lien
+2014-12-26T11:45:15 <Yvan33> Enorme
+2014-12-26T11:45:17 <heuzef> Et paf tu affiche ta fiche perso
+2014-12-26T11:45:46 <Yvan33> Hum et comment tu fais ce scan? ^^"
+2014-12-26T11:46:05 <adriens33> lol quand tu ouvre la console JS dans facebook t'a un warning en rouge comme quoi la console c'est dangereux et qu'on peux te pirater ton compte avec lol mdr xptdr
+2014-12-26T11:46:21 <heuzef> Et pour ceux qui savent pas faire un scan de Qrcode j'ai prévu le coup : j'ai mis un lien vers une app moblie de scan qrcode
+2014-12-26T11:46:28 <adriens33> (je déconne pas, t'a meme un gros STOP en ascii art)
+2014-12-26T11:47:11 <Yvan33> T'a prévu le coup pour les incompétants, c'est bien ça ^^
+2014-12-26T11:47:33 <adriens33> /a/e
+2014-12-26T11:48:12 <heuzef> Oui et puis bon faire un scan QrCode ça reste à la portée de n'importe qui ... Et de toute manière je connais pas de moyen plus efficace pour faire ouvrir un lien sur un smartphone
+2014-12-26T11:48:28 <adriens33> c'est vrai que les QRCode c'est vachement sympa
+2014-12-26T11:48:49 <adriens33> ça évite de devoir copier un lien a la main surtout vu les claviers des tels… DX
+2014-12-26T11:48:50 <adriens33> *XD
+2014-12-26T11:48:57 <heuzef> oui
+2014-12-26T11:49:00 <heuzef> Alors Yvan33
+2014-12-26T11:49:02 <heuzef> ?
+2014-12-26T11:49:48 <Yvan33> Tu peux simplement observer non?
+2014-12-26T11:50:12 <heuzef> oui, ça permet par exemple de ne plus avoir besoin d'un ecran/tv
+2014-12-26T11:50:20 <Yvan33> Je vois.
+2014-12-26T11:50:30 <Yvan33> Alors l'idée d'avoir l'equipement c'est cool
+2014-12-26T11:51:17 <Yvan33> Par contre moi je pensais à un systeme ou les joueurs pouvaient au moins gérer leur équipement directement tu vois
+2014-12-26T11:51:30 <Yvan33> Plus tot que ce soit au MJ de bosser
+2014-12-26T11:51:48 <heuzef> Je sais bien
+2014-12-26T11:52:04 <heuzef> Mais pour l'instant j'aimerais qu'on test comme ça
+2014-12-26T11:52:45 <heuzef> Bybeez m'a fait la remarque aussi, faut pas trop tenter le joueur de tricher, même si c'est entiérement du faire-play
+2014-12-26T11:53:03 <Yvan33> Ouais bah en tant que MJ je trouve qu'il est beaucoup plus simple de laisser chaque personne gérer leur stuff que ça soit au MJ de le faire.
+2014-12-26T11:53:08 <heuzef> Et faut penser à ce qui n'ont pas forcément accès a la 3G
+2014-12-26T11:53:18 <Yvan33> Bloc note suffi
+2014-12-26T11:53:40 <Yvan33> Et après tu a trop peur que les gens triche
+2014-12-26T11:53:57 <Yvan33> Quand tuviens faire un jdr c'est une sorte de contra
+2014-12-26T11:54:32 <Yvan33> Moi quand je joue MJ je surveille pas tout mes joueurs tout le temps, et les MJ que j'ai rencontré font de même
+2014-12-26T11:54:38 <heuzef> J'entend bien
+2014-12-26T11:54:45 <heuzef> Mais y'a aussi l'aspect technique
+2014-12-26T11:54:59 <heuzef> ça va pas être super simple à mettre en place
+2014-12-26T11:55:24 <Yvan33> L'idée c'était que chaque personne s'occupe de son perso et le MJ il surveille l'ensemble mais sans plus
+2014-12-26T11:55:34 <heuzef> Sur téléphone en plus y'a l'egonomie a prendre en compte
+2014-12-26T11:55:49 <heuzef> Faut des gros boutons etc
+2014-12-26T11:55:50 <Yvan33> Le temps qu'on perd à chaque fois à simplement donner de l'xp et des orbes et des Eco
+2014-12-26T11:56:11 <Yvan33> Bah moi je te dis que c'est ça l'idéal pour moi
+2014-12-26T11:56:32 <heuzef> Oui je pense qu'on va en arrivé la
+2014-12-26T11:56:36 <heuzef> Mais patience ;)
+2014-12-26T11:56:51 <heuzef> Et tes musiques alors ?
+2014-12-26T11:56:54 <Yvan33> Comme ça tout ce que le MJ a a faire c'est vérifier que les gens se sont pas gfourer, faire apparaitre les Mobs et raconter l'histoire
+2014-12-26T11:57:18 <Yvan33> Euh je sais pas ce que je dois canger, ça doit être dans sécurité ou pub
+2014-12-26T11:58:40 <heuzef> Quel navigateur tu utilise ?
+2014-12-26T11:59:14 <Yvan33> firefox
+2014-12-26T12:00:28 <heuzef> J'ai effectivement des problèmes avec firefox aussi tiens
+2014-12-26T12:00:38 <heuzef> Pourtant la balise <audio> et un standard
+2014-12-26T12:00:42 <heuzef> est*
+2014-12-26T12:00:58 <adriens33> bah si le son est en mp3 c'est normal =3
+2014-12-26T12:01:08 <heuzef> Ha ?
+2014-12-26T12:01:19 <adriens33> bah le mp3 est pas libre aux dernières nouvelles.
+2014-12-26T12:01:43 <heuzef> Y'a pas moyen de lire des mp3 dans firefox ?
+2014-12-26T12:01:49 <heuzef> Putain j'ai merdé la
+2014-12-26T12:01:58 <adriens33> le mp3 ça peu
+2014-12-26T12:02:01 <adriens33> *pue
+2014-12-26T12:02:05 <adriens33> vive le vorbis o//
+2014-12-26T12:02:19 <heuzef> Olala ... mais ça crain ça
+2014-12-26T12:02:36 <heuzef> Si je dis au gens d'uploder un MP3 ils pigent
+2014-12-26T12:02:44 <heuzef> Mais si je leur dis d'uploader un OGG
+2014-12-26T12:02:49 <heuzef> pas sur qu'ils pigent
+2014-12-26T12:03:10 <adriens33> apres a voir avec les dernières versions, mais il me semble que c'était comme ça aux dernières nouvelles.
+2014-12-26T12:03:15 <heuzef> http://ecomonde.land/medias/5817994499ae3c557f0902f10d11da42/dark.mp3
+2014-12-26T12:03:29 <heuzef> Avec Firefox il me propose en faite de télécharger le fichier
+2014-12-26T12:03:36 <adriens33> et c'est pas la faute a mozilla, c'est juste que mettre un blob fermé au beau milieu d'un code libre ça pue quoi.
+2014-12-26T12:04:06 <heuzef> Yvan33: si tu test avec Chrome c'est bon au moins ?
+2014-12-26T12:09:56 <Yvan33> J'en sais rien
+2014-12-26T12:10:01 <Yvan33> Chrome c'est le mal
+2014-12-26T12:12:31 <heuzef> Ba je te confirme que ça fonctionne pas parceque tu utilise Firefox
+2014-12-26T12:12:34 <adriens33> Yvan33: +1 =D
+2014-12-26T12:12:40 <heuzef> A moins qu'on impose le format OGG
+2014-12-26T12:12:50 <adriens33> c'est un format libre heuzef...
+2014-12-26T12:12:51 <heuzef> mais pas sur que ce soit une bonne idée non plus
+2014-12-26T12:12:57 <heuzef> Je sais
+2014-12-26T12:13:06 <adriens33> meme windows media player sait le lire maintenant XD
+2014-12-26T12:13:16 <adriens33> donc bon…
+2014-12-26T12:13:20 <heuzef> Yvan tu uploaderais tes musiques en OGG alors ? :/
+2014-12-26T12:14:34 <adriens33> et pis tu perds rien, niveau qualité audio apres compression t'es gagnant avec le vorbis sans perdre de place. (bon si le truc a déja été encodé en mp3 avant ça va pas te recréer du beau son magiquement hein XD)
+2014-12-26T12:14:54 <adriens33> d'ailleur je pige pas que le mp3 existe encore.
+2014-12-26T12:15:01 <adriens33> face au vorbis il a que de défauts XD
+2014-12-26T12:15:14 <heuzef> Je suis bien d'accord, mais le problème c'est que j'ai un peu peur de l'ignorance des gens faite
+2014-12-26T12:15:15 <adriens33> ah oui, c'est vrai, il est poussé par des grosses entreprises..
+2014-12-26T12:15:26 <heuzef> Si leur musique est en MP3 ba ils ont l'air bien con
+2014-12-26T12:15:26 <adriens33> ouai. pas faux.
+2014-12-26T12:17:07 <Yvan33> J'en sais rien. Au pire je m'en fou un peu tu sais ^^
+2014-12-26T12:20:30 <heuzef> Tu t'en fou de pouvoir mettre tes musiques ?
+2014-12-26T12:23:31 *** MaCharon s'est connecté
+2014-12-26T12:23:42 <MaCharon> salut
+2014-12-26T12:24:04 <heuzef> yop
+2014-12-26T12:24:20 <adriens33> salut MaCharon :)
+2014-12-26T12:27:55 <Yvan33> salut
+2014-12-26T12:32:11 <MaCharon> Yvan c'est quel bus deja pour venir chez toi ?
+2014-12-26T12:39:48 <Yvan33> 15
+2014-12-26T12:40:02 <Yvan33> 14h j'ai dis non?
+2014-12-26T12:40:16 <MaCharon> 14h-15h
+2014-12-26T12:40:35 <Yvan33> Okay
+2014-12-26T12:40:43 <MaCharon> faudra que je fasse gaffe a pas me perdre je connais pas encore bien le coin
+2014-12-26T12:43:07 <MaCharon> je suis pas sur que Thomas vienne il est malade
+2014-12-26T12:44:56 <Yvan33> Rahh mais pourquoi vous tombez tous malade aujourd'hui?
+2014-12-26T12:45:21 <MaCharon> nn mais c'est pas qu'aujourd'hui pour lui
+2014-12-26T12:45:31 <Yvan33> Ouaisc'est vrai
+2014-12-26T12:46:11 <MaCharon> pk il y en d'autres de malades ?
+2014-12-26T12:46:20 <MaCharon> enfin je suppose
+2014-12-26T12:46:21 <Yvan33> Pierre
+2014-12-26T12:46:34 <MaCharon> sans surprise de sa part
+2014-12-26T12:47:26 <Yvan33> Et comme mes voisins (2 ) ont vu leur départ de voyage avancé, bah il seront pas la non plus
+2014-12-26T12:47:54 <MaCharon> ouai du coup ça fait un peu de monde en moins
+2014-12-26T12:49:41 <Yvan33> On sera plus 4 que 8
+2014-12-26T12:49:51 <Yvan33> Bon après c'est pas si grave non plus
+2014-12-26T12:49:58 <Yvan33> Yaura toi et Leta
+2014-12-26T12:50:09 <Yvan33> Peut être Elidyros
+2014-12-26T12:50:21 <Yvan33> Et peut être un ami
+2014-12-26T12:50:29 <Yvan33> Sachant que au pire ya mon frère
+2014-12-26T12:52:16 <MaCharon> tu peut me redonner ton adresse plz ?
+2014-12-26T12:53:08 <Yvan33> 359 rue de bègles
+2014-12-26T12:53:16 <heuzef> ça sent la partie de JDR ça
+2014-12-26T12:54:14 <Yvan33> Non
+2014-12-26T12:54:18 <MaCharon> thx
+2014-12-26T12:54:33 <heuzef> Me trompe-je ?
+2014-12-26T12:54:38 <MaCharon> oui
+2014-12-26T12:54:41 <Yvan33> Faut arrêter de croire que le jdr se lance randomly
+2014-12-26T12:54:50 <heuzef> Pourtant ... :D
+2014-12-26T12:54:58 <MaCharon> jdr c'est lundi ^^
+2014-12-26T12:55:07 <Yvan33> Oui
+2014-12-26T12:55:17 <Yvan33> C'est Super smash bros wii u
+2014-12-26T12:55:34 <Yvan33> DD'ailleurs si tu veux venir heuzef, vu que j'ai plein de place de libre
+2014-12-26T12:55:43 <heuzef> Ce qui explique la présence de Nico du coup ^^
+2014-12-26T12:55:51 <heuzef> Nop aujourd'hui je travail
+2014-12-26T12:55:56 <heuzef> y'en a qui sont pas en congé
+2014-12-26T12:56:03 <Yvan33> Dommage
+2014-12-26T12:56:08 <heuzef> ;)
+2014-12-26T13:01:54 *** heuzef1 s'est connecté
+2014-12-26T13:02:44 *** Yvan33 est parti
+2014-12-26T13:04:34 *** heuzef est parti
+2014-12-26T13:15:20 *** heuzef s'est connecté
+2014-12-26T13:16:52 *** heuzef1 est parti
+2014-12-26T13:46:02 *** MaCharon est parti
+2014-12-26T13:57:56 *** Gordfang s'est connecté
+2014-12-26T13:58:39 <Gordfang> yo!
+2014-12-26T13:59:27 <heuzef> yo
+2014-12-26T14:09:19 <adriens33> hello Gordfang
+2014-12-26T14:09:31 <Gordfang> alors ce noel?
+2014-12-26T14:10:18 <adriens33> quedal pour ma part
+2014-12-26T14:10:59 <Gordfang> k
+2014-12-26T14:11:24 <adriens33> et toi? t'a fait quoi de beau ?
+2014-12-26T14:11:25 *** heuzef est parti
+2014-12-26T14:11:47 <Gordfang> j'ai eu un super casse tête perso ^^
+2014-12-26T14:11:55 <adriens33> cool
+2014-12-26T14:12:47 <adriens33> fais le bourré, ça sera plus drôle. XD
+2014-12-26T14:13:11 <Gordfang> mais non patate ^^
+2014-12-26T14:13:25 <adriens33> ah j'ai pas dit pour toi hein XD
+2014-12-26T14:13:58 <adriens33> « elle va ou cette pièce? j'pige pas comment ça s'emboite…
+2014-12-26T14:13:58 <adriens33> - ça c'est le mur. »
+2014-12-26T14:14:24 <Gordfang> non j'ai reussi a le trouver en 5 minute XD
+2014-12-26T14:14:35 <adriens33> arf t'es absolument pas drôle.
+2014-12-26T14:14:43 <Gordfang> du coup je m'amuse a la démonter et remonter lors des temps de chargement
+2014-12-26T14:14:53 <adriens33> (comme ta femme =3)
+2014-12-26T14:15:41 <Gordfang> sauf que j'en est pas :p
+2014-12-26T14:16:06 <adriens33> ha ah ah ah ah ah ha... ahhhh... ouinnnnnnn moi non plus *pleure*
+2014-12-26T14:16:23 <adriens33> /est/ai/
+2014-12-26T14:16:30 <Gordfang> moi je m'en balance :D
+2014-12-26T14:16:40 <adriens33> et moi je m'en petite cuillière.
+2014-12-26T14:18:06 *** heuzef1 s'est connecté
+ ***  2014-12-26T15:27:57 *** ELiDYROS s'est connecté
+2014-12-26T16:20:20 *** adriens33 est parti
+2014-12-26T16:22:17 *** adriens33 s'est connecté
+2014-12-26T17:00:53 *** adriens33 est parti
+2014-12-26T18:02:17 *** Gordfang est parti
+2014-12-26T18:04:11 *** ELiDYROS est parti
+2014-12-26T18:20:30 *** heuzef1 est parti
+2014-12-26T19:22:24 *** TrappyTickles est parti
+2014-12-26T19:23:26 *** ELiDYROS s'est connecté
+2014-12-26T19:25:22 *** ELiDYROS est parti
+2014-12-26T19:48:05 *** ELiDYROS s'est connecté
+2014-12-26T22:23:31 *** ELiDYROS est parti
+2014-12-26T23:12:00 *** adriens33 s'est connecté

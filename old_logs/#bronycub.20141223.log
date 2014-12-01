@@ -1,0 +1,253 @@
+2014-12-22T00:16:04 *** Sworky est parti
+2014-12-22T01:45:29 *** flutterbrony s'est connecté
+2014-12-22T03:16:04 *** flutterbrony est parti
+2014-12-22T05:45:55 *** adriens33 est parti
+2014-12-22T06:13:02 *** ELiDYROS est parti
+2014-12-22T08:56:37 *** heuzef s'est connecté
+2014-12-22T09:21:19 *** heuzef1 s'est connecté
+2014-12-22T09:22:47 *** heuzef est parti
+2014-12-22T09:31:15 *** TrappyTickles s'est connecté
+2014-12-22T10:30:59 *** heuzef1 est parti
+2014-12-22T10:31:10 *** heuzef s'est connecté
+2014-12-22T10:31:18 <heuzef> HO HO HO les enfants
+2014-12-22T10:32:41 <heuzef> Bonjour TrappyTickles c'est le Pére-Noël ! Je sais que tu as été très sage cette année. Tes amis comptes sur toi pour le projet BBBFF et tu les as pas déçus :D
+2014-12-22T10:33:25 <TrappyTickles> :p
+2014-12-22T10:33:33 <heuzef> Dis moi ce qui te ferais plaisir ! Ho attend je sais ! Un jouet My Little Pony bien sûr !
+2014-12-22T10:33:39 <TrappyTickles> j'ai ramené un cadeau jsutement ^^ egarde dans mon dossier dans les vidéos
+2014-12-22T10:33:45 <TrappyTickles> ben oui lol
+2014-12-22T10:34:14 <TrappyTickles> j'ai fait les subs des WTPony :p
+2014-12-22T10:34:25 <TrappyTickles> il manque juste le dernier épisode, jle fais cet aprem ^^
+2014-12-22T10:34:37 <heuzef> ^^
+2014-12-22T10:34:46 <heuzef> Tu sais ce qui serais mega ultra classe
+2014-12-22T10:34:56 <heuzef> C'est de faire les sub de A Brony Tales
+2014-12-22T10:35:10 <heuzef> Toujours pas dénichable :(
+2014-12-22T10:35:34 <TrappyTickles> j'ai commencé à essayer, mais y a énormément de boulot.. y me faudrait du renfort et MLPSubtitles semble pas motivé
+2014-12-22T10:36:14 <TrappyTickles> j'ai les subs déjà sync, je ferai un google doc pour aider à la traduc et je passerai le lien, s'il y en a des motivés
+2014-12-22T10:37:25 <heuzef> Dis moi tu semble expert en str
+2014-12-22T10:37:40 <heuzef> Tu devrais faire du menage chez mlp subtitles
+2014-12-22T10:37:53 <heuzef> Et mettre en place des outils collaboratifs
+2014-12-22T10:38:04 <heuzef> Y'a des outils plus adapté pour ça qu'un googledoc
+2014-12-22T10:38:11 <TrappyTickles> j'ai déjà réfléchi à des outils, mais le lua j'y arrive pas :p
+2014-12-22T10:38:28 <heuzef> Mais non y'a des sites prévu pour ça
+2014-12-22T10:38:51 <TrappyTickles> ben si t'as des adresses je suis preneur
+2014-12-22T10:42:41 <heuzef> J'en avais une pas mal sauf que je retrouve plus :(
+2014-12-22T11:02:46 *** adriens33 s'est connecté
+2014-12-22T11:06:03 <heuzef> TrappyTickles !!!
+2014-12-22T11:06:06 <heuzef> J'ai trouvé !
+2014-12-22T11:06:11 <heuzef> https://demo.weblate.org/
+2014-12-22T11:06:17 <heuzef> Ou sinon y'a pootle aussi
+2014-12-22T11:06:37 <heuzef> https://weblate.org/fr/
+2014-12-22T11:10:07 <TrappyTickles> Ben entk jvais installer weblate sur mon serveur pour voir. si ça sert pas pour mlp sub, ça peut servir en cas de besoin de coup de main
+2014-12-22T11:10:19 <heuzef> ;)
+2014-12-22T11:11:46 <TrappyTickles> nah ptet plutot pootle... weblate n'a pas l'air windows friendly dans l'install
+2014-12-22T11:12:04 <TrappyTickles> je m'attendais à un truc en php/mysql, pas à juste du python
+2014-12-22T11:12:15 <heuzef> Me semble surtout plus propre
+2014-12-22T11:12:19 <heuzef> tourne sur bootstrap
+2014-12-22T11:12:49 <TrappyTickles> putain mais même pootle est sous python :o
+2014-12-22T11:13:31 <TrappyTickles> y a rien de plus simple, genre un .sql a injecter et des scripts php pour install ? oO
+2014-12-22T11:14:23 <heuzef> http://docs.weblate.org/en/latest/admin/quick.html
+2014-12-22T11:14:32 <heuzef> Semble pas bien compliqué ?
+2014-12-22T11:14:41 <TrappyTickles> c'est quoi ça django? connais pas
+2014-12-22T11:14:53 <TrappyTickles> un système de bdd?
+2014-12-22T11:15:09 <heuzef> Framework Python
+2014-12-22T11:15:19 <heuzef> Tu tourne sous Debian ? RedHat ?
+2014-12-22T11:15:42 <TrappyTickles> j'en sais rien moi, c'est gandi, mon serveur!
+2014-12-22T11:15:52 <heuzef> quel offre ?
+2014-12-22T11:16:01 <TrappyTickles> simple hosting, celle de base
+2014-12-22T11:16:09 <heuzef> https://www.gandi.net/hebergement/simple?language=php&db=mysql
+2014-12-22T11:16:29 <TrappyTickles> là je m'y conencte en ssl voir s'il a python
+2014-12-22T11:17:03 <heuzef> apparement oui
+2014-12-22T11:17:18 <heuzef> Mais c'est surtout savoir si c'est du debian ou du centOS en gros
+2014-12-22T11:17:44 <heuzef> cat /etc/lsb-release
+2014-12-22T11:17:46 <heuzef> Essaie ça
+2014-12-22T11:18:29 <heuzef> Essiae ça aussi : uname -a
+2014-12-22T11:19:07 <TrappyTickles> no such file or directory pour la première
+2014-12-22T11:19:23 <TrappyTickles> Linux paas_27313 3.14.26-grsec-paas-ec181a1 #1 SMP PREEMPT Tue Dec 9 14:45:26 CET 2014 x86_64 GNU/Linux
+2014-12-22T11:19:27 <TrappyTickles> pour l'autre
+2014-12-22T11:19:58 <TrappyTickles> oooh j'ai python :D
+2014-12-22T11:20:05 <TrappyTickles> la 2.7.3
+2014-12-22T11:20:16 <heuzef> 3.14.26-grsec-paas-ec181a1
+2014-12-22T11:20:27 <heuzef> Oula c'est quoi ça
+2014-12-22T11:20:45 <TrappyTickles> les lettres c'est surement le code du serveur
+2014-12-22T11:21:10 <TrappyTickles> je crois que leurs simple hostings sont des machines virtuelles linux d
+2014-12-22T11:22:28 <heuzef> Oui mais ça serais cool de savoir si c'est du debian ou du redhat pour que t'install les dépendances
+2014-12-22T11:22:43 <heuzef> Essaie de faire un apt-get upgrade tiens ?
+2014-12-22T11:22:54 <TrappyTickles> oooh c'est du debian
+2014-12-22T11:22:58 <TrappyTickles> il a répondu à apt-get :p
+2014-12-22T11:22:59 <heuzef> bon
+2014-12-22T11:23:12 <heuzef> http://docs.weblate.org/en/latest/admin/install.html#requirements
+2014-12-22T11:23:20 <heuzef> http://docs.weblate.org/en/latest/admin/install.html#requirements-on-debian-or-ubuntu
+2014-12-22T11:24:25 <heuzef> Ensuite tu doit avoir Mysql
+2014-12-22T11:24:54 <TrappyTickles> bon oublie
+2014-12-22T11:24:59 <TrappyTickles> j'ai apapremment pas accès au root
+2014-12-22T11:25:01 <heuzef> tu fait un CREATE DATABASE directement ou tu install PhpMyAdmin
+2014-12-22T11:25:09 <heuzef> Ba connect toi en root
+2014-12-22T11:25:11 <TrappyTickles> le password de root n'est aucun des miens
+2014-12-22T11:25:37 <heuzef> Ha mais attend le simplehosting en faite
+2014-12-22T11:25:41 <heuzef> c'est juste du mutu
+2014-12-22T11:25:49 <heuzef> t'as accès qu'à une petite vm
+2014-12-22T11:26:06 <TrappyTickles> ben oui
+2014-12-22T11:26:14 <TrappyTickles> c'est pour ça que je dis laise tomber :p
+2014-12-22T11:26:14 <heuzef> c'est Gandi Serveur
+2014-12-22T11:26:17 <heuzef> qu'il te faut
+2014-12-22T11:26:36 <TrappyTickles> pfff pourtant ça devrait exister en php/mysql ce genre de truc
+2014-12-22T11:26:57 <heuzef> Ouais mais bon sans serveur ...
+2014-12-22T11:27:45 <TrappyTickles> un truc php/mysql tourne très bien sur mon serveur
+2014-12-22T11:28:14 <TrappyTickles> y a genre wordpress, phpbb3, un truc de bugtracking... et tout tourne nikel
+2014-12-22T11:28:49 <heuzef> Sans accès root ça va quand même être bien compliqué, ces CMS (wp, phpbb3, ...) sont des scripts préconfiguré par Gandi
+2014-12-22T11:29:21 <heuzef> Tu peux rien installer si c'est pas préconfiguré par Gandi en amont
+2014-12-22T11:29:29 <heuzef> Donc Weblate par exemple c'est mort
+2014-12-22T11:29:46 <heuzef> Mais prend toi un serveur sinon histoire d'être peinard
+2014-12-22T11:29:58 <heuzef> T'en à pour 10€/mois en gros
+2014-12-22T11:30:29 <TrappyTickles> c'est déjà cque je paye
+2014-12-22T11:30:41 <TrappyTickles> chez gandi faut rajouter un 0 pour un vrai serveur
+2014-12-22T11:31:49 <heuzef> À partir de 7,46 € HT / mois
+2014-12-22T11:32:00 <heuzef> Pas obligé de te prendre une bête de course non plus
+2014-12-22T11:32:15 <TrappyTickles> oui mais t'as vu les performances?
+2014-12-22T11:32:31 <heuzef> J'ai un Kimsuffi moi http://www.kimsufi.com/fr/
+2014-12-22T11:32:34 <TrappyTickles> rien que l'offre la plsu basse, 256Mo ram
+2014-12-22T11:32:49 <heuzef> J'ai 256Mo de ram j'ai jamais été emmerdé
+2014-12-22T11:33:00 <heuzef> si juste pour faire tourner Minecraft pour BronyCUB
+2014-12-22T11:33:04 <heuzef> Mais à part ça ...
+2014-12-22T11:33:26 <heuzef> J'ai 5 sites qui tourne et des gros backup toutes les nuits
+2014-12-22T11:33:28 <heuzef> no souci
+2014-12-22T11:33:46 <TrappyTickles> moi si jme prends un serveur comme ça, jle voudrais multitache... en plus j'ai mes sites web, faut qu'ils restent accessible, et je suis toujours au RSA
+2014-12-22T11:33:52 <TrappyTickles> sans compte que j'ai le permis à payer
+2014-12-22T11:34:13 <heuzef> Ba alors la seul solution c'est d'hberger ton propre serveur chez toi
+2014-12-22T11:34:21 <heuzef> à condition d'avoir un gros Upload chez toi
+2014-12-22T11:34:55 <heuzef> T'as combien en débit montant ?
+2014-12-22T11:35:02 <TrappyTickles> c'est le seul moyen, mais pour ça me faut récup une machine (j'en ai une en vue mais elle sert encore a ma belle mère) qu'ils veuillent bien partager un peu d'électricité pour ce serveur parce que j'ai pas de place chez moi
+2014-12-22T11:35:14 <TrappyTickles> je suis en adsl, et eux ils sotn au cable
+2014-12-22T11:35:33 <heuzef> 8 Mo montant c'est bof bof quand même
+2014-12-22T11:35:58 <TrappyTickles> laisse tomber, jtrouverai bien un similaire qui marche à l'ancienne
+2014-12-22T11:37:05 <TrappyTickles> ou jvais en rester avec un google doc
+2014-12-22T11:37:26 <TrappyTickles> d'ailleurs jvais préparer ce dernier vite fait
+2014-12-22T11:37:32 *** Yvan33 s'est connecté
+2014-12-22T11:37:37 <heuzef> Mouais ok
+2014-12-22T11:37:49 <heuzef> Je sais pas comment tu va faire
+2014-12-22T11:37:52 <heuzef> un tableur ?
+2014-12-22T11:38:23 <Yvan33> yo
+2014-12-22T11:38:57 <heuzef> Yop Yvan ^^
+2014-12-22T11:39:50 <heuzef> Me reste plus qu'on fonction à coder pour EM et va y'avoir la possibilité de modifier son compte (pseudo, MDP et suppression compte)
+2014-12-22T11:40:04 <heuzef> La je coince sur le bouton de suppression de compte :/
+2014-12-22T11:40:12 <heuzef> Mais jvais l'avoir
+2014-12-22T11:40:20 <Yvan33> euh ok
+2014-12-22T11:40:28 <heuzef> Après ça j'attaquerais le fameux "phoneview"
+2014-12-22T11:42:02 <Yvan33> oki doki loki
+2014-12-22T11:43:58 <TrappyTickles> ben oui un tableur, :p
+2014-12-22T11:45:55 *** Yvan33 est parti
+2014-12-22T12:11:19 <TrappyTickles> tain le cauchemar, le sub fait 2600 lignes environ :(
+2014-12-22T12:35:00 <heuzef> Arg !
+2014-12-22T12:35:17 <heuzef> Effectivement ça fait du taff
+2014-12-22T12:35:21 <heuzef> pas possible de faire ça seul
+2014-12-22T12:48:09 <TrappyTickles> sinon, dernier épisode en date de WTPony avec subs en cours de upload :p
+2014-12-22T12:51:07 *** heuzef est parti
+2014-12-22T13:32:27 *** Gordfang s'est connecté
+2014-12-22T13:32:29 <Gordfang> yo!
+2014-12-22T13:33:48 *** Bybeez s'est connecté
+2014-12-22T13:33:48 <Bybeez> Hey
+2014-12-22T13:33:56 <Gordfang> yo
+2014-12-22T13:34:04 <Bybeez> Hey ! Salut les chocos !
+2014-12-22T13:34:18 <Bybeez> Comment va ?
+2014-12-22T13:36:16 <Gordfang> bien et toi?
+2014-12-22T13:36:36 <Bybeez> trabquillou
+2014-12-22T13:47:29 <adriens33> hello
+2014-12-22T15:15:24 *** heuzef s'est connecté
+2014-12-22T15:35:23 *** heuzef est parti
+2014-12-22T15:35:32 *** heuzef1 s'est connecté
+2014-12-22T15:38:15 *** heuzef s'est connecté
+2014-12-22T15:40:05 *** heuzef1 est parti
+2014-12-22T16:20:10 *** ELiDYROS s'est connecté
+2014-12-22T16:22:20 <arthur33> merde, comment on récup la banlist déja? --"
+2014-12-22T16:23:47 *** arthur33 s'est connecté
+2014-12-22T16:24:44 <arthur33> y'a personne sur la banlist heuzef
+2014-12-22T16:25:20 <heuzef> arthur33: très bonne nouvelle, me voila rassuré
+2014-12-22T16:25:22 <heuzef> merci à toi
+2014-12-22T16:25:24 <arthur33> ^^
+2014-12-22T16:27:06 *** arthur33 est parti
+2014-12-22T16:38:20 <ELiDYROS> Salut
+2014-12-22T16:38:35 <adriens33> hello ELiDYROS :)
+2014-12-22T16:38:45 <ELiDYROS> Comment va
+2014-12-22T16:39:19 <adriens33> bien bien^^
+2014-12-22T16:39:32 <adriens33> et toi? :)
+2014-12-22T16:40:44 <ELiDYROS> Bien
+2014-12-22T16:40:50 <ELiDYROS> Toujours dans ma grosse phase rétro
+2014-12-22T16:41:01 <ELiDYROS> Je trouve plein de jeux que j'ai loupé mais, ils sont cotés et chers
+2014-12-22T16:41:31 <heuzef> ELiDYROS alors on ce fait un pti tournois JV pour le nouvel an ? =)
+2014-12-22T16:41:42 <ELiDYROS> Quel tournoi ..?
+2014-12-22T16:41:50 <heuzef> A toi de me le dire ^^
+2014-12-22T16:42:20 <ELiDYROS> Beh tout dépend de ce qu'aiment les gens, je sais pas s'il y a de gros gameurs au sein de BC
+2014-12-22T16:42:24 <adriens33> ELiDYROS: ah bah ça… XD
+2014-12-22T16:42:41 <heuzef> 2 ou 3 ultra gamer dont toi déjà
+2014-12-22T16:42:52 <heuzef> Après un bonne moitité de gamer
+2014-12-22T16:42:56 <heuzef> le reste étant des casu
+2014-12-22T16:43:00 <heuzef> dont moi
+2014-12-22T16:43:19 <ELiDYROS> Quel genre de jeux marcheraient ?
+2014-12-22T16:43:40 <ELiDYROS> On pourrait faire des défis sur du rétro mais ça risque de piquer pour certains ^^
+2014-12-22T16:44:00 <Bybeez> Les jeux de combat j'imagine que ça marcherai bien
+2014-12-22T16:44:27 <heuzef> Ba déjà FIM et MLK t'es sur de faire plaisir mais bon après je suis plus pour animer avec des pti jeux alakon du genre Eggnog
+2014-12-22T16:44:45 <heuzef> Jeux de combat oui c'est sur et ça permet de faire tourner la manette efficacement
+2014-12-22T16:44:52 <ELiDYROS> J'ai des jeux versus mais la plupart demandent de l'investissement
+2014-12-22T16:45:20 <heuzef> Les jeux avec une prise trop lourd faut absolument éviter en faite
+2014-12-22T16:46:01 <ELiDYROS> Ca va être compliqué en matière de jeux de fight dans ce cas
+2014-12-22T16:46:06 <ELiDYROS> sauf pour Smash et consors
+2014-12-22T16:46:16 <ELiDYROS> Mais si je sors SF4 ou Guilty je sais pas ^^;
+2014-12-22T16:46:34 <ELiDYROS> Après y a aussi moyen de faire des défis sur des jeux NES, SNES, Megadrive ou Saturn
+2014-12-22T16:46:49 <Bybeez> Pas faux, il y a moyen de faire des truc sympa
+2014-12-22T16:47:05 <heuzef> Tu peux voir ça avec le maître des lieux ? Je sais qu'il à déjà quelques console et une TV déjà et quelques jeux
+2014-12-22T16:50:07 <heuzef> ELiDYROS ?
+2014-12-22T16:50:59 <ELiDYROS> Quel lieu ?
+2014-12-22T16:52:22 <heuzef> le QG
+2014-12-22T16:52:49 <heuzef> Tu contact Gabriel, soit par tel soit par mail tu te présente comme membre de BronyCUB
+2014-12-22T16:53:08 <ELiDYROS> Beh écoute on verra
+2014-12-22T16:53:13 <heuzef> Comme ça tu peux voir tous les détails
+2014-12-22T16:53:24 <ELiDYROS> Déjà d'une parce qu'à la base je devais peut être partir en UK pour le nouvel an
+2014-12-22T16:53:40 <heuzef> Encore la vache
+2014-12-22T16:53:51 <ELiDYROS> Encore ..?
+2014-12-22T16:53:57 <heuzef> Ha non
+2014-12-22T16:53:59 <heuzef> UK pas US
+2014-12-22T16:55:35 <heuzef> Bon par contre attention si tu prévois d'amener du matos, y'a également des gens externe au collectif qui seront sans doute présent, j'aimerais pas qu'il arrive quelque chose à ton matos a cause d'un blaireau
+2014-12-22T16:56:19 <ELiDYROS> C'est en général pour ça que ce sont des assos qui s'occupent de faire des tournois (question d'assurance)
+2014-12-22T16:57:40 <ELiDYROS> Aussi rappelle toi que pour l'anniv du collectif j'ai ramené une valise remplie de jeux et consoles mais personne n'a joué ^^
+2014-12-22T16:58:27 <heuzef> Je m'en souviens
+2014-12-22T16:58:38 <heuzef> par contre j'ai jamais pu determiné pourquoi
+2014-12-22T16:58:40 *** adriens33 est parti
+2014-12-22T16:58:45 <heuzef> Ha ba si
+2014-12-22T16:58:59 <heuzef> Parceque tous le monde s'est focalisé sur un seul petit jeux
+2014-12-22T16:59:11 <heuzef> Comme quoi amener 1 ou 2 jeux, mais les bons
+2014-12-22T16:59:20 <heuzef> c'est largement suffisant dans le cadre d'une soirée
+2014-12-22T16:59:33 <ELiDYROS> Des petits jeux j'en ai mais sur mon PC
+2014-12-22T16:59:57 <ELiDYROS> Mais certains que ça occupe une soirée entière
+2014-12-22T17:00:49 <ELiDYROS> pas certain*
+2014-12-22T17:01:10 <heuzef> Je suis presque sur que oui
+2014-12-22T17:01:48 <heuzef> Prépare un pti truc avec les jeux sur ton pc au pire et présente ça à Gabriel pour qu'il mette le truc en place
+2014-12-22T17:01:54 <heuzef> ça va coller je pense
+2014-12-22T17:02:14 <ELiDYROS> Je pourrai pas ramener mon pc
+2014-12-22T17:05:24 <ELiDYROS> Disons qu'un PC AlienWare de bureau c'est assez encombrant et lourd
+2014-12-22T17:06:40 <ELiDYROS> Après je connais des dizaines d'action platformers ou des run'n gun sur 16-bits, mais comme c'est vieux c'est la difficulté d'époque.
+2014-12-22T17:08:48 <heuzef> Ou sinon vois avec les consoles déjà présente sur place au pire
+2014-12-22T17:16:12 <ELiDYROS> Oui faut voir. Par contre mes jeux de combats sont tous en démat (pour payer moins cher qu'en import boite)
+2014-12-22T17:16:17 <ELiDYROS> Sauf SF4 ou Smash Bros.
+2014-12-22T18:02:24 *** adriens33 s'est connecté
+2014-12-22T18:07:56 *** adriens33 est parti
+2014-12-22T18:23:23 *** Bybeez est parti
+2014-12-22T18:26:21 *** ELiDYROS est parti
+2014-12-22T18:28:24 *** heuzef est parti
+2014-12-22T18:28:56 *** heuzef s'est connecté
+2014-12-22T18:29:06 *** heuzef est parti
+2014-12-22T18:31:58 *** ELiDYROS s'est connecté
+2014-12-22T18:33:15 *** adriens33 s'est connecté
+2014-12-22T18:34:10 <adriens33> re
+2014-12-22T20:41:48 *** Gordfang est parti
+2014-12-22T21:03:24 *** adriens33 est parti
+2014-12-22T21:19:49 *** Gordfang s'est connecté
+2014-12-22T21:29:58 *** adriens33 s'est connecté
+2014-12-22T21:56:16 *** Bybeez s'est connecté
+2014-12-22T22:25:08 *** Sworky s'est connecté
+2014-12-22T22:25:08 *** Sworky est parti
+2014-12-22T23:15:58 *** Bybeez est parti
+2014-12-22T23:21:46 *** flutterbrony s'est connecté
+2014-12-22T23:21:55 <flutterbrony> bonsoir
+2014-12-22T23:41:01 *** flutterbrony est parti
+2014-12-22T23:44:35 *** Gordfang est parti
+2014-12-22T23:57:15 *** TrappyTickles est parti
