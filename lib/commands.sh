@@ -29,6 +29,7 @@ declare -Ag cmdtable=(['stop']="stop_the_bot"
 					 ['kick']="cmd_kick \$args"
 					 ['ban']="cmd_ban \$args"
 					 ['unban']="cmd_ban - \$args"
+					 ['inscription']="cmd_inscript \$args"
 					 ['list']="list_cmds");
 
 # Droit d'accès à certaines commandes
@@ -90,6 +91,15 @@ cmd_kick()
 	send_sec "KICK ${CHAN} $name ${reason}"
 }
 
+# Inscrit un nouvel arrivant
+cmd_inscript()
+{
+	local pseudo="$1";
+	admin_flagcmd set +v "$pseudo"
+	admin_flagcmd mod +v "$pseudo"
+	send "PRIVMSG ${CHAN} :Bienvenue dans la horde, $pseudo =D"
+}
+
 # Aide pour une commande
 cmd_help()
 {
@@ -102,6 +112,8 @@ cmd_help()
 		return
 	}
 	case "$cmd" in
+		"inscription")	helptext=("Inscrit quelqu'un." "${cmd_char}inscription <pseudo>")
+			;;
 		"ban")	helptext=("Bannit quelqu'un du canal." "${cmd_char}ban xxx!yyy@zzz xxx=pseudo yyy=username zzz=adresse")
 			;;
 		"unban")	helptext=("Enlève l'état de banissement de quelqu'un sur le canal." "${cmd_char}unban xxx!yyy@zzz xxx=pseudo yyy=username zzz=adresse")
