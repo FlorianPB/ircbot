@@ -1,0 +1,203 @@
+2014-12-28T00:23:34 <ELiDYROS> Y a moyen de convertir une image nrg sous Linux ? Sans pour autant la corrompre ?
+2014-12-28T00:25:05 <adriens33> heum… si ImageMagick connait le format tu dois pouvoir faire convert a.nrg a.png (par ex)
+2014-12-28T00:25:21 <ELiDYROS> lol nan image disque
+2014-12-28T00:25:24 <adriens33> ah.
+2014-12-28T00:25:28 <adriens33> euh.....
+2014-12-28T00:25:29 <ELiDYROS> nrg c'est une image nero burning rom
+2014-12-28T00:25:32 <adriens33> ah.
+2014-12-28T00:25:40 <adriens33> bah il te faut nero alors ^^"
+2014-12-28T00:25:58 <ELiDYROS> c'est payant, c'est pour ça que je voulais la convertir
+2014-12-28T00:26:13 <adriens33> ah si: nrg2iso
+2014-12-28T00:26:33 <ELiDYROS> j'ai essayé mais après je peux pas graver
+2014-12-28T00:26:34 <adriens33> apparemment ça permet de convertir ton truc en .iso standard
+2014-12-28T00:26:36 <adriens33> ah
+2014-12-28T00:28:26 <ELiDYROS> Je vais jeter un oeil
+2014-12-28T00:52:14 <ELiDYROS> Bon j'ai fait une machine virtuelle avec du debian sur mon pc actuel
+2014-12-28T00:52:17 <ELiDYROS> On va bien vir
+2014-12-28T00:52:19 <ELiDYROS> voir
+2014-12-28T00:52:23 <adriens33> oki ^^
+2014-12-28T00:55:52 <ELiDYROS> Par contre je sais même pas où on change la résolution dans crunchbang
+2014-12-28T00:56:54 <adriens33> bah faut installer les pilotes pour la vm, sinon normalement dans ton gestionnaire de bureau dans le panneau de conf tu dois avoir une section sur les moniteurs
+2014-12-28T01:01:50 <ELiDYROS> je dois passer par xrandr
+2014-12-28T01:02:25 <adriens33> oui, aussi. ^^
+2014-12-28T01:07:58 <ELiDYROS> Si seulement la personne qui m'a vendu l'ordi avait fait plusieurs partitions...
+2014-12-28T01:14:59 <adriens33> arf
+2014-12-28T02:09:28 *** Nightfire est parti
+2014-12-28T02:24:25 *** adriens33 est parti
+2014-12-28T03:16:10 *** ELiDYROS est parti
+2014-12-28T12:45:17 *** adriens33 s'est connecté
+2014-12-28T14:44:17 <adriens33> c'est vide… XD
+2014-12-28T16:17:32 *** adriens33 est parti
+2014-12-28T16:42:22 *** adriens33 s'est connecté
+2014-12-28T18:56:51 *** ELiDYROS s'est connecté
+2014-12-28T19:00:35 *** TrappyTickles s'est connecté
+2014-12-28T19:20:04 <adriens33> hello ELiDYROS
+2014-12-28T19:20:06 <adriens33> hello TrappyTickles
+2014-12-28T19:20:26 <ELiDYROS> Salut adriens33
+2014-12-28T19:20:41 <TrappyTickles> oi
+2014-12-28T19:27:59 *** ELiDYROS est parti
+2014-12-28T20:22:17 *** ELiDYROS s'est connecté
+2014-12-28T20:35:03 <ELiDYROS> Ca me dégoute un peu la tv ce soir là
+2014-12-28T20:39:19 <adriens33> pourquoi ?
+2014-12-28T20:40:34 <ELiDYROS> 20 min pour parler de la neige, 10 min sur le champagne, et les catastrophes en Asie (des gens qui meurrent, un avion perdu), même pas 5 min
+2014-12-28T20:41:33 <adriens33> bah c'est la télé hein. c'est pas nouveau qu'ils filtrent ce qu'ils passent et que c'est que du bourrage de crane. s'ils ont tant peur du grand méchant nain Ternet le Maléfique c'est pas pour rien ;)
+2014-12-28T20:42:03 <ELiDYROS> non c'est surtout pour dire "quoi des gens meurent ? on s'en fout il fait froid chez nous"
+2014-12-28T20:42:17 <adriens33> ouai bah comme d'hab XD
+2014-12-28T20:42:43 <adriens33> ici c'est « ohmygosh ohmygosh 1mm de neige, j'peux pas aller bosser c'est dangereux »
+2014-12-28T20:42:49 <ELiDYROS> Les problématiques du français moyen vivant dans sa petite bulle de confort
+2014-12-28T20:43:17 <adriens33> t'as des endroits c'est « quoi 1m de neige ? pff c'est tout ? » [a lire avec une voix épique style bob lennon]
+2014-12-28T20:43:46 <ELiDYROS> Tous les ans New York est à moitié paralysée par la neige, les gens vont quand même bosser
+2014-12-28T20:43:53 <ELiDYROS> C'est pas 3 cm de neige en plus
+2014-12-28T20:44:20 <ELiDYROS> Au Japon le froid tue des gens car il arrive rapidement
+2014-12-28T20:44:35 <ELiDYROS> Et au Canada bah les canadiens ils naissent dans la glace donc ...
+2014-12-28T20:44:37 <adriens33> bah oui et non en fait, c'est ce que les médias veulent conserver ^^ si tu passe ton temps à te plaindre du temps tu le passe pas à réfléchir a quel point tu te fais enculer par tous les trous.
+2014-12-28T20:44:41 <adriens33> bah ouai
+2014-12-28T20:44:49 <adriens33> et nous on a le gulf stream ^^"
+2014-12-28T20:47:06 <adriens33> remarque regarder les vrais news sur le net au bout d'un moment c'est hyper déprimant.
+2014-12-28T20:47:34 <ELiDYROS> Faut prendre du recul
+2014-12-28T20:47:48 <adriens33> tu te rend compte a quel point les gens sont cons, bornés et attachés à leur propre petit profit personnel.
+2014-12-28T20:48:08 <adriens33> c'est désespérant.
+2014-12-28T20:48:43 <adriens33> bah ouai mais bon prendre du recul c'est plus facile à dire qu'à faire…
+2014-12-28T20:58:53 <ELiDYROS> Faut savoir s'informer sans pour autant en faire des affaires personnelles
+2014-12-28T21:02:06 <adriens33> c'est pas une histoire de ca
+2014-12-28T21:02:22 <adriens33> c'est juste qu'au bout d'un moment ça atteint le moraj
+2014-12-28T21:02:25 <adriens33> -j+l
+2014-12-28T21:45:35 *** Sworky s'est connecté
+2014-12-28T21:45:43 <Sworky> Bonsoir
+2014-12-28T21:45:51 <adriens33> hello
+2014-12-28T21:45:58 <Sworky> Ça va ?
+2014-12-28T21:46:39 <adriens33> tranquille^^
+2014-12-28T21:46:41 <adriens33> et toi?
+2014-12-28T21:46:51 <Sworky> Pareil merci
+2014-12-28T21:47:15 <Sworky> Toujours pas inscrit mais j'hésite
+2014-12-28T21:47:19 <adriens33> ^^
+2014-12-28T21:50:02 *** Sworky est parti
+2014-12-28T22:02:46 *** ELiDYROS est parti
+2014-12-28T22:10:29 *** Bybeez s'est connecté
+2014-12-28T22:10:43 <Bybeez> Yo !
+2014-12-28T22:10:47 <adriens33> hello
+2014-12-28T22:11:05 <Bybeez> Comment ça va ?
+2014-12-28T22:14:32 <adriens33> ça va
+2014-12-28T23:25:05 <adriens33> pff
+2014-12-28T23:25:15 <adriens33> c'est mort, comme d'habitude..
+2014-12-28T23:26:25 <adriens33> ce chac sert a rien, pourtant y'a un bouton expres sur le site. on est plus de 45 et y'a 3 personnes dessus. je dois avoir une tete a faire peur.
+2014-12-28T23:26:40 <adriens33> pourtant c'est pas le genre de truc qui se voit a travers irc, si?
+2014-12-28T23:26:45 <adriens33> *chat
+2014-12-28T23:31:24 <Bybeez> Bah tu dis ça mais hier ça a bien discuter il me semble
+2014-12-28T23:31:50 <adriens33> ouai mais c'était une exception
+2014-12-28T23:31:59 <Bybeez> c'est juste que certains jours il y a moins de gens et doncde conversation
+2014-12-28T23:32:08 <adriens33> au début ça marchait un peu, c'était tout nouveau, c'était curieuxk
+2014-12-28T23:32:19 <adriens33> non non XD
+2014-12-28T23:32:28 <Bybeez> Mais si
+2014-12-28T23:32:31 <adriens33> t'a pas vu les stats XD
+2014-12-28T23:32:38 <Bybeez> je veux pas les voir
+2014-12-28T23:32:44 <Bybeez> XD
+2014-12-28T23:32:44 <adriens33> tous les mois ca s'effondre un peut plus
+2014-12-28T23:32:50 <adriens33> c'est en marche d'escalier…
+2014-12-28T23:32:59 <Bybeez> mais là c'est les fêtes c'est normal
+2014-12-28T23:33:00 <adriens33> (je déconne meme pas en plus)
+2014-12-28T23:33:10 <Bybeez> les gens ont pas tous que ça a foutre
+2014-12-28T23:33:15 <adriens33> c'est les fetes depuis le mois d'aout? bigre.
+2014-12-28T23:33:19 <Bybeez> mais oui
+2014-12-28T23:33:40 <Bybeez> beaucoup de fête et la rentrée pour certain ça demande beaucoup
+2014-12-28T23:33:53 <Bybeez> donc il prennent plus le temps de venir
+2014-12-28T23:34:10 <adriens33> « les gens ont pas tous que ça a foutre » t'es en train de me dire que sur 45 personnes y'en a pas deux qui ont envie de discu entre eux? bah à quoi ça sert d'etre dans un collectif alors? 
+2014-12-28T23:34:25 <adriens33> je parle pas que de la rentrée
+2014-12-28T23:34:28 <adriens33> mais bon…
+2014-12-28T23:34:48 <Bybeez> Sur 45 personnes je vais te dire avec combien j'ai parlé dans les 6 derniers mois
+2014-12-28T23:35:10 <Bybeez> car entre les absent les les "membre" qui sont jamais venus ...
+2014-12-28T23:36:17 <adriens33> mouai..
+2014-12-28T23:36:59 <Bybeez> 27
+2014-12-28T23:37:12 <adriens33> et pis y'a personne qui veut mettre la main a la pate et venir aider a animer un peu ici.
+2014-12-28T23:37:16 <Bybeez> Donc déjà ça fait la moitié d'inactifs
+2014-12-28T23:37:24 <adriens33> y'a personne, et moi c'est pas mon taf. forcément ça aide pas.
+2014-12-28T23:37:33 <Bybeez> Le truc c'est que je vois pas comment animer
+2014-12-28T23:37:53 <adriens33> bah faut en discu a plusieur déja
+2014-12-28T23:38:21 <Bybeez> Mais c'est vrai que c'est un problême
+2014-12-28T23:38:31 <adriens33> mais bon faut qu'il y ait du monde qui s'investisse.
+2014-12-28T23:38:47 <Bybeez> Et ça c'est galère
+2014-12-28T23:38:52 <adriens33> je comprends pourquoi flo s'arrache les tifs, il a son taf et sa cop en plus à gérer..
+2014-12-28T23:39:26 <Bybeez> Ouaip
+2014-12-28T23:39:27 <adriens33> mais bon moi je fais c'que je peux, mais j'suis pas doué a grand chose surtout la.
+2014-12-28T23:39:58 <Bybeez> Bah l'animation d'un chat IRC... C'est pas un truc evident ^^
+2014-12-28T23:40:37 <adriens33> bah c'est comme animer un chat autre que irc, ou une discu irl, on pourrai chais pas organiser des events, pourquoi pas des soirées rp par exemple.
+2014-12-28T23:40:51 <adriens33> faut se creuser la tronche a plusieurs
+2014-12-28T23:41:16 <Bybeez> Des doirée RP c'est sympa
+2014-12-28T23:41:24 <Bybeez> ça c'est une idée qui se creuse
+2014-12-28T23:41:38 <adriens33> pis flo a son jdr, ça peut etre bien comme support.
+2014-12-28T23:41:58 <Bybeez> Bah sinon juste du RP style forum RP
+2014-12-28T23:42:03 <adriens33> ouai voila.
+2014-12-28T23:42:30 <Bybeez> On a moyen avec les gens qui sont dans le collectif de faire un truc bien
+2014-12-28T23:42:45 <adriens33> c'est ça qui me fait chier.
+2014-12-28T23:43:09 <adriens33> parce que moi j'veux bien aider mais concretement moi en bougeur de foules j'suis moins que pas doué.
+2014-12-28T23:43:51 <Bybeez> Bah, t'inquète pas ton idée est notée, on va essayer de t'aider (dans les limites du possible avec ma mission pour l'accueille des nouveaux)
+2014-12-28T23:44:07 <Bybeez> Et puis des bougeur de foules on a ça dans le collectifs je suis sur
+2014-12-28T23:44:52 <adriens33> bah le chat est pas a moi hein.. il est a tout le monde. c'est juste moi qui l'ai ouvert. mais concretement y'a plus personne pour le "gérer".. flo voulait pas de modo et moi j'en ai eu marre des histoires.. faut arriver a gérer ca collectivement
+2014-12-28T23:45:22 <adriens33> chui désolé, j'suis un peu a plat moralement ajd
+2014-12-28T23:45:25 <adriens33> j'ai mal dormi.
+2014-12-28T23:45:49 <Bybeez> Va te coucher et repose toi
+2014-12-28T23:45:55 <Bybeez> allez you !
+2014-12-28T23:45:59 <Bybeez> zou*
+2014-12-28T23:46:06 <adriens33> beu pas sommeil.
+2014-12-28T23:46:21 <Bybeez> C'est pas une raison !!
+2014-12-28T23:46:23 <Bybeez> XD
+2014-12-28T23:47:00 <adriens33> me suis levé a midi et j'ai rien foutu de l'aprem..
+2014-12-28T23:47:13 <adriens33> et en plus j'ai pris un gros bol de café.
+2014-12-28T23:47:18 <adriens33> comment tu veux que j'dorme?
+2014-12-28T23:47:19 <adriens33> XD
+2014-12-28T23:47:25 <Bybeez> Le thé c'est meilleur pour la santé
+2014-12-28T23:47:29 <adriens33> nope
+2014-12-28T23:47:31 <Bybeez> C'est de ta faute
+2014-12-28T23:47:37 <Bybeez> Xd
+2014-12-28T23:47:44 <adriens33> y'a de la caféine aussi
+2014-12-28T23:47:58 <adriens33> elle est juste assimilée plus lentement a cause des tannins présents dans le thé.
+2014-12-28T23:48:12 <adriens33> le thé c'est le café des anlgais
+2014-12-28T23:48:15 <adriens33> *anglais
+2014-12-28T23:48:29 <Bybeez> mouais
+2014-12-28T23:48:39 <adriens33> et moi le thé ça me fait dormir, mais le café d'habistude ça me file la pêche.
+2014-12-28T23:48:44 <adriens33> *habitude
+2014-12-28T23:49:00 <Bybeez> M'enfin faut pas en prendre de gros bol (dit le gars qui boit au moins un demi-litre de thé par jour)
+2014-12-28T23:49:09 <adriens33> j'suis un genre de pinkie pie quand j'ai fait le plein en fait.
+2014-12-28T23:49:19 <Bybeez> XD
+2014-12-28T23:49:27 <adriens33> nah mais sérieux
+2014-12-28T23:49:57 <adriens33> je suis de super bonne humeur et j'ai le cerveau qui tourne tellement dans tous les sens que j'ai pas le temps de penser a ce qui me déprime.
+2014-12-28T23:50:09 <adriens33> j'ai pas le temps de penser tout court d'ailleur.
+2014-12-28T23:50:43 <Bybeez> Ah bah, moi ça m'arrive mais c'est rare et faut vraiment que je pète la forme beaucoup
+2014-12-28T23:51:00 <adriens33> bah d'ordinaire quand je le dose bien ouai ça me met en forme.
+2014-12-28T23:51:10 <adriens33> la j'ai pas du en mettre assez visiblement...
+2014-12-28T23:51:32 <Bybeez> *un kilo.. non pas assez* ^^
+2014-12-28T23:51:34 <adriens33> (mais bon je vai pas en prendre a minuit)
+2014-12-28T23:51:37 <adriens33> XD nan
+2014-12-28T23:51:47 <adriens33> c'est du en poudre
+2014-12-28T23:51:57 <adriens33> (pas dégueu pour du café lyophilisé d'ailleurs)
+2014-12-28T23:52:40 <Bybeez> Bouarf, moi je prend rarement du café et je le bois avec du lait et une tonne de sucre ^^
+2014-12-28T23:53:03 <adriens33> bah moi aussi je met plein de sucre, le café tout seul c'est amer.
+2014-12-28T23:53:14 <adriens33> et puis le sucre ça aide XD
+2014-12-28T23:53:50 <Bybeez> Pour le thé c'est pareil, je tourne a 5 sucres pour un demi-litre
+2014-12-28T23:54:05 <adriens33> mais bon justement j'en prend pas en grande quantité ni trop souvent pour éviter l'effet d'accoutumance.
+2014-12-28T23:54:20 <adriens33> mais du coup je passe mon temps a avoir un moral de larve de mouche.x
+2014-12-28T23:54:21 <adriens33> -x
+2014-12-28T23:54:34 <Bybeez> Faut trouver une alternative
+2014-12-28T23:54:42 <adriens33> le 230V ?
+2014-12-28T23:54:53 <adriens33> (bkwa, c'est alternatif non?)
+2014-12-28T23:55:07 <Bybeez> C'est nul
+2014-12-28T23:55:10 <adriens33> ah tiens il me reste un peu d'humour.
+2014-12-28T23:55:14 <adriens33> ah bah merci...
+2014-12-28T23:55:39 <Bybeez> mais je suis content !!! J'ai enfin une pierre aube, je vais pouvoir remplir le pokedex regionnal ce soir !!!
+2014-12-28T23:55:55 <adriens33> mais c'est trop cool!!!
+2014-12-28T23:56:09 <Bybeez> C'est un sarcarsme pas vrai ?
+2014-12-28T23:56:30 <adriens33> non, j'essayais juste de pas trop montrer mon niveau de platitude en fait.
+2014-12-28T23:56:46 <adriens33> mais bon du coup ça se voit un peu.
+2014-12-28T23:56:56 <adriens33> désoél.
+2014-12-28T23:57:02 <adriens33> *désolé
+2014-12-28T23:57:13 <Bybeez> oui donc c'est un sarcasme, du dit que c'est cool alors que tu t'en fout, j'avais raison ^^
+2014-12-28T23:57:22 <adriens33> non j'm'en fout pas
+2014-12-28T23:57:39 <adriens33> j'ai juste pas de motiv pour quoi que ce soit en fait.
+2014-12-28T23:57:45 <Bybeez> bouarf, c'est pas important ^^
+2014-12-28T23:57:50 <adriens33> le sarcasme le but c'est de te moquer de la personne.
+2014-12-28T23:58:01 <adriens33> moi mon but c'est juste de pas paraitre trop lourd.
+2014-12-28T23:58:06 <Bybeez> pas forcement, en tout cas c'est pas comme ça que je le prends
+2014-12-28T23:58:30 <Bybeez> Ah si, je vois la difference je comprend
+2014-12-28T23:59:18 <adriens33> du coup t'a bien avancé sur pokémon alors?
+2014-12-28T23:59:47 <Bybeez> Bah 105h de jeu, et je part pour completer le pokedex nationnal ^^
+2014-12-28T23:59:53 <adriens33> 105 :o

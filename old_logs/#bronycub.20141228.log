@@ -1,0 +1,607 @@
+2014-12-27T00:01:46 *** adriens33 est parti
+2014-12-27T00:57:26 *** flutterbrony s'est connecté
+2014-12-27T00:57:38 <flutterbrony> Salut Berry-Punch
+2014-12-27T00:57:47 <flutterbrony> Berry-Punch ?
+2014-12-27T00:58:03 <flutterbrony> C'est bon l'alcool
+2014-12-27T00:58:23 <flutterbrony> Qu'est ce que tu bois Berry-Punch
+2014-12-27T01:08:44 *** flutterbrony est parti
+2014-12-27T01:50:30 *** ELiDYROS s'est connecté
+2014-12-27T02:35:24 *** ELiDYROS est parti
+2014-12-27T07:11:45 *** adriens33 s'est connecté
+2014-12-27T07:39:38 *** adriens33 est parti
+2014-12-27T11:01:47 *** adriens33 s'est connecté
+2014-12-27T11:09:38 <adriens33> Berry-Punch
+2014-12-27T11:09:45 <adriens33> alcool
+2014-12-27T11:09:50 <adriens33> salut Berry
+2014-12-27T12:48:51 *** adriens33 est parti
+2014-12-27T12:49:09 *** adriens33 s'est connecté
+2014-12-27T14:03:35 *** flutterbrony s'est connecté
+2014-12-27T14:03:50 <flutterbrony> bonjour
+2014-12-27T14:04:11 *** flutterbrony est parti
+2014-12-27T14:04:33 *** flutterbrony s'est connecté
+2014-12-27T14:04:47 <adriens33> hello flutterbrony
+2014-12-27T14:05:02 <flutterbrony> re
+2014-12-27T14:05:22 <flutterbrony> Je me suis planté en débranchant un fil et j'ai débranché mon pc :/
+2014-12-27T14:05:54 <adriens33> ah merde… XD
+2014-12-27T14:06:08 <flutterbrony> Bon, sinon, tu vas bien ?
+2014-12-27T14:06:24 <adriens33> moi j'ai évité ça, j'ai ma tour sur une prise a part et le reste (écrans, enceintes etc) sur une autre
+2014-12-27T14:06:27 <adriens33> ça va
+2014-12-27T14:06:36 <adriens33> et toi?
+2014-12-27T14:06:55 <flutterbrony> Ouais, j'avance lentement mais sûrement sur mon site ^
+2014-12-27T14:06:59 <flutterbrony> Ouais, j'avance lentement mais sûrement sur mon site ^^
+2014-12-27T14:07:11 <adriens33> C'est quoi ton site ?
+2014-12-27T14:07:58 <flutterbrony> 2 site, un pour les documents de famille qu'on m'a demandé de scanner et de partager
+2014-12-27T14:08:19 <flutterbrony> et l'autre pour mon serveur privé de Legends of Equestria
+2014-12-27T14:08:33 <adriens33> oki ^^
+2014-12-27T14:09:48 <flutterbrony> Et je me suis amusé a montrer Berry-Punch a mon oncle cette nuit ^^
+2014-12-27T14:10:43 <adriens33> ah? XD
+2014-12-27T14:11:35 <flutterbrony> Il a bien aimé et m'a proposé pas mal de nouveau mots a lui ajouter a sa liste ;)
+2014-12-27T14:12:23 <adriens33> ^^
+2014-12-27T14:12:37 <adriens33> faudra que je me repenche dessus quand j'aurais moins la flemme XD
+2014-12-27T14:12:50 <adriens33> (sinon si t'a envie de coder un patch te gêne pas XD)
+2014-12-27T14:13:15 <flutterbrony> Je suis pas sûr de pouvoir faire grand chose XD
+2014-12-27T14:13:19 <adriens33> ^^
+2014-12-27T14:14:07 <flutterbrony> Quoique en lisant le code de Berry, j'ai tout compris, mais faudrais que j'ai moins la flemme aussi ^^
+2014-12-27T14:14:13 <adriens33> bah à la limite tu peux ouvrir un ticket sur le repo github pour proposer des mots^^
+2014-12-27T14:14:20 <adriens33> bah c'est juste du bash XD
+2014-12-27T14:14:47 <flutterbrony> Voilà, je pensais que ca serais plus compliqué en faite mais c'est assez simple ^^
+2014-12-27T14:14:54 <adriens33> ouai^^
+2014-12-27T14:15:14 <adriens33> et j'ai look directement le protocole irc^^ (rfc 1459 si tu veux aller voir)
+2014-12-27T14:15:21 <adriens33> c'est pas très compliqué au final
+2014-12-27T14:17:00 <flutterbrony> je look ca
+2014-12-27T14:18:33 <adriens33> c'est des lignes de texte
+2014-12-27T14:19:27 <flutterbrony> Ok, je viens de régler un bug sur la page de login de mon site
+2014-12-27T14:19:59 <flutterbrony> quand on cliquais dessus, on étais redirigé sur wordpress, maintenant, on est bien redirigé sur ma page :D
+2014-12-27T14:20:19 <flutterbrony> Ouais, je viens de tomber sur un site Anglais qui explique très bien
+2014-12-27T14:20:19 <adriens33> ^^
+2014-12-27T14:20:22 <adriens33> USER <username> <server désiré (chat.freenode.net par ex)> <hote (ton adresse a toi)> :Nom réel
+2014-12-27T14:20:22 <adriens33> NICK <ton nick>
+2014-12-27T14:20:23 <adriens33> -> attente de la confirmation
+2014-12-27T14:20:23 <adriens33> JOIN #chan
+2014-12-27T14:20:23 <adriens33> et ensuite PRIVMSG <pseudo ou canal> :Texte
+2014-12-27T14:20:23 <adriens33> et le /me: PRIVMSG <pseudo ou canal> :x01ACTION <texte>x01
+2014-12-27T14:20:37 <adriens33> et PART #chan :raison
+2014-12-27T14:20:38 <adriens33> etc
+2014-12-27T14:20:48 <adriens33> c'est que des commandes comme ça en fait irc
+2014-12-27T14:23:51 *** heuzef s'est connecté
+2014-12-27T14:23:59 <adriens33> hello heuzef
+2014-12-27T14:24:10 <heuzef> yosh
+2014-12-27T14:25:05 <heuzef> Arg ... aucun avancement sur le projet d'accueil :(
+2014-12-27T14:25:28 <adriens33> Quel projet d'accueil ? ^^"
+2014-12-27T14:26:10 <heuzef> C'est un truc qui est en reflexion depuis longtemps, il nous faut quelque chose pour accueillir les nouveaux
+2014-12-27T14:26:26 <heuzef> https://lite4.framapad.org/p/k3N9wl3wG9
+2014-12-27T14:26:39 <flutterbrony> salut heuzef
+2014-12-27T14:26:41 <heuzef> On à finit par trouvé une solution, mais encore faut t'il la mettre en place
+2014-12-27T14:26:45 <heuzef> Salut flutterbrony ;)
+2014-12-27T14:26:56 <heuzef> Tu viens au nouvel an ?
+2014-12-27T14:26:57 <adriens33> Ah, sur le site c'est ça ?
+2014-12-27T14:27:01 <flutterbrony> J'ai résolu les problème de mon wordpress ^^
+2014-12-27T14:27:04 <heuzef> adriens33:yep
+2014-12-27T14:27:09 <adriens33> Ok ^^
+2014-12-27T14:27:13 <flutterbrony> Et oui je viens pour le nouvel an
+2014-12-27T14:27:20 <adriens33> bah faut voir ça avec ceux qui dev la v3 non ?
+2014-12-27T14:27:32 <heuzef> adriens33: nop
+2014-12-27T14:27:40 <adriens33> ah ?
+2014-12-27T14:27:44 <adriens33> pourquoi ?
+2014-12-27T14:27:44 <heuzef> flutterbrony: tu compte manger avec nous ?
+2014-12-27T14:28:02 <flutterbrony> Ouais je pense
+2014-12-27T14:28:20 <flutterbrony> Oui en faite, sinon j'aurais pas le temps de manger x)
+2014-12-27T14:28:39 <heuzef> flutterbrony: oublie pas de reserver alors ;)
+2014-12-27T14:28:56 <adriens33> faut juste envoyer un mail sur la ml c'est ça?
+2014-12-27T14:29:14 <heuzef> oui, Gabriel étant abonné il peux voir les mail
+2014-12-27T14:29:25 <adriens33> ok nice =3
+2014-12-27T14:29:40 <adriens33> bah flutterbrony t'as plus qu'a faire un bô mail alors :P
+2014-12-27T14:29:50 <flutterbrony> ^^
+2014-12-27T14:29:56 <flutterbrony> On as jusqu'a quand ?
+2014-12-27T14:30:07 <adriens33> jusqu'à hier ? ^^
+2014-12-27T14:30:13 <flutterbrony> pas trop tard j'imagine qu'il puisse réserver ^^
+2014-12-27T14:30:21 <flutterbrony> C'est ca :p
+2014-12-27T14:30:25 <heuzef> adriens33: je veux pas que Wildefier et Shinsaber s'occupe de ça, il ont déjà SugarCUB et BBBFF sur les bras c'est déjà bien assez
+2014-12-27T14:30:32 <adriens33> flutterbrony: (le plus tot est le mieux je pense, mais il me semble que la limite c'est demain si je ne dis pas de betise)
+2014-12-27T14:31:07 <adriens33> heuzef: bah wildfier était déja en train de commencer la v3 me semble, c'est shinsaber qui devait s'occuper du dépot non ?
+2014-12-27T14:31:23 <adriens33> *dépôt
+2014-12-27T14:31:54 <heuzef> SugarCUB = V3 et Shinsaber doit trouver un moyen de synchronier la BDD de BBBFF avec celle de SugarCUB
+2014-12-27T14:32:01 <heuzef> Donc gros défit
+2014-12-27T14:32:01 <adriens33> aahhhh.
+2014-12-27T14:32:07 <adriens33> donc la v3 a un nom XD
+2014-12-27T14:32:30 <heuzef> Une identité même, car c'est pas un outil juste pour nous mais pour tous les collectifs
+2014-12-27T14:32:39 <adriens33> oki ^^
+2014-12-27T14:33:03 <adriens33> bah pourquoi pas intégrer l'accueil des nouveaux au cdcf de la v3 directement? ça serait mieux non?
+2014-12-27T14:33:33 <heuzef> http://i.imgur.com/Qo390gR.png
+2014-12-27T14:33:44 <adriens33> ^^
+2014-12-27T14:33:56 <flutterbrony> Bon bah je racompagne mes grands parents a la garre, @+
+2014-12-27T14:33:57 <heuzef> Non parceque l'accueil des nouveaux c'est propre à BronyCUB
+2014-12-27T14:34:00 <heuzef> ++
+2014-12-27T14:34:03 <adriens33> d'ac ^^
+2014-12-27T14:34:07 <adriens33> flutterbrony: @+
+2014-12-27T14:34:42 <heuzef> en faite on va faire un mini-site sur bronycub.org/accueil
+2014-12-27T14:34:53 <adriens33> Ah, ok ^^
+2014-12-27T14:34:56 <heuzef> une sorte de diaporama interactif un truc dans le genre
+2014-12-27T14:35:15 <adriens33> [troll]un powerpoint ça irait?[/troll]
+2014-12-27T14:35:17 <adriens33> (pardon XD)
+2014-12-27T14:35:32 <heuzef> On à une inscription chaque mois maintenant
+2014-12-27T14:35:55 <heuzef> c'est regulier mais c'est très fastidieu à chaque fois
+2014-12-27T14:35:57 <adriens33> anéfé
+2014-12-27T14:36:30 *** Bybeez s'est connecté
+2014-12-27T14:36:41 <Bybeez> Salut les raisintine !
+2014-12-27T14:36:49 <Bybeez> raisintines*
+2014-12-27T14:36:49 <heuzef> Ha ba tiens quand on parle de l'abeille
+2014-12-27T14:36:56 <Bybeez> j'ai vu ça
+2014-12-27T14:36:58 <heuzef> Salut Bzzz bzzz
+2014-12-27T14:37:03 <Bybeez> Bzz
+2014-12-27T14:37:06 <Bybeez> Bzzzz
+2014-12-27T14:37:08 <Bybeez> zzz
+2014-12-27T14:37:09 <Bybeez> zzzzzzzzz
+2014-12-27T14:37:13 <Bybeez> ZZZzzz
+2014-12-27T14:37:20 <heuzef> https://docs.google.com/document/d/1ykzf3YsXzOTiAbpWen4tu-xy9Jlg0Z99CBgdb8-woyU/edit
+2014-12-27T14:37:23 <adriens33> pour irc y'a meme pas besoin d'une commande techniquement^^ tu peux ajouter le pseudo dans le conf/admin.cfg et tu commit, et moi derriere j'ai juste a merge^^
+2014-12-27T14:37:30 <adriens33> (pour l'incription)
+2014-12-27T14:37:34 <heuzef> Bon travail dis donc ! :D J'adore cette table des matière
+2014-12-27T14:37:47 <adriens33> meme si effectivement un !incsription pourrait etre sympa.
+2014-12-27T14:37:59 <adriens33> (oui, j'ai une flemme monstre en ce moment, désolé ^^"@
+2014-12-27T14:38:00 <adriens33> *)+
+2014-12-27T14:38:09 <adriens33> hello Bybeez :)
+2014-12-27T14:38:45 <Bybeez> Hey j'ai commencé a écrire des trucs, mais de un c'est sur mon ordi et de deux c'est pas assez complet pour que je le mette sur le google doc
+2014-12-27T14:38:47 <Bybeez> Salut
+2014-12-27T14:38:58 <adriens33> cad? t'écris une fic ? =3
+2014-12-27T14:39:16 <Bybeez> Nope, le texte pour l'accueil des nouveau XD
+2014-12-27T14:39:19 <adriens33> aaaahhh
+2014-12-27T14:39:23 * adriens33 se sent con
+2014-12-27T14:39:25 <heuzef> Bybeez nop on fit un google doc justement pour pouvoir bosser à plusieurs ! Donc fait rien en local hein
+2014-12-27T14:39:47 <Bybeez> Mais si jepense que je fait du caca, je vais pas mettre du caca
+2014-12-27T14:39:47 <adriens33> bah y'a pas un framapad quelque part? google doc ça pue ^^"
+2014-12-27T14:40:11 <heuzef> Bybeez: je m'en fou que ce soit du caca !
+2014-12-27T14:40:11 <adriens33> Bybeez: ça dépend dudit caca
+2014-12-27T14:40:23 <heuzef> T'as pas encore compris je pense
+2014-12-27T14:40:52 <heuzef> Entre ne rien avoir et avoir du caca et bien je prefere avoir du caca
+2014-12-27T14:41:05 <heuzef> Histoire qu'on avance au moins
+2014-12-27T14:41:21 <Bybeez> Mais je comprend que je suis sensé tout mettre sur le google doc, mais je ne suis pas capable de partager un truc que je ne considère pas comme assez bon
+2014-12-27T14:42:29 <heuzef> Depuis que le projet est lancé à eu au moins 10 nouveaux membres, alors c/c ce que tu as ecrit stp
+2014-12-27T14:43:05 <heuzef> C'est pas possible de mettre en production une solution comme ça seul, c'est pluridisciplinaire comme taff
+2014-12-27T14:43:26 <adriens33> Ah, les joies de la gestion de projet a plusieurs… XD
+2014-12-27T14:43:59 <Bybeez> Je veux bien, mais moi je fait des texte (ça je sais a peut prêt faire)
+2014-12-27T14:44:03 <heuzef> M'en parle pas ... je suis toujours pas capable de garder une equipe motivé
+2014-12-27T14:44:16 <Bybeez> Donc je n'arrive pas a mettre un texte que je pense ne pas avoir assez travailler
+2014-12-27T14:44:16 <adriens33> heuzef: bah faut de l'expérience, ça viendra =3
+2014-12-27T14:44:37 <adriens33> sinon pour la commande !inscription, concrètement tes attentes c'est quoi ?
+2014-12-27T14:45:14 <Bybeez> et là, je l'ai mis mais je l'ai pas relu, c'est bourré de fautes affreuses c'est pas complet etc
+2014-12-27T14:46:49 <heuzef> Bybeez: on s'en branle des fautes à ce stade du projet
+2014-12-27T14:47:25 <Bybeez> Comprend que pour moi c'est très difficile de partager un truc que je ne considère pas comme assez travaillé
+2014-12-27T14:47:35 <heuzef> adriens33: l'idéal serait une synchronisation BDD membres <-> Voice IRC je pense
+2014-12-27T14:47:39 <adriens33> oula
+2014-12-27T14:47:44 <adriens33> pas possible ça.
+2014-12-27T14:48:17 <adriens33> ce que je voulais savoir c'est ce que tu veux que ça fasse
+2014-12-27T14:48:24 <heuzef> Export SQL table membres et injection dans conf/admin.cfg ??
+2014-12-27T14:49:38 <adriens33> bah déja faudrait la table, le schéma et un accès a la BDD sql, si c'est du mysql, du pgsql ou du mongodb ou autre ça se fera pas de la même façon…
+2014-12-27T14:50:07 <heuzef> Ba faut juste que les membres est leur voice en gros rien de plus. Pour moi c'est jouable, suffit que tu demande l'accès à Wildfier
+2014-12-27T14:50:28 <heuzef> adriens33: tant que tu es la justement, le serveur Minecraft il est toujours actif, il sert ? Y'a du monde ? T'en pense quoi ?
+2014-12-27T14:50:35 <adriens33> concrètement ça pourrait se faire "assez vite" mais actuellement y'a rien donc je peux pas travailler sur du rien moi =3
+2014-12-27T14:50:51 <heuzef> (pas grave pas urgent l'IRC)
+2014-12-27T14:51:23 <adriens33> bah il tourne, je l'ai remit sur ton dédié d'ailleurs et ça continue de tourner a ce que j'ai vu, et a par toi et rag y'a pas eu grand monde (oui, je vous ai vu vous co :P merci le log)
+2014-12-27T14:51:35 <adriens33> par contre la passerelle irc minecraft c'est pas possible
+2014-12-27T14:51:49 <adriens33> le plugin qui gere ça est souvent utilisé pour du spam
+2014-12-27T14:52:00 <heuzef> Bon, t'en pense quoi si on le stop ?
+2014-12-27T14:52:07 <adriens33> et du coup bah si je le remet… bah ton dédié va se faire bah par freenode XD
+2014-12-27T14:52:23 <adriens33> (j'ai eu le souci, le staff est sympa donc j'ai pas eu de pb mais bon…)
+2014-12-27T14:52:41 <adriens33> bah il sert, il tourne tout seul le minecraft et pis surtout il gene pas.
+2014-12-27T14:52:47 <adriens33> donc le stop c'est pas nécessaire.
+2014-12-27T14:53:02 <heuzef> Il tourne actuelement ?
+2014-12-27T14:53:04 <adriens33> oui
+2014-12-27T14:53:17 <heuzef> il utilise les ressource de mon dédié ?
+2014-12-27T14:53:52 <adriens33> un peu de ram oui, mais bon si t'a juste apache a coté pour tes sites web c'est pas genant je pense.
+2014-12-27T14:54:12 <adriens33> je l'ai bougé parce que j'avais besoin de remettre mon serv minecraft perso sur le meien de dédié XD
+2014-12-27T14:54:22 <heuzef> oui je vois ça, 30% ram et CPU en gros
+2014-12-27T14:54:37 <heuzef> J'ai des backup qui tourne la nuit aussi mais ça devrais le faire
+2014-12-27T14:54:42 <adriens33> bah apres si tu veux l'arreter c'est ton dédié, tu fais comme tu le sent^^
+2014-12-27T14:54:51 <heuzef> Et du coup le script de backup est toujours reglé ? A minuit ?
+2014-12-27T14:54:55 <adriens33> faut juste utiliser le script msm.
+2014-12-27T14:54:58 <adriens33> vuip
+2014-12-27T14:55:16 <adriens33> j'ai remodifié le script pour que les backups soient locaux
+2014-12-27T14:55:24 <adriens33> et j'ai remis la tache cron
+2014-12-27T14:56:20 <adriens33> wait.
+2014-12-27T14:56:57 <adriens33> tain je suis trop  con.
+2014-12-27T14:57:10 <Bybeez> Bon, je vous laisse, je repasse plus tard !
+2014-12-27T14:57:17 <Bybeez> a tout'
+2014-12-27T14:57:21 *** Bybeez est parti
+2014-12-27T14:57:21 <adriens33> me suis trompé dans le script, sur la partie qui doit effacer les plus vieilles sauvegardes XD
+2014-12-27T14:57:30 <heuzef> Je viens de voir oui
+2014-12-27T14:57:37 <adriens33> je viens de test, c'est corrigé
+2014-12-27T14:57:38 <heuzef> Du coup y'a pas de backup la
+2014-12-27T14:57:40 <adriens33> si
+2014-12-27T14:57:43 <heuzef> où ?
+2014-12-27T14:57:47 <adriens33> mais que sept et oct
+2014-12-27T14:58:00 <adriens33> bah /home/bronycub/bkp-bukkit
+2014-12-27T14:58:07 <adriens33> mais y'a que 09 et 10 du coup
+2014-12-27T14:58:14 <adriens33> (plus celle que je viens de faire pour le test)
+2014-12-27T14:58:17 <heuzef> drwxr-xr-x 10 bronycub bronycub 4,0K sept. 10 21:09 2014-12-27
+2014-12-27T14:58:17 <heuzef> ok
+2014-12-27T14:58:49 <heuzef> 392M bkp-bukkit/
+2014-12-27T14:58:56 <adriens33> ça va ^^
+2014-12-27T14:58:59 <heuzef> oui
+2014-12-27T14:59:11 <heuzef> Ok on peux le laisser tourner
+2014-12-27T14:59:17 <heuzef> "on sais jamais"
+2014-12-27T14:59:20 <adriens33> bah ça montera pas ^^
+2014-12-27T14:59:25 <heuzef> Mais honnêtement ...
+2014-12-27T14:59:28 <adriens33> c'est sur 30 jours en tournant
+2014-12-27T14:59:54 <heuzef> Je doute qu'on maintienne ce service sur le long terme
+2014-12-27T15:00:03 <adriens33> bah faudrait organiser des events sur le serveur, ça  aiderai a faire venir des gens ^^ et pis ça peut etre sympa
+2014-12-27T15:00:11 <heuzef> oui
+2014-12-27T15:00:26 <heuzef> Mais c'est un peu toi qui est en charge de ça normalement :D
+2014-12-27T15:00:33 <heuzef> Je dis ça je dis rien /°
+2014-12-27T15:00:38 <adriens33> nope
+2014-12-27T15:00:48 <adriens33> je suis juste en charge de son maintien XD
+2014-12-27T15:01:05 <heuzef> C'est toi le grand gourou du Minecraft du collectif
+2014-12-27T15:01:06 <adriens33> pas d'organiser quoi que ce soit dessus… je suis pas du tout bon en organisation moi
+2014-12-27T15:01:18 <adriens33> bah au niveau "technique" peut etre
+2014-12-27T15:01:19 <heuzef> Donc au pire c'es à toi de motiver les gens à faire des events dessus :P
+2014-12-27T15:01:24 <adriens33> lol.
+2014-12-27T15:01:25 <adriens33> non
+2014-12-27T15:01:31 <adriens33> je fournis le support XD
+2014-12-27T15:01:39 <adriens33> pas le contenu.
+2014-12-27T15:01:41 <heuzef> Ba voila, donc ça fonctionnera pas
+2014-12-27T15:01:58 <adriens33> bah c'est qui qui organisait les quetes etc avant que j'arrive?
+2014-12-27T15:02:03 <adriens33> y'avait bien quelqu'un.
+2014-12-27T15:02:08 <heuzef> C'été moi
+2014-12-27T15:02:16 <adriens33> hmm.
+2014-12-27T15:03:20 <heuzef> Et tu es le seul apte à reprendre ça, ou Ragator à la limite mais il me semble qu'il fait une overdose à MC aussi
+2014-12-27T15:03:59 <heuzef> Donc si aucun de vous 2 ne reprend le truc en main, ba aucun avenir
+2014-12-27T15:04:08 <adriens33> er... je peux maintenir le serv en marche, mais je suis pas apte a organiser des events, des quetes etc. déjà j'ai extremenent peu d'xp en rp etc
+2014-12-27T15:04:14 <adriens33> je suis nul en orga
+2014-12-27T15:04:21 <heuzef> Ragator lui il pourrais
+2014-12-27T15:04:34 <heuzef> Mais si y'a pas quelqu'un qui lui pousse au cul c'est mort
+2014-12-27T15:04:43 <adriens33> ok.....
+2014-12-27T15:05:01 <adriens33> faudrait voir avec les autres, si y'a pas quelqu'un que ça intéresse.
+2014-12-27T15:05:17 <adriens33> parce que oui, si tout le monde s'en touche de minecraft ça sert à rien de le laisser.
+2014-12-27T15:05:51 <heuzef> On va faire simple, si d'ici 1 semestre je vois que c'est toujours dead et que personne se bouge pour faire un truc sympa avec, je stop le serveur
+2014-12-27T15:06:14 <heuzef> ça sert à rien de perdre du temps avec ça si personne n'en veux
+2014-12-27T15:06:17 <adriens33> pas dur^^ ./msm stop depuis le home, et tu te co et tu fais /stop.
+2014-12-27T15:06:25 <adriens33> (ou plus violent, ./msm kill)
+2014-12-27T15:06:48 <adriens33> (c'est le script qui s'assure que le serveur soit tout le temps up)
+2014-12-27T15:06:55 <heuzef> Oui, mais je laisse quand même une dernière chance on sais jamais
+2014-12-27T15:07:30 <adriens33> bah si tu le stop tu peux le relancer apres ^^ sauf si tu vire les fichiers, mais bon pour ce que ça prend
+2014-12-27T15:07:54 <heuzef> J'ouvre un ticket en ton nom pour ça, comme ça tu restera informé de l'evolution du truc
+2014-12-27T15:08:14 <adriens33> 'k
+2014-12-27T15:12:33 <heuzef> Du coup on va prendre en compte la présentation du serveur MC dans le guide des nouveaux pour le moment
+2014-12-27T15:14:07 <heuzef> Il faut vraiment que je m'améliore pour gérer et motiver le troupeau
+2014-12-27T15:15:18 <heuzef> J'en suis encore au stade ou je doit faire une grosse partie du boulot moi même, ça devient impossible, je conssacre 90% de mon temps au collectif, même au travail je répond au ticket
+2014-12-27T15:15:19 *** MaCharon s'est connecté
+2014-12-27T15:15:33 <adriens33> hello MaCharon
+2014-12-27T15:15:36 <heuzef> Et heuresement que Baptiste est là sinon je serais décédé depuis longtemps
+2014-12-27T15:15:40 <MaCharon> salut
+2014-12-27T15:15:51 <heuzef> yo macaron au chocolat
+2014-12-27T15:15:51 <adriens33> ah ouai.. bah faut arriver a trouver a qui déléguer quoi
+2014-12-27T15:16:16 <heuzef> La déléguation ça va, c'est le suivit qui merde
+2014-12-27T15:19:03 <heuzef> Les projets prennent une éternitée à avancer parceque les gens on mieux à faire
+2014-12-27T15:19:58 <heuzef> J'ai pas encore trouver la recette secrete de l'enthousiasme délirant des foules en folie ^^
+2014-12-27T15:20:17 <adriens33> DROOOOOOOOOOOOOGUE
+2014-12-27T15:24:59 <adriens33> tiens, t'a un user a inscrire pour le test? (un nick parmi les nouveaux)
+2014-12-27T15:25:01 <heuzef> Mais c'est bien sûr !
+2014-12-27T15:25:09 <heuzef> Oui
+2014-12-27T15:25:11 <heuzef> plein
+2014-12-27T15:25:32 <heuzef> FuZzion33
+2014-12-27T15:25:34 <adriens33> bah un suffira
+2014-12-27T15:25:45 <adriens33> !inscription FuZzion33
+2014-12-27T15:25:54 <adriens33> (bon c'est mieux s'il est co XD)
+2014-12-27T15:26:02 <heuzef> Anima
+2014-12-27T15:26:07 <adriens33> essaie
+2014-12-27T15:26:29 <adriens33> normalement pour cette commande y'a toi, gorfang et moi q'ui peuvent la lancer
+2014-12-27T15:26:33 <adriens33> (pour le moment)
+2014-12-27T15:26:37 <adriens33> !help inscription
+2014-12-27T15:27:13 <heuzef> !inscription anima
+2014-12-27T15:27:20 <heuzef> C'est senssible à a casse ?
+2014-12-27T15:27:27 <adriens33> le bot oui
+2014-12-27T15:27:30 <heuzef> Parceque la je t'avoue que a ou A ....
+2014-12-27T15:27:42 <adriens33> bah... je vais voir pour modif ça
+2014-12-27T15:27:53 <heuzef> Ouais : inssenssible à la casse
+2014-12-27T15:28:14 <heuzef> !inscription Lady Tanuki
+2014-12-27T15:28:19 <heuzef> Raté !
+2014-12-27T15:28:21 <adriens33> arf
+2014-12-27T15:28:25 <heuzef> Il aime pas les espace :D
+2014-12-27T15:28:29 <adriens33> pas d'espace dans les nick sur irc
+2014-12-27T15:28:33 <adriens33> c'est interdit
+2014-12-27T15:28:42 <adriens33> (c'pas ma faute)
+2014-12-27T15:28:43 <heuzef> c'est problématique ....
+2014-12-27T15:28:51 <adriens33> bah c'est comme ça, c'est le proto qui veut ça.
+2014-12-27T15:29:01 <adriens33> pas d'espace et 11 char max
+2014-12-27T15:29:09 <heuzef> bon
+2014-12-27T15:29:17 <heuzef> !desincritpion Lady
+2014-12-27T15:29:23 <heuzef> :D
+2014-12-27T15:29:30 <heuzef> Je suis chiant hein
+2014-12-27T15:29:39 <adriens33> ça c'est plus chiant a faire, comme c'est plus rare vaut mieux edit le fichier a la main.
+2014-12-27T15:29:45 <adriens33> y'a un repo git au pire =P
+2014-12-27T15:30:02 <heuzef> ba faudrait virer juste Lady je pense
+2014-12-27T15:30:13 <adriens33> !reload
+2014-12-27T15:30:21 <heuzef> !inscription polfor
+2014-12-27T15:30:37 <heuzef> !inscription snowydreamn
+2014-12-27T15:30:52 <heuzef> !inscription pastajuju
+2014-12-27T15:30:57 <adriens33> pourle user
+2014-12-27T15:31:09 <adriens33> tu peux utiliser des regexp si t'es pas sur de l'orthographe
+2014-12-27T15:31:14 <adriens33> (ça passe dans un grep)
+2014-12-27T15:31:16 <adriens33> genre
+2014-12-27T15:31:34 <adriens33> !inscription [aA]nima
+2014-12-27T15:31:42 <heuzef> pas mal !
+2014-12-27T15:31:50 <adriens33> normalement faut test mais ça devrait marcher.
+2014-12-27T15:32:10 <heuzef> !inscription [sS]tormy[hH]aste
+2014-12-27T15:32:43 <heuzef> !inscription [nN]ight[fF]ire
+2014-12-27T15:33:02 <heuzef> Bon ça irra pour l'instant ça va bien dépanner déjà
+2014-12-27T15:33:15 *** NightFire s'est connecté
+2014-12-27T15:33:26 <adriens33> arg
+2014-12-27T15:33:47 <NightFire> (c'est moi) berry?
+2014-12-27T15:33:51 *** NightFire est parti
+2014-12-27T15:34:11 <adriens33> !inscription [aA]driens_
+2014-12-27T15:34:33 *** adriens_ s'est connecté
+2014-12-27T15:35:00 <adriens_> Shit. Marche pas.
+2014-12-27T15:35:15 *** adriens_ est parti
+2014-12-27T15:35:17 <heuzef> Bon ba je te laisse t'amuser ^_^
+2014-12-27T15:35:26 <heuzef> ++
+2014-12-27T15:35:30 <adriens33> ++
+2014-12-27T15:35:37 *** heuzef est parti
+2014-12-27T15:43:25 *** Berry-Punch s'est connecté
+2014-12-27T15:44:34 *** Berry-Punch s'est connecté
+2014-12-27T15:45:16 *** adriens_ s'est connecté
+2014-12-27T15:47:04 *** adriens_ est parti
+2014-12-27T15:47:33 *** adriens_ s'est connecté
+2014-12-27T15:47:42 *** adriens_ est parti
+2014-12-27T15:48:32 *** adriens_ s'est connecté
+2014-12-27T15:51:45 *** Berry-Punch s'est connecté
+2014-12-27T15:52:07 *** adriens_ s'est connecté
+2014-12-27T15:52:25 *** adriens_ est parti
+2014-12-27T15:54:38 *** adriens_ s'est connecté
+2014-12-27T15:54:44 *** adriens_ est parti
+2014-12-27T15:55:33 *** Gordfang s'est connecté
+2014-12-27T15:55:36 <Gordfang> yo
+2014-12-27T15:55:43 <adriens33> oi
+2014-12-27T16:01:16 <adriens33> dis moi, tu veux bien déco reco stp ? je teste un truc sur berry
+2014-12-27T16:01:41 <adriens33> Gordfang: ^
+2014-12-27T16:04:00 *** adriens33 est parti
+2014-12-27T16:04:22 *** adriens33 s'est connecté
+2014-12-27T16:04:34 <adriens33> oups.
+2014-12-27T16:07:13 *** adriens33 est parti
+2014-12-27T16:07:18 *** adriens33 s'est connecté
+2014-12-27T16:07:22 <adriens33> BERRY!!!
+2014-12-27T16:12:23 *** arthur33 est parti
+2014-12-27T16:12:32 *** arthur33 s'est connecté
+2014-12-27T16:14:35 *** arthur33 est parti
+2014-12-27T16:14:41 *** arthur33 s'est connecté
+2014-12-27T16:15:28 *** arthur33 est parti
+2014-12-27T16:15:33 *** arthur33 s'est connecté
+2014-12-27T16:16:04 *** arthur33 est parti
+2014-12-27T16:16:09 *** arthur33 s'est connecté
+2014-12-27T16:18:30 *** arthur33 est parti
+2014-12-27T16:18:34 *** arthur33 s'est connecté
+2014-12-27T16:26:21 *** arthur33 est parti
+2014-12-27T16:27:28 *** Berry-Punch s'est connecté
+2014-12-27T16:27:35 *** adriens33 est parti
+2014-12-27T16:27:43 *** adriens33 s'est connecté
+2014-12-27T16:27:48 <adriens33> YAY
+2014-12-27T16:27:54 <adriens33> ENFIN.
+2014-12-27T16:29:45 *** adriens33 est parti
+2014-12-27T16:29:50 *** adriens33 s'est connecté
+2014-12-27T16:29:56 <adriens33> ça va, c'est pas trop long.
+2014-12-27T16:33:23 <flutterbrony> re
+2014-12-27T16:34:24 <adriens33> re
+2014-12-27T16:53:51 <flutterbrony> Ah au faite, j'avais déjà fait un mail pour dire que j'étais présent le 31
+2014-12-27T16:55:26 <flutterbrony> https://www.filepicker.io/api/file/5gVp06uQQaRqK3iPZeUJ
+2014-12-27T16:58:38 <adriens33> ah bah cool ^^
+2014-12-27T17:26:55 *** ELiDYROS s'est connecté
+2014-12-27T17:27:07 <adriens33> hello ELiDYROS :)
+2014-12-27T17:27:51 <ELiDYROS> Salut
+2014-12-27T17:37:17 <adriens33> quoi de neuf? :)
+2014-12-27T17:38:18 <ELiDYROS> pas grand chosre
+2014-12-27T17:38:34 <ELiDYROS> j'essaie de reconnecter ma vieille dreamcast et son modem 33K en ligne
+2014-12-27T17:38:37 <ELiDYROS> c'est compliqué
+2014-12-27T17:39:07 <adriens33> ah^^"
+2014-12-27T17:39:31 <adriens33> bah faudrait avoir un truc compatible de l'autre coté de la ligne pour ton modem non? sais pas si ça existe toujours.
+2014-12-27T17:39:45 <adriens33> ou alors un adaptateur que tu branche en ethernet, si ça existe :P
+2014-12-27T17:45:14 <ELiDYROS> du coup je me rappelle ma tronche en 99/2000 quand j'ai lancé mon premier jeu
+2014-12-27T17:45:39 <ELiDYROS> le passage de 32 bits à 128 bits
+2014-12-27T17:46:07 <adriens33> ^^
+2014-12-27T17:47:28 <ELiDYROS> et les factures d'internet à la minute sur Quake 3
+2014-12-27T17:47:33 <ELiDYROS> et autre
+2014-12-27T17:50:21 <ELiDYROS> http://youtu.be/_efv7ZGAdjo
+2014-12-27T17:50:37 <ELiDYROS> C'était bien badass ce noel là
+2014-12-27T17:55:47 *** Gordfang est parti
+2014-12-27T19:03:20 <ELiDYROS> Oo
+2014-12-27T19:03:43 <adriens33> (c'était un test XD)
+2014-12-27T19:51:44 *** ELiDYROS est parti
+2014-12-27T19:56:08 *** adriens33 est parti
+2014-12-27T19:58:12 *** adriens33 s'est connecté
+2014-12-27T20:03:26 <adriens33> !help
+2014-12-27T20:06:59 *** adriens33 est parti
+2014-12-27T20:10:05 *** adriens33 s'est connecté
+2014-12-27T20:18:43 *** adriens33 est parti
+2014-12-27T20:19:07 *** adriens33 s'est connecté
+2014-12-27T20:39:54 *** adriens33 est parti
+2014-12-27T20:40:21 *** adriens33 s'est connecté
+2014-12-27T20:42:28 *** adriens33 est parti
+2014-12-27T20:43:30 *** adriens33 s'est connecté
+2014-12-27T20:43:55 *** adriens33 est parti
+2014-12-27T20:44:13 *** adriens33 s'est connecté
+2014-12-27T20:51:03 *** ELiDYROS s'est connecté
+2014-12-27T20:59:29 <adriens33> Vous faites quoi de beau, les gens ?
+2014-12-27T21:02:20 <flutterbrony> Je fous en l'air mon wordpress :p
+2014-12-27T21:04:12 <MaCharon> je me fais chier ^^
+2014-12-27T21:04:43 <adriens33> flutterbrony: comment ça ? XD
+2014-12-27T21:05:35 <flutterbrony> bah il n'affiche plus rien xD
+2014-12-27T21:05:43 <adriens33> ah. tatoucassé
+2014-12-27T21:05:50 <adriens33> vilain >:)
+2014-12-27T21:06:00 <flutterbrony> 37.187.107.63/frenchlegendsofequestria xD
+2014-12-27T21:06:11 <ELiDYROS> J'étais avec ma mère. Je vais surement continuer de faire la cuisine et j'irai jouer à un truc;
+2014-12-27T21:06:23 <adriens33> flutterbrony: anéfé :P
+2014-12-27T21:06:33 <adriens33> ELiDYROS: oki :)
+2014-12-27T21:07:03 <ELiDYROS> Ou tenter de passer encore ma nuit à faire fonctioner le modem 33k
+2014-12-27T21:07:09 <flutterbrony> enfin, je peux tout remettre, juste 22 lignes a supprimer quelque part mais, je vais continuer pour voir si j'arrive a faire ce que je veux ce qui est mal parti
+2014-12-27T21:07:12 <ELiDYROS> Mais la méthode que j'ai utilisé ne marche pas
+2014-12-27T21:07:50 <adriens33> flutterbrony: bah bon courage :)
+2014-12-27T21:07:57 <adriens33> ELiDYROS: c'est-à-dire ?
+2014-12-27T21:08:13 <ELiDYROS> http://www.dreamcast-scene.com/guides/pc-dc-server-guide-win7/
+2014-12-27T21:08:15 <flutterbrony> Je pense que je vais abandoner et tenter une autre methode je suis mal parti là
+2014-12-27T21:10:03 <adriens33> ELiDYROS: d'accord^^ parce que ouai sinon les modems 33k analogiques je crois pas que y'en ai encore de dispo sur les lignes téléphoniques :P
+2014-12-27T21:10:37 <ELiDYROS> En fait j'ai branché le cable du 33k de la console, au modem du pc, qui est lui même relié à mon router en ethernet
+2014-12-27T21:10:41 <ELiDYROS> en gros sa numérotte
+2014-12-27T21:10:46 <ELiDYROS> Mais après rien
+2014-12-27T21:11:01 <ELiDYROS> Si ça se trouve va me falloir le cable pour changer le voltage là
+2014-12-27T21:11:25 <adriens33> hmm :/
+2014-12-27T21:11:44 <flutterbrony> Mais le pc fait le lien entre le modem 33k et ton router ?
+2014-12-27T21:11:56 <adriens33> flutterbrony: oui c'est le but
+2014-12-27T21:12:13 <flutterbrony> Je sais mais est-ce qu'il a pensé a le faire ^^
+2014-12-27T21:12:37 <adriens33> les modems 33k/56k etc ça marche en analogique, avec l'abo quivabien en internet à la minute, et ça ça existe plus XD
+2014-12-27T21:12:39 <ELiDYROS> J'ai suivi le tuto à la lettre
+2014-12-27T21:12:42 <flutterbrony> sur le mien je sais que je suis obligé de forcer pour faire un lien entre la wifi et l'ethernet
+2014-12-27T21:14:20 <ELiDYROS> Sinon j'ai ouvert un compte bas débit free à 0.02 centime la minute pour faire des tests
+2014-12-27T21:14:32 <ELiDYROS> parait qu'ils ont réouvert certains serveurs de 99-2000 ^
+2014-12-27T21:14:36 <ELiDYROS> ^^*
+2014-12-27T21:14:47 <adriens33> oh c'est vrai?
+2014-12-27T21:14:51 <adriens33> ça existe encore ? o.o
+2014-12-27T21:14:55 <adriens33> damn.
+2014-12-27T21:14:57 <ELiDYROS> En fait
+2014-12-27T21:15:09 <ELiDYROS> Quake 3 a des serveurs immortels déjà
+2014-12-27T21:15:13 <adriens33> ah. XD
+2014-12-27T21:15:33 <ELiDYROS> Ensuite Phantasy Star Online y a des serveurs privés, et Toy Commander les dev ont donnés tous les codes sources au public
+2014-12-27T21:15:55 <ELiDYROS> Ils se sont dits "bah s'ils aiment notre jeux on les laisse faire ce qu'ils veulent"
+2014-12-27T21:15:59 <ELiDYROS> jeu*
+2014-12-27T21:16:01 <adriens33> ^^
+2014-12-27T21:16:42 <ELiDYROS> Note qu'il était déjà possible de jouer en ligne sur megadrive
+2014-12-27T21:16:45 <ELiDYROS> modem 12k je crois
+2014-12-27T21:16:48 <adriens33> eh bé
+2014-12-27T21:16:49 <ELiDYROS> un truc bizarre
+2014-12-27T21:16:59 <flutterbrony> ok, j’abandonne et je teste autre chose
+2014-12-27T21:17:54 <ELiDYROS> Sinon adriens33 jai aussi crunchbang installé sur une partition de mon vieux laptop mais il ne détecte pas le modem bas débit
+2014-12-27T21:18:12 <ELiDYROS> Il me dit d'installer "setserial" mais je sais pas sur quel port il est
+2014-12-27T21:18:23 <ELiDYROS> Sous VMWare il me l'a mis sur ttyS1
+2014-12-27T21:18:49 *** Bybeez s'est connecté
+2014-12-27T21:18:53 <Bybeez> Salut/re les chocos !
+2014-12-27T21:18:57 <ELiDYROS> Salut
+2014-12-27T21:19:15 <adriens33> Bybeez: hello :)
+2014-12-27T21:19:24 <adriens33> ELiDYROS: hmm bizarre
+2014-12-27T21:20:32 <ELiDYROS> Lundi j'irai déjà acheter les composants pour fabriquer le câble, on verra bien
+2014-12-27T21:20:34 <flutterbrony> 'lut bybeez
+2014-12-27T21:21:07 <Bybeez> C'est marant sur Saphir Alpha, âr échange miracle j'ai eu un Rayquazza cheaté  (shiny, niveau 100 avec 6 IV 31) ^^
+2014-12-27T21:21:46 <flutterbrony> :O
+2014-12-27T21:21:50 <ELiDYROS> En gros un truc sorti d'une powersave Bybeez
+2014-12-27T21:22:09 <Bybeez> oui je sais quand je dit cheaté c'est littéral ^^
+2014-12-27T21:22:32 <Bybeez> Après c'est marant a avoir, je vais pas me plaindre
+2014-12-27T21:23:30 <adriens33> Bybeez: waaaa le tricheur :O
+2014-12-27T21:23:34 <adriens33> :P
+2014-12-27T21:24:06 <Bybeez> J'ai aussi eu un phanpi shiny niveau 1 par echange miracle ^^
+2014-12-27T21:24:25 <adriens33> ^^
+2014-12-27T21:27:27 *** Nightfire s'est connecté
+2014-12-27T21:27:42 <Nightfire> coucou :3
+2014-12-27T21:27:48 <ELiDYROS> Je viens d'utiliser un cd de 700mo pour graver 4Mo
+2014-12-27T21:27:49 <ELiDYROS> Salut
+2014-12-27T21:27:51 <adriens33> salut Nightfire :)
+2014-12-27T21:28:07 <adriens33> ELiDYROS: quel gâchis… *facehoof*
+2014-12-27T21:28:19 <flutterbrony> Tu pourras l'effacer après non ?
+2014-12-27T21:28:21 <Nightfire> dite y a un truc pour le nouvel an ?
+2014-12-27T21:28:21 <ELiDYROS> Pas tellement le choix
+2014-12-27T21:28:31 <adriens33> flutterbrony: effacer un CD-R
+2014-12-27T21:28:39 <adriens33> si tu y arrive t'es vachement fort XD
+2014-12-27T21:28:45 <ELiDYROS> C'est pour pouvoir booter mes imports
+2014-12-27T21:29:03 <adriens33> (bon il peut toujours ajouter une 2e session par dessus s'il a pas écrit le lead out)
+2014-12-27T21:29:16 <adriens33> Nightfire: yep
+2014-12-27T21:29:17 <flutterbrony> mais c'est pas un rewritable ?
+2014-12-27T21:29:46 <flutterbrony> ah bonsoir Nightfire au faite ^^
+2014-12-27T21:29:48 <Nightfire> oui à quel heure ?
+2014-12-27T21:29:51 <Nightfire> ou ?
+2014-12-27T21:29:55 <adriens33> Nightfire: http://bronycub.org/agenda.php « Réveillon in Wonderland »
+2014-12-27T21:30:15 <Nightfire> je peu invité quelqu'un ?
+2014-12-27T21:30:23 <adriens33> flutterbrony: m'étonnerait, ELiDYROS n'a que des CD-r :P
+2014-12-27T21:30:34 <ELiDYROS> J'ai des RW aussi
+2014-12-27T21:30:39 <flutterbrony> préviens dans ce cas
+2014-12-27T21:30:44 <adriens33> Nightfire: bah ça doit pouvoir se faire, demande sur la mailing list^^ le gérant du Calice y est abonné
+2014-12-27T21:30:49 <adriens33> ELiDYROS: ah ?
+2014-12-27T21:30:49 <ELiDYROS> Mais j'ai pas envie d'user la lentille, c'est fragile ces vieilles machines
+2014-12-27T21:30:56 <adriens33> pas faux ^^
+2014-12-27T21:30:57 <flutterbrony> ah, j'ai recu des tonnes de cd comme ca ^^
+2014-12-27T21:31:32 <ELiDYROS> Déjà quand je swap sur saturn je joue limite ma vie
+2014-12-27T21:31:38 <flutterbrony> nano .htaccess
+2014-12-27T21:31:53 <adriens33> flutterbrony: raté, mauvaise fenêtre XD
+2014-12-27T21:31:58 <flutterbrony> sorry trompé de fenêtre ^^
+2014-12-27T21:32:01 <adriens33> ELiDYROS: ouai j'ai vu ça XD
+2014-12-27T21:32:33 <flutterbrony> Bah j'ai 36000 endroit pour écrire affiché a l'écran aussi, on peux aussi se tromper non ? xD
+2014-12-27T21:32:34 <Nightfire> c'est ou adri ?
+2014-12-27T21:32:35 <ELiDYROS> Beh disons que je retrouverai pas ce modèle là, complet, au prix auquel je l'ai payé
+2014-12-27T21:33:08 <Bybeez> Nightfire, c'est au Calice du Dragon (le QG)
+2014-12-27T21:33:11 <adriens33> Nightfire: c'est écrit sur l'event ;) Au calice du Dragon. t'as un petit bouton « map » à côté pour trouver :)
+2014-12-27T21:33:24 <flutterbrony> en plus je viens de le faire mais je suis même pas dans le bon dossier, je vais devoir le déplacer xD
+2014-12-27T21:33:36 <adriens33> flutterbrony: t'es pas doué :P
+2014-12-27T21:34:08 <Nightfire> et après ?
+2014-12-27T21:34:10 <flutterbrony> Je me couche a 5 heures tous les matin pour me lever a 9 heures 30 aussi :p
+2014-12-27T21:34:16 <adriens33> Nightfire: c'est à dire?
+2014-12-27T21:34:28 <adriens33> flutterbrony: ah bah ouai forcément t'es pas frais :P
+2014-12-27T21:34:46 <Nightfire> je suis nul ^^
+2014-12-27T21:34:57 <flutterbrony> Après, t'as google maps qui se charge
+2014-12-27T21:35:02 <Bybeez> http://bronycub.org/qg.php
+2014-12-27T21:35:06 <Bybeez> sinon tu as ça
+2014-12-27T21:35:07 <flutterbrony> avec un repère qui t'indique le lieu ^^
+2014-12-27T21:35:09 <adriens33> Bybeez: oui aussi XD
+2014-12-27T21:35:14 <Bybeez> avec toute les infos sur le calice
+2014-12-27T21:35:53 <Nightfire> je vois ou c'est
+2014-12-27T21:37:06 <Bybeez> Il y a des gens qui ont Rubsi Omega ?
+2014-12-27T21:37:50 <flutterbrony> même pas la console qui vas avec :p
+2014-12-27T21:37:56 <Bybeez> ^^
+2014-12-27T21:38:07 <flutterbrony> de toute façon la dernière mise a our la rendu incompatible avec ma wifi
+2014-12-27T21:38:19 <Bybeez> ah ?
+2014-12-27T21:38:44 <flutterbrony> Paraît que ca a supprimé le wpa2 psk
+2014-12-27T21:38:50 <flutterbrony> sur la wiiU aussi
+2014-12-27T21:39:15 <Bybeez> Je crois pas, il me semble que ma boc est en wpa2 psk et je me connecte tout le temps
+2014-12-27T21:39:23 <Bybeez> (après je suis pas sur)
+2014-12-27T21:40:23 <Bybeez> Je suis en train de finir le pokedex regionnal
+2014-12-27T21:40:45 <Bybeez> Après je ma'ttaque au pokedex national ( a moi le charme Chroma !!)
+2014-12-27T21:42:29 <flutterbrony> Ouais j'ai vérifié, et j'en connais 2 qui sont dans la mouise a cause de ca depuis qu'ils ont fait la dernière maj :|
+2014-12-27T21:42:48 <Bybeez> ah zut ça fait mal ça
+2014-12-27T21:42:59 <flutterbrony> alors que ca marchais très bien avant :/
+2014-12-27T21:43:22 <Bybeez> Bah c'est peut être un bug qu'il vont corriger avec le prochaine maj'
+2014-12-27T21:44:02 <flutterbrony> J'espère parce qu'en cherchans sur internet j'ai vu ca qu'avec des jeux ds ou wii sur la 3ds ou wiiU
+2014-12-27T21:44:33 *** adriens33 est parti
+2014-12-27T21:44:52 *** adriens33 s'est connecté
+2014-12-27T21:46:59 <adriens33> j'ai pas ce souci sur ma ds moi
+2014-12-27T21:47:34 <adriens33> (a moins que je sois en wpa2 tkip et pas psk…)
+2014-12-27T21:47:57 <adriens33> mais bon normalement ce genre de setting se change. faut juste éviter le wep :P
+2014-12-27T21:48:07 <adriens33> (sauf si tu aime partager avec des inconnus)
+2014-12-27T21:49:34 <ELiDYROS> Y a pas un paramètre pour avoir les deux sur la box technicolor ?
+2014-12-27T21:54:12 <adriens33> bah tu peux choisir le chiffrement normalement oui
+2014-12-27T21:54:17 <adriens33> 2sec je regarde
+2014-12-27T21:54:44 <flutterbrony> ^^
+2014-12-27T21:55:07 <adriens33> ah si j'suis en psk.
+2014-12-27T21:56:27 <adriens33> (c'est dans Home Network > Interfaces > WLAN: <wifi name> > configure)
+2014-12-27T22:00:36 <ELiDYROS> Moi j'ai mis WPA-PSK + WPA2+PSK
+2014-12-27T22:00:55 <ELiDYROS> Du coup même mes vieux trucs wifi fonctionne
+2014-12-27T22:00:57 <ELiDYROS> nt
+2014-12-27T22:16:09 <ELiDYROS> Ouais, on la sent bien la VDSL2 là http://i.imgur.com/BY5gyQ5.png
+2014-12-27T22:17:34 <ELiDYROS> Bon, je reboot sous vindoz
+2014-12-27T22:17:34 *** ELiDYROS est parti
+2014-12-27T22:28:12 *** flutterbrony est parti
+2014-12-27T22:55:12 *** adriens33 est parti
+2014-12-27T22:55:47 *** adriens33 s'est connecté
+2014-12-27T22:58:02 *** adriens33 est parti
+2014-12-27T22:59:23 *** adriens33 s'est connecté
+2014-12-27T23:00:35 *** ELiDYROS s'est connecté
+2014-12-27T23:00:51 <ELiDYROS> Bon cela ne s'est pas passé comme prévu.
+2014-12-27T23:02:17 <adriens33> ah?
+2014-12-27T23:03:02 <ELiDYROS> Ouais des soucis d'incompatibilité, j'ai préféré changer d'ordi avant que l'autre passe par la fenêtre
+2014-12-27T23:03:37 <adriens33> arf.
+2014-12-27T23:08:27 *** adriens33 est parti
+2014-12-27T23:08:53 *** adriens33 s'est connecté
+2014-12-27T23:15:07 <adriens33> !list
+2014-12-27T23:19:44 <adriens33> !do burp
+2014-12-27T23:20:22 <adriens33> !do test
+2014-12-27T23:25:16 *** adriens33 est parti
+2014-12-27T23:25:40 *** adriens33 s'est connecté
+2014-12-27T23:32:48 *** adriens33 est parti
+2014-12-27T23:33:06 *** adriens33 s'est connecté
+2014-12-27T23:33:52 *** adriens33 est parti
+2014-12-27T23:34:25 *** adriens33 s'est connecté
+2014-12-27T23:35:07 *** adriens33 est parti
+2014-12-27T23:39:21 *** adriens33 s'est connecté
+2014-12-27T23:41:06 <adriens33> !list
+2014-12-27T23:41:11 *** adriens33 est parti
+2014-12-27T23:41:31 *** adriens33 s'est connecté
+2014-12-27T23:42:24 <adriens33> !list
+2014-12-27T23:45:25 *** adriens33 est parti
+2014-12-27T23:45:44 *** adriens33 s'est connecté
+2014-12-27T23:48:12 *** MaCharon est parti
+2014-12-27T23:49:17 <Bybeez> Bonne nuit les raisintines !
+2014-12-27T23:49:21 *** Bybeez est parti
+2014-12-27T23:55:42 *** adriens33 est parti
+2014-12-27T23:56:00 *** adriens33 s'est connecté
