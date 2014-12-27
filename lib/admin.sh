@@ -19,13 +19,25 @@ admin_flags()
 	# Récupération du nom d'user
 	local flags;
 	local user_=$(echo "${LINE}"|sed 's|^:\([^!]*\)!.*$|\1|');
-	msg "$user_ joined ! Applying flags…"
 	touch "$conf_admin";
 
-	flags="$(grep "^${user_}=" $conf_admin|cut -d= -f2)"
-	if [ "$flags" != "" ] ; then
-		send "MODE ${CHAN} ${flags} ${user_}"
-	fi
+	flags=""
+	size="$(cat $conf_admin|wc -l)"
+	let i=1
+	msg "$user_ joined ! Looking in config…"
+	while [ $i -le $size ] && [ "$flags"=="" ]; do
+		cfline="$(tail -n $i "$conf_admin"|head -n 1)"
+		nick="$(echo "${cfline}"|cut -d= -f1)"
+
+		if [ $(echo "$user_"|grep "$nick"|wc -l) -gt 0 ]; then
+			flags="$(echo "$cfline"|cut -d= -f2)"
+			if [ "$user_" != "" ] && [ "$flags" != "" ]; then
+				msg "$user_ is known ! Applying flags…"
+				send "MODE ${CHAN} ${flags} ${user_}"
+			fi
+		fi
+		let i++
+	done
 }
 
 # Récupère les flags enregistrés pour un utilisateur donné
