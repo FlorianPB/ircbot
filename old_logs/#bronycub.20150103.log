@@ -1,0 +1,470 @@
+2015-01-02T00:44:37 *** TrappyTickles est parti
+2015-01-02T01:09:04 *** flutterbrony est parti
+2015-01-02T02:07:20 *** adriens33 est parti
+2015-01-02T04:47:26 *** MaCharon est parti
+2015-01-02T08:51:50 *** heuzef s'est connecté
+2015-01-02T09:15:15 *** heuzef est parti
+2015-01-02T09:15:39 *** heuzef s'est connecté
+2015-01-02T10:11:46 *** adriens33 s'est connecté
+2015-01-02T11:34:17 *** TrappyTickles s'est connecté
+2015-01-02T11:34:27 <TrappyTickles> oi bonne année
+2015-01-02T11:37:13 *** adriens33 est parti
+2015-01-02T11:38:32 <heuzef> Bonne année =)
+2015-01-02T11:38:54 <heuzef> Merci pour tous ces bon moment passé en 2014
+2015-01-02T12:01:49 *** adriens33 s'est connecté
+2015-01-02T12:02:02 <adriens33> hello
+2015-01-02T12:02:10 <adriens33> bonne année à toi aussi TrappyTickles :)
+2015-01-02T12:13:29 <heuzef> Alors adriens33 cette interface graphique en shell ça donne quoi ?
+2015-01-02T12:13:58 <adriens33> pas commencé encore, juste fait 1-2 mockups ^^"
+2015-01-02T12:56:26 *** heuzef1 s'est connecté
+2015-01-02T12:58:12 *** heuzef est parti
+2015-01-02T13:06:09 <adriens33> heuzef1: si tu veux voir ce dont je t'ai parlé c'est sur mon git perso http://git.art-software.fr/?p=contact.git;a=shortlog;h=refs/heads/dev
+2015-01-02T13:06:45 <adriens33> (les fichiers *.ascii tu fait un cat en terminal pour les afficher)
+2015-01-02T13:10:39 <heuzef> Bien cool
+2015-01-02T13:11:02 <heuzef> Mais bon tu va en avoir l'utilité ?
+2015-01-02T13:12:47 <heuzef> Je verrais bien ça sur un mini-ecran pour reberypi
+2015-01-02T13:27:00 <adriens33> comment ça?
+2015-01-02T13:28:21 <adriens33> l'idée c'est de me faire un client IM (j'utiliserai ptet la lib purple pour le backend, ca m'évitera de recoder plein de trucs) perso qui centralise mes divers comptes parce que pidgin c'est bien beau mais 1/ c'est pas en console :P et 2/ y'a certains trucs qui me plaisent pas trop trop
+2015-01-02T13:29:20 <adriens33> apres les mockups sont petits parce que là je les ai fait en 80×25, mais le prog final s'adaptera a la taille du terminal.
+2015-01-02T13:50:28 <heuzef> Ca ce trouve des tous petits ecrans ?
+2015-01-02T13:50:37 <heuzef> Genre taille tablette
+2015-01-02T13:52:35 <adriens33> ça j'en sais vraiment rien
+2015-01-02T13:52:41 <adriens33> mais ça doit se trouver
+2015-01-02T13:52:47 <adriens33> mais bon je sais pas où ^^"
+2015-01-02T13:53:13 <heuzef> http://blog.parts-people.com/2012/12/20/mobile-raspberry-pi-computer-build-your-own-portable-rpi-to-go/
+2015-01-02T13:53:17 <heuzef> La mega classe quoi
+2015-01-02T13:53:32 <heuzef> Avec ton programme + ça
+2015-01-02T13:53:43 <adriens33> ^^
+2015-01-02T13:53:43 <heuzef> ça donne envie de faire des micro pc dédié à un tâche
+2015-01-02T13:53:57 <heuzef> Des mini applicance
+2015-01-02T13:54:02 <adriens33> tu m'a donné une idée en plus… pour utiliser mon RPi :P
+2015-01-02T13:54:16 <adriens33> je laisse tourner mon client im dessus h24
+2015-01-02T13:54:26 <adriens33> et comme ça je reste tout le temps co sur irc etc
+2015-01-02T13:54:45 <adriens33> et j'ai juste a me co en ssh sur le pi pour pouvoir accéder au prog pour discuter etc
+2015-01-02T13:58:50 <heuzef> La classe et ça te prend qu'un ou 2 port USB
+2015-01-02T13:58:57 <heuzef> L’astuce ? Prendre un écran de caméra de recul pour les voitures
+2015-01-02T13:59:01 <heuzef> http://blog.idleman.fr/raspberry-pi-17-un-mini-ecran-pour-22e/
+2015-01-02T13:59:09 <heuzef> ~ 20 € :D
+2015-01-02T13:59:28 <adriens33> ah pas con =D
+2015-01-02T14:01:18 <heuzef> Moi un jour je vais m'amuser à mettre un point un truc de la mort
+2015-01-02T14:01:26 <heuzef> Préparation de thé depuis mon pc
+2015-01-02T14:01:36 <heuzef> La joie quoi
+2015-01-02T14:02:17 <heuzef> Interface web carément
+2015-01-02T14:02:36 <heuzef> histoire de pouvoir préparer programmer mon thé sans limite
+2015-01-02T14:03:22 <adriens33> si tu fais ça
+2015-01-02T14:03:28 <heuzef> Même depuis le smartphone <3
+2015-01-02T14:03:29 <adriens33> pense au protocole htcpcp =D
+2015-01-02T14:03:53 <adriens33> https://tools.ietf.org/html/rfc7168
+2015-01-02T14:04:07 <adriens33> http://www.rfc-base.org/rfc-2324.html
+2015-01-02T14:04:21 <adriens33> * http://www.rfc-base.org/txt/rfc-2324.txt
+2015-01-02T14:05:11 <heuzef> Ok truc de malade
+2015-01-02T14:05:12 <adriens33> ça serait marrant d'avoir une vraie implémentation de ce protocole un jour n'empêche. XD
+2015-01-02T14:05:41 <heuzef> Ba honnêtement je comprend toujours pas pourquoi nespresso est cie ce bouge pas le cul pour faire des cafetière connecté
+2015-01-02T14:05:42 <adriens33> (c'est de là que vient le HTTP/418 "i'm a tea pot", normalement le HTCPCP c'est réservé pour le café ;) )
+2015-01-02T14:05:50 <adriens33> ouai :P
+2015-01-02T14:05:51 <heuzef> C'est forcément viable comme projet
+2015-01-02T14:06:26 <adriens33> et pis t'es sur de rameuter tous les geeks au minimum comme clients.
+2015-01-02T14:06:37 <adriens33> et tout le monde sait que le geek de base carbure au café.
+2015-01-02T14:09:35 <heuzef> Ha si ça existe maintenant
+2015-01-02T14:09:47 <heuzef> Phillips à sortie une cafetière à 1600€ en 2013
+2015-01-02T14:09:55 <heuzef> http://www.lsa-conso.fr/produits/saeco-granbaristo-avanti-la-cafetiere-connectee-de-philips,193969
+2015-01-02T14:11:09 <heuzef> Par contre connexion bluetooth
+2015-01-02T14:11:21 <heuzef> Je suis étonné qu'il est pas fait mieux
+2015-01-02T14:12:46 <adriens33> bah c'est pas mal déjà, controlable via smartphone / tablette =D
+2015-01-02T14:13:10 <heuzef> Ouais m'emfin, autant mettre du wifi aussi quoi
+2015-01-02T14:13:37 <adriens33> ^^
+2015-01-02T14:13:52 <heuzef> ou au pire un cable RJ
+2015-01-02T14:14:03 <heuzef> Vu la machine ca semble pas extravagant
+2015-01-02T14:14:12 <heuzef> surtout pour 1,6K€
+2015-01-02T14:15:07 <heuzef> Le problème avec le bluethoot c'est l'appareillage manuel à chaque fois
+2015-01-02T14:15:18 <heuzef> Donc c'est complétement con leur truc
+2015-01-02T14:15:22 <adriens33> ouaip
+2015-01-02T14:15:40 <heuzef> Tu va a la machine, tu appareil puis tu t'en sert
+2015-01-02T14:16:12 <heuzef> Donc au final y'a pas vraiment de gain a part un confort sofware pour le choix
+2015-01-02T14:18:19 <heuzef> J'aimerais pouvoir choisir mon chocolat chaud avec extra caramel quand je suis dans le tram, à préparer dans 15 minutes
+2015-01-02T14:18:29 <heuzef> Comme ça j'arrive chez moi et c'est chaud
+2015-01-02T14:18:33 <adriens33> :P
+2015-01-02T14:18:36 <adriens33> j'avoue
+2015-01-02T14:18:37 <heuzef> ça c'est utile ^^
+2015-01-02T14:19:23 <adriens33> bah tu prend un RPi, tu bricole une cafetiere, tu fait le prog quivabien sur le pi, que tu branche en réseau, avec un mini serv http pour faire une interf web
+2015-01-02T14:19:29 <adriens33> et voila =D
+2015-01-02T14:19:39 <heuzef> Ouais "et voila"
+2015-01-02T14:19:44 <adriens33> XD
+2015-01-02T14:19:50 <heuzef> 1 an pour faire le machin au moins
+2015-01-02T14:20:07 <adriens33> bah au moins apres t'as ton truc qui fait ce que tu veux comme tu veux
+2015-01-02T14:44:37 *** heuzef1 s'est connecté
+2015-01-02T14:46:23 *** heuzef est parti
+2015-01-02T15:00:21 *** flutterbrony s'est connecté
+2015-01-02T15:01:10 <flutterbrony> Bonjour
+2015-01-02T15:12:12 <heuzef1> yop
+2015-01-02T15:12:52 <heuzef> flutterbrony: t'as testé un peu alors notre serveur MC ? =)
+2015-01-02T15:13:12 <flutterbrony> Ouais
+2015-01-02T15:13:28 <flutterbrony> Je pense y retourner avec Alpha Dash aussi ^^
+2015-01-02T15:13:59 <flutterbrony> Sympa La Rainbow Dash, la Derpy, la Berry-Punch et la Colgate x)
+2015-01-02T15:14:08 <heuzef> Y'a t'il une quelque ambition d'en faire quelque chose de vivant ?
+2015-01-02T15:14:14 *** MaCharon s'est connecté
+2015-01-02T15:16:05 <flutterbrony> Peut-être, mais faut que je voie un peu plus loins, ce qu'il y as même si je pense avoir fait tout le tour
+2015-01-02T15:17:35 <flutterbrony> Après si on annime un peu plus avec des PN au lieu de les laisser dans une maison xD ca pourrais aider ceux qui jouent tout seul a se sentir moins seul justement en plus de l'intégration du chat et de l'IRC comme c'était
+2015-01-02T15:17:42 <flutterbrony> PNJ*
+2015-01-02T15:18:15 <heuzef> bon plan
+2015-01-02T15:18:50 <flutterbrony> Comme ca, ca pousse un peu plus a rester dessus
+2015-01-02T15:18:55 <flutterbrony> et même a venir
+2015-01-02T15:20:04 <flutterbrony> Après, il est ouvert uniquement a des membres de BronyCUB ? (j'imagine que ca doit être pour gerer le serveur plus facilement ?)
+2015-01-02T15:20:20 <heuzef> yep, on à une whiteliste à gérer
+2015-01-02T15:20:29 <heuzef> problème, elle est manuel
+2015-01-02T15:21:03 <adriens33> bah ça ça changera jamais, mc gere la whitelist dans un fichier et on peut pas y faire grand chose heuzef ;)
+2015-01-02T15:21:16 <heuzef> commande interne au moteur de MC
+2015-01-02T15:21:25 <heuzef> c'est possible
+2015-01-02T15:21:48 <heuzef> genre un truc : /whitelist user
+2015-01-02T15:21:54 <heuzef> Et hop le mec est rajouté
+2015-01-02T15:23:30 <flutterbrony> Avec un reboot du serveur puisqu'apperament la commande reload n'actualise pas a whitelist
+2015-01-02T15:23:40 <heuzef> Il parait qu'il est possible de changer son pseudo Minecraft maintenant
+2015-01-02T15:23:57 <adriens33> heuzef: avec des il parait on peut refaire le monde.
+2015-01-02T15:24:02 <adriens33> la wl est loadée depuis le fichier
+2015-01-02T15:24:12 <heuzef> On pourrais donc synchroniser automatiquement la liste des membres avec whitelist.txt
+2015-01-02T15:24:22 <adriens33> pour la changer le seul mnoyen c'est de modif le fichier et de reboot le mc
+2015-01-02T15:24:23 <adriens33> non
+2015-01-02T15:24:30 <adriens33> les pseudos correspondent pas tj
+2015-01-02T15:24:36 <heuzef> Je suis sûr qu'avec un peu d'imagination
+2015-01-02T15:24:54 <adriens33> et tu peux pas forcément te permettre de racheter un compte minecraft pour avoir  le bon pseudo qui va bien…
+2015-01-02T15:24:54 <heuzef> Si modification des pseudos autorisé ils vont correspondre ;)
+2015-01-02T15:24:57 <adriens33> non
+2015-01-02T15:25:07 <adriens33> pas au niveau du compte minecraft
+2015-01-02T15:25:40 <adriens33> c'est ton identifiant du compte que tu as acheté, ça m'étonnerait qu'il soit modifiable.
+2015-01-02T15:25:45 <heuzef> http://minecraft.fr/forum/index.php?threads/changement-de-pseudo-en-1-8.102232/
+2015-01-02T15:26:04 <heuzef> Depuis la 1.8
+2015-01-02T15:26:04 <heuzef> :D
+2015-01-02T15:26:05 <adriens33> le serv est pas en 1.8 si tu as remarqué.
+2015-01-02T15:26:07 <flutterbrony> Mais celui de BronyCUB est en 1.7.2
+2015-01-02T15:26:08 <adriens33> et je peux pas l'y mettre présentement.
+2015-01-02T15:26:14 <heuzef> Bonne raison  pour upgrade ?
+2015-01-02T15:26:17 <heuzef> Why ?
+2015-01-02T15:26:44 <adriens33> parce que j'ai pas encore fait de config équivalente à ce que j'ai niveau gestion des permissions
+2015-01-02T15:26:51 <adriens33> en l'état actuel  on peut virer la wl
+2015-01-02T15:27:03 <adriens33> par défaut tu n'a le droit que de visiter.
+2015-01-02T15:27:22 <heuzef> Pas mal
+2015-01-02T15:27:48 <heuzef> Après l'admin du serveur constate que c'est un membre
+2015-01-02T15:27:54 <heuzef> Il fait l'ajout lui même
+2015-01-02T15:27:55 <adriens33> mais si je met le 1.8, je suis obligé de passer soit au minecraft officiel soit un autre (genre spygot…) parce que bukkit s'est pris un DMCA dans la gueule grace a un sacré connard.
+2015-01-02T15:27:58 <adriens33> bah la
+2015-01-02T15:28:03 <adriens33> c'est faisable en commande :)
+2015-01-02T15:28:29 <adriens33> //permission player setgroup playername user
+2015-01-02T15:28:33 <heuzef> Depuis le tchat MC ?
+2015-01-02T15:28:49 <adriens33> bah comme une commande minecraft normale oui :)
+2015-01-02T15:28:55 <heuzef> cool
+2015-01-02T15:28:59 <adriens33> yep^^
+2015-01-02T15:29:02 <heuzef> t'en pense quoi flutterbrony  ?
+2015-01-02T15:30:45 <adriens33> c'était déja conf en fait, j'ai pris ça sur le mien. fallait juste l'activer :)
+2015-01-02T15:31:02 <heuzef> bon
+2015-01-02T15:37:16 <flutterbrony> Ouais, ca me paraît être une bonne idée
+2015-01-02T15:37:53 <heuzef> cool
+2015-01-02T15:37:54 <flutterbrony> Après, il devrais être possible si le chat minecraft est synchronisé avec l'IRC de lancer la commande directement depuis l'IRC aussi non ?
+2015-01-02T15:38:27 <heuzef> je pense pas que IRC va être possible, ont est considéré comme spam
+2015-01-02T15:38:36 <heuzef> a moins qu'on migre sur canternet ? :D
+2015-01-02T15:38:51 <flutterbrony> x)
+2015-01-02T15:39:02 <flutterbrony> comme spam par minecraft ?
+2015-01-02T15:39:33 <heuzef> par Freenode
+2015-01-02T15:39:55 <flutterbrony> ah ouais
+2015-01-02T15:41:00 <flutterbrony> Si Canternet accepte Berry-Punch, ca me paraît une bonne idée mais faut voir si ca ne seras pas considéré comme spam là-bas aussi :/
+2015-01-02T15:42:00 <heuzef> c'est à adriens33 de trancher la dessus ^^
+2015-01-02T15:42:26 <adriens33> non, je peux pas synchro le chat irc | mc
+2015-01-02T15:42:35 <adriens33> c'est pas berry qui s'er chargeait
+2015-01-02T15:42:38 <adriens33> c'est pas possible
+2015-01-02T15:42:48 <adriens33> (faut un truc qui soit *dans* le serveur minecraft)
+2015-01-02T15:43:04 <adriens33> et le plugin en question utilise un backend qui est très utilisé pour le spam
+2015-01-02T15:43:19 <adriens33> ce qui fait que le serveur se fait bannir de freenode.
+2015-01-02T15:43:23 <adriens33> et ça sera pareil ailleurs, hein.
+2015-01-02T15:44:02 <adriens33> et si tu as les deux chats synchro tu peux pas lancer de cmd depuis l'irt
+2015-01-02T15:44:04 <adriens33> *irc
+2015-01-02T15:44:27 <adriens33> pour la simple et bonne raison que tu peux pas co un utilisateur sur le chat irc pour chaque personne qui se co sur minecraft
+2015-01-02T15:44:40 <adriens33> c'est juste un bot qui relaie le texte en disant qui parle
+2015-01-02T15:45:13 <flutterbrony> Et un bot admin ?
+2015-01-02T15:45:24 <adriens33> nan mais ça changera rien --"
+2015-01-02T15:45:46 <flutterbrony> un bot admin sur minecraft qui transmet les commandes d'un utilisateur particulier de l'IRC
+2015-01-02T15:45:50 <adriens33> il se fera ban de freenode quand meme sauf si je dev mon propre plugin java pour faire un pont mc-irc.
+2015-01-02T15:45:54 <adriens33> et non
+2015-01-02T15:46:00 <adriens33> trop galère.
+2015-01-02T15:47:08 <flutterbrony> Sinon on peux toujours demander une exception pour le ban du bot :/
+2015-01-02T15:47:27 <flutterbrony> et esperer
+2015-01-02T16:00:00 <flutterbrony> Bon je vais faire un tour dessus
+2015-01-02T16:05:50 <heuzef> flutterbrony: tu as pigé comment fonctionne mon autel des quêtes ? =)
+2015-01-02T16:07:34 <heuzef> adrien c'est possible de communiquer en http avec de simple command bloc ou il faut forcément computer craft ?
+2015-01-02T16:08:11 <heuzef> adriens33
+2015-01-02T16:08:25 <adriens33> hé?
+2015-01-02T16:08:27 <adriens33> je sais pas
+2015-01-02T16:08:34 <adriens33> je connais pas computer craft
+2015-01-02T16:08:45 <adriens33> et les commands blocs je me suis jamais penché dessus.
+2015-01-02T16:08:48 <adriens33> flutterbrony: nope
+2015-01-02T16:08:52 <adriens33> pas possible, hélast.
+2015-01-02T16:08:54 <adriens33> *hélas
+2015-01-02T16:08:59 <heuzef> J'imagine un système plus intelligent pour les quêtes et animation
+2015-01-02T16:09:08 <heuzef> parceque actuellement ça pue un peu
+2015-01-02T16:09:23 <flutterbrony> Si 'ai compris
+2015-01-02T16:10:12 <heuzef> M'enfin encore une fois il faut s'inspirer de gros serveur
+2015-01-02T16:10:21 <heuzef> comme les démineurs par exemple
+2015-01-02T16:10:33 <heuzef> ou encore minefield
+2015-01-02T16:10:55 <heuzef> Ou carrément brohoof.com
+2015-01-02T16:10:58 <heuzef> a la limite
+2015-01-02T16:12:11 <heuzef> flutterbrony sinon j'ai eu une idée complétement folle
+2015-01-02T16:12:11 <flutterbrony> J'arrive pas a me connecter a Brohoof.com :/
+2015-01-02T16:12:12 <flutterbrony> Vas-y ?
+2015-01-02T16:12:19 <heuzef> Refaire la ville de Bordeaux
+2015-01-02T16:12:33 <heuzef> ça serait pas trop un truc de malade ? xD
+2015-01-02T16:12:42 <flutterbrony> Wah pas mal ^^
+2015-01-02T16:12:56 <flutterbrony> J'avais pensé a un truc dans le genre aussi ^^
+2015-01-02T16:13:14 <flutterbrony> Mais je réflechissais a la faisabilité de la chose
+2015-01-02T16:14:21 <heuzef> Ba c'est que je sais que c'est possible
+2015-01-02T16:14:32 <flutterbrony> Parce que si ce n'est qu'une seule personne qui la construit, elle vas se trouver un peu seule
+2015-01-02T16:14:35 <heuzef> y'a des serveur minecraft qui font froid dans le dos
+2015-01-02T16:14:43 <flutterbrony> Faudrais que du monde s'investisse
+2015-01-02T16:14:46 <heuzef> Et surtout "comment faire"
+2015-01-02T16:14:55 <heuzef> Sans la bonne méthode c'est mort
+2015-01-02T16:15:52 <heuzef> Doit exister un moyen de superposer une map ou carément de générer un truc automatiquement
+2015-01-02T16:16:00 <heuzef> pour ensuite retravailler les détails
+2015-01-02T16:16:09 <heuzef> enfin bref c'est une idée
+2015-01-02T16:16:55 <flutterbrony> Sinon, je réflechissais aussi pour coupler plusieurs monde minecraft entre eux, c'est possible ?
+2015-01-02T16:16:58 <heuzef> plusieurs monde minecraft = ?
+2015-01-02T16:17:13 <flutterbrony> Ouais
+2015-01-02T16:24:44 <flutterbrony> Tiens j'ai recommencé en étant mort ...
+2015-01-02T16:27:30 <flutterbrony> La joie d'un linux, Je peux mettre tout a fond dans les options minecraft et ca lui pose aucun problème alors que sous windows, je dois me contenter de la moitié ^^
+2015-01-02T16:38:42 <MaCharon> si vous avez besoin de main d’œuvre sur minecraft je suis dispo
+2015-01-02T16:39:02 <heuzef> ^^
+2015-01-02T16:39:14 <MaCharon> je m'ennuie
+2015-01-02T16:39:23 <heuzef> Ba aide flutterbrony alors
+2015-01-02T16:39:42 <flutterbrony> Bah si heuzef, adriens, moi et toi on s'y met, ca pourrais peut-être aller ^^
+2015-01-02T16:39:42 <heuzef> ou alors aide pour bbbff
+2015-01-02T16:40:05 <flutterbrony> On se sentiras moins seul pour le coup ^^
+2015-01-02T16:41:33 <flutterbrony> ah ouais et sinon pour les 400 Go on se fait ca quand ? x)
+2015-01-02T16:42:18 <MaCharon> faudrait me redonner l'adresse du serveur par contre
+2015-01-02T16:42:27 <heuzef> MaCharon: non honte à toi
+2015-01-02T16:42:50 <MaCharon> bon ben j'ai de pas alors :p
+2015-01-02T16:42:51 <heuzef> flutterbrony: faudrait me créer un utilisateur avec droit
+2015-01-02T16:42:55 <MaCharon> j'aide*
+2015-01-02T16:43:00 <flutterbrony> regarde l'URL quand tu vas sur le site
+2015-01-02T16:43:10 <heuzef> MaCharon: => bronycub.org
+2015-01-02T16:43:21 <heuzef> Pour info on à aussi un site internet
+2015-01-02T16:43:27 <heuzef> il est cool
+2015-01-02T16:43:40 <MaCharon> oO
+2015-01-02T16:44:58 <flutterbrony> xD
+2015-01-02T16:45:32 <heuzef> flutterbrony tu me créer un user heuzef et tu me file l'ip de ton serv
+2015-01-02T16:46:01 <heuzef> tu met doctorwho en mdp
+2015-01-02T16:46:20 <adriens33> heuzef: ne jamais faire ça...
+2015-01-02T16:46:29 <adriens33> passer les mdp par irc..
+2015-01-02T16:46:59 <adriens33> 1/ c'est pas sécure du tout 2/ les mdp comme ça c'est nul 3/ c'est le meilleur moyen pour chopper n'importe qui sur son serveur après ;)
+2015-01-02T16:47:15 <flutterbrony> ip : 37.187.107.63
+2015-01-02T16:47:26 <flutterbrony> nom heuzef
+2015-01-02T16:47:35 <flutterbrony> password voir ton mail ca arrive ^^
+2015-01-02T16:47:40 <heuzef> adriens33 je sais parfaitement et je m'en balance en faite
+2015-01-02T16:47:55 <adriens33> (me dit pas "tout le monde s'en fout de ce serv c'est un truc perso" parce que moi quand j'ai co mon dédié les tous premier jours j'avait 500-1000 tentatives de co/jour par des chinois…)
+2015-01-02T16:47:56 <adriens33> quoi
+2015-01-02T16:48:21 <adriens33> tu t'en fous que le serv de flutterbrony aie une porte ouverte sur laquelle n'importe qui peut entrer et faire ce qu'il veut?
+2015-01-02T16:48:23 <adriens33> damn.
+2015-01-02T16:48:39 <adriens33> moi j'aime pas que n'importe qui entre chez moi :P
+2015-01-02T16:48:41 <flutterbrony> :/
+2015-01-02T16:48:46 <heuzef> c'est pas comme si il allait pas supprimer l'utilisateur après ;)
+2015-01-02T16:48:51 <adriens33> (c'est pour ça qu'on a inventé les serrures)
+2015-01-02T16:48:57 <adriens33> bah même…
+2015-01-02T16:49:19 <flutterbrony> Bah nom, je pense même pas suppr l'utilisateur après x)
+2015-01-02T16:49:58 <heuzef> flutterbrony
+2015-01-02T16:50:02 <heuzef> ton port 22 est fermé
+2015-01-02T16:50:29 <flutterbrony> ah oui, 'ai oublié
+2015-01-02T16:50:32 <heuzef> autorise ssh stp
+2015-01-02T16:50:32 <flutterbrony> port 1963
+2015-01-02T16:51:06 <heuzef> c'est ok
+2015-01-02T17:06:53 <heuzef> adriens33:  ?
+2015-01-02T17:07:02 <adriens33> quoi?
+2015-01-02T17:07:19 <heuzef> comment je peux faire un nohup sur rsync sans qu'il me fasse chier avec le password ?
+2015-01-02T17:07:32 <heuzef> Sachant que je peux pas generer de certif
+2015-01-02T17:07:34 <adriens33> hu?
+2015-01-02T17:08:05 *** Yvan33 s'est connecté
+2015-01-02T17:08:07 <adriens33> bah.. soit tu génere une clé rsa soit tu rentre le mdp…
+2015-01-02T17:08:14 <adriens33> t'a pas d'autre choix XD
+2015-01-02T17:08:34 <Yvan33> Oui tout a fait d'accord
+2015-01-02T17:08:47 <adriens33> et ton rsync tu le met pas dans nohup
+2015-01-02T17:08:48 <Yvan33> évidemment
+2015-01-02T17:08:48 <adriens33> tu te met dans screen
+2015-01-02T17:08:58 <adriens33> comme ça quand il te demande ton mdp tu le rentre
+2015-01-02T17:08:59 <Yvan33> C'est la congolexicalisation des loi du marché
+2015-01-02T17:09:10 <adriens33> et ares tu fais ctrl-a d pour détacher
+2015-01-02T17:09:13 <adriens33> *apres
+2015-01-02T17:09:15 <adriens33> salut Yvan33
+2015-01-02T17:09:26 <Yvan33> Salut, vous parlez de quoi?
+2015-01-02T17:09:47 <adriens33> (je parlais à heuzef qui me demande en gros comment ouvrir une serrure sans clé XD)
+2015-01-02T17:10:32 <Yvan33> Bah avec un canon
+2015-01-02T17:11:11 <adriens33> XD
+2015-01-02T17:12:15 <adriens33> « bonjour, je voudrais poser ce carton chez moi, mais la porte est fermée et j'ai pas les mains libres pour ouvrir la serrure, comment je fais?
+2015-01-02T17:12:16 <adriens33> — tu défonce la porte avec un canon ? »
+2015-01-02T17:12:16 <adriens33> ça fait un peu bourrin non ? XD
+2015-01-02T17:12:55 <Yvan33> Je ne laisse rien se dresser sur mon chemin
+2015-01-02T17:13:12 <Yvan33> Et dans ce cas la je la défonce avec le carton
+2015-01-02T17:13:40 <heuzef> grrrr je peux même pas utiliser screen
+2015-01-02T17:14:07 <adriens33> heuzef: pourquoi doncQ
+2015-01-02T17:14:08 <adriens33> ?
+2015-01-02T17:14:21 <heuzef> parceque je suis sur un OS mega limité
+2015-01-02T17:14:44 <adriens33> bah là vraiment je vois aucune solution.. a part garder rsync en 1er plan.
+2015-01-02T17:15:18 <adriens33> (sérieux, t'a ni screen ni tmux? putain…)
+2015-01-02T17:20:38 <Yvan33> Ouais heuzef tu pue sérieux
+2015-01-02T17:21:15 <flutterbrony> C'est quoi comme OS ?
+2015-01-02T17:21:22 <flutterbrony> Pour être incapable de screen ?
+2015-01-02T17:23:00 <adriens33> un vieux unix proprio je dirais, genre AIX/HP UX ou autre XD
+2015-01-02T17:23:32 <adriens33> (si t'es sur pdksh/ksh88 comme shell, je te plains…)
+2015-01-02T17:38:43 <heuzef> re
+2015-01-02T17:39:05 <heuzef> Putain j'en ai chié quand même mais j'ai réussis avec un screen + scp
+2015-01-02T17:39:11 <heuzef> ça envoi, à 3 Mo/s
+2015-01-02T17:39:17 <heuzef> Poids total : 391G
+2015-01-02T17:39:34 <heuzef> Y'en à au moins pour toute la nuit voir WK
+2015-01-02T17:39:41 <heuzef> flutterbrony: tu me tiens au jus ?
+2015-01-02T17:40:32 <heuzef> pour surveiller le poids tu fait :  watch "du -sh /home/heuzef/doctor_who/"
+2015-01-02T17:40:50 <Yvan33> Non faut aller sur une balance
+2015-01-02T17:40:54 <Yvan33> *ba dum tss*
+2015-01-02T17:41:23 <heuzef> watch "du -sh /home/femme/"
+2015-01-02T17:41:28 <heuzef> Dis donc chérie dis moi ....
+2015-01-02T17:41:30 <heuzef> :D
+2015-01-02T17:41:48 <heuzef> T'aurais pas un peu pris du cul ? xD
+2015-01-02T17:41:51 <adriens33> XD
+2015-01-02T17:41:58 <adriens33> donc t'avais  screen XD
+2015-01-02T17:42:04 <heuzef> nop
+2015-01-02T17:42:14 <heuzef> J'ai lancer le screen sur le serveur de flutterbrony
+2015-01-02T17:42:15 <adriens33> bah " j'ai réussis avec un screen + scp"
+2015-01-02T17:42:36 <adriens33> ah.
+2015-01-02T17:42:46 <Yvan33> Tu fais 10 Giga par heure heuzef
+2015-01-02T17:42:55 <Yvan33> Ru en a pour 2 jours
+2015-01-02T17:42:59 <heuzef> A le matheux ^^
+2015-01-02T17:43:02 <heuzef> Merci merci
+2015-01-02T17:43:15 <Yvan33> Bah 3*3600
+2015-01-02T17:43:15 <heuzef> Donc on check ça dimanche
+2015-01-02T17:43:18 <flutterbrony> Ouaip
+2015-01-02T17:43:27 <Yvan33> Pas trop de maths
+2015-01-02T17:43:34 <heuzef> Nan mais à ce sujet
+2015-01-02T17:43:57 <heuzef> je sais pas si t'as vu ma réponse sur le wiki pour toi
+2015-01-02T17:43:58 <heuzef> Concernant l'extension
+2015-01-02T17:44:04 <Yvan33> 10,8/heure pour être préci
+2015-01-02T17:44:14 <Yvan33> je check
+2015-01-02T17:44:18 <heuzef> Ha donc c'est finit demain alors
+2015-01-02T17:44:25 <heuzef> cool
+2015-01-02T17:44:44 <heuzef> ha non par heure
+2015-01-02T17:44:46 <heuzef> ok
+2015-01-02T17:44:55 <heuzef> ouais donc dimanche
+2015-01-02T17:44:57 <Yvan33> Ah
+2015-01-02T17:46:20 <Yvan33> Alors je veux vraiment pas être méchant ni rien mais si tu as pas de système prédéfini de combat tu va forcément suciter l'incompréhension chez tes joueurs et donc la frustration
+2015-01-02T17:46:53 <Yvan33> "Je perds autant de dégats contre ce Valsain que contre le kraken?"
+2015-01-02T17:47:16 <Yvan33> "On a perdu plus de vie contre 4 valsains que contre le Kraken"
+2015-01-02T17:48:02 <Yvan33> Quand on a fait le scénario avec toi c'est ce qui m'a frappé, et ceci s'explique parce que tu ne sais pas trop comment gérer les attaques et dégats
+2015-01-02T17:48:19 <heuzef> ok
+2015-01-02T17:48:36 <heuzef> Mais j'ai un peu peur que ta solution soit trop complexe et lourde
+2015-01-02T17:49:11 <Yvan33> Et instaurer des fondements, hyper simple en plus, me parait indispensable pour un jeu qui a pour but de faire jouer rapidement des gens, quel que soit le niveau du MJ
+2015-01-02T17:49:12 <Yvan33> Euh
+2015-01-02T17:49:28 <Yvan33> Si tu veux on fait un sondage
+2015-01-02T17:49:40 <Yvan33> Avec tout les rolistes qu'on connait
+2015-01-02T17:50:27 <Yvan33> 1d6 + attaque du monstre VS 1d6 + défense du joueur
+2015-01-02T17:50:33 <Yvan33> + niveau du joueur
+2015-01-02T17:51:05 <Yvan33> Franchement, on parle du système de combat de Donjon et Dragon pour que tu compare?
+2015-01-02T17:51:31 <Yvan33> Et celui d'Anima, que je joue avec MaCharon et son coloc en ce moment, c'est pire!
+2015-01-02T17:51:40 <heuzef> justement
+2015-01-02T17:51:45 <Yvan33> Il te faut un truc réglementé et simple
+2015-01-02T17:51:46 <heuzef> j'essaie de voir plus loin
+2015-01-02T17:51:55 <Yvan33> C'est le plus simple que j'ai
+2015-01-02T17:52:22 <heuzef> bon alors dans ce cas il faut également appliquer ton système aux boss
+2015-01-02T17:52:54 <heuzef> sauf tenubrios, tu l'à déjà fait dans une autre page
+2015-01-02T17:52:55 <Yvan33> Si tu as plus simple ET réglementé propose, mais laisser le MJ décidé librement va forcément le conduire à des erreurs
+2015-01-02T17:53:06 <heuzef> je comprend la problématique
+2015-01-02T17:53:29 <heuzef> une solution serais d’intégrer un bouton "fight" sur chaque ennemi
+2015-01-02T17:54:22 <heuzef> comme ça le MJ à pas besoin de tirer de dé
+2015-01-02T17:54:22 *** Yvan33 est parti
+2015-01-02T17:54:23 <heuzef> par exemple
+2015-01-02T17:54:50 *** Yvan33 s'est connecté
+2015-01-02T17:55:48 *** Yvan33 est parti
+2015-01-02T17:57:26 *** Yvan33 s'est connecté
+2015-01-02T17:57:27 <Yvan33> Pardon crash internet
+2015-01-02T18:01:43 <heuzef> 17:52:54 - Yvan33 : Si tu as plus simple ET réglementé propose, mais laisser le MJ décidé librement va forcément le conduire à des erreurs
+2015-01-02T18:01:44 <heuzef> 17:53:06 - heuzef : je comprend la problématique
+2015-01-02T18:01:44 <heuzef> 17:53:29 - heuzef : une solution serais d’intégrer un bouton "fight" sur chaque ennemi
+2015-01-02T18:01:44 <heuzef> 17:54:20 - heuzef : comme ça le MJ à pas besoin de tirer de dé
+2015-01-02T18:01:44 <heuzef> 17:54:20 - Yvan33 a quitté le canal (Quit : http://www.kiwiirc.com/ - A hand crafted IRC client).
+2015-01-02T18:01:45 <heuzef> 17:54:22 - heuzef : par exemple
+2015-01-02T18:11:51 *** ELiDYROS s'est connecté
+2015-01-02T18:14:37 *** ELiDYROS est parti
+2015-01-02T18:18:13 *** ELiDYROS s'est connecté
+2015-01-02T18:19:11 <Yvan33> par exemple?
+2015-01-02T18:19:36 <Yvan33> heuzef?
+2015-01-02T18:23:07 <Yvan33> heuzef ?
+2015-01-02T18:24:16 *** Yvan33 est parti
+2015-01-02T18:24:31 <heuzef> ?
+2015-01-02T18:24:41 <heuzef> je pense qu'il bug un peu trop
+2015-01-02T18:25:09 <heuzef> je vais l'appeler ça sera plus simple
+2015-01-02T18:30:07 <ELiDYROS> Bonsoir, Happy Hoof Year à ceux que je n'ai pas vu hier
+2015-01-02T18:30:35 *** heuzef est parti
+2015-01-02T18:44:29 *** ELiDYROS est parti
+2015-01-02T18:47:30 <adriens33> mince EliDYROS est déjà reparti :/
+2015-01-02T18:59:39 <flutterbrony> Au faite, c'est une version qui accepte les crack le serveur minecraft de bronycub sinon je pourais pas venir
+2015-01-02T19:03:25 <adriens33> j'ai désactivé la vérif des comptes oui
+2015-01-02T19:03:36 <adriens33> pas particulièrement pour les cracks
+2015-01-02T19:04:08 <adriens33> mais sinon quand les serveurs de mojang sont down tu peut plus te connecter (vu qu'il peut plus vérifier ton compte) et comme c'est déjà arrivé une ou deux fois…
+2015-01-02T19:29:14 <adriens33> je re
+2015-01-02T19:29:25 *** adriens33 est parti
+2015-01-02T20:02:33 *** adriens33 s'est connecté
+2015-01-02T21:46:16 *** ELiDYROS s'est connecté
+2015-01-02T21:48:00 <ELiDYROS> Re.
+2015-01-02T21:51:00 <adriens33> hello ELiDYROS :)
+2015-01-02T21:51:39 <ELiDYROS> Tu voulais me dire quelque chose adriens33 ?
+2015-01-02T21:52:05 <adriens33> bah pas spécialement, juste répondre à ton bonsoir et te souhaiter aussi une bonne année :⁾
+2015-01-02T21:52:08 <adriens33> * :)
+2015-01-02T21:52:19 <ELiDYROS> On s'est vu hier non ? ^
+2015-01-02T21:52:22 <adriens33> ah
+2015-01-02T21:52:23 <adriens33> ptet
+2015-01-02T21:52:24 <adriens33> ^^"
+2015-01-02T21:52:36 <adriens33> j'ai tellement rien fait hier que je m'en souviens plus XD
+2015-01-02T22:20:18 <ELiDYROS> Aujourd'hui mon macbook m'a encore fait une phase super
+2015-01-02T22:20:38 <ELiDYROS> Après qu'il plante lorsque j'ouvre GMail, qu'il plante quand j'ouvre Spotify
+2015-01-02T22:20:49 <ELiDYROS> Bah, il n'a plus reconnu les enceintes intégrées
+2015-01-02T22:21:52 <ELiDYROS> Et il a transformé la prise jack en sortie optique
+2015-01-02T22:29:29 <ELiDYROS> Avec la lumière rouge qui sort de la prise et tout !
+2015-01-02T22:29:34 <ELiDYROS> Enfin bon pas mal
+2015-01-02T22:38:45 *** ELiDYROS est parti
+2015-01-02T22:46:20 <flutterbrony> Zut heuzef est parti entre temps
+2015-01-02T22:52:22 <adriens33> ELiDYROS: bah ça veut dire que t'avais déjà une sortie optique, ça se crée pas comme ça XD et puis bah… ouai il a un peu l'air de bug à ce que tu en dis. :P
+2015-01-02T23:17:31 <flutterbrony> Je voulais demander a heuzef de voir pour mon bug mais il est parti :/
+2015-01-02T23:36:42 <adriens33> ah ^^"
+2015-01-02T23:36:51 <adriens33> Un bug de quoi de où ?
+2015-01-02T23:37:42 <flutterbrony> du private serveur sur ma debian
+2015-01-02T23:38:00 <flutterbrony> il trouve pas les librairies QT
+2015-01-02T23:38:16 <adriens33> ah…
+2015-01-02T23:38:17 <flutterbrony> alors j'ai installé QT5
+2015-01-02T23:38:26 <adriens33> bah il cherche surement qt 4
+2015-01-02T23:38:28 <flutterbrony> mais il ne les trouve toujours pas
+2015-01-02T23:38:40 <flutterbrony> nope c'est libQT5Network
+2015-01-02T23:38:44 <adriens33> hmmk
+2015-01-02T23:38:46 <flutterbrony> nope c'est libQT5Network.so.5
+2015-01-02T23:38:48 <adriens33> *hmm.
+2015-01-02T23:38:54 <adriens33> là je sais pas.
+2015-01-02T23:40:16 <flutterbrony> heuzef m'a dit qu'il les cherchais dans /usr/lib/
+2015-01-02T23:40:31 <adriens33> bah oui, c'est l'emplacement standard pour ule lib…
+2015-01-02T23:40:33 <adriens33> *une
+2015-01-02T23:40:38 <adriens33> (avec /lib)
+2015-01-02T23:40:54 <flutterbrony> J'ai copié les lib QT de /usr/lib/ depuis mon fixe ou ca passe très bien vers mon serveur
+2015-01-02T23:40:58 <flutterbrony> et toujours pas
+2015-01-02T23:41:16 <adriens33> arf.
+2015-01-02T23:41:41 <flutterbrony> Donc maintenant, les libs sont dans /home/antoine/QT, /usr/lib et dans le dossier de LoE ...
+2015-01-02T23:41:53 <flutterbrony> Et je sais plus quoi faire
+2015-01-02T23:43:01 <adriens33> bah là je vois pas trop moi…
+2015-01-02T23:43:31 <flutterbrony> Sinon pour integrer les lib utilisé directement dans l'executable, tu sais comment faire ?
+2015-01-02T23:43:49 <flutterbrony> J'ai trouvé des tutos uniquement pour windows
+2015-01-02T23:43:55 <adriens33> euhhh du static linking ça s'appelle.
+2015-01-02T23:44:00 <adriens33> je sais pas trop non ^^"
+2015-01-02T23:44:10 <adriens33> mais bon tu dois très facilement trouver pour linux
+2015-01-02T23:46:11 <adriens33> (cherche avec static linking linux par ex, je pense que tu dois trouver de quoi faire)
+2015-01-02T23:57:12 <flutterbrony> ldd me donne ca : /LoE_PrivateServer$ ldd ./LoE_PrivateServer
+2015-01-02T23:57:13 <flutterbrony>  linux-gate.so.1 =>  (0xb7770000)
+2015-01-02T23:57:14 <flutterbrony>  libQt5Widgets.so.5 => /usr/lib/i386-linux-gnu/libQt5Widgets.so.5 (0xb712e000)
+2015-01-02T23:57:14 <flutterbrony>  libQt5Network.so.5 => /usr/lib/i386-linux-gnu/libQt5Network.so.5 (0xb6fe8000)
+2015-01-02T23:57:14 <flutterbrony>  libQt5Gui.so.5 => /usr/lib/i386-linux-gnu/libQt5Gui.so.5 (0xb6b8f000)
+2015-01-02T23:57:14 <flutterbrony>  libQt5Core.so.5 => /usr/lib/i386-linux-gnu/libQt5Core.so.5 (0xb66f9000)
+2015-01-02T23:57:15 *** flutterbrony est parti
+2015-01-02T23:57:52 *** flutterbrony s'est connecté
+2015-01-02T23:57:53 <flutterbrony> zut ^^
+2015-01-02T23:57:56 <flutterbrony> zut ^^
+2015-01-02T23:58:17 <flutterbrony> Bn, il manque 3 des fichiers indiqué, e vais les rajouter et voir ...
+2015-01-02T23:58:22 <adriens33> oui, utilise un pastebin pour ce genre de texte ^^
+2015-01-02T23:58:33 <flutterbrony> J'ai hésité ^^
+2015-01-02T23:59:37 <adriens33> s'il y a plus de 8 lignes vaut mieux si tu veux pas te refaire kick pour excess flood :P
+2015-01-02T23:59:50 <flutterbrony> xD
