@@ -1,0 +1,65 @@
+2015-01-04T03:55:59 *** MaCharon est parti
+2015-01-04T04:13:30 *** ELiDYROS est parti
+2015-01-04T13:13:52 *** MaCharon s'est connecté
+2015-01-04T18:19:09 *** adriens331 s'est connecté
+2015-01-04T18:19:28 *** adriens33 est parti
+2015-01-04T19:35:48 *** Gordfang s'est connecté
+2015-01-04T19:35:51 <Gordfang> yo
+2015-01-04T19:35:55 <adriens33> hello
+2015-01-04T19:36:19 <MaCharon> salut
+2015-01-04T20:11:34 *** adriens331 s'est connecté
+2015-01-04T20:12:11 *** Guest41918 est parti
+2015-01-04T20:30:58 *** ELiDYROS s'est connecté
+2015-01-04T20:31:08 <ELiDYROS> Bonsoir les enfants.
+2015-01-04T20:31:21 <adriens33> bonsoir papaaaaa
+2015-01-04T20:31:23 <adriens33> XD
+2015-01-04T20:34:17 <ELiDYROS> Comment va ?
+2015-01-04T20:34:52 <adriens33> bien et toi?
+2015-01-04T20:36:24 <ELiDYROS> Comme ça : http://i.imgur.com/4a90lmm.jpg
+2015-01-04T20:37:57 <adriens33> oulà ><
+2015-01-04T20:38:17 <ELiDYROS> Le bel écran de login quand je sors de "sleep"
+2015-01-04T20:38:24 <adriens33> je vois ça :3
+2015-01-04T20:38:45 <adriens33> au prix ou coute cette merde (meme si maintenant l'os est gratuit), c'est inadmissible.
+2015-01-04T20:39:17 <ELiDYROS> Je pense surtout que le DD commence à vieillir
+2015-01-04T20:39:33 <ELiDYROS> J'ai bien envie de faire une copie sur TimeMachine et tout réinstaller sur un neuf
+2015-01-04T20:40:36 <adriens33> c'est pas le dd qui fait ce genre d'artefact graphique.
+2015-01-04T20:40:44 <adriens33> c'est un bug dans la pile graphique.
+2015-01-04T20:44:54 <ELiDYROS> Pile graphique ?
+2015-01-04T20:45:53 <adriens33> bah soit le driver, soit Quartz je pense
+2015-01-04T20:46:05 <adriens33> (apres j'y connais pas grand chose a l'archi de Mac OS X)
+2015-01-04T20:46:49 <ELiDYROS> J'ai deux CG en fait
+2015-01-04T20:47:00 <ELiDYROS> Déjà faut savoir laquelle s'occupe de gérer l'interface
+2015-01-04T20:47:00 <adriens33> ah
+2015-01-04T20:47:19 <ELiDYROS> Si je me rappelle bien l'intel gère les tâches simples et l'ati s'occupe des choses plus gourmandes
+2015-01-04T20:48:22 <adriens33> bah si ça marchait jusque la c'est soit l'update qui a ammené un bug dans le pilote (très probable a mon avis), soit une des CG qui crame (ça ferait pas ce genre d'artefact je pense)
+2015-01-04T20:49:08 <ELiDYROS> Apple a eu la bonne idée de sortir Yosemite, qui a cassé un bon paquet de trucs
+2015-01-04T20:50:02 <adriens33> ouai, j'ai cru comprendre…
+2015-01-04T20:50:15 <ELiDYROS> D'ailleurs mon soucis de mini display port est possiblement lié à un problème de permissions
+2015-01-04T20:50:20 <adriens33> t'es pas le seul a avoir des bugs ^^"
+2015-01-04T20:50:26 <ELiDYROS> Qui revient toujours après chaque réparation
+2015-01-04T20:50:30 <adriens33> (à ce que j'ai cru lire par ci par là)
+2015-01-04T20:50:36 <adriens33> arf.
+2015-01-04T20:51:23 <ELiDYROS> Je me dis qu'ils vont réparer, mais maintenant que c'est gratuit j'imagine que ça sera pas aussi rapide que lorsque l'on payait encore.
+2015-01-04T20:53:56 <adriens33> bah le retour sav il est pas gratuit si ?
+2015-01-04T20:54:05 <adriens33> (venant d'Apple ça serait étonnant)
+2015-01-04T20:54:08 <ELiDYROS> Je suis plus couvert
+2015-01-04T20:54:20 <ELiDYROS> Je crois pas avoir l'apple care non plus
+2015-01-04T20:55:37 <adriens33> arf.
+2015-01-04T20:55:50 <adriens33> du coup c'est de ta poche
+2015-01-04T20:56:28 <ELiDYROS> J'ai surtout la flemme d'aller chez Apple ou au Genius Bar parmi tous les péons qui savent pas brancher une imprimante
+2015-01-04T20:57:16 <adriens33> ok XD
+2015-01-04T20:57:38 <ELiDYROS> Avec tous les weshs qui squattent facebook sur les iMac
+2015-01-04T20:57:47 <adriens33> :/
+2015-01-04T20:57:50 <ELiDYROS> ;
+2015-01-04T20:57:53 <ELiDYROS> :D
+2015-01-04T21:01:55 <ELiDYROS> Je pense que les "anciens" mac users, ceux qui étaient déjà sur leurs ordi avant l'iPhone, ils trainent plus dans leur boutique
+2015-01-04T21:44:58 <ELiDYROS> Bon ! Je change d'ordi, parce que crotte, tout de même.
+2015-01-04T21:45:04 *** ELiDYROS est parti
+2015-01-04T21:45:35 <adriens33> Ouai!
+2015-01-04T21:48:35 <adriens33> (comme quoi, Mac c'est caca :3)
+2015-01-04T22:01:20 *** ELiDYROS s'est connecté
+2015-01-04T22:42:43 <ELiDYROS> Vous faites quoi ?
+2015-01-04T22:48:29 <Gordfang> warframe pour moi
+2015-01-04T23:11:16 <ELiDYROS> Qu'est-ce ?
+2015-01-04T23:23:00 *** ELiDYROS est parti
+2015-01-04T23:53:47 *** MaCharon est parti

@@ -1,0 +1,155 @@
+2015-01-03T00:00:16 <flutterbrony> Je connais la limite a peu près maintenant ^^
+2015-01-03T00:00:56 <adriens33> ^^
+2015-01-03T00:06:14 <flutterbrony> nikel j'ai avancé
+2015-01-03T00:06:34 <flutterbrony> maintenant, c'est libQt5core et plus libQt5Network ^^
+2015-01-03T00:06:41 <adriens33> ah.
+2015-01-03T00:06:42 <adriens33> XD
+2015-01-03T00:07:11 <flutterbrony> je les fait un par un même si je sais a l'avance lesquels vont merder ^^
+2015-01-03T00:08:29 <flutterbrony> ou pas, je viens d'avoir une surprise
+2015-01-03T00:09:27 <adriens33> Comment ça ?
+2015-01-03T00:12:52 <flutterbrony> des libicuuc.so.52
+2015-01-03T00:13:02 <flutterbrony> Que je n'avais pas prévus
+2015-01-03T00:13:49 <flutterbrony> Je les ai même pas inclus a mon appi mais je pense que Qt doit les inclure lui-même pendant sa compilation ...
+2015-01-03T00:14:30 <flutterbrony> et plus récemment ca : ./LoE_PrivateServer: /lib/i386-linux-gnu/i686/cmov/libc.so.6: version `GLIBC_2.17' not found (required by ./LoE_PrivateServer)
+2015-01-03T00:17:34 <flutterbrony> et je ne l'ai pas bien sur
+2015-01-03T00:23:11 <adriens33> ah. XD
+2015-01-03T00:28:20 *** TrappyTickles est parti
+2015-01-03T00:33:58 <flutterbrony> ok ma session ssh ne répond plus, j'ai éssayé de l'y reconnecter et touours pas ...
+2015-01-03T00:34:35 <flutterbrony> Je vais me coucher, je verrais ca demain
+2015-01-03T00:34:39 <flutterbrony> bonne nuit
+2015-01-03T00:35:18 *** flutterbrony est parti
+2015-01-03T01:23:21 *** Gordfang s'est connecté
+2015-01-03T01:23:30 <Gordfang> yo!
+2015-01-03T01:35:28 <adriens33> salut Gordfang :)
+2015-01-03T02:36:45 <Gordfang> la nouvelle barre et cool pour savoir ou on c'est arreter :D
+2015-01-03T02:37:34 <adriens33> de ?…
+2015-01-03T02:39:53 *** MaCharon est parti
+2015-01-03T02:43:53 <Gordfang> y a une barre verte qui indique ou tu as regarder la dernière fois du coup tu voit ce qui a été ajouter
+2015-01-03T02:44:17 <adriens33> euh… d'accord mais de quoi tu parles ? ^^" où c'est qu'il y a une barre verte ?
+2015-01-03T02:51:41 <Gordfang> hmm zarb attend je te montre
+2015-01-03T02:52:10 <Gordfang> http://imgur.com/GcTviX2
+2015-01-03T02:52:13 <Gordfang> la
+2015-01-03T02:53:18 <adriens33> oui non mais… fallait le préciser que tu parlais de kiwiirc..
+2015-01-03T02:53:31 <adriens33> tu sais, le principe d'irc c'est que tu prend le client que tu veux ^^
+2015-01-03T02:53:53 <adriens33> et ça (la barre d'historique) c'est d'ailleurs une feature quasi standard ;)
+2015-01-03T02:54:09 <Gordfang> ^^
+2015-01-03T02:54:17 <adriens33> (mais je te l'accorde, c'est bien pratique)
+2015-01-03T02:54:23 <Gordfang> ouai mais je l'avais pas avant ;D
+2015-01-03T02:54:45 <adriens33> bah moi si, tu peux utiliser pidgin, hexchat, etc t'en a pleins
+2015-01-03T02:58:15 <Gordfang> k
+2015-01-03T02:58:37 <adriens33> tiens, voilà à quoi ressemble mon bureau IM ^^ http://www.art-software.fr/apps/bozon/index.php?f=54a74cae74d49
+2015-01-03T03:00:43 <adriens33> (moi comme tu vois la barre est rouge, et moins moche d'ailleurs :P)
+2015-01-03T03:13:58 <Gordfang> k
+2015-01-03T04:03:32 <Gordfang> bon aller
+2015-01-03T04:03:35 <Gordfang> go dodo ++
+2015-01-03T04:03:46 *** Gordfang est parti
+2015-01-03T05:52:56 *** adriens33 est parti
+2015-01-03T11:05:33 *** TrappyTickles s'est connecté
+2015-01-03T12:08:03 *** AlphaDash s'est connecté
+2015-01-03T12:47:22 *** MaCharon s'est connecté
+2015-01-03T12:57:41 *** TrappyTickles est parti
+2015-01-03T12:57:58 *** TrappyTickles s'est connecté
+2015-01-03T13:43:30 *** AlphaDash est parti
+2015-01-03T13:43:50 *** MaCharon est parti
+2015-01-03T15:02:08 *** TrappyTickles est parti
+2015-01-03T15:08:16 *** adriens33 s'est connecté
+2015-01-03T15:12:46 *** flutterbrony s'est connecté
+2015-01-03T15:18:30 <adriens33> salut flutterbrony
+2015-01-03T15:18:55 <flutterbrony> bonjour adriens33
+2015-01-03T16:15:49 *** ELiDYROS s'est connecté
+2015-01-03T16:17:46 <adriens33> hello ELiDYROS
+2015-01-03T16:18:07 <flutterbrony> salut EliDYROS
+2015-01-03T16:19:21 <ELiDYROS> Salut les gens
+2015-01-03T16:22:05 *** ELiDYROS est parti
+2015-01-03T16:26:29 *** ELiDYROS s'est connecté
+2015-01-03T16:26:34 <ELiDYROS> Re désolé, reboot
+2015-01-03T16:26:54 <ELiDYROS> Cet ordi me file la migraine
+2015-01-03T16:34:04 <ELiDYROS> Je sais pas si tu as lu mes posts d'hier adriens33 mais j'ai encore un nouveau soucis ahah
+2015-01-03T16:34:17 <adriens33> ah?
+2015-01-03T16:34:24 <adriens33> Ah oui, avec ton macbook ?
+2015-01-03T16:34:36 <flutterbrony> ENFIN !
+2015-01-03T16:34:48 <flutterbrony> J'ai enfin réussi a lancer le serveur !!! :D
+2015-01-03T16:35:27 <ELiDYROS> Oui hier soir je veux voir une vidéo youtube, mais ma PS3 travaillait sur une install, donc je me dis que je vais la lancer sur le mac vers la tv. Malheureusement le mini display port est mort
+2015-01-03T16:36:05 <ELiDYROS> En gros apple a cassé le port d'une personne sur 2 ayant ce modèle là avec leur dernier OS
+2015-01-03T16:36:31 <flutterbrony> Apple quoi :/
+2015-01-03T16:37:35 <adriens33> ELiDYROS: ah ouai... bah fallait pas mettre à jour ^^"
+2015-01-03T16:37:43 <ELiDYROS> Beh disons qu'apple niveau ordi c'est pas trop pourri, mais depuis que leur OS est gratuit c'est tout cassé
+2015-01-03T16:37:57 <ELiDYROS> Ah bah j'ai mis à jour y a quelques mois maintenant c'est un peu tard pour revenir
+2015-01-03T16:37:58 <flutterbrony> C'est quel OS ? le 10.10 ?
+2015-01-03T16:38:04 <ELiDYROS> 10.10.1
+2015-01-03T16:38:21 <ELiDYROS> Et c'est un macbook pro début 2011
+2015-01-03T16:38:39 <flutterbrony> C'est un peu cher pour ce que c'est Apple
+2015-01-03T16:38:43 <flutterbrony> et trop fermé aussi
+2015-01-03T16:38:43 <ELiDYROS> Je dis pas
+2015-01-03T16:39:00 <ELiDYROS> Mais je voulais quelque chose pour bosser la 2D et stable
+2015-01-03T16:39:14 <ELiDYROS> Pour le reste j'utilise un PC fixe
+2015-01-03T16:39:19 <flutterbrony> Mais je pique 30 Go sue un macBook pro d'un pote ^^
+2015-01-03T16:39:27 <flutterbrony> sur*
+2015-01-03T16:39:48 <ELiDYROS> Là je me dis que je vais partitionner et mettre du Debian
+2015-01-03T16:40:57 <flutterbrony> Asus fait des portables avec 2 batteries maintenant x)
+2015-01-03T16:41:22 <ELiDYROS> Et le retour des netbooks pas chers ? On y est ou pas ?
+2015-01-03T16:41:32 <flutterbrony> Au moins, Y'a de l'autonomie
+2015-01-03T16:41:34 <flutterbrony> Ouais
+2015-01-03T16:41:39 <flutterbrony> enfin 299€
+2015-01-03T16:42:11 <ELiDYROS> Ouais presque une PS4 quoi
+2015-01-03T16:42:30 <flutterbrony> 32 Go de SSD + dernière generation d'Atom (qui m'impressionne en faisant tourner skyrim en moyen sans presque rammer
+2015-01-03T16:42:31 <flutterbrony> )
+2015-01-03T16:42:47 <flutterbrony> écran tactile et 2go de ram
+2015-01-03T16:43:08 <flutterbrony> ils font la même chose pour 349€ mais avec un plus un HDD de 500Go
+2015-01-03T16:44:03 <ELiDYROS> Pour jouer sur un netbook faut en vouloir quand même
+2015-01-03T16:44:31 <ELiDYROS>  J'ose pas imaginer le cauchemar d'un jeu de gestion sur un écran minuscule
+2015-01-03T16:44:33 <flutterbrony> Mais ca tourne très bien, j'avais voulu faire le sadique envers l'Atom de base
+2015-01-03T16:45:15 <flutterbrony> En lui demandant skyrim V en ultra mais je me suis dit que c'était trop et j'ai réduit en moyen
+2015-01-03T16:45:31 <flutterbrony> Finalement, pour faire le sadique, ultra était bien ^^
+2015-01-03T16:45:55 <ELiDYROS> Je vais t'avouer que je n'aime pas Skyrime :P
+2015-01-03T16:46:00 <ELiDYROS> rim*
+2015-01-03T16:46:54 <flutterbrony> Moi c'est ma référence pour tester des pcs en condition réelle de jeu ^^
+2015-01-03T16:47:16 <ELiDYROS> Total War c'est pas mal pour faire souffrir un pc
+2015-01-03T16:47:18 <flutterbrony> Sinon, j'y ai quasiment jamais joué  x)
+2015-01-03T16:47:33 <ELiDYROS> Genre Shogun II c'est costo
+2015-01-03T16:49:44 <ELiDYROS> Sinon la poste, encore et toujours. Ils sont passés, pour me livrer un truc, mais la fente de la boite à lettre était trop petite. Donc au lieu de sonner ils sont repartis
+2015-01-03T16:51:04 <flutterbrony> ...
+2015-01-03T16:51:12 <flutterbrony> Ils me l'on fait a moi aussi
+2015-01-03T16:52:49 <ELiDYROS> Oui une fois par flemme ça arrive, mais à -chaque- fois
+2015-01-03T16:52:50 <ELiDYROS> Non
+2015-01-03T16:53:41 <adriens33> bah c'est la Poste, le jour ou ils bosseront correctement ça causera la fin du monde XD (ou un trou dans l'espace temps, au choix)
+2015-01-03T16:54:08 <ELiDYROS> Division par zéro
+2015-01-03T16:54:15 <ELiDYROS> Ou Super Massive Black Hole
+2015-01-03T16:54:55 <adriens33> bah techniquement si tu divise un truc par zéro ça donne ∞, c'est juste qu'on peut pas en déterminer le signe. XD
+2015-01-03T16:56:07 <ELiDYROS> Encore hors-sujet, y a moyen d'afficher une preview de ses mails ou sms sur le lockscreen d'android ?
+2015-01-03T16:56:29 <adriens33> Très bonne question, j'en sais fichtrement rien.
+2015-01-03T16:56:38 <flutterbrony> Ca dépends desquels
+2015-01-03T16:57:16 <flutterbrony> Une fois, je pouvais et si j'avais pas mit de code dessus, je pouvais même y répondre sans ouvrir l'application correspondante
+2015-01-03T16:57:25 <ELiDYROS> Desquels quoi ?
+2015-01-03T16:57:38 <ELiDYROS> Parce que par exemple le client SMS j'utilise celui d'origine
+2015-01-03T16:57:44 <flutterbrony> Et maintenant, je peux plus je sais pas pourquoi et je n'arrive pas a le refaire
+2015-01-03T16:57:59 <flutterbrony> C'était celui de Cyanogenmod que j'avais moi
+2015-01-03T17:25:29 *** ELiDYROS est parti
+2015-01-03T18:07:21 *** adriens331 s'est connecté
+2015-01-03T18:07:29 *** adriens33 est parti
+2015-01-03T18:10:43 *** flutterbrony est parti
+2015-01-03T18:29:24 <adriens33> !help
+2015-01-03T18:43:54 *** flutterbrony s'est connecté
+2015-01-03T18:51:51 <flutterbrony> re
+2015-01-03T18:51:58 <adriens33> reu flutterbrony :)
+2015-01-03T19:46:38 <flutterbrony> Je galère un peu avec screen ^^
+2015-01-03T19:56:44 <adriens33> ah XD
+2015-01-03T20:28:09 <adriens33> je re, vais chercher à miam. ^_^
+2015-01-03T20:28:16 <adriens33> merci Berry-Punch :3
+2015-01-03T20:28:26 *** adriens33 est parti
+2015-01-03T20:57:55 *** adriens33 s'est connecté
+2015-01-03T20:58:00 <adriens33> reu :)
+2015-01-03T21:05:59 *** MaCharon s'est connecté
+2015-01-03T21:06:06 <adriens33> hello MaCharon
+2015-01-03T21:06:40 <MaCharon> bonsoir
+2015-01-03T21:25:23 *** flutterbrony est parti
+2015-01-03T21:29:04 *** flutterbrony s'est connecté
+2015-01-03T21:40:57 *** flutterbrony est parti
+2015-01-03T22:23:34 *** Devies s'est connecté
+2015-01-03T22:24:10 *** Devies est parti
+2015-01-03T22:37:08 *** Melvius s'est connecté
+2015-01-03T22:38:30 <Melvius> Bien le bonsoir !
+2015-01-03T22:43:30 *** Melvius est parti
+2015-01-03T23:06:58 *** adriens331 s'est connecté
+2015-01-03T23:07:06 *** Guest45391 est parti
+2015-01-03T23:52:58 *** ELiDYROS s'est connecté
