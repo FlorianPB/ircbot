@@ -1,0 +1,449 @@
+2015-02-22T01:04:48 *** MaCharon est parti
+2015-02-22T02:14:33 *** Lenile est parti
+2015-02-22T02:32:28 *** Lenile s'est connecté
+2015-02-22T02:32:34 <Lenile> ELiDYROS ?
+2015-02-22T02:33:22 <ELiDYROS> ?
+2015-02-22T02:33:31 <Lenile> C'est quoi un "Bitrate constant" ? e.ê
+2015-02-22T03:55:41 *** ELiDYROS_ s'est connecté
+2015-02-22T03:59:40 *** ELiDYROS est parti
+2015-02-22T09:01:47 *** ELiDYROS_ est parti
+2015-02-22T10:35:17 *** adriens33 s'est connecté
+2015-02-22T10:38:50 <adriens33> Lenile: un bitrate constant c'est quand dans le flux audio ou vidéo, le débit du signal compressé ne change pas en fonction de la quantité de donnée, genre en vidéo par exemple si t'a une scène d'action qui demande plus de détails, bah elle sera juste plus compressée pour que le débit de sortie ne varie pas. (donc oui le constant bitrate c'est pas bô :D mais ça prend moins de place et c'est plus "simple" à lire que le vbr, variab
+2015-02-22T10:38:51 <adriens33> le bitrate, qui lui s'adapte plus à ce qui est demandé en ter
+2015-02-22T10:38:58 <adriens33> *terme de qualité)
+2015-02-22T10:51:56 *** TrappyTickles s'est connecté
+2015-02-22T11:03:27 <adriens33> hello TrappyTickles
+2015-02-22T11:03:48 <TrappyTickles> oi
+2015-02-22T13:04:09 *** adriens33 est parti
+2015-02-22T13:14:09 *** adriens33 s'est connecté
+2015-02-22T13:48:33 <adriens33> http://korben.info/proteger-faille-webrtc.html
+2015-02-22T13:48:39 <adriens33> gaaa webrtc paboo
+2015-02-22T13:48:52 <adriens33> (moi m'en fous avec un vrai vpn ça le fait pas :P)
+2015-02-22T14:32:52 *** Mousstery s'est connecté
+2015-02-22T14:33:02 <Mousstery> Bonjour !
+2015-02-22T14:34:07 *** heuzef s'est connecté
+2015-02-22T14:37:42 <adriens33> Bonjour Mousstery | heuzef :D
+2015-02-22T14:37:59 <Mousstery> Ca va?
+2015-02-22T14:38:01 <adriens33> (ouioui, j'en fais deux en une ligne, flemme. :D)
+2015-02-22T14:38:05 <adriens33> bien et toi ?
+2015-02-22T14:39:20 <Mousstery> Bien ! Tu fais quoi ?
+2015-02-22T14:40:32 <adriens33> là je vais bientot partir, sinon pas grand chose. :D
+2015-02-22T14:41:10 *** adriens33 est parti
+2015-02-22T14:41:13 <Mousstery> x)
+2015-02-22T14:41:25 <Mousstery> Ah oui bientot,tôt x)
+2015-02-22T14:42:49 <heuzef> Salut Mousstery =)
+2015-02-22T14:43:31 <heuzef> Je t'es déjà croisé avant ?
+2015-02-22T14:44:37 <Mousstery> Peut être ?
+2015-02-22T14:45:05 <Mousstery> Je traine sur des forums Minecrafts donc peut être x)
+2015-02-22T14:46:07 <Mousstery> Mais sinon bonjour !
+2015-02-22T14:46:10 <Mousstery> ça va ?
+2015-02-22T14:46:10 <heuzef> Je vient te tomber sur ton inscription =)
+2015-02-22T14:46:28 <heuzef> Donc tu communique avec Sleeva pour les POM de Bordeaux ?
+2015-02-22T14:48:18 <Mousstery> Yes ^^
+2015-02-22T14:48:33 <heuzef> Voila qui est bien cool ^^
+2015-02-22T14:48:43 <Mousstery> Sleeva et Zukill
+2015-02-22T14:48:51 <heuzef> !inscription Mousstery
+2015-02-22T14:49:14 <Mousstery> o/
+2015-02-22T14:49:20 <Mousstery> Vous comptez venir ? :3
+2015-02-22T14:49:23 <heuzef> Tant que je t'es sous la main
+2015-02-22T14:49:41 <Mousstery> ?
+2015-02-22T14:49:45 <heuzef> Possible de me faire une ligne de plus pour ta bio ? Pour le format du site
+2015-02-22T14:49:54 <heuzef> Genre tu peux parler de Minecraft si tu veux
+2015-02-22T14:50:02 <Mousstery> Ouais,je fais ça ou ? x)
+2015-02-22T14:50:23 <heuzef> Ici
+2015-02-22T14:50:27 <heuzef> T'embête pas
+2015-02-22T14:51:10 <heuzef> ça va intéresser Elvon qui justement essaie de refaire vivre le Serveur MC de BronyCUB
+2015-02-22T14:52:29 <Mousstery> Je m'appelle Jarod,14 ans,je passe des apréms a regarder MLP..Ou a jouer Minecraft.Sinon je joue a plein de jeux et j'écoute tout comme zik..sauf le rap.
+2015-02-22T14:53:24 <heuzef> Thx =)
+2015-02-22T14:53:29 <heuzef> Ca va alimenter un peu
+2015-02-22T14:53:38 <Mousstery> ^^
+2015-02-22T14:53:41 <heuzef> Tu sais comment te mettre un Gravatar sinon ?
+2015-02-22T14:53:49 <Mousstery> Nop :C
+2015-02-22T14:54:39 <heuzef> ok bouge pas je te communique la petite procédure
+2015-02-22T14:55:03 <heuzef> Sur le site : http://fr.gravatar.com/ va en haut à droite pour s'inscrire (http://i.imgur.com/5tJbVZX.jpg)
+2015-02-22T14:55:03 <heuzef> Une fois sur la page pour se connecter, cliquez en dessous pour s'inscrire (http://i.imgur.com/Nh2xN1L.jpg)
+2015-02-22T14:55:03 <heuzef> Suivre la procédure d'inscription classique (activation du compte, connexion.....)
+2015-02-22T14:55:03 <heuzef> Une fois sur votre profil (quand on se connecte) il devrait y avoir déjà votre adresse mail d'enregistrer avec l'image gravatar par Default, si ce n'est pas le cas cliquer sur "ajouter une nouvelle adresse" pour en rajouter une (http://i.imgur.com/sJjzALm.jpg)
+2015-02-22T14:55:04 <heuzef> Une fois que vous avez votre adresse enregistrer il vous faut une image! Du coup on fait pareil en dessous (http://i.imgur.com/BvZEwPy.jpg)
+2015-02-22T14:55:04 <heuzef> Une fois dans le menu d'image on choisi comment on veut l'uploader, à partir du pc, directement en ligne....
+2015-02-22T14:55:04 <heuzef> Quand l'image est choisie il nous permet de la recadrer (http://i.imgur.com/O3GpUil.jpg)
+2015-02-22T14:55:05 <heuzef> Une fois l'image bien recadrer on peut valider
+2015-02-22T14:55:05 <heuzef> Il nous demande enfin si l'image est "SFW" (que ce n'est pas une image pornographique par exemple) pour choisir il faut cliquer sur une des 4 images en dessous de la nôtre (http://i.imgur.com/2k4j66W.jpg) les explications sur ce que chacune veut dire sont juste en dessous
+2015-02-22T14:55:05 <heuzef> Quand c'est choisi on assigne à quelle adresse on veut mettre l'image (http://i.imgur.com/wJAM3uJ.jpg)
+2015-02-22T14:55:06 <heuzef> Et voilà!
+2015-02-22T14:55:26 <heuzef> Ca te permet d'avoir un avatar sur pas mal de site, y compris BronyCUB
+2015-02-22T14:55:35 <heuzef> Et surtout tu peux le mettre à jour quand tu veux
+2015-02-22T14:58:12 <heuzef> Surveille ta boite mail, on va revenir vers toi pour finaliser ton inscription enssemble ;)
+2015-02-22T15:00:31 <Lenile> Hola
+2015-02-22T15:00:39 <Lenile> *s'encline* Le grand et puissant Heuzef*
+2015-02-22T15:00:47 <Lenile> incline*)
+2015-02-22T15:00:53 <heuzef> Ouais dis moi toi
+2015-02-22T15:00:56 <Lenile> Mh ?
+2015-02-22T15:01:02 <heuzef> T'aurais pas laisser Matthieu en plan hier ?
+2015-02-22T15:01:17 <Lenile> Bah j'était sur IRC H24 pour l'attendre lui demander son num e.e
+2015-02-22T15:01:30 <Lenile> Il me l'avais pas donné e.e
+2015-02-22T15:01:34 <Lenile> Comment je pouvais deviné e.e
+2015-02-22T15:01:50 <Lenile> J'ai rien eu pas d'heure RIEN
+2015-02-22T15:01:52 <heuzef> Son numéro ? Tu parle de celui qu'il à diffuser en claire sur la ML à tous le monde quand il à organiser la journée ?
+2015-02-22T15:02:06 <Lenile> e.e
+2015-02-22T15:02:12 <Lenile> J'était pas au courrant de ça e.e
+2015-02-22T15:02:23 <heuzef> :/
+2015-02-22T15:02:41 <Lenile> J'ai pas trop le temps de lire les ML en se moment
+2015-02-22T15:02:49 <Lenile> Concours gendarmerie toussa toussa
+2015-02-22T15:03:06 <Lenile> Reparation du pc de ma mère toussa toussa
+2015-02-22T15:03:07 <Lenile> Bref.
+2015-02-22T15:03:11 <Lenile> Il est encore la ?
+2015-02-22T15:03:28 <heuzef> Je sais pas, il est sans doute mort de froid sous un pont cette nuit
+2015-02-22T15:03:37 <Lenile> e.e
+2015-02-22T15:03:41 <heuzef> En attendant désespérément ton appel
+2015-02-22T15:03:44 <Lenile> Il est cher toi ? e.ê
+2015-02-22T15:03:55 <Lenile> J'peut l'hebergé encore hein .8.
+2015-02-22T15:04:02 <Lenile> Juste que bah j'avais pas vu son numéro ._.
+2015-02-22T15:04:04 <heuzef> Nop, il s'est réfugié chez Elvon
+2015-02-22T15:04:11 <Lenile> Ok ._.
+2015-02-22T15:04:14 <Lenile> Tain j'men veux e.e
+2015-02-22T15:04:29 <heuzef> Alors ça va ^^
+2015-02-22T15:05:08 <Lenile> J'vais décidement me faire passer pour le gros con de Bronycub Avec ces conneries ._.
+2015-02-22T15:05:22 <heuzef> Appel le à la limite histoire de pas passer pour un gros bof alors ^^
+2015-02-22T15:05:36 <Lenile> Yep
+2015-02-22T15:09:02 <Lenile> C'est bon.
+2015-02-22T15:10:10 <heuzef> ;)
+2015-02-22T15:10:36 <Lenile> J'aime pas Gmail e.e
+2015-02-22T15:10:58 <heuzef> Bon faut que je trouve quelqu'un qui connais un minimum Toulouse pour cet été
+2015-02-22T15:11:15 <Lenile> Mh...
+2015-02-22T15:11:22 <Lenile> Pourquoi ? e.ê
+2015-02-22T15:11:30 <heuzef> PonySouth
+2015-02-22T15:11:54 <heuzef> Histoire qu'on rémène BronyCUB la-bà
+2015-02-22T15:12:12 <Mousstery> Voila >< Je crois que j'ai mis l'avatar,pas sur :c
+2015-02-22T15:12:31 <heuzef> Mousstery: http://gravatar.com/avatar/1dcbacffd4f00ea51087bec222e2707b
+2015-02-22T15:12:59 <heuzef> ça me semble très bien ;)
+2015-02-22T15:13:18 <Mousstery> Bueno >o<
+2015-02-22T15:13:36 <Lenile> Bienvenu Mousstery
+2015-02-22T15:13:47 <Lenile> Et heuzef c'est plus drole de partir à l'aventure.
+2015-02-22T15:13:47 <Mousstery> Bonjour !
+2015-02-22T15:14:12 <Lenile> Je part tel un chevalier dans les contrée lointaines sans cartes ni vivres et je m'en sort tres bien o/
+2015-02-22T15:15:14 <heuzef> T'es un aventurier toi
+2015-02-22T15:15:34 <Mousstery> Ya il y aura un POM à Bordeaux :3
+2015-02-22T15:15:34 <heuzef> Mais franchement faut du courrage pour motiver un troupeau de Bordelais mec
+2015-02-22T15:16:16 <heuzef> Mousstery c'est cool ^^ Le plus simple c'est que tu organise ça ici : http://bronycub.org/event.php
+2015-02-22T15:16:29 <heuzef> Tous le monde à une vue sur l'Agenda (sauf Lenile il semblerais)
+2015-02-22T15:16:44 <Mousstery> Oki ^^
+2015-02-22T15:17:00 <Mousstery> Dites,vous allez à l'Animasia ?
+2015-02-22T15:17:23 <heuzef> Plutôt oui, on est partenaire de Mandora
+2015-02-22T15:17:33 <Mousstery> Ah xD
+2015-02-22T15:17:45 <heuzef> Enfin quoi que -_- ça fait un moment qu'on est plus en contact
+2015-02-22T15:17:51 <Mousstery> Moi j'y vais avec un badge presse,doit interviewer les gens :c
+2015-02-22T15:18:27 <heuzef> Ba tu pourra t'y présenter comme presse et comme brony en prime =)
+2015-02-22T15:18:43 <Mousstery> Ouais o/
+2015-02-22T15:19:54 <Mousstery> Attendez je ne met pas le POM de suite sur l'agenda ^^
+2015-02-22T15:20:32 <Mousstery> On n'a pas mis les dates précises avec les autres ^^
+2015-02-22T15:20:39 <heuzef> Quand tu veux =)
+2015-02-22T15:21:03 <heuzef> Je vais t'inscrire sur la ML tous de suite pour commencer
+2015-02-22T15:21:16 <Mousstery> La ML?
+2015-02-22T15:23:20 <heuzef> Mailing List
+2015-02-22T15:23:47 <heuzef> On communique essentiellement par mail, maintenant tu peux recevoir tous les messages
+2015-02-22T15:24:38 <Mousstery> Oki :D*
+2015-02-22T15:27:31 <Mousstery> En fait
+2015-02-22T15:27:38 <Mousstery> les POM se dérouleront au Mégarama ;)
+2015-02-22T15:30:49 <Lenile> Je regarde jamais rien pendant les vacances :c
+2015-02-22T15:31:39 <Lenile> Et puis quand on va au caliss j'évite.
+2015-02-22T15:31:46 <Lenile> Payer l'entrée j'suis juste... Pauvre ;_;
+2015-02-22T15:36:53 <Mousstery> :c
+2015-02-22T15:38:00 <Lenile> Me vole pas mes smiley è.é
+2015-02-22T15:38:09 <Mousstery> Hey !
+2015-02-22T15:38:15 <Mousstery> Je l'utilise depuis longtemps :c
+2015-02-22T15:38:45 <Lenile> Ouais mais j'était la avant toi :c
+2015-02-22T15:39:12 <Mousstery> Mais je l'utilise sur d'autre fofo:c
+2015-02-22T15:39:56 <Lenile> Bah moi je l'utilise TOUT LE TEMPS !
+2015-02-22T15:40:18 <Mousstery> JE L'UTILISE DANS LA VRAI VIE CAR MA TETE EST UN SMILEY
+2015-02-22T15:41:24 <Lenile> J'te plaint :c
+2015-02-22T15:42:13 <Mousstery> C'est dur chaque jour :-'(
+2015-02-22T15:47:12 <Mousstery> le QG est ouvert le WE?
+2015-02-22T15:49:17 <heuzef> Ouais mais en général c'est plus cool d'appeler avant pour pas avoir de surprise
+2015-02-22T15:49:47 <heuzef> Lenile: ça serait cool que tu convertisse ton :c en smile pour changer :D
+2015-02-22T15:49:55 <Lenile> V'est à dire ? e.ê
+2015-02-22T15:50:10 <Mousstery> Pas touche a mon smiley !
+2015-02-22T15:50:11 <Mousstery> D:
+2015-02-22T15:50:14 <heuzef> Deux points et D majuscule
+2015-02-22T15:50:24 <heuzef> Ou encore deux accents circonflexes
+2015-02-22T15:50:43 <Lenile> Rainbow Dash
+2015-02-22T15:50:47 <heuzef> Ou encore accent circonflexe underscore accent circonflexe
+2015-02-22T15:50:50 <Lenile> ./)'3'(
+2015-02-22T15:50:58 <heuzef> :P
+2015-02-22T15:51:01 <Lenile> xD
+2015-02-22T15:51:56 <Mousstery> Fight de smileys
+2015-02-22T15:52:37 <Lenile> :C
+2015-02-22T15:52:51 <Mousstery> :C :C
+2015-02-22T15:54:14 <Lenile> :C :C :c
+2015-02-22T15:55:14 <Mousstery> :C :C :c :C
+2015-02-22T15:57:27 <Mousstery> Gagné ewe
+2015-02-22T15:57:31 *** heuzef est parti
+2015-02-22T15:57:54 <Lenile> Tes un homme ? e.ê
+2015-02-22T15:57:59 *** heuzef s'est connecté
+2015-02-22T15:58:43 <Mousstery> Ben oui :c
+2015-02-22T15:59:02 <Lenile> Encore plus éfféminée que moi e.e
+2015-02-22T15:59:04 *** heuzef est parti
+2015-02-22T15:59:53 <Mousstery> Mais euh..
+2015-02-22T16:00:08 <Mousstery> T'est un homme ? x)
+2015-02-22T16:01:18 <Lenile> Oui ._.
+2015-02-22T16:01:25 <Lenile> 8D
+2015-02-22T16:02:05 <Mousstery> Je croyais que tu étais une femme 8D
+2015-02-22T16:02:29 <Lenile> Tu veux voir ma beat ? 8D
+2015-02-22T16:02:52 <Mousstery> :badum tsh:
+2015-02-22T16:04:01 <Mousstery> Mais sinon je veux bien ton beat 8D
+2015-02-22T16:04:03 <Mousstery> BEAT
+2015-02-22T16:04:06 <Mousstery> pas l'autre
+2015-02-22T16:12:01 <Mousstery> C'est vrai qu'il y a des gens qui ont fait une dépression sur le site...
+2015-02-22T16:12:24 <Mousstery> *?
+2015-02-22T16:12:34 <Lenile> De ?
+2015-02-22T16:13:09 <Mousstery> Ben on m'a dit qu'il y en a qui sont parti car ils étaient en dépression?
+2015-02-22T16:13:47 <Lenile> Faut pas croire tout se que l'on te dit
+2015-02-22T16:13:52 <Lenile> Qui t'a dit ça ?
+2015-02-22T16:14:09 <Mousstery> Un ami IRL du site.
+2015-02-22T16:14:17 <Lenile> Ha.
+2015-02-22T16:18:18 <Mousstery> Mais je vais rester quand même :c
+2015-02-22T16:19:26 <Lenile> Apres si tu crois à des rumeurs t'fait comme tu veux
+2015-02-22T16:19:32 <Lenile> Et on à chacuns nos soucis
+2015-02-22T16:19:41 <Lenile> Personne n'est normal dans nimporte quelel situation.
+2015-02-22T16:20:09 <Mousstery> :c
+2015-02-22T16:39:00 <Mousstery> My littlee ponnyyyy$
+2015-02-22T16:46:18 *** Mousstery est parti
+2015-02-22T16:48:35 *** adriens33 s'est connecté
+2015-02-22T17:12:08 *** Mousstery s'est connecté
+2015-02-22T17:12:57 <Mousstery> Je trouve pas mon profil :c
+2015-02-22T17:16:20 <adriens33> si tu viens de t'inscrire c'est normal XD
+2015-02-22T17:16:23 <adriens33> c'est pas automatisé
+2015-02-22T17:16:38 <adriens33> le formulaire d'inscription envoie un mail à heuzef
+2015-02-22T17:17:04 <adriens33> et c'est ensuite généralement lui ou gordfang qui finalisnet l'inscription, voir s'il manque des choses etc
+2015-02-22T17:17:16 <adriens33> et qui ajoutent ensuite le profil du membre sur le site ^^
+2015-02-22T17:17:37 *** Mousstery est parti
+2015-02-22T17:19:27 *** Mousstery s'est connecté
+2015-02-22T17:22:20 <Mousstery> :c
+2015-02-22T17:23:33 *** Mousstery est parti
+2015-02-22T17:26:53 *** Mousstery s'est connecté
+2015-02-22T17:31:16 <adriens33> !history
+2015-02-22T17:33:12 <Mousstery> WHAT DOES THE FOX SAY
+2015-02-22T17:34:23 <Mousstery> Pardon..
+2015-02-22T17:34:27 <Mousstery> C'est que je m'ennuie :c
+2015-02-22T17:34:33 <adriens33> ah
+2015-02-22T17:51:20 *** Mousstery est parti
+2015-02-22T17:53:45 *** adriens33 est parti
+2015-02-22T18:25:36 *** adriens33 s'est connecté
+2015-02-22T18:57:05 *** Mousstery s'est connecté
+2015-02-22T19:08:21 <Lenile> J'arrive décidement pas à faire en sorte que OBS me fasse 0 lags sur Twitch u.u
+2015-02-22T19:09:48 <Mousstery> xD
+2015-02-22T19:16:35 <Mousstery> Ca fait un bail que je suis pas passé sur Twitch!
+2015-02-22T19:20:34 *** ELiDYROS s'est connecté
+2015-02-22T19:27:43 <adriens33> hello ELiDYROS
+2015-02-22T19:28:00 <adriens33> Lenile: t'a qu'à avoir un plus mieux meilleur pc :D
+2015-02-22T19:30:20 <ELiDYROS> Salut adriens33
+2015-02-22T19:30:27 <adriens33> comment va ?
+2015-02-22T19:30:33 <Lenile> adriens33 j'ai un tresbon pc.
+2015-02-22T19:30:34 <ELiDYROS> ça va et toi ?
+2015-02-22T19:30:45 <adriens33> Lenile: c'était du troll, imbécile :D
+2015-02-22T19:31:04 <adriens33> ELiDYROS: ça peut aller, soirée d'anniv hier avec quelques amis, j'ai mangé à m'en éclater le ventre XD
+2015-02-22T19:31:11 <adriens33> (c'est ajd techniquement)
+2015-02-22T19:31:20 <ELiDYROS> cool
+2015-02-22T19:31:50 <Mousstery> OMG :'(
+2015-02-22T19:31:58 <Mousstery> je rp avec un Gary Sue :'(
+2015-02-22T19:32:06 <adriens33> Mousstery> gné ?
+2015-02-22T19:32:15 <Mousstery> cherche xD
+2015-02-22T19:32:19 *** Mousstery est parti
+2015-02-22T19:32:39 <adriens33> non, flemme. DX
+2015-02-22T19:32:40 <adriens33> *XD
+2015-02-22T19:43:39 <ELiDYROS> C'est bientôt mon anniversaire aussi tiens
+2015-02-22T19:50:02 *** adriens33 est parti
+2015-02-22T19:52:30 *** adriens33 s'est connecté
+2015-02-22T19:53:08 <adriens33> ELiDYROS: ah ? c'est quand ?
+2015-02-22T19:53:29 <ELiDYROS> le 4 mars
+2015-02-22T19:56:21 <adriens33> oki
+2015-02-22T20:12:54 <ELiDYROS> Mais bon je pense que je resterais au lit ce jour là
+2015-02-22T20:17:21 <Lenile> J'avou z'etes chiants à vouloir tous feters vos anniv e.e
+2015-02-22T20:20:26 <adriens33> Lenile> t'as quoi contre ?
+2015-02-22T20:22:51 <ELiDYROS> ça fait 10 ans que j'ai pas eu l'occasion, j'aimerais bien tu vois, pour une fois
+2015-02-22T20:23:37 <ELiDYROS> la dernière fois que je l'ai fêté en plus c'était un très mauvais souvenir
+2015-02-22T20:26:52 <adriens33> ELiDYROS> bah tu peut faire un event bronycub, ou si t'a pas envie de voir autant de monde inviter au moins quelques amis et vous faites genre une soirée dans un lieu sympa
+2015-02-22T20:27:29 <ELiDYROS> personne me connait à bronycub donc je me vois pas fêter mes 28 ans avec des inconnus (pour la plupart)
+2015-02-22T20:27:43 <ELiDYROS> et dans les gens que je connais ailleurs, je sais qu'ils ne viendront pas
+2015-02-22T20:29:01 <ELiDYROS> d'autant plus que ce que j'aurais à proposer ne plaira pas à BC
+2015-02-22T20:30:52 <adriens33> du genre ?
+2015-02-22T20:31:14 <ELiDYROS> bah sachant que je fais pas du JdR, que j'ai pas non plus envie de faire ça à votre QG
+2015-02-22T20:31:15 <ELiDYROS> je sais pas
+2015-02-22T20:32:27 <adriens33> nah mais "ce que j'aurais à proposer ne plaira pas à BC" → de quoi parles-tu ?
+2015-02-22T20:58:27 *** MaCharon s'est connecté
+2015-02-22T21:43:39 *** ELiDYROS est parti
+2015-02-22T22:36:18 <TrappyTickles> ils sont vraiment abrutis chez inkscape ou quoi?
+2015-02-22T22:37:04 <TrappyTickles> y a une update arrivée le mois dernier, ils ont ENLEVÉ des fonctions!
+2015-02-22T22:38:48 <adriens33> hmm pour 5 ans de taf c'est pas très respectueux hein…
+2015-02-22T22:40:47 <adriens33> de quelles fonctions parles-tu par exemple ?
+2015-02-22T22:42:43 <TrappyTickles> par exemple tu peux plus mod une courbe en cliquant dessus
+2015-02-22T22:43:09 <TrappyTickles> et plurs grave, les poignées marchent 1 fois sur 6
+2015-02-22T22:43:33 <adriens33> hmm ? tu sais, tu as juste à appuyer sur N pour pouvoir modifier les courbes, hein.
+2015-02-22T22:44:00 <TrappyTickles> ça veut aussi constamment faire des lignes droites et pas des courbes la plupart du temps
+2015-02-22T22:44:08 <adriens33> ça je suis d'accord, mais c'est peut etre soit parce qu'ils n'ont pas fini, soit parce que ça ne fonctionne plus de la même façon
+2015-02-22T22:44:16 <adriens33> pas forcément
+2015-02-22T22:44:30 <TrappyTickles> j'ai jamais eu a appuyer sur n pour quoi que ce soit
+2015-02-22T22:44:53 <TrappyTickles> ben on la sort pas en release alors
+2015-02-22T22:44:54 <adriens33> après, c'est du 0.91, pas du 1.0, donc qu'il y ait de nouveaux bugs liés aux mises à jour c'est normal
+2015-02-22T22:45:32 <TrappyTickles> jsuis en train de faire une vidéo pour montrer
+2015-02-22T22:45:53 <adriens33> ils se sont sans doute dit qu'il valait mieux sortir la version avec les nouvelles foctions et les refactor, et voir après les bugs qui apparaissent pour les corriger
+2015-02-22T22:46:10 <adriens33> c'est un projet libre je te rapelle, pas un progiciel créé par une entreprise rémunérée.
+2015-02-22T22:46:28 <TrappyTickles> attends y a un prob
+2015-02-22T22:46:50 <adriens33> Comment ça ?
+2015-02-22T22:46:56 <TrappyTickles> ils ont foutu quoi ?!!! bordel y a pareil sur l(bncienne!!!
+2015-02-22T22:47:07 <adriens33> De quoi tu parles ?
+2015-02-22T22:47:39 <adriens33> sur la 0.48 je n'ai jamais eu de souci ni avec les poignées, ni avec le déplacement des courbes de bézier
+2015-02-22T22:47:52 <TrappyTickles> j'essaie la 0.48 et j'ai le même prob!!
+2015-02-22T22:48:10 <adriens33> tu as clean avant de rebuild ? à tous les coups tu as rebuild la 0.91.
+2015-02-22T22:48:13 <TrappyTickles> mais moi non plus j'ai jamais eu ça!! :4
+2015-02-22T22:48:21 <adriens33> il est impossible de modifier un commit sans changer son hash
+2015-02-22T22:48:28 <adriens33> pas sous git en tout cas.
+2015-02-22T22:49:01 <adriens33> (théoriquement avec les collisions de hash c'est très improbable, pas impossible, mais c'est presque pareil en conditions réelles)
+2015-02-22T22:49:45 <TrappyTickles> jvais reinstall mais j'y crois pas
+2015-02-22T22:50:31 <adriens33> essaie de récupérer le dépot à la main, de checkout le tag et de compiler à la main plutot que de passer par pacman / abs, histoire de voir le comportement
+2015-02-22T22:50:51 <TrappyTickles> je suis sur mon win7 là
+2015-02-22T22:51:01 <TrappyTickles> depuis le début
+2015-02-22T22:51:24 <adriens33> hmm ?
+2015-02-22T22:51:34 <adriens33> d'accord…
+2015-02-22T22:51:43 <TrappyTickles> il me faut un 21' minimum pour draw lol
+2015-02-22T22:51:44 <adriens33> et comment as-tu récupéré la 9.48 alors ?
+2015-02-22T22:51:54 <adriens33> bah tu mets linux dessus --"
+2015-02-22T22:52:01 <TrappyTickles> sur leur sourceforge
+2015-02-22T22:52:20 <adriens33> Mmm, sourceforge est à éviter désormais.
+2015-02-22T22:52:23 <TrappyTickles> et je joue comment sur steam après? :p
+2015-02-22T22:52:47 <adriens33> En tout cas depuis qu'ils poussent les développeurs à ajouter des adwares dans les programmes d'installation contre rémunération…
+2015-02-22T22:53:13 <adriens33> (l'installeur de filezilla a été modifié de la sorte par exemple)
+2015-02-22T22:53:20 <Lenile> Le capitalisme toussa toussa
+2015-02-22T22:53:24 <TrappyTickles> phew ça marche. réinstaller a marché
+2015-02-22T22:53:40 <adriens33> Lenile> Ce n'est pas une raison pour coller de la pub et du caca partout.
+2015-02-22T22:53:51 <TrappyTickles> mais bon je toucherai pas à leur 0.91
+2015-02-22T22:53:53 <adriens33> Le caca ça pue, c'est justement pour prévenir qu'il faut éviter de le manger.
+2015-02-22T22:54:00 <adriens33> la pub c'est la même chose.
+2015-02-22T22:54:01 <Lenile> adriens33 ça donne de l'argent.
+2015-02-22T22:54:04 <Lenile> Je le ferais aussi
+2015-02-22T22:54:21 <adriens33> Tu vendrais la liberté de tes utilisateurs contre 3€ ?
+2015-02-22T22:54:40 <Lenile> Je les forces pas à désinstaler Adblock sur mon stream
+2015-02-22T22:54:59 <adriens33> Eh bien encore heureux >:( chacun fait ce qu'il veut de son ordinateur
+2015-02-22T22:55:18 <adriens33> Et forcer les gens à regarder de la pub, c'est aussi mauvais que de créer les pub
+2015-02-22T22:55:20 <Lenile> Exactement
+2015-02-22T22:55:26 <adriens33> qui ont pour principe de manipuler les gens.
+2015-02-22T22:55:32 <Lenile> Et les entreprisent peuvent ou non instaler de la pubs dans leur merde
+2015-02-22T22:55:35 <Lenile> Chacuns sa merde.
+2015-02-22T22:55:44 <adriens33> Sauf que ce ne sont pas les entreprises là.
+2015-02-22T22:55:58 <TrappyTickles> enfin bon, jvais faire une vidéo pour montrer leur merde
+2015-02-22T22:56:03 <adriens33> C'est un truc pour les projets opensource qui pousse à mettre de la pub.
+2015-02-22T22:56:15 <adriens33> de la pub dans des programmes libre putain !
+2015-02-22T22:56:24 <adriens33> Il n'y a que moi que ça fait tiquer ?
+2015-02-22T22:56:36 <Lenile> Comment ils gagnent de l'argent si ils font les trucs gratos ?
+2015-02-22T22:56:39 <adriens33> ><
+2015-02-22T22:57:02 <adriens33> Donc d'après toi, tous les projets libres devraient inclure de la pub parce que seul l'argent compte pour tout le monde ?
+2015-02-22T22:57:17 <adriens33> et le modèle communautaire, ou chacun peut participer au projet, tu ne connais pas ?
+2015-02-22T22:57:32 <Lenile> Vah ouais mais si il y pas de revenues ?
+2015-02-22T22:57:42 <Lenile> Linux est une entreprise non ?
+2015-02-22T22:57:45 <adriens33> non.
+2015-02-22T22:57:46 <Lenile> Enfin, au moin un groupe
+2015-02-22T22:57:58 <adriens33> Linux est une communauté opensource à la base.
+2015-02-22T22:58:09 <adriens33> Bâtie autour d'un logiciel libre.
+2015-02-22T22:58:15 <Lenile> Red Hat
+2015-02-22T22:58:23 <Lenile> C'est une entreprise qui font du linux par exemple
+2015-02-22T22:58:24 <adriens33> Red Hat N'EST PAS LINUX
+2015-02-22T22:58:32 <adriens33> Red Hat UTILISE linux.
+2015-02-22T22:58:34 <adriens33> Comme Google.
+2015-02-22T22:58:39 <Lenile> Laisse moi fini couillon ._.
+2015-02-22T22:58:42 <adriens33> tg
+2015-02-22T22:59:06 <Lenile> Elle est ironique cette insultre gratuite au moin ?
+2015-02-22T22:59:28 <adriens33> Tu es à côté de la plaque, donc rien ne sert de t'expliquer quoi que ce soit si ton seul argument au final est "et comment on gagne des sous lololol"
+2015-02-22T22:59:39 <adriens33> Tout ne tourne pas autour de cela.
+2015-02-22T22:59:43 <adriens33> Point final
+2015-02-22T22:59:58 <Lenile> Excuse moi, s'pas un semi informatitien qui va m'apprendre mon métier de commerce.
+2015-02-22T23:00:52 <Lenile> Bref
+2015-02-22T23:01:04 <adriens33> Semi il t'emmerde. Et tout ne toure pas autour du COMMERCE PUTAIN DE MARKETEUX DE MES NOIX !
+2015-02-22T23:01:09 <Lenile> Red Hat est une distribution de Linux
+2015-02-22T23:01:14 <Lenile> Donc red hat font du linux
+2015-02-22T23:01:20 <Lenile> Mais comment isl se payent le matos derrière ?
+2015-02-22T23:01:37 <Lenile> "Tien on va faire un proggramme cap à sacrifié notre argent et notre temps et tout ça gratuitement"
+2015-02-22T23:01:45 <Lenile> T'y crois vraiment à ça ?
+2015-02-22T23:01:58 <Lenile> Partenaria, publicitée, merchandising, marketing.
+2015-02-22T23:02:07 <Lenile> Tu crois que tout ça se fait par la voie du seigneur ?
+2015-02-22T23:02:25 <Lenile> Tu vois de la pub partout, quand tu sort dans la rue, tu peut même trouvé des pubs pour MacDo sur Youporn
+2015-02-22T23:02:41 <Lenile> PornHUB ont leur propre équipe de Esport.
+2015-02-22T23:02:54 <Lenile> LEs compétition de Sport sont à 90% faites par Red Bull
+2015-02-22T23:03:11 <Lenile> La télévision quand tu la regarde, 10 minutes de série 5 minutes de pub puis 10 minutes de série
+2015-02-22T23:03:46 <adriens33> Je ne supporte pas la pub. Et tout linux ne se résume pas à Red Hat. Tu crois que les devs de debian se font des sous sur leur temps passé à la dev ? Sûrement pas.
+2015-02-22T23:04:10 <Lenile> Quand tu achète une figurine MLP t'a même la pub derrière pour les mec qui ont fait les figurines pour acheter les autres figurines
+2015-02-22T23:04:11 <adriens33> Et la télévision, c'est de la merde 99% du temps.
+2015-02-22T23:04:25 <adriens33> Et c'est pas un marketeux qui ira changer ce que je DÉCIDE de penser.
+2015-02-22T23:04:36 <Lenile> J'approuve pour la télévison j'ai arreterde regarder se truc depuis 2009
+2015-02-22T23:04:42 <adriens33> Va faire ta pub et gagner ton argent ailleurs.
+2015-02-22T23:04:53 <adriens33> *Ce
+2015-02-22T23:04:54 <Lenile> Et les mec sd e Debians sont peut etre les seuls à faire du libre
+2015-02-22T23:05:13 <adriens33> http://bescherelletamere.fr/
+2015-02-22T23:05:19 <Lenile> Mais la plus part du temps les logiciels libre gagnent de l'argent grace à la pub
+2015-02-22T23:05:29 <Lenile> Et quand Linux deviendra plus populaire il se passera quoi ?
+2015-02-22T23:05:31 <adriens33> (Debian est le seul au monde à faire du libre… lol.@
+2015-02-22T23:05:32 <adriens33> *)
+2015-02-22T23:05:39 <adriens33> il est mignon.
+2015-02-22T23:05:47 <Lenile> Si un jour Windaube se casse la gueule et que Linux reprend les rennes ?
+2015-02-22T23:05:50 <Lenile> Lol
+2015-02-22T23:06:02 <adriens33> Ce que tu dis est faux
+2015-02-22T23:06:03 <Lenile> Tes mecs de debians ont peut etre gagné de l'argent avec SteamOS qui sait
+2015-02-22T23:06:12 <adriens33> les LL ne gagnent pas de sous sur la pub
+2015-02-22T23:06:15 <adriens33> mais le support.
+2015-02-22T23:06:29 <Lenile> Peut etre que Valve les avais engagés our faire le Steam OS qui est payant sur machine Steam c:
+2015-02-22T23:06:31 <adriens33> Red Hat, que tu sembles tant idolatrer, ne colle pas de pub dans son système.
+2015-02-22T23:06:39 <adriens33> Il vent le support technique uniquement.
+2015-02-22T23:06:42 <adriens33> Incroyable, hein ? :D
+2015-02-22T23:06:52 <Lenile> J'idolatre pas c'est es seuls que je connais avec le SteamOS
+2015-02-22T23:07:11 <Lenile> J'suis pas Adrien qui connais tout sur tout et qui à un gros kiki
+2015-02-22T23:07:11 <adriens33> RedHat ne FAIT PAS de pub. Ce n'est pas son gagne pain.
+2015-02-22T23:07:15 <adriens33> C'est le support.
+2015-02-22T23:07:21 <Lenile> Bref.
+2015-02-22T23:07:25 <Lenile> Conversation de sourd.
+2015-02-22T23:07:32 <Lenile> Tes con comme un pot mon pauvre
+2015-02-22T23:07:33 *** Lenile est parti
+2015-02-22T23:07:38 <adriens33> Tu peux faire du libre, gagner de l'argent et ce, sans manipuler tes utilisateurs ou les vendre à des tiers.
+2015-02-22T23:07:42 <adriens33> Soit, ragequie.
+2015-02-22T23:07:46 <adriens33> *ragequit.
+2015-02-22T23:07:48 <adriens33> Rien à faire.
+2015-02-22T23:08:10 <adriens33> Et je ne suis pas "con".
+2015-02-22T23:08:17 <adriens33> Tu es insultant.
+2015-02-22T23:08:30 <adriens33> Alors que la seule chose que j'ai fait c'est avoir un point de vue différent du tien.
+2015-02-22T23:08:42 <adriens33> (à quoi bon s'égosiller, il ne lira même pas la log…)
+2015-02-22T23:09:18 <TrappyTickles> tfaçons,pub ou pas, jvais rester sur inkscape 0.48.5
+2015-02-22T23:09:45 <TrappyTickles> j'upload une vidéo qui montre ce qui m'arrive
+2015-02-22T23:11:15 <TrappyTickles> mais sinon oui j'avais remarqué pour sourceforge
+2015-02-22T23:11:30 <adriens33> TrappyTickles> Désolé que tu aies assisté à cela. Mais bon j'ai bien le droit d'avoir un point de vue différent d'un marketeux minable pour qui tout tourne autour de l'argent, ou c'est une tare inexcusable de penser par soi même ici ? parce que dans ce cas je vais me faire lobotomiser de ce pas.
+2015-02-22T23:11:48 <adriens33> (ou pas)
+2015-02-22T23:12:15 <TrappyTickles> tfaçons t'as raison pour le coup, c'est dégueu de mettre des pubs sur du libre
+2015-02-22T23:12:31 <adriens33> surtout que 99% des revenus dans le libre, c'est le support tech…
+2015-02-22T23:12:35 <TrappyTickles> et venant de sourceforge c'est navrant
+2015-02-22T23:12:44 <adriens33> il m'a servi le cliché n°1 de ceux qui n'y connaissent rien.
+2015-02-22T23:12:58 <adriens33> Et c'est moi le noob con comme un pot semi informaticien.
+2015-02-22T23:12:59 <TrappyTickles> heureusement ils font pas tous ça
+2015-02-22T23:13:06 <adriens33> J'ai envie de me plier de rire là, vois tu. :D
+2015-02-22T23:13:18 <TrappyTickles> inkscape le fait pas, c'est sur lol
+2015-02-22T23:13:25 <TrappyTickles> heh
+2015-02-22T23:13:31 <adriens33> Beh surtout que sur un logiciel libre c'est stupide
+2015-02-22T23:13:37 <adriens33> vu que tu peux le remove très facilement.
+2015-02-22T23:13:44 <adriens33> c'est contre nature.
+2015-02-22T23:13:48 <TrappyTickles> c'est contre nature je dirais
+2015-02-22T23:13:52 <TrappyTickles> lol
+2015-02-22T23:13:54 <adriens33> :D
+2015-02-22T23:14:19 <adriens33> Il aurait du aller dire ça sur #giroll, je pense qu'il se serait fait ban. :D
+2015-02-22T23:14:23 <TrappyTickles> bon jretourne au dessin en attendant l'upload
+2015-02-22T23:14:27 <adriens33> dommage qui strycore ne soit pas là
+2015-02-22T23:14:29 <TrappyTickles> lol
+2015-02-22T23:14:35 <adriens33> Ok, crayonne bien :D
+2015-02-22T23:15:54 <adriens33> Et si tu trouve des bugs, va les leur report, ça leur sera utile je pense ^^
+2015-02-22T23:16:37 <TrappyTickles> la vidéo montre bien
+2015-02-22T23:17:06 <TrappyTickles> mais c'est un truc tellement essentiel, ils doivent déjà savoir lol
+2015-02-22T23:17:40 <TrappyTickles> https://www.youtube.com/watch?v=mI1rSkXCjZQ tain j'arrive pas à me sortir cte version ^^
+2015-02-22T23:19:21 <adriens33> sympa :)
+2015-02-22T23:40:26 <TrappyTickles> epson me hait je crois
+2015-02-22T23:41:08 <adriens33> pk?
+2015-02-22T23:45:10 <TrappyTickles> mon imprimante refuse d'imprimer en réseau si l'encre couleur est presque finie
+2015-02-22T23:45:29 <TrappyTickles> même si c'est pour du noir et blanc,
+2015-02-22T23:45:43 <TrappyTickles> et elle imprime si c'est en local
+2015-02-22T23:47:05 <adriens33> c'est du caca epson
+2015-02-22T23:57:08 <TrappyTickles> depuis mon enfance les epson me haient
+2015-02-22T23:57:08 *** MaCharon est parti
