@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 init=${init-1404158760}
-file=old_logs/*
+file="old_logs/* ./#bronycub.log"
 tempo=${tempo-"0.095"}
 
 [ "$1" == "-h" ] && {
