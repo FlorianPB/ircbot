@@ -53,7 +53,7 @@ send_sec()
 	if [ "${string:0:7}" == "PRIVMSG" ]; then
 		after="$(echo "$string"|sed 's|PRIVMSG [^ ]* :\(.*\)$|\1|')"
 		if [ "${after:0:4}" == '\x01' ]; then
-			echo "$(date +%Y-%m-%dT%H:%M:%S) * Berry-Punch $(echo "$after"|sed 's|\\x01ACTION ||;s|\\x01$||')" >> "${logdir}/${logchan}.log"
+			echo "$(date +%Y-%m-%dT%H:%M:%S) * Berry-G33k $(echo "$after"|sed 's|\\x01ACTION ||;s|\\x01$||')" >> "${logdir}/${logchan}.log"
 		fi
 	fi
 }
@@ -72,10 +72,10 @@ send()
 		after="$(echo "$string"|sed 's|PRIVMSG [^ ]* :\(.*\)$|\1|')"
 		nb=$((1+$(echo "$after"|grep -o " "|wc -l)))
 		nb=$((1+$RANDOM%$nb));
-		after="$(echo "$after"|cut -d" " -f1-$nb) *hic* $(echo "$after"|cut -d" " -f$(($nb+1))-)"
+		after="$(echo "$after"|cut -d" " -f1-$nb) *hoc* $(echo "$after"|cut -d" " -f$(($nb+1))-)"
 		string="${before}${after}"
 
-		echo "$(date +%Y-%m-%dT%H:%M:%S) <Berry-Punch> $after" >> "$logdir/${logchan}.log"
+		echo "$(date +%Y-%m-%dT%H:%M:%S) <Berry-G33k> $after" >> "$logdir/${logchan}.log"
 	fi
 
 	# Et on envoie le texte ensuite (pour de vrai cette fois)

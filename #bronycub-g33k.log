@@ -25,3 +25,61 @@
 2015-03-10T12:37:48 <heuzef> Remplace les *hic* par des *hoc* xD
 2015-03-10T12:37:52 <adriens33> XDD
 2015-03-10T12:38:56 <adriens33> !reload
+2015-03-10T12:40:50 <adriens33> voilà
+2015-03-10T12:40:55 <adriens33> branche berry-g33k
+2015-03-10T12:47:36 *** nutinrseu s'est connecté
+2015-03-10T12:48:29 *** nutinrseu est parti
+2015-03-10T12:49:32 <adriens33> heuzef> http://www.art-software.fr/bronycub/accueil.php
+2015-03-10T12:49:35 <adriens33> qu'en dis-tu ?
+2015-03-10T12:49:43 <adriens33> (tab « Tchat IRC »(
+2015-03-10T12:49:45 <adriens33> *)
+2015-03-10T12:51:20 <heuzef> Tu pourrais supprimer "ou de « trucs de geek »" et mettre un point à la fin de la phrase
+2015-03-10T12:51:26 <heuzef> après me semble pas mal ouais
+2015-03-10T12:51:30 <adriens33> ok
+2015-03-10T12:52:26 *** TrappyTickles s'est connecté
+2015-03-10T12:52:31 <adriens33> Yo TrappyTickles
+2015-03-10T12:52:34 <adriens33> :D
+2015-03-10T12:52:37 <adriens33> heuzef> là c'est bon ?
+2015-03-10T12:52:37 <TrappyTickles> re ^^
+2015-03-10T12:52:54 <adriens33> as-tu autre chose que tu penses que je devrais y ajouter heuzef ?
+2015-03-10T12:53:07 <adriens33> tiens, je me suis planté sur le topic.
+2015-03-10T12:53:10 <adriens33> j'ai écrit trool
+2015-03-10T12:53:20 <TrappyTickles> troolooloo
+2015-03-10T12:53:31 <TrappyTickles> la nouvelle recrue des cmc
+2015-03-10T12:53:42 <adriens33> !op adriens33
+2015-03-10T12:53:49 <adriens33> !deop adriens33
+2015-03-10T12:54:06 <heuzef> adriens33 c'est bon mais je veux bien que tu mette ça dans une div alert-info
+2015-03-10T12:54:06 <heuzef> <div class="alert alert-dismissible alert-info">
+2015-03-10T12:54:18 <adriens33> ok
+2015-03-10T12:55:24 <adriens33> ah d'accord.
+2015-03-10T12:55:28 <adriens33> c'est bien mieux en effet
+2015-03-10T12:55:35 <adriens33> merci pour le tuyau ;)
+2015-03-10T12:58:31 <adriens33> !op adriens33
+2015-03-10T12:59:00 <adriens33> !deop adriens33
+2015-03-10T12:59:11 <TrappyTickles> sinon un truc trop fort que j'ai découvert avec arch ^^
+2015-03-10T12:59:20 <TrappyTickles> pour démarrer :p
+2015-03-10T12:59:23 <adriens33> oui ?K
+2015-03-10T12:59:24 <adriens33> :D
+2015-03-10T13:00:02 <adriens33> (les logs seront commités dans la branche bronycub-g33K, et j'ai modifié le topic pour ajouter le log du jour, comme sur le canal principal
+2015-03-10T13:00:05 <adriens33> ()
+2015-03-10T13:00:15 <TrappyTickles> sur ubuntu j'ai toujours du chopper un client secondlife sur leurs sites, avec un tar à extraire
+2015-03-10T13:00:32 <adriens33> d'accord
+2015-03-10T13:00:40 <adriens33> pas de package donc
+2015-03-10T13:00:46 <TrappyTickles> là, non seulement jle trouve direct sur yaourt mais en + j'ai du choix! ^^
+2015-03-10T13:00:52 <adriens33> cool =D
+2015-03-10T13:00:55 <adriens33> et au pire
+2015-03-10T13:01:07 <adriens33> les PKGBUILD c'est waaaay more simpler à faire qu'un .deb.
+2015-03-10T13:01:29 <adriens33> t'as juste un fichier à écrire et makepkg =3 (et c'est pas comme si AUR était bourré d'exemples)
+2015-03-10T13:01:35 <TrappyTickles> clair, j'avais essayé un deb une fois :p
+2015-03-10T13:01:39 <adriens33> moi aussi
+2015-03-10T13:01:42 <adriens33> j'ai abandonné
+2015-03-10T13:01:48 <TrappyTickles> pareil lol
+2015-03-10T13:02:10 <TrappyTickles> tandis qu'un pkgbuild ça a l'air clair a coder
+2015-03-10T13:02:18 <TrappyTickles> enfin a scripter
+2015-03-10T13:02:20 <adriens33> bah à la base c'est du shellscript en fait XD
+2015-03-10T13:02:31 <TrappyTickles> ui
+2015-03-10T13:02:38 <adriens33> (makepkg étant lui-même un script bash)
+2015-03-10T13:02:46 <adriens33> (comme yaourt :P)
+2015-03-10T13:02:58 <adriens33> (mais bon yaourt c'est juste un wrapper pacman)
+2015-03-10T13:03:18 <TrappyTickles> faudra voir si jpeux faire des pack aur pour mes vn sur renpy
+2015-03-10T13:04:08 <adriens33> heuzef> j'ai commité ma modif sur le guide d'accueil
