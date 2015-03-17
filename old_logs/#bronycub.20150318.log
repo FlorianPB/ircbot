@@ -1,0 +1,594 @@
+2015-03-17T00:00:57 *** Fidzu est parti
+2015-03-17T00:04:09 <adriens33> bonne période de récupération nocturne
+2015-03-17T03:27:53 *** adriens33 est parti
+2015-03-17T03:37:14 *** MaCharon est parti
+2015-03-17T05:12:29 *** Jinxypie est parti
+2015-03-17T05:12:48 *** Jinxypie s'est connecté
+2015-03-17T07:06:52 *** Fidzu s'est connecté
+2015-03-17T08:45:15 *** adriens33 s'est connecté
+2015-03-17T08:45:52 <adriens33> hello
+2015-03-17T08:52:28 *** Gordfang s'est connecté
+2015-03-17T08:54:03 <adriens33> salut Gordfang ^^
+2015-03-17T08:57:48 <Gordfang> salut ^^
+2015-03-17T09:05:04 <adriens33> comment va ?
+2015-03-17T09:10:20 *** Shinsaber s'est connecté
+2015-03-17T09:11:44 <Shinsaber> salut /)
+2015-03-17T09:12:27 <adriens33> yo Shinsaber
+2015-03-17T09:12:33 <adriens33> comment va ?
+2015-03-17T09:12:41 <adriens33> (× 2 :þ)
+2015-03-17T09:20:00 <Shinsaber> moi sa va quant le soleil refais surface ^^ and you ?
+2015-03-17T09:21:30 <adriens33> ça peut aller
+2015-03-17T09:23:13 *** wildfier s'est connecté
+2015-03-17T09:23:17 *** wildfier est parti
+2015-03-17T09:24:34 *** wildfier s'est connecté
+2015-03-17T09:24:41 <wildfier> salut les gens
+2015-03-17T09:25:03 <Shinsaber> salut wildfier
+2015-03-17T09:28:01 *** heuzef s'est connecté
+2015-03-17T09:29:01 *** heuzef est parti
+2015-03-17T09:29:04 <adriens33> for i in ["wildfier","heuzef"]:n    print("Salut " + i)
+2015-03-17T09:29:20 *** heuzef s'est connecté
+2015-03-17T09:29:20 <Fidzu> Lu
+2015-03-17T09:29:24 <heuzef> plop
+2015-03-17T09:30:43 <Fidzu> Ploo
+2015-03-17T09:32:03 *** heuzef1 s'est connecté
+2015-03-17T09:33:59 *** heuzef est parti
+2015-03-17T09:57:14 *** heuzef1 est parti
+2015-03-17T09:57:31 *** TrappyTickles s'est connecté
+2015-03-17T10:02:52 <adriens33> yo trappy
+2015-03-17T10:10:24 <Fidzu> Trappy ne repond pas.
+2015-03-17T10:10:31 <Fidzu> Fermer le programme ?
+2015-03-17T10:17:52 <adriens33> killall -KILL Trappy c'est plus efficace
+2015-03-17T10:18:17 <adriens33> (et moins windows-esque)
+2015-03-17T10:19:13 *** adriens33 est parti
+2015-03-17T10:32:33 <TrappyTickles> je suis pas toujours devant le pc
+2015-03-17T10:33:22 <TrappyTickles> qui va a giroll et au qg ce soir?
+2015-03-17T10:33:36 <Shinsaber> normalement moi ^^
+2015-03-17T10:33:40 <Shinsaber> comme dab
+2015-03-17T10:35:42 <wildfier> moi aussi
+2015-03-17T10:35:56 <wildfier> je sais pas pour le qg par contre
+2015-03-17T10:36:07 <wildfier> j'imagine que ça se décidera sur le moment ^^
+2015-03-17T10:40:47 <Shinsaber> on a un épisode de gravity falls à regarder, sa va pas le motiver XD
+2015-03-17T10:41:02 <TrappyTickles> ce sera fun pour la st pat ^^
+2015-03-17T10:43:44 <wildfier> ^^
+2015-03-17T10:43:59 <wildfier> bas pour 20 min on peut le matter au calice au pire
+2015-03-17T10:44:55 <wildfier> ça fait commencer le jeu de société vers 9h et des poussières ^^
+2015-03-17T10:45:32 <wildfier> (parce que bien évidemment j'ai récuppéré l'ep ^^)
+2015-03-17T10:46:12 <Shinsaber> ^^
+2015-03-17T11:08:16 *** heuzef s'est connecté
+2015-03-17T11:26:36 <wildfier> j'ai envie de mourrir
+2015-03-17T11:27:05 <heuzef> Zut
+2015-03-17T11:27:20 <wildfier> plus je creuse le fonctionnement du truc que je dois modifier au travail, plus je trouve ça abérant, stupide et horrible
+2015-03-17T11:27:20 * heuzef donne une Plume de phénix à Wildefier
+2015-03-17T11:27:51 <wildfier> et moins je me dis que les changements que je dois faire sont faisable …
+2015-03-17T11:28:17 <Shinsaber> ses une apli zend ?? ^^
+2015-03-17T11:28:22 <Fidzu> Tu fais quoi ?
+2015-03-17T11:29:21 <wildfier> je dois modifier un site web ultra mal codé
+2015-03-17T11:30:36 <Fidzu> Ah
+2015-03-17T11:34:12 <wildfier> et plus j'avance dans le code, plus je tombe des nues
+2015-03-17T11:34:51 <Shinsaber> c'est avec un framwork ou c'est du from scratch ??
+2015-03-17T11:36:14 <Fidzu> Framwork cest depuis un modèle ?
+2015-03-17T11:36:37 <Shinsaber> on peut dire ^^
+2015-03-17T11:37:16 <Shinsaber> c'est une base pour simplifier le codage et uniformiser un peut tous ^^
+2015-03-17T11:39:37 *** heuzef est parti
+2015-03-17T11:47:57 *** Gordfang est parti
+2015-03-17T12:02:01 <wildfier> c'est avec Zend
+2015-03-17T12:02:20 <wildfier> mais y a eu 40 boites différentes sur le projet
+2015-03-17T12:02:24 <wildfier> et pas de refactor
+2015-03-17T12:03:44 <Shinsaber> oula, sa dois piquée les yeux !
+2015-03-17T12:03:46 <wildfier> donc couches après couches de trucs stupides et fondamentalement fragiles sont empilés pour former cette bouze (comment ça tu sens de la frustration dans mes propos ? je vois pas de quoi tu veux parler ^^)
+2015-03-17T12:04:03 <wildfier> oh oui ça pique les yeux
+2015-03-17T12:04:22 <wildfier> et ça poignarde aussi ton âme !
+2015-03-17T12:04:27 <wildfier> mouhahaha …
+2015-03-17T12:15:33 <Shinsaber> bon je vais commencée a réfléchir pour manger, je vous dit à tout a leurs !
+2015-03-17T12:15:38 *** Shinsaber est parti
+2015-03-17T12:28:56 *** wildfier est parti
+2015-03-17T13:48:59 *** heuzef s'est connecté
+2015-03-17T13:54:02 *** wildfier s'est connecté
+2015-03-17T13:54:10 <wildfier> re
+2015-03-17T13:56:24 *** Shinsaber s'est connecté
+2015-03-17T13:56:38 <Shinsaber> re/bonjour le peuple
+2015-03-17T13:56:56 <heuzef> re =)
+2015-03-17T13:58:15 *** adriens33 s'est connecté
+2015-03-17T13:58:19 <adriens33> coucou tout le monde ^^
+2015-03-17T13:58:54 <Shinsaber> salut adriens33
+2015-03-17T14:00:12 <heuzef> wildfier ce soir à Giroll sur le pied de guerre ? =)
+2015-03-17T14:00:16 <adriens33> comment va ?
+2015-03-17T14:00:35 *** Shinsaber est parti
+2015-03-17T14:00:45 <adriens33> moi je sais pas si je pourrai venir ce soir, je pourrai pas etre la avant 19h en tout cas désolé :/
+2015-03-17T14:01:00 <heuzef> no souci
+2015-03-17T14:01:13 *** Shinsaber s'est connecté
+2015-03-17T14:01:21 <adriens33> pour une fois que tu viens c'est pas de pot XD
+2015-03-17T14:01:37 <heuzef> sorry
+2015-03-17T14:01:51 <heuzef> et pourtant je deserte l'aïkido complétement depuis quelques mois :(
+2015-03-17T14:01:58 <adriens33> ah ? pk ça ? :/
+2015-03-17T14:02:45 <heuzef> Motivation et Matrimoniale principalement
+2015-03-17T14:03:09 <adriens33> ah
+2015-03-17T14:03:22 <heuzef> 2 facteurs qui m'ont fait perdre le rythme et c'est l'enfer pour s'y remettre
+2015-03-17T14:03:34 <heuzef> Surtout que Physiquement je dois plus suivre maintenant
+2015-03-17T14:03:40 <heuzef> Et j'ai grave pris du bide
+2015-03-17T14:05:10 <wildfier> heuzef: oui ^^
+2015-03-17T14:05:19 <heuzef> Cool
+2015-03-17T14:05:21 <adriens33> faut pas se laisser aller, c'est pas bien :P
+2015-03-17T14:05:28 <heuzef> On va mettre un gros coup de boost au projet
+2015-03-17T14:05:57 <wildfier> houla
+2015-03-17T14:06:40 <wildfier> je viens de rattraper la conv et je viens de me rendre compte que le oui pouvait être compris comme "oui heuzef, t'as pris du bide"
+2015-03-17T14:06:48 <adriens33> XDD
+2015-03-17T14:06:55 <adriens33> super bien placé anéfé
+2015-03-17T14:07:00 <heuzef> ^^
+2015-03-17T14:07:00 <adriens33> bravo wildfier /)
+2015-03-17T14:07:08 <wildfier> je ferais mieux de lire jusqu'au bout avant de répondre moi ^^
+2015-03-17T14:07:18 <adriens33> ça mérite d'aller sur dtc :D
+2015-03-17T14:07:24 <adriens33> (mais flemme)
+2015-03-17T14:07:27 <heuzef> J'avais bien compris le quiproquo pas de souci
+2015-03-17T14:32:15 *** Shinsaber est parti
+2015-03-17T14:32:57 *** Shinsaber s'est connecté
+2015-03-17T14:38:30 *** Shinsaber est parti
+2015-03-17T14:58:39 *** Shinsaber s'est connecté
+2015-03-17T15:17:19 *** Fidzu est parti
+2015-03-17T15:18:25 *** Fidzu s'est connecté
+2015-03-17T15:22:55 <Fidzu> Re
+2015-03-17T15:33:34 <Jinxypie> https://www.youtube.com/watch?v=XfY9Dsg_DZk&feature=youtu.be
+2015-03-17T15:36:02 <Fidzu> C'est meugnon
+2015-03-17T15:45:13 *** Fidzu est parti
+2015-03-17T15:45:40 *** Fidzu s'est connecté
+2015-03-17T16:29:16 *** adriens33 est parti
+2015-03-17T16:32:12 *** MaCharon s'est connecté
+2015-03-17T16:32:40 <MaCharon> salut tt le monde
+2015-03-17T16:32:53 <TrappyTickles> trop bien, le tram a enfin été rallongé en bas de chez moi, plus de bus a prendre pour giroll ou le qg ^^
+2015-03-17T16:32:58 <TrappyTickles> oi
+2015-03-17T16:33:57 <Shinsaber> salut
+2015-03-17T16:34:45 <Shinsaber> c'est quel ligne de tram TrappyTickles ??
+2015-03-17T16:34:45 <heuzef> :D
+2015-03-17T16:34:51 <TrappyTickles> C
+2015-03-17T16:34:52 <heuzef> C il me semble
+2015-03-17T16:35:18 <TrappyTickles> pour giroll ça fait un peu de marche mais moins qu'avant pour moi ^^
+2015-03-17T16:35:26 <Shinsaber> du coup si c'est bien la ou je pence je suis intéresser ^^
+2015-03-17T16:35:58 <TrappyTickles> le C s'arrête a porte de bourgogne, a qques mètres du qg
+2015-03-17T16:37:00 <Shinsaber> il c'est allonger direction Villenave d’Ornon ou pas ?? ^^
+2015-03-17T16:37:55 <TrappyTickles> oui, au niveau du lycée vaclav havel
+2015-03-17T16:38:39 <Shinsaber> car la je taf sur Villenave d’Ornon donc sa sera cool pour aller au taf !
+2015-03-17T16:39:27 <TrappyTickles> http://www.infotbc.com/sites/default/files/ABRIBUS_SEMI_SCHEMA_FEV2015_WEB.pdf vois par toi même ^^
+2015-03-17T16:41:08 <wildfier> il va assez loin Shinsaber ?
+2015-03-17T16:41:32 <wildfier> (parce que moi aussi ça m'intéresse comme info ^^)
+2015-03-17T16:44:03 *** heuzef est parti
+2015-03-17T16:44:15 *** heuzef s'est connecté
+2015-03-17T16:44:38 <Shinsaber> avec la ralonge du tram je passe de 1h50 de tram a 1h05 ^^
+2015-03-17T16:44:47 <Shinsaber> j'aime la voitur
+2015-03-17T16:45:39 <heuzef> lol
+2015-03-17T16:45:44 <heuzef> Le tram c'est nul OK
+2015-03-17T16:45:56 <heuzef> Mais ça ce voit que t'as jamais de bagnole sur les bras !
+2015-03-17T16:46:04 <Shinsaber> non c'est cool mais que dans le centre ^^
+2015-03-17T16:47:13 <Fidzu> Shinsaber tu taf ou a  villenave ?
+2015-03-17T16:47:37 <heuzef> ça se passe comment d'ailleur avec l'amis Benoît ? =)
+2015-03-17T16:48:11 <Shinsaber> benoit est au Québec cette semaine ^^
+2015-03-17T16:48:36 <Shinsaber> Fidzu: je suis a la pépinière d'entreprise !
+2015-03-17T16:48:58 <Fidzu> C'est où ?
+2015-03-17T16:50:01 <Shinsaber> avenue du Général de Castelnau
+2015-03-17T16:50:05 <wildfier> Shinsaber: ça c'est si tu pars de cenon garre, mais si tu part disons d'hotel de ville ?
+2015-03-17T16:53:15 <wildfier> genre si on se prend une colloc le long de la ligne C
+2015-03-17T16:53:17 <Shinsaber> wildfier: 56 min depuis Hôtel de Ville via le bus 15 ^^
+2015-03-17T16:53:20 <wildfier> ça vaut ptet le coup
+2015-03-17T16:54:51 <wildfier> bon après, c'est sur ça fait faire une grande partie de la ligne C …
+2015-03-17T17:16:25 *** TrappyTickles est parti
+2015-03-17T17:22:12 <Shinsaber> bon moi je vais bientôt débauchée, je vous dit a plus /)
+2015-03-17T17:22:18 *** Shinsaber est parti
+2015-03-17T17:25:09 <heuzef> a toute /)
+2015-03-17T17:31:12 *** ELiDYROS s'est connecté
+2015-03-17T17:33:52 <ELiDYROS> Bonsoir
+2015-03-17T17:37:55 <wildfier> salut
+2015-03-17T17:41:38 *** heuzef1 s'est connecté
+2015-03-17T17:41:47 <wildfier> je pette un cable sur des trucs chiants au taf
+2015-03-17T17:41:56 <wildfier> j'allais rage quit
+2015-03-17T17:41:57 <wildfier> et là
+2015-03-17T17:42:09 <heuzef1> Dans combien de temps tu go à giroll ?
+2015-03-17T17:42:11 <ELiDYROS> Bonsoir wildfier
+2015-03-17T17:42:17 <wildfier> epic rock radio (la radio que j'écoute)
+2015-03-17T17:42:22 <wildfier> passe du dream theater
+2015-03-17T17:42:26 <wildfier> merci bro
+2015-03-17T17:42:28 <wildfier> ^^
+2015-03-17T17:42:49 <wildfier> bas j'y serais pour 6h 30 heuzef1
+2015-03-17T17:43:05 <heuzef1> ok
+2015-03-17T17:43:33 <wildfier> la musique qui m'empèche de devenir fou ^^ …
+2015-03-17T17:43:35 *** heuzef est parti
+2015-03-17T17:47:11 <ELiDYROS> wildfier, ça te dérange si le weekend y a d'autres gens ?
+2015-03-17T17:51:06 <wildfier> oui, et notre tête à tête sur bloodborne ? (pout)
+2015-03-17T17:51:09 <wildfier> XD non je dec
+2015-03-17T17:51:12 <wildfier> pas de soucis
+2015-03-17T17:55:02 <ELiDYROS> Eheh
+2015-03-17T17:58:37 <wildfier> bon, je déco
+2015-03-17T17:58:40 <wildfier> à tte heuzef
+2015-03-17T17:58:46 *** wildfier est parti
+2015-03-17T18:27:04 *** heuzef est parti
+2015-03-17T18:27:16 *** Fidzu1 s'est connecté
+2015-03-17T18:27:48 <Fidzu1> Qu'est ce que giroll ?
+2015-03-17T18:29:14 *** Fidzu1 est parti
+2015-03-17T18:30:03 *** Fidzu est parti
+2015-03-17T18:49:19 *** Fidzu s'est connecté
+2015-03-17T19:31:48 *** heuzef s'est connecté
+2015-03-17T19:32:04 <heuzef> Fidzu:
+2015-03-17T19:32:13 <heuzef> Giroll est un collectif d'informaticien
+2015-03-17T19:32:13 <Fidzu> oui ?
+2015-03-17T19:32:18 <Fidzu> ah oui
+2015-03-17T19:32:20 <heuzef> www.giroll.org
+2015-03-17T19:32:21 <Fidzu> c'est vrai
+2015-03-17T19:32:50 <heuzef> Etant donné que s'est infesté de Brony là ba on est en lien direct
+2015-03-17T19:33:06 <Fidzu> ah bon ?
+2015-03-17T19:33:07 <heuzef> Mais faut s'avoir que j'été membre de Giroll bien avant la création de bronyCUB ;)
+2015-03-17T19:33:11 <Fidzu> c'est cool XD
+2015-03-17T19:34:28 <Fidzu> ducoup c'est le QG numero 2 ^^
+2015-03-17T19:37:01 *** adriens33 s'est connecté
+2015-03-17T19:37:09 <adriens33> reuh
+2015-03-17T19:37:42 <Fidzu> heuzef> au fait, tu sais quelqu'un avais parlé de se regrouper pour la sortie de la saison 5
+2015-03-17T19:38:42 *** Fidzu est parti
+2015-03-17T19:39:06 *** Fidzu s'est connecté
+2015-03-17T19:39:25 <Fidzu> mais ils ont changés de traducteurs et ils ne savent pas si ils sont aussi efficaces que les precedents
+2015-03-17T19:39:28 <adriens33> ça serait pas mal ça, de faire un meetup pour le début de la s5, pour se la regarder tous ensemble
+2015-03-17T19:39:47 *** MaCharon est parti
+2015-03-17T19:39:53 <Jinxypie> traducteurs ?
+2015-03-17T19:39:55 <Fidzu> donc le problem c'est que si on organise un meet up au calice pour le regarder mais que la version vostfr n'est pas sorti .. c'est pas cool
+2015-03-17T19:40:11 <Jinxypie> osef des sous-titres.
+2015-03-17T19:40:59 <adriens33> Jinxypie> XD
+2015-03-17T19:41:16 <adriens33> y'a des gens qui pigent pas forcément l'anglais assez bien pour
+2015-03-17T19:41:25 <adriens33> (moi ça me gene pas)
+2015-03-17T19:41:41 <Jinxypie> Vas pas me sortir que l'anglais utilisé dans mlp est dur à piger.
+2015-03-17T19:42:04 <Jinxypie> (c'est même une des raisons du succès international)
+2015-03-17T19:42:46 <adriens33> non jai pas dit ça XD
+2015-03-17T19:43:07 <adriens33> j'ai dit que tout le monde a pas le meme niveau de compréhension tout simplement :P
+2015-03-17T19:43:19 *** heuzef est parti
+2015-03-17T19:44:02 <Jinxypie> Tain il me font marrer les libristes
+2015-03-17T19:44:23 <Jinxypie> 90% vendent leur cul quand on leur propose de leur racheter une technologie qu'ils ont pondus.
+2015-03-17T19:44:31 *** heuzef s'est connecté
+2015-03-17T19:45:01 <adriens33> euhh
+2015-03-17T19:45:03 <Jinxypie> Reste 10% dont c'est vraiment l'idée, mais ils sont noyés dans la masse.
+2015-03-17T19:45:04 <adriens33> ou pas
+2015-03-17T19:45:18 <adriens33> de quoi tu cause ?
+2015-03-17T19:45:51 <Jinxypie> D'un fail canal
+2015-03-17T19:46:16 <adriens33> mouai.
+2015-03-17T19:46:33 <adriens33> va dire ça sur #giroll, histoire d'y mettre de l'animation XD
+2015-03-17T19:46:49 <Jinxypie> Avec quelques potes on est entrain de se marrer en voyant que les trois devs d'une technologie opensource viennent d'être embauchés par google.
+2015-03-17T19:48:14 <Jinxypie> Attends, je vois si j'ai pas un modo sous la main pour t'add en whitelist que tu puisses venir causer avec nous ^^
+2015-03-17T19:49:24 <adriens33> faut pas généraliser pour un cas hein XD
+2015-03-17T19:49:35 <adriens33> (et opensource ≠ libre…)
+2015-03-17T19:49:51 <Fidzu> Jinxypie adriens33 oui c'est sur osef des sous titres mais le but d'un event, c'est qu'un max de personnes puissent y participer, meme les moins anglophones d'entre nous.
+2015-03-17T19:50:11 <Fidzu> c'est sur après on pourrais quand meme le faire, il y aurais du monde.
+2015-03-17T19:50:23 <Jinxypie> Tu connais un bronie pas suffisement anglophone pour piger un épisode d'mlp ?
+2015-03-17T19:50:31 <Fidzu> Jinxypie: les 'jeunes'
+2015-03-17T19:50:37 <adriens33> c'est pour ça que je dis que les sous titres c'est bien
+2015-03-17T19:51:00 <Jinxypie> Fidzu, déconnes pas, j'avais le niveau suffisant pour comprendre un épisode d'mlp à 6ans...
+2015-03-17T19:51:50 <Fidzu> bon ben dans ce cas, il faudras creer l'event pour le 4 au calice
+2015-03-17T19:52:02 <Fidzu> mais quand meme preciser dans le mail qu'il n'y auras que la vo
+2015-03-17T19:52:16 <adriens33> Jinxypie> tout le monde n'est pas toi
+2015-03-17T19:52:23 <Fidzu> sauf si cette nouvelle equipe de traductos se magne et fais la vostfr en 1H ^^
+2015-03-17T19:52:37 <Jinxypie> adriens33, si tout le monde était moi on se marrerait vachement plus.
+2015-03-17T19:52:55 <Fidzu> XD
+2015-03-17T19:53:15 <adriens33> euh… ou pas
+2015-03-17T19:53:32 <Fidzu> BON DUCOUP
+2015-03-17T19:53:41 <adriens33> déjà techniquement pour baiser ça serait moins fun je pense XD
+2015-03-17T19:53:42 <Fidzu> vous pensez que ca ne sert a rien d'attendre la vostfr ?
+2015-03-17T19:53:57 <Jinxypie> adriens33, je parlais caractère, pas physique
+2015-03-17T19:54:02 <adriens33> ouai.. XD
+2015-03-17T19:54:06 <adriens33> bah précise.
+2015-03-17T19:54:14 <Jinxypie> Et globalement tu serais entouré de nymphos ^^
+2015-03-17T19:54:47 <adriens33> [pegi 18]
+2015-03-17T19:55:09 <Fidzu> c'est cool Shinsaber taf a 5 min de chez moi ^^
+2015-03-17T19:57:49 *** Fidzu est parti
+2015-03-17T19:58:02 *** Fidzu s'est connecté
+2015-03-17T19:58:42 <Fidzu> Dans ce cas, je vais voir avec d'autres monsieur et si tout est ok, je creerais l'event
+2015-03-17T20:30:03 *** heuzef est parti
+2015-03-17T21:28:38 *** Jonquille s'est connecté
+2015-03-17T21:30:24 <ELiDYROS> re
+2015-03-17T21:30:28 <ELiDYROS> j'ai loupé quoi ?
+2015-03-17T21:31:56 <ELiDYROS> Vous cherchez vraiment des traducteurs pour mlp ? Perso je pense être relativement bilingue, voir quadrilingue dans une moindre mesure
+2015-03-17T21:33:06 *** Jonquille est parti
+2015-03-17T21:35:35 <Fidzu> nan on cherche pas des traducteurs, on cherchais juste a savoir si c'est pas grave qu'il n'y ai las la stfr si on fais un meet up le 4
+2015-03-17T21:36:01 <Fidzu> ELiDYROS: c'est que la nlr a changé de traducteurs donc on sais pas si ils sont bon ou pas ..
+2015-03-17T21:36:44 <ELiDYROS> Perso j'ai toujours regardé sans sous titre donc je peux pas dire
+2015-03-17T21:37:34 <Fidzu> moi avec parce parce qu'il y avait des expressions, des mots ou des jeu de mots que je comprenais pas defois
+2015-03-17T21:37:48 <Fidzu> ou alors en vosten
+2015-03-17T21:38:45 <Fidzu> je ferais le mail demain pour le meet up.
+2015-03-17T21:39:15 <ELiDYROS> ok
+2015-03-17T21:39:47 <ELiDYROS> amuse-toi bien
+2015-03-17T21:40:27 <Fidzu> je serais pas tout seul
+2015-03-17T21:40:37 <ELiDYROS> amusez-vous bien alors
+2015-03-17T21:40:49 <Fidzu> merci XD
+2015-03-17T21:44:03 *** Jonquille s'est connecté
+2015-03-17T21:46:24 *** Jonquille est parti
+2015-03-17T22:42:55 *** heuzef s'est connecté
+2015-03-17T22:43:35 <heuzef> Zut j'arrive après la guerre :(
+2015-03-17T22:47:15 <heuzef> Concernant les sous-titres je vous conseil de voir ça avec trappy
+2015-03-17T22:47:33 <heuzef> C'est ZE traducteur FR il connais toutes les ficelles
+2015-03-17T22:47:50 <heuzef> Je sais qu'il peu nous garantir la VOSTFR de la S5 en 48h
+2015-03-17T22:47:57 <heuzef> Mais hélas c'est 48h de trop :D
+2015-03-17T22:48:16 <Fidzu> oui ^^
+2015-03-17T22:48:44 <heuzef> J'aimerais vraiment que valentin se manifest pour le live
+2015-03-17T22:48:55 <heuzef> Mais c'est pas gagné puisqu'il est en plein déménagement :(
+2015-03-17T22:49:01 <Fidzu> pour le 4 ?
+2015-03-17T22:49:04 <heuzef> oui
+2015-03-17T22:49:12 <Fidzu> demain avec elvon on va faire le mail
+2015-03-17T22:49:35 <Fidzu> ce serais bvien qu'il y ai un max de monde
+2015-03-17T22:49:44 <Fidzu> c'est quand meme un event important
+2015-03-17T22:50:09 <heuzef> Ba oui mais l'idée c'est pas de le faire au calice je pense
+2015-03-17T22:50:27 <Fidzu> pourquoi ?
+2015-03-17T22:50:45 <Fidzu> il m'a dit qu'il va voir avec gaby pour le 4 si c'est possible
+2015-03-17T22:50:47 <heuzef> Nous faut grand écran + grand endroit + gros débit
+2015-03-17T22:51:01 <heuzef> On à juste le grand ecran au calice
+2015-03-17T22:51:39 <Fidzu> ouai ... mais faut trouver quelqu'un qui veuille bien faire rentrer plein de brony tout fou chez lui
+2015-03-17T22:51:52 <heuzef> Mais en tous cas c'est sur, il faut remuer un peu les gens
+2015-03-17T22:52:01 <heuzef> Ba l'année dernière chez valentin c'est perfect
+2015-03-17T22:52:08 <heuzef> mais il à changer de colloc entre temps
+2015-03-17T22:52:19 <Fidzu> pseudo de valentin ?
+2015-03-17T22:52:23 <heuzef> et apparement il savant pas ce que s'est des brony
+2015-03-17T22:52:39 <heuzef> Yolteotl
+2015-03-17T22:52:45 <Fidzu> mmh connais pas
+2015-03-17T22:52:58 <heuzef> Il fait parti des très discret
+2015-03-17T22:53:02 <heuzef> voir furtif ^^
+2015-03-17T22:53:31 <Fidzu> ninja !
+2015-03-17T22:53:52 <heuzef> Le genre de mec tellement Brony qu'il est à toutes les conventions du monde avec tous les goodies du monde à l'affu de la moindre news
+2015-03-17T22:53:59 <heuzef> Mais en mode ninja ouais
+2015-03-17T22:54:26 <Fidzu> je l'aime !
+2015-03-17T22:55:30 <heuzef> Bon dans tous les il faut mettre un coup de pied dans la fourmillière
+2015-03-17T22:55:46 <Fidzu> on va s'en charger
+2015-03-17T22:56:00 <Fidzu> mais peu de gens look leurs mail aussi ...
+2015-03-17T22:57:47 <heuzef> Tu connais un autres moyen ?
+2015-03-17T22:57:55 <Fidzu> mmh
+2015-03-17T22:57:58 <Fidzu> phone ? XD
+2015-03-17T22:58:16 <heuzef> :/ Ok
+2015-03-17T22:58:40 <heuzef> L'objectif c'est de réunir les 65 membres du collectif ? :D
+2015-03-17T22:59:00 <heuzef> Je te file les 65 n° de tel et tu les appels ? :D
+2015-03-17T22:59:07 <Fidzu> mdr
+2015-03-17T22:59:17 <Fidzu> j'envoi un sms a tous et puis basta XD
+2015-03-17T22:59:31 <heuzef> un SMS ? Plus efficace que le mail ? :)
+2015-03-17T22:59:33 <Fidzu> en disant bien: NE PAS REPONDRE MERCI !
+2015-03-17T23:08:15 *** heuzef est parti
+2015-03-17T23:16:54 <adriens33> "il faut mettre un coup de pied dans la fourmillière"
+2015-03-17T23:17:07 <adriens33> appeler tt le monde ?
+2015-03-17T23:17:16 <adriens33> pas sur que ce soit une bonne idée.
+2015-03-17T23:17:16 <Jinxypie> ?
+2015-03-17T23:17:36 <adriens33> (oui j'arrive un quart d'heure en retard, je pionçais)
+2015-03-17T23:18:07 <adriens33> si les gens se bougent pas quand on envoie un mail
+2015-03-17T23:18:12 <Jinxypie> ah t'étais en veille ?
+2015-03-17T23:18:13 <adriens33> c'est qu'ils n'en ont pas envie.
+2015-03-17T23:18:22 <adriens33> donc les harceler par téléphone
+2015-03-17T23:18:34 <adriens33> ne fera que leur donner envie de se barer loin du téléphone.
+2015-03-17T23:18:45 <adriens33> pas de venir.
+2015-03-17T23:18:59 <adriens33> moins qqn répond et plus tu le sollicites
+2015-03-17T23:19:08 <adriens33> et plus tu le sollicites moins il a envie de répondre.
+2015-03-17T23:19:25 <Jinxypie> Mais si on met leur téléphone de l'autre coté par rapport à nous, ça va les rapprocher non ?
+2015-03-17T23:19:36 <adriens33> non..
+2015-03-17T23:19:43 <Jinxypie> ah
+2015-03-17T23:21:05 <Fidzu> j'etais pas srx sur le phone ^^
+2015-03-17T23:21:11 <adriens33> ok
+2015-03-17T23:21:23 <adriens33> mais heuzef voulait faire une campagne sms y'a pas longtemps
+2015-03-17T23:21:24 <Fidzu> mais si des gens r'epondent pas c'est parce qu'il ne verifient jamais leurs mail ..
+2015-03-17T23:21:28 <Fidzu> j'etait pareil avant
+2015-03-17T23:21:29 <adriens33> chose qu'il a déjà fait d'ailleurs
+2015-03-17T23:21:49 <adriens33> Jinxypie tu te souviens qd il a filé ton num sans ton accord ? XD
+2015-03-17T23:22:13 <adriens33> (en tout cas lui doit certainement s'en rappeler.. ^^)
+2015-03-17T23:22:18 <Jinxypie> ^^
+2015-03-17T23:22:59 <Jinxypie> les gens qui font des conneries me concernant s'en rapellent souvent ^^
+2015-03-17T23:23:10 <Fidzu> moi envoyer des sms en recevoir ne me derange pas du tout
+2015-03-17T23:23:18 <adriens33> oui non mais
+2015-03-17T23:23:25 <adriens33> dialoguer par sms ne me dérange pas.
+2015-03-17T23:23:31 <adriens33> recevoir un sms impromptu
+2015-03-17T23:23:32 <adriens33> si
+2015-03-17T23:23:40 <Fidzu> mais c'est vrai que juste au moins envoyer un sms a tt le monde jsute pour leurs rapeller qu'ils devraient verifier leurs mails
+2015-03-17T23:23:51 <Jinxypie> ...
+2015-03-17T23:24:00 <adriens33> et s'il répondent pas c'est qu'ils check pas leur sms ?
+2015-03-17T23:24:02 <Fidzu> ouai c'est bizarre
+2015-03-17T23:24:05 <adriens33> à ce moment la tu fais quoi ?
+2015-03-17T23:24:05 <Fidzu> mmh
+2015-03-17T23:24:09 <adriens33> tu les appelles ?
+2015-03-17T23:24:11 <Jinxypie> Pourquoi pas un pigeon voyageur et un messager.
+2015-03-17T23:24:12 <adriens33> les 65 ?
+2015-03-17T23:24:17 <Jinxypie> Un signal de fumée ?
+2015-03-17T23:24:17 <Fidzu> je demande a heuzef leurs adresses
+2015-03-17T23:24:20 <adriens33> et s'ils décrochent pas
+2015-03-17T23:24:22 <Fidzu> XD
+2015-03-17T23:24:24 <Jinxypie> Un coups de corne ?
+2015-03-17T23:24:27 <adriens33> tu les harcèle chez eux ?
+2015-03-17T23:24:44 <Fidzu> non no madame, je ne suis pas temoin de Jéhovah
+2015-03-17T23:24:44 <Jinxypie> Fidzu, j'ai un jeu
+2015-03-17T23:24:46 <Fidzu> je suis de Bronycub
+2015-03-17T23:24:52 <Jinxypie> Si tu tombe sur mon num, t'es mort
+2015-03-17T23:25:07 <adriens33> crois moi, d'expérience.. si qqn répond pas c'est bien plus souvent parce qu'il n'en a pas envie ou par flemme plutot que parce qu'il n'a pas vu le message.
+2015-03-17T23:25:28 <adriens33> Jinxypie en tout cas c'est pas moi qui vais le donner.. je tiens à ma vie :P
+2015-03-17T23:25:32 <adriens33> (et à mon matos aussi)
+2015-03-17T23:25:57 <adriens33> (ou aussi parce qu'il n'en a pas le temps)
+2015-03-17T23:26:37 <Jinxypie> Je réponds pas aux mails, mais quelqu'un se charge de m'en faire des résumés.
+2015-03-17T23:26:38 <Fidzu> il y a plein de gens qui sont iscrit sur BC mais qui ne sont pas actif du tout
+2015-03-17T23:26:43 <Fidzu> autant pas s'inscrire
+2015-03-17T23:26:52 <Fidzu> de toute facon on vera qui l'est avec sugarCUB
+2015-03-17T23:27:12 <adriens33> Fidzu moi je rep pas souvent aux mails, mais j'essaie de les lire quand je peux.
+2015-03-17T23:27:28 <adriens33> cela veut il dire pour autant que je ne devrais pas faire partie de bronycub '
+2015-03-17T23:27:28 <Fidzu> adriens33: mais toi tu au moins tu viens sur le chat
+2015-03-17T23:27:29 <adriens33> ?
+2015-03-17T23:27:39 <Fidzu> je parle des gens qui ne font rien du tout
+2015-03-17T23:27:40 <adriens33> bah encore heureux, c'est moi qui l'ai mis en place.
+2015-03-17T23:27:44 *** heuzef s'est connecté
+2015-03-17T23:27:45 <Fidzu> pas de chat, mail, evet rien du tout
+2015-03-17T23:27:48 <Jinxypie> moi j'ai 80% du temps autre chose à foutre.
+2015-03-17T23:27:49 <Fidzu> meme pas une co sur le site
+2015-03-17T23:27:53 <adriens33> Jinxypie +1
+2015-03-17T23:27:53 <Jinxypie> Et 20% quelqu'un d'autre ^^
+2015-03-17T23:28:15 <Jinxypie> salut flo
+2015-03-17T23:28:19 <Fidzu> lu
+2015-03-17T23:28:22 <adriens33> après y'a des gens qui ont du mal aussi.
+2015-03-17T23:28:32 <adriens33> surtout quand y'a 64 personnes que tu connais pas.
+2015-03-17T23:28:38 <adriens33> sur 65
+2015-03-17T23:28:46 <Jinxypie> 65 ?
+2015-03-17T23:28:56 <adriens33> bah je sais pas, apparemment on est 65.
+2015-03-17T23:28:59 <adriens33> j'ai pas recompté
+2015-03-17T23:29:03 <Jinxypie> rapelles moi d'acheter un bidon de lubrifiant, et des actions chez durex ^^
+2015-03-17T23:29:06 <adriens33> y'a peu on était 62
+2015-03-17T23:29:15 <adriens33> pourquoi Jinxypie ?
+2015-03-17T23:29:34 <Jinxypie> Non rien, ma vanne a manqué...
+2015-03-17T23:29:39 <Fidzu> de toute facon quand il y aura SugarCUB, on vera desuite combien de personnes suivent
+2015-03-17T23:30:00 <adriens33> de suite de suite…
+2015-03-17T23:30:08 <adriens33> je te rapelle qu'il y a des gens qui ont un taf, une famille
+2015-03-17T23:30:11 <Jinxypie> T'as aussi des gens comme moi qui passent quasi tout leur temps à bosser.
+2015-03-17T23:30:16 <Fidzu> adriens33: oui je comprend
+2015-03-17T23:30:27 <Fidzu> adriens33: mais ils on pris le temps de s'inscrire sur bronycub
+2015-03-17T23:30:27 <adriens33> donc aller ts les jours sur un site ou  une ML c'est pas dans leurs priorités
+2015-03-17T23:30:36 <Fidzu> adriens33: pourquoi dans ce cas ?
+2015-03-17T23:30:42 <adriens33> donc dapres toi
+2015-03-17T23:30:52 <adriens33> si t'a une famille, des gosses et un taf
+2015-03-17T23:31:06 <adriens33> t'a pas le droit de t'inscrire sur BC parce que t'a pas beaucoup de temps libre ?
+2015-03-17T23:31:11 <Fidzu> non
+2015-03-17T23:31:13 <Fidzu> enfin
+2015-03-17T23:31:14 <adriens33> bel exemple de love and tolerate.
+2015-03-17T23:31:14 <Fidzu> si
+2015-03-17T23:31:15 <Fidzu> enfin
+2015-03-17T23:31:21 <Fidzu> j'ai pas dis ca comme ca
+2015-03-17T23:31:24 <adriens33> oui
+2015-03-17T23:31:27 <adriens33> mais en substance
+2015-03-17T23:31:32 <adriens33> c'est ce que tu as voulu dire.
+2015-03-17T23:31:45 <Jinxypie> dites les mecs
+2015-03-17T23:31:50 <adriens33> quoi ?
+2015-03-17T23:31:50 <Jinxypie> des grillades ça vous dit ?
+2015-03-17T23:31:55 <heuzef> Re
+2015-03-17T23:32:06 <Jinxypie> La belle saison revient, on devrait reprendre les soirées grillades ^^
+2015-03-17T23:32:06 <adriens33> pk pas, ça peut etre une occase de se voir
+2015-03-17T23:32:13 <adriens33> re heuzef
+2015-03-17T23:32:15 <adriens33> enfin salut
+2015-03-17T23:32:22 <adriens33> enfin j'sais pu
+2015-03-17T23:32:25 <adriens33> crotte
+2015-03-17T23:32:28 <Fidzu> je peux paraître mechant je n'aime pas l'inactivité
+2015-03-17T23:32:34 <Fidzu> ou que ce soit
+2015-03-17T23:32:43 <heuzef> Fidzu relax avec ses 2 là hein ^^ Ils sont du genre tendu très vite
+2015-03-17T23:32:53 <adriens33> non
+2015-03-17T23:32:57 <adriens33> mais
+2015-03-17T23:33:04 <adriens33> "je n'aime pas l'inactivité"
+2015-03-17T23:33:04 <Fidzu> Fidzu: nan mais j'ai lancé un petit debat ou j'ai l'air d'etre mechant ='(
+2015-03-17T23:33:06 <Jinxypie> Fidzu, écoutes heuzef il a raison me concernant.
+2015-03-17T23:33:11 <adriens33> tu n'es pas compréhensif
+2015-03-17T23:33:39 <Fidzu> je comprend tout a fait qu'il y a des gens qui on "une vie"
+2015-03-17T23:33:44 <Fidzu> ai
+2015-03-17T23:33:44 <adriens33> ton souci est que tu ne sais pas voir autrement que de ton point de vue. c'est probablement pour ça que tu n'aimes pas l'inactivitcé
+2015-03-17T23:34:03 <adriens33> parce que tu ne comprends pas réellement intrinsèquement que les gens ont une vie
+2015-03-17T23:34:07 <Fidzu> je dis que je n'aime pas l'inactivité mais des gens n'ont pas d'autre choix je comprend ca
+2015-03-17T23:34:12 <adriens33> le fait de le dire ne suffit pas à l'intégrer.
+2015-03-17T23:34:15 <Jinxypie> adriens33, coucouche pannier, t'auras un bownie
+2015-03-17T23:34:19 <Jinxypie> brownie*
+2015-03-17T23:34:27 <adriens33> j'en veux pas, et j'suis pas ton chien Jinxypie ^^
+2015-03-17T23:34:30 <adriens33> je suis pas énervé
+2015-03-17T23:34:33 <heuzef> svp svp
+2015-03-17T23:34:35 <adriens33> j'explique mon point de vue.
+2015-03-17T23:34:41 <Jinxypie> Ah merde, je les ai déjà bouffés, bon bah vas y ^^
+2015-03-17T23:35:05 <adriens33> (d'ailleurs foutue interface chaise clavier, mes doigts sont trop  lent par rapport à ma pensée c'est chiant ><]
+2015-03-17T23:35:08 <Jinxypie> il me reste des muffins
+2015-03-17T23:35:16 <heuzef> adriens33 tu as parfaitement raison mais n'oublie pas qu'on à tous des defauts sur lesquels ont doit travailler
+2015-03-17T23:35:25 <adriens33> oui et ?
+2015-03-17T23:35:26 <Jinxypie> poil aux pieds !
+2015-03-17T23:35:28 <heuzef> Moi le premier je doit être le pire
+2015-03-17T23:35:36 <Jinxypie> ...
+2015-03-17T23:35:41 <adriens33> si quelqu'un rep pas aux mail dire "toi t'es inactif dégage de bc"
+2015-03-17T23:35:51 <adriens33> c'est un peu extrémiste à mon gout
+2015-03-17T23:35:52 <Jinxypie> heuzef, premier défaut, tu es chiant pour faire des rimes...
+2015-03-17T23:36:01 <adriens33> osef Jinxypie
+2015-03-17T23:36:05 <adriens33> ^^
+2015-03-17T23:36:17 <heuzef> Fidzu manque un peu de recule c'est sur, mais dans le fond il as un peu raison
+2015-03-17T23:36:17 <Jinxypie> non, heuzef, pas osef, heuzef !
+2015-03-17T23:36:25 <adriens33> heuzef> non.
+2015-03-17T23:36:28 <adriens33> il n'a pas raison.
+2015-03-17T23:36:43 <heuzef> C'est l'activité qui permet à BronyCUB d'être vivant, d'en prendre soin, de le faire évoluer
+2015-03-17T23:36:44 <adriens33> ce n'est pas parce que quelqu'un a plein de choses à faire et peu de temps libre
+2015-03-17T23:36:51 <adriens33> qu'il n'a pas droit à être inscrit.
+2015-03-17T23:36:57 <adriens33> les gens font ce qu'ils peuvent.
+2015-03-17T23:37:06 <adriens33> et virer quelqu'un parce qu'il ne participe pas assez
+2015-03-17T23:37:08 <Fidzu> adriens33: j'ai pas dis ca  x)
+2015-03-17T23:37:10 <adriens33> est une preuve d'intolérenc.
+2015-03-17T23:37:14 <adriens33> *intolérance
+2015-03-17T23:37:19 <heuzef> C'est à moi que tu dis ça ? =)
+2015-03-17T23:37:23 <adriens33> pas que
+2015-03-17T23:37:31 <Jinxypie> adriens33, t'es lourd quand tu viens de te reveiller.
+2015-03-17T23:37:49 <heuzef> Je pense que niveau disponibilité je suis pas gâté du tous, mais alors pas du tous
+2015-03-17T23:37:53 <Jinxypie> Prends toi une tisane, fais une petite pause, et ça ira mieux ^^
+2015-03-17T23:37:57 <adriens33> ou pas
+2015-03-17T23:38:19 <heuzef> Maintenant imagine si j'arrête d'être actif pour me consacrer pleinnement aux autres chose
+2015-03-17T23:38:39 <Jinxypie> heuzef, bah en plus t'as ta cop qui te prends du temps ^^
+2015-03-17T23:38:56 <heuzef> C'est plus tellement ma copine, mais plutôt ma femme à vraie dire ;)
+2015-03-17T23:39:05 <Jinxypie> Ah.
+2015-03-17T23:39:09 <adriens33> je suis désolé, mais quand tu dois bosser pour pouvoir avoir a bouffer ou pour avoir ton bac
+2015-03-17T23:39:12 <heuzef> Désolé de te l'apprendre avec un peu de retard mais je t'es pas vu depuis un bail
+2015-03-17T23:39:27 <adriens33> bah si t'a peu de temps libre ça prime sur le collectif, mais c'est pas pour autant qu'on doit t'exclure.
+2015-03-17T23:39:49 <Jinxypie> J'ai passé les mois derniers à bosser.
+2015-03-17T23:39:51 <heuzef> Evidement
+2015-03-17T23:39:55 <Jinxypie> J'ai tout foutu de coté.
+2015-03-17T23:39:59 <adriens33> sinon c'est pas juste, parce que ton manque de temps libre c'est pas de ton choix
+2015-03-17T23:40:06 <Fidzu> vous voulez pas parler d'autre chose ?
+2015-03-17T23:40:22 <adriens33> Fidzu t'à qu'à lancer un autre sujet
+2015-03-17T23:40:31 <Fidzu> muffin ou cupcake ?
+2015-03-17T23:40:41 <Jinxypie> muffin
+2015-03-17T23:40:43 <heuzef> adriens33 effectivement moi j'ai un autre sujet interssant
+2015-03-17T23:40:51 <Fidzu> Jinxypie: pourquoi ?
+2015-03-17T23:41:30 <Jinxypie> Les cupcakes c'est plus chiant à faire et pas meilleur.
+2015-03-17T23:41:43 <heuzef> Je pense que Fidzu est mal à l'aise parce que tu es un peu agressif quand tu déffend ton point de vue
+2015-03-17T23:41:46 <Fidzu> perso j'ai jamais gouté
+2015-03-17T23:41:51 <adriens33> je suis pas aggressif --"
+2015-03-17T23:42:01 <heuzef> ok
+2015-03-17T23:42:09 <adriens33> j'argumente
+2015-03-17T23:42:12 <heuzef> En tous cas c'est le sentiment que tu me donne
+2015-03-17T23:42:13 <adriens33> c'est tout ^^
+2015-03-17T23:42:20 <Jinxypie> Fidzu, tu fais un sondage sans connaître les deux parties ?
+2015-03-17T23:42:20 <adriens33> bah t'es pas seul sur terre, heuzef.
+2015-03-17T23:42:29 <adriens33> Jinxypie moi j'ai mes deux parties.
+2015-03-17T23:42:36 <Fidzu> heuzef: ce que je ne veux pas c'est vous mettre les un sur les autre .. je ne veux pas qu'on me defende si ca créé une embrouille . mais on s'eloigne du sujet la ... muffin ou cupcake ? et pourquoi ?
+2015-03-17T23:43:10 <heuzef> Les muffins sont supérieurs parceque Derpy
+2015-03-17T23:43:27 <Jinxypie> Bah je sais pas si y'a des gays dans le collectif (c'est statistiquement probable) mais ça fait déjà quelques personnes à mettre les unes sur les autres ^^
+2015-03-17T23:43:30 * Jinxypie sort
+2015-03-17T23:43:35 <adriens33> Jinxypie…
+2015-03-17T23:43:38 <Fidzu> moi entre muffin et cupcake ..
+2015-03-17T23:43:38 <adriens33> sérieux…
+2015-03-17T23:43:39 <Fidzu> tacos
+2015-03-17T23:44:11 * Jinxypie crie derrière la porte "J'entend rien lalalalalalalalalalalalalala"
+2015-03-17T23:44:25 * adriens33 retire la porte
+2015-03-17T23:44:47 * Jinxypie se déguise en pot de fleur.
+2015-03-17T23:45:11 <adriens33> t'es un peu gros pour ça
+2015-03-17T23:45:31 <heuzef> Fidzu y'a pas de souci, mais j'aime beaucoup ton état d'esprit sâche le. Avant que adriens33 râle, je parle pas de ton point de vue un peu nazi d'exclure les gens mais bien des sentiments que tu éprouve pour le collectif
+2015-03-17T23:46:00 <Fidzu> heuzef: j'ai jamais parlé d'exclure les gens ......
+2015-03-17T23:46:02 <adriens33> je rale pas heuzef..
+2015-03-17T23:46:07 <adriens33> putain mais y'en a marre
+2015-03-17T23:46:15 <adriens33> quand je parle pas on me dit que je parle pas assez
+2015-03-17T23:46:16 <heuzef> Pour moi il faut cultiver ça et encourager les gens à alimenter ça ce qui devrais "normalement" les rendres plus actif naturellement ?
+2015-03-17T23:46:24 <adriens33> quand je parle on me reproche de parler.
+2015-03-17T23:46:29 <adriens33> faudrait savoir putain.
+2015-03-17T23:46:37 * Jinxypie remue les feuilles.
+2015-03-17T23:47:09 <heuzef> adriens33 ;)
+2015-03-17T23:47:25 <adriens33> c'est pas drole heuzef..
+2015-03-17T23:48:51 <heuzef> Smile un peu
+2015-03-17T23:49:18 <adriens33> heuzef, tu sais que demander à quelqu'un qui n'est pas super bien de sourire
+2015-03-17T23:49:23 <adriens33> c'est le pire moyen d'y arriver
+2015-03-17T23:49:29 <heuzef> En plus c'est vrais que Fidzu n'à jamais parlé "d'exclure"
+2015-03-17T23:49:31 <adriens33> parce que ça le culpabilise de pas y arriver
+2015-03-17T23:49:39 <adriens33> du coup ça fait l'effet inverse.
+2015-03-17T23:49:59 <heuzef> Navré pour la maladresse
+2015-03-17T23:50:25 <heuzef> Je tente autre chose
+2015-03-17T23:50:53 <adriens33> 23:26:38     +Fidzu │ il y a plein de gens qui sont iscrit sur BC mais qui ne sont pas actif du tout autant pas s'inscrire
+2015-03-17T23:51:01 <heuzef> j'ai besoin d'un coup de main pour un truc
+2015-03-17T23:51:02 <adriens33> c'est pareil.
+2015-03-17T23:51:06 <adriens33> quoi donc ?
+2015-03-17T23:51:09 <heuzef> Je te demande ça sur l'autre salon
+2015-03-17T23:51:20 <heuzef> c'est un truc g33k barbant
+2015-03-17T23:51:56 <heuzef> Fidzu ?
+2015-03-17T23:52:06 <Fidzu> ?
+2015-03-17T23:53:30 <heuzef> Tu aurais des idées pour ranimer la flamme d'amour chez certain membres qui s'éloigne du collectif ?
+2015-03-17T23:53:48 <heuzef> Le live peut être une bonne piste
+2015-03-17T23:53:53 <adriens33> du ghb ?
+2015-03-17T23:54:01 <Fidzu> c'est a eux de revenir vers nous
+2015-03-17T23:54:07 <heuzef> Trouver ce qui "lasse" certain en serais une autre
+2015-03-17T23:54:11 <Fidzu> si ils s'eloignent c'est parce qu'ils  ont leures raisons
+2015-03-17T23:54:29 <heuzef> Ca ne viendrais pas de nous donc ?
+2015-03-17T23:54:33 <Fidzu> non
+2015-03-17T23:54:34 <Fidzu> du tout
+2015-03-17T23:55:04 <heuzef> L'année dernière j'ai fait un sondage complet pour voir un peu ce que les gens ressente
+2015-03-17T23:55:14 <heuzef> effectivement tous semble être très content du collectif
+2015-03-17T23:55:28 <Fidzu> qui ne le serais pas ^^
+2015-03-17T23:55:39 *** MaCharon s'est connecté
+2015-03-17T23:55:39 <heuzef> Mais je n'explique pas ce phénomène chez certain
+2015-03-17T23:56:12 <heuzef> Coucou MaCharon =)
+2015-03-17T23:56:27 <heuzef> T'as des bonnes nouvelles pour moi ? :P
+2015-03-17T23:56:50 <adriens33> yo MaCharon
+2015-03-17T23:57:08 <MaCharon> re
+2015-03-17T23:57:24 <Fidzu> lu
+2015-03-17T23:57:25 <MaCharon> quelles bonne nouvelles ?
+2015-03-17T23:59:40 <heuzef> Cette question doit donc vouloir dire non
