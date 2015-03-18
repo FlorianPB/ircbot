@@ -1,0 +1,2551 @@
+2015-03-10T12:32:32 *** Berry-G33k s'est connecté
+2015-03-10T12:33:00 <adriens33> YYAYYY o//
+2015-03-10T12:33:16 <adriens33> salut ma belle
+2015-03-10T12:33:23 <adriens33> !muffin Shinsaber
+2015-03-10T12:33:31 <adriens33> !deop adriens3
+2015-03-10T12:33:33 <adriens33> !deop adriens33
+2015-03-10T12:33:38 <adriens33> merci :D
+2015-03-10T12:33:48 <adriens33> bon ici par contre c'est MON chan.
+2015-03-10T12:33:53 <adriens33> =D
+2015-03-10T12:34:34 <adriens33> !inscription heuzef
+2015-03-10T12:34:42 <adriens33> !voice adrienS33
+2015-03-10T12:36:00 *** heuzef s'est connecté
+2015-03-10T12:36:07 <heuzef> Bonjour Berry-G33k
+2015-03-10T12:36:09 <adriens33> merde, t'es en double XD
+2015-03-10T12:36:29 <adriens33> bon c'est le même bot, donc elle est pas plus intelligente.
+2015-03-10T12:36:32 <adriens33> mais
+2015-03-10T12:36:36 <adriens33> !muffin heuzef
+2015-03-10T12:36:39 <adriens33> =D
+2015-03-10T12:37:01 <heuzef> Tu pourrais la cutomiser
+2015-03-10T12:37:05 <adriens33> !reload
+2015-03-10T12:37:08 <adriens33> oui tkt
+2015-03-10T12:37:08 <heuzef> Faire une variante
+2015-03-10T12:37:24 <heuzef> Comme Sweeti Belle / Sweetie Bot
+2015-03-10T12:37:25 <adriens33> j'ai fait une branche séparée, je vais bientot la push sur le dépot
+2015-03-10T12:37:48 <heuzef> Remplace les *hic* par des *hoc* xD
+2015-03-10T12:37:52 <adriens33> XDD
+2015-03-10T12:38:56 <adriens33> !reload
+2015-03-10T12:40:50 <adriens33> voilà
+2015-03-10T12:40:55 <adriens33> branche berry-g33k
+2015-03-10T12:47:36 *** nutinrseu s'est connecté
+2015-03-10T12:48:29 *** nutinrseu est parti
+2015-03-10T12:49:32 <adriens33> heuzef> http://www.art-software.fr/bronycub/accueil.php
+2015-03-10T12:49:35 <adriens33> qu'en dis-tu ?
+2015-03-10T12:49:43 <adriens33> (tab « Tchat IRC »(
+2015-03-10T12:49:45 <adriens33> *)
+2015-03-10T12:51:20 <heuzef> Tu pourrais supprimer "ou de « trucs de geek »" et mettre un point à la fin de la phrase
+2015-03-10T12:51:26 <heuzef> après me semble pas mal ouais
+2015-03-10T12:51:30 <adriens33> ok
+2015-03-10T12:52:26 *** TrappyTickles s'est connecté
+2015-03-10T12:52:31 <adriens33> Yo TrappyTickles
+2015-03-10T12:52:34 <adriens33> :D
+2015-03-10T12:52:37 <adriens33> heuzef> là c'est bon ?
+2015-03-10T12:52:37 <TrappyTickles> re ^^
+2015-03-10T12:52:54 <adriens33> as-tu autre chose que tu penses que je devrais y ajouter heuzef ?
+2015-03-10T12:53:07 <adriens33> tiens, je me suis planté sur le topic.
+2015-03-10T12:53:10 <adriens33> j'ai écrit trool
+2015-03-10T12:53:20 <TrappyTickles> troolooloo
+2015-03-10T12:53:31 <TrappyTickles> la nouvelle recrue des cmc
+2015-03-10T12:53:42 <adriens33> !op adriens33
+2015-03-10T12:53:49 <adriens33> !deop adriens33
+2015-03-10T12:54:06 <heuzef> adriens33 c'est bon mais je veux bien que tu mette ça dans une div alert-info
+2015-03-10T12:54:06 <heuzef> <div class="alert alert-dismissible alert-info">
+2015-03-10T12:54:18 <adriens33> ok
+2015-03-10T12:55:24 <adriens33> ah d'accord.
+2015-03-10T12:55:28 <adriens33> c'est bien mieux en effet
+2015-03-10T12:55:35 <adriens33> merci pour le tuyau ;)
+2015-03-10T12:58:31 <adriens33> !op adriens33
+2015-03-10T12:59:00 <adriens33> !deop adriens33
+2015-03-10T12:59:11 <TrappyTickles> sinon un truc trop fort que j'ai découvert avec arch ^^
+2015-03-10T12:59:20 <TrappyTickles> pour démarrer :p
+2015-03-10T12:59:23 <adriens33> oui ?K
+2015-03-10T12:59:24 <adriens33> :D
+2015-03-10T13:00:02 <adriens33> (les logs seront commités dans la branche bronycub-g33K, et j'ai modifié le topic pour ajouter le log du jour, comme sur le canal principal
+2015-03-10T13:00:05 <adriens33> ()
+2015-03-10T13:00:15 <TrappyTickles> sur ubuntu j'ai toujours du chopper un client secondlife sur leurs sites, avec un tar à extraire
+2015-03-10T13:00:32 <adriens33> d'accord
+2015-03-10T13:00:40 <adriens33> pas de package donc
+2015-03-10T13:00:46 <TrappyTickles> là, non seulement jle trouve direct sur yaourt mais en + j'ai du choix! ^^
+2015-03-10T13:00:52 <adriens33> cool =D
+2015-03-10T13:00:55 <adriens33> et au pire
+2015-03-10T13:01:07 <adriens33> les PKGBUILD c'est waaaay more simpler à faire qu'un .deb.
+2015-03-10T13:01:29 <adriens33> t'as juste un fichier à écrire et makepkg =3 (et c'est pas comme si AUR était bourré d'exemples)
+2015-03-10T13:01:35 <TrappyTickles> clair, j'avais essayé un deb une fois :p
+2015-03-10T13:01:39 <adriens33> moi aussi
+2015-03-10T13:01:42 <adriens33> j'ai abandonné
+2015-03-10T13:01:48 <TrappyTickles> pareil lol
+2015-03-10T13:02:10 <TrappyTickles> tandis qu'un pkgbuild ça a l'air clair a coder
+2015-03-10T13:02:18 <TrappyTickles> enfin a scripter
+2015-03-10T13:02:20 <adriens33> bah à la base c'est du shellscript en fait XD
+2015-03-10T13:02:31 <TrappyTickles> ui
+2015-03-10T13:02:38 <adriens33> (makepkg étant lui-même un script bash)
+2015-03-10T13:02:46 <adriens33> (comme yaourt :P)
+2015-03-10T13:02:58 <adriens33> (mais bon yaourt c'est juste un wrapper pacman)
+2015-03-10T13:03:18 <TrappyTickles> faudra voir si jpeux faire des pack aur pour mes vn sur renpy
+2015-03-10T13:04:08 <adriens33> heuzef> j'ai commité ma modif sur le guide d'accueil
+2015-03-10T13:08:20 <adriens33> !reload
+2015-03-10T13:08:24 <adriens33> !say coucou tout le monde ?
+2015-03-10T13:08:29 <adriens33> cool
+2015-03-10T13:12:34 *** adriens33 est parti
+2015-03-10T13:13:40 *** adriens33 s'est connecté
+2015-03-10T13:14:42 <adriens33> !depo adriens33
+2015-03-10T13:14:46 <adriens33> !deop adriens33
+2015-03-10T13:16:30 <adriens33> voilà, avec tous les chan côte à côte c'est plus clair
+2015-03-10T13:18:27 <adriens33> heuzef> du coup sur la page d'accueil de BronyCUB
+2015-03-10T13:18:37 <adriens33> y'a pas l'aperçu de ce canal
+2015-03-10T13:18:42 <adriens33> mais c'est bien
+2015-03-10T13:19:01 <adriens33> car au moins les gens ne voient pas des « discussions de geek » du premier coup  d'œil
+2015-03-10T13:19:07 <adriens33> c'est plus engageant je pense
+2015-03-10T13:19:24 <adriens33> (au fait, tu pull quand tu veux ;) )
+2015-03-10T13:20:05 <heuzef> J'aimerais bien :/
+2015-03-10T13:20:17 <heuzef> Mais étant au cesi c'est compliqué
+2015-03-10T13:20:21 <adriens33> tu aimerais bien quoi ? pull ma modif ?
+2015-03-10T13:20:22 <adriens33> ah.
+2015-03-10T13:20:25 <heuzef> c'est crétin on bloqué le proto ssh
+2015-03-10T13:20:26 <adriens33> CESI = ?
+2015-03-10T13:20:30 <adriens33> oh.
+2015-03-10T13:20:31 <adriens33> sae.
+2015-03-10T13:20:36 <adriens33> *sale
+2015-03-10T13:20:41 <adriens33> et tu n'as pas un VPN ?
+2015-03-10T13:20:41 <heuzef> et pas que
+2015-03-10T13:20:50 <heuzef> openvpn et pptp bloqué aussi
+2015-03-10T13:20:54 <heuzef> ftp aussi
+2015-03-10T13:20:55 <adriens33> j'ai un serveur openvpn si tu veux
+2015-03-10T13:21:02 <adriens33> mais moi j'ai mis le port tcp 8080
+2015-03-10T13:21:04 <heuzef> en faite je commence à croire qu'on à que le http de dispo :/
+2015-03-10T13:21:10 <adriens33> au lieu du udp:1194
+2015-03-10T13:21:25 <adriens33> le tcp:8080 est pratiquement jamais bloqué
+2015-03-10T13:21:41 <Shinsaber> sinon il te faut un vpn sur le port https
+2015-03-10T13:21:44 <heuzef> Je peu pas faire de tunel sans ssh :(
+2015-03-10T13:21:44 <adriens33> donc si tu veux j't'envoie une clef
+2015-03-10T13:22:30 <adriens33> tu lance openvpn avec la conf, et après tu sors par homer.art-software.fr ^^
+2015-03-10T13:22:52 <adriens33> (je crois que je vais finir par faire un service de vpn monnayé, ça pourrait être intéressant XD)
+2015-03-10T13:23:45 *** TrappyTickles est parti
+2015-03-10T13:24:11 <heuzef> Nan laisse béton
+2015-03-10T13:24:18 <heuzef> Je pull en 4G et basta hein
+2015-03-10T13:24:19 <adriens33> c'est comme tu veux. :)
+2015-03-10T13:25:01 *** TrappyTickles s'est connecté
+2015-03-10T13:25:59 <adriens33> c'est vrai que la 4G ça peut dépanner
+2015-03-10T13:26:00 <heuzef> Voila
+2015-03-10T13:26:02 <heuzef> Bon
+2015-03-10T13:26:14 <heuzef> Maintenant tu m'aide à rediger mon annonce :D
+2015-03-10T13:26:46 <adriens33> fuck, j'ai chié l'adresse.
+2015-03-10T13:26:51 <adriens33> !op adriens33
+2015-03-10T13:28:22 <adriens33> !deop adriens33
+2015-03-10T13:29:00 <adriens33> heuzef> c'étati pour quoi l'annonce déjà
+2015-03-10T13:29:01 <adriens33> ?
+2015-03-10T13:30:26 <heuzef> Pour inciter les membres à lire sérieusement le guide d'accueil
+2015-03-10T13:30:31 <adriens33> oh.
+2015-03-10T13:30:33 <adriens33> oui.
+2015-03-10T13:30:43 <adriens33> as-tu un brouillon ?
+2015-03-10T13:32:55 <heuzef> Le voici :
+2015-03-10T13:33:09 <heuzef> Bonjour à tous !
+2015-03-10T13:33:11 <heuzef> ...
+2015-03-10T13:33:12 <heuzef> Voila
+2015-03-10T13:33:14 <adriens33> …
+2015-03-10T13:33:18 * adriens33 éclate de rire
+2015-03-10T13:33:20 <adriens33> okéé
+2015-03-10T13:33:22 <heuzef> xD
+2015-03-10T13:33:27 <adriens33> on ouvre un framapad?
+2015-03-10T13:33:36 <heuzef> Bonne idée
+2015-03-10T13:34:08 <adriens33> tu le fais et tu passes le link après du coup '
+2015-03-10T13:34:10 <adriens33> ?
+2015-03-10T13:34:29 <heuzef> Après j'aimerais orienter ça différemment pour augmenter le taux de lecture
+2015-03-10T13:34:35 <heuzef> Par exemple campagne SMS
+2015-03-10T13:34:48 <adriens33> tout le monde va te haïr.
+2015-03-10T13:34:51 <adriens33> XD
+2015-03-10T13:35:05 *** heuzef est parti
+2015-03-10T14:06:34 <adriens33> Shinsaber> tu utilises quoi comme client irc, toi ?
+2015-03-10T14:07:05 <Shinsaber> pour le moment je suis sur kiwiIRC commpe je suis au taf
+2015-03-10T14:07:10 <Shinsaber> comme*
+2015-03-10T14:07:16 <adriens33> ok ^^
+2015-03-10T14:07:21 <adriens33> moi j'utilisais hexchat
+2015-03-10T14:07:23 <adriens33> pas mal
+2015-03-10T14:07:35 <adriens33> (weechat est bien si tu préfère un client irc en terminal)
+2015-03-10T14:07:37 <adriens33> :P
+2015-03-10T14:07:47 <adriens33> parce que du coup tu le colle sur ton serv, dans tmux,
+2015-03-10T14:07:49 <adriens33> et zou
+2015-03-10T14:07:53 <adriens33> tu déco jamais comme ça
+2015-03-10T14:07:54 <adriens33> XD
+2015-03-10T14:08:39 <Shinsaber> ^^
+2015-03-10T14:09:17 <adriens33> et il gère l'ajout de plugins en pytohn
+2015-03-10T14:09:19 <adriens33> *python
+2015-03-10T14:09:31 <adriens33> et son système de window et de buffer rappelle vim
+2015-03-10T14:09:36 <adriens33> et il a tout plein d'options
+2015-03-10T14:10:28 <adriens33> tiens, je vais tester quelque chose.
+2015-03-10T14:10:31 <adriens33> !history
+2015-03-10T14:10:42 <adriens33> cool
+2015-03-10T14:10:56 <Shinsaber> spaaaaam XD
+2015-03-10T14:11:04 <adriens33> oui :)
+2015-03-10T14:11:24 <adriens33> faudrait dire à wildfier qu'on a un chan pour geeks maintenant
+2015-03-10T14:11:31 <adriens33> pour discu à plusieurs ça sera plus sympa
+2015-03-10T14:11:38 <adriens33> (au pire ce soir à giroll)
+2015-03-10T14:11:59 <Shinsaber> yep
+2015-03-10T14:12:12 <adriens33> au fait Shinsaber
+2015-03-10T14:12:19 <Shinsaber> après je pence pas que wildfier se co quant il est au taf ^^
+2015-03-10T14:12:19 <adriens33> tu as vu ça ? http://www.speedtest.net/result/4200241702.png
+2015-03-10T14:12:23 <adriens33> c'est ma nouvelle co
+2015-03-10T14:12:33 <adriens33> le tech ovh est passé hier.
+2015-03-10T14:12:40 <Shinsaber> oui tu la poster hier et j'étais la ^^
+2015-03-10T14:12:45 <adriens33> ah
+2015-03-10T14:12:55 <adriens33> j'ai 5Mb/s d'upload
+2015-03-10T14:13:01 <adriens33> 40Mb/s de download
+2015-03-10T14:13:15 <adriens33> j'ai autant que wildfier en dl presque
+2015-03-10T14:13:19 <adriens33> (alors qu'il est en fibre)
+2015-03-10T14:13:25 <adriens33> et en ul je le poutre =P
+2015-03-10T14:13:30 <Shinsaber> c'est classe pour de la paire cuivré ^^
+2015-03-10T14:13:47 <adriens33> bah je suis passé de 37dB d'atténuation en upload
+2015-03-10T14:13:50 <adriens33> à 10
+2015-03-10T14:13:56 <adriens33> et de 38 à 16 en download
+2015-03-10T14:14:02 <adriens33> c'est logarithmique
+2015-03-10T14:14:43 <adriens33> donc passer de -40dB à -16dB = +24dB, sachant que +3dB = tu multiplie la force du signal par 2
+2015-03-10T14:14:49 <adriens33> donc la ça fait 24/3=8
+2015-03-10T14:15:00 <adriens33> l'amplitude a fait ×2^8
+2015-03-10T14:15:07 <Shinsaber> XD
+2015-03-10T14:15:12 <adriens33> je te laisse imaginer la tête du bruit sur la ligne
+2015-03-10T14:15:35 <adriens33> il est juste écrasé par le signal
+2015-03-10T14:15:36 <adriens33> XD
+2015-03-10T14:15:52 <adriens33> la VDSL c'est trop bien.
+2015-03-10T14:21:20 <adriens33> avantage d'une co de taré:
+2015-03-10T14:21:30 <adriens33> je peux mettre toute ma conf user sous git
+2015-03-10T14:21:35 <adriens33> et la push sur mon serveur dédié.
+2015-03-10T14:21:45 <adriens33> premier commit = 700Mo de data à push
+2015-03-10T14:21:50 <adriens33> à 607Kio/s
+2015-03-10T14:21:54 <adriens33> ça a pas trainé
+2015-03-10T14:22:24 <adriens33> et j'ai compris pourquoi j'avais du 50Hz sur la ligne
+2015-03-10T14:22:43 <adriens33> dans le local, t'as un compteur électrique juste sous le bloc de raccord…
+2015-03-10T14:22:47 * adriens33 facehgoof *
+2015-03-10T14:22:51 <adriens33> *facehoof
+2015-03-10T14:30:05 *** testeste s'est connecté
+2015-03-10T14:30:12 <testeste> ça va, le topic est lisible
+2015-03-10T14:30:34 *** testeste est parti
+2015-03-10T14:31:45 <adriens33> TrappyTickles> tu fais quoi de beau toi ?
+2015-03-10T14:31:54 <adriens33> (oui j'essaie de meubler XD)
+2015-03-10T14:35:42 <adriens33> http://9gag.com/gag/aYWy9Ox :OOO une montre à $10 000
+2015-03-10T14:35:49 <adriens33> bordel de merde.
+2015-03-10T14:36:21 <Shinsaber> elle est moche
+2015-03-10T14:37:13 <adriens33> en plus :(
+2015-03-10T14:38:31 *** Elvon s'est connecté
+2015-03-10T14:38:51 <adriens33> ah, berry-geek te reconnait pas encore :P
+2015-03-10T14:39:15 <adriens33> !inscription [eE]lvon
+2015-03-10T14:39:20 <adriens33> zut
+2015-03-10T14:39:29 <adriens33> !voice Elvon
+2015-03-10T14:43:47 <adriens33> Elvon>
+2015-03-10T14:43:54 <adriens33> il a codé un backend pour dns
+2015-03-10T14:44:09 <adriens33> et là, il fait la doc pour rendre le machin utilisable et modifiable par les autres gens
+2015-03-10T14:44:25 <Shinsaber> je vais expliquer a quoi sa sert
+2015-03-10T14:44:34 <adriens33> la doc, c'est la référence du projet si tu veux
+2015-03-10T14:44:59 <adriens33> ça évite les "shinsabeeeer, ca sert a quoi ce que t'a codé là ? je pipe rien" à longueur de temps
+2015-03-10T14:45:06 <adriens33> :D
+2015-03-10T14:45:15 <Elvon> J'ai compris adriens33 TT" tu le répétes de puis le début.
+2015-03-10T14:45:22 <adriens33> bah toi aussi >_<
+2015-03-10T14:45:26 <adriens33> je te répond
+2015-03-10T14:45:27 <Shinsaber> en gros je suis dans une entreprise qui fais de la téléphonie pour les expatrier qui passe par internet ce qui leur permet d'avoir un numéro français.
+2015-03-10T14:45:34 <adriens33> et tu me dit que je répond pas..
+2015-03-10T14:45:46 <adriens33> à quoi sert la doc > à ce que je dis et redis...
+2015-03-10T14:46:03 <Elvon> mais euh non c'est juste que j'ai pas vue le Backend DNS vu que je connais c'est quoi ce machin ^^
+2015-03-10T14:46:23 <Shinsaber> et du coup mon script va permettre de faire en sorte que la box de téléphonie se connecte au serveur le plus proche !
+2015-03-10T14:46:31 <adriens33> Elvon> « 14:43:33   #bronycub     +Elvon | j'ai compmris l'idée ^^ mais pas ce a quoi sert la doc »
+2015-03-10T14:46:43 <Elvon> Okay THX Shinsaber
+2015-03-10T14:46:58 <Elvon> (enfin C'est CLAIR)^p
+2015-03-10T14:47:10 <adriens33> Elvon> tu n'as qu'à énoncer clairement ta question
+2015-03-10T14:47:19 <adriens33> c'est pas à quoi sert la doc qu'il fallait dire
+2015-03-10T14:47:23 <adriens33> mais à quoi sert le projet
+2015-03-10T14:47:30 <adriens33> t'avais qu'à t'expliquer aussi T.T
+2015-03-10T14:47:40 <Elvon> adriens33> Il faut que j'apprenne a m'exprimer comme il faut en Français. je suis pas bon, parfois je ressemble au "blédard de la creuse"
+2015-03-10T14:47:58 <adriens33> d'accord…
+2015-03-10T14:48:08 <Shinsaber> dans tous les cas tous fini bien ^^
+2015-03-10T14:48:18 <adriens33> Shinsaber> non, pas si je  sors une hache.
+2015-03-10T14:48:22 <adriens33> >:]
+2015-03-10T14:48:38 <Shinsaber> XD
+2015-03-10T14:49:09 <Elvon> adriens33> Est-ce que l'on peut passer sur skype ou mum pour parler serveur minecraft Stp ^^"
+2015-03-10T14:49:11 * adriens33 joue à Jack Nicholson dans Shining *
+2015-03-10T14:49:26 <adriens33> pourquoi pas ici ?
+2015-03-10T14:50:08 <Shinsaber> tu a bien vu que tu le comprend pas par écrit XD
+2015-03-10T14:50:18 <adriens33> par vocal
+2015-03-10T14:50:23 <adriens33> ça n'aurait rien changé.
+2015-03-10T14:50:26 <adriens33> :D
+2015-03-10T14:50:31 <Shinsaber> je troll dsl ^^
+2015-03-10T14:50:34 <Elvon> et bien parce que je sais pas m'exprimer a l'écrit Firstly mais aussi parce que de passer en chan privé c'est.... (faut pas essayer de suivre 20 conversation a la fois, sinon mon cerveau reboot)
+2015-03-10T14:50:35 <adriens33> je me serais juste énervé pour rien :P
+2015-03-10T14:51:06 <adriens33> bah oui, mais moi, par vocal j'ai beaucoup de soucis et à l'écris je m'exprime bien plus facilement.
+2015-03-10T14:51:22 <Elvon> ok va pour cet fois
+2015-03-10T14:51:27 <adriens33> si je ne me connectes pratiquement jamais sur mumble et que le visio j'y vais pas ce n'est pas juste par flemme…
+2015-03-10T14:51:29 <adriens33> :∕
+2015-03-10T15:01:11 <adriens33> sinon du coup
+2015-03-10T15:01:15 <adriens33> TrappyTickles>
+2015-03-10T15:01:20 <adriens33> tu va a giroll ce soir '
+2015-03-10T15:01:22 <adriens33> ?
+2015-03-10T15:01:35 <adriens33> (Shinsaber tu m'a dit tout à l'heure il me semble)
+2015-03-10T15:02:43 <Shinsaber> moi j’essaie d’être présent tous les mardi ^^
+2015-03-10T15:09:10 <adriens33> c'est bien, tu es un bon élève.
+2015-03-10T15:09:13 <adriens33> tu auras une image.
+2015-03-10T15:09:26 <adriens33> (comme à la maternelle :])
+2015-03-10T15:10:22 <Elvon> moi je peut pas être présent mais si j'en ai besoin vous commencez trop tard (j'ai sport de 17h à 20h30)
+2015-03-10T15:10:38 <adriens33> tu n'as qu'à pas avoir  sport :P
+2015-03-10T15:10:44 <adriens33> espèce de non-geek va
+2015-03-10T15:11:06 <adriens33> « Pourquoi soulever des althères quand tout ce qu'on a besoin, c'est de soulever sa manette ? »
+2015-03-10T15:11:10 <adriens33> - Bob Lennon
+2015-03-10T15:11:14 <Elvon> je fait parti du nouvelle race de geek moi
+2015-03-10T15:11:32 <adriens33> (elle est epic cette citation, j'adore :P(
+2015-03-10T15:11:34 <adriens33> *)
+2015-03-10T15:12:47 <Elvon> Le Geek qui vi l'imaginaire dans la vrais vie. (ouai quand j'ai voulu faire du kendo c'est pour monter une asso de Combat cinématographique mais ou les coup sont plus ou moins réel comme au catch)à
+2015-03-10T15:13:43 <adriens33> ok :D
+2015-03-10T15:14:00 <Elvon> quand je sort en ville ce ne sont pas des gens que je visualise mais des Bots son une matrice du même type que dans Assasin Creed.
+2015-03-10T15:14:23 <Elvon> (ça par contre c'est pour mieux géré mon Ocolophobie)
+2015-03-10T15:14:37 <adriens33> o_o
+2015-03-10T15:14:39 <adriens33> oké
+2015-03-10T15:15:14 <Elvon> (j'ai une plétor de façon d'expliquer le monde vue via l'imaginaireà
+2015-03-10T15:15:33 <adriens33> c'est bien si tu aimes le rp
+2015-03-10T15:15:36 <Elvon> j'en ai marre de mon clavier azerty... --"
+2015-03-10T15:15:44 <adriens33> ça te fait de l'inspiration facile
+2015-03-10T15:15:52 <adriens33> Elvon> http://bepo.fr
+2015-03-10T15:16:10 <Elvon> je vie dans un GN de longue haleine.
+2015-03-10T15:16:26 <adriens33> GN = ?
+2015-03-10T15:16:40 <Elvon> JE sais mais j'ai pas les stick's et sans c'est trop Oxo">W<
+2015-03-10T15:16:51 <Elvon> JDR GN
+2015-03-10T15:16:56 <adriens33> ouai :P pas faux.
+2015-03-10T15:17:02 <adriens33> JDR je vois, mais GN = ?
+2015-03-10T15:17:11 <Elvon> Grandeur Nature
+2015-03-10T15:17:18 <adriens33> *voix de Dalek* EXPLAIN ! EXPLAIN !
+2015-03-10T15:17:22 <adriens33> ah.
+2015-03-10T15:17:26 <adriens33> oh.
+2015-03-10T15:17:33 <Elvon> ? Eh
+2015-03-10T15:17:43 <Shinsaber> voila quant il y a toute les lettre c'est mieu XD
+2015-03-10T15:17:47 <adriens33> ¿ qué ?
+2015-03-10T15:18:03 <adriens33> ↑ ce carac tellement inutile… XD
+2015-03-10T15:19:17 <Elvon> Shinsaber> quels lettres ? tu a vue des lettres toi ?
+2015-03-10T15:19:38 <Elvon> (VF vs VO
+2015-03-10T15:19:43 <adriens33> ah
+2015-03-10T15:19:45 <adriens33> eh
+2015-03-10T15:19:47 <adriens33> ih
+2015-03-10T15:19:49 <adriens33> oh
+2015-03-10T15:19:51 <adriens33> uh
+2015-03-10T15:19:53 <adriens33> beh
+2015-03-10T15:19:55 <adriens33> céh
+2015-03-10T15:19:57 <adriens33> dé
+2015-03-10T15:19:59 <adriens33> èfe
+2015-03-10T15:20:01 <adriens33> j'ai
+2015-03-10T15:20:03 <adriens33> hache
+2015-03-10T15:20:05 <adriens33> j'y
+2015-03-10T15:20:07 <adriens33> cas
+2015-03-10T15:20:09 <adriens33> elle
+2015-03-10T15:20:11 <adriens33> aime
+2015-03-10T15:20:13 <adriens33> haine
+2015-03-10T15:20:15 <adriens33> pet
+2015-03-10T15:20:17 <adriens33> cul
+2015-03-10T15:20:19 <adriens33> air
+2015-03-10T15:20:21 <adriens33> 'esse
+2015-03-10T15:20:23 <adriens33> thé
+2015-03-10T15:20:25 <adriens33> vais
+2015-03-10T15:20:37 <adriens33> ces lettres là ↑
+2015-03-10T15:21:11 <Shinsaber> même pas capable de faire tous l’alphabet ^^
+2015-03-10T15:21:19 <Elvon> (VF vs VO) *oui j'ai fait un jeu de mots en Anglais que j'ai traduit en Français* (punaise c'est que je suis bête)
+2015-03-10T15:21:50 <adriens33> Shinsaber>
+2015-03-10T15:21:57 <adriens33> je n'ai pas fini, voyons.
+2015-03-10T15:22:07 <adriens33> double vais
+2015-03-10T15:22:14 <adriens33> ixe
+2015-03-10T15:22:17 <adriens33> I grec
+2015-03-10T15:22:22 <adriens33> z'aide
+2015-03-10T15:23:18 <Shinsaber> vé dir a ma mamen que tu di que dè bétise !
+2015-03-10T15:23:52 * adriens33 part pleurer * "nahhhh"
+2015-03-10T15:25:01 <Elvon> What ?
+2015-03-10T15:25:22 * Shinsaber va réussie a faire cracker un grammar nazi !
+2015-03-10T15:25:31 <adriens33> ze sais pas, Shinsaber il est méçant avec moi T.t
+2015-03-10T15:26:07 <Shinsaber> on crak pas dû tou !
+2015-03-10T15:26:40 <adriens33> huhh.. pardon berry
+2015-03-10T15:26:44 <Elvon> Elle a des fait des fautes de frappes.
+2015-03-10T15:26:46 <adriens33> (ça y est, j'ai craqué. XD)@
+2015-03-10T15:26:48 <TrappyTickles> c'est 18h30 giroll déjà?
+2015-03-10T15:26:50 <adriens33> c'est ta faute Elvon
+2015-03-10T15:26:54 <adriens33> TrappyTickles> oui
+2015-03-10T15:27:01 <TrappyTickles> ok mci ^^
+2015-03-10T15:27:14 <Elvon> oui je sais je rend... "PLop!"
+2015-03-10T15:31:00 *** wildfier s'est connecté
+2015-03-10T15:31:11 <adriens33> wildfier o//
+2015-03-10T15:31:25 <wildfier> je recrute pour sugarcub :p
+2015-03-10T15:31:46 * wildfier facepalm
+2015-03-10T15:32:38 <adriens33> Tu fais quoi d'intéressant au taf  sion ?
+2015-03-10T15:32:40 <adriens33> *sinon
+2015-03-10T15:33:18 <wildfier> de la refactorisation de code sale, et c'est pas la joie
+2015-03-10T15:33:26 <adriens33> tu fais les poubelles quoi
+2015-03-10T15:33:34 <adriens33> :]
+2015-03-10T15:33:51 <wildfier> m'enfin, si ça permet de se débarraser de ce boulet, ça vaut le coup
+2015-03-10T15:33:57 <adriens33> quel boulet T?
+2015-03-10T15:33:59 <adriens33> *?
+2015-03-10T15:34:05 <wildfier> (à mort Zend)
+2015-03-10T15:34:17 <wildfier> la code base sale
+2015-03-10T15:34:32 <TrappyTickles> jvais pas a giroll ce soir, ma femme m'emmène au ciné finalement :p
+2015-03-10T15:34:36 <adriens33> ah
+2015-03-10T15:34:38 <adriens33> ok
+2015-03-10T15:34:54 <adriens33> wildfier> c'est un framework php.
+2015-03-10T15:34:55 <adriens33> PHP
+2015-03-10T15:35:22 <adriens33> tiens, il faudra lui mettre des triggers dans le genre :3
+2015-03-10T15:35:44 <adriens33> donc c'est DE BASE voué à être sale. :P
+2015-03-10T15:35:54 <adriens33> (parce que c'est php)
+2015-03-10T15:35:58 <wildfier> symfony ça va
+2015-03-10T15:36:04 <wildfier> (oui je suis d'accord)
+2015-03-10T15:36:10 <wildfier> c'est pas trop mal
+2015-03-10T15:36:12 <adriens33> :]
+2015-03-10T15:36:16 <wildfier> (pour du php)
+2015-03-10T15:36:22 <wildfier> giroll ce soir ?
+2015-03-10T15:36:27 <adriens33> évidemment
+2015-03-10T15:36:30 <wildfier> ^^
+2015-03-10T15:36:35 <Elvon> mais euh...
+2015-03-10T15:36:51 <adriens33> on sera co sur #bronycub-g33k donc ça va
+2015-03-10T15:36:56 <adriens33> si tu veux discu Elvon
+2015-03-10T15:37:03 <Elvon> pourquoi c'est que le MARDI bon sens.
+2015-03-10T15:37:04 <adriens33> (ah mais t'es en sport, donc tu pourras pas.)
+2015-03-10T15:37:08 <adriens33> faux geek va
+2015-03-10T15:37:13 <wildfier> XD
+2015-03-10T15:37:14 <adriens33> le mec fait du sport.
+2015-03-10T15:37:38 <adriens33> 15:11:06 #bronycub-g33k     +adriens33 | « Pourquoi soulever des althères quand tout ce qu'on a besoin, c'est de
+2015-03-10T15:37:39 <Elvon> ouais bah avec un smartplouf j'aurais pu je vais a la piscine.
+2015-03-10T15:37:44 <adriens33>                                        | soulever sa manette ? »
+2015-03-10T15:37:44 <wildfier> rhoo et l'aut' va il fait du "sport" …
+2015-03-10T15:37:47 <adriens33> 15:11:10 #bronycub-g33k     +adriens33 | - Bob Lennon
+2015-03-10T15:38:32 <adriens33> wildfier> j'adore cette citation :3
+2015-03-10T15:38:33 <Elvon> mais je le mien il est Water Prouf
+2015-03-10T15:38:39 <adriens33> *proof
+2015-03-10T15:39:11 <Elvon> En VF s'il vous plait, water prouf.
+2015-03-10T15:39:18 <wildfier> water plouf
+2015-03-10T15:39:22 <wildfier> s'il vous plait
+2015-03-10T15:39:36 <adriens33> *water proof
+2015-03-10T15:39:41 <wildfier> ok je sors …
+2015-03-10T15:39:42 <adriens33> (par pitié, mes yeux)
+2015-03-10T15:39:58 <adriens33> water → plouf plutôt wildfier non ? :)
+2015-03-10T15:40:26 <adriens33> soit la réaction chimique suivante
+2015-03-10T15:40:31 <wildfier> ouais mais ça marche qu'à l'écrit
+2015-03-10T15:40:41 <adriens33> smartphone + water → plouf + argent
+2015-03-10T15:41:06 <Elvon> bah oui moi souvent le tel de ma mother il fait Plouf dans les water et après il marche plus. c'est ça de jouer Cakedicrush au WC.*
+2015-03-10T15:41:19 <adriens33> 1/ tu joues à candy crush
+2015-03-10T15:41:34 <Elvon> nop la mother.
+2015-03-10T15:41:44 <Elvon> =Ma mère
+2015-03-10T15:41:45 <adriens33> 2/ le phone dans les chiottes faut être vraiment pas doué
+2015-03-10T15:41:55 <adriens33> même :D
+2015-03-10T15:42:17 <Elvon> oui dans la famille on as les mains qui ont le syndrome du saintdoux.
+2015-03-10T15:42:29 <Elvon> on est pas douer et maladroit aussi
+2015-03-10T15:42:39 <adriens33> Elvon> http://www.livememe.com/o4wz7s1
+2015-03-10T15:43:27 <Elvon> La pas copris?- Là j'ai pas compris
+2015-03-10T15:43:42 <adriens33> 1/ c'est un meme
+2015-03-10T15:43:52 <adriens33> 2/ c'est une référence aux seigneur des anneaux
+2015-03-10T15:43:54 <adriens33> inculse
+2015-03-10T15:43:58 <adriens33> *inculte
+2015-03-10T15:44:01 <adriens33> XD
+2015-03-10T15:44:16 <Elvon> http://www.dailymotion.com/video/xtddv_lapin-compris_fun
+2015-03-10T15:44:49 <adriens33> dat accent québécquois XD
+2015-03-10T15:44:52 * adriens33 est plié de rire
+2015-03-10T15:45:20 <adriens33> ...
+2015-03-10T15:46:05 <Elvon> J'ai forger le miens d'accent québécquois avec le temps. (Je les aimes leur sketch)
+2015-03-10T15:46:14 <adriens33> :P
+2015-03-10T15:46:58 <Elvon> http://www.dailymotion.com/video/x524cl_l-a-po-compris_fun?from_related=related.page.int.gravity-only.fc9f2cd2759848b7f128f590fb2f2fc4142599876
+2015-03-10T15:50:02 <adriens33> sinon wildfier comment se porte ton install avec openrc ? :)
+2015-03-10T15:50:17 <Elvon> https://www.youtube.com/watch?v=Noy0DdjG3FI
+2015-03-10T15:52:55 <adriens33> ¿ dafoutre is that ?
+2015-03-10T15:53:26 <wildfier> à part l'intégration de pm-suspend dans kde sur laquelle je me suis pas trop penché
+2015-03-10T15:53:26 <Elvon> c'est génial j'adore ce sketch. Il sont baléze
+2015-03-10T15:53:28 <wildfier> pas de soucis
+2015-03-10T15:53:37 <adriens33> :]
+2015-03-10T15:53:53 <adriens33> Elvon> genre ils font tout le sketch à l'envers…
+2015-03-10T15:53:54 <adriens33> XDD
+2015-03-10T15:54:09 * adriens33 sort vlc pour lire la vidéo à l'envers
+2015-03-10T15:55:24 <adriens33> ah mais ils le font, pas besoin XD
+2015-03-10T15:56:10 <Elvon> oui ils ont d'abord jouer a l'enver et puis ils ont rejouer a l'envers pour le voir alendroit.
+2015-03-10T15:56:28 *** heuzef s'est connecté
+2015-03-10T15:56:32 <adriens33> re heuzef
+2015-03-10T15:56:34 <adriens33> :D
+2015-03-10T15:56:39 <heuzef> J'ai une question
+2015-03-10T15:56:45 <adriens33> oui ?
+2015-03-10T15:57:17 <heuzef> J'utilise boxes pour gérer des VM (c'est un pti outils comme virtualbox)
+2015-03-10T15:57:47 <heuzef> Le truc c'est que mon SSD est super limite en taille et du coup je stock mes VM sur un DD externe USB3, ça fonctionne bien
+2015-03-10T15:58:00 <adriens33> cool
+2015-03-10T15:58:04 <adriens33> c'est quoi le souci '
+2015-03-10T15:58:05 <adriens33> ?
+2015-03-10T15:58:35 <heuzef> Mon souci c'est que Boxes stock les VM par defauts dans /home/heuzef/.local/share/gnome-boxes/images/boxes-unknown
+2015-03-10T15:58:36 <adriens33> (vu qu'en usb3 les hdd externes  sont limités par leur link sata2 en interne et leur vitesse propre, et plus l'usb lui meme)
+2015-03-10T15:59:17 <heuzef> J'ai déplacer cette image de 7Go dans /run/media/heuzef/touro/vm/boxes/boxes-unknown
+2015-03-10T15:59:42 <adriens33> bah tu crée un lien dans /home/heuzef/.local/share/gnome-boxes/images/boxes-unknown qui pointe vers la bonne loc
+2015-03-10T15:59:50 <heuzef> J'ai tenter de faire un lien physique du coup oui
+2015-03-10T16:00:03 <heuzef> ln /run/media/heuzef/touro/vm/boxes/boxes-unknown /home/heuzef/.local/share/gnome-boxes/images/boxes-unknown
+2015-03-10T16:00:03 <heuzef> ln: impossible de créer le lien direct « /home/heuzef/.local/share/gnome-boxes/images/boxes-unknown » → « /run/media/heuzef/touro/vm/boxes/boxes-unknown »: Lien croisé de périphéque invalide
+2015-03-10T16:00:03 <adriens33> symlink plutot
+2015-03-10T16:00:07 <adriens33> ...
+2015-03-10T16:00:11 <adriens33> bah oui
+2015-03-10T16:00:21 <adriens33> on fait pas de hardlink entre deux disques différents XD
+2015-03-10T16:00:26 <adriens33> tu dois faire un symlink
+2015-03-10T16:00:29 <adriens33> lien symbolique
+2015-03-10T16:00:36 <heuzef> Grmmf
+2015-03-10T16:00:42 <adriens33> un hardlink c'est deux références vers un même contenu
+2015-03-10T16:00:52 <adriens33> donc c'est forcément sur la même table d'inodesr
+2015-03-10T16:00:57 <adriens33> donc forcément sur la même partoche
+2015-03-10T16:01:01 <heuzef> lrwxrwxrwx 1 heuzef heuzef 46 10 mars  16:00 boxes-unknown -> /run/media/heuzef/touro/vm/boxes/boxes-unknown
+2015-03-10T16:01:06 <heuzef> On est bon ?
+2015-03-10T16:01:08 <adriens33> vala
+2015-03-10T16:01:09 <adriens33> :D
+2015-03-10T16:01:25 <heuzef> Boxes ne trouve pas de machine :/
+2015-03-10T16:01:35 <adriens33> weird
+2015-03-10T16:02:00 <adriens33> normalement les applis voient pas le link si elles regardent DANS boxes-unknown/ et que ton lien est bien fait
+2015-03-10T16:02:16 <adriens33> l'os retourne le contenu pointé comme si le dossier existait
+2015-03-10T16:02:24 <adriens33> *comme si le dossier existait en local
+2015-03-10T16:02:29 <adriens33> (à la place du lien quoi)
+2015-03-10T16:02:47 <adriens33> donc soit ton lien est mal fait
+2015-03-10T16:02:47 <heuzef> boxes-unknown est l'image
+2015-03-10T16:02:53 <heuzef> pas un dossier
+2015-03-10T16:02:56 <adriens33> ah
+2015-03-10T16:03:00 <adriens33> bah ça doit marcher quand meme
+2015-03-10T16:03:25 <adriens33> en userspace quand tu fais open("fichier") si c'est un symlink, l'os va voir le contenu pointé, et c'est ça qu'il t'ouvre
+2015-03-10T16:03:39 <adriens33> donc une appli normale voit pas la diff si ton lien est bien pointé
+2015-03-10T16:04:12 <heuzef> Je viens de créer une nouvelle VM, il la chope sans souci dans box mais juste celle ci
+2015-03-10T16:04:14 <adriens33> si tu fais un ls -l --color, ton lien est listé en bleu ou en rouge ?
+2015-03-10T16:04:15 <heuzef> Pourtant :
+2015-03-10T16:04:18 <heuzef> lrwxrwxrwx 1 heuzef heuzef     46 10 mars  16:00 boxes-unknown -> /run/media/heuzef/touro/vm/boxes/boxes-unknown
+2015-03-10T16:04:18 <heuzef> -rwxr--r-- 1 heuzef heuzef 197120 10 mars  16:03 boxes-unknown-2
+2015-03-10T16:04:22 <adriens33> ah.
+2015-03-10T16:04:30 <adriens33> bah fait un lien au dossier parent alors
+2015-03-10T16:04:32 <heuzef> Premier en bleu
+2015-03-10T16:04:46 <heuzef> je tente
+2015-03-10T16:05:14 <Elvon> Gigot au haricot vert les amis (je re plus tard)
+2015-03-10T16:05:24 <adriens33> ln -sv /run/media/heuzef/touro/vm/boxes /home/heuzef/.local/share/gnome-boxes/images
+2015-03-10T16:05:39 <adriens33> (évidemment /home/heuzef/.local/share/gnome-boxes/images ne doit pas déjà exister)
+2015-03-10T16:05:46 *** Elvon est parti
+2015-03-10T16:10:30 <heuzef> Punaise j'arrive pas à virer un lien
+2015-03-10T16:10:41 <heuzef> mais j'ai bien delete ma VM par contre :(
+2015-03-10T16:10:49 <adriens33> quel lien ? ou ?
+2015-03-10T16:13:55 <heuzef> Ta commande fonctionne bien =)
+2015-03-10T16:15:31 <adriens33> tant mieux :)
+2015-03-10T16:15:41 <heuzef> heuzef@x240~/.local/share/gnome-boxes > ll -h
+2015-03-10T16:15:41 <heuzef> total 0
+2015-03-10T16:15:42 <heuzef> lrwxrwxrwx 1 heuzef heuzef 32 10 mars  16:11 images -> /run/media/heuzef/touro/vm/boxes
+2015-03-10T16:15:53 <heuzef> Et quand je lance la VM mon DD ext gratte bien
+2015-03-10T16:15:58 <adriens33> cool cool :D
+2015-03-10T16:16:17 <adriens33> tu viens à giroll tout à l'heure toi ?
+2015-03-10T16:16:25 <adriens33> *bronyroll pardon
+2015-03-10T16:16:31 <heuzef> Merci parceque bon j'ai acheté ce DDext juste pour ça
+2015-03-10T16:16:44 <heuzef> Nop le temps que je rentre à Bordeaux
+2015-03-10T16:16:53 <adriens33> ah, tu n'es pas sur  bordeaux :/
+2015-03-10T16:16:59 <adriens33> tristesse
+2015-03-10T16:17:10 <heuzef> Je suis a Blanquefort
+2015-03-10T16:18:33 <adriens33> effectivement
+2015-03-10T16:19:28 <adriens33> 1h de trajet en prenant le 29
+2015-03-10T16:19:44 <adriens33> et encore faut-il aller à l'arret
+2015-03-10T16:19:57 <adriens33> y'a le 6 aussi
+2015-03-10T16:28:06 *** TrappyTickles est parti
+2015-03-10T16:32:50 <adriens33> wildfier> vive le débit de taré
+2015-03-10T16:32:55 <adriens33> j'ai 5Mb/s en ↑
+2015-03-10T16:32:58 <adriens33> du coup ma conf
+2015-03-10T16:33:02 <adriens33> j'ai tout collé sous git
+2015-03-10T16:33:08 <adriens33> et je peux git push sur mon serveur
+2015-03-10T16:33:21 <adriens33> même que ça fait 700Mo et que ma co elle a fait "c'est tout ?"
+2015-03-10T16:40:42 <wildfier> salaud :p
+2015-03-10T16:40:51 <adriens33> t'a cmb en débit toi ?
+2015-03-10T16:40:59 <adriens33> moi j'ai réussi à pousser à mort
+2015-03-10T16:41:10 <wildfier> 3mo en down
+2015-03-10T16:41:11 <adriens33> 37Mb/s↓ 4.9Mb/s↑ utile
+2015-03-10T16:41:18 <wildfier> 800ko en up
+2015-03-10T16:41:21 <adriens33> 40Mb/s↓ 5Mb/s↑ total
+2015-03-10T16:41:51 <adriens33> je monte à 4.6Mio/s en ↓ max
+2015-03-10T16:42:05 <adriens33> donc en gros moi avec mon fil de cuivre je te poutre ta fibre.
+2015-03-10T16:42:08 <adriens33> bon à savoir.
+2015-03-10T16:42:19 <wildfier> tu peux avoir des notifs sonore ou par les notifs sytème pour les nouveaux messages sur weechat ?
+2015-03-10T16:42:28 <adriens33> je sais pas
+2015-03-10T16:42:45 <adriens33> si ton term supporte le audio bell oui
+2015-03-10T16:42:58 <wildfier> ok, je vais continuer à juste jetter un œil au chat de temps en temps du coup :p
+2015-03-10T16:43:02 <adriens33> (wc envoie un carac BELL au terminal)
+2015-03-10T16:43:14 <adriens33> donc du coup t'a le term qui flash théoriquement
+2015-03-10T16:43:24 <adriens33> et s'il a une option audio bell ça doit etre faisable
+2015-03-10T16:43:35 <adriens33> moi ça flash juste.
+2015-03-10T16:43:37 <wildfier> si c'est pas sur le même bureau c'est pas très util :p
+2015-03-10T16:43:54 <heuzef> On as un débit similaire adriens33 ^^ Va falloir qu'on synchronise nos dossier medias hein
+2015-03-10T16:43:55 <adriens33> (et ça passe a travers tmux, donc la fenetre elle meme envoie une notif à X11)
+2015-03-10T16:44:04 <adriens33> j'ai la fenetre qui devient orange
+2015-03-10T16:44:12 <adriens33> donc même sur un desktop différent je le verrai
+2015-03-10T16:44:16 <adriens33> heuzef> ah ?
+2015-03-10T16:44:20 <adriens33> moi je suis en vdsl =3
+2015-03-10T16:44:26 <adriens33> 30€/mois
+2015-03-10T16:44:34 <heuzef> FO THD
+2015-03-10T16:44:43 <adriens33> très haut débits
+2015-03-10T16:44:46 <adriens33> :)
+2015-03-10T16:44:56 <heuzef> Prochaine étape le FTTH :P
+2015-03-10T16:45:00 <adriens33> (bon ok 40Mb/s en dl c'est haut :D)
+2015-03-10T16:45:03 <heuzef> Toujours plus
+2015-03-10T16:45:05 <adriens33> 5Mb/s en ul par contre
+2015-03-10T16:45:08 <adriens33> ça fait du biennn
+2015-03-10T16:45:15 <adriens33> j'upload comme un taré
+2015-03-10T16:45:21 <wildfier> putain tu peux faire new $nomDeMaClasse(); en PHP …
+2015-03-10T16:45:23 <adriens33> >607Kio/s
+2015-03-10T16:45:26 <wildfier> c'est tellement moche …
+2015-03-10T16:45:31 <adriens33> c'est php wildfier
+2015-03-10T16:45:38 <adriens33> je vois pas pourquoi cela t'étonne encore
+2015-03-10T16:45:49 <wildfier> tu peux pas savoir comment je pleure des larmes de sang sur ce code là …
+2015-03-10T16:45:57 <adriens33> je veux bien te croire :]
+2015-03-10T16:46:06 <adriens33> [troll]passe à python[/troll[
+2015-03-10T16:46:08 <adriens33> *]
+2015-03-10T16:46:41 <adriens33> heuzef> pour les médias moi j'ai tout sur un dde, mais me faire un serv local avec mon RPi serait une bonne idée
+2015-03-10T16:46:45 <adriens33> comme ça j'ajoute un accès ftp etc externe
+2015-03-10T16:46:54 <adriens33> pour la synchro ça serait cool
+2015-03-10T16:47:52 <wildfier> j'aimerais bien adriens33
+2015-03-10T16:47:55 <heuzef> Moi j'ai a peu prêt 150 Go de très bon film prêt à partager à 5Mo/s ↑
+2015-03-10T16:48:03 <heuzef> + des séries
+2015-03-10T16:48:07 <adriens33> oui je me doute wildfier, c'était pour ça que j'ai mis [troll]
+2015-03-10T16:48:13 <adriens33> cool
+2015-03-10T16:48:37 <heuzef> Tu veux un pti compte ? =)
+2015-03-10T16:48:43 <adriens33> ah, pourquoi pas. :)
+2015-03-10T16:53:01 <heuzef> heuzef.co
+2015-03-10T16:53:06 <heuzef> adrien_sohier
+2015-03-10T16:53:09 <heuzef> PainAuChocolat33000
+2015-03-10T16:53:17 <heuzef> Comme ça je suis sûr que tu va le changer :D
+2015-03-10T16:53:20 <adriens33> XDDD
+2015-03-10T16:53:51 <adriens33> de toute façon je suis pas du genre à laisser les mots de passe par défaut.
+2015-03-10T16:54:47 <adriens33> sympa la login page :D
+2015-03-10T16:54:56 <heuzef> ^^
+2015-03-10T16:55:08 <heuzef> Je t'es filer à des dossier qui devrais te plaire
+2015-03-10T16:55:16 <heuzef> accès*
+2015-03-10T16:57:34 <adriens33> ok :)
+2015-03-10T16:57:36 <adriens33> je look ma
+2015-03-10T16:57:38 <adriens33> *ça
+2015-03-10T16:57:39 <wildfier> XD t'est con heuzef avec ton mot de passe !
+2015-03-10T16:57:48 <adriens33> ouai :')
+2015-03-10T16:57:51 <adriens33> m'a bien fait rire
+2015-03-10T16:58:46 <adriens33> t'as les eps classic de doctor who :P
+2015-03-10T16:58:53 <adriens33> faudra que je les re récup
+2015-03-10T16:59:06 <adriens33> (par contre sur mon dde il me reste plus beaucoup de place XD)
+2015-03-10T16:59:32 <heuzef> A savoir je vais bientôt tous virrer les DW
+2015-03-10T16:59:39 <adriens33> ah ?
+2015-03-10T16:59:43 <heuzef> Parceque 400 Go quand même
+2015-03-10T16:59:43 <adriens33> pourquoi donc ?
+2015-03-10T16:59:45 <adriens33> ah.
+2015-03-10T17:00:01 <heuzef> Mais j'ai tous migré sur le serveur de FlutterBrony
+2015-03-10T17:00:02 <heuzef> Pas perdu
+2015-03-10T17:00:08 <heuzef> Mais dès que j'ai plus de place
+2015-03-10T17:00:09 <heuzef> Zou
+2015-03-10T17:00:11 <adriens33> ok :)
+2015-03-10T17:00:22 <heuzef> un rm de 400Go
+2015-03-10T17:00:40 <adriens33> niveau films t'es fourni par contre
+2015-03-10T17:00:41 <adriens33> :O
+2015-03-10T17:01:08 <heuzef> 100% de ces films sont certifié heuzef approuved
+2015-03-10T17:01:14 <heuzef> Pas dla merde jte dis !
+2015-03-10T17:01:20 <adriens33> :)
+2015-03-10T17:01:24 <heuzef> Aucun navet
+2015-03-10T17:03:18 <heuzef> http://www.betaseries.com/membre/heuzef/
+2015-03-10T17:05:16 <adriens33> tristesse
+2015-03-10T17:05:33 <adriens33> j'ai meme pas tout sélectionné que ça dépasse déjà ce qu'il me reste de libre :(
+2015-03-10T17:05:45 <adriens33> j'vai devoir m'acheter un autre dd
+2015-03-10T17:05:56 <adriens33> ou squatter celui de mon pc, mais ça sera pas hyper mobile
+2015-03-10T17:06:10 <heuzef> Ba avec ta nouvelle co te prend pas la tête
+2015-03-10T17:06:18 <heuzef> DL à la volé
+2015-03-10T17:06:24 <adriens33> ah, pas con.
+2015-03-10T17:06:44 <heuzef> Tu lance un DL et vers 10% tu lance ton film
+2015-03-10T17:07:41 <wildfier> heuzef approved ? hmm et qui approuve heuzef ?
+2015-03-10T17:09:20 <heuzef> Derpy
+2015-03-10T17:09:20 <heuzef> https://mlpforums.com/uploads/monthly_05_2014/post-17832-0-52005400-1399043593.jpg
+2015-03-10T17:09:47 <adriens33> Derpyy <3
+2015-03-10T17:29:27 *** heuzef est parti
+2015-03-10T17:32:18 <adriens33> je risque d'avoir un peu de retard.
+2015-03-10T17:32:32 <adriens33> le temps que mon dde finisse de gratter ce que je viens d'y copier…
+2015-03-10T17:32:41 <adriens33> et que je parte =D
+2015-03-10T17:34:25 <adriens33> berry, je te laisse surveiller le chan ;)
+2015-03-10T17:34:32 <adriens33> fais pas de bêtise.
+2015-03-10T17:34:34 *** adriens33 est parti
+2015-03-10T17:34:43 *** adriens33 s'est connecté
+2015-03-10T17:34:51 *** adriens33 est parti
+2015-03-10T17:49:57 *** Shinsaber est parti
+2015-03-10T18:23:14 *** wildfier est parti
+2015-03-10T18:55:19 *** adriens33 s'est connecté
+2015-03-10T19:02:15 *** Shinsaber s'est connecté
+2015-03-10T19:02:18 <adriens33> ahhh
+2015-03-10T19:02:21 <Shinsaber> bite
+2015-03-10T19:02:26 <adriens33> j'me sens moins forever alone
+2015-03-10T19:02:29 <adriens33> couille
+2015-03-10T19:10:43 *** Shinsaber est parti
+2015-03-10T19:13:09 <adriens33> damn, me revoilà seul.
+2015-03-10T19:13:14 <adriens33> tristesse et désolation
+2015-03-10T19:28:45 *** Shinsaber s'est connecté
+2015-03-10T19:30:02 <adriens33> Shinsaber o//
+2015-03-10T19:30:19 <adriens33> Shinsaber>
+2015-03-10T19:30:32 <Shinsaber> adriens33:
+2015-03-10T19:35:09 <adriens33> Shinsaber> bon on fait un truc ou bien ?
+2015-03-10T19:40:52 <Shinsaber> "bon on joue ou on s’encule" Benzai
+2015-03-10T19:44:54 <adriens33> lol
+2015-03-10T19:45:01 <adriens33> hmmm je préfèrerai éviter
+2015-03-10T19:46:41 <adriens33> je peux appeler le patron de slg si tu veux jouer à ça
+2015-03-10T19:46:43 <adriens33> :]
+2015-03-10T19:46:45 <adriens33> Shinsaber>
+2015-03-10T19:46:51 <adriens33> Shinsaber
+2015-03-10T19:47:56 <adriens33> il m'écoute pas, le bougre.
+2015-03-10T19:53:59 <Shinsaber> n’importe quoi
+2015-03-10T19:54:12 <adriens33> quelle réponse constructive.
+2015-03-10T19:54:15 <adriens33> bravo.
+2015-03-10T19:54:23 * adriens33 applaudit des deux pieds
+2015-03-10T20:07:38 *** adriens33 est parti
+2015-03-10T20:16:30 *** Shinsaber est parti
+2015-03-10T21:12:04 *** Elvon s'est connecté
+2015-03-10T21:13:58 *** MaCharon s'est connecté
+2015-03-10T21:14:03 *** MaCharon est parti
+2015-03-10T21:17:30 *** Elvon est parti
+2015-03-10T21:18:36 *** Elvon s'est connecté
+2015-03-10T21:33:57 *** Elvon est parti
+2015-03-10T21:34:24 *** Elvon s'est connecté
+2015-03-10T23:43:24 *** Elvon est parti
+2015-03-11T08:10:29 *** adriens33 s'est connecté
+2015-03-11T08:10:45 <adriens33> !history
+2015-03-11T08:13:24 <adriens33> Berry
+2015-03-11T08:13:32 <adriens33> Sers moi un truc à boire :P
+2015-03-11T08:35:10 *** TrappyTickles s'est connecté
+2015-03-11T08:35:16 <adriens33> donc ce que je voulais dire
+2015-03-11T08:35:18 <TrappyTickles> voila
+2015-03-11T08:35:23 <adriens33> c'est que a la limite en ext4
+2015-03-11T08:35:25 <adriens33> avec le journal
+2015-03-11T08:35:34 <adriens33> théoriquement tu pers pas gd chose en général
+2015-03-11T08:35:57 <adriens33> (j'ai jamais rien perdu moi en fait, et pourtant mon laptop il en a subi des coupures par batterie faible…)
+2015-03-11T08:36:16 <adriens33> le seul truc énervant c'est le fsck de 30minutes après XD
+2015-03-11T08:36:33 <adriens33> (en même temps sur une partoche de prresque 1Tio… XD
+2015-03-11T08:36:35 <adriens33> )
+2015-03-11T08:36:49 <TrappyTickles> ça j'y ai eu droit... ubuntu en faisait tous les 30 boots
+2015-03-11T08:36:54 <adriens33> ca c'est normal
+2015-03-11T08:37:08 <adriens33> mais il doit pas durer 30min si c'est un clean fsck
+2015-03-11T08:37:14 <adriens33> (= pas après une coupure brutale)
+2015-03-11T08:37:34 <adriens33> t'as un timestamp marqué dans ton système de fichiers
+2015-03-11T08:37:41 <adriens33> pour dire de quand date le dernier fsck
+2015-03-11T08:38:06 <adriens33> s'il est trop vieux en général le module ext4 envoie un message comme quoi il faudrait le fsck
+2015-03-11T08:38:08 <TrappyTickles> jvois
+2015-03-11T08:38:15 <adriens33> (message relayé par le prog de montage en général)
+2015-03-11T08:38:21 <adriens33> donc soit en console si t'y es
+2015-03-11T08:38:25 <adriens33> soit sur syslog
+2015-03-11T08:38:48 <adriens33> ça tourne entre 20 et 40 montages généralement pour la vérif auto
+2015-03-11T08:38:55 <adriens33> ça dépend de la taille
+2015-03-11T08:39:02 <TrappyTickles> ça doit etre - dangereux que chkdsk sur win. celui là  il m'a souvent démoli des fichiers
+2015-03-11T08:39:40 <adriens33> bah les pilotes disque sous linux font autant attention au coté logiciel que physique pour l'emplacement des fichiers
+2015-03-11T08:39:46 <adriens33> pas windows
+2015-03-11T08:40:03 <adriens33> physiquement la position des fichiers en disque et la mise à jour du cache il s'en branle un peu
+2015-03-11T08:40:13 <adriens33> c'est pour ça uq'il fragmente autant
+2015-03-11T08:40:22 <adriens33> plus que à cause du ntfs lui même
+2015-03-11T08:40:38 <TrappyTickles> je vois
+2015-03-11T08:40:48 <adriens33> mais du coup il est plus propice aux pertes
+2015-03-11T08:41:23 <adriens33> ext4 il écrit rien en disque sans le journal qui va bien, sans être sur qu'au moins le journal ne soit pas synchronisé sur le disque (et pas juste le cache)
+2015-03-11T08:41:45 <adriens33> du coup dans le pire des cas, tu pers un fichier qui était en cours d'écriture
+2015-03-11T08:41:54 <adriens33> mais une corruption fs faut vraiment y aller
+2015-03-11T08:43:08 <TrappyTickles> me demande pkoi windows passe pas a un système comme unix quand jvois ça
+2015-03-11T08:43:22 <adriens33> surtout qu'ils pourraient implé l'ext4 direct
+2015-03-11T08:43:28 <adriens33> 1/ c'est en gnu gpl2
+2015-03-11T08:43:41 <adriens33> 2/ ca gère les permissions et les acl mieux que ntfs
+2015-03-11T08:43:47 <TrappyTickles> tiens j'ai vu que canonical allait s'allier a microsoft pour faire des trucs open
+2015-03-11T08:43:47 <adriens33> 3/ c'est hyper résistant
+2015-03-11T08:44:13 <adriens33> 4/ ça marche par extent (= alloue toute une zone au fichier, plus grande que le fichier de base pour qu'il aie la place de s'étendre)
+2015-03-11T08:44:19 <adriens33> pas par bloc disque
+2015-03-11T08:44:30 <adriens33> donc très très peu de fragmentation
+2015-03-11T08:45:00 <adriens33> et il passe pas son temps à essayer de boucher les petits trous du fs avec des bouts de fichier comme le fait le ntfs, même si t'a la place libre à côté
+2015-03-11T08:45:04 <adriens33> (déjà vu et revu)
+2015-03-11T08:46:12 <adriens33> conclusion = microsoft veut pas s'emmerder à implé un truc qui marche, parce que ça serait pas fun un windows qui s'encrasse pas et qui t'oblige pas à acheter le suivant
+2015-03-11T08:46:18 <adriens33> pire: c'est un surplus de taf
+2015-03-11T08:46:31 <adriens33> qui n'apporte pas de gain de bénef
+2015-03-11T08:46:52 <TrappyTickles> et ce serait admettre qu'ils ont tort depuis des années :p
+2015-03-11T08:47:13 <adriens33> oui
+2015-03-11T08:47:19 <adriens33> mais bon y'a de l'espoir.
+2015-03-11T08:47:28 <adriens33> après 25 ans à exister sous unix
+2015-03-11T08:47:49 <adriens33> microsoft a ENFIN implémenté le multi bureau sous Win 10
+2015-03-11T08:48:08 <adriens33> donc peut être passeront ils à ext4 d'ici… 2050 ?
+2015-03-11T08:48:09 <adriens33> XD
+2015-03-11T08:48:43 <adriens33> quand on aura un btrfs plus que stable et éprouvé et over powered
+2015-03-11T08:49:22 <adriens33> (btrfs = zfs version ext4)
+2015-03-11T08:49:40 <adriens33> (et zfs est hyper cheaté en soi XD)
+2015-03-11T08:49:46 <adriens33> (mais un peu lour()
+2015-03-11T08:49:48 <adriens33> *lourd
+2015-03-11T08:49:53 <TrappyTickles> heh
+2015-03-11T08:50:09 <adriens33> faudra que je me fasse une install d'arch sous btrfs pour tester.
+2015-03-11T08:50:14 <adriens33> et m'y familiariser aussi.
+2015-03-11T08:50:19 <adriens33> il est pas encore considéré stable
+2015-03-11T08:50:53 <adriens33> mais en pratique il l'est suffisamment pour être parfaitement utilisable sans risque, si tu suis les bonnes pratiques informatique et fais des backups de temps à autre.
+2015-03-11T08:51:28 <TrappyTickles> ça marcherait?
+2015-03-11T08:52:03 <adriens33> btrfs ? ça marche oui :)
+2015-03-11T08:52:11 <adriens33> c'est en bêtà très avancée à peu près
+2015-03-11T08:52:17 <adriens33> *bêta
+2015-03-11T08:52:25 <adriens33> pratiquement stable.
+2015-03-11T08:52:49 <TrappyTickles> jvoulais dire arch en btrfs
+2015-03-11T08:52:52 <adriens33> mais bon comme il faut bien faire les choses, c'est pas considéré stable tant qu'on a pas éradiqué tous les bugs emmerdant
+2015-03-11T08:52:57 <adriens33> ah  oui, oui :D
+2015-03-11T08:53:21 <adriens33> à l'origine, ext4 n'était censé qu'être une étape temporaire avant btrfs
+2015-03-11T08:53:34 <TrappyTickles> fais ça en virtualisé alors :p
+2015-03-11T08:53:35 <adriens33> en fait l'évol c'est ext2 → ext3 → ext4 → btrfr
+2015-03-11T08:53:37 <adriens33> *btrfs
+2015-03-11T08:53:46 <TrappyTickles> ah jvois
+2015-03-11T08:54:00 <TrappyTickles> me demandais quand ils feraient ext5 XD
+2015-03-11T08:54:20 <adriens33> bah il existe, et est en cours de stabilisation.
+2015-03-11T08:54:27 <adriens33> sauf qu'il s'appelle btrfs
+2015-03-11T08:54:29 <adriens33> :D
+2015-03-11T08:54:34 <adriens33> en fait c'est pour deux raisons
+2015-03-11T08:54:40 <adriens33> 1/ ça fait better filesystem
+2015-03-11T08:54:50 <adriens33> 2/ ça marche par un système d'arbres B
+2015-03-11T08:54:54 <adriens33> (B-tree fs)
+2015-03-11T08:54:59 <adriens33> (c'est le vrai nom)
+2015-03-11T08:55:34 <adriens33> du coup tu peux faire des sous racines séparées
+2015-03-11T08:55:40 <adriens33> dans la racine principale
+2015-03-11T08:55:43 <adriens33> (un sous arbre quoi)
+2015-03-11T08:55:53 <adriens33> et les snapshot c'est grace a ca aussi
+2015-03-11T08:56:07 <adriens33> fin c'est juste cheaté comme fs quoi
+2015-03-11T08:56:14 <TrappyTickles> lol
+2015-03-11T08:56:29 <adriens33> faut vraiment que je teste.
+2015-03-11T08:57:29 <adriens33> et puis ça me fera refaire une install, c'est toujours ça de pris pour pas perdre la main XD
+2015-03-11T08:57:54 <adriens33> c'est le seul inconvénient de pas avoir à réinstall ton système parce qu'il tient la route dans le temps
+2015-03-11T08:58:06 <adriens33> c'est que si tu fais pas des install à coté
+2015-03-11T08:58:10 <adriens33> tu oublies comment on fait
+2015-03-11T08:59:38 <adriens33> sinon comment tu trouves le système de double canal ?
+2015-03-11T09:02:54 <TrappyTickles> ça éffraiera moins les gens - geek comme ma femme lol
+2015-03-11T09:03:03 <adriens33> bah  c'est un peu le but XD
+2015-03-11T09:03:14 <adriens33> j'ai repris le système des canaux d'archlinuxfr
+2015-03-11T09:03:22 <adriens33> le chan principal pour l'aide
+2015-03-11T09:03:27 <adriens33> et un offtopic pour parler du reste
+2015-03-11T09:03:33 <adriens33> ça marche super bien à ce que j'ai vu
+2015-03-11T09:03:44 <adriens33> du coup les gens qui atterrissent sur le chan principal pour l'aide
+2015-03-11T09:03:48 <adriens33> sont pas pollués par des hs
+2015-03-11T09:04:06 <adriens33> (#archlinux-fr et #arch-fr-off si tu veux y faire un tour
+2015-03-11T09:04:07 <adriens33> )
+2015-03-11T09:04:24 <TrappyTickles> a l'occase ptet
+2015-03-11T09:04:50 <adriens33> (mon pseudo c'est arthur33 là bas parce que c'est ce que j'avais mis sur le fofo archlinux et j'aime rester cohérent :D)
+2015-03-11T09:05:48 *** wildfier s'est connecté
+2015-03-11T09:05:58 <wildfier> yop
+2015-03-11T09:06:06 <TrappyTickles> oi
+2015-03-11T09:06:07 <adriens33> salut :D
+2015-03-11T09:06:22 <adriens33> on parlait de ext4, btrfs, tout plein de trucs sympars
+2015-03-11T09:06:24 <adriens33> *sympas
+2015-03-11T09:06:31 <wildfier> cool
+2015-03-11T09:06:51 <wildfier> au fait tu peux essayer ce que je t'ai demandé hier au giroll ?
+2015-03-11T09:06:52 <adriens33> (y'a la log au pire si tu veux lire :) )
+2015-03-11T09:06:55 <adriens33> ?
+2015-03-11T09:07:07 <wildfier> à savoir essayer de faire tourner les tests de sugarcub chez toi
+2015-03-11T09:07:22 <adriens33> j'fais comment ?
+2015-03-11T09:07:55 <wildfier> tu clone le dépôt
+2015-03-11T09:08:06 <wildfier> tu vas sur la branche feature/profile
+2015-03-11T09:09:06 *** wildfier est parti
+2015-03-11T09:09:19 *** wildfier s'est connecté
+2015-03-11T09:09:34 <wildfier> heu j'ai été déco apparement
+2015-03-11T09:09:39 <adriens33> ok (je dois partir dans pas longtemps par contre, donc ça sera sûrement cet aprem désolé ^^")
+2015-03-11T09:09:46 <wildfier> ok pas de soucis
+2015-03-11T09:09:55 <adriens33> et apres avoir clone j'ai quoi a install ? ^^"
+2015-03-11T09:10:01 <wildfier> # Install dependencies
+2015-03-11T09:10:02 <wildfier> virtualenv3 env
+2015-03-11T09:10:02 <wildfier> source env/bin/activate
+2015-03-11T09:10:02 <wildfier> pip3 install -r dependencies.txt
+2015-03-11T09:10:02 <wildfier> # Run functional tests
+2015-03-11T09:10:03 <wildfier> chmod u+x manage.py
+2015-03-11T09:10:03 <wildfier> python3 ./manage.py test functional_tests
+2015-03-11T09:10:10 <wildfier> tu lances ce script
+2015-03-11T09:10:21 <wildfier> (sur la branche feature/profile
+2015-03-11T09:10:24 <wildfier> )
+2015-03-11T09:10:53 <adriens33> o_o
+2015-03-11T09:11:16 <adriens33> (par contre: comment tu fais pour tes branches, pour faire des sous dossier ?
+2015-03-11T09:11:24 <adriens33> genre feature/profile justement ?)
+2015-03-11T09:13:41 *** heuzef s'est connecté
+2015-03-11T09:14:06 <heuzef> adriens33 comment je peux tous les paquets que j'ai désinstallé hier ? :(
+2015-03-11T09:14:10 <heuzef> voir*
+2015-03-11T09:14:15 <adriens33> je sais pas
+2015-03-11T09:14:22 <adriens33> ça dépend de ta distribution --"
+2015-03-11T09:14:30 <heuzef> je suis pas dans la merde :/
+2015-03-11T09:14:30 <adriens33> je suis sous archlinux moi
+2015-03-11T09:14:33 <heuzef> fedora
+2015-03-11T09:14:44 <adriens33> je connais pas apt et yum
+2015-03-11T09:14:55 <adriens33> enfin je sais un peu m'en servir mais c'est vraiment tout
+2015-03-11T09:15:06 <adriens33> je sais pas où yum loggue ce qu'il fait
+2015-03-11T09:15:16 <adriens33> mais déja essaie de fouiller /var/log
+2015-03-11T09:15:19 <adriens33> et journalctl
+2015-03-11T09:15:35 <adriens33> (vu que t'es sous fedora, tu dois bien avoir droit à cet immondice qu'est systemd
+2015-03-11T09:15:36 <adriens33> )
+2015-03-11T09:15:45 <heuzef> j'ai les log c'est bon
+2015-03-11T09:16:44 <adriens33> wildfier> ah mais virtualenv il te crée un env python local ?? o_œ
+2015-03-11T09:16:48 <adriens33> o_o*
+2015-03-11T09:16:50 <adriens33> trop classe
+2015-03-11T09:17:36 <adriens33> merde, c'est vrai. chui pas sous bash.
+2015-03-11T09:17:48 <adriens33> (source env/bin/activate marchera pas XD)
+2015-03-11T09:19:01 <adriens33> du coup en fait
+2015-03-11T09:19:14 <adriens33> virtualenv ca permet d'install les deps de ton projet
+2015-03-11T09:19:21 <adriens33> en local, pas dans le système
+2015-03-11T09:19:24 <adriens33> c'est trop bien
+2015-03-11T09:19:33 <adriens33> (enfin c'est propre surtout)
+2015-03-11T09:22:10 *** TrappyTickles est parti
+2015-03-11T09:22:52 <adriens33> wildfier> c'est normal ça ? http://www.art-software.fr/apps/bozon/uploads/data
+2015-03-11T09:23:10 <adriens33> (vive le système de c/c de tmux)
+2015-03-11T09:25:14 *** TrappyTickles s'est connecté
+2015-03-11T09:29:44 *** heuzef est parti
+2015-03-11T09:35:10 <adriens33> bon, j'y go
+2015-03-11T09:35:12 *** adriens33 est parti
+2015-03-11T09:41:56 *** Shinsaber s'est connecté
+2015-03-11T10:02:19 *** wildfier est parti
+2015-03-11T10:02:32 *** wildfier s'est connecté
+2015-03-11T10:06:09 *** wildfier est parti
+2015-03-11T10:06:22 *** wildfier s'est connecté
+2015-03-11T10:09:09 *** wildfier est parti
+2015-03-11T10:09:22 *** wildfier s'est connecté
+2015-03-11T10:22:09 *** wildfier est parti
+2015-03-11T10:22:22 *** wildfier s'est connecté
+2015-03-11T10:24:09 *** wildfier est parti
+2015-03-11T10:24:23 *** wildfier s'est connecté
+2015-03-11T10:29:19 *** wildfier est parti
+2015-03-11T10:29:33 *** wildfier s'est connecté
+2015-03-11T12:39:25 *** wildfier est parti
+2015-03-11T12:43:39 *** adriens33 s'est connecté
+2015-03-11T12:44:29 <adriens33> (re aussi)
+2015-03-11T13:11:10 *** wildfier s'est connecté
+2015-03-11T13:11:15 <adriens33> re wildfier
+2015-03-11T13:11:37 <adriens33> t'a look le lien que j'ai envoyé ?
+2015-03-11T13:11:43 <adriens33> c'est ce que j'ai comme retour
+2015-03-11T13:29:00 <wildfier> c'est bon j'ai trouvé les soucis
+2015-03-11T13:29:00 <wildfier> et c'est résolu
+2015-03-11T13:29:00 <wildfier> une lib que j'avais patché en local
+2015-03-11T13:29:01 <wildfier> (j'ai trouvé comment utiliser un dépot git comme source pour pip)
+2015-03-11T13:29:09 <wildfier> ensuit une trad qui était pas compilée
+2015-03-11T13:29:16 <wildfier> ensuite*
+2015-03-11T13:29:34 <wildfier> et enfin le xvfb étant en 800x600
+2015-03-11T13:29:50 <wildfier> du coup la barre de menu était passée en mode mobile
+2015-03-11T13:29:58 <adriens33> ok
+2015-03-11T13:30:01 <adriens33> :)
+2015-03-11T13:30:10 <wildfier> et le test trouvait pas le lien vu qu'il était en display none
+2015-03-11T13:30:50 <wildfier> et tu peux prendre des screenshots avec selenium
+2015-03-11T13:31:22 <wildfier> du coup je vais faire en sorte d'en prendre automatiquement en cas de test qui failent ou qui plantent
+2015-03-11T13:31:53 <wildfier> (c'est comme ça que j'ai trouvé pour l'erreur de résolution avec xvfb)
+2015-03-11T13:48:47 <Shinsaber> wildfier: mon chef a acheter un magazine sur le monde du libre et il y a un article sur l'ergodox XD
+2015-03-11T13:56:48 <adriens33> bah profite :P
+2015-03-11T13:57:46 <Shinsaber> je vais le récup pour le lire ce soir ^^
+2015-03-11T14:42:56 <wildfier> oh cool !
+2015-03-11T14:42:57 <wildfier> je suis en train de me faire chier avec unittest en python
+2015-03-11T14:43:41 <wildfier> j'essaie de faire en sorte de prendre automatiquement un screenshot si mon test selenium fail ou plante
+2015-03-11T14:44:45 <wildfier> donc je surcharge des trucs de unittest
+2015-03-11T14:44:46 <wildfier> et je galère à injecté ma classe à la place de celle de base
+2015-03-11T14:44:46 <wildfier> …
+2015-03-11T14:58:14 <Shinsaber> wildfier:  tu est pas en labo games ??
+2015-03-11T15:01:17 <wildfier> (si)
+2015-03-11T15:04:25 <Shinsaber> car je veut voir une démo qui envois du lourd, donc au boulot  ^^ !
+2015-03-11T15:06:32 <Shinsaber> il faudra que tu me montre le jeu un jours ^^
+2015-03-11T15:08:38 <wildfier> ouais ^^
+2015-03-11T15:10:41 <wildfier> adriens33: tu sais utiliser __call__ en python ?
+2015-03-11T15:13:49 <wildfier> wait non, c'est pas ce que je cherche …
+2015-03-11T15:16:13 <Shinsaber> XD
+2015-03-11T15:18:55 <adriens33> c'est quoi ?
+2015-03-11T15:27:58 <wildfier> tu peux créer une instance d'une sous classe à partir d'une instance de la classe parente ?
+2015-03-11T15:28:50 <wildfier> j'ai besoin de surcharger un quelques méthodes d'un objet mais j'ai pas la main sur la création de cet objet
+2015-03-11T15:30:49 <adriens33> euhhhhh
+2015-03-11T15:30:53 <adriens33> jocker ?
+2015-03-11T15:30:54 <adriens33> o_o
+2015-03-11T15:35:29 <wildfier> ^^
+2015-03-11T15:35:39 <wildfier> https://stackoverflow.com/questions/394770/override-a-method-at-instance-level
+2015-03-11T15:35:53 <wildfier> je crois que ça devrait faire mon bonheur
+2015-03-11T15:36:37 <adriens33> ah
+2015-03-11T15:36:40 <adriens33> ok
+2015-03-11T15:36:45 <adriens33> j'avais pas pigé XD
+2015-03-11T15:36:52 <adriens33> bah tu redef
+2015-03-11T15:36:56 <adriens33> def func()
+2015-03-11T15:37:08 <adriens33> et obj.func = func_2
+2015-03-11T15:37:20 <adriens33> ça doit marcher ça normalement
+2015-03-11T15:43:55 <wildfier> et tu peux sauver l'ancienne valeur de func pour la restaurer après ?
+2015-03-11T15:44:01 <adriens33> bah oui
+2015-03-11T15:44:04 <wildfier> cool
+2015-03-11T15:44:16 <adriens33> une fonction c'est un objet en soi
+2015-03-11T15:44:16 <adriens33> comme une var
+2015-03-11T15:44:23 <adriens33> tu peux faire a = obj.func
+2015-03-11T15:44:30 <adriens33> obj.func = func_2
+2015-03-11T15:44:42 <adriens33> du moins il me semble. Je teste tiens
+2015-03-11T15:45:39 <wildfier> j'ai pas l'impression que la référence à self est bien passée
+2015-03-11T15:46:49 <adriens33> oui en effet..
+2015-03-11T15:47:41 <wildfier> class Dog:
+2015-03-11T15:47:42 <wildfier>     def bark(self):
+2015-03-11T15:47:42 <wildfier>         print "Woof"
+2015-03-11T15:47:42 <wildfier> def new_bark(self):
+2015-03-11T15:47:42 <wildfier>     print "Woof Woof"
+2015-03-11T15:47:42 <wildfier> foo = Dog()
+2015-03-11T15:47:43 <wildfier> funcType = type(Dog.bark)
+2015-03-11T15:47:43 <wildfier> # "Woof"
+2015-03-11T15:47:43 <wildfier> foo.bark()
+2015-03-11T15:47:44 <wildfier> # replace bark with new_bark for this object only
+2015-03-11T15:47:44 <wildfier> foo.bark = funcType(new_bark, foo, Dog)
+2015-03-11T15:47:45 <wildfier> # "Woof Woof"
+2015-03-11T15:47:45 <wildfier> foo.bark()
+2015-03-11T15:47:46 <wildfier> je vais essayer ça
+2015-03-11T15:55:34 <wildfier> il a pas l'air de marcher cet exemple (en python3 en tout cas …)
+2015-03-11T15:57:37 <adriens33> redef une fonction sur la classe marche par contre
+2015-03-11T15:57:47 <adriens33> Classe.methode = autre
+2015-03-11T15:58:03 <adriens33> obj.methode = methode_sans_le_self
+2015-03-11T15:58:08 <adriens33> semble etre le seul moyen de faire
+2015-03-11T15:58:26 <wildfier> oui mais dans mon cas on vas éviter, c'est juste pour l'objet courant que je redef
+2015-03-11T15:58:34 <wildfier> pas envie de casser le reste du code
+2015-03-11T15:58:56 <wildfier> https://docs.python.org/3/library/functions.html#type
+2015-03-11T15:59:03 <wildfier> ptet intéressant
+2015-03-11T15:59:07 <adriens33> non ça casse pas
+2015-03-11T15:59:14 <adriens33> si tu redef la fct de la classe elle meme
+2015-03-11T15:59:24 <adriens33> ça marche que pour les objets instanciés après
+2015-03-11T15:59:32 <adriens33> ceux déjà instanciés avant en ont une copie
+2015-03-11T16:00:14 <wildfier> et tu peux encore appeler l'ancienne version ?
+2015-03-11T16:00:44 <wildfier> parce que j'ai besoin de faire c'est ajouter du code, pas remplacer complètement la méthode
+2015-03-11T16:01:58 <adriens33> non mais si tu instancie un obj avec la classe après le remplacement de la méthode, il a pas l'ancienne, vu que tu l'a remplacée
+2015-03-11T16:02:35 <wildfier> bas comme je te dis j'ai pas la main sur l'instanciation
+2015-03-11T16:03:17 <wildfier> et j'ai juste besoin d'ajouter du code à quelques fonctions et restaurer le comportement après
+2015-03-11T16:04:32 <wildfier> (enfin, "juste")
+2015-03-11T16:17:58 <adriens33> a
+2015-03-11T16:32:05 <wildfier> la destruction d'objet en python c'est en fonction du scope comme en c++ ?
+2015-03-11T16:32:17 <wildfier> pour savoir si je peux faire du RAII
+2015-03-11T16:41:53 <adriens33> normalement
+2015-03-11T16:42:06 <adriens33> tu peux les del quand tu veux sinon
+2015-03-11T16:42:12 <adriens33> et gc.collect() is your friend
+2015-03-11T17:09:02 <wildfier> bon j'ai réussi
+2015-03-11T17:09:06 <adriens33> ah  ?
+2015-03-11T17:09:45 <wildfier> faut que je vérifie que c'est bien supprimé
+2015-03-11T17:13:09 <wildfier> je peux del un objet à la main ?
+2015-03-11T17:18:53 <adriens33> del obj
+2015-03-11T17:20:01 *** wildfier est parti
+2015-03-11T17:28:53 *** Shinsaber est parti
+2015-03-11T19:00:44 <TrappyTickles> c'est cool le système d'upgrade et downgrade sur arch. en 2 commandes c'est torché alors que ça aurait été prise de tête sur debian
+2015-03-11T19:07:54 *** TrappyTickles est parti
+2015-03-11T19:10:50 *** TrappyTickles s'est connecté
+2015-03-11T19:19:38 <TrappyTickles> adriens33: t'as déjà downgradé plasma 5?
+2015-03-11T19:19:54 <adriens33> j'ai pas installé plasma 5
+2015-03-11T19:20:02 <adriens33> je n'utilise que quelques applis kde en fait
+2015-03-11T19:20:13 <TrappyTickles> ok
+2015-03-11T19:20:23 <adriens33> sinon mainly du qt4 / qtk2
+2015-03-11T19:20:28 <adriens33> *gtk
+2015-03-11T19:20:36 <adriens33> je tourne sous i3 :P
+2015-03-11T19:20:49 <adriens33> c'est quoi ton souci ?
+2015-03-11T19:20:54 <TrappyTickles> pcq ma downgrade a bien downgradé sauf pour plasma 5
+2015-03-11T19:20:58 <adriens33> ah
+2015-03-11T19:21:12 <adriens33> bah au pire tu peux aller poser ta question sur #archlinux-fr
+2015-03-11T19:21:21 <TrappyTickles> qui était le but principal de la downgrade
+2015-03-11T19:21:47 <TrappyTickles> jvais ptet faire ça, j'ai pas de réponses de google
+2015-03-11T19:21:52 <adriens33> ^^"
+2015-03-11T19:22:24 <adriens33> dsl mais je vois pas trop quoi faire, surtout que j'ai un peu de mal la..
+2015-03-11T19:34:56 <adriens33> ça peut mettre un peu de temps à répondre des fois, c'est normal ;)
+2015-03-11T19:36:42 <TrappyTickles> jvais tenter un truc
+2015-03-11T19:37:05 <TrappyTickles> faire les commandes d'install de plasma 5 a l'envers
+2015-03-11T19:37:08 <TrappyTickles> jre
+2015-03-11T19:37:12 <TrappyTickles> ou pas lol
+2015-03-11T19:37:37 *** TrappyTickles est parti
+2015-03-11T19:41:10 *** TrappyTickles s'est connecté
+2015-03-11T19:41:24 <TrappyTickles> ça a marché ^^
+2015-03-11T19:42:05 <TrappyTickles> un plantage d'abord mais j'ai restart xorg a chaud et ça a marché
+2015-03-11T19:51:15 <adriens33> cool
+2015-03-11T20:10:27 *** wildfier s'est connecté
+2015-03-11T20:19:36 *** wildfier est parti
+2015-03-11T21:00:31 *** wildfier s'est connecté
+2015-03-11T21:01:08 <wildfier> si tu veux comment j'ai fait au final adriens33, tu peux regarder mon dernier commit sur feature/profile
+2015-03-11T21:01:11 <wildfier> c'est sale ^^
+2015-03-11T21:01:30 <wildfier> et par rapport à ta question sur la branche git
+2015-03-11T21:01:45 <wildfier> c'est git flow qui l'avait créée
+2015-03-11T21:01:56 <adriens33> je connais pas
+2015-03-11T21:01:59 <adriens33> git flow
+2015-03-11T21:02:09 <wildfier> je pense que c'est juste un / dans le nom de la branche
+2015-03-11T21:02:20 <wildfier> rien de particulier
+2015-03-11T21:03:20 <wildfier> git branch test/branch
+2015-03-11T21:03:24 <wildfier> ça marche
+2015-03-11T21:03:48 <adriens33> mouai mais apparemment dans les refs git, feature c'est un dossier
+2015-03-11T21:04:04 <adriens33> enfin bref pas grave
+2015-03-11T21:04:27 <wildfier> ok, c'est juste un script git flow donc on peut regarder
+2015-03-11T21:04:29 <wildfier> ^^
+2015-03-11T21:04:40 <adriens33> mais c'est quoi, git flow ?
+2015-03-11T21:05:03 <wildfier> une surcouche a git (tu l'appel avec git flow <commande …>
+2015-03-11T21:05:06 <wildfier> )*
+2015-03-11T21:05:11 <adriens33> huh.
+2015-03-11T21:05:30 <adriens33> c'est quoi l'intérêt d'une surcouche à git '
+2015-03-11T21:05:32 <adriens33> ?
+2015-03-11T21:05:34 <wildfier> pour appliquer des bonnes pratiques de gestion de tes branches
+2015-03-11T21:05:41 <adriens33> bah justement
+2015-03-11T21:05:46 <adriens33> c'est mieux de les apprendre direct
+2015-03-11T21:05:53 <adriens33> plutot que de cacher ça a l'user
+2015-03-11T21:05:55 <wildfier> http://nvie.com/posts/a-successful-git-branching-model/
+2015-03-11T21:06:15 <wildfier> t'as toujours accès à git comme avant
+2015-03-11T21:06:27 <wildfier> mais ça te permet de pas faire de la merde
+2015-03-11T21:06:34 <adriens33> le "on force l'user a faire comme ça, en lui cachant les tréfonds du mécanisme" c'est un peu contraire au diy
+2015-03-11T21:06:41 <wildfier> mais je trouve que c'est inutile au final
+2015-03-11T21:06:41 <adriens33> mouai
+2015-03-11T21:07:11 <adriens33> une surcouche pour te forcer a agir d'une certaine manière est vouée à l'échec
+2015-03-11T21:07:16 <adriens33> car ca n'éduque pas l'user
+2015-03-11T21:07:21 <wildfier> après l'intérêt c'est quand tes à plusieurs sur un projet, tout le monde fait de facto ce qu'il faut
+2015-03-11T21:07:22 <adriens33> donc ça sert à rien
+2015-03-11T21:07:46 <wildfier> après c'est pas génant parce qu'il te dis tout ce qu'il fait
+2015-03-11T21:08:19 <wildfier> on peut voir ça comme un moyen de grouper plusieurs commandes
+2015-03-11T21:08:28 <adriens33> mouai
+2015-03-11T21:08:31 <wildfier> genre tu fait un hotfix
+2015-03-11T21:08:40 <adriens33> moi qui préfère faire git fetch; git merge
+2015-03-11T21:08:46 <adriens33> plutot que git pull
+2015-03-11T21:08:55 <adriens33> c'est pas exactement ce qui me "branche" le plus
+2015-03-11T21:08:58 <wildfier> et quand tu le finis il va automatiquement remerger dans dev histoire que t'oublie pas
+2015-03-11T21:09:08 <adriens33> j'aime bien faire les choses a la main
+2015-03-11T21:09:15 <adriens33> c'est mieux pour la mémoire
+2015-03-11T21:09:17 <wildfier> oui je sais
+2015-03-11T21:09:35 <adriens33> t'a meme pas relevé ma vanne, je suis triste.
+2015-03-11T21:09:41 <adriens33> lol
+2015-03-11T21:09:42 <wildfier> XD
+2015-03-11T21:09:58 <adriens33> (c'est moi qui l'ai codé mais j'oublie tjrs les triggers)
+2015-03-11T21:10:03 <wildfier> c'est pas censé rendre sourd plutôt ?
+2015-03-11T21:10:10 <adriens33> hein ?
+2015-03-11T21:10:10 <wildfier> ^^
+2015-03-11T21:10:21 <wildfier> par rapport à ta vanne
+2015-03-11T21:10:38 <adriens33> « 21:08:39     +adriens33 │ moi qui préfère faire git fetch; git merge plutot que git pull c'est pas exactement ce qui me "branche" le plus »
+2015-03-11T21:10:46 <wildfier> ah
+2015-03-11T21:11:01 <adriens33> je vois pas de quoi tu parle sinon
+2015-03-11T21:11:33 <wildfier> j'ai cru que tu parlais de " j'aime bien faire les choses à la main"
+2015-03-11T21:11:38 <adriens33> non
+2015-03-11T21:11:40 <wildfier> ^^
+2015-03-11T21:11:43 <adriens33> pas la tete a ça en fait
+2015-03-11T21:11:55 <wildfier> aller re, faut que je me fasse à manger
+2015-03-11T21:11:59 <adriens33> bon app
+2015-03-11T21:12:02 <wildfier> thx
+2015-03-11T21:12:06 <adriens33> berry ?
+2015-03-11T21:12:09 <adriens33> je manger
+2015-03-11T21:12:13 <adriens33> crotte
+2015-03-11T21:12:21 <adriens33> vais manger
+2015-03-11T21:12:27 <adriens33> je vais manger
+2015-03-11T21:12:30 <adriens33> ah.
+2015-03-11T21:12:34 <adriens33> regex foireus.
+2015-03-11T21:12:38 <adriens33> *foireuse.
+2015-03-11T21:12:50 <adriens33> tant pis. flemme de corriger ça maintenant.
+2015-03-11T21:13:05 <wildfier> laisse béton, je vais faire la strat pizza, je suis bien partit dans un élan de motivation à coder, faut pas gacher XD
+2015-03-11T21:13:13 <adriens33> ouai
+2015-03-11T21:13:16 <adriens33> profite
+2015-03-11T21:16:10 <wildfier> je suis content de mon délire de screenshot ^^
+2015-03-11T21:16:35 <wildfier> mais faudrat que j'ajoute un mécanisme pour purger les plus vieux ^^
+2015-03-11T21:17:08 <adriens33> hein ?
+2015-03-11T21:17:27 <adriens33> « +wildfier │ je suis content de mon délire de screenshot ^^ » ← tu parles de quoi ?
+2015-03-11T21:19:34 <wildfier> quand un test selenium fail
+2015-03-11T21:19:54 <wildfier> il prend un screeshot de la fenêtre de firefox automatiquement
+2015-03-11T21:20:14 <wildfier> pour m'aider à corriger
+2015-03-11T21:21:29 <wildfier> c'est sur ça que je galérais cette aprem avec mon histoire de redéfinir des fonctions
+2015-03-11T21:24:28 <adriens33> ah
+2015-03-11T21:26:17 <wildfier> et du coup tu peux regarder mon dernier commit pour voir comment c'est sale la solution que j'ai utilisé
+2015-03-11T21:26:30 <wildfier> (sur profile/feature)
+2015-03-11T21:26:30 <adriens33> bof, plus tarrd
+2015-03-11T21:26:33 <wildfier> ^^
+2015-03-11T21:26:34 <adriens33> *tard
+2015-03-11T21:53:33 *** TrappyTickles est parti
+2015-03-11T21:53:59 *** TrappyTickles s'est connecté
+2015-03-11T21:56:37 *** TrappyTickles est parti
+2015-03-11T21:57:05 *** TrappyTickles s'est connecté
+2015-03-11T23:07:18 *** wildfier est parti
+2015-03-12T00:11:21 *** TrappyTickles est parti
+2015-03-12T00:39:49 *** adriens33 est parti
+2015-03-12T08:15:09 *** adriens33 s'est connecté
+2015-03-12T08:28:07 *** wildfier s'est connecté
+2015-03-12T08:28:17 <wildfier> yop
+2015-03-12T08:28:34 <adriens33> yo
+2015-03-12T08:28:39 <adriens33> suis plus tout seul o/
+2015-03-12T08:29:13 <wildfier> ^^
+2015-03-12T08:30:01 <adriens33> t'es encore chez toi non ? :D
+2015-03-12T08:30:44 <wildfier> oui, j'ai pas cours ce matin
+2015-03-12T08:31:17 <adriens33> cool ça =D qu'est ce que tu fais déjà debout dans ce cas ? XD il est même pas 11h
+2015-03-12T08:31:35 <wildfier> je fais mes devoirs !!
+2015-03-12T08:31:37 <wildfier> ^^
+2015-03-12T08:31:45 <adriens33> métémalad
+2015-03-12T08:31:53 <wildfier> j'ai un tp de jee à faire
+2015-03-12T08:32:04 <adriens33> AHhhhhhhhh
+2015-03-12T08:32:15 <adriens33> Vade Retro, satanas!!
+2015-03-12T08:32:17 <adriens33> ><
+2015-03-12T08:32:22 <wildfier> c'est pourri mais au moins si c'est fait je pourrai ne pas écouter en cours
+2015-03-12T08:32:30 <adriens33> good point.
+2015-03-12T08:32:41 <wildfier> comprendre faire du django
+2015-03-12T08:32:56 <adriens33> il est horrible à quel point, ton tp de j2ee ? (oui je dis comme je veux, osef si c'est pas la bonne XD)
+2015-03-12T08:33:09 <wildfier> (sinon le prof fera chier comme quoi j'ai pas fais l'exo …)
+2015-03-12T08:33:14 <adriens33> bonne prononciation*
+2015-03-12T08:33:33 <wildfier> XD, ça fait 3 e là !
+2015-03-12T08:33:56 <wildfier> ça va, c'est pas grand chose
+2015-03-12T08:35:58 <adriens33> osef j'ai dit
+2015-03-12T08:36:03 <wildfier> ^^
+2015-03-12T08:43:00 <wildfier> petite question à la con
+2015-03-12T08:43:12 <adriens33> oui ?
+2015-03-12T08:43:21 <wildfier> quand je lis que i3 ou d'autres tiling managers
+2015-03-12T08:43:33 <wildfier> utilisent un compositeur externe
+2015-03-12T08:43:37 <adriens33> oui ?
+2015-03-12T08:43:59 <wildfier> est ce que ça veut dire que je peux utiliser kwin pour le compositing ?
+2015-03-12T08:44:03 <adriens33> non
+2015-03-12T08:44:09 <adriens33> kwin est un wm
+2015-03-12T08:44:14 <adriens33> il va écraser i3
+2015-03-12T08:44:19 <wildfier> dommage
+2015-03-12T08:44:29 <adriens33> il faut un compositeur*only*
+2015-03-12T08:44:50 <adriens33> (comme compiz, compton, xcompmgr entre autres)
+2015-03-12T08:45:02 <adriens33> (vu que compiz il lui faut un wm comme emerald ;) )
+2015-03-12T08:45:07 <wildfier> trop loud compiz XD
+2015-03-12T08:45:21 <adriens33> compton est très bien
+2015-03-12T08:45:24 <adriens33> léger
+2015-03-12T08:45:25 <adriens33> sympatique
+2015-03-12T08:45:35 <adriens33> je te filerai mon fichier de conf si tu veux
+2015-03-12T08:45:44 <wildfier> ouais pourquoi pas
+2015-03-12T08:45:45 <adriens33> ~/.compton.conf
+2015-03-12T08:46:02 <wildfier> je vais fouiller pour voir si je peux trouver des setups sympas
+2015-03-12T08:46:18 <wildfier> parce que ça à l'air super les tilings managers
+2015-03-12T08:46:40 <adriens33> http://www.art-software.fr/apps/bozon/index.php?f=55014453d45d3
+2015-03-12T08:46:41 <wildfier> mais c'est un peu trop austère à mon gout
+2015-03-12T08:46:45 <adriens33> non c'est pas super
+2015-03-12T08:46:52 <adriens33> c'est indispensable sur écran > 13"
+2015-03-12T08:46:56 <adriens33> non ça va
+2015-03-12T08:47:09 <adriens33> franchement c'est même plutôt agréable
+2015-03-12T08:47:15 <wildfier> sur la console ça me dérange pas, mais je suis pas fan pour tout le système
+2015-03-12T08:47:45 <adriens33> ba moi mtn que je suis habitué a i3 je trouve que tout le bureau kde c'est un peu too much XD
+2015-03-12T08:47:49 <adriens33> j'aime toujours hein
+2015-03-12T08:47:50 <wildfier> ^^
+2015-03-12T08:48:01 <adriens33> mais  bon pour te dire, je start même plus cairo-dock
+2015-03-12T08:48:07 <adriens33> je m'en sers plus XD
+2015-03-12T08:48:16 <adriens33> mais i3 c'est la vie
+2015-03-12T08:48:17 <adriens33> c'est léger
+2015-03-12T08:48:19 <wildfier> et encore austère la console avec powerline et tmux, c'est plus tellement vrai
+2015-03-12T08:48:20 <wildfier> ^^
+2015-03-12T08:48:20 <adriens33> vimlike
+2015-03-12T08:48:40 <adriens33> et surtout il fait pas chier et il fait ce qu'on lui dit!!
+2015-03-12T08:48:51 <adriens33> et il utilise meme pas opengl, donc si t'a un bug de gpu
+2015-03-12T08:49:20 <adriens33> bah t'a pas de souci comme sur gnome3 "oh no, something has gone wrong, i cannot start the desktop, you are all fucked up"
+2015-03-12T08:50:36 <adriens33> et comme il est ultra léger niveau charge d'affichage, ça passe sur n'importe quoi et la batterie elle aime
+2015-03-12T08:50:59 <adriens33> (t'a vu passer mon lien au fait ? a 8:46:40)
+2015-03-12T08:52:13 <wildfier> ta conf de compton ? oui, je l'ai dl
+2015-03-12T08:52:17 <adriens33> cool
+2015-03-12T08:52:46 <wildfier> le truc qui me fait un peux peur, c'est que je vais plus pouvoir utiliser plasma
+2015-03-12T08:52:56 <adriens33> bah moi je m'en passe très bien
+2015-03-12T08:53:05 <adriens33> mais bon tu peux utiliser i3-wm sous kde sinon
+2015-03-12T08:53:31 <wildfier> disons que ça me fait chier d'avoir dev des trucs pour plasma et plus pouvoir les utiliser ^^
+2015-03-12T08:53:41 <adriens33> je comprends
+2015-03-12T08:53:50 <wildfier> (mon nvidia-monitor et mon patch d'icontasks)
+2015-03-12T08:54:00 <adriens33> mais bon moi au final le menu exporté, les libs a patcher, etc c'est justte chiant XD
+2015-03-12T08:54:05 <adriens33> bah y'a conky au pire, hein...
+2015-03-12T08:54:20 <adriens33> pour le nvidia-monitor :D
+2015-03-12T08:54:31 <adriens33> again, je t'envoie ma conf si tu veux
+2015-03-12T08:54:53 <adriens33> http://www.art-software.fr/apps/bozon/uploads/conkyrc
+2015-03-12T08:59:22 <wildfier> bon, je vais tester le packet i3-kde
+2015-03-12T08:59:57 <adriens33> ah? je connaissais pas ce paquet
+2015-03-12T09:00:08 <adriens33> en plus i3 a eu un version bump récemment
+2015-03-12T09:00:12 <adriens33> 4.8 → 4.9
+2015-03-12T09:00:21 <adriens33> tu va pouvoir test la new version :3
+2015-03-12T09:00:38 <wildfier> ah ? le packet i3-kde est encore en 4.8
+2015-03-12T09:00:53 <adriens33> bah il doit pas faire partie du group i3
+2015-03-12T09:00:58 <adriens33> i3 est en 4.9.1
+2015-03-12T09:01:07 <adriens33> depuis une semaine au moins et 4.9
+2015-03-12T09:01:09 <adriens33> *en
+2015-03-12T09:01:33 <wildfier> nope, c'est un packet aur qui te compile i3 avec des patchs
+2015-03-12T09:01:47 <adriens33> ah.
+2015-03-12T09:01:55 <adriens33> mais moi j'utilise la version offi de i3
+2015-03-12T09:02:10 <adriens33> celle de community
+2015-03-12T09:02:15 <wildfier> oui, j'avais compris
+2015-03-12T09:02:42 <adriens33> faut que je mette mon repo de conf en public
+2015-03-12T09:02:47 <adriens33> tu pourra tout clone comme ça
+2015-03-12T09:02:53 <adriens33> et récup ce que tu veut
+2015-03-12T09:02:57 <wildfier> yep, pas con
+2015-03-12T09:02:58 <adriens33> >700Mio par contre.
+2015-03-12T09:03:02 <wildfier> ^^
+2015-03-12T09:03:07 <adriens33> ça pique pour le 1er fetch XD
+2015-03-12T09:03:12 <wildfier> faut pas être pressé
+2015-03-12T09:03:29 <wildfier> y a pas une option fetch que le dernier commit ?
+2015-03-12T09:03:30 <adriens33> après à 4.6Mio/s ça passe
+2015-03-12T09:03:49 <adriens33> wildfier> t'es tout de meme obligé de récupérer tous les objets rattachés
+2015-03-12T09:03:59 <adriens33> donc tout l'arbre
+2015-03-12T09:04:06 <adriens33> donc ça fait 700Mio quand meme
+2015-03-12T09:04:17 <adriens33> t'aurais juste pas le delta des historiques
+2015-03-12T09:04:31 <adriens33> et t'aurais des commits pointant sur des objets inexistant
+2015-03-12T09:04:40 <adriens33> ce qui est extrêmement pas propre
+2015-03-12T09:04:59 <wildfier> tiens, c'est pas exactement vim le keybinding par défaut
+2015-03-12T09:05:01 <adriens33> *des commits pointant sur des commits inexistant
+2015-03-12T09:05:04 <adriens33> non
+2015-03-12T09:05:12 <adriens33> mais c'est très facilement modifiable
+2015-03-12T09:05:17 <adriens33> mon i3 est très vimmé
+2015-03-12T09:05:18 <wildfier> ils sont décalés d'une touche vers la droite niveau mouvements
+2015-03-12T09:05:25 <adriens33> mais c'est parce que j'aime bien comme ç
+2015-03-12T09:05:26 <adriens33> ça
+2015-03-12T09:05:35 <adriens33> tu le conf comme tu veux
+2015-03-12T09:05:36 <wildfier> c'est marant, j'ai fait pareil sur mon bépo
+2015-03-12T09:05:43 <adriens33> mais t'a un systeme de modes quand même
+2015-03-12T09:05:50 <adriens33> qui est à la base de vim
+2015-03-12T09:08:41 <adriens33> lol
+2015-03-12T09:08:47 <adriens33> sur archlinux fr
+2015-03-12T09:08:55 <adriens33> t'a un gars qui a fait son propre initsystemd
+2015-03-12T09:08:59 <adriens33> *initsystem
+2015-03-12T09:09:05 <adriens33> -tu utilise systemd ?
+2015-03-12T09:09:07 <adriens33> -non
+2015-03-12T09:09:11 <adriens33> -sysvinit ?
+2015-03-12T09:09:14 <adriens33> -non
+2015-03-12T09:09:15 <adriens33> -openrc ?
+2015-03-12T09:09:18 <adriens33> -non
+2015-03-12T09:09:31 <adriens33> https://github.com/valr/initsystem/blob/master/initsystem/rc
+2015-03-12T09:09:40 <wildfier> tu démarre à la main en tappant toutes les commandes à la suite ? ^^
+2015-03-12T09:09:49 <adriens33> nonon
+2015-03-12T09:09:52 <adriens33> il a "juste"
+2015-03-12T09:09:57 <adriens33> codé son initsystem a lui
+2015-03-12T09:10:09 <wildfier> bas, grand bien lui fasse ^^
+2015-03-12T09:10:17 <adriens33> bah c'est couillu quoi
+2015-03-12T09:11:14 <wildfier> au moins, s'il est le seul à l'utiliser, perso n'as cherché de faille dedans XD
+2015-03-12T09:11:24 <wildfier> personne*
+2015-03-12T09:11:39 <adriens33> bah surtout niveau contrôle du système
+2015-03-12T09:11:50 <adriens33> là il controle tout le processus d'init
+2015-03-12T09:11:55 <adriens33> donc il fait tout ce qu'il veut
+2015-03-12T09:12:42 <adriens33> je vais finir sur une lfs avec un init system perso en python, je le sens d'ici..
+2015-03-12T09:12:57 <adriens33> mais quand j'aurais la motiv
+2015-03-12T09:13:06 <adriens33> et j'intégrerai pacman
+2015-03-12T09:13:13 <adriens33> parce que quand meme faut pas déconner
+2015-03-12T09:14:05 <wildfier> XD
+2015-03-12T09:14:22 <wildfier> et après tu codera ton unix sur une base BSD
+2015-03-12T09:14:27 <adriens33> hmm… non.
+2015-03-12T09:14:30 <adriens33> je préfère linux.
+2015-03-12T09:14:32 <wildfier> ^^
+2015-03-12T09:14:34 <adriens33> déjà testé bsd.
+2015-03-12T09:14:43 <adriens33> pas en profondeur ni longtemps
+2015-03-12T09:14:52 <adriens33> mais linux et son système de modules séparables
+2015-03-12T09:14:55 <adriens33> <3
+2015-03-12T09:20:45 *** adriens33_2 s'est connecté
+2015-03-12T09:21:26 *** adriens33_2 est parti
+2015-03-12T09:22:41 <wildfier> comment tu m'as dis qu'on merge les cannals sur weechat déjà ?
+2015-03-12T09:22:54 <adriens33> /buffer merge <n° de l'autre buffer>
+2015-03-12T09:23:07 <adriens33> aprrès /buffer <n° du buffer>
+2015-03-12T09:23:26 <adriens33> /buffer <nom du sous buffer> pour sélectionner un sous buffer
+2015-03-12T09:23:32 <wildfier> pour switcher de buffer dans lequel parler, c'est ça ?
+2015-03-12T09:23:33 <adriens33> (quand ils sont mergés)
+2015-03-12T09:23:36 <adriens33> oui
+2015-03-12T09:23:37 <wildfier> ok
+2015-03-12T09:23:52 <adriens33> f5 et f6 switchent de buffer
+2015-03-12T09:24:02 <adriens33> mais pour les sous buffer j'ai pas trouvé de shortcut encore
+2015-03-12T09:24:09 <adriens33> ça doit être bindable à mon avis
+2015-03-12T09:25:15 <wildfier> ok
+2015-03-12T09:26:13 <wildfier> mais du coup t'es obligé de tapper le nom du souu buffer, tu peux plus utiliser son numéro
+2015-03-12T09:26:21 <adriens33> oui
+2015-03-12T09:26:28 <adriens33> vu que le n° c'est celui du buffer
+2015-03-12T09:26:58 <wildfier> je sens que ça vas être lourd de changer comme ça, et je vais finir par me tromper XD
+2015-03-12T09:27:36 <adriens33> ^^
+2015-03-12T09:32:06 <wildfier> le mec qui maintient la version patché pour kde d'i3 va porter pour la version 4.9
+2015-03-12T09:33:40 <adriens33> cool
+2015-03-12T09:33:51 <adriens33> tu va pouvoir avoir droit à la mise à jour
+2015-03-12T09:34:14 <adriens33> (je risque de mettre du temps à répondre, je suis en mode grammar nazi sur la v2 du site XD
+2015-03-12T09:34:17 <adriens33> )
+2015-03-12T09:34:25 <wildfier> j'ai vu ^^
+2015-03-12T09:34:33 <adriens33> find ./ -type f -exec vim {} ;
+2015-03-12T09:37:57 <wildfier> ^^
+2015-03-12T09:40:05 <adriens33> "INFOS DU MEMBRES" dans le header de chaque fiche…
+2015-03-12T09:40:09 <adriens33> ça pique…
+2015-03-12T09:40:15 <wildfier> XD
+2015-03-12T09:40:21 <adriens33> lezarius je te hais ><
+2015-03-12T09:44:13 <adriens33> ralala bob…
+2015-03-12T09:44:21 <adriens33> "Devil May Cry, alias Dans Mon Cul"
+2015-03-12T09:44:26 <adriens33> XDw
+2015-03-12T09:44:28 <adriens33> *XD
+2015-03-12T09:48:23 <wildfier> et y a un gros troll de la part des devs du jeu
+2015-03-12T09:48:38 <wildfier> en fait ce dmc, c'est un reboot de la série
+2015-03-12T09:48:57 <adriens33> ok :)
+2015-03-12T09:49:02 <wildfier> et le design du jeu (surtout de dante)
+2015-03-12T09:49:13 <wildfier> a fait hurlé les fans au scandale
+2015-03-12T09:49:23 <wildfier> et vers la fin de la vidéo de bob
+2015-03-12T09:49:33 <adriens33> oui, je fais de la correction sur bronycub, tout en étant sur 5 canaux irc à la fois et en regardant des vidéos de fanta et bob.
+2015-03-12T09:49:42 <adriens33> non je ne suis pas multitâche, c'est faux.
+2015-03-12T09:49:45 <adriens33> XD
+2015-03-12T09:49:51 <wildfier> tu vois une perruque blanche qui se pose sur dante
+2015-03-12T09:50:13 <adriens33> (oui 5, #bronycub, #bronycub-g33k, #archlinux-fr, #arch-fr-off, #giroll)
+2015-03-12T09:50:20 <wildfier> et il se regarde dans un mirroir puis la jette en disant : "no way"
+2015-03-12T09:50:23 <adriens33> XD
+2015-03-12T09:50:28 <wildfier> ce troll
+2015-03-12T09:50:32 <adriens33> j'avoue
+2015-03-12T09:50:39 <wildfier> ^^
+2015-03-12T09:50:41 <wildfier> pas mal
+2015-03-12T09:50:46 <adriens33> j'aime le dual screen
+2015-03-12T09:50:50 <adriens33> c'est hyper pratique
+2015-03-12T09:51:04 <adriens33> bah en fait le truc c'est qu'en journée j'ai du mal à me concentrer sur un seul truc
+2015-03-12T09:51:15 <adriens33> j'arrive mieux a bosser si je fais plein de choses à la fois
+2015-03-12T09:51:31 <adriens33> et ça au taf c'est généralement mal vu
+2015-03-12T09:51:44 <wildfier> (d'ailleur, en parlant d'i3 et tout, j'ai toujours pas fait mon jee …)
+2015-03-12T09:51:55 <adriens33> "ouai mais fais un seul truc, concentre toi sur la tache qu'on a attribué, tu perds du temps a faire autre chose"
+2015-03-12T09:52:24 <adriens33> non je perds pas du temps, je fais juste en sorte que mon cerveau continue de travailler parce que si je reste trop longtemps sur une même tache il s'éteint.
+2015-03-12T09:52:26 <adriens33> c'tout
+2015-03-12T09:52:50 <adriens33> wildfier> t'es pas assez sérieux c'est tout XD
+2015-03-12T09:54:30 *** TrappyTickles s'est connecté
+2015-03-12T09:54:52 <adriens33> yo trappy
+2015-03-12T09:55:09 <TrappyTickles> oi
+2015-03-12T09:55:24 <TrappyTickles> jvais rebooter plein de fois jcrois
+2015-03-12T09:55:49 <TrappyTickles> mon freeze de xorg au boot est systématique
+2015-03-12T09:56:00 <adriens33> arf
+2015-03-12T09:56:12 <wildfier> bon, au prochain démarrage de kde, j'aurai i3 et plus kwin ^^
+2015-03-12T09:56:17 <TrappyTickles> faut dire ce con m'a gardé l'écran de login de plasma 5
+2015-03-12T09:56:20 <wildfier> en verra si ça marche
+2015-03-12T09:56:28 <adriens33> i3 <3
+2015-03-12T09:56:48 <TrappyTickles> wildfier: un conseil, évite plasma 5 pour une machine de prod :p
+2015-03-12T09:56:59 <adriens33> (nooon, jure)
+2015-03-12T09:57:09 <adriens33> (pardon X3)
+2015-03-12T09:57:14 <wildfier> par contre je suis en train de me dire, ça serait bien de conf les shortcuts pour mon bépo avant …
+2015-03-12T09:57:46 <wildfier> bas, c'est pas encore bien intégré et anyway le portage de kde est pas finit
+2015-03-12T09:57:59 <wildfier> http://developer.kde.org/~cfeck/portingstatus.html
+2015-03-12T09:58:33 <adriens33> wildfier> oui ça peut aider.
+2015-03-12T09:58:41 <wildfier> donc oui, c'est encore kde4 powa pour moi
+2015-03-12T09:58:42 <wildfier> ^
+2015-03-12T09:58:43 <adriens33> tu veux ma conf pour t'inspirer ? :D
+2015-03-12T09:58:44 <wildfier> ^^
+2015-03-12T09:58:52 <wildfier> je veux bien oui
+2015-03-12T09:59:06 <adriens33> http://www.art-software.fr/apps/bozon/uploads/config
+2015-03-12T09:59:12 <adriens33> à mettre dans ~/.i33
+2015-03-12T09:59:14 <adriens33> *i3
+2015-03-12T09:59:26 <adriens33> avec
+2015-03-12T09:59:42 <adriens33> https://www.art-software.fr/apps/bozon/uploads/statusbar.conf
+2015-03-12T09:59:48 <adriens33> http://www.art-software.fr/apps/bozon/uploads/statusbar.conf*
+2015-03-12T10:08:27 *** TrappyTickles est parti
+2015-03-12T10:11:28 *** TrappyTickles s'est connecté
+2015-03-12T10:28:08 *** TrappyTickles est parti
+2015-03-12T10:32:02 *** TrappyTickles s'est connecté
+2015-03-12T10:44:56 *** TrappyTickles est parti
+2015-03-12T10:45:53 *** TrappyTickles s'est connecté
+2015-03-12T10:46:36 <wildfier> adriens33: tu utilise mariadb avec openrc ?
+2015-03-12T10:46:50 <wildfier> parce que le init.d fail à le démarrer
+2015-03-12T10:46:54 *** TrappyTickles est parti
+2015-03-12T10:47:08 <wildfier> et j'ai un peu la flemme d'essayer de débug ça
+2015-03-12T10:47:23 <adriens33> non
+2015-03-12T10:47:37 <adriens33> pas sur mes machines perso dsl ^^"
+2015-03-12T10:47:46 <adriens33> et sur homer j'ai pas encore viré systemd
+2015-03-12T10:47:50 <adriens33> j'ai un peu peur que ça boot plus XD
+2015-03-12T10:47:57 <adriens33> déjà qu'il est en pxe boot
+2015-03-12T10:48:23 <adriens33> parce que systemd démarré avec un kernel local trouve pas une partoche et refuse de booter
+2015-03-12T10:48:33 <wildfier> 'tin le script cherche des variables qui sont même pas définies dans le fichier de conf …
+2015-03-12T10:48:42 <adriens33> (et que bien sur j'ai pas le tty donc pour débug proprement c'est impossible)
+2015-03-12T10:50:42 *** TrappyTickles s'est connecté
+2015-03-12T10:50:54 <wildfier> fuck, je vais pas pouvoir faire mon tp …
+2015-03-12T10:51:08 <adriens33> sorry ^^"
+2015-03-12T10:52:19 <TrappyTickles> bon j'en ai marre, je reformatte tout
+2015-03-12T10:52:58 <adriens33> o_o
+2015-03-12T10:53:28 <adriens33> si x11 freeze regarde les logs… --"
+2015-03-12T10:53:40 <TrappyTickles> je réussis enfin a changer kdm, sauf qu'il a fallu que je mette gnome en ENTIER,
+2015-03-12T10:53:54 <adriens33> ??
+2015-03-12T10:53:58 <adriens33> heu..
+2015-03-12T10:54:00 <adriens33> pourquoi ?
+2015-03-12T10:54:09 <TrappyTickles> et maintenant j'ai une partie de l'écran qui a des pixels clignotants
+2015-03-12T10:54:12 *** Elvon s'est connecté
+2015-03-12T10:54:29 <adriens33> t'aurais pu attendre mardi prochain à giroll pour tout casser DX
+2015-03-12T10:54:30 <adriens33> XD
+2015-03-12T10:54:32 <adriens33> yo Elvon
+2015-03-12T10:54:32 <TrappyTickles> ben apparemment gdm a besoin de tout gnome pour marcher
+2015-03-12T10:54:36 <adriens33> ...
+2015-03-12T10:54:40 <Elvon> Jour'!
+2015-03-12T10:54:52 <TrappyTickles> je vais pas amener mon desktop dans le bus
+2015-03-12T10:54:53 * adriens33 facehoof through his face *
+2015-03-12T10:55:17 <TrappyTickles> gnome est vraiment une connerie
+2015-03-12T10:55:50 <Elvon> TrappyTickles j'ai le même probleme car même si je ne vais pas au sport un mardi soir faut move la tour
+2015-03-12T10:56:43 <Elvon> bin oui c'est un Gnome tu sais ça court par tout en beuglant des mots en irlandais
+2015-03-12T10:57:31 <TrappyTickles> c'est pas un farfadet ça plutot?
+2015-03-12T11:02:58 <Elvon> si mais ça marche pour les Gnomes aussi, il sont aussi con l'un comme l'autre alors bon :3
+2015-03-12T11:05:45 <TrappyTickles> pas faux
+2015-03-12T11:20:04 *** TrappyTickles est parti
+2015-03-12T11:23:44 *** TrappyTickles s'est connecté
+2015-03-12T11:24:50 <TrappyTickles> tain même en 2015 unetbootin est toujours une grosse merde
+2015-03-12T11:25:13 <adriens33> t'a pas besoin de unetbootin pour coller une iso de archlinux sur clé usb…
+2015-03-12T11:26:28 <adriens33> https://wiki.archlinux.org/index.php/USB_flash_installation_media
+2015-03-12T11:39:47 *** TrappyTickles est parti
+2015-03-12T11:43:45 *** TrappyTickles s'est connecté
+2015-03-12T11:43:49 *** TrappyTickles est parti
+2015-03-12T11:50:19 *** Elvon est parti
+2015-03-12T11:59:08 <wildfier> adriens33: tu peux me dire comment systemd lance mysql sur ton pc ? je vais essayer de le lancer à la mano
+2015-03-12T11:59:36 <adriens33> j'ai pas systemd sur mon pc --"
+2015-03-12T11:59:45 <adriens33> je vais look sur mon serveur
+2015-03-12T12:00:37 <adriens33> ExecStart=/usr/bin/mysqld --pid-file=/run/mysqld/mysqld.pid
+2015-03-12T12:00:44 <adriens33> ExecStartPost=/usr/bin/mysqld-post
+2015-03-12T12:07:52 <wildfier> merci
+2015-03-12T12:08:15 <wildfier> (et oui je voulais dire ton serv)
+2015-03-12T12:08:37 <adriens33> ok
+2015-03-12T12:52:19 *** TrappyTickles s'est connecté
+2015-03-12T12:56:03 *** wildfier est parti
+2015-03-12T14:37:17 *** TrappyTickles est parti
+2015-03-12T14:39:19 *** TrappyTickles s'est connecté
+2015-03-12T15:57:56 *** Elvon s'est connecté
+2015-03-12T16:03:31 <adriens33> yo
+2015-03-12T16:03:50 <Elvon> Yop
+2015-03-12T16:04:01 <Elvon> je suis délétour!
+2015-03-12T16:04:10 <adriens33> tu suis délétour ?
+2015-03-12T16:04:24 <Elvon> Lapin compris lé létour
+2015-03-12T16:04:38 <Elvon> ^^
+2015-03-12T16:05:28 <Elvon> I'll be blake ?
+2015-03-12T16:06:24 <Elvon> j'ai fait une erreur mais pour i'm be back mais j'avais un troll qui me rester en tête du coup
+2015-03-12T16:07:38 <adriens33> qué ?
+2015-03-12T16:08:13 <Elvon> Mais oui c'est clair, ceci explique la théorie de la nucléorite venue des volcan pour provouer a l'homme que la Bronylexicomatisation des loie du E-coin sur les part de la firme roller pour Tous. :3
+2015-03-12T16:08:21 <adriens33> ...
+2015-03-12T16:10:36 * Elvon est de retour pour vous rendre encore plus animal.* Black friday, It's Humain post-appocalypse best game from me!! "G galopin G song"
+2015-03-12T16:10:52 <adriens33> m'okay
+2015-03-12T16:11:45 <Elvon> bref quoi de nuf chez vous les amis ? TrappyTickles tu es un ami donc tu es concerné par cet question X3 *squee!!*
+2015-03-12T16:13:37 <Elvon> pour ma part je sort d'un affreu cauchemar comme quoi hier j'ai bue et ce matin j'ai eu la migraine, alors quand fait je suis rester là a dormir sur mon clavier. ... euh... c'était pas un réves ni un cauchemare OO
+2015-03-12T16:16:22 <adriens33> bah c'est pas cool pour ta caboche
+2015-03-12T16:16:30 <adriens33> moi bof, on fait aller
+2015-03-12T17:09:14 <Elvon> Bye
+2015-03-12T17:09:16 *** Elvon est parti
+2015-03-12T17:46:17 <TrappyTickles> boarf moi ai réinstallé arch sur le desktop pour la 4e fois
+2015-03-12T17:46:30 <TrappyTickles> ah ben c'est malin tiens
+2015-03-12T17:46:54 <TrappyTickles> c'est moi le ramoloss du jour :D
+2015-03-12T20:41:23 *** wildfier s'est connecté
+2015-03-12T20:43:18 <wildfier> hey adriens33
+2015-03-12T20:43:37 <wildfier> quand tu avais créé une issue sur gitlab
+2015-03-12T20:43:43 <wildfier> tu pouvais choisir un tag ?
+2015-03-12T20:43:53 <adriens33> euh.. oui je crois
+2015-03-12T20:44:02 <wildfier> ok thx
+2015-03-12T23:42:18 *** TrappyTickles est parti
+2015-03-13T00:21:15 *** wildfier est parti
+2015-03-13T01:44:49 *** adriens33 est parti
+2015-03-13T08:22:50 *** wildfier s'est connecté
+2015-03-13T10:00:24 *** TrappyTickles s'est connecté
+2015-03-13T11:46:46 *** TrappyTickles est parti
+2015-03-13T11:55:44 *** TrappyTickles s'est connecté
+2015-03-13T12:43:34 *** TrappyTickles est parti
+2015-03-13T12:58:25 *** TrappyTickles s'est connecté
+2015-03-13T13:08:26 *** TrappyTickles est parti
+2015-03-13T13:11:21 *** TrappyTickles s'est connecté
+2015-03-13T13:21:53 *** wildfier est parti
+2015-03-13T17:14:04 *** adriens33 s'est connecté
+2015-03-13T17:15:47 <adriens33> yo trappy
+2015-03-13T17:21:29 <TrappyTickles> oi
+2015-03-13T17:22:35 <TrappyTickles> j'ai enfin un arch stabilisé... plus qu'à comprendre pkoi j'arrive pas a me connect à un serveur gmod :p
+2015-03-13T17:22:52 <adriens33> cool
+2015-03-13T17:22:59 <adriens33> bah une chose après l'autre XD
+2015-03-13T17:24:04 <TrappyTickles> en fait la connexion au serveur se plante spécifiquement au même endroit... un addon qui se charge pas
+2015-03-13T17:24:17 <TrappyTickles> mais bon, le reste est ok
+2015-03-13T17:26:45 <TrappyTickles> et je pige pas pkoi kde fout le son a fond systématiquement et sauvegarde pas mon volume
+2015-03-13T17:27:12 <adriens33> parce que t'a du oublier le service système qui backup les niveaux d'Alsa
+2015-03-13T17:27:22 <adriens33> niveaux audio*
+2015-03-13T17:27:33 <TrappyTickles> c'est pas alsa, c'est pulseaudio
+2015-03-13T17:27:38 <adriens33> ...
+2015-03-13T17:27:42 <adriens33> y'a forcément alsa derrière
+2015-03-13T17:27:48 <adriens33> c'est l'interface kernel..
+2015-03-13T17:27:59 <TrappyTickles> ça dépend des programmes
+2015-03-13T17:28:02 <adriens33> non
+2015-03-13T17:28:05 <adriens33> pulseaudio
+2015-03-13T17:28:13 <adriens33> c'est un serveur
+2015-03-13T17:28:16 <TrappyTickles> je doute que kde supporte pas nativement pa
+2015-03-13T17:28:18 <adriens33> qui se plug  sur alsa
+2015-03-13T17:28:41 <adriens33> TOUT passe par alsa parce que c'est l'interface kernel pour addresser le son de et vers la carte son.
+2015-03-13T17:28:57 <adriens33> (bon y'a aussi OSS qui est utilisable à la place, mais c'est vieux et pas pratique)
+2015-03-13T17:29:13 <adriens33> et le support de PA ou pas n'y change rie
+2015-03-13T17:29:19 <adriens33> c'est dans lordre:
+2015-03-13T17:29:40 <TrappyTickles> enfin bon, jvois pas comment s'appelle ce service pour alsa
+2015-03-13T17:29:41 <adriens33> carte son <--> kernel <--> alsa <--> pulseaudio / jackd
+2015-03-13T17:30:17 <adriens33> (c'est pour ça que tu peux pas vraiment désinstaller alsa d'ailleurs, il fait partie du kernel :P)
+2015-03-13T17:30:43 <adriens33> alsa-sound probablement
+2015-03-13T17:31:11 <adriens33> regarde dans /usr/lib/systemd/system si tu as systemd, si tu es sous openrc dans /etc/init.d
+2015-03-13T17:31:20 <adriens33> (je sais pas lequel est mis "par défaut" sous manjaro)
+2015-03-13T17:33:41 <TrappyTickles> mmm j'ai alsa-restore alsa-state et alsa-store
+2015-03-13T17:33:58 <TrappyTickles> manjaro c'est systemd
+2015-03-13T17:36:16 <adriens33> bah essaie systemctl enable alsa-restore
+2015-03-13T17:39:46 <TrappyTickles> The unit files have no [Install] section. They are not meant to be enabled
+2015-03-13T17:39:47 <TrappyTickles> using systemctl.
+2015-03-13T17:39:59 <TrappyTickles> et j'ai plus de son -_-
+2015-03-13T17:41:16 <TrappyTickles> putain si alsa est niqué je pète un cable
+2015-03-13T17:42:08 <adriens33> mais non..
+2015-03-13T17:42:25 <adriens33> c'est juste que ces deux services sont sensés s'activer automagiquement
+2015-03-13T17:42:32 <adriens33> (mais ça marche pas tjrs)
+2015-03-13T17:42:55 <adriens33> c'est pas alsa qu'est cassé
+2015-03-13T17:43:04 <adriens33> c'est systemd qu'est merdique.
+2015-03-13T17:43:08 <adriens33> mais ça c'est pas nouveau.
+2015-03-13T17:43:13 <adriens33> et pulseaudio aussi
+2015-03-13T17:43:20 <adriens33> c'est fait par le même gars en plus XD
+2015-03-13T17:43:25 <TrappyTickles> n'empêche qu'a part redémarrer, jvois pas comment remettre le son
+2015-03-13T17:43:37 <adriens33> (Lennart Poettering, un développeur de chez RedHat)
+2015-03-13T17:43:52 <adriens33> alsamixer -Dhw:0
+2015-03-13T17:44:01 <adriens33> pour avoir les niveaux de ta carte
+2015-03-13T17:44:07 <adriens33> (et pas le pcm de pulseaudio)
+2015-03-13T17:44:08 <TrappyTickles> j'avais remarqué cmb pa puait a l'époque :p
+2015-03-13T17:44:30 <adriens33> bah pa et systemd sont fait par le meme connard qui veut imposer ses immondices à tout le monde
+2015-03-13T17:45:03 <adriens33> pa y'a une option d'autorespawn parce que le mec est pas foutu de fix des bugs qui le font planter
+2015-03-13T17:45:16 <adriens33> comme celui qui fait que pa ne survit jamais à une mise en veille par exemple
+2015-03-13T17:45:21 <TrappyTickles> me demande pkoi tout le monde semble le suivre
+2015-03-13T17:45:35 <adriens33> parce que on a pas le choix --"
+2015-03-13T17:45:44 <adriens33> pa est obligatoire pour Gnome
+2015-03-13T17:45:53 <TrappyTickles> j'ai les volumes a fond mais tjr pas de son
+2015-03-13T17:46:08 <adriens33> qui ont une équipe de dev sectaire à un point où ils considèrent que la personnalisation du système est un défaut.
+2015-03-13T17:46:17 <adriens33> (je déconne pas en plus)
+2015-03-13T17:46:39 <adriens33> regarde du côté de pavucontrol alorss
+2015-03-13T17:46:53 <adriens33> c'est les niveaux de pa qui ont dû baisser
+2015-03-13T17:47:26 <adriens33> et Miguel de Icasa (le monsieur à la base de Gnome) s'est tiré sous OSx parce que selon lui "linux ça pue"
+2015-03-13T17:47:35 <adriens33> sérieux quoi.
+2015-03-13T17:47:43 <TrappyTickles> ah c'est bon... oui le volume avait baissé
+2015-03-13T17:47:49 <adriens33> ok :þ
+2015-03-13T17:48:37 <TrappyTickles> en quoi personaliser est un défaut? ça voudrait dire la mort de toutes les distros :o
+2015-03-13T17:48:47 <adriens33> bah va dire ça à gnome.
+2015-03-13T17:48:55 <adriens33> selon eux, le theming est un mal
+2015-03-13T17:48:56 <TrappyTickles> moui remarque lol
+2015-03-13T17:49:17 <TrappyTickles> gnome c'erst des nazis, alors... :p
+2015-03-13T17:49:23 <adriens33> car ça "casse l'expérience utilisateur" que les devs de gnome, saint Dieux, sont les seuls à pouvoir connaitre à ta place.
+2015-03-13T17:49:35 <adriens33> ils savent mieux que  toi comment tu veux que ton système soit.
+2015-03-13T17:49:50 <TrappyTickles> pff au contraire, ça améloirerait
+2015-03-13T17:49:53 <adriens33> remarque en réfléchissant, c'est logique que Miguel de Icasa se soit barré sous OSX
+2015-03-13T17:50:00 <adriens33> il a la même foutue mentalité.
+2015-03-13T17:50:14 <adriens33> et développer une appli gtk est immonde
+2015-03-13T17:50:23 <adriens33> gtk3 casse toute son api a chaque sous version
+2015-03-13T17:50:40 <adriens33> (c'est pour ça que le moteur de thème QtCurve n'a pas de version gtk3)
+2015-03-13T17:50:46 <TrappyTickles> tsk apple veut moins entendre parler d'opensource que microsoft...
+2015-03-13T17:50:47 <adriens33> et c'est fait exprès.
+2015-03-13T17:51:04 <adriens33> et en plus, si t'a le moindre souci, le support de gtk c'est "démerde toi"
+2015-03-13T17:51:15 <adriens33> Qt t'a le moindre souci, tu demande on te répond.
+2015-03-13T17:51:24 <adriens33> j'veux pas faire de propagande, mais bon… XD
+2015-03-13T17:51:58 <TrappyTickles> non' tasraison... c'est en partie pour ça que je préfere kde et qt
+2015-03-13T17:52:04 <adriens33> :]
+2015-03-13T17:52:17 <adriens33> Qt ça marche partout :)
+2015-03-13T17:52:37 <TrappyTickles> ui et quasi sans config
+2015-03-13T17:52:38 <adriens33> Et au moins, l'ui a pas de gros boutons immondes.
+2015-03-13T17:52:43 <adriens33> t'a vu les fenetre gtk3 ?
+2015-03-13T17:52:54 <adriens33> les bordures de fenetres sont immenses
+2015-03-13T17:53:00 <TrappyTickles> même sl s'en sert pour son viewer dans toutes ses versions
+2015-03-13T17:53:04 <adriens33> sur petit écran c'est juste inutilisable
+2015-03-13T17:53:05 <TrappyTickles> lol
+2015-03-13T17:53:37 <adriens33> et petit plus: gtk3 a ses propres bordures de fenetre, il passe pas par le window manager.
+2015-03-13T17:53:47 <TrappyTickles> j'ai toujours trouvé gtk moche dans l'ensemble
+2015-03-13T17:53:48 <adriens33> histoire d'avoir la même merde disparate que sous windows
+2015-03-13T17:54:04 <adriens33> avec aucune fenetre qui se ressemble et pas moyen d'avoir un thème unifié.
+2015-03-13T17:54:23 * adriens33 facepalm *
+2015-03-13T17:54:40 <TrappyTickles> ui j'avais remarqué ça dans le dernier ubuntu
+2015-03-13T17:54:50 <adriens33> et on est d'accord, gtk c'est moche.
+2015-03-13T17:55:05 <adriens33> (surtout que par défaut sans thème, on dirait du windows 95...)
+2015-03-13T17:55:27 <TrappyTickles> j'ai souvent essayé de trouver des bons thèmes gtk, j'ai toujours été déçu
+2015-03-13T17:55:36 <adriens33> :P
+2015-03-13T17:55:46 <adriens33> QtCurve est <3
+2015-03-13T17:55:49 <TrappyTickles> qt j'ai moins ce prob :p
+2015-03-13T17:56:05 <adriens33> même thème utilisable pour: Qt3, Qt4, Qt5, Gtk2
+2015-03-13T17:56:19 <adriens33> et c'est assez personnalisable, et vachement sympa.
+2015-03-13T17:56:28 <adriens33> et PAS EN FLAT DESIGN en plus!! o//
+2015-03-13T17:56:36 <TrappyTickles> lol
+2015-03-13T17:56:44 <adriens33> bon ça doit etre faisable.
+2015-03-13T17:56:50 <adriens33> mais moi comme ça, ça me va :)
+2015-03-13T17:57:03 <adriens33> j'ai mon ptit thème sympatique que je trimballe de pécé en pécé
+2015-03-13T17:57:23 <TrappyTickles> j'ai actuellement qtcurve avec un thème aqua, il est pas mal
+2015-03-13T17:57:57 <adriens33> ^^
+2015-03-13T17:57:59 <adriens33> oh ?
+2015-03-13T17:58:05 <adriens33> c'est la base du mien ^w^
+2015-03-13T17:58:57 <TrappyTickles> il s'installe par pacman et y a pleins de presets dispos sur le net
+2015-03-13T17:59:29 <adriens33> voui ^^
+2015-03-13T17:59:32 <TrappyTickles> mmm ce serait fun, un plasmoid pour avoir irc sur le bureau
+2015-03-13T17:59:39 <adriens33> c'est faisable
+2015-03-13T17:59:46 <adriens33> et ça existe ptet déjà
+2015-03-13T18:00:08 <TrappyTickles> https://www.youtube.com/watch?v=gS-43XKv3v4
+2015-03-13T18:00:17 <TrappyTickles> plus qu'a le retrouver
+2015-03-13T18:01:53 <TrappyTickles> jle tiens ^^
+2015-03-13T18:01:59 <TrappyTickles> https://opendesktop.org/content/show.php?content=154154
+2015-03-13T18:03:28 <TrappyTickles> tain encore un plasmoid qui utilise python :/
+2015-03-13T18:03:32 <adriens33> bah quoi ?
+2015-03-13T18:03:36 <adriens33> c'est bien le python
+2015-03-13T18:03:48 <TrappyTickles> pas que python soit nul, mais y sont chiants à installer
+2015-03-13T18:05:05 <TrappyTickles> au moins il file les commandes d'install, pas comme d'autres lol
+2015-03-13T18:05:46 <adriens33> ^^
+2015-03-13T18:07:48 <TrappyTickles> et la commande suffit pas, yay
+2015-03-13T18:08:55 <TrappyTickles> "impossible de créer un moteur de script python" et ça systématiquement pour 90% des plasmoids dispos
+2015-03-13T18:09:24 <adriens33> ptet parce que ça utilise python2 en appelant python (qui est python3 sous archlinux)
+2015-03-13T18:09:56 <adriens33> (ce qui est pas le cas de toutes les distrib, genre ubuntu ou python redirige sur python2 encore, parce que python3 est assez "récent" encore)
+2015-03-13T18:10:04 <TrappyTickles> y a moyen d'avoir les 2 sans que ça fasse conflit ou même genre?
+2015-03-13T18:10:09 <adriens33> bah oui
+2015-03-13T18:10:20 <adriens33> mais faut appeler python2 au lieu de python sous arch
+2015-03-13T18:10:32 <adriens33> pour les scripts incopatibles python3
+2015-03-13T18:10:42 <TrappyTickles> jregarde lesquels j'ai déjà
+2015-03-13T18:11:14 <TrappyTickles> jre
+2015-03-13T18:11:27 <adriens33> les scripts system s'installent soit sous /usr/lib/python2.7/site-packages soit sous /usr/lib/python3.4/site-packages
+2015-03-13T18:11:33 <adriens33> selon la version
+2015-03-13T18:13:13 <TrappyTickles> j'ai déjà les deux on dirait
+2015-03-13T18:14:58 <adriens33> oui, à cause de pas mal de dépendances :)
+2015-03-13T18:18:06 <adriens33> http://www.art-software.fr/apps/bozon/uploads/python2.png et http://www.art-software.fr/apps/bozon/uploads/python3.png
+2015-03-13T18:18:44 <adriens33> merde c'est pas dans le bon sens ><
+2015-03-13T18:18:48 <adriens33> pardon berry
+2015-03-13T18:19:29 <adriens33> voilà c'est mieux
+2015-03-13T18:19:43 <adriens33> c'est tout ce qui a besoin  de python2 et python3 chez moi :D
+2015-03-13T18:20:41 <TrappyTickles> les autres distros ont des packages pour arranger ça. mais pour arch je le trouve pas
+2015-03-13T18:20:53 <TrappyTickles> cette idée de changer les noms aussi
+2015-03-13T18:21:38 <adriens33> au pire tu peux essayer en virtualenv
+2015-03-13T18:21:48 <adriens33> (c'est ptet ça que tu cherche ?)
+2015-03-13T18:22:08 <adriens33> (python-virtualenv)
+2015-03-13T18:22:28 <TrappyTickles> j'en ai aucune idée :D
+2015-03-13T18:22:34 <adriens33> par contre y'a un paquets de trucs qui ont besoin de python :P
+2015-03-13T18:23:18 <adriens33> (dont tout kde, à cause de kdelibs qui dépend de media-player-info qui a besoin de python)
+2015-03-13T18:24:01 <adriens33> au fait pour générer un arbre comme ça
+2015-03-13T18:24:16 <adriens33> pactree -g paquet | dot -Tpng > fichier.png
+2015-03-13T18:24:21 <adriens33> pour les dépendances
+2015-03-13T18:24:24 <adriens33> pactree -rg paquet | dot -Tpng > fichier.png
+2015-03-13T18:24:31 <adriens33> pour les dépendances inverses
+2015-03-13T18:25:36 <TrappyTickles> eh? c'est ces commandes qu'ont fait les schémas?
+2015-03-13T18:25:55 <TrappyTickles> jcroyais que c'était du fait main
+2015-03-13T18:26:01 <adriens33> non t'es fou :O
+2015-03-13T18:26:13 <adriens33> berk berk berk
+2015-03-13T18:26:22 <adriens33> x86-input-evdev qui dépend de systemd
+2015-03-13T18:26:29 <adriens33> X11 qui dépend de systemd !!! >:(
+2015-03-13T18:26:40 <adriens33> c'est de udev que tu as besoin connard
+2015-03-13T18:26:44 <adriens33> non
+2015-03-13T18:27:11 <TrappyTickles> lol
+2015-03-13T18:27:21 <TrappyTickles> j'ai trouvé jcrois
+2015-03-13T18:27:22 <adriens33> util-linux qui dépend de systemd aussi…
+2015-03-13T18:27:35 * adriens33 commence à pleurer en regardant l'arbre de dépendances
+2015-03-13T18:27:44 <adriens33> bon j'ai des paquets de replacement
+2015-03-13T18:27:47 <adriens33> mais merde quoi..
+2015-03-13T18:28:17 <TrappyTickles> le pack c'est kdebindings-python
+2015-03-13T18:28:44 <adriens33> ah
+2015-03-13T18:29:06 <TrappyTickles> sur ubuntu c'était plasma-scriptengine-python
+2015-03-13T18:29:23 <adriens33> ah bah si t'a trouvé le paquet qui te manque c'est cool
+2015-03-13T18:29:24 <TrappyTickles> pkoi des noms différents srsly -_-
+2015-03-13T18:30:24 <TrappyTickles> jre
+2015-03-13T18:30:27 <adriens33> parce que ubuntu
+2015-03-13T18:30:36 <adriens33> met des noms de merde sur ses paquets
+2015-03-13T18:31:14 *** TrappyTickles_ s'est connecté
+2015-03-13T18:42:46 <TrappyTickles> ah ben d'accord
+2015-03-13T18:42:58 <TrappyTickles> mais cte bouse quoi!!!
+2015-03-13T18:45:03 <TrappyTickles> le plasmoid m'a connecté aux deux chans, mais le chan g33k ne s'affiche pas parce que y a un - dans le nom
+2015-03-13T18:45:14 <TrappyTickles> le boulzor quoi
+2015-03-13T18:46:32 <adriens33> XDD
+2015-03-13T18:51:17 <TrappyTickles> en revanche ça marche nikel pour le reste
+2015-03-13T18:52:32 <TrappyTickles> sauf qu'il me biffe des lignes dans les 2 sens sans raisons
+2015-03-13T18:53:07 *** TrappyTickles_ est parti
+2015-03-13T18:54:35 <TrappyTickles> tain et c'est le seul qui existe
+2015-03-13T19:35:28 <adriens33> au pire
+2015-03-13T19:35:36 <adriens33> demande à wildfier de t'en faire un X3
+2015-03-13T19:53:21 *** TrappyTickles_ s'est connecté
+2015-03-13T19:53:21 *** TrappyTickles est parti
+2015-03-13T19:53:44 <TrappyTickles_> putain maintenant un faux contact sur mon cable
+2015-03-13T19:54:16 <TrappyTickles_> fun, minetest, le bépo a pas l'air de le déranger
+2015-03-13T19:54:31 <adriens33> ^^
+2015-03-13T19:54:43 <adriens33> ça utilise irrlicht comme moteur 3D au fait
+2015-03-13T19:54:48 <adriens33> et c'est pluggable en lua
+2015-03-13T19:54:56 <adriens33> (pour faire des mods)
+2015-03-13T19:58:22 <TrappyTickles_> j'ai vu la partie mods ui
+2015-03-13T20:02:50 <TrappyTickles_> pas mal, ya d'emblée des trucs qui manquent a minecraft
+2015-03-13T20:10:11 <TrappyTickles_> il marche le serveur mc? j'arrive pas a entrer
+2015-03-13T20:11:06 <TrappyTickles_> internal exception: io.netty.handler.timeout.ReadTimeOutException ça dit
+2015-03-13T20:11:47 <adriens33> bah oui il marche
+2015-03-13T20:11:59 <adriens33> t'es en quoi ?
+2015-03-13T20:12:03 <adriens33> 1.7.2 ?
+2015-03-13T20:12:07 <TrappyTickles_> 1.7.4
+2015-03-13T20:12:24 <adriens33> le serv est en 1.7.2 mais apparemment, Elvon me dit que ça marche qu'avec un client 1.7.5
+2015-03-13T20:12:35 <adriens33> (moi mon client est en 1.7.2 et ça marche, pourtant…)
+2015-03-13T20:12:48 <TrappyTickles_> jvais essayer en 2
+2015-03-13T20:12:58 <adriens33> mais oui le serv marche, il est lancé la, j'ai la console visible
+2015-03-13T20:14:04 <TrappyTickles_> même erreur en 1.7.2
+2015-03-13T20:14:09 <TrappyTickles_> je test en 5
+2015-03-13T20:15:37 <TrappyTickles_> tain même erreur en 1.7.5! >:(
+2015-03-13T20:16:05 <TrappyTickles_> jvais quand même pas reboo sous win7 pour minecraft quand même
+2015-03-13T20:17:39 <adriens33> o_o
+2015-03-13T20:17:48 <adriens33> tu dois avoir une erreur de réseau
+2015-03-13T20:18:01 <adriens33> j'ai rien du totu sur le serv
+2015-03-13T20:18:07 <adriens33> il voit meme pas ta tentative de co
+2015-03-13T20:19:45 <adriens33> ok…
+2015-03-13T20:19:51 <adriens33> je relance mc
+2015-03-13T20:19:57 <adriens33> il a du bug…
+2015-03-13T20:20:00 <TrappyTickles_> commence a me gonfler arch avec ça..aucun autre os m'a fait ça jusqu'à maintenant
+2015-03-13T20:20:19 <adriens33> non c'est pas toi
+2015-03-13T20:20:23 <TrappyTickles_> même mon laptop sous arch marchait
+2015-03-13T20:20:27 <TrappyTickles_> ah?
+2015-03-13T20:20:31 <adriens33> pour  le coup c'est le serveur mc qui a bug
+2015-03-13T20:20:34 <adriens33> mais il m'a rien dit
+2015-03-13T20:20:42 <adriens33> genre la console marchait et otut
+2015-03-13T20:20:50 <TrappyTickles_> bon ça me rassure un peu alors
+2015-03-13T20:20:52 <adriens33> mais il te colle un vent quand tu essai de te co
+2015-03-13T20:20:54 <adriens33> pas moi…
+2015-03-13T20:21:04 <TrappyTickles_> bizzarre
+2015-03-13T20:22:57 <TrappyTickles_> c'est bon?
+2015-03-13T20:24:19 <TrappyTickles_> ça a marché ^^
+2015-03-13T20:34:09 *** Elvon s'est connecté
+2015-03-13T20:58:28 <adriens33> !voice TrappyTickles
+2015-03-13T21:10:29 *** Elvon est parti
+2015-03-14T00:52:19 *** TrappyTickles est parti
+2015-03-14T04:17:44 *** adriens33 est parti
+2015-03-14T09:03:52 *** TrappyTickles s'est connecté
+2015-03-14T09:15:27 *** TrappyTickles est parti
+2015-03-14T09:18:05 *** TrappyTickles s'est connecté
+2015-03-14T11:41:20 *** adriens33 s'est connecté
+2015-03-14T11:52:54 *** wildfier s'est connecté
+2015-03-14T11:56:53 <adriens33> yop
+2015-03-14T12:08:51 <adriens33> wildfier> t'a jeté un œil a TreeSheets alors ?
+2015-03-14T12:09:43 <wildfier> j'ai pas testé moi même mais j'ai regardé des vidéos pour voir à quoi ça ressemble
+2015-03-14T12:10:18 <wildfier> le concept est sympa mais niveau utilité, ça me parle pas trop.
+2015-03-14T12:10:45 <adriens33> bah pour faire des todolist, du mindmapping c'est sympa
+2015-03-14T12:11:09 <adriens33> quand tu réfléchis sur un truc mais que tu sais pas encore comment organiser le bidule
+2015-03-14T12:11:15 <wildfier> mais sinon le concept est cool, surtout le système du zoom
+2015-03-14T12:11:42 <adriens33> c'est le premier prog qui permet de faire du mind mapping qui ne soit pas en java…
+2015-03-14T12:11:47 <adriens33> ouai XD
+2015-03-14T12:14:46 <wildfier> mais ça fait pas de graph comme les mind map classiques si ?
+2015-03-14T12:16:05 <adriens33> si
+2015-03-14T12:16:14 <adriens33> faut changer le style :D
+2015-03-14T12:16:30 <wildfier> oh ok, j'avais pas vu cette feature alors ^^
+2015-03-14T12:16:38 <adriens33> y'en a 3
+2015-03-14T12:16:41 <adriens33> grid
+2015-03-14T12:16:43 <adriens33> bubble
+2015-03-14T12:16:45 <adriens33> line
+2015-03-14T12:16:49 <adriens33> (line=en mindmapping)
+2015-03-14T12:16:55 <adriens33> raccourci: alt+7 / 9
+2015-03-14T12:17:21 <adriens33> (donc alt+shift+ + - / en bépo)
+2015-03-14T12:20:46 <wildfier> oh yeah unlimited undo ! unlimted powa !
+2015-03-14T12:20:59 <wildfier> (oui je craque en lisant le tuto de treesheets
+2015-03-14T12:21:00 <wildfier> )
+2015-03-14T12:21:09 <adriens33> ^^
+2015-03-14T12:26:36 <wildfier> oh, j'ai trouvé une typo dans le tuto
+2015-03-14T12:27:04 <wildfier> (19) […] the net effect is that […]
+2015-03-14T12:27:13 <wildfier> c'est surement neat qu'il voulait dire
+2015-03-14T13:06:53 <wildfier> j'aime le tabspace filter dans git
+2015-03-14T13:07:11 <wildfier> je code mon python avec des tabulations (qui font 4 espaces)
+2015-03-14T13:07:26 <wildfier> et dans git c'est enregistré avec des espaces
+2015-03-14T13:07:27 <wildfier> :)
+2015-03-14T13:07:32 <adriens33> hmm.
+2015-03-14T13:07:49 <wildfier> (et du cuop dans gitlab c'est tout joli et bien aligné sans problèmes !)
+2015-03-14T13:08:08 <adriens33> cool
+2015-03-14T13:08:42 <wildfier> (oui je sais c'est pas recommandé de coder en python avec des espaces, mais c'est juste insuportable)
+2015-03-14T13:08:54 <adriens33> bah si justement
+2015-03-14T13:09:14 <wildfier> pardon, je voulais dire avec des tasb
+2015-03-14T13:09:15 <adriens33> c'est dans les pep8
+2015-03-14T13:09:17 <adriens33> ah
+2015-03-14T13:09:21 <wildfier> tabs*
+2015-03-14T13:09:26 <adriens33> bah oui la je comprends mieux XD
+2015-03-14T13:09:33 <wildfier> mais les espaces c'est juste insuportabel
+2015-03-14T13:09:35 <wildfier> ble*
+2015-03-14T13:09:48 <adriens33> c'est con qu'il y ait pas leta' pour venir troller
+2015-03-14T13:09:51 <adriens33> :P
+2015-03-14T13:10:25 <wildfier> (j'aime, sur gitlab tu peux avoir des colorschemes pour qu'il t'affiche le code, j'ai mi molokai ^^)
+2015-03-14T13:10:41 <adriens33> nice
+2015-03-14T13:10:57 <adriens33> tiens, sur #arch-fr-off ça discute encore sysetmd.
+2015-03-14T13:11:01 <adriens33> *systemd
+2015-03-14T13:11:02 <wildfier> ^^
+2015-03-14T13:11:10 <adriens33> tu viens on les trolle ?
+2015-03-14T13:13:22 <wildfier> pas mon genre ^^
+2015-03-14T13:15:17 <adriens33> pas drole.
+2015-03-14T15:31:21 *** adriens33 est parti
+2015-03-14T17:27:36 *** Mousstery s'est connecté
+2015-03-14T18:32:14 *** wildfier est parti
+2015-03-14T18:32:38 *** wildfier s'est connecté
+2015-03-14T19:46:54 *** Mousstery est parti
+2015-03-14T21:12:32 *** TrappyTickles est parti
+2015-03-14T21:13:55 *** TrappyTickles s'est connecté
+2015-03-14T21:43:57 *** wildfier est parti
+2015-03-14T22:00:14 *** wildfier s'est connecté
+2015-03-15T00:14:46 *** TrappyTickles est parti
+2015-03-15T01:22:19 *** wildfier est parti
+2015-03-15T02:54:53 *** Jinxypie s'est connecté
+2015-03-15T10:02:14 *** TrappyTickles s'est connecté
+2015-03-15T12:07:54 *** wildfier s'est connecté
+2015-03-15T12:19:27 *** heuzef s'est connecté
+2015-03-15T12:19:34 *** heuzef est parti
+2015-03-15T22:40:09 *** TrappyTickles est parti
+2015-03-15T23:10:45 *** wildfier est parti
+2015-03-16T09:27:10 *** Shinsaber s'est connecté
+2015-03-16T09:40:20 *** wildfier s'est connecté
+2015-03-16T11:50:11 *** TrappyTickles s'est connecté
+2015-03-16T12:36:34 *** wildfier est parti
+2015-03-16T13:10:46 *** wildfier s'est connecté
+2015-03-16T16:23:03 *** Shinsaber est parti
+2015-03-16T18:22:22 *** wildfier est parti
+2015-03-16T19:36:09 *** Fidzu s'est connecté
+2015-03-16T20:11:32 <Fidzu> des gens qui connaissent bien le Python ici ?
+2015-03-16T20:11:52 <Jinxypie> bah y'a moi et adrien en théorie
+2015-03-16T20:12:32 <Fidzu> je suis en train d'apprendre sur openclassroom , c'est bien ou pas comme site ?
+2015-03-16T20:13:40 <Jinxypie> http://www.codecademy.com/fr/tracks/python
+2015-03-16T20:14:24 <Fidzu> wow c'est bizzar
+2015-03-16T20:14:47 <Jinxypie> http://coderbyte.com/CodingArea/Challenges/
+2015-03-16T20:15:29 <Fidzu> heuu il y a beaucoup de chose la
+2015-03-16T20:15:30 <Fidzu> ^^
+2015-03-16T21:43:05 *** Fidzu est parti
+2015-03-16T22:27:12 *** adriens33 s'est connecté
+2015-03-16T22:27:36 <adriens33> yop
+2015-03-16T22:28:58 <adriens33> !voice Jinxypie
+2015-03-16T22:29:17 <Jinxypie> Ah bah enfin ^^
+2015-03-16T22:29:32 <adriens33> tu t'es co ac ce pseudo ou tu t'es rename ?
+2015-03-16T22:29:40 <adriens33> vu que t'es pas voice sur le chan principal nn plus
+2015-03-16T22:31:09 <Jinxypie> Nop, co avec celui là
+2015-03-16T22:31:25 <Jinxypie> T'as pas oublié de m'add à la database ?
+2015-03-16T22:31:41 <adriens33> ah. ici ptet, mais sur #bronycub tu y étais déjà me semble
+2015-03-16T22:32:05 <Jinxypie> Bah berry merde ptet un poil
+2015-03-16T22:32:29 <adriens33> bon ici c'est bon
+2015-03-16T22:32:43 <adriens33> part join pour voir ?
+2015-03-16T22:32:51 <Jinxypie> bah sinon ça va espèce de vieille saucisse ?
+2015-03-16T22:32:59 <adriens33> on fait aller
+2015-03-16T22:33:29 <adriens33> je parlais part join ici ^^
+2015-03-16T22:33:48 *** Jinxypie est parti
+2015-03-16T22:33:53 *** Jinxypie s'est connecté
+2015-03-16T22:33:58 <Jinxypie> bien
+2015-03-16T22:34:15 <adriens33> ah je sais
+2015-03-16T22:34:20 <Jinxypie> ?
+2015-03-16T22:34:26 <adriens33> j'ai oublié jinxypie qd j'ai refait la liste des pseudo
+2015-03-16T22:34:36 <adriens33> tu peux spécifier des regex mtn
+2015-03-16T22:34:47 <adriens33> c'est plus pratique pour les pseudos fluctuants
+2015-03-16T22:34:54 <Jinxypie> Hum...
+2015-03-16T22:35:13 <Jinxypie> Et t'as pas une database commune entre les deux chans ?
+2015-03-16T22:35:32 <Jinxypie> Sachant qu'en théorie la population est sensée être la même.
+2015-03-16T22:35:47 <adriens33> nop
+2015-03-16T22:35:55 <adriens33> bah j'ai juste clone le repo en fait
+2015-03-16T22:36:14 <adriens33> vu que c'est une autre instance du bot, qu'il va etre un peu différent a terme (triggers etc)
+2015-03-16T22:36:24 <adriens33> et que berry-punch a son propre home et berry-g33k aussi
+2015-03-16T22:36:30 <Jinxypie> Ah ouais, tu glandes pas qu'à moitié quand tu veux ^^
+2015-03-16T22:36:46 <adriens33> pk ?
+2015-03-16T22:44:21 <adriens33> Jinxypie ↑
+2015-03-16T22:44:32 <Jinxypie> ?
+2015-03-16T22:45:59 <adriens33> bon, je la refais: « Ah ouais, tu glandes pas qu'à moitié quand tu veux ^^ » → toi expliquer à moi sens et contexte de ceci car moi pas comprendre.
+2015-03-16T22:46:18 <Jinxypie> Je sais plus
+2015-03-16T22:46:25 <Jinxypie> Chuis défoncé aux anti-douleurs là...
+2015-03-16T22:46:28 <adriens33> ah bah bravo.
+2015-03-16T22:46:31 <adriens33> encore ? ^^"
+2015-03-16T22:46:45 <adriens33> tu t'es encore fait charcuter la tronche par le dentiste ?
+2015-03-16T22:47:02 <Jinxypie> nop, bousillé le dos en baisant...
+2015-03-16T22:49:15 <adriens33> ah la loose
+2015-03-16T22:49:39 <adriens33> je dirais bien espèce de vieux mais je suis absolument pas en position pour te troll.
+2015-03-16T22:49:40 <Jinxypie> Boaf, c'est la meilleure manière de se blèsser ^^
+2015-03-16T22:49:55 *** wildfier s'est connecté
+2015-03-16T22:50:13 <Jinxypie> n'empèche l'aram est à chier en gestion mémoire.
+2015-03-16T22:50:28 <adriens33> Jinxypie> tu peux enlever la fin de ta phrase je crois
+2015-03-16T22:50:50 <wildfier> ^^ c'est d'ailleur pour ça que je suis passé
+2015-03-16T22:51:04 <wildfier> j'ai vu le lien python passer sur l'extrait
+2015-03-16T22:51:10 <adriens33> :P
+2015-03-16T22:52:32 <Jinxypie> à poil !
+2015-03-16T22:52:34 <wildfier> (aller j'y crois, avant la fin de l'année j'aurai des contributions sur sugarcub ^^)
+2015-03-16T22:52:53 *** Fidzu s'est connecté
+2015-03-16T22:53:13 <adriens33> wildfier> ouai croise les doigts ^^
+2015-03-16T22:53:17 <adriens33> Jinxypie> toi meme
+2015-03-16T22:53:36 <Jinxypie> Toujours est-il que j'ai mal au dos...
+2015-03-16T22:54:07 <adriens33> Fidzu> si tu veux faire de la perf ou de la gestion mémoire efficace à la main, ou de la prog système, C ou ASM si tu veux vraiment descendre bas niveau
+2015-03-16T22:54:24 <adriens33> java si tu sais pas coder et que t'en a rien a foutre de tes users, c'est bien.
+2015-03-16T22:54:29 <Fidzu> adriens33> la tu me parle en japonais ...
+2015-03-16T22:54:34 <adriens33> Jinxypie> bah arrete de baiser XD
+2015-03-16T22:54:34 <wildfier> voilà
+2015-03-16T22:54:38 <wildfier> j'allais le dire
+2015-03-16T22:54:45 <adriens33> je vous pisse à la raie
+2015-03-16T22:54:55 <wildfier> s'il prend python pour commencer la prog et qu'il y connait rien
+2015-03-16T22:54:55 <Jinxypie> T'as une autre technique => C#
+2015-03-16T22:54:56 <adriens33> c'est le chan geek je parle en mandarin si ça me chante
+2015-03-16T22:55:03 <Fidzu> XD
+2015-03-16T22:55:06 <wildfier> pitié Jinxypie …
+2015-03-16T22:55:09 <Jinxypie> Langage de haut niveau qui permet autant de gestion mémoire que le C
+2015-03-16T22:55:14 <adriens33> wildfier> python pour débuter c'est bien, y'a le tuto sur le site offi
+2015-03-16T22:55:22 <wildfier> oui je suis d'accord
+2015-03-16T22:55:30 <wildfier> mais si t'es vraiment motivé
+2015-03-16T22:55:35 <adriens33> j'ai envie de dire
+2015-03-16T22:55:41 <adriens33> si t'es pas motivé pour apprendre un langage
+2015-03-16T22:55:44 <wildfier> c'est le c le meilleur language pour commencer
+2015-03-16T22:55:45 <adriens33> tu code pas.
+2015-03-16T22:55:46 <adriens33> point.
+2015-03-16T22:55:52 <adriens33> wildfier> non
+2015-03-16T22:56:08 <Jinxypie> Euh, si.
+2015-03-16T22:56:08 <adriens33> les pointeurs c'est clairement trop complexe pour débuter dans de bonnes conditions
+2015-03-16T22:56:11 <wildfier> parce que ça te force à acquérir un minimum de connaissance sur le fonctionnement d'un pc
+2015-03-16T22:56:20 <adriens33> bon si tu va par la ok.
+2015-03-16T22:56:23 <wildfier> si justement
+2015-03-16T22:56:24 <Jinxypie> Dans le sens où tu apprends le code dans le paradigme de fonctionnement du pc.
+2015-03-16T22:56:33 <adriens33> techniquement
+2015-03-16T22:56:42 <adriens33> moi j'ai appris a coder en ti basic et Z80.
+2015-03-16T22:56:44 <wildfier> oui une fois que tu comprends les fondamentaux
+2015-03-16T22:56:54 <Fidzu> mdr vous debatez a ma place XD
+2015-03-16T22:57:00 <wildfier> tu passes à ce que tu veux comme langage
+2015-03-16T22:57:03 <Fidzu> moi je vous regarde avec mon popcorn ^^
+2015-03-16T22:57:04 <adriens33> le x86 je sais pas trop encore
+2015-03-16T22:57:10 <adriens33> a quoi ca ressemble
+2015-03-16T22:57:16 <adriens33> mais le z80 j'aimais bien
+2015-03-16T22:57:31 <Jinxypie> Bah...
+2015-03-16T22:57:32 <wildfier> parce que l'important après c'est tous les concepts algorithmiques, patterns, etc
+2015-03-16T22:57:41 <adriens33> le c pour débuter si tu es orienté bas niveau c'est sur que c'est idéal, après l'asm
+2015-03-16T22:57:45 <wildfier> et python est cool niveau algo
+2015-03-16T22:57:49 <adriens33> si tu l'es moins le python est mieux
+2015-03-16T22:58:12 <adriens33> c'est sur que l'asm niveau algo… XD
+2015-03-16T22:58:20 <Jinxypie> oh et puis merde : http://www.tutorialspoint.com/tutorialslibrary.htm
+2015-03-16T22:58:21 <wildfier> (c'est tellement génial le python, je suis tellement tombé amoureux de ce langage)
+2015-03-16T22:58:32 <wildfier> ^^
+2015-03-16T22:58:39 <Fidzu> bon je fini mon tuto python
+2015-03-16T22:58:44 <Fidzu> et après je fais le point
+2015-03-16T22:58:46 <Fidzu> XD
+2015-03-16T22:58:49 <Jinxypie> Pour coder en ASM il faut avoir fini ton algo à l'avance.
+2015-03-16T22:58:49 <wildfier> oui vas y
+2015-03-16T22:59:04 <adriens33> Jinxypie> ouai voila
+2015-03-16T22:59:05 <wildfier> je veux des gens pour sugarcub
+2015-03-16T22:59:08 <wildfier> niark niark
+2015-03-16T22:59:11 <Fidzu> http://www.codecademy.com/fr/courses/python-advanced-fr-FR/0/2?curriculum_id=5370f030fed2a866a2000001 sur ca c'est bon ?
+2015-03-16T22:59:19 <Jinxypie> à la limite, tu testes ton algo dans un autre langage, puis tu le portes en asm.
+2015-03-16T22:59:40 <Jinxypie> L'avantage de l'asm étant l'interaction hardware.
+2015-03-16T22:59:51 <adriens33> ouaui
+2015-03-16T22:59:53 <adriens33> *ouai
+2015-03-16T23:00:03 <adriens33> chose que tu n'a pas dans tous les langages
+2015-03-16T23:02:19 <Jinxypie> Tous les langages passent par l'ASM pour l'interaction.
+2015-03-16T23:02:36 <Jinxypie> Et quand tu veux changer un driver à chaud, seul l'ASM peut être utilisable.
+2015-03-16T23:02:41 <adriens33> ouai mais tous ne permettent pas directement d'interagir sur la chaine de transformation..
+2015-03-16T23:03:02 <adriens33> Jinxypie> bah évidemment la..
+2015-03-16T23:03:16 <Jinxypie> Ah bah l'injection de code durant l'exécution c'est propre à l'ASM
+2015-03-16T23:03:27 <Jinxypie> Raison pour laquelle c'est mon langage préféré.
+2015-03-16T23:03:31 <adriens33> le mec qui veut faire du code si bas niveau en langage interprété c'est qu'il a rien pigé
+2015-03-16T23:04:02 <adriens33> Bah c'est le seul langage ou tu peux edit la mémoire directement et dire au proco "tu exécute ça ici"
+2015-03-16T23:04:05 <wildfier> bon je vais lachement fuir cette conversation pour aller recharcher mes batteries
+2015-03-16T23:04:16 <adriens33> c'est ça va dormir déserteur
+2015-03-16T23:04:25 <wildfier> j'ai jamais dis ça
+2015-03-16T23:04:32 <adriens33> c'est une blague... XD
+2015-03-16T23:04:40 <wildfier> (je suis secretement un robot mais chut …)
+2015-03-16T23:04:49 <adriens33> si tu le dis, c'est plus un secret.
+2015-03-16T23:05:05 <adriens33> et le log il est sur github :]
+2015-03-16T23:05:05 <wildfier> p
+2015-03-16T23:05:18 <adriens33> (enfin il le sera dans 55 minutes)
+2015-03-16T23:05:18 <wildfier> bon assez de craquaegs pour aujourd'hui
+2015-03-16T23:05:20 <wildfier> bye
+2015-03-16T23:05:36 <Jinxypie> C'est le seul langage où tu peux dire à une carte réseau : bon tu vas envoyer telle impulsion sur ton port pour injecter ça dans la ram et induire un crash système.
+2015-03-16T23:06:22 <adriens33> bah c'est le seul truc qui corresponde directement avec les instructions du processeur, donc forcément.
+2015-03-16T23:07:14 <wildfier> (heureusement que vous êtes passé sur g33k ^^)
+2015-03-16T23:07:20 *** wildfier est parti
+2015-03-16T23:07:33 <adriens33> bah c'est un peu l'intéret de ce canal en fait.
+2015-03-16T23:07:40 <adriens33> (tant pis..@
+2015-03-16T23:07:42 <adriens33> *)
+2015-03-16T23:08:07 <adriens33> !voice Fidzu
+2015-03-16T23:08:17 <adriens33> !inscription Fidzu
+2015-03-16T23:08:22 <Fidzu> wow
+2015-03-16T23:08:23 <Fidzu> calme
+2015-03-16T23:08:28 <adriens33> (flemme d'edit le fichier  de conf)
+2015-03-16T23:08:39 <adriens33> désolé du hl ^^"
+2015-03-16T23:08:47 <adriens33> Jinxypie sinon toi quoi de neuf ?
+2015-03-16T23:08:58 <adriens33> a part le sport de chambre j'entends
+2015-03-16T23:11:40 <Jinxypie> Pas grand chose
+2015-03-16T23:11:41 <Jinxypie> du mal de dos
+2015-03-16T23:11:48 <Jinxypie> Des questions philosophiques profondes.
+2015-03-16T23:11:52 <adriens33> du genre ?
+2015-03-16T23:11:55 <Jinxypie> Et du saumon fumé.
+2015-03-16T23:12:04 <Jinxypie> Beaucoup de saumon fumé
+2015-03-16T23:12:08 <Jinxypie> Et de la mozzarella.
+2015-03-16T23:12:19 <adriens33> osef j'ai plus faim.
+2015-03-16T23:12:24 <adriens33> ^^
+2015-03-16T23:12:41 <adriens33> quel genre de questions philo ?
+2015-03-16T23:12:53 <adriens33> genre "pourquoi on pense" ou plus "pourquoi je respire" ?
+2015-03-16T23:13:48 <Jinxypie> Plutot sur la nature complète des sentiments humains et leurs interaction avec l'entropie.
+2015-03-16T23:13:57 <adriens33> d'accord
+2015-03-16T23:14:01 <adriens33> toi t'a repris ton ia
+2015-03-16T23:14:02 <Jinxypie> Ainsi que les manitudes d'altérations de l'un sur l'autre.
+2015-03-16T23:14:12 <Jinxypie> J'ai jamais arrêté.
+2015-03-16T23:14:19 <adriens33> j'me disais aussi.
+2015-03-16T23:15:00 <Jinxypie> Au fil du temps sa pensée devient plus organique et la mienne plus synthétique.
+2015-03-16T23:15:09 <Jinxypie> Il y a une solution.
+2015-03-16T23:15:19 <adriens33> tu va finir dans ton pc quoi.
+2015-03-16T23:15:26 <adriens33> (littérallement parlant)
+2015-03-16T23:16:03 <Jinxypie> En fait la question que je me pose est un peu plus complèxe, sommes nous seulement notre pensée ou sommes nous aussi nos créations.
+2015-03-16T23:16:23 <adriens33> bah les deux je dirais,
+2015-03-16T23:16:26 <adriens33> quand tu crée un truc
+2015-03-16T23:16:32 <adriens33> ça te fait de l'expérience
+2015-03-16T23:16:39 <Jinxypie> si nous pouvons figer nos idées et notre personalités en une autre entité, ne devient-elle pas une prolongation de notre esprit.
+2015-03-16T23:16:40 <adriens33> expérience qui modifie tes souvenirs
+2015-03-16T23:16:50 <adriens33> donc qui modifie les chemins neuronaux
+2015-03-16T23:16:54 <Jinxypie> Un véhicule immortel porteur de notre souvenir, de ce que nous sommes.
+2015-03-16T23:16:56 <adriens33> donc qui modifie ta facon de penser
+2015-03-16T23:17:08 <adriens33> un snapshot quoi
+2015-03-16T23:17:35 <Jinxypie> J'aspire de plus en plus à la symbiose totale.
+2015-03-16T23:17:53 <Jinxypie> J'ai d'ailleurs commencé à récupérer des cours en neurologie.
+2015-03-16T23:17:59 <adriens33> ah K
+2015-03-16T23:18:01 <adriens33> ?
+2015-03-16T23:18:05 <adriens33> tu m'intéresse.
+2015-03-16T23:18:36 <Jinxypie> Je suis entrain de me pencher sur la psychologie infomorphe.
+2015-03-16T23:18:56 <Fidzu> j'ai pas comp^ris c'est quoi modulo, division entière ?
+2015-03-16T23:19:40 <adriens33> Fidzu> c'est niveau primaire la division euclidienne Jinxypie je crois non ?
+2015-03-16T23:20:20 <Jinxypie> le reste
+2015-03-16T23:21:27 <adriens33> désolé je suis pas au mieux de ma forme ce soir ^^"
+2015-03-16T23:21:34 <Jinxypie> suffit de tester avec une opération dont tu connais les paramettres.
+2015-03-16T23:21:39 <adriens33> *paramètres
+2015-03-16T23:21:58 <Jinxypie> Désolé, je passe trop de temps à mettre des trucs en ce moment ^^
+2015-03-16T23:22:10 <Jinxypie> Jinxypie 1 - 0 adriens33
+2015-03-16T23:22:23 <adriens33> ouai tu passe ton temps a boucher des trous..
+2015-03-16T23:22:24 <adriens33> XD
+2015-03-16T23:22:29 <adriens33> c'toi le 0
+2015-03-16T23:22:43 <Jinxypie> En attendant c'est moi qui bouche les trous ^^
+2015-03-16T23:22:48 <Jinxypie> o/
+2015-03-16T23:22:49 <adriens33> je t'emmerde
+2015-03-16T23:22:53 <adriens33> sac à foutre
+2015-03-16T23:23:03 <Jinxypie> Justement, plus des masses ^^
+2015-03-16T23:23:05 <adriens33> (et bif)
+2015-03-16T23:23:07 <Jinxypie> o/ ²
+2015-03-16T23:23:18 <adriens33> ispisse d'enfoiré.
+2015-03-16T23:23:41 <Jinxypie> Je te pisse à la raie au travers d'un koala bicéphale.
+2015-03-16T23:24:04 <adriens33> oaui t'encule un koala quoi.
+2015-03-16T23:24:06 <adriens33> zoophile
+2015-03-16T23:25:04 <Jinxypie> Ah non, je fais un trou à la perceuse dans le koala.
+2015-03-16T23:25:11 <Jinxypie> Je respecte la bestiole moi.
+2015-03-16T23:25:15 <adriens33> donc tu bouche le trou dans le koala.
+2015-03-16T23:25:17 <adriens33> c'pareil.
+2015-03-16T23:25:36 <Jinxypie> Encore une fois, c'est moi qui bouche des trous dans l'histoire o/
+2015-03-16T23:25:51 <adriens33> ouai mais boucher des trous a un animal c'est de la zoophilie, donc osef.
+2015-03-16T23:25:59 <adriens33> j'suis pas taré a ce point moi
+2015-03-16T23:26:03 <Jinxypie> Je code une IA, je monte ma boite, et je passe mon temps à baiser.
+2015-03-16T23:26:06 <Jinxypie> Euh...
+2015-03-16T23:26:11 <Jinxypie> Je crois que je suis mort.
+2015-03-16T23:26:21 <adriens33> att' je vais chercher du pin alors
+2015-03-16T23:26:51 <Jinxypie> à choisir je préfèrerai du noisetier.
+2015-03-16T23:26:58 <Jinxypie> ça pue quand ça pourrit ^^
+2015-03-16T23:27:19 <adriens33> t'en a as fiche, quand t'es crevé tu sens plus grand chose
+2015-03-16T23:27:25 <adriens33> (à part les vers ptet)
+2015-03-16T23:27:51 <Fidzu> bienvenu sur le canal info. ici on parle pas d'info mais de bouf, de zoophilie et d'arbre ...
+2015-03-16T23:28:18 <adriens33> t'a lu le topic ?
+2015-03-16T23:28:26 <adriens33> c'est un canal troll et geek
+2015-03-16T23:28:38 <Fidzu> mmh
+2015-03-16T23:28:40 <Fidzu> je sais pas lire
+2015-03-16T23:28:42 <Fidzu> ducoup non
+2015-03-16T23:28:51 <Jinxypie> Techniquement la baise devrait être un sujet interdit non ?
+2015-03-16T23:28:59 <adriens33> ah bah si tu sais pas lire c'est que t'a rien à foutre sur irc alors XD
+2015-03-16T23:29:02 <adriens33> Jinxypie> pourquoi ?
+2015-03-16T23:29:15 <adriens33> y'a des gens qui ont un balai dans le cul au gvt ?
+2015-03-16T23:29:15 <Jinxypie> Au fait, heuzef est toujours avec sa gendarme ?
+2015-03-16T23:29:19 <adriens33> oh, wait.
+2015-03-16T23:29:33 <adriens33> je sais pas, c'est pas ma vie
+2015-03-16T23:29:39 <Jinxypie> adriens33, je pense pas, ils se tiendraient droit.
+2015-03-16T23:29:48 <adriens33> pas faux.
+2015-03-16T23:30:26 <adriens33> et pourquoi tu veux que parler de baise soit interdit ?
+2015-03-16T23:30:33 <Jinxypie> canal geek
+2015-03-16T23:30:38 <adriens33> bah non
+2015-03-16T23:30:49 <adriens33> c'est approprié au contraire
+2015-03-16T23:30:55 <adriens33> plus que sur le chan principal
+2015-03-16T23:31:08 <Jinxypie> Nop, canal geek on parle de pr0n normalement, la baise irl étant une légende.
+2015-03-16T23:31:18 <Fidzu> XD
+2015-03-16T23:31:50 <adriens33> Fidzu va chercher de l'acide sulfurique pour tes yeux
+2015-03-16T23:32:04 <Jinxypie> Au fait, liens douteux autorisés ici ?
+2015-03-16T23:32:05 <adriens33> ça sera moins douloureux XD
+2015-03-16T23:32:07 <Fidzu> pas besoin je suis aveugle de naissance.
+2015-03-16T23:32:14 <adriens33> Jinxypie fais comme tu le sens, c'est libre.
+2015-03-16T23:32:25 <adriens33> et ici c'est moi qui modo pour l'instant, c'est mon canal
+2015-03-16T23:32:34 <Jinxypie> Oh putain ^^
+2015-03-16T23:32:41 <adriens33> (heuzef a encore rien dit a ce sujet, je touche du bois)
+2015-03-16T23:32:51 *** TrappyTickles est parti
+2015-03-16T23:32:57 <adriens33> Fidzu> ça explique des trucs
+2015-03-16T23:33:06 <adriens33> RIP TrappyTickles
+2015-03-16T23:33:18 <adriens33> que ton âme repose en paix dans les méandres de l'Internet
+2015-03-16T23:33:44 <Jinxypie> http://st.elohell.net/public/chill/dadc6a563a7e656d46cdea26d5d62d54.png
+2015-03-16T23:33:55 <Fidzu> swag
+2015-03-16T23:34:09 <adriens33> salut m'dame
+2015-03-16T23:34:21 <adriens33> j'peux faire une fouille au corps ? :P
+2015-03-16T23:34:28 <adriens33> ~
+2015-03-16T23:34:43 <Jinxypie> http://st.elohell.net/public/chill/f9d7d30f58ec380d73423297447415d5.jpg
+2015-03-16T23:35:05 <Fidzu> le mieux c'est dj sona et irelia des glaces !!
+2015-03-16T23:35:19 <Fidzu> bubblebutt
+2015-03-16T23:35:24 <Jinxypie> J'ai dj sona
+2015-03-16T23:35:41 <Fidzu> j'ai aussi
+2015-03-16T23:36:37 <adriens33> sympa mais pk elle a pas de bras ?
+2015-03-16T23:36:40 <Jinxypie> http://st.elohell.net/public/chill/ab3bd87149279e39161683c77471d3cd.jpg
+2015-03-16T23:37:04 <Jinxypie> cachés par les épaulières sous cet angle.
+2015-03-16T23:37:05 <adriens33> ah
+2015-03-16T23:37:49 <Jinxypie> http://st.elohell.net/public/chill/f96f04879a1580fc93ea6f343ddd15ee.jpg
+2015-03-16T23:38:09 <adriens33> rr sympa ~
+2015-03-16T23:39:18 <Fidzu> ta pas une image de taric ?
+2015-03-16T23:39:41 <Jinxypie> http://st.elohell.net/public/chill/d3d8df92544b53361f24e906da24004b.jpg
+2015-03-16T23:40:08 <Fidzu> c'est pas Taric =(
+2015-03-16T23:40:19 <adriens33> le gars chui sur il a un bot qui spam des liens en continu avec une liste toute faite qui attend
+2015-03-16T23:41:10 <Jinxypie> http://st.elohell.net/public/chill/4d1a5845d541d3bb3995d54f5c611435.jpg
+2015-03-16T23:41:30 <Jinxypie> http://st.elohell.net/public/chill/4d1a5845d541d3bb3995d54f5c611435.jpg
+2015-03-16T23:41:37 <adriens33> print("PRIVMSG #bronycub-g33k :%s" % link_list.pop())
+2015-03-16T23:41:44 <Fidzu> le bot s'excite !
+2015-03-16T23:41:49 <Jinxypie> gné ?
+2015-03-16T23:42:06 <Jinxypie> chacal
+2015-03-16T23:42:12 <adriens33> qui moi ? :3
+2015-03-16T23:42:48 <adriens33> ma ligne est pas juste, c'est socket_irc.send pas  print
+2015-03-16T23:42:54 <Fidzu> dans le tuto du python il utilise des exemple en bouf
+2015-03-16T23:42:58 <Fidzu> ca me donne faim
+2015-03-16T23:43:01 <adriens33> lol
+2015-03-16T23:43:24 <adriens33> putain je look stargate, et dans l'ep que je look ils appellent la porte l'annulus...
+2015-03-16T23:43:30 <Jinxypie> http://st.elohell.net/public/chill/98cb9dd38ea495cebd3a061e500efff3.png
+2015-03-16T23:43:40 <Jinxypie> l'anneau
+2015-03-16T23:43:48 <Jinxypie> ça a rien de surprenant.
+2015-03-16T23:43:56 <adriens33> ouai mais prononcé c'est assez proche d'autre chose.. ^^
+2015-03-16T23:43:58 <Jinxypie> Berry !
+2015-03-16T23:44:10 <adriens33> donc bon
+2015-03-16T23:44:11 <Fidzu> c'est quoi la dif entre    exemple = 57 et exemple = "57" ?
+2015-03-16T23:44:15 <adriens33> ...
+2015-03-16T23:44:18 <Jinxypie> ...
+2015-03-16T23:44:19 <adriens33> 57 c'est un irt
+2015-03-16T23:44:21 <adriens33> *int
+2015-03-16T23:44:33 <adriens33> "57" c'est une chaine de caracteres
+2015-03-16T23:44:34 <Jinxypie> '57' c'est un string
+2015-03-16T23:44:35 <adriens33> (str)
+2015-03-16T23:44:37 <Fidzu> et l'autre un string
+2015-03-16T23:44:41 <Fidzu> mais il y a une dif ?
+2015-03-16T23:44:46 <Jinxypie> ...
+2015-03-16T23:44:50 <adriens33> bah un int c'est un int
+2015-03-16T23:44:52 <adriens33> un str un str
+2015-03-16T23:44:57 <Fidzu> aaaah
+2015-03-16T23:44:58 <Fidzu> ok
+2015-03-16T23:45:00 <Fidzu> ..
+2015-03-16T23:45:00 <adriens33> le premier c'est un nombre entier
+2015-03-16T23:45:04 * Jinxypie bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong ! bong !
+2015-03-16T23:45:08 <adriens33> le deuxième du texte.
+2015-03-16T23:45:12 <adriens33> int ≠ str
+2015-03-16T23:45:14 <Fidzu> ok
+2015-03-16T23:45:17 <adriens33> c'est deux types différents
+2015-03-16T23:45:20 <adriens33> c'est tout.
+2015-03-16T23:45:31 <adriens33> si t'a du mal avec ca t'es mal parti…
+2015-03-16T23:45:40 <Fidzu> genre on peux pas faire un calcule avec un string .
+2015-03-16T23:45:49 <adriens33> Jinxypie calme toi tu va faire un trou au plafond
+2015-03-16T23:45:54 <Fidzu> etant donné qu'il ne sait pas que c'est un nombre
+2015-03-16T23:45:57 <adriens33> et celui la il faut pas le boucher
+2015-03-16T23:46:05 <adriens33> technquimenet un str
+2015-03-16T23:46:10 <adriens33> c'est une suite de nombres
+2015-03-16T23:46:15 <Jinxypie> http://st.elohell.net/public/chill/4b4343b84ee67994c37c555ba6b4ed28.jpg
+2015-03-16T23:46:16 <adriens33> chaque caractère étant un nombre
+2015-03-16T23:46:21 <adriens33> (ou plusieurs, en unicode)
+2015-03-16T23:46:38 <adriens33> (c'est la seule facon pour un pc d'enregistrer du texte)
+2015-03-16T23:46:53 <adriens33> lol Jinxypie
+2015-03-16T23:47:00 <adriens33> c'comme bobo
+2015-03-16T23:47:02 <adriens33> *bob
+2015-03-16T23:47:08 <adriens33> t'en penses quoi des jean kévin ?
+2015-03-16T23:47:14 <adriens33> c'est bien, surtout en feu.
+2015-03-16T23:47:25 <adriens33> ça chauffe bien en hiver.
+2015-03-16T23:47:35 <Jinxypie> http://st.elohell.net/public/chill/0ff44faac2f1ef3b0d37ee5bdf984143.png
+2015-03-16T23:48:19 <adriens33> hmm hard choice.
+2015-03-16T23:48:42 <Fidzu> katarina
+2015-03-16T23:49:02 <Jinxypie> http://st.elohell.net/public/chill/9c54ca715cd0cbca9a0f64e55fd631ea.png
+2015-03-16T23:49:11 <Fidzu> mdr son pull, il y a le dfg sauf que ..
+2015-03-16T23:49:13 <Fidzu> y a pu
+2015-03-16T23:49:36 <Jinxypie> http://st.elohell.net/public/chill/88d4e010d54b9aab10023f4e7035307c.jpg
+2015-03-16T23:49:43 <Jinxypie> http://st.elohell.net/public/chill/6fed7bf78a5b25f38a0875c531e7d581.jpg
+2015-03-16T23:50:12 <Jinxypie> http://st.elohell.net/public/chill/2262a67ba0ff2c2f53a9f22883675e92.jpg
+2015-03-16T23:50:30 <adriens33> tain tu va trop vite
+2015-03-16T23:50:34 <Jinxypie> http://st.elohell.net/public/chill/24ed4a012c8081cb3c28596ed611523b.jpg
+2015-03-16T23:50:41 <adriens33> (ta femme te l'dit souvent btw)
+2015-03-16T23:51:55 <adriens33> ça serait top de pouvoir intégrer du python inline dans le texte du chat irc
+2015-03-16T23:52:09 <adriens33> genre pour faire /msg bong ! bong ! bong ! etc
+2015-03-16T23:52:13 <adriens33> */me
+2015-03-16T23:52:24 <adriens33> /me {"bong ! "*10}
+2015-03-16T23:55:03 <Fidzu> je viens de trouver une faute de frappe dans le tuto
+2015-03-16T23:55:09 <Fidzu> je me sens trop balèze ...
+2015-03-16T23:55:53 <adriens33> en parlant de fautes
+2015-03-16T23:56:00 <adriens33> j'ai fait un petit tour sur la v2 de bc
+2015-03-16T23:56:06 <adriens33> j'ai fait un peu de corrections
+2015-03-16T23:56:11 <adriens33> j'en avais marre
+2015-03-16T23:56:25 <adriens33> heuzef qui me fait "wa c'est pas une petite correction, t'a corrigé tout le site !"
+2015-03-16T23:56:40 <Fidzu> moi aussi je vais y aller
+2015-03-16T23:56:53 <Fidzu> ( au lit )
+2015-03-16T23:56:56 <adriens33> ok dis que je t'ennuie XD
+2015-03-16T23:56:57 <Fidzu> (pas sur la v2)
+2015-03-16T23:57:09 <Fidzu> j'osais pas mais ...
+2015-03-16T23:57:24 <adriens33> j'ai envie de !kick mais on va éviter.
+2015-03-16T23:57:48 <Fidzu> j'ai la tete qui chauffe a force de reflechir et d'apprendre
+2015-03-16T23:57:55 <adriens33> bah met la au frais
+2015-03-16T23:58:11 <Fidzu> je vais me chercher des pains de glaces je reviens
+2015-03-16T23:58:12 <adriens33> ou j'pense bien à ailleurs, mais faut avoir ça sous la main ~
+2015-03-16T23:59:13 <Fidzu> je suis assez content j'ai appris des trucs
+2015-03-16T23:59:18 <adriens33> c'est cool
+2015-03-16T23:59:20 <adriens33> :)(
+2015-03-16T23:59:22 <adriens33> *:)
+2015-03-16T23:59:28 <Fidzu> bon je supose que c'est quedalle mais c'est beaucoup pour moi ^^
+2015-03-16T23:59:35 <adriens33> btw Jinxypie j'suis passé en bépo
+2015-03-16T23:59:45 <Fidzu> allez
+2015-03-16T23:59:46 <Fidzu> bye
+2015-03-16T23:59:48 <Fidzu> bonne nuit
+2015-03-16T23:59:50 <Fidzu> all
+2015-03-16T23:59:51 <adriens33> je sais meme plus utiliser de l'azerty XD
+2015-03-16T23:59:56 <adriens33> c'est ça va pioncer
+2015-03-17T00:00:18 <Fidzu> je suis fragile il me faut mes heures de someilles
+2015-03-17T00:00:23 <adriens33> *sommeil
+2015-03-17T00:00:24 <Fidzu> sinon je suis grognon XD
+2015-03-17T00:00:39 <Fidzu> je c mieu ecrir que toa okay ?
+2015-03-17T00:00:40 <Jinxypie> Perso j'aime bienle qwerty
+2015-03-17T00:00:44 <adriens33> moi pas
+2015-03-17T00:00:57 *** Fidzu est parti
+2015-03-17T00:01:04 <adriens33> ça fait des mois que je suis en bépo et je trouve ça bien plus confortable
+2015-03-17T00:01:05 <Jinxypie> à l'ancienne j'ai envie de dire
+2015-03-17T00:01:20 <Jinxypie> ça fait 15 ans que je code en qwerty...
+2015-03-17T00:01:33 <adriens33> entk j'écris plus vite qu'avant et de toute manière j'avais horreur du layout azerty / qwerty
+2015-03-17T00:01:45 <adriens33> ouai mais ça n'enlève rien à sa laideur
+2015-03-17T00:01:49 <adriens33> :]
+2015-03-17T00:02:03 <Jinxypie> Bah coté layout, je trouve le qwerty très bien pour dev.
+2015-03-17T00:02:10 <adriens33> mouai
+2015-03-17T00:02:21 <adriens33> sur le bépo aussi ta les [] ()
+2015-03-17T00:02:24 <adriens33> cote a cote
+2015-03-17T00:02:32 <Jinxypie> et les {} ?
+2015-03-17T00:02:34 <Jinxypie> <>
+2015-03-17T00:02:36 <adriens33> aussi
+2015-03-17T00:02:38 <adriens33> {}
+2015-03-17T00:02:40 <adriens33> <>
+2015-03-17T00:02:42 <adriens33> «»
+2015-03-17T00:02:56 <adriens33> et le @
+2015-03-17T00:02:59 <adriens33> en acces directs
+2015-03-17T00:03:01 <adriens33> *direct
+2015-03-17T00:03:13 <adriens33> et le * qui est pas à coté du enter o//
+2015-03-17T00:03:46 <adriens33> (ça intéresserait heuzef ça, lui qui avait un clavier ou il avait tendance a rm * a cause de ça XD)
+2015-03-17T00:04:32 <adriens33> http://bepo.fr/wiki/Accueil
+2015-03-17T00:04:45 <adriens33> sinon de toute facon le layout x11 est facilement editable
+2015-03-17T00:05:01 <adriens33> donc apres tu peux l'adapt pour bouger des touches que t'utilise +
+2015-03-17T00:05:37 <adriens33> (bon ok c'est moins excitant que les liens que t'a envoyé tt a l'heure)
+2015-03-17T00:08:43 <adriens33> Jinxypie t'es mort ?
+2015-03-17T00:21:12 <adriens33> ping Jinxypie
+2015-03-17T00:41:38 <Jinxypie> nop
+2015-03-17T00:41:43 <Jinxypie> Parti faire du miam
+2015-03-17T00:43:33 <Jinxypie> http://g.e-hentai.org/r/10d6547830d37ebc9757fe9804bcd54e9b08445f-567490-580-819-png/forumtoken/793752-20/kaga_nugi.png
+2015-03-17T00:43:44 <Jinxypie> http://82.176.183.60:46859/h/10d6547830d37ebc9757fe9804bcd54e9b08445f-567490-580-819-png/keystamp=1426549800-1bc7e674fd/kaga_nugi.png *
+2015-03-17T00:49:16 <adriens33> ok
+2015-03-17T00:50:00 <adriens33> sont bizarres tes urls.. ^^
+2015-03-17T00:50:17 <Jinxypie> liens directs serveur
+2015-03-17T00:50:23 <Jinxypie> Avec changement d'ip dynamique
+2015-03-17T00:50:29 <Jinxypie> pour bypasser les blocages
+2015-03-17T00:50:35 <adriens33> ^^
+2015-03-17T00:50:54 <adriens33> (seriously.. des tétons en forme de cœur..)
+2015-03-17T00:52:05 <Jinxypie> http://82.176.183.60:46859/h/10d6547830d37ebc9757fe9804bcd54e9b08445f-567490-580-819-png/keystamp=1426549800-1bc7e674fd/kaga_nugi.png
+2015-03-17T00:52:11 <Jinxypie> http://195.154.12.203:50005/h/d58bd55b62d3a979bc84ad6a9ad50285855dc388-82770-1200-675-jpg/keystamp=1426550400-0baf50611a/48078951_p0.jpg *
+2015-03-17T00:52:19 <Jinxypie> tain de rémanence de c/P
+2015-03-17T00:52:56 <adriens33> c'est ton cerveau qui fail comme ça ou bien ?
+2015-03-17T00:53:26 <Jinxypie> nop, c'est juste que mon encrypteur memoire fait ramer les enregistrement de copy
+2015-03-17T00:53:42 <Jinxypie> http://217.217.163.250:12440/h/1a664f1bd9795192d114d472b6c0b68a3ffe75b0-53981-1200-675-jpg/keystamp=1426550400-2bcbc5132d/haneto_pixiv_35501062_R_18octanerender_08_1_haneto.jpg
+2015-03-17T00:53:51 <adriens33> k
+2015-03-17T00:54:28 <Jinxypie> encrypteur qui n'a d'autre utilité que de prouver que son concept peut être appliqué
+2015-03-17T00:54:39 <adriens33> d'accord..
+2015-03-17T00:54:52 <adriens33> donc t'a un truc inutile qui te fait ramer le c/c
+2015-03-17T00:54:56 <adriens33> why not.
+2015-03-17T00:55:16 <Jinxypie> En fait il fait ramer pour simple raison de non-optimisation de l'algo.
+2015-03-17T00:55:27 <adriens33> (note la différence de sujet entre le contenu de la discussion et des images que tu link… XD)
+2015-03-17T00:55:32 <Jinxypie> La question c'est "est-ce possible sous windows"
+2015-03-17T00:55:32 <adriens33> ah ko
+2015-03-17T00:55:34 <adriens33> *ok
+2015-03-17T00:55:37 <Jinxypie> La réponse => oui
+2015-03-17T00:55:54 <adriens33> mais c'est un truc a toi que tu teste alors ?
+2015-03-17T00:55:59 <Jinxypie> boaf, j'en suis pas à link des vidéos de pr0n
+2015-03-17T00:56:03 <Jinxypie> juste du hentai ^^
+2015-03-17T00:56:09 <Jinxypie> yep
+2015-03-17T00:56:46 <adriens33> oaui non mais j'veux dire tu passe des link et on parle de totalement autre chose comme si de rien n'était.. XD
+2015-03-17T00:57:28 <adriens33> de toute facon que ce soit toi qui ait codé le truc ou pas, c'est pas ça qui t'empêcherait de modif le prog… XD
+2015-03-17T00:57:40 <Jinxypie> pas faux
+2015-03-17T00:57:55 <Jinxypie> Pour l'instant je bosse sur un désassembleur à reconaissance de patterns
+2015-03-17T00:58:02 <Jinxypie> pour extraire le code source d'un code compilé
+2015-03-17T00:58:38 <adriens33> ok
+2015-03-17T00:58:44 <adriens33> sympatoche comme outil
+2015-03-17T00:59:20 <Jinxypie> Boaf pas aussi fun qu'un autre de mes outils ^^
+2015-03-17T00:59:31 <Jinxypie> Un falsificateur de hash sha-256
+2015-03-17T00:59:43 <adriens33> ok...
+2015-03-17T00:59:46 <Jinxypie> capable de camoufler une charge utile sous le même hash
+2015-03-17T00:59:51 <adriens33> ah.
+2015-03-17T00:59:59 <adriens33> il utilise les collisions quoi
+2015-03-17T01:00:09 <Jinxypie> pire
+2015-03-17T01:00:14 <adriens33> comment ça ?
+2015-03-17T01:00:23 <Jinxypie> extraction par factorisation quantique
+2015-03-17T01:00:30 <adriens33> c'est vrai.
+2015-03-17T01:00:39 <adriens33> j'avais  oublié la particularité de ton matos.
+2015-03-17T01:00:47 <adriens33> (ou plus exactement de comment il est utilisé)
+2015-03-17T01:00:47 <Jinxypie> (les collisions sont trop nombreuses sur le sha-256, c'est pas du md5)
+2015-03-17T01:00:53 <Jinxypie> ^^
+2015-03-17T01:01:01 <Jinxypie> je suis un putain de génie ^^
+2015-03-17T01:01:10 <adriens33> merde ?
+2015-03-17T01:01:13 <adriens33> chier?
+2015-03-17T01:01:15 <Jinxypie> 0o ?
+2015-03-17T01:01:18 <adriens33> ta gueule ?
+2015-03-17T01:01:28 <adriens33> pétasse alcoolique ?
+2015-03-17T01:01:32 <Jinxypie> T'as entrainé berry à reconnaître mes départs en live ?
+2015-03-17T01:01:36 <adriens33> Adriens33 1 - berry 0
+2015-03-17T01:01:44 <Jinxypie> Je me sens aimé d'un coups ^^
+2015-03-17T01:02:02 <adriens33> elle trigger juste sur certains mots, au bout d'un temps donné
+2015-03-17T01:02:06 <adriens33> si je me souviens bien
+2015-03-17T01:02:21 <Jinxypie> "j'ai codé la fonction, je me rapelle plus comment"
+2015-03-17T01:02:26 <adriens33> ça fait un bail
+2015-03-17T01:02:29 <Jinxypie> tu changes pas ^^
+2015-03-17T01:02:32 <adriens33> j'ai fait des choses depuis
+2015-03-17T01:02:38 <adriens33> (ou plutot j'ai fait du rien depuis)
+2015-03-17T01:02:40 <Jinxypie> un tour de bocal ?
+2015-03-17T01:02:50 <adriens33> ouai mais j'ai pas une mémoire très constante en fait
+2015-03-17T01:03:02 <Jinxypie> fais comme moi, prends des notes
+2015-03-17T01:03:11 <adriens33> elle marche un peu comme une bd
+2015-03-17T01:03:16 <adriens33> les data ça rentre
+2015-03-17T01:03:19 <adriens33> les events non
+2015-03-17T01:03:32 <Jinxypie> et les injections ?
+2015-03-17T01:03:43 <adriens33> (genre les 42 décimales de pi ça va, les dates de naissance impec, là ou j'ai foutu mes clés y'a pas moyen)
+2015-03-17T01:03:48 <adriens33> *42 premières
+2015-03-17T01:03:54 <adriens33> c'est à dire ?
+2015-03-17T01:04:06 <adriens33> tu veux injecter du code exécutable ds mon cerveau ?
+2015-03-17T01:04:08 <Jinxypie> au fait, me demande pas comment je le sais, mais les mecs du service sécurité de meetic ont tous démissioné
+2015-03-17T01:04:10 <adriens33> j'te fais pas confiance
+2015-03-17T01:04:12 <adriens33> :P
+2015-03-17T01:04:17 <adriens33> lol
+2015-03-17T01:04:21 <adriens33> why is that ?
+2015-03-17T01:04:48 <Jinxypie> dans un tout autre ordre d'idées mon ia sait utiliser le protocole ipv6
+2015-03-17T01:04:55 <Jinxypie> ^^'
+2015-03-17T01:05:12 <adriens33> (et sinon ouai j'essaie de prendre des notes qd je peux, mais je vais pas prendre des notes sur ce que je code, c'est juste que j'ai la flemme d'aller fouiller le code du bot, ça fait un moment que j'y ait pas touché)
+2015-03-17T01:05:29 <adriens33> (changement de sujet spotted :P)
+2015-03-17T01:05:31 <adriens33> bah c'est cool
+2015-03-17T01:05:34 <Jinxypie> (fais un memo à la racine du projet avec l'architecture)
+2015-03-17T01:05:47 <adriens33> non mais ça ça va
+2015-03-17T01:05:55 <adriens33> c'est surtout les détails que j'ai un peu oublié
+2015-03-17T01:06:12 <adriens33> ma ram est sous voltée en fait XD
+2015-03-17T01:06:24 <Jinxypie> Ceci dit c'est vrai pour meetic
+2015-03-17T01:06:32 <Jinxypie> Ils sont vulnérables à une attaque
+2015-03-17T01:06:32 <adriens33> tu sais pk ?
+2015-03-17T01:06:48 <adriens33> d'accord, je crois que je vois..
+2015-03-17T01:06:49 <Jinxypie> et leur architecte dev a aussi démissioné.
+2015-03-17T01:06:57 <adriens33> qu'est ce que t'a encore foutu ? XD
+2015-03-17T01:07:08 <Jinxypie> des essais.
+2015-03-17T01:07:12 <adriens33> ouai.
+2015-03-17T01:07:12 <Jinxypie> concluants
+2015-03-17T01:07:14 <adriens33> je vois.
+2015-03-17T01:07:22 <adriens33> pas la peine d'en préciser davantage.
+2015-03-17T01:07:49 <Jinxypie> y'a une hydre dans leur système qui mute à chaque passage d'une machine à l'autre en restant sur leur intranet et en s'étant substituée à leur système de sécurité.
+2015-03-17T01:08:02 <adriens33> sinon ouai ton ia, depuis le reset complet t'en es ou a peu pres ?
+2015-03-17T01:08:05 <Jinxypie> mais comme les mecs de la sécu se sont barrés, personne ne s'en rend compte.
+2015-03-17T01:08:19 <adriens33> fourbe, ça :]
+2015-03-17T01:08:36 <Jinxypie> intel me devait un service, ils ont restauré mes hdd en salle blance.
+2015-03-17T01:08:39 <Jinxypie> blanche*
+2015-03-17T01:09:09 <Jinxypie> (enfin, google me devait un service et ils ont raqué intel pour faire le taf)
+2015-03-17T01:09:31 <Jinxypie> 18k$/plateau.
+2015-03-17T01:09:38 <adriens33> of ?
+2015-03-17T01:09:40 <adriens33> *oh
+2015-03-17T01:09:45 <adriens33> donc t'a tout récup ?
+2015-03-17T01:10:06 <Jinxypie> Affirmatif.
+2015-03-17T01:10:09 <adriens33> putain.
+2015-03-17T01:10:13 <adriens33> tg toi
+2015-03-17T01:10:17 <adriens33> (et hop)
+2015-03-17T01:10:50 <Jinxypie> Bah le truc c'est que j'avais perdu mon IA, pas ma puissance de frappe.
+2015-03-17T01:10:50 <adriens33> faudrai que je passe un de ces 4, pis je viens de faire les courses donc j'ai des pringles.
+2015-03-17T01:10:59 <adriens33> ouai je vois ^^
+2015-03-17T01:11:08 <Jinxypie> J'ai foutu le bronx sur nikoniko et daylimotion.
+2015-03-17T01:11:20 <Jinxypie> en échange de quoi google a raqué intel pour faire la récup.
+2015-03-17T01:11:29 <adriens33> lol
+2015-03-17T01:11:34 <adriens33> pas mal
+2015-03-17T01:11:48 <Jinxypie> Tu veux savoir le must ?
+2015-03-17T01:11:53 <adriens33> bah évidemment
+2015-03-17T01:12:18 <Jinxypie> Face au bordel que j'ai mis (40h de downtime sur le répartiteur de charge de nikoniko), google est en mode tout doux avec moi ^^
+2015-03-17T01:12:26 <adriens33> ah bah là.. XD
+2015-03-17T01:12:42 <adriens33> mais genre tout doux comment ? XD
+2015-03-17T01:13:05 <Jinxypie> Et j'ai transmit un module d'autoréparation de mon IA aux mecs de the pirate bay pour réparer leur site.
+2015-03-17T01:13:13 <adriens33> oh.
+2015-03-17T01:13:24 <Jinxypie> comme ça ils ont pu refaire la liste de répartition du cloud et restaurer la database.
+2015-03-17T01:13:28 <adriens33> sympa ^^
+2015-03-17T01:13:33 <adriens33> en parlant de ton ia,
+2015-03-17T01:13:45 <adriens33> mtn que je commence a arriver a me démerder en python
+2015-03-17T01:13:50 <Jinxypie> (ceci dit pour tpb je l'ai fait en anonymat total)
+2015-03-17T01:14:06 <adriens33> et pis que mon shell c'est python
+2015-03-17T01:14:14 <adriens33> doit y avoir moyen de faire des trucs sympas non ?
+2015-03-17T01:14:27 <Jinxypie> Le seul message que j'ai mis était "a phoenix can't live without a proper regeneration core"
+2015-03-17T01:14:49 <Jinxypie> Automatises toutes les taches chiantes// toutes celles que tu veux ^^
+2015-03-17T01:14:57 <Jinxypie> ça te donera une habitude.
+2015-03-17T01:15:36 <adriens33> bah c'est déjà un peu ce que je fais, jusqu'à il y a peu j'arretai pas de remplir mon système de scripts bash
+2015-03-17T01:15:52 <adriens33> (là c'est des fct / petits modules en python)
+2015-03-17T01:16:00 <adriens33> mais bon j'ai pas d'orga propre
+2015-03-17T01:16:10 <adriens33> donc voila
+2015-03-17T01:16:36 <Jinxypie> Penses une architecture en secteurs.
+2015-03-17T01:16:42 <adriens33> cad ?
+2015-03-17T01:18:33 <Jinxypie> Hierarchise le fonctionnement.
+2015-03-17T01:18:44 <Jinxypie> Un type d'activité, une classe.
+2015-03-17T01:18:58 <Jinxypie> (voir un type d'activité, un objet)
+2015-03-17T01:19:07 <adriens33> je vois pas trop la..
+2015-03-17T01:20:21 <Jinxypie> Bah...
+2015-03-17T01:20:59 <Jinxypie> un type de but (copie/vérification/interaction), un 'class arg:'
+2015-03-17T01:23:04 <adriens33> beh c'est déja découpé par tache, je vois pas trop ou tu veux en venir, j'arrive pas à réfléchir et ça me fait chier.
+2015-03-17T01:26:02 <Jinxypie> Si c'est découpé par tache, c'est déjà suffisant.
+2015-03-17T01:26:23 <Jinxypie> Ce que tu peux envisager c'est les trois implémentations suivantes :
+2015-03-17T01:26:33 <Jinxypie> - modification à chaud du code
+2015-03-17T01:26:46 <Jinxypie> - gestion complète et exaustive des exceptions
+2015-03-17T01:26:59 <Jinxypie> - log et code de retours sur l'execution.
+2015-03-17T01:27:25 <adriens33> sur ?
+2015-03-17T01:27:47 <Jinxypie> sur les modules déjà codés.
+2015-03-17T01:28:02 <adriens33> ok
+2015-03-17T01:28:06 <Jinxypie> Au fait t'as recodé berry en python ?
+2015-03-17T01:28:09 <adriens33> non
+2015-03-17T01:28:18 <Jinxypie> Bah en voila une bonne idée ^^
+2015-03-17T01:28:26 <adriens33> ouai, mais bon j'arrive pas à me lancer
+2015-03-17T01:28:55 <Jinxypie> Hum...
+2015-03-17T01:29:06 <Jinxypie> Mon dossier hentai quand tu auras fini.
+2015-03-17T01:29:08 <adriens33> ça m'énerve, je sais que j'peux faire des trucs sympa mais j'arrive jamais a me motiver pour les faire, sauf rares cas
+2015-03-17T01:29:26 <adriens33> et encore, quand mon cerveau veut bien fonctionner
+2015-03-17T01:29:30 <adriens33> c'est pas histoire de ça..
+2015-03-17T01:30:01 <Jinxypie> Ah ?
+2015-03-17T01:30:30 <adriens33> bah ça fait plus de six mois que je suis 7j/7 presque derrière mon ordi, et j'ai rien fait d'intéressant niveau prog..
+2015-03-17T01:30:55 <adriens33> j'ai presque rien fait tout court en fait
+2015-03-17T01:31:00 <Jinxypie> Lâches le pc un peu.
+2015-03-17T01:31:07 <adriens33> et pour faire quoi ?
+2015-03-17T01:31:10 <Jinxypie> Mets toi sur un jeu ou un truc du genre.
+2015-03-17T01:31:10 <adriens33> j'ai rien d'autre.
+2015-03-17T01:31:15 <adriens33> bof
+2015-03-17T01:31:24 <Jinxypie> Vas squat au meltdown
+2015-03-17T01:31:29 <adriens33> au quoi ?
+2015-03-17T01:31:46 <Jinxypie> Bar esport
+2015-03-17T01:32:08 <adriens33> chui pas a l'aise en public.. surtout si c'est pour me poser dans un endroit ou je connais personne
+2015-03-17T01:33:11 <Jinxypie> Bon, je vais me faire un truc à boire, je reviens.
+2015-03-17T01:33:15 <adriens33> ok
+2015-03-17T01:33:19 <Jinxypie> Btw tu t'es mis à lol un peu ou pas ?
+2015-03-17T01:33:27 <Jinxypie> ça pourrait être fun d'y jouer à deux
+2015-03-17T01:33:44 <adriens33> non, j'ai pas eu la motiv.. et faut que je boot windows..
+2015-03-17T01:33:56 <adriens33> (et franchement redémarrer pour un seul prog ça me fait chier)
+2015-03-17T01:34:11 <adriens33> je vais virer ce trigger il me tape sur les nerfs en fait.
+2015-03-17T01:34:11 <Jinxypie> même pour jouer avec moi ?
+2015-03-17T01:34:29 <adriens33> beh c'est pas ça le prob, c'est juste que ça me fait pas envie
+2015-03-17T01:38:10 <Jinxypie> minecraft alors ?
+2015-03-17T01:39:15 <adriens33> bouai, j'ai move la map bronycub sur mon serv parce que heuzef voulait le fermer, comme ça en plus je rameute du monde (ça fait d'une pierre deux coups)
+2015-03-17T01:39:39 <adriens33> y'a moyen de faire des trucs sympas, mais bon pour le moment j'ai pas trop idée de quoi faire, ça stagne
+2015-03-17T01:42:02 <Jinxypie> là j'ai bidouillé des trucs sur mon install, je finis de param mon propre modpack
+2015-03-17T01:42:09 <adriens33> cool
+2015-03-17T01:44:12 <adriens33> bah pk pas, on ferait quoi dessus ?
+2015-03-17T01:45:11 <Jinxypie> Là je suis entrain de fix des fuites mémoires liées à des conneries dans le code de rotarycraft
+2015-03-17T01:45:19 <Jinxypie> à la base c'est le techworld 2 de ftb
+2015-03-17T01:45:30 <Jinxypie> mais avec plus de mobs et quelques tweaks
+2015-03-17T01:45:39 <adriens33> ok
+2015-03-17T03:23:44 <adriens33> bon je vai dormir
+2015-03-17T03:27:53 *** adriens33 est parti
+2015-03-17T05:12:29 *** Jinxypie est parti
+2015-03-17T05:12:47 *** Jinxypie s'est connecté
+2015-03-17T08:45:13 *** adriens33 s'est connecté
+2015-03-17T08:45:37 <adriens33> y
+2015-03-17T08:45:43 <adriens33> xop*
+2015-03-17T08:45:45 <adriens33> yop*
+2015-03-17T09:11:57 *** Shinsaber s'est connecté
+2015-03-17T09:23:11 *** wildfier s'est connecté
+2015-03-17T09:23:17 *** wildfier est parti
+2015-03-17T09:24:53 *** wildfier s'est connecté
+2015-03-17T09:29:53 <adriens33> wildfier j'aime bien ton adresse ^^
+2015-03-17T09:30:03 <adriens33> ~chaplean@2a01:e35:2e2f:3810:256c:c92b:36f0:d1ee
+2015-03-17T09:57:30 *** TrappyTickles s'est connecté
+2015-03-17T10:19:13 *** adriens33 est parti
+2015-03-17T12:15:38 *** Shinsaber est parti
+2015-03-17T12:28:56 *** wildfier est parti
+2015-03-17T13:10:01 <TrappyTickles> Jinxypie: tu veux en entendre une bonne?
+2015-03-17T13:10:16 <TrappyTickles> j'ai arch sur mon desktop :p
+2015-03-17T13:54:00 *** wildfier s'est connecté
+2015-03-17T13:58:14 *** adriens33 s'est connecté
+2015-03-17T13:58:45 <adriens33> yop tout le monde ici aussi ^^
+2015-03-17T14:03:33 <TrappyTickles> oi
+2015-03-17T14:03:59 *** Shinsaber s'est connecté
+2015-03-17T14:32:15 *** Shinsaber est parti
+2015-03-17T14:59:25 *** Shinsaber s'est connecté
+2015-03-17T15:01:19 <Shinsaber> hey adriens33, c'est quoi le module Firefox que tu utilise pour modifier le css a la voler (le truc que tu a utilisée au giroll sur wikipedia)
+2015-03-17T15:03:42 <adriens33> beeline reader
+2015-03-17T15:07:28 <Shinsaber> merki
+2015-03-17T15:15:58 <adriens33> de rien ^^
+2015-03-17T15:33:37 <Jinxypie> https://www.youtube.com/watch?v=XfY9Dsg_DZk&feature=youtu.be
+2015-03-17T15:39:29 <Shinsaber> j'men http://image.noelshack.com/fichiers/2012/46/1352907297-dscn5770.jpg
+2015-03-17T15:43:03 <Shinsaber> snif, personne réagis à mon jeu de mot a la con TT
+2015-03-17T15:48:14 <adriens33> Shinsaber> (facepalm)
+2015-03-17T15:48:26 <adriens33> "balai-couilles" c'est ça ?
+2015-03-17T15:49:07 <Shinsaber> oui XD
+2015-03-17T15:49:45 <adriens33> :]
+2015-03-17T15:56:14 <wildfier> j'aime quand je corrige des petits problème à la con et assez insoluble normalement avec un petit hack de rien du tout sortit de nulle part.
+2015-03-17T15:59:56 <adriens33> XD
+2015-03-17T16:00:00 <adriens33> randoom
+2015-03-17T16:00:06 <adriens33> bug fixing
+2015-03-17T16:00:10 <adriens33> pinkie pie style
+2015-03-17T16:00:12 <adriens33> :)
+2015-03-17T16:13:35 <wildfier> mais c'est marrant parce que quand je me suis dis : "si ça marche, c'est sale mais ça simplifie tellement tout ET ça corrige mon bug."
+2015-03-17T16:13:49 <wildfier> j'étais en mode j'y crois pas
+2015-03-17T16:13:52 <wildfier> je teste
+2015-03-17T16:13:55 <wildfier> et paf ça marche
+2015-03-17T16:14:03 <wildfier> joie !
+2015-03-17T16:16:21 <adriens33> ^^
+2015-03-17T16:17:26 <adriens33> la prog en théorie tout marche.
+2015-03-17T16:17:33 <adriens33> en pratique beaucoup moins :]
+2015-03-17T16:20:18 <wildfier> surtout quand il s'agit d'utiliser une lib
+2015-03-17T16:20:28 <wildfier> et que t'as pas trop de doc
+2015-03-17T16:23:07 <adriens33> arf
+2015-03-17T16:23:21 <adriens33> c'est quoi, comme lib ?
+2015-03-17T16:24:13 <wildfier> fos elastica bundle
+2015-03-17T16:24:22 <adriens33> dafuq is that  ?
+2015-03-17T16:24:30 <wildfier> c'est pour intégrer elastic search dans un projet symfony
+2015-03-17T16:24:41 <adriens33> ah.
+2015-03-17T16:24:48 <adriens33> elastic search = ?
+2015-03-17T16:28:55 <adriens33> bon, moi je vais pas tarder à m'en aller
+2015-03-17T16:28:59 <adriens33> à plus
+2015-03-17T16:29:04 *** adriens33 est parti
+2015-03-17T17:16:25 *** TrappyTickles est parti
+2015-03-17T17:22:18 *** Shinsaber est parti
+2015-03-17T17:58:45 *** wildfier est parti
+2015-03-17T19:36:59 *** adriens33 s'est connecté
+2015-03-17T19:37:13 <adriens33> re Jinxypie
+2015-03-17T19:37:24 <Jinxypie>  re
+2015-03-17T19:39:42 <adriens33> comment va ?
+2015-03-17T21:49:16 <Jinxypie> poulet !
+2015-03-17T21:56:24 <adriens33> balançoire
+2015-03-17T21:57:18 <Jinxypie> lampadaire
+2015-03-17T21:58:35 <adriens33> carotte nucléaire
+2015-03-17T21:58:56 <Jinxypie> stoi la carotte
+2015-03-17T21:59:00 <Jinxypie> stoi la cracotte
+2015-03-17T21:59:10 <Jinxypie> soi qui poireaute
+2015-03-17T21:59:18 <Jinxypie> stoi la compote
+2015-03-17T21:59:20 <adriens33> poutre à vapeur
+2015-03-17T21:59:37 <Jinxypie> cracotte quand même
+2015-03-17T22:00:05 <adriens33> cracotte au poireau
+2015-03-17T22:00:21 <Jinxypie> débat profond pour ce soir : les manchots se pellent-ils les burnes sur la banquise ?
+2015-03-17T22:00:30 <adriens33> *pèlent
+2015-03-17T22:00:38 <adriens33> bah non ils ont la fourrure qui va avec.
+2015-03-17T22:00:55 <Jinxypie> plumage
+2015-03-17T22:01:02 <adriens33> exact
+2015-03-17T22:01:08 <Jinxypie> J'ai jamais vu un piaf avec des poils
+2015-03-17T22:01:23 <Jinxypie> Sauf peut-être les griffons ?
+2015-03-17T22:01:23 <adriens33> avec des poils non
+2015-03-17T22:01:35 <adriens33> mais avec des poeles (sur le crane) ptet ?
+2015-03-17T22:01:52 <Jinxypie> ...
+2015-03-17T22:01:57 <Jinxypie> Je crois qu'on est cons.
+2015-03-17T22:02:27 <adriens33> ah bon ? moi j'en étais certain
+2015-03-17T22:02:34 <adriens33> *était
+2015-03-17T22:11:46 <Jinxypie> ^^
+2015-03-17T23:51:30 *** heuzef s'est connecté
+2015-03-17T23:51:35 <heuzef> Yo
+2015-03-17T23:51:38 <adriens33> re
+2015-03-17T23:52:19 <heuzef> J'ai un ù$ù*ù$ù de bouton en JS bootstrap de popover
+2015-03-17T23:52:29 <adriens33> j'suis nul en js.
+2015-03-17T23:52:34 <heuzef> qui popover pas et aucune idée de comment on debug cette merde
+2015-03-17T23:52:38 <heuzef> arg
+2015-03-17T23:52:43 <adriens33> désolé ^^"
+2015-03-17T23:53:12 <adriens33> et le dev web de manière globale c'est pas mon truc préféré en fait ^^"
+2015-03-17T23:56:49 <heuzef> fait chié je sais pas comment faire tomber en marche ce truc
+2015-03-17T23:57:02 <heuzef> quand je le prend à part sur une page simple ça roule
+2015-03-17T23:57:13 <adriens33> bah déjà tu peux ctrl maj k pour ouvrir la console js de firefox
+2015-03-17T23:57:14 <heuzef> Quand j'integre ça sur ma page ça roule plus du tous
+2015-03-17T23:57:18 <adriens33> ça peut ptet t'aider..
+2015-03-17T23:57:21 <heuzef> Ha !
+2015-03-17T23:57:24 <heuzef> thx
+2015-03-17T23:57:29 <adriens33> (tu connaissais pas ?)
+2015-03-17T23:59:22 <heuzef> Les log restent vides :(
