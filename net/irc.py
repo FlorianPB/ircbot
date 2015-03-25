@@ -30,7 +30,9 @@ class IRC:
     def join(self, chan):
         """Joins a channel if we aren't already in it"""
         if not self.chans.keys().__contains__(chan):
-            # TODO: Sends JOIN through the TCP socket
+            self.send("JOIN %s\r\n" % chan)
+            self.log(self.wait(), "net.irc.join", util.log.DEBUG)
+
             self.chans[chan] = {"log": [], "eventFifo": []}
 
         # If we already joined... do nothing more :]
@@ -38,7 +40,9 @@ class IRC:
     def part(self, chan, partMessage="Bye bye !"):
         """Parts from a channel"""
         if self.chans.keys().__contains__(chan):
-            # TODO: Sends PART through the TCP Socket
+            self.send("PART %s :%s\r\n" % (chan, partMessage))
+            self.log(self.wait(), "net.irc.part", util.log.DEBUG)
+
             self.writeLog(chan)
             del self.chans[chan]
 
@@ -46,7 +50,7 @@ class IRC:
         """Parts from the server"""
         for chan in self.chans.keys():
             self.part(chan, partMessage)
-        # TODO: Sends QUIT through the TCP socket
+        self.send("QUIT\r\n")
 
     def pushEvent(self, ircLine):
         """Push event line to the fifo"""
@@ -60,7 +64,7 @@ class IRC:
             event = self.chans[chan]["eventFifo"].pop()
 
             # For each event, call the hooks corresponding to the command in event[1] (JOIN, PRIVMSG etc)
-            # Passing source adress and eventual content
+            # Passing irc obj reference, source adress and eventual content
             if self.hooks.__contains__(event[1]):
                 for i in self.hooks[event[1]]:
-                    i(event[0], event[2])
+                    i(self, event[0], event[2])
