@@ -6,6 +6,7 @@ import util.log
 
 class Connect:
     def __init__(self, logMethod, srv="chat.freenode.net", port=6667):
+        """logMethod must be a util.log.Log.log method bound to a util.log.Log object (to avoid the need to specify filename, etc)"""
         self.srv = srv
         self.port = port
         self.log = logMethod

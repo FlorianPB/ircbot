@@ -21,6 +21,7 @@ textLevels = {
 }
 
 class Log:
+    """Log events to terminal and to a file on disk"""
     handle = None,
     path = "/tmp/ircbot.log"
     stdoutLogLevel = NOTIF
