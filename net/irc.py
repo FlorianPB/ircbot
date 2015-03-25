@@ -50,5 +50,6 @@ class IRC:
 
             # For each event, call the hooks corresponding to the command in event[1] (JOIN, PRIVMSG etc)
             # Passing source adress and eventual content
-            for i in self.hooks[event[1]]:
-                i(event[0], event[2])
+            if self.hooks.__contains__(event[1]):
+                for i in self.hooks[event[1]]:
+                    i(event[0], event[2])
