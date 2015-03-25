@@ -1,19 +1,30 @@
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
 
+import util.log
+
 class IRC:
     """IRC basic methods"""
 
-    def __init__(self, nick, username="IRCBot", realname="IRC Python bot"):
+    def __init__(self, nick, sendTextMethod, waitTextMethol, logMethod, username="IRCBot", realname="IRC Python bot"):
         self.chans = {}
         self.hooks = {"JOIN":[], "PART":[], "PRIVMSG":[], "PING":[]}
         self.nick = nick
         self.username = username
         self.realname = realname
 
+        self.send = sendTextMethod
+        self.wait = waitTextMethod
+        self.log = logMethod
+
     def ident(self):
         """Identifies at the beginning of the connection (send USER and NICK commands)"""
-        # TODO: implement actual connection through existing tcp socket
+        self.send("USER %s a a :%s\r\n" % (self.username, self.realname))
+        self.log(self.wait(), "net.irc.ident", util.log.DEBUG)
+
+        self.send("NICK %s\r\n" % self.nickname)
+        self.log(self.wait(), "net.irc.ident", util.log.DEBUG)
+
         # TODO: check if NickServ asks for a password
 
     def join(self, chan):
