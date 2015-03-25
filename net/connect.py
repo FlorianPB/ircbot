@@ -4,7 +4,7 @@
 import socket
 
 class Connect:
-    def __init__(self, srv="chat.freenode.net", port=6667, channel="#bronycub"):
+    def __init__(self, srv="chat.freenode.net", port=6667):
         self.srv = srv
         self.port = port
         self.channel = channel
