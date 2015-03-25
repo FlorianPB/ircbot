@@ -6,6 +6,7 @@ class IRC:
 
     def __init__(self, nick, username="IRCBot", realname="IRC Python bot"):
         self.chans = {}
+        self.hooks = {"JOIN":[], "PART":[], "PRIVMSG":[], "PING":[]}
         self.nick = nick
         self.username = username
         self.realname = realname
@@ -36,9 +37,10 @@ class IRC:
             self.part(chan, partMessage)
         # TODO: Sends QUIT through the TCP socket
 
-    def pushEvent(self, event):
+    def pushEvent(self, ircLine):
         """Push event line to the fifo"""
-        # TODO: Gets the actual chan an put the event line to self.chans[chan]["eventFifo"]
+        evt = ircLine.split()
+        self.chans[evt[2]]["eventFifo"].insert(0, [evt[0], evt[1], " ".join(evt[3:])])
 
     def popEvent(self, chan):
         """Pop event from the fifo"""
