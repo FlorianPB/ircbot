@@ -28,7 +28,6 @@ class Connect:
     def sendText(self, text, encoding="utf8"):
         """Sends text to the connection"""
         if self.socket != None:
-            self.log(text, "net.connect.Connect.sendText", util.log.DEBUG)
             self.socket.send(bytes(text, encoding))
 
     def waitText(self, encoding="utf8", bufSize=(2**16)-1):
@@ -36,6 +35,5 @@ class Connect:
         txt = ""
         if self.socket != None:
             txt = str(self.socket.recv(bufSize), encoding)
-            self.log(txt, "net.connect.Connect.waitText", util.log.DEBUG)
 
         return txt
