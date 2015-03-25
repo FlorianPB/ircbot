@@ -44,4 +44,11 @@ class IRC:
 
     def popEvent(self, chan):
         """Pop event from the fifo"""
-        return self.chans[chan]["eventFifo"].pop()
+
+        while self.chans[chan]["eventFifo"].__len__() > 0:
+            event = self.chans[chan]["eventFifo"].pop()
+
+            # For each event, call the hooks corresponding to the command in event[1] (JOIN, PRIVMSG etc)
+            # Passing source adress and eventual content
+            for i in self.hooks[event[1]]:
+                i(event[0], event[2])
