@@ -22,7 +22,7 @@ class IRC:
         self.send("USER %s a a :%s\r\n" % (self.username, self.realname))
         self.log(self.wait(), "net.irc.ident", util.log.DEBUG)
 
-        self.send("NICK %s\r\n" % self.nickname)
+        self.send("NICK %s\r\n" % self.nick)
         self.log(self.wait(), "net.irc.ident", util.log.DEBUG)
 
         # TODO: check if NickServ asks for a password
@@ -44,7 +44,6 @@ class IRC:
             self.log(self.wait(), "net.irc.part", util.log.DEBUG)
 
             # self.writeLog(chan)
-            del self.chans[chan]
 
     def quit(self, partMessage="Bye bye !"):
         """Parts from the server"""
@@ -54,10 +53,22 @@ class IRC:
 
     def event(self, ircLine):
         """Executes event line"""
-        evt = ircLine.split()
 
-        # For each event, call the hooks corresponding to the command in event[1] (JOIN, PRIVMSG etc)
-        # Passing irc obj reference, event line splitted
-        if self.hooks.__contains__(evt[1]):
-            for i in self.hooks[evt[1]]:
-                i(self, evt)
+        # Transforms the buffer into UNIX line endings to ease the line splitting
+        ircLine = ircLine.replace("\r", "")
+
+        # If we get multiple lines at once, treat them separately
+        # (plus it allows us to automatically strip the useless \n ending each line! yay!)
+        for line in ircLine.split("\n"):
+            if line != '':  # Don't treat empty event line
+                evt = line.split()
+
+                # For each event, call the hooks corresponding to the command in event[1] (JOIN, PRIVMSG etc, the event identifier)
+                # Passing irc obj reference, event line splitted
+
+                self.log("Got event line: %s" % ircLine, "init.bot", util.log.DEBUG)
+                if self.hooks.__contains__(evt[1]):
+                    self.log("Looking for hooks for event %s" % evt[1], "init.bot", util.log.DEBUG)
+                    for i in self.hooks[evt[1]]:
+                        self.log("Running hook function against this event", "init.log", util.log.DEBUG)
+                        i(self, evt)
