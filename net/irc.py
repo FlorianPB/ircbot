@@ -6,7 +6,7 @@ import util.log
 class IRC:
     """IRC basic methods"""
 
-    def __init__(self, nick, sendTextMethod, waitTextMethol, logMethod, username="IRCBot", realname="IRC Python bot"):
+    def __init__(self, nick, sendTextMethod, waitTextMethod, logMethod, username="IRCBot", realname="IRC Python bot"):
         self.chans = {}
         self.hooks = {"JOIN":[], "PART":[], "PRIVMSG":[], "PING":[]}
         self.nick = nick
@@ -43,7 +43,7 @@ class IRC:
             self.send("PART %s :%s\r\n" % (chan, partMessage))
             self.log(self.wait(), "net.irc.part", util.log.DEBUG)
 
-            self.writeLog(chan)
+            # self.writeLog(chan)
             del self.chans[chan]
 
     def quit(self, partMessage="Bye bye !"):
@@ -52,19 +52,12 @@ class IRC:
             self.part(chan, partMessage)
         self.send("QUIT\r\n")
 
-    def pushEvent(self, ircLine):
-        """Push event line to the fifo"""
+    def event(self, ircLine):
+        """Executes event line"""
         evt = ircLine.split()
-        self.chans[evt[2]]["eventFifo"].insert(0, [evt[0], evt[1], " ".join(evt[3:])])
 
-    def popEvent(self, chan):
-        """Pop event from the fifo"""
-
-        while self.chans[chan]["eventFifo"].__len__() > 0:
-            event = self.chans[chan]["eventFifo"].pop()
-
-            # For each event, call the hooks corresponding to the command in event[1] (JOIN, PRIVMSG etc)
-            # Passing irc obj reference, source adress and eventual content
-            if self.hooks.__contains__(event[1]):
-                for i in self.hooks[event[1]]:
-                    i(self, event[0], event[2])
+        # For each event, call the hooks corresponding to the command in event[1] (JOIN, PRIVMSG etc)
+        # Passing irc obj reference, event line splitted
+        if self.hooks.__contains__(evt[1]):
+            for i in self.hooks[evt[1]]:
+                i(self, evt)

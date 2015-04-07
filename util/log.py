@@ -24,11 +24,13 @@ class Log:
     """Log events to terminal and to a file on disk"""
     handle = None,
     path = "/tmp/ircbot.log"
+    fileLogLevel   = INFO
     stdoutLogLevel = NOTIF
     stderrLogLevel = WARNING
 
-    def __init__(self, fp, stdout_l=NOTIF, stderr_l=WARNING):
+    def __init__(self, fp, file_l=INFO, stdout_l=NOTIF, stderr_l=WARNING):
         """Initializes logger"""
+        self.fileLogLevel   = file_l
         self.stdoutLogLevel = stdout_l
         self.stderrLogLevel = stderr_l
         self.path = fp
@@ -40,8 +42,9 @@ class Log:
 
         strLog = "[%s] %s %s: %s\n" % (strftime("%Y-%m-%d %H:%M:%S"), textLevels[level], head, content)
 
-        self.handle.write(strLog)
-        self.handle.flush()
+        if level>=self.fileLogLevel:
+            self.handle.write(strLog)
+            self.handle.flush()
         
         if level>=self.stderrLogLevel:
             stderr.write(strLog)
