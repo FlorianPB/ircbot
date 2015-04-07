@@ -14,7 +14,7 @@ def runOnce():
     logger.log("TCP Connection initialized", "init.bot", util.log.INFO)
 
     logger.log("IRC Server identication...", "init.bot", util.log.INFO)
-    ircHandler = net.irc.IRC("jamesthebot", connectHandler.sendText, connectHandler.waitText, logger.log, "jamesthebot", "James the nice bot")
+    ircHandler = net.irc.IRC("jamesthebot", connectHandler, logger.log, "jamesthebot", "James the nice bot")
     ircHandler.ident()
     ircHandler.join("#testjamesthebot")
 
@@ -28,3 +28,6 @@ def runOnce():
         ircHandler.quit()
         connectHandler.stop()
         logger.log("Stopped the bot. Bye!", "init.bot", util.log.NOTIF)
+
+
+runOnce()

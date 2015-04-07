@@ -6,32 +6,31 @@ import util.log
 class IRC:
     """IRC basic methods"""
 
-    def __init__(self, nick, sendTextMethod, waitTextMethod, logMethod, username="IRCBot", realname="IRC Python bot"):
+    def __init__(self, nick, connection, logMethod, username="IRCBot", realname="IRC Python bot"):
         self.chans = {}
         self.hooks = {"JOIN":[], "PART":[], "PRIVMSG":[], "PING":[]}
         self.nick = nick
         self.username = username
         self.realname = realname
 
-        self.send = sendTextMethod
-        self.wait = waitTextMethod
+        self.connection = connection
         self.log = logMethod
 
     def ident(self):
         """Identifies at the beginning of the connection (send USER and NICK commands)"""
-        self.send("USER %s a a :%s\r\n" % (self.username, self.realname))
-        self.log(self.wait(), "net.irc.ident", util.log.DEBUG)
+        self.connection.sendText("USER %s a a :%s\r\n" % (self.username, self.realname))
+        self.log(self.connection.waitText(), "net.irc.ident", util.log.DEBUG)
 
-        self.send("NICK %s\r\n" % self.nick)
-        self.log(self.wait(), "net.irc.ident", util.log.DEBUG)
+        self.connection.sendText("NICK %s\r\n" % self.nick)
+        self.log(self.connection.waitText(), "net.irc.ident", util.log.DEBUG)
 
         # TODO: check if NickServ asks for a password
 
     def join(self, chan):
         """Joins a channel if we aren't already in it"""
         if not self.chans.keys().__contains__(chan):
-            self.send("JOIN %s\r\n" % chan)
-            self.log(self.wait(), "net.irc.join", util.log.DEBUG)
+            self.connection.sendText("JOIN %s\r\n" % chan)
+            self.log(self.connection.waitText(), "net.irc.join", util.log.DEBUG)
 
             self.chans[chan] = {"log": [], "eventFifo": []}
 
@@ -40,8 +39,8 @@ class IRC:
     def part(self, chan, partMessage="Bye bye !"):
         """Parts from a channel"""
         if self.chans.keys().__contains__(chan):
-            self.send("PART %s :%s\r\n" % (chan, partMessage))
-            self.log(self.wait(), "net.irc.part", util.log.DEBUG)
+            self.connection.sendText("PART %s :%s\r\n" % (chan, partMessage))
+            self.log(self.connection.waitText(), "net.irc.part", util.log.DEBUG)
 
             # self.writeLog(chan)
 
