@@ -65,7 +65,7 @@ class IRC:
                 # For each event, call the hooks corresponding to the command in event[1] (JOIN, PRIVMSG etc, the event identifier)
                 # Passing irc obj reference, event line splitted
 
-                self.log("Got event line: %s" % ircLine, "net.irc.event", util.log.DEBUG)
+                self.log("Got event line: %s" % line, "net.irc.event", util.log.DEBUG)
                 if len(evt)>=2 and self.hooks.__contains__(evt[1]):
                     self.log("Looking for hooks for event %s" % evt[1], "net.irc.event", util.log.DEBUG)
                     for i in self.hooks[evt[1]]:
