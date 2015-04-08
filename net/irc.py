@@ -62,10 +62,14 @@ class IRC:
             if line != '':  # Don't treat empty event line
                 evt = line.split()
 
+                # Answer to pings (important, to not be kicked out for ping timeout)
+                self.log("Got event line: %s" % line, "net.irc.event", util.log.DEBUG)
+                if evt[0] == "PING":
+                    self.log("Got pinged !", "net.irc.event", util.log.INFO)
+                    self.connection.sendText("PONG " + evt[1][1:] + " " + evt[1])
+
                 # For each event, call the hooks corresponding to the command in event[1] (JOIN, PRIVMSG etc, the event identifier)
                 # Passing irc obj reference, event line splitted
-
-                self.log("Got event line: %s" % line, "net.irc.event", util.log.DEBUG)
                 if len(evt)>=2 and self.hooks.__contains__(evt[1]):
                     self.log("Looking for hooks for event %s" % evt[1], "net.irc.event", util.log.DEBUG)
                     for i in self.hooks[evt[1]]:
