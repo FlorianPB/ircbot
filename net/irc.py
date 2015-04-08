@@ -8,7 +8,7 @@ class IRC:
 
     def __init__(self, nick, connection, logMethod, username="IRCBot", realname="IRC Python bot"):
         self.chans = {}
-        self.hooks = {"JOIN":[], "PART":[], "PRIVMSG":[], "PING":[]}
+        self.hooks = {"JOIN":[], "PART":[], "PRIVMSG":[]}
         self.nick = nick
         self.username = username
         self.realname = realname
