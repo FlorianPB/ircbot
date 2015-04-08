@@ -29,7 +29,7 @@ def runOnce():
 
     logger.log("IRC Server identication...", "init.bot", util.log.INFO)
     ircHandler = net.irc.IRC(cfg["nick"], connectHandler, logger.log, cfg["username"], cfg["realname"])
-    ircHandler.hooks = {"JOIN":[], "PART":[], "QUIT":[], "PRIVMSG":[]}
+    ircHandler.hooks = {"JOIN":[], "PART":[], "QUIT":[], "PRIVMSG":[], "NICK":[]}
     ircHandler.ident()
 
     util.modules.loadAllModules({"irc":ircHandler}, logger.log)

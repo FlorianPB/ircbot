@@ -5,6 +5,7 @@
 	"srv": "chat.freenode.net",
 	"port": 6667,
 	"channels": [
-		"#testircbot"
+		"#bronycub",
+		"#bronycub-g33k"
 	]
 }
