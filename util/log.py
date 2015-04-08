@@ -4,6 +4,7 @@
 from time import strftime
 from sys import stdout,stderr
 
+# Log levels
 DEBUG    = 0
 INFO     = 1
 NOTIF    = 2

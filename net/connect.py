@@ -44,6 +44,7 @@ class Connect:
                 else:
                     txt = self.socket.recv(bufSize).decode()
             except UnicodeDecodeError:
+                # I just don't know what went wrong.. But it's okay, I will just ignore it till it goes away ^w^
                 txt = ""
 
         return txt

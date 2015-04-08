@@ -24,7 +24,7 @@ class IRC:
         self.connection.sendText("NICK %s\r\n" % self.nick)
         self.log(self.connection.waitText(), "net.irc.ident", util.log.DEBUG)
 
-        # TODO: check if NickServ asks for a password
+        # TODO: check if NickServ asks for a password (yes, I didn't code that already)
 
     def join(self, chan):
         """Joins a channel if we aren't already in it"""
