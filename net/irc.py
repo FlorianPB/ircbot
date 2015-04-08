@@ -48,7 +48,7 @@ class IRC:
         """Parts from the server"""
         for chan in self.chans.keys():
             self.part(chan, partMessage)
-        self.send("QUIT\r\n")
+        self.connection.sendText("QUIT\r\n")
 
     def event(self, ircLine):
         """Executes event line"""
