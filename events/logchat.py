@@ -7,6 +7,7 @@ def init(data):
     data["irc"].hooks["PART"].append(logPartFromChat)
     data["irc"].hooks["NICK"].append(logChangeNick)
     data["irc"].hooks["QUIT"].append(logQuitChat)
+    data["irc"].hooks["MODE"].append(logSetModeChat)
 
 def logPrivMsgToChat(irc, evt):
     """Print log to text"""
@@ -62,3 +63,15 @@ def logQuitChat(irc, evt):
         logFile.write("\n")
 
         logFile.close()
+
+def logSetModeChat(irc, evt):
+    """Print log to text"""
+    from time import strftime
+
+    logFile = open("%s.log" % evt[2], "a")
+    
+    if len(evt) >= 5:
+        logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * MODE " + evt[3] + " défini pour " + evt[4] + "\n")
+    else:
+        logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * MODE " + evt[3] + " défini sur " + evt[2] + "\n")
+    logFile.close()
