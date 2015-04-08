@@ -1,0 +1,888 @@
+2015-04-08T00:00:40 *** adriens33 est parti
+2015-04-08T00:30:41 *** MaCharon est parti
+2015-04-08T00:34:14 *** TrappyTickles est parti
+2015-04-08T01:34:27 *** adriens33 s'est connecté
+2015-04-08T06:07:40 *** yusei24130 s'est connecté
+2015-04-08T06:10:04 *** yusei24130 est parti
+2015-04-08T06:15:16 *** yusei2410 s'est connecté
+2015-04-08T06:15:22 *** yusei2410 est parti
+2015-04-08T06:15:55 *** yusei24130 s'est connecté
+2015-04-08T06:16:46 *** yusei24130 est parti
+2015-04-08T06:59:59 *** Fidzu s'est connecté
+2015-04-08T08:13:23 *** heuzef s'est connecté
+2015-04-08T08:42:37 *** Gordfang s'est connecté
+2015-04-08T08:43:34 <Gordfang> yo tous le monde!
+2015-04-08T09:05:36 <adriens33> yo
+2015-04-08T09:13:05 <Fidzu> Yo
+2015-04-08T09:14:22 <Fidzu> Bien ou quoi ?
+2015-04-08T09:14:34 <Gordfang> bien bien
+2015-04-08T09:24:08 <adriens33> :D
+2015-04-08T09:25:11 *** python_ircbot s'est connecté
+2015-04-08T09:25:19 <adriens33> yayyy
+2015-04-08T09:25:20 <adriens33> o//
+2015-04-08T09:25:32 <adriens33> j'ai plus qu'à faire les hooks pour qu'il réagisse
+2015-04-08T09:25:40 <adriens33> et j'aurai un bot tout neuf en python :3
+2015-04-08T09:25:55 * adriens33 est très content
+2015-04-08T09:26:29 <Gordfang> salut python_ircbot
+2015-04-08T09:26:35 <adriens33> il réagira pas :D
+2015-04-08T09:26:35 <Gordfang> attend une seconde...
+2015-04-08T09:26:40 <Gordfang> me disais aussi ^^
+2015-04-08T09:26:42 <adriens33> par contre il voit bien tout passer
+2015-04-08T09:26:55 <adriens33> et voit les différents events
+2015-04-08T09:27:01 <adriens33> (PRIVMSG, JOIN etc)
+2015-04-08T09:27:11 <adriens33> j'ai plus qu'à mettre des fonctions pour gérer chaque event
+2015-04-08T09:27:13 <adriens33> et zou
+2015-04-08T09:27:36 <adriens33> j'<3 le python
+2015-04-08T09:28:02 <adriens33> http://git.art-software.fr/git/ircbot.py branche python-ircbot
+2015-04-08T09:28:32 <adriens33> heuzef> on va bientot avoir un bot tout neuf :D fini le bash qui marche que sous linux, vive le python qui marche… bah partout en fait. =D
+2015-04-08T09:29:24 *** python_ircbot est parti
+2015-04-08T09:29:50 <adriens33> ah bah oui forcément, j'ai pas implémenté les events donc il répond pas au pings. XD
+2015-04-08T09:30:05 <adriens33> (au moins j'ai la ligne pour voir comment il me récup le ping)
+2015-04-08T09:30:45 <Gordfang> ^^
+2015-04-08T09:33:50 *** python_ircbot s'est connecté
+2015-04-08T09:34:10 <adriens33> ayé il devrait répondre aux pings maintenant.
+2015-04-08T09:35:02 <adriens33> le truc beau c'est que là de la facon dont je l'ai implémenté je peux très bien le coller sur #bronycub et #bronycub-geek en utilisant une seule instance, genre comme un vrai user qui serait sur deux chan. :D
+2015-04-08T09:35:07 *** python_ircbot est parti
+2015-04-08T09:35:39 *** python_ircbot s'est connecté
+2015-04-08T09:35:55 <adriens33> test2
+2015-04-08T09:36:06 <adriens33> ni-ckel. =D
+2015-04-08T09:36:11 *** heuzef est parti
+2015-04-08T09:36:42 <adriens33> Berry tu va avoir un petit frère :] (ou une petite sœur si je décide de l'appeler berry aussi XD)
+2015-04-08T09:38:05 <adriens33> bon bah il a vu le ping déjà
+2015-04-08T09:38:23 <adriens33> y'a plus qu'à attendre 240 secondes pour voir si la réponse convient au serv . =D
+2015-04-08T09:41:30 *** Gordfang est parti
+2015-04-08T09:45:16 *** python_ircbot est parti
+2015-04-08T09:52:53 *** python_ircbot s'est connecté
+2015-04-08T09:53:01 *** python_ircbot est parti
+2015-04-08T09:54:11 *** Gordfang s'est connecté
+2015-04-08T09:55:49 *** python_ircbot s'est connecté
+2015-04-08T09:55:54 *** python_ircbot est parti
+2015-04-08T10:00:44 <Gordfang> re
+2015-04-08T10:01:41 *** python_ircbot s'est connecté
+2015-04-08T10:01:42 *** python_ircbot est parti
+2015-04-08T10:15:04 *** python_ircbot s'est connecté
+2015-04-08T10:15:54 *** python_ircbot est parti
+2015-04-08T10:16:22 *** python_ircbot s'est connecté
+2015-04-08T10:16:24 *** python_ircbot est parti
+2015-04-08T10:19:57 <Fidzu> Il se calme le bot? XD
+2015-04-08T10:20:44 *** adriens33 est parti
+2015-04-08T10:22:18 *** heuzef s'est connecté
+2015-04-08T10:41:22 *** Gordfang est parti
+2015-04-08T10:46:04 *** Gordfang s'est connecté
+2015-04-08T10:50:45 *** ChordsTackler s'est connecté
+2015-04-08T10:51:04 <ChordsTackler> Hey les gens
+2015-04-08T10:57:25 *** ChordsTackler est parti
+2015-04-08T10:58:38 *** ChordsTackler s'est connecté
+2015-04-08T10:58:53 <ChordsTackler> Re j'avais fait tomber mon portable xD
+2015-04-08T10:59:35 *** TrappyTickles s'est connecté
+2015-04-08T11:00:26 *** heuzef est parti
+2015-04-08T11:04:28 *** ChordsTackler est parti
+2015-04-08T11:20:13 *** Elvon s'est connecté
+2015-04-08T11:20:44 <Elvon> Bien le bonjour tout le monde je suis a moitier là
+2015-04-08T11:31:49 <TrappyTickles> oi
+2015-04-08T11:37:05 *** Gordfang est parti
+2015-04-08T11:43:02 *** Gordfang s'est connecté
+2015-04-08T12:08:12 <Fidzu> Bonjour
+2015-04-08T12:08:49 <Gordfang> yo
+2015-04-08T12:31:33 *** Gordfang est parti
+2015-04-08T12:44:17 *** yusei24130 s'est connecté
+2015-04-08T12:51:46 <Fidzu> Bonsoir toi
+2015-04-08T12:51:58 <Fidzu> Je ne t'ai jamais vu ici yusei24130
+2015-04-08T12:52:57 <yusei24130> salut, je me suis inscrit il y a pas longtemps, c'est pour ca
+2015-04-08T12:54:27 <Fidzu> Ah . Bienvenu dans ce cas
+2015-04-08T12:55:33 <yusei24130> Merci, c'est la première fois que j'utilise le tchat
+2015-04-08T13:13:18 <Elvon> Bienvenue yusei24130
+2015-04-08T13:14:02 <yusei24130> Merci
+2015-04-08T13:16:20 *** maitrepanda s'est connecté
+2015-04-08T13:16:27 *** maitrepanda est parti
+2015-04-08T13:19:15 <yusei24130> Ne vous inquiétez pas si je ne parle pas beaucoup, je suis assez timide en général :)
+2015-04-08T13:27:51 <Elvon> Cool tu est déjà plus bavard que TrappyTickles et les autre anciens ^^
+2015-04-08T13:28:24 <Elvon> Fidzu> si tu lis tes mails Hésite pas je suis là cet aprèm
+2015-04-08T13:30:30 <Fidzu> Oui mais la mail list a déconné j'ai l'impression
+2015-04-08T13:30:51 <Elvon> oui et moi aussi entre autres.
+2015-04-08T13:31:03 <Fidzu> On repond a un message et ça crée une nouvelle conv
+2015-04-08T13:31:18 <Fidzu> Bref
+2015-04-08T13:31:23 <Elvon> bah oui vous avez dépasser la limite bande de nouille
+2015-04-08T13:31:49 <yusei24130> je vois ça, j'ai organiser ma boite mail pour XD
+2015-04-08T13:31:53 <Elvon> y a une limite de taille pour un texte en Email mais vous avez tout la conv a la suite des e-mail
+2015-04-08T13:32:23 <Elvon> j'ai normalement aussi ranger ma boite mail mais elle plante
+2015-04-08T13:32:30 <Fidzu> Oui ce serais vraiment bien de fire une video doc sur les brony a notre sauce parce que tout ce que jai vu nest pas complet, ou ne montre pas le meilleur d'entre nous (nsfw)
+2015-04-08T13:32:44 <Elvon> je parviens pas a rediriger mes email au GRP direct dans mon dossier
+2015-04-08T13:33:09 *** adriens33 s'est connecté
+2015-04-08T13:33:13 <Elvon> Bonjour adriens33 ^^
+2015-04-08T13:33:51 <Elvon> Si toi aussi tu veux indiquer poliment et agasser au gentils Brony qu'il faut pas spam les mails des gens car ça agasse.
+2015-04-08T13:34:32 <Elvon> viens avec moi sortons nos Thomson pour tirer joyeusement dans le troupeaux :3
+2015-04-08T13:34:54 <yusei24130> Ce serai bien et on pourrait profiter du pique nique d'avant convention, comme on sera rassemblé. ps: je pourrais enfin vous renconter.
+2015-04-08T13:35:10 <Fidzu> pas bête !
+2015-04-08T13:35:13 <Elvon> Euh vous parler du 25 là ?
+2015-04-08T13:35:20 <Fidzu> On auras cas en parler au pique nique
+2015-04-08T13:35:30 <yusei24130> yep
+2015-04-08T13:36:21 <yusei24130> bonjour adriens33 ( avec un peu de retard )
+2015-04-08T13:36:38 <Elvon> ... avec leur parents ?? c'est a voir mais pourquoi pas. par contre pour si vous lisez depuis le début la conv/débat je tiens a vous prévenir il ya des mails bizzare (qui ferai flipper des parents) dans le lots
+2015-04-08T13:36:39 <Fidzu> 24130 c'est où ?
+2015-04-08T13:36:56 <Elvon> tappe sur internet et tu le saura
+2015-04-08T13:37:04 <Elvon> X3
+2015-04-08T13:37:07 <Fidzu> Non , moi je parlais de la video
+2015-04-08T13:37:19 <Fidzu> Essayer d'organiser ca au pique nique :-)
+2015-04-08T13:37:39 <yusei24130> ça vient de la commune d'ou je viens, Saint Pierre D'Eyraud.
+2015-04-08T13:38:58 <Fidzu> C'est pas en gironde ca ?
+2015-04-08T13:39:08 <Elvon> bin oui on peut tkt ^^ (je prendrai ma cam/appareils photo, pour le coup) par contre faudra ce micro briefer parce que si y en a qui commence a partir en live c'est mort. ^^ (si on est pas assez serieux pour parler a la cameras comment voulez vous rassurez qui que ce soit)
+2015-04-08T13:39:28 <yusei24130> Si j'ai bien compris au pique nique il y aura un moment ou on ce présente, on pourrait profiter de ce moment la ?
+2015-04-08T13:40:15 <yusei24130> Je fais mes études sur Bordeaux, mais je viens de dordogne.
+2015-04-08T13:40:33 <Elvon> Voui et non (je vous proposerais de participer et mettrais un temps pour ça dans mon coin de la journée ^^)
+2015-04-08T13:40:37 *** Tsumenokage s'est connecté
+2015-04-08T13:40:43 <Tsumenokage> Salut :)
+2015-04-08T13:40:46 <Fidzu> Moi je pensais juqte organiser cay pique nique
+2015-04-08T13:40:56 <Fidzu> Pas la tourner
+2015-04-08T13:40:57 <Elvon> Yeay! Bonjour Tsumenokage
+2015-04-08T13:41:03 <yusei24130> Bonjour
+2015-04-08T13:41:32 <Fidzu> Et je pense que ce serais mieux de le faire avec un support video style doc
+2015-04-08T13:41:38 <adriens33> re
+2015-04-08T13:41:54 <Elvon> j'ai pas dit tourner mais pour la présentation je serais comme un maître de cérémonie en quelque sorte donc je prendrai un peu de temps pour parler de ça
+2015-04-08T13:41:54 <adriens33> Elvon> la ml a toujour été agitée, ça changera pas de sitot
+2015-04-08T13:42:11 <adriens33> mais oui c'est vrai que l'irc est là pour ça, c'est UN PEU pour cette raison que je l'ai ouvert en fait.. XD
+2015-04-08T13:42:14 <adriens33> (cf mon mail)
+2015-04-08T13:42:42 <yusei24130> yep
+2015-04-08T13:42:53 <adriens33> dsl je viens de rentrer, j'ai fait plein de marche a piedl encore a cause de tbc et de leurs trams pleins -.-
+2015-04-08T13:43:00 <Elvon> je sais bien mais pour des débat mec... des FOUTU DEBATS!!! J'ai pas arreter de sonner mais si je couper tout j'entend pas mes appels importants donc bon ... (fin bref j'espère que ça va cde calmer un peu sur la ml)
+2015-04-08T13:43:05 <Elvon> :3
+2015-04-08T13:43:12 <adriens33> Elvon> voui je sais  X3
+2015-04-08T13:43:15 *** maitrepanda s'est connecté
+2015-04-08T13:43:18 <maitrepanda> yop!
+2015-04-08T13:43:24 <adriens33> hellp
+2015-04-08T13:43:25 <yusei24130> salut
+2015-04-08T13:43:25 <Elvon> B'jour
+2015-04-08T13:43:26 <Tsumenokage> yop maitrepanda
+2015-04-08T13:44:18 <adriens33> Fidzu> au fait dsl pour le flood  ce matin, je dev un new bot et j'avais un ptit souci que j'arrivais pas a régler dessus c'est pour ça qu'il déco/reco
+2015-04-08T13:44:35 <maitrepanda> moi ça fait longtemps que ça me trotte dans la tête de faire un film sur BC, y a bcp d'autres poneys motivés ?
+2015-04-08T13:44:40 <Elvon> Si tu est toujours intérsesser par une aprèms chez moi adriens33 :3 j'ai mon aprèm et demain je suis libre a partir de 16h
+2015-04-08T13:45:13 <adriens33> bah la je viens de  rentrer et j'ai les jambes en compote et plus de souffle -.-
+2015-04-08T13:45:22 <adriens33> mais demain ouep avec plaisir =3
+2015-04-08T13:45:26 <Elvon> pas un Film un petit Docu (entre 5 et 15mins)
+2015-04-08T13:45:44 <Elvon> enfin moi j'imagine plus ce petit docu qu'un Film*
+2015-04-08T13:46:08 *** Gordfang s'est connecté
+2015-04-08T13:46:30 <maitrepanda> oui bien sûr
+2015-04-08T13:46:36 <Elvon> Cool (on va enfin pouvoir faire bouger mon pc X3 j'ai hate de bosser "mes premières voix" pour ma série.
+2015-04-08T13:46:36 <maitrepanda> enfin un docu est un type de film
+2015-04-08T13:46:52 <yusei24130> si ça peut rassurer les parents des brony les plus jeune, ce sera bien.
+2015-04-08T13:47:10 <adriens33> Elvon> =3 et si tu veux un coup de main pour avoir plus de voix tu me dis ça me tenterait bien XD
+2015-04-08T13:47:24 <adriens33> fidzuencours éteinds ton tel X3
+2015-04-08T13:47:40 <Elvon> *premières Voix = modification logiciel pour changer de personnage plus simplement pour écrire le scénare, puis lancer les Vraie enregistrements
+2015-04-08T13:47:41 <adriens33> (non je le hl pas exprès, c'est pas vrai () :) )
+2015-04-08T13:47:49 <adriens33> ok :D
+2015-04-08T13:47:57 <maitrepanda> même, pour beaucoup quand je présente Bronycub, ça leur dit pas grand chose
+2015-04-08T13:48:06 <Elvon> adriens33> justement j'aurais besoin d'aide potentielement.
+2015-04-08T13:48:10 <maitrepanda> un petit docu de présentation, ça montrerait ce qu'on fait
+2015-04-08T13:48:12 <adriens33> yay =D
+2015-04-08T13:48:13 <maitrepanda> l'ambiance et tout
+2015-04-08T13:48:40 <maitrepanda> enfin faudra en parler avc Flo à l'"AG" j'imagine
+2015-04-08T13:48:59 <Elvon> maitrepanda> oui mais moi j'ai des docu de 2h donc "docu = un petit Film" X3 me fait rire ^^ (
+2015-04-08T13:49:12 *** python_ircbot s'est connecté
+2015-04-08T13:49:28 <maitrepanda> oui j'imagine
+2015-04-08T13:49:29 <Tsumenokage> adriens33, c'est ton nouveau bot ?
+2015-04-08T13:49:34 <adriens33> oui ^^
+2015-04-08T13:49:39 <maitrepanda> salut python_ircbot !
+2015-04-08T13:49:40 <adriens33> je suis en trai de tester un truc dessus
+2015-04-08T13:49:46 <adriens33> il repera pas
+2015-04-08T13:49:49 <maitrepanda> ça va ?
+2015-04-08T13:49:50 <adriens33> il est pas fini
+2015-04-08T13:49:54 <maitrepanda> roh :'(
+2015-04-08T13:50:02 <adriens33> bah je suis en train de le dev X')
+2015-04-08T13:50:03 <maitrepanda> pauvre enfant
+2015-04-08T13:50:09 <adriens33> tékon
+2015-04-08T13:50:10 <maitrepanda> il pourra faire quoi ?
+2015-04-08T13:50:12 <Tsumenokage> tu veux lui faire faire quoi ?
+2015-04-08T13:50:15 <adriens33> plein de trucs ~
+2015-04-08T13:50:17 <Tsumenokage> ah ^^
+2015-04-08T13:50:19 <adriens33> remplacer berry déjà
+2015-04-08T13:50:20 <Elvon> ^^ Il est aussi doux qu'un phyton ?
+2015-04-08T13:50:23 <adriens33> et plus si affinités
+2015-04-08T13:50:28 <adriens33> (oui c'est en python =3)
+2015-04-08T13:50:30 <Tsumenokage> remplacer Berry Oo
+2015-04-08T13:50:38 <adriens33> donc plus de possibilités =D
+2015-04-08T13:50:38 *** maitrepanda est parti
+2015-04-08T13:50:51 <Elvon> MAsi elle restera Berry-chan quand même ?????
+2015-04-08T13:50:58 *** maitrepanda s'est connecté
+2015-04-08T13:50:58 <adriens33> bawi XD
+2015-04-08T13:51:00 <Tsumenokage> ah ouf
+2015-04-08T13:51:02 <maitrepanda> petit pb de co
+2015-04-08T13:51:21 <Elvon> Tu va pas me VIRER Berry-san quand même ? /Oo
+2015-04-08T13:51:26 <adriens33> le pseudo Berry-Punch et Berry-G33k je me suis pas emmerdé à me les register pour rien ého XD
+2015-04-08T13:51:35 <Tsumenokage> XD
+2015-04-08T13:51:38 <adriens33> Berry-Punch c'est la v2
+2015-04-08T13:51:45 <adriens33> python-ircbot c'est la v3
+2015-04-08T13:51:53 <yusei24130> ok
+2015-04-08T13:51:55 <Elvon> A cool elle garederons leur indentité mais elle seront améliorer X3
+2015-04-08T13:52:00 <Tsumenokage> XD
+2015-04-08T13:52:01 <adriens33> bah vi X3
+2015-04-08T13:52:14 <Elvon> parce que je tiens la patronne de notre BAr
+2015-04-08T13:52:16 *** maitrepanda est parti
+2015-04-08T13:52:25 *** python_ircbot est parti
+2015-04-08T13:52:35 <adriens33> wus
+2015-04-08T13:52:44 <adriens33> Tsumenokage t'a fait planter mon bot o_o
+2015-04-08T13:52:51 <yusei24130> gg
+2015-04-08T13:52:52 <Tsumenokage> wat ?
+2015-04-08T13:52:53 <adriens33> t'a envoyé un carac utf8 invalide
+2015-04-08T13:53:00 <Tsumenokage> euuuh
+2015-04-08T13:53:02 <Tsumenokage> lequel ?
+2015-04-08T13:53:14 <adriens33> ça a envoyé une Exception et comme il l'a pas catché ça a kill le bot ><
+2015-04-08T13:53:18 <Tsumenokage> XD
+2015-04-08T13:53:24 <adriens33> bah je sais pas c'est un carac invalide je te dis X')
+2015-04-08T13:53:39 <Tsumenokage> ah oui ^^
+2015-04-08T13:53:48 <Elvon> oui un Saloon IRC ou un Bar sur les FOFO (les discution touvenates) et bien pour moi Berry-Punch c'est notre gérante et j'aime bien lui l'embétée ^^
+2015-04-08T13:55:13 <Tsumenokage> XD
+2015-04-08T13:55:35 <adriens33> Tsumenokage> tkt ^^ je la push sur le github quand y'a assez de code, t'aura qua t'inscrire jet'ajouterai au groupe bronycub
+2015-04-08T13:55:43 <adriens33> comme ça tu pourra dev dessus directement
+2015-04-08T13:56:08 <adriens33> oki ^^
+2015-04-08T13:56:09 <Tsumenokage> ok super ^
+2015-04-08T13:56:11 <Tsumenokage> ^^
+2015-04-08T13:57:29 <adriens33> vwala je  t'ai envoyé l'invitation s/ github normalement
+2015-04-08T13:57:42 <Elvon> adriens33> pourquoi y a un mail de toi où tu na rien écris (reçus dans les 30 dernière mn)
+2015-04-08T13:57:42 <adriens33> (t'a bien le meme pseudo que ici ? :) )
+2015-04-08T13:57:58 <adriens33> si Elvon c'est en bah, j'ai juste mis la citation en dessus
+2015-04-08T13:58:03 <adriens33> faut scroller :')
+2015-04-08T13:58:09 <adriens33> *en bas
+2015-04-08T13:58:19 <adriens33> oki Tsumenokage bah look ton github
+2015-04-08T13:58:50 <Tsumenokage> thx
+2015-04-08T13:59:07 <adriens33> y'a berry-punch mais y'a que la v2 dedans, (master) pas encore celle que je dev
+2015-04-08T13:59:23 <adriens33> pis si tu veux aider pour sugarcub (pour la v3 du site de bc)
+2015-04-08T13:59:31 <adriens33> wildfier t'en sera reconnaissant je pense :P
+2015-04-08T13:59:45 <adriens33> (c'est du django, donc encore du python XD)
+2015-04-08T13:59:50 <Tsumenokage> faut que je vois avec wildfire pour sugarcube ouais
+2015-04-08T14:00:14 <adriens33> c'est du bash
+2015-04-08T14:00:29 <adriens33> (oui j'ai fait un bot irc en bash, je suis fou dans ma tete.. XD)
+2015-04-08T14:01:49 <adriens33> mais bon elle marche bien, mais bon j'avais envie de faire un truc plus propre et flexible en python
+2015-04-08T14:01:55 <adriens33> parce que le python c'est la vie
+2015-04-08T14:02:14 <Tsumenokage> tu te sers de lib en python ?
+2015-04-08T14:02:17 <Tsumenokage> ou tu refais tout ?
+2015-04-08T14:03:25 <Tsumenokage_EnCo> (mais je continue de discuter)
+2015-04-08T14:04:42 <Elvon> adriens33> oula! oui faut scroller pour voir! Oo
+2015-04-08T14:04:45 <Elvon> ^^
+2015-04-08T14:04:49 <adriens33> nonnon, je la recode en python en entier
+2015-04-08T14:04:58 <adriens33> irc c'est un proto simple
+2015-04-08T14:05:05 <Tsumenokage_Cour> ouais il troll un peu avec son mail :p
+2015-04-08T14:05:15 <Tsumenokage_Cour> adriens33, ah ouais simpa ^^
+2015-04-08T14:05:29 <adriens33> pas envie de me faire chier avec une lib qui me prendrait plus de temps a prendre en main que de coder deux fonctions d'acces au socket.. XD
+2015-04-08T14:05:44 <adriens33> (c'est la rfc 1459 si t'a envie d'aller y jeter un œil)(
+2015-04-08T14:06:02 <adriens33> Elvon> dsl c'est mon client mail qui a quote tout le mail précédent ^^"
+2015-04-08T14:07:30 <adriens33> ^^
+2015-04-08T14:07:40 *** python_ircbot s'est connecté
+2015-04-08T14:07:45 <adriens33> yo toi
+2015-04-08T14:07:50 <Tsumenokage_Cour> yo python_ircbot
+2015-04-08T14:08:00 <adriens33> bon jusqu'ici ça va.
+2015-04-08T14:08:04 <adriens33> (et là il crash.. XD)(
+2015-04-08T14:08:12 *** python_ircbot est parti
+2015-04-08T14:08:16 <adriens33> hut
+2015-04-08T14:08:18 <Tsumenokage_Cour> XD
+2015-04-08T14:08:24 <adriens33> t'utilise quel client ?
+2015-04-08T14:08:30 <Tsumenokage_Cour> xChat
+2015-04-08T14:08:32 <adriens33> ahhhh ><
+2015-04-08T14:08:34 <adriens33> faut pas
+2015-04-08T14:08:36 <adriens33> c'est du caca
+2015-04-08T14:08:39 <adriens33> hexchat c'est mieux
+2015-04-08T14:08:41 <Tsumenokage_Cour> ah ^^
+2015-04-08T14:08:46 <adriens33> c'est normal xchat pète l'utf8 ><
+2015-04-08T14:08:51 <Tsumenokage_Cour> d'accord
+2015-04-08T14:08:52 <Elvon> oki tkt c'est toujours pareil avec tes emails il quote beaucoup de mail avant le tien
+2015-04-08T14:09:01 <Tsumenokage_Cour> ben je change de suite
+2015-04-08T14:09:08 <adriens33> Elvon> bah c'était un mail ou y'avait déja des quotes ^^"
+2015-04-08T14:09:11 <Elvon> ... adriens33 mais c'est pas grave ^^
+2015-04-08T14:09:36 <Tsumenokage_Cour> adriens33, ah en plus hexchat est en python ;p
+2015-04-08T14:09:56 <adriens33> vi
+2015-04-08T14:10:01 <adriens33> att retest avec xchat ?
+2015-04-08T14:10:07 <adriens33> (quand il aura relog)
+2015-04-08T14:10:11 *** python_ircbot s'est connecté
+2015-04-08T14:10:16 <adriens33> voir si ça recrash
+2015-04-08T14:10:26 <Tsumenokage_Cour> je vais tester juste le point d'interrogation
+2015-04-08T14:10:29 <Elvon> Vouais mon Hexminou il est coder avec des pythons (un golem en forme de chat exéma qui est constituer de pythons)
+2015-04-08T14:10:32 <Tsumenokage_Cour> ?
+2015-04-08T14:10:39 <Tsumenokage_Cour> ah ben crash plus
+2015-04-08T14:10:46 <adriens33> nah réessai avec la phrase qui crashait ?
+2015-04-08T14:11:12 <adriens33> c'est bon
+2015-04-08T14:11:13 <Elvon> @
+2015-04-08T14:11:20 <Elvon> 1558
+2015-04-08T14:11:21 <adriens33> la maintenant y'a un try catch
+2015-04-08T14:11:21 <Tsumenokage_Cour> tu as rajouter l'exception
+2015-04-08T14:11:22 <Tsumenokage_Cour> ?
+2015-04-08T14:11:27 <Tsumenokage_Cour> ah ^
+2015-04-08T14:11:29 <adriens33> du coup au lieu de planter ça renvoi juste chaine vide
+2015-04-08T14:11:35 <adriens33> (c'est un poil mieux déjà XD)
+2015-04-08T14:11:36 <Tsumenokage_Cour> gg
+2015-04-08T14:11:49 <adriens33> du coup si t'a un clientde merde le bot t'ignore. XDD
+2015-04-08T14:12:01 <adriens33> (c'est gratuit, je sais :'))
+2015-04-08T14:12:07 <Tsumenokage_Cour> XD
+2015-04-08T14:12:19 <adriens33> bon allez, go install hexchat
+2015-04-08T14:12:23 <Tsumenokage_Cour> je change de client de suite alors pas envie de me faire ignorer par la futur berry
+2015-04-08T14:12:25 <Tsumenokage_Cour> c'est en cours
+2015-04-08T14:12:32 <adriens33> sinon en client irc en term y'a weechat
+2015-04-08T14:12:36 <Elvon> par contre s'il vou plait messieurs les déviant aller sur votre chanel de damné qu'est #bronycub-g33k ^^
+2015-04-08T14:12:38 <adriens33> supporte les plugins en python aussi
+2015-04-08T14:12:41 <adriens33> pardon ><
+2015-04-08T14:12:46 <adriens33> c'est vrai
+2015-04-08T14:13:05 <Elvon> parce que là ça fini par flood en faite (j'ai mis le temps a m'en rendre compte quand même)
+2015-04-08T14:13:51 *** heuzef s'est connecté
+2015-04-08T14:13:58 *** Tsumenokage s'est connecté
+2015-04-08T14:14:10 <adriens33> tines y'en a qui ont joué avec les flags, heuzef est deux fois dans le fichier :')
+2015-04-08T14:14:18 <Tsumenokage> et ben me rerevoila sous hexchat
+2015-04-08T14:14:24 *** Tsumenokage_Cour est parti
+2015-04-08T14:17:58 <yusei24130> C'est calme d'un cout :)
+2015-04-08T14:18:16 <Elvon> Voui c'est fait pour
+2015-04-08T14:18:53 <Elvon> si toi qui est tu ? est tu venue entre janvier et aujourd'hui a rassemblement BC ?
+2015-04-08T14:18:53 <Tsumenokage> trop calme
+2015-04-08T14:18:59 <Tsumenokage> !muffin Elvon
+2015-04-08T14:19:29 <yusei24130> C'est génial !!!
+2015-04-08T14:19:36 <Elvon> Berry-Punch!! Bordel fait gaffe avec ces !muffin Tsumenokage.
+2015-04-08T14:19:45 <Tsumenokage> :p
+2015-04-08T14:19:45 <Elvon> !muffin Tsumenokage
+2015-04-08T14:19:56 <Tsumenokage> miam merci :)
+2015-04-08T14:20:17 <Elvon> tiens bien fait ( oui il était cela etant dit)
+2015-04-08T14:20:26 <Elvon> !
+2015-04-08T14:20:32 <Elvon> Berry-Punch !
+2015-04-08T14:21:09 <Elvon> non rien t'inquiete tu peut ronronner sur le comptoire sans probléme :3
+2015-04-08T14:21:25 <Tsumenokage> ^^
+2015-04-08T14:21:37 <Elvon> JE suis un relou qui maintiens Berry-chan la plus sobre possible.
+2015-04-08T14:21:52 <yusei24130> ^^
+2015-04-08T14:22:08 <adriens33> lol
+2015-04-08T14:22:11 <adriens33> la pauvre..
+2015-04-08T14:22:16 <adriens33> laisse la boire!
+2015-04-08T14:22:45 <Tsumenokage> Berry Sobre n'est plus Berry ^^
+2015-04-08T14:23:21 <adriens33> :')
+2015-04-08T14:23:46 <Elvon> bin j'essaie de la garder aussi lucide que possible plutôt mais elle est pas super sobre quand même. juste entre le vomit de la veille et celui du soir x3
+2015-04-08T14:24:34 <Tsumenokage> c'est... joliment dit :3
+2015-04-08T14:26:55 <yusei24130> ça en devient presque poétique ^^
+2015-04-08T14:28:32 <Elvon> je sais je suis un peu poète quand je parle de ce chair désinfecter à l'amoniac ^^
+2015-04-08T14:58:10 <heuzef> Plop
+2015-04-08T14:58:22 <heuzef> Salut yusei =)
+2015-04-08T14:58:29 <yusei24130> salut
+2015-04-08T14:58:59 <Tsumenokage> salut heuzef
+2015-04-08T14:59:04 <heuzef> Yo Tsume =)
+2015-04-08T14:59:14 <heuzef> Alors alors voyons si j'ai bien pigé
+2015-04-08T14:59:44 <heuzef> !inscription [Yy]usei24130
+2015-04-08T14:59:52 <heuzef> Raté :/
+2015-04-08T15:00:09 <heuzef> adriens33 help ^^"
+2015-04-08T15:00:14 <Tsumenokage> XD
+2015-04-08T15:00:22 <adriens33> sisi c'kestbon
+2015-04-08T15:00:31 <adriens33> c'est qu'il parse pas l'expression
+2015-04-08T15:00:35 <adriens33> donc c'est ajouté dans le fichier
+2015-04-08T15:00:47 <adriens33> mais faut soit ensuite le !voice à la main, soit qu'il déco reco
+2015-04-08T15:00:55 <heuzef> Ha ok
+2015-04-08T15:01:09 <Tsumenokage> ah mais attend je viens de tilter yusei24130 == Raphaël ?
+2015-04-08T15:01:12 <adriens33> (je suis sur la v3 du bot en python, entre autres choses, dis bonjour à python_ircbot :D)
+2015-04-08T15:01:15 <yusei24130> oui
+2015-04-08T15:01:24 <heuzef> Après y'a plusieurs variante apparement
+2015-04-08T15:01:42 <heuzef> yusei24130 / yusei24
+2015-04-08T15:01:52 <Tsumenokage> ^^ aaaaaaaaaah ok
+2015-04-08T15:01:56 <heuzef> Ca va devenir complexe comme regex
+2015-04-08T15:01:57 <Elvon> Bonjour heuzef *
+2015-04-08T15:02:05 <heuzef> Elvon /)
+2015-04-08T15:02:26 <heuzef> !voice yusei24130
+2015-04-08T15:02:30 <heuzef> voila
+2015-04-08T15:02:32 <Tsumenokage> Je sais pas si tu m'a reconu yusei24130 ?
+2015-04-08T15:03:16 <Tsumenokage> j'avais dormi chez Tyrris avant d'aller à Animasia avec vous (Jérémy) ^^'
+2015-04-08T15:03:34 <yusei24130> Si je t'ai reconnu Jérémy
+2015-04-08T15:04:00 *** adriens33 est parti
+2015-04-08T15:04:05 *** adriens33 s'est connecté
+2015-04-08T15:04:06 <Tsumenokage> aah ok mais moi non jusqu'a 2 minutes désolé ^^"
+2015-04-08T15:04:07 <Tsumenokage> '
+2015-04-08T15:05:09 <yusei24130> C'est parce que je t'ai reconnu, que je t'ai demander sur fb tout-à-l'heure. XD
+2015-04-08T15:05:19 <Tsumenokage> aaah :p
+2015-04-08T15:07:35 *** Shinsaber s'est connecté
+2015-04-08T15:07:42 <yusei24130> Salut
+2015-04-08T15:07:59 <Tsumenokage> Salut Shinsaber
+2015-04-08T15:08:20 <Shinsaber> salut le peuple /)
+2015-04-08T15:08:36 <Tsumenokage> (
+2015-04-08T15:08:57 <Gordfang> yo Shinsaber
+2015-04-08T15:09:17 <heuzef> ^^
+2015-04-08T15:09:20 <adriens33> yo Shinsaber
+2015-04-08T15:09:24 <adriens33> dis bonjour a python_ircbot
+2015-04-08T15:09:33 <adriens33> (il te repera pas encore , mais ça va viendre)
+2015-04-08T15:09:50 <Elvon> Salut tout le monde
+2015-04-08T15:09:54 <heuzef> Je sais pas si c'est parceque Elvon à fait les gros yeux ou pas mais l'IRC à pas mal de co en même temps dis donc
+2015-04-08T15:09:59 <Shinsaber> bonjour Bot V2 ^^
+2015-04-08T15:10:06 <adriens33> v3
+2015-04-08T15:10:11 <adriens33> la v1 c'était supybot
+2015-04-08T15:10:26 <Elvon> Je sais bien faire les gros yeux ça veux dire x3
+2015-04-08T15:10:26 <adriens33> (qu'est pas pratique et un peu out of date du reste)
+2015-04-08T15:10:42 <adriens33> diss Elvon , pourquoi t'as de gros yeux
+2015-04-08T15:10:45 <adriens33> ?
+2015-04-08T15:11:07 <Tsumenokage> XD
+2015-04-08T15:12:22 <Elvon> Parce que les gens ils spams est que ça fait grossir les yeux X3
+2015-04-08T15:12:40 <yusei24130> ^^
+2015-04-08T15:14:55 <yusei24130> J'ai trouvé un truc génial pour les joueur de carte à collectionner
+2015-04-08T15:14:57 <yusei24130> http://www.ultrapro.com/product_list.php?cPath=71_198
+2015-04-08T15:15:04 <yusei24130> http://www.ultrapro.com/product_list.php?cPath=70_201
+2015-04-08T15:16:18 <Tsumenokage> simpa XD
+2015-04-08T15:20:48 <fidzuencours> Ma prof qui me prend mon tel parceque adriens33 ma hl XD
+2015-04-08T15:21:26 <Tsumenokage> ah merde XD
+2015-04-08T15:21:47 <adriens33> c'est ta faute t'a qu'a pas avoir ton tel allumé XD
+2015-04-08T15:21:58 <adriens33> en plus c'est pas la première fois que je te le disXDD
+2015-04-08T15:22:19 <Elvon> yusei24130> moi aussi j'en veux une. mais j'ai de thune a mettre dans des protge pour le moment
+2015-04-08T15:23:12 <Tsumenokage> Il en faudrai des comme ça pour les cartes Magic du club jeu de mon école XD
+2015-04-08T15:23:57 <yusei24130> yep
+2015-04-08T15:28:31 <fidzuencours> Pour le documentaire,  je pensais parler des brony en general et dans ce docu, parler de notre collectif (faut quand meme faire un peu de pub).j'ai même pensé a parler de ponysouth dans ce docu pour avoir un bon point d'appui
+2015-04-08T15:29:11 <fidzuencours> Filmer la bas et interviewer quelques personnes
+2015-04-08T15:30:14 <fidzuencours> Si vous avez vu A Brony Tale, faire un peu pareil mais en France
+2015-04-08T15:30:28 <fidzuencours> Et je crois que ce sera la première fois
+2015-04-08T15:30:58 *** yusei24130 est parti
+2015-04-08T15:32:34 *** yusei24130 s'est connecté
+2015-04-08T15:32:46 <yusei24130> re probleme de reseau
+2015-04-08T15:34:12 <heuzef> Me semble pas très pertinent de s'embêter la vie à faire un docu sur nous, sauf pour le fun à la limite
+2015-04-08T15:34:31 <heuzef> Y'a déjà plein d'article de presse, etude etc... sur BronyCUB
+2015-04-08T15:34:58 <Tsumenokage> tu verraisplus un docu général sur les brony ?
+2015-04-08T15:35:12 <Fidzu> Oui
+2015-04-08T15:35:23 <Fidzu> C'est sur il y a déjà des trucs
+2015-04-08T15:35:34 <Fidzu> Mais rien n'est complet !
+2015-04-08T15:36:22 <Shinsaber> moi je dit que sa peut ètre fun ^^
+2015-04-08T15:36:28 <Fidzu> et puis en plus ce serais aussi fun de faire ça
+2015-04-08T15:36:48 <Fidzu> Si on le faut, il faudrais juste faire le scénario avec la liste des choses a expliquer,  s'occuper du visuel , trouver un cameraman pour la ps et je pourrais m'occuper du montage ^^
+2015-04-08T15:38:18 <Tsumenokage> Fidzu, pour le montage je peux aider aussi si besoin
+2015-04-08T15:38:44 <Fidzu> On y est pas encore de toute façon ^^
+2015-04-08T15:38:55 <Tsumenokage> oauis c'est vrai
+2015-04-08T15:39:08 <Tsumenokage> ouais*
+2015-04-08T15:39:42 <Fidzu> Moi je verrais ça comme un assez gros documentaire avec des partis en vouc off et des partis en interview
+2015-04-08T15:39:50 <Fidzu> Bon je retourne en cours
+2015-04-08T15:39:58 <Tsumenokage> bon courage
+2015-04-08T15:39:59 *** Fidzu est parti
+2015-04-08T15:40:19 *** Fidzu s'est connecté
+2015-04-08T15:42:21 <heuzef> Olé olé du calme didier ^^
+2015-04-08T15:42:28 <heuzef> Et les Ponies Holidays alors ?
+2015-04-08T15:42:43 <heuzef> Me dis pas que tu te sent à gérer les 2 ?
+2015-04-08T15:44:24 <Tsumenokage> Bon je m'absente un petit quart d'heure a toute
+2015-04-08T15:50:29 <Fidzuencoreencou> Tu veux dire gerer le doc et la poho ?
+2015-04-08T15:52:18 <heuzef> Ba oui
+2015-04-08T15:52:36 <adriens33> fidzu aime sortir et entrer du chat
+2015-04-08T15:52:42 <adriens33> fidzu est zoophile
+2015-04-08T15:53:19 <adriens33> http://danstonchat.com/12756.html
+2015-04-08T15:53:43 <yusei24130> XD
+2015-04-08T15:54:11 <heuzef> xD
+2015-04-08T15:54:35 *** python_ircbot est parti
+2015-04-08T15:55:14 <Fidzuencours> Tkt le documentaires sera easy
+2015-04-08T15:58:14 <Shinsaber> la vache, je viens d'ouvrir ma boite mail 0-0 Ce spam XD
+2015-04-08T16:00:30 *** python_ircbot s'est connecté
+2015-04-08T16:00:30 *** python_ircbot est parti
+2015-04-08T16:00:31 <Elvon> Justement faut pas spamer les boite mail les gens (j'en profite pour refaire mes gros yeux) >wxw<
+2015-04-08T16:00:40 <Elvon> ^^
+2015-04-08T16:01:46 <Shinsaber> comme il recommence a faire chaut, je pence que je vais reprendre mes sorties au parc organiser a l’arrache, sa pourrais être le moment de rencontrée des parent des CMC ^^
+2015-04-08T16:02:40 *** python_ircbot s'est connecté
+2015-04-08T16:02:50 <Elvon> ouais bah justement a l'arache des parents qui ont peur des brony ? (ils auront pas le temps pour du a l'arache mais bon faut voir ^^)
+2015-04-08T16:02:50 *** python_ircbot est parti
+2015-04-08T16:03:29 <Shinsaber> c'est pour l'idée ^^
+2015-04-08T16:03:49 <Elvon> je me doute
+2015-04-08T16:03:50 <Tsumenokage> Re
+2015-04-08T16:03:58 <Shinsaber> re
+2015-04-08T16:04:57 <Elvon> en tout j'ai déjà une aprèm pour le samedi 25 Qui est poser après si tu propose ça en pleinne semaine je pourrait aussi passé ^^
+2015-04-08T16:05:58 <Elvon> d'ailleur qui est-ce qui participeras le 25? (envoyer la réponse en hl)
+2015-04-08T16:06:50 <Tsumenokage> Elvon, moi et y'aura aussi Tyrris et LunaYumii
+2015-04-08T16:07:22 *** python_ircbot s'est connecté
+2015-04-08T16:07:32 <yusei24130> Moi aussi
+2015-04-08T16:07:43 <Tsumenokage> re python_ircbot
+2015-04-08T16:07:56 <Shinsaber> normalement je serais présent Elvon !
+2015-04-08T16:07:57 <adriens33> je test un truc *croise les doigts*
+2015-04-08T16:08:24 <Shinsaber> bug de python_ircbot dans 3
+2015-04-08T16:08:25 <Shinsaber> 2
+2015-04-08T16:08:26 <Shinsaber> 3
+2015-04-08T16:08:34 <Tsumenokage> XD
+2015-04-08T16:08:35 <adriens33> #oupas
+2015-04-08T16:08:35 <Shinsaber> 2
+2015-04-08T16:08:37 <adriens33> :]
+2015-04-08T16:08:55 * Shinsaber triste
+2015-04-08T16:09:28 * Tsumenokage retourne sous XChat et son UTF8 bizarre pour faire bugger python_ircbot 
+2015-04-08T16:10:37 <Shinsaber> il aime pas les caractère spéciaux ??
+2015-04-08T16:10:42 <Shinsaber> █
+2015-04-08T16:10:51 <Shinsaber> ¶
+2015-04-08T16:11:02 <Tsumenokage> nan mais il a mis une protection, j'avais oublié ^^'
+2015-04-08T16:11:20 <Tsumenokage> mais j'ai quand même réussi à le faire planter 2 fois tout à l'heure o/
+2015-04-08T16:11:26 <Shinsaber> dommage car j'en ais plain de fun XD
+2015-04-08T16:11:31 <Shinsaber> ╩
+2015-04-08T16:11:41 <Shinsaber> ◄
+2015-04-08T16:11:44 <yusei24130> Je confirme
+2015-04-08T16:12:46 <Shinsaber> ♠
+2015-04-08T16:13:10 <Shinsaber> bon j’arrête de spam ^^
+2015-04-08T16:14:11 *** python_ircbot est parti
+2015-04-08T16:16:54 *** python_ircbot s'est connecté
+2015-04-08T16:17:13 *** python_ircbot est parti
+2015-04-08T16:18:08 *** python_ircbot s'est connecté
+2015-04-08T16:18:23 <adriens33> Shinsaber non seulement t'a pas crash le bot
+2015-04-08T16:18:31 <adriens33> mais t'a meme pas trigger la protection
+2015-04-08T16:18:37 <adriens33> il gère les carac spéciaux
+2015-04-08T16:18:42 <adriens33> il gère tout l'utf8
+2015-04-08T16:18:49 <adriens33> c'est l'utf8 mal encodé qu'il gère pas
+2015-04-08T16:18:57 <adriens33> (xchat est mal foutu)
+2015-04-08T16:19:02 <Shinsaber> raa zut TT
+2015-04-08T16:19:05 <Tsumenokage> et ce qui est pas utf8 (ça existe d'ailleurs) ? :p
+2015-04-08T16:19:28 <adriens33> bah de toute manière il me semble que freenode tourne en utf8
+2015-04-08T16:19:33 <adriens33> donc il convertit
+2015-04-08T16:19:43 <adriens33> et de toute facon le bot décode pas nécessairement en utf8
+2015-04-08T16:19:53 <adriens33> il autodétecte le format a utiliser
+2015-04-08T16:20:01 <Tsumenokage> c'est pas faux ^^
+2015-04-08T16:20:02 <adriens33> =D
+2015-04-08T16:20:06 <adriens33> connard XD
+2015-04-08T16:20:44 <Tsumenokage> (mais spammons pas ici a propos des détails techniques de ton bot ou Elvon va encore faire les gros yeux ^^)
+2015-04-08T16:20:58 <adriens33> j'en ai ranafout
+2015-04-08T16:21:05 <Tsumenokage> XD
+2015-04-08T16:21:27 <Elvon> Ouais un bon moi je suis fatiguer mes yeux sont gros mais fermer pour le moment X3
+2015-04-08T16:24:43 *** Gordfang est parti
+2015-04-08T16:30:42 *** python_ircbot est parti
+2015-04-08T16:31:00 *** python_ircbot s'est connecté
+2015-04-08T16:32:22 *** Tsumenokage est parti
+2015-04-08T16:32:39 *** Gordfang s'est connecté
+2015-04-08T16:33:06 *** Tsumenokage s'est connecté
+2015-04-08T16:35:23 *** python_ircbot est parti
+2015-04-08T16:35:40 *** python_ircbot s'est connecté
+2015-04-08T16:35:44 *** adriens33 est parti
+2015-04-08T16:39:08 *** python_ircbot est parti
+2015-04-08T16:44:55 *** Elvon est parti
+2015-04-08T16:45:33 *** python_ircbot s'est connecté
+2015-04-08T16:46:05 *** adriens33 s'est connecté
+2015-04-08T16:46:28 *** adriens33 est parti
+2015-04-08T16:46:42 *** python_ircbot est parti
+2015-04-08T16:47:20 *** python_ircbot s'est connecté
+2015-04-08T16:47:27 *** adriens33 s'est connecté
+2015-04-08T16:47:34 *** adriens33 est parti
+2015-04-08T16:47:47 *** python_ircbot est parti
+2015-04-08T16:48:46 *** python_ircbot s'est connecté
+2015-04-08T16:49:54 *** adriens33 s'est connecté
+2015-04-08T16:50:22 *** adriens33 est parti
+2015-04-08T16:50:45 *** adriens33 s'est connecté
+2015-04-08T16:54:12 <Fidzuencours> Bts sio ça parle a des gens ?
+2015-04-08T16:54:36 <adriens33> nop
+2015-04-08T16:54:43 <Tsumenokage> c'est de l'info non ?
+2015-04-08T16:55:27 <Tsumenokage> Système Informatique (et je sai plus la suite)
+2015-04-08T16:55:30 *** MaCharon s'est connecté
+2015-04-08T16:56:55 <Tsumenokage> bon j'y vais fin des cours a plus tard tout le monde
+2015-04-08T16:56:58 *** Tsumenokage est parti
+2015-04-08T16:57:01 <Fidzuencours> Oui
+2015-04-08T16:57:06 <Fidzuencours> Parce que je pense faire ça mais j'aimerais bien savoir si des gens l'on fait ou sont dedans
+2015-04-08T16:57:43 <adriens33> merci Fidzu :3
+2015-04-08T16:57:49 <adriens33> j'avais oublié cet event la
+2015-04-08T16:57:55 <adriens33> (le changement de nick)
+2015-04-08T16:58:35 <Fidzu> Heu... derien mdr
+2015-04-08T16:59:28 <yusei24130> Bon je vais me déco, à toute
+2015-04-08T16:59:38 *** yusei24130 est parti
+2015-04-08T17:01:29 <Shinsaber> Je déco aussi ^^
+2015-04-08T17:01:34 *** Shinsaber est parti
+2015-04-08T17:01:36 *** python_ircbot est parti
+2015-04-08T17:01:56 *** python_ircbot s'est connecté
+2015-04-08T17:02:22 <adriens33> tain tout le monde part :'(
+2015-04-08T17:03:12 *** heuzef est parti
+2015-04-08T17:03:14 *** python_ircbot est parti
+2015-04-08T17:03:30 *** python_ircbot s'est connecté
+2015-04-08T17:07:47 *** ELiDYROS s'est connecté
+2015-04-08T17:07:59 <adriens33> salut ELiDYROS
+2015-04-08T17:08:06 <ELiDYROS> salut adriens33
+2015-04-08T17:08:13 *** heuzef s'est connecté
+2015-04-08T17:08:47 <ELiDYROS> y a du mieux sur ma connex o/
+2015-04-08T17:10:22 <adriens33> yay cool
+2015-04-08T17:10:30 <adriens33> moi je suis en train de faire un new bot en python
+2015-04-08T17:10:33 <adriens33> :D
+2015-04-08T17:10:41 <adriens33> (pour le moment il écoute mais il sait pas encore parler :P)
+2015-04-08T17:11:55 <ELiDYROS> j'ai pu streamer plus d'une heure en 1080p/60fps ce matin
+2015-04-08T17:12:00 <ELiDYROS> et ça tient
+2015-04-08T17:12:42 <adriens33> o_O
+2015-04-08T17:12:51 <adriens33> [M@gg
+2015-04-08T17:12:55 <adriens33> * gg
+2015-04-08T17:20:15 <Gordfang> bon je re a tte!
+2015-04-08T17:20:20 *** Gordfang est parti
+2015-04-08T17:31:54 <TrappyTickles> heuzef: le cc des derniers épisodes vont arriver. je mets a jour bbbff dès que possible ^^
+2015-04-08T17:33:46 *** Tsumenokage s'est connecté
+2015-04-08T17:34:01 <Tsumenokage> re
+2015-04-08T17:35:17 *** Fidzu est parti
+2015-04-08T17:36:40 *** python_ircbot est parti
+2015-04-08T17:38:50 *** python_ircbot s'est connecté
+2015-04-08T17:40:49 *** python_ircbot est parti
+2015-04-08T17:41:06 *** python_ircbot s'est connecté
+2015-04-08T17:41:07 <heuzef> TrappyTickles ;)
+2015-04-08T17:41:58 <adriens33> bon je m'arrête pour aujourd'hui :D prochaine étape: gestion minimale de commandes. :]
+2015-04-08T17:45:40 *** heuzef est parti
+2015-04-08T17:54:05 <adriens33> [M#??/b 3
+2015-04-08T17:54:15 <adriens33> (fail commande, désolé ><)
+2015-04-08T17:54:17 <Tsumenokage> qué ?
+2015-04-08T17:54:32 <adriens33> /b c'est une commande de weechat (un alias en fait) pour changer de buffer
+2015-04-08T17:55:18 *** ELiDYROS est parti
+2015-04-08T17:57:52 *** Fidzu s'est connecté
+2015-04-08T18:04:25 *** ELiDYROS s'est connecté
+2015-04-08T18:04:34 <ELiDYROS> ah je crois que j'ai crashed
+2015-04-08T18:06:20 *** python_ircbot est parti
+2015-04-08T18:09:05 *** python_ircbot s'est connecté
+2015-04-08T18:09:42 <adriens33> !voice python_ircbot
+2015-04-08T18:58:22 *** yusei24130 s'est connecté
+2015-04-08T19:05:41 *** yusei24130 est parti
+2015-04-08T19:06:10 *** yusei24130 s'est connecté
+2015-04-08T19:10:40 *** lunayumii s'est connecté
+2015-04-08T19:10:48 <lunayumii> salut ^^
+2015-04-08T19:10:55 <lunayumii> oh y'a encore Tsumenokage
+2015-04-08T19:11:03 <yusei24130> salut
+2015-04-08T19:11:03 <lunayumii> et yusei24130
+2015-04-08T19:11:09 <lunayumii> salut ;D
+2015-04-08T19:11:17 <Tsumenokage> salut lunayumii :)
+2015-04-08T19:11:24 <lunayumii> hé Tsume, j'voulais te dire, demain au final y'aura Tyrris aussi ^^
+2015-04-08T19:11:35 <Tsumenokage> cool
+2015-04-08T19:11:39 <lunayumii> il finit vers 11h ou avant, donc on peut aller le chercher et après retourner attendre Chords à l'arrêt
+2015-04-08T19:11:41 <lunayumii> ça te va ? :D
+2015-04-08T19:11:58 <Tsumenokage> pas de souci
+2015-04-08T19:12:10 <lunayumii> d'ailleurs yusei24130 tu viens manger avec nous demain midi près de la fac ?
+2015-04-08T19:12:19 <lunayumii> (oui je marque ton pseud entier pour te ping è_é)
+2015-04-08T19:12:43 *** Tyrris s'est connecté
+2015-04-08T19:12:43 <yusei24130> demain midi je fini à 12h20 pour reprendre à 14h
+2015-04-08T19:12:53 <Tyrris> Bonjour tout le monde !
+2015-04-08T19:12:55 <lunayumii> tu peux quand même nous rejoindre pendant le repas s'tu veux ^^
+2015-04-08T19:13:00 <yusei24130> salut
+2015-04-08T19:13:17 <Tsumenokage> Yo Tyrris
+2015-04-08T19:13:23 <yusei24130> à montaigne ?
+2015-04-08T19:13:32 <lunayumii> yep
+2015-04-08T19:13:42 <lunayumii> on sera ptètre déjà installés quelque part donc envoie-moi un sms quand tu viens
+2015-04-08T19:13:53 <yusei24130> ok
+2015-04-08T19:14:07 <lunayumii> nous deux on débarque avec notre gamelle ^^
+2015-04-08T19:14:40 <Tyrris> on repartiras ensemble ducoup si tu veux, et si tu prend le tram
+2015-04-08T19:14:53 <yusei24130> yep
+2015-04-08T19:15:07 <adriens33> !inscription [tT]yrris
+2015-04-08T19:15:12 <adriens33> !voice Tyrris
+2015-04-08T19:15:25 <adriens33> (salut au passage =P)
+2015-04-08T19:15:29 <lunayumii> salut adrien ^^
+2015-04-08T19:16:00 <yusei24130> ducoup le tchat ce réveille.
+2015-04-08T19:16:39 <adriens33> ça a l'air  ouais ^^
+2015-04-08T19:16:43 <Tyrris> (salut aussi au passage =P)
+2015-04-08T19:16:51 <lunayumii> On dirait que c'est souvent que y'a des gens qui restent co sans parler ^^
+2015-04-08T19:16:54 <adriens33> ^^
+2015-04-08T19:16:57 <adriens33> ouai
+2015-04-08T19:17:06 <adriens33> bah moi je suis co pratiquement tout le temps
+2015-04-08T19:17:19 <adriens33> mais bon si y'a personne qui parle moi je vais avoir du mal à lancer une conv
+2015-04-08T19:17:46 <yusei24130> J’avoue
+2015-04-08T19:17:56 <adriens33> (je suis pas super bavard sauf sur certains sujets, mais pour ça y'a un 2e canal ^^ #bronycub-g33k)
+2015-04-08T19:18:01 <Tyrris> Un monologue, au pire
+2015-04-08T19:18:11 <adriens33> ouai j'en serai capable, c'est ça le pire..
+2015-04-08T19:18:13 <adriens33> XD
+2015-04-08T19:18:20 <Tyrris> xD
+2015-04-08T19:18:27 <yusei24130> ^^
+2015-04-08T19:18:36 <adriens33> (j'habite pas loin d'une clinique psychiatrique en plus XD)
+2015-04-08T19:18:52 <adriens33> (en fait j'suis évadé, mais chut faut pas le dire ils me cherchent)
+2015-04-08T19:19:10 <lunayumii> je note, je note xD
+2015-04-08T19:19:36 <adriens33> hey
+2015-04-08T19:19:48 <yusei24130> XD
+2015-04-08T19:19:53 <Tsumenokage> Berry qui se manifeste ^^
+2015-04-08T19:19:56 <adriens33> non c'est pas vrai, ici c'est toi la soularde
+2015-04-08T19:20:01 <adriens33> Tsumenokage> oaui :D
+2015-04-08T19:20:01 <Tsumenokage> elle à finit de décuver ?
+2015-04-08T19:20:19 <adriens33> non, juste réaliste.
+2015-04-08T19:20:21 <adriens33> *pan*
+2015-04-08T19:20:23 <Tyrris> Je confirme !
+2015-04-08T19:20:30 <Tyrris> pour le méchant
+2015-04-08T19:20:33 <Tyrris> XD
+2015-04-08T19:20:46 <adriens33> rhooo, ça y est..
+2015-04-08T19:20:47 <Tsumenokage> Berry c'était pout rire !!
+2015-04-08T19:20:54 <Tsumenokage> et toi Tyrris chut
+2015-04-08T19:21:08 <Tyrris> Non je chut pas d'habord !
+2015-04-08T19:21:10 <Tyrris> XD
+2015-04-08T19:21:29 *** Elvon s'est connecté
+2015-04-08T19:22:14 <lunayumii> bijour ^^
+2015-04-08T19:22:25 <adriens33> méchants *
+2015-04-08T19:22:37 <Tyrris> réalistes*
+2015-04-08T19:22:42 <adriens33> XDD
+2015-04-08T19:22:46 <Tyrris> paix*
+2015-04-08T19:22:59 <yusei24130> don't rage
+2015-04-08T19:23:17 <Tsumenokage> Tyrris,  laisse Berry tranquille :p
+2015-04-08T19:23:21 <adriens33> MERDEUX ><
+2015-04-08T19:23:34 <adriens33> berry t'es qu'une vendue
+2015-04-08T19:23:54 <Tsumenokage> eeeh je peux avoir un verre moi aussi Berry ?
+2015-04-08T19:24:02 <Elvon> RE
+2015-04-08T19:24:10 <Tsumenokage> re Elvon
+2015-04-08T19:24:14 <lunayumii> en parlant de boire, j'ai soif aussi x)
+2015-04-08T19:24:16 <Tyrris> Salut !
+2015-04-08T19:25:05 <lunayumii> j'ai de la limonade, ça va, merci Berry :3
+2015-04-08T19:25:06 <adriens33> bronycub, le chat ou tout le monde boit en chœur.. XD
+2015-04-08T19:25:34 <lunayumii> c'est l'effet communauté xD
+2015-04-08T19:25:40 <yusei24130> et il est même pas 20 h :)
+2015-04-08T19:26:04 <lunayumii> yup xD
+2015-04-08T19:26:15 <adriens33> déjà ?
+2015-04-08T19:26:22 <yusei24130> déjà ?
+2015-04-08T19:26:24 <adriens33> c'est la 4e bouteille aujourd'hui ><
+2015-04-08T19:26:26 <adriens33> t'exagère
+2015-04-08T19:26:39 <adriens33> oui non mais ça va, tiens.
+2015-04-08T19:26:41 <Tsumenokage> tient Berry en voila une cinquième :)
+2015-04-08T19:26:45 <Tsumenokage> ah ^^
+2015-04-08T19:26:49 * adriens33 lui donne aussi une bouteille de vodka
+2015-04-08T19:28:31 <yusei24130> tu nous dis quand tu en veut une autre Berry :)
+2015-04-08T19:45:00 *** python_ircbot est parti
+2015-04-08T19:46:38 *** python_ircbot s'est connecté
+2015-04-08T19:51:35 <lunayumii> j'espère que Chords va passer sur le chat ce soir, sinon il aura la surprise de voir 3 personnes de plus que prévu demain xD
+2015-04-08T19:52:01 <adriens33> XD
+2015-04-08T19:52:25 <Tsumenokage> XD
+2015-04-08T19:52:36 <Tsumenokage> au pir on l'a déjà tous vu a animasia
+2015-04-08T19:52:52 <Tyrris> Faut que je me paye la même tête de cheval !
+2015-04-08T19:53:01 <lunayumii> yup, mais le pauvre il va nous faire un infarctus s'il nous voit à 4 au lieu d'une à l'improviste xD
+2015-04-08T19:53:05 <Tyrris> J'en ai même vus sur le net en blanc avec une corne !
+2015-04-08T19:53:06 <Tsumenokage> ^^
+2015-04-08T19:53:22 <Tsumenokage> concentrons nous sur notre première idée de cosplay déjà ^^
+2015-04-08T19:53:36 <Tyrris> Nan mais moi c'est pour aller à l'IUT xD
+2015-04-08T19:53:48 <Tsumenokage> En cours avec Gollum ?
+2015-04-08T19:54:03 <lunayumii> en parlant de cosplay, j'espère que ma perruque arrivera d'ici au pique-nique xD
+2015-04-08T19:54:04 <Tsumenokage> (pour adriens33 je parle de Jhonen là :p)
+2015-04-08T19:54:17 <Tyrris> Ou avec #Mery
+2015-04-08T19:55:35 <adriens33> naah Tsumenokage >< me  parle pas d'elle XDD
+2015-04-08T19:55:50 <Tsumenokage> tellement de bon souvenir hein ? XD
+2015-04-08T19:56:09 <lunayumii> ah, t'étais aussi à l'iut Adrien ? ^^
+2015-04-08T19:56:22 <adriens33> ypé
+2015-04-08T19:56:25 <adriens33> *yep
+2015-04-08T19:58:30 <Tsumenokage> Tyrris, est aussi à l'iut info
+2015-04-08T19:59:44 <adriens33> ok ^^
+2015-04-08T20:04:26 *** ChordsTackler s'est connecté
+2015-04-08T20:04:39 <ChordsTackler> Hello la liste super longue de People
+2015-04-08T20:04:45 <lunayumii> salut :D
+2015-04-08T20:04:46 <Tsumenokage> Salut ChordsTackler
+2015-04-08T20:04:48 <Tsumenokage> :)
+2015-04-08T20:04:50 <yusei24130> salut
+2015-04-08T20:04:56 <ChordsTackler> Comment va ?
+2015-04-08T20:05:00 <lunayumii> je te préviens tant que j'y pense, au final y'aura Tsume, Yusei et TYrris demain midi xD
+2015-04-08T20:05:09 <lunayumii> woops tapé trop vite
+2015-04-08T20:05:10 <lunayumii> bref
+2015-04-08T20:05:25 <Tsumenokage> bien et toi ?
+2015-04-08T20:05:36 <lunayumii> Yusei a dit qu'il passerait après 12h20 quand il aura fini les cours ^^
+2015-04-08T20:05:42 <Tsumenokage> ouaip je serais la demain midi aussi^^
+2015-04-08T20:05:58 <lunayumii> ça te fera l'occasion de rencontrer 3 personnes que tu connais pas d'un coup xD
+2015-04-08T20:06:10 <ChordsTackler> Ok ^^
+2015-04-08T20:06:23 <lunayumii> et je vais essayer d'amener du gâteau au chocolat :3
+2015-04-08T20:06:31 <ChordsTackler> J'ai déjà vu Tsume il me semble
+2015-04-08T20:06:32 <ChordsTackler> ^^
+2015-04-08T20:06:49 <lunayumii> ouaip, mais pas moi, ni Tyrris ou Yusei ^^
+2015-04-08T20:07:04 <lunayumii> alors que ces deux-là je les connais du lycée, et Tsume depuis pas longtemps xD
+2015-04-08T20:07:05 <ChordsTackler> ah moi j'pourai pas emmené grand chose :/
+2015-04-08T20:07:11 <Tsumenokage> ouaip on s'était croisé à animasia
+2015-04-08T20:07:21 <lunayumii> t'en fais pas va, amène juste ce que t'a besoin pour manger xD
+2015-04-08T20:07:27 <ChordsTackler> J'prend mon plat de pates et du thé ^^'
+2015-04-08T20:07:53 <lunayumii> si il fait beau comme aujourd'hui, on pourra se poser dehors tranquillou ^^
+2015-04-08T20:08:11 <ChordsTackler> Woui ^^
+2015-04-08T20:10:14 <Tyrris> Dehors sur l'herbe, les cheveux au vent
+2015-04-08T20:10:21 <Tyrris> (Salut au fait XD)
+2015-04-08T20:10:34 <Tsumenokage> ^^
+2015-04-08T20:11:26 <Fidzu> bonsoir a ceux que je n'ai pas vu
+2015-04-08T20:11:39 <lunayumii> bsoir ! ^^
+2015-04-08T20:11:53 <Tsumenokage> Re Fidzu
+2015-04-08T20:12:06 <Fidzu> re
+2015-04-08T20:13:03 <ChordsTackler> Hey Fidzu, Tyrris
+2015-04-08T20:13:30 <Fidzu> comment va vous ?
+2015-04-08T20:13:44 <lunayumii> bien et toi ?
+2015-04-08T20:13:45 <Tsumenokage> bien pp
+2015-04-08T20:13:45 <Tsumenokage> ^^
+2015-04-08T20:13:53 <Fidzu> bien
+2015-04-08T20:14:53 <Fidzu> il y a du monde ce soir 0_o
+2015-04-08T20:15:02 <ChordsTackler> Ca va
+2015-04-08T20:15:16 <ChordsTackler> Ouaip ^^
+2015-04-08T20:16:49 <Fidzu> on a un peu abusé sur les mail tout a l'heure XD
+2015-04-08T20:18:25 <Tsumenokage> XD
+2015-04-08T20:18:41 <yusei24130> :)
+2015-04-08T20:26:14 <ChordsTackler> Complètement ^^
+2015-04-08T20:31:17 <Fidzu> moi tranquilement en train de regarder aypierre jouer a minecraft quand soudain : http://gyazo.com/aaa112328acd35a3d56c0341238a6e06
+2015-04-08T20:32:09 <lunayumii> xD
+2015-04-08T20:32:10 <lunayumii> epic
+2015-04-08T20:32:31 <Fidzu> c'est la deuxieme ref a fluffy que je vois dans cette map .. je crois que ce mapeur est brony ^^
+2015-04-08T20:32:37 <Tsumenokage> ... je veux ce mod ^^
+2015-04-08T20:32:48 <Fidzu> feed the beast =p
+2015-04-08T20:32:50 <yusei24130> XD
+2015-04-08T20:32:58 <Tsumenokage> ...sériseuement quel pack ?
+2015-04-08T20:33:24 <Fidzu> material energy^4
+2015-04-08T20:33:30 <Tsumenokage> ok
+2015-04-08T20:33:39 <Fidzu> c'est une map quette ctm
+2015-04-08T20:34:01 <Tsumenokage> je fonce modifier le pack de mod en fufu sur mon serv ^^ (les autres vont rager ùais m'en fous XD)
+2015-04-08T20:34:13 <Fidzu> XD
+2015-04-08T20:35:20 <yusei24130> ta raison :)
+2015-04-08T20:35:45 <ChordsTackler> PFUDOR ^^ cette chanson xD
+2015-04-08T20:35:50 <ChordsTackler> J'la trouve mortel
+2015-04-08T20:35:54 <Fidzu> dans un livre de cette map aussi, à la fin il y a marqué "Fluffle was here'
+2015-04-08T20:38:04 <Elvon> ChordsTackler> moi je me la passe en boucle tout le temps mais sans le son juste dab
+2015-04-08T20:38:12 <Elvon> *dans ma tete ^^
+2015-04-08T20:38:47 <Fidzu> pareil ^^
+2015-04-08T20:38:48 <ChordsTackler> Dit toi que son créateur ne l'a même pas fait à cause de MLP xD
+2015-04-08T20:39:52 <Fidzu> en tout cas son createur est un dieu
+2015-04-08T20:39:58 <Fidzu> j'adore ses truc
+2015-04-08T20:40:08 <ChordsTackler> Ouaip
+2015-04-08T20:40:19 <ChordsTackler> Dans sa vidéo il explique d'où ca vient ^^
+2015-04-08T20:50:07 <Fidzu> https://www.youtube.com/watch?v=rMFWc_FMhqs je m'en lasserais jamais
+2015-04-08T20:50:42 <yusei24130> idem
+2015-04-08T20:52:41 <Tyrris> la même
+2015-04-08T20:52:52 <yusei24130> http://danstonchat.com/15967.html
+2015-04-08T20:53:35 <Fidzu> mdr
+2015-04-08T20:54:06 <Tyrris> OP spoil xD
+2015-04-08T20:58:27 <ChordsTackler> ^^
+2015-04-08T20:58:58 <ChordsTackler> Faire gaf à certains spoil dans la vidéo de fidzu pour ceux qui en sont encore en saison deux ^^'
+2015-04-08T20:59:12 <Fidzu> ^^
+2015-04-08T20:59:41 <ChordsTackler> Maintenant se pose l'opération MEGA SPOIL ! :
+2015-04-08T20:59:54 <ChordsTackler> Etape 1 : Inventer une machine à voyager dans le temps.
+2015-04-08T21:00:10 <ChordsTackler> Etape 2 : Se cultiver en histoire.
+2015-04-08T21:00:19 <ChordsTackler> Etape 3 : Voyager dans le temps.
+2015-04-08T21:00:45 <Tyrris> Etape 4 : se spoiler soi-même
+2015-04-08T21:00:58 <ChordsTackler> Etape 4 : Et sans aucune pitié SPOILER toute l'histoire de France aux gens connus
+2015-04-08T21:01:03 <ChordsTackler> Mouhahaha
+2015-04-08T21:01:12 <yusei24130> ^^
+2015-04-08T21:01:26 <ChordsTackler> Voyager en 1714 et dire à Louis XIV  : Eh mon choux tu va mourir dans un ans :D
+2015-04-08T21:02:29 <lunayumii> Y'a le dessin animé Mr Peabody et Sherman à Travers le Temps, pour ce genre de trucs xD
+2015-04-08T21:02:51 <ChordsTackler> Oui ^^
+2015-04-08T21:02:55 <ChordsTackler> J'l'ai jamais vu ^^
+2015-04-08T21:03:16 <lunayumii> J'avais emmené une gamine dont je m'occupais en bénévolat le voir, l'année dernière ^^
+2015-04-08T21:03:35 <lunayumii> elle parle qu'Italien, elle pigé que quelques mots
+2015-04-08T21:03:39 <lunayumii> *a pigé
+2015-04-08T21:03:55 <lunayumii> mais ça a eu l'air de la faire marrer xD
+2015-04-08T21:04:28 <ChordsTackler> ^^
+2015-04-08T21:23:56 *** adriens33 est parti
+2015-04-08T21:33:23 <Fidzu> moi si je pouvais remonter dans le temps
+2015-04-08T21:33:28 <Fidzu> j'irais en 2011
+2015-04-08T21:33:41 <Fidzu> et je me dirais de regarder my little pony friendship is magic
+2015-04-08T21:35:01 <yusei24130> ^^
+2015-04-08T21:36:06 *** yusei24130 est parti
+2015-04-08T21:36:54 <Elvon> Pareil
+2015-04-08T21:36:59 <Elvon> re
+2015-04-08T21:36:59 <ChordsTackler> Moi perso
+2015-04-08T21:37:35 <ChordsTackler> Je pense que je détruirais la machine à voyager dans le temps ^^
+2015-04-08T21:37:55 <Tsumenokage> Pauvre fou ^^ on touche pas a la delorean ^^
+2015-04-08T21:37:59 <Tyrris> Moi j'irait dans le futur et je reviendrait avec TOUTES les saisons de MLP
+2015-04-08T21:38:26 <Fidzu> npn surtout pas
+2015-04-08T21:38:32 <Fidzu> il faut faire duuurer le plaisir !
+2015-04-08T21:39:05 <Fidzu> j'irais voir lauren et je lui fairais un gros calin
+2015-04-08T21:39:11 <Fidzu> elle me demanderas pourquoi j'ai fais ca
+2015-04-08T21:39:14 <Tyrris> Rien m'empêche de les regarder plusieurs fois
+2015-04-08T21:39:18 <Fidzu> et je lui dirais vou comprendrais dans quelques années
+2015-04-08T21:40:23 <Tyrris> Sur ce je vous souhaite à tous une bonne nuit !
+2015-04-08T21:40:36 <Tsumenokage> Bonne nuit Tyrris
+2015-04-08T21:40:37 *** Tyrris est parti
+2015-04-08T21:40:39 <Fidzu> bn
+2015-04-08T21:42:25 <Elvon> Bonne nuit le copiteur xp
+2015-04-08T21:43:33 <Fidzu> copiteur ?
+2015-04-08T21:48:39 <lunayumii> Nenuit les gens :3
+2015-04-08T21:48:53 <Fidzu> 'nuit
+2015-04-08T21:49:06 *** lunayumii est parti
+2015-04-08T21:49:53 <ChordsTackler> Ah la la j'ai lancé un débat voyage dans le temps ? NOW LETS TALK ABOUT PARADOXS !
+2015-04-08T21:51:27 <Tsumenokage> nope
+2015-04-08T21:51:34 <Tsumenokage> ^^
+2015-04-08T21:52:28 <Fidzu> parlons du paradox
+2015-04-08T21:52:31 <Fidzu> du voyage dans le temps
+2015-04-08T21:52:38 <Fidzu> paradox n°1
+2015-04-08T21:52:54 <Fidzu> voyager dans le temps signifie, creer/detruire de la matiere
+2015-04-08T21:53:00 <Fidzu> ce qui est impossible
+2015-04-08T21:53:07 <Fidzu> paradox°2
+2015-04-08T21:53:53 <Fidzu> si tu vas le temps avec un une musique de mozar, tu lui donne, tu lui dis de la faire et que ca aura du succes     donc il la fait et il a du succes
+2015-04-08T21:54:19 <Fidzu> maintenant la question est qui à ecrit cette musique ?
+2015-04-08T22:30:38 <Elvon> vouais moi je dis il a raison Fidzu
+2015-04-08T22:31:24 <Fidzu> biensur que j'ai raison !
+2015-04-08T22:33:20 <Elvon> juste tu fait quoi Bob ce samedi aprèm ? de 16h a 20h30?
+2015-04-08T22:44:51 <ChordsTackler> Si tu vas dans le passé avec un but te concernant
+2015-04-08T22:45:24 <ChordsTackler> tu crées un paradoxe en créant un futur où tu n'as pas créé la machine
+2015-04-08T22:45:27 <ChordsTackler> donc
+2015-04-08T22:45:32 <Elvon> Fidzu> tu me dit pour samedi?
+2015-04-08T22:45:37 <ChordsTackler> tu n'as pas voyagé dans le temps
+2015-04-08T22:46:37 <Tsumenokage> les paradoxes ça donne mal à le tête ^^
+2015-04-08T22:47:01 <Elvon> mouais
+2015-04-08T22:47:14 <Fidzu> mmh
+2015-04-08T22:47:46 <Fidzu> ce week end je comptais me reposer de la semaine et finir mes sculpture
+2015-04-08T22:47:54 <Fidzu> je pense pas que j'aurais envi de sortir ^^
+2015-04-08T22:49:20 *** ELiDYROS est parti
+2015-04-08T23:08:34 *** python_ircbot est parti
+2015-04-08T23:11:28 <Elvon> oki doki (une prochaine fois tampis ^^')
+2015-04-08T23:11:43 <Elvon> aller je fouéte une bonne nuit a tous j'y go
+2015-04-08T23:12:20 <Elvon> daccord
+2015-04-08T23:12:29 <Tsumenokage> bonne nuit Elvon ^^
+2015-04-08T23:12:46 * Elvon re range le fouet dans la boite prévue a cet effet.
+2015-04-08T23:13:12 * Elvon part en saluant tout les Poney et Brony dans le Bar.
+2015-04-08T23:13:15 *** Elvon est parti
+2015-04-08T23:28:25 <Fidzu> bonne nuit les gens
+2015-04-08T23:28:44 *** Fidzu est parti
+2015-04-08T23:28:47 <Tsumenokage> Ne nuit
+2015-04-08T23:59:09 *** TrappyTickles est parti
