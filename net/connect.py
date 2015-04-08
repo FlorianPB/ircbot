@@ -26,15 +26,21 @@ class Connect:
             self.socket.close()
             self.socket = None
 
-    def sendText(self, text, encoding="utf8"):
+    def sendText(self, text, encoding=""):
         """Sends text to the connection"""
         if self.socket != None:
-            self.socket.send(bytes(text, encoding))
+            if encoding != "":
+                self.socket.send(text.encode(encoding))
+            else:
+                self.socket.send(text.encode())
 
-    def waitText(self, encoding="utf8", bufSize=(2**16)-1):
+    def waitText(self, encoding="", bufSize=(2**16)-1):
         """Wait for text from the connection"""
         txt = ""
         if self.socket != None:
-            txt = str(self.socket.recv(bufSize), encoding)
+            if encoding != "":
+                txt = self.socket.recv(bufSize).decode(encoding)
+            else:
+                txt = self.socket.recv(bufSize).decode()
 
         return txt
