@@ -54,7 +54,7 @@ class IRC:
         """Executes event line"""
 
         # Transforms the buffer into UNIX line endings to ease the line splitting
-        ircLine = ircLine.replace("\r", "")
+        ircLine = ircLine.replace("\r", "\n").replace("\n\n", "\n")
 
         # If we get multiple lines at once, treat them separately
         # (plus it allows us to automatically strip the useless \n ending each line! yay!)
