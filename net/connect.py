@@ -38,9 +38,12 @@ class Connect:
         """Wait for text from the connection"""
         txt = ""
         if self.socket != None:
-            if encoding != "":
-                txt = self.socket.recv(bufSize).decode(encoding)
-            else:
-                txt = self.socket.recv(bufSize).decode()
+            try:
+                if encoding != "":
+                    txt = self.socket.recv(bufSize).decode(encoding)
+                else:
+                    txt = self.socket.recv(bufSize).decode()
+            except UnicodeDecodeError:
+                txt = ""
 
         return txt
