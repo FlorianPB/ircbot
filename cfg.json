@@ -1,0 +1,10 @@
+{
+	"nick": "python_ircbot",
+	"username": "pythonbot",
+	"realname": "IRC Python bot by Art Software",
+	"srv": "chat.freenode.net",
+	"port": 6667,
+	"channels": [
+		"#testircbot"
+	]
+}
