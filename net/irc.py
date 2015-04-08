@@ -42,8 +42,6 @@ class IRC:
             self.connection.sendText("PART %s :%s\r\n" % (chan, partMessage))
             self.log(self.connection.waitText(), "net.irc.part", util.log.DEBUG)
 
-            # self.writeLog(chan)
-
     def quit(self, partMessage="Bye bye !"):
         """Parts from the server"""
         for chan in self.chans.keys():
@@ -71,7 +69,7 @@ class IRC:
                 # For each event, call the hooks corresponding to the command in event[1] (JOIN, PRIVMSG etc, the event identifier)
                 # Passing irc obj reference, event line splitted
                 if len(evt)>=2 and self.hooks.__contains__(evt[1]):
-                    self.log("Looking for hooks for event %s" % evt[1], "net.irc.event", util.log.DEBUG)
+                    self.log("Looking for hooks for registered event %s" % evt[1], "net.irc.event", util.log.DEBUG)
                     for i in self.hooks[evt[1]]:
-                        self.log("Running hook function against this event", "net.irc.event", util.log.DEBUG)
+                        self.log("Running hook function %s.%s against this event" % (i.__module__, i.__name__), "net.irc.event", util.log.DEBUG)
                         i(self, evt)
