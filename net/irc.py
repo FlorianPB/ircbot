@@ -7,8 +7,8 @@ class IRC:
     """IRC basic methods"""
 
     def __init__(self, nick, connection, logMethod, username="IRCBot", realname="IRC Python bot"):
-        self.chans = {}
-        self.hooks = {"JOIN":[], "PART":[], "PRIVMSG":[]}
+        self.chans = []
+        self.hooks = {}
         self.nick = nick
         self.username = username
         self.realname = realname
@@ -28,23 +28,30 @@ class IRC:
 
     def join(self, chan):
         """Joins a channel if we aren't already in it"""
-        if not self.chans.keys().__contains__(chan):
+        if not self.chans.__contains__(chan):
             self.connection.sendText("JOIN %s\r\n" % chan)
             self.log(self.connection.waitText(), "net.irc.join", util.log.DEBUG)
 
-            self.chans[chan] = {"log": [], "eventFifo": []}
+            self.chans.append(chan)
 
         # If we already joined... do nothing more :]
 
     def part(self, chan, partMessage="Bye bye !"):
         """Parts from a channel"""
-        if self.chans.keys().__contains__(chan):
+        if self.chans.__contains__(chan):
             self.connection.sendText("PART %s :%s\r\n" % (chan, partMessage))
             self.log(self.connection.waitText(), "net.irc.part", util.log.DEBUG)
+            
+            i=0
+            for chanSearched in self.chans:
+                if chanSearched==chan:
+                    del self.chans[i]
+                    break
+                i+=1
 
     def quit(self, partMessage="Bye bye !"):
         """Parts from the server"""
-        for chan in self.chans.keys():
+        for chan in self.chans:
             self.part(chan, partMessage)
         self.connection.sendText("QUIT\r\n")
 
