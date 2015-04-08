@@ -26,5 +26,5 @@ def loadAllModules(data, logFunc):
             logFunc("Loading %s…" % moduleName, "util.modules", util.log.INFO)
             modules[moduleName] = importlib.import_module("events." + moduleName)
 
-            logFunc("Initializing module…", util.modules, util.log.INFO)
+            logFunc("Initializing module…", "util.modules", util.log.INFO)
             modules[moduleName].init(data)
