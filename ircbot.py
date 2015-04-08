@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
+import signal
 
 import util.log
 import util.cfg
@@ -9,6 +10,13 @@ import net.irc
 
 def runOnce():
     """Runs the bot once"""
+    dontStop = True
+
+    def sigHandler():
+        dontStop = False
+
+    signal.signal(signal.SIGINT, sigHandler)
+
     cfg = util.cfg.load()
 
     logger = util.log.Log("bot.log", file_l=util.log.DEBUG, stdout_l=util.log.DEBUG, stderr_l=util.log.WARNING)
@@ -25,16 +33,14 @@ def runOnce():
     for chan in cfg["channels"]:
         ircHandler.join(chan)
 
-    dontStop = True
 
     logger.log("IRC Server identication...", "init.bot", util.log.INFO)
-    try:
-        while dontStop:
-            ircHandler.event(connectHandler.waitText())
-    except:
-        ircHandler.quit()
-        connectHandler.stop()
-        logger.log("Stopped the bot. Bye!", "init.bot", util.log.NOTIF)
+    while dontStop:
+        ircHandler.event(connectHandler.waitText())
+
+    ircHandler.quit()
+    connectHandler.stop()
+    logger.log("Stopped the bot. Bye!", "init.bot", util.log.NOTIF)
 
 
 runOnce()
