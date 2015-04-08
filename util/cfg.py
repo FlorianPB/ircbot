@@ -20,7 +20,7 @@ def save(cfgData, place="./cfg.json"):
     place: the .json file path (default: ./cfg.json)"""
 
     with open(place, "w") as cfgFile:
-        json.dump(cfgFile, cfgData)
+        json.dump(cfgData, cfgFile)
 
 def load(place="./cfg.json"):
     """Loads cfg from file
@@ -33,3 +33,4 @@ def load(place="./cfg.json"):
         # No file ? Ok, create a shiny new file with default content ! :D
         cfgData = default
         save(cfgData, place)
+    return cfgData
