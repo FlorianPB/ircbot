@@ -71,7 +71,7 @@ def logSetModeChat(irc, evt):
     logFile = open("%s.log" % evt[2], "a")
     
     if len(evt) >= 5:
-        logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * MODE " + evt[3] + " défini pour " + evt[4] + "\n")
+        logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * Mode " + evt[3] + " défini pour " + evt[4] + " par " + evt[0][1:].split("!")[0] + "\n")
     else:
-        logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * MODE " + evt[3] + " défini sur " + evt[2] + "\n")
+        logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * Mode " + evt[3] + " défini sur " + evt[2] + " par " + evt[0][1:].split("!")[0] + "\n")
     logFile.close()
