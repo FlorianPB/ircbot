@@ -6,6 +6,8 @@ initData = {}
 
 ##### INIT the module (needed) #####
 def init(data):
+    global initData
+
     initData = data
     data["irc"].hooks["PRIVMSG"].append(logPrivMsgToChat)
     data["irc"].hooks["JOIN"].append(logJoinToChat)

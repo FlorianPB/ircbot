@@ -18,6 +18,8 @@ initData = {}
 
 ##### INIT the module (needed) #####
 def init(data):
+    global moduleData, initData
+
     data["irc"].hooks["PRIVMSG"].append(recvCommand)
     util.cfg.default = moduleData
     moduleData = util.cfg.load("commands.json")
