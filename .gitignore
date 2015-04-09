@@ -1,3 +1,6 @@
 __pycache__/
+.ssh/
+.viminfo
 *.log
 *.swp
+.bash_*

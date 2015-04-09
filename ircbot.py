@@ -17,7 +17,7 @@ def runOnce():
     # Unfortunately, it doesn's want to work (even with a nice try… except: it's no use :/)
     dontStop = True
 
-    def sigHandler():
+    def sigHandler(a, b):
         dontStop = False
 
     signal.signal(signal.SIGINT, sigHandler)
@@ -52,7 +52,7 @@ def runOnce():
         while True:
             ircHandler.event(connectHandler.waitText())
     except util.exceptions.StopException as e:
-        logger.log("Stop asked: %s" % e.args(0), "init.bot", util.log.WARNING)
+        logger.log("Stop asked: %s" % e.args[0], "init.bot", util.log.WARNING)
 
     # Theorically, sigHandler should set dontStop to False for us.
     # Practically, it doesn's do anything useful and python is simply killed of when ctlr-c'ing :(

@@ -6,6 +6,7 @@ import re
 
 import util.cfg
 import util.exceptions
+import util.log
 
 moduleData = {
         "cmdChar": "@",
@@ -25,9 +26,14 @@ def init(data):
     moduleData = util.cfg.load("commands.json")
     initData = data
 
+    # Register standard commands
+    regMainCmds()
+
 ##### register main cmds #####
 def regMainCmds():
     """Register main commands provided here"""
+    global registeredCmd
+
     registeredCmd["stop"] = cmdStop
 
 ##### hook functions #####
@@ -39,7 +45,6 @@ def recvCommand(evt):
     user = evt[0][1:].split("!")[0]
     tgt = evt[2]
     cmd = [evt[3][1:]]
-    canRun = True
     # We got some parameters here.. :]
     if len(evt)>4:
         cmd += evt[4:]
@@ -50,7 +55,7 @@ def recvCommand(evt):
 
     # No command char ? meh. Certainly a dumb user who is just talking.
     # Nevermind. *going back to sleep*
-    if cmd[0]!=moduleData["cmdChar"]:
+    if cmd[0][0]!=moduleData["cmdChar"]:
         return
 
     # Check execution privileges
@@ -60,16 +65,21 @@ def recvCommand(evt):
             if re.search(pattern, evt[0]) != None:
                 matches+=1
         if matches == 0:
-            canRun == False
+            initData["log"]("%s have no right to run %s" % (user, cmd[0][1:]), "events.simpleCommand.recvCommand", util.log.DEBUG)
+            return
 
     # Run command, if it was registered
     if registeredCmd.__contains__(cmd[0][1:]):
+        initData["log"]("%s is a registered command ! Running it." % cmd[0][1:], "events.simpleCommand.recvCommand", util.log.DEBUG)
         if len(cmd)>1:
             registeredCmd[cmd[0][1:]](initData["irc"], cmd[1:])
         else:
             registeredCmd[cmd[0][1:]](initData["irc"])
+    else:
+        initData["log"]("%s is not a registered command ! Sorry, I can't do anything. %s" % (cmd[0][1:],",".join(list(registeredCmd.keys()))), "events.simpleCommand.recvCommand", util.log.NOTIF)
 
 ###### Main commands #####
 def cmdStop(reason="bye guys !"):
     """Stop the bot properly"""
-    raise util.exceptions.StopException
+    initData["log"]("Stopping the bot", "events.simpleCommand.cmdStop", util.log.DEBUG)
+    raise util.exceptions.StopException("stop command triggered")

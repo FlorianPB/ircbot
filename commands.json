@@ -1,0 +1,8 @@
+{
+	"access": {
+		"stop": [
+			":adriens33!~adriens33@(home|homer)\\.art-software\\.fr"
+		]
+	},
+	"cmdChar": "@"
+}
