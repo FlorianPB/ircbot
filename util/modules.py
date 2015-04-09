@@ -10,6 +10,8 @@ modules={}
 
 def loadAllModules(data):
     """Load every module"""
+    global modules
+
     files = os.listdir("events")
     
     # Empty previously set up hooks

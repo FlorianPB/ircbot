@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
-"""Get commands from irc"""
+"""Get commands from irc
+
+init(data): init the module
+registerCommand(command, name, accessRules): register command under name, with optionnal accessRules list
+recvCommand(evt): run command detection against the current event line (space-splitted)"""
 
 import re
 
@@ -35,6 +39,20 @@ def regMainCmds():
     global registeredCmd
 
     registeredCmd["stop"] = cmdStop
+    registeredCmd["modules"] = cmdListModules
+
+def registerCommand(command, name, accessRules=[]):
+    """Register a command."""
+    global registeredCmd, moduleData
+    registeredCmd[name] = command
+
+    initData["log"]("Registered command %s" % name, "events.simpleCommands.registerCommand", util.log.INFO)
+
+    # Have some access rules ? register them and write them for future use (if we don't already have them).
+    if len(accessRules)>0 and not moduleData["access"].__contains__(name):
+        moduleData["access"][name] = accessRules
+        util.cfg.save(moduleData, "commands.json")
+
 
 ##### hook functions #####
 def recvCommand(evt):
@@ -64,7 +82,7 @@ def recvCommand(evt):
         for pattern in moduleData["access"][cmd[0][1:]]:
             if re.search(pattern, evt[0]) != None:
                 matches+=1
-        if matches == 0:
+        if matches == 0 and len(moduleData["access"][cmd[0][1:]])>0:
             initData["log"]("%s have no right to run %s" % (user, cmd[0][1:]), "events.simpleCommand.recvCommand", util.log.DEBUG)
             initData["connect"].sendText("PRIVMSG %s :Désolé %s, mais tu n'as pas le droit de faire cela.\r\n" % (tgt, user))
             return
@@ -73,9 +91,9 @@ def recvCommand(evt):
     if registeredCmd.__contains__(cmd[0][1:]):
         initData["log"]("%s is a registered command ! Running it." % cmd[0][1:], "events.simpleCommand.recvCommand", util.log.DEBUG)
         if len(cmd)>1:
-            registeredCmd[cmd[0][1:]]({"evt":evt, "user":user, "tgt": tgt}, cmd[1:])
+            registeredCmd[cmd[0][1:]]({"source":evt[0], "user":user, "tgt": tgt}, cmd[1:])
         else:
-            registeredCmd[cmd[0][1:]]({"evt":evt, "user":user, "tgt": tgt})
+            registeredCmd[cmd[0][1:]]({"source":evt[0], "user":user, "tgt": tgt})
     else:
         initData["log"]("%s is not a registered command ! Sorry, I can't do anything. %s" % (cmd[0][1:],",".join(list(registeredCmd.keys()))), "events.simpleCommand.recvCommand", util.log.NOTIF)
         initData["connect"].sendText("PRIVMSG %s :Désolé %s, mais je ne trouve pas la commande %s dans mes modules\r\n" % (tgt, user, cmd[0]))
@@ -85,3 +103,7 @@ def cmdStop(data, reason="bye guys !"):
     """Stop the bot properly"""
     initData["log"]("Stopping the bot", "events.simpleCommand.cmdStop", util.log.DEBUG)
     raise util.exceptions.StopException("stop command triggered")
+
+def cmdListModules(data):
+    """List loaded modules"""
+    initData["connect"].sendText("PRIVMSG %s :Loaded modules: %s\r\n" % (data["tgt"], ",".join(list(initData["modules"].keys()))))
