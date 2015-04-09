@@ -40,7 +40,7 @@ def runOnce():
     ircHandler.ident()
 
     # Load all our little dynamic modules, to do a lot of great stuff without tinkering in here directly
-    util.modules.loadAllModules({"irc":ircHandler, "log":logger.log})
+    util.modules.loadAllModules({"irc":ircHandler, "log":logger.log, "connect":connectHandler})
 
     for chan in cfg["channels"]:
         ircHandler.join(chan)

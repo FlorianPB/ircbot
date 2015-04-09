@@ -66,20 +66,22 @@ def recvCommand(evt):
                 matches+=1
         if matches == 0:
             initData["log"]("%s have no right to run %s" % (user, cmd[0][1:]), "events.simpleCommand.recvCommand", util.log.DEBUG)
+            initData["connect"].sendText("PRIVMSG %s :Désolé %s, mais tu n'as pas le droit de faire cela.\r\n" % (tgt, user))
             return
 
     # Run command, if it was registered
     if registeredCmd.__contains__(cmd[0][1:]):
         initData["log"]("%s is a registered command ! Running it." % cmd[0][1:], "events.simpleCommand.recvCommand", util.log.DEBUG)
         if len(cmd)>1:
-            registeredCmd[cmd[0][1:]](initData["irc"], cmd[1:])
+            registeredCmd[cmd[0][1:]]({"evt":evt, "user":user, "tgt": tgt}, cmd[1:])
         else:
-            registeredCmd[cmd[0][1:]](initData["irc"])
+            registeredCmd[cmd[0][1:]]({"evt":evt, "user":user, "tgt": tgt})
     else:
         initData["log"]("%s is not a registered command ! Sorry, I can't do anything. %s" % (cmd[0][1:],",".join(list(registeredCmd.keys()))), "events.simpleCommand.recvCommand", util.log.NOTIF)
+        initData["connect"].sendText("PRIVMSG %s :Désolé %s, mais je ne trouve pas la commande %s dans mes modules\r\n" % (tgt, user, cmd[0]))
 
 ###### Main commands #####
-def cmdStop(reason="bye guys !"):
+def cmdStop(data, reason="bye guys !"):
     """Stop the bot properly"""
     initData["log"]("Stopping the bot", "events.simpleCommand.cmdStop", util.log.DEBUG)
     raise util.exceptions.StopException("stop command triggered")
