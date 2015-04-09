@@ -38,8 +38,9 @@ def regMainCmds():
     """Register main commands provided here"""
     global registeredCmd
 
-    registeredCmd["stop"] = cmdStop
-    registeredCmd["modules"] = cmdListModules
+    registerCommand(cmdStop, "stop")
+    registerCommand(cmdListModules, "modules")
+    registerCommand(cmdHelp, "help")
 
 def registerCommand(command, name, accessRules=[]):
     """Register a command."""
@@ -71,6 +72,10 @@ def recvCommand(evt):
     if tgt==initData["irc"].nick:
         tgt=user
 
+    # Strip from empty items on the start (mainly because of spaces)
+    while len(cmd)>1 and len(cmd[0])<1:
+        del cmd[0]
+
     # No command char ? meh. Certainly a dumb user who is just talking.
     # Nevermind. *going back to sleep*
     if cmd[0][0]!=moduleData["cmdChar"]:
@@ -99,11 +104,48 @@ def recvCommand(evt):
         initData["connect"].sendText("PRIVMSG %s :Désolé %s, mais je ne trouve pas la commande %s dans mes modules\r\n" % (tgt, user, cmd[0]))
 
 ###### Main commands #####
-def cmdStop(data, reason="bye guys !"):
+def cmdStop(data, opts=[]):
     """Stop the bot properly"""
+
     initData["log"]("Stopping the bot", "events.simpleCommand.cmdStop", util.log.DEBUG)
     raise util.exceptions.StopException("stop command triggered")
 
-def cmdListModules(data):
+def cmdListModules(data, opts=[]):
     """List loaded modules"""
-    initData["connect"].sendText("PRIVMSG %s :Loaded modules: %s\r\n" % (data["tgt"], ",".join(list(initData["modules"].keys()))))
+
+    initData["connect"].sendText("PRIVMSG %s :Loaded modules: %s\r\n" % (data["tgt"], ",".join(list(initData["modules"].modules.keys()))))
+
+def cmdHelp(data, opts=[]):
+    """Display some help.
+    help command1 [command2 [command3 […]]]: display command's helptext
+    help module module1 [module2 [module3 […]]]: display module's helptext"""
+
+    # Show docstring as help
+    if len(opts)==0:
+        initData["connect"].sendText("PRIVMSG %s :Available commands: %s\r\n" % (data["tgt"], ",".join(list(registeredCmd.keys()))))
+    else:
+
+        # First param = module ? show module docstring
+        if opts[0] == "module":
+            del opts[0]
+
+            # Show help for each element
+            while len(opts)>=1:
+                if initData["modules"].modules.keys().__contains__(opts[0]):
+                    initData["connect"].sendText("PRIVMSG " + data["tgt"] + " :Help for module "  + opts[0] + ":\r\n")
+                    for line in initData["modules"].modules[opts[0]].__doc__.split("\n"):
+                        initData["connect"].sendText("PRIVMSG " + data["tgt"] + " :" + line + "\r\n")
+                else:
+                    initData["connect"].sendText("PRIVMSG " + data["tgt"] + " :Cannot find help for module '%s'\r\n" % opts[0])
+                del opts[0]
+        else:
+
+            # Show help for each element
+            while len(opts)>=1:
+                if registeredCmd.__contains__(opts[0]):
+                    initData["connect"].sendText("PRIVMSG " + data["tgt"] + " :Help for command "  + opts[0] + ":\r\n")
+                    for line in registeredCmd[opts[0]].__doc__.split("\n"):
+                        initData["connect"].sendText("PRIVMSG " + data["tgt"] + " :" + line + "\r\n")
+                else:
+                    initData["connect"].sendText("PRIVMSG " + data["tgt"] + " :Cannot find help for command '%s'\r\n" % opts[0])
+                del opts[0]

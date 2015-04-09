@@ -41,7 +41,7 @@ def runOnce():
     ircHandler.ident()
 
     # Load all our little dynamic modules, to do a lot of great stuff without tinkering in here directly
-    util.modules.loadAllModules({"irc":ircHandler, "log":logger.log, "connect":connectHandler, "modules":util.modules.modules})
+    util.modules.loadAllModules({"irc":ircHandler, "log":logger.log, "connect":connectHandler, "modules":util.modules})
 
     for chan in cfg["channels"]:
         ircHandler.join(chan)
@@ -58,7 +58,6 @@ def runOnce():
     # Theorically, sigHandler should set dontStop to False for us.
     # Practically, it doesn's do anything useful and python is simply killed of when ctlr-c'ing :(
     ircHandler.quit()
-    time.sleep(1)
 
     connectHandler.stop()
     logger.log("Stopped the bot. Bye!", "init.bot", util.log.NOTIF)
