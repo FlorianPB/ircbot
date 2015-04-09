@@ -4,6 +4,7 @@ import signal
 
 import util.log
 import util.cfg
+import util.exceptions
 import util.modules
 import net.connect
 import net.irc
@@ -39,7 +40,7 @@ def runOnce():
     ircHandler.ident()
 
     # Load all our little dynamic modules, to do a lot of great stuff without tinkering in here directly
-    util.modules.loadAllModules({"irc":ircHandler}, logger.log)
+    util.modules.loadAllModules({"irc":ircHandler, "log":logger.log})
 
     for chan in cfg["channels"]:
         ircHandler.join(chan)
@@ -47,8 +48,11 @@ def runOnce():
 
     # Now we are logged and we have set up some channels to talk into, we start the main event loop.
     logger.log("IRC Server identication...", "init.bot", util.log.INFO)
-    while dontStop:
-        ircHandler.event(connectHandler.waitText())
+    try:
+        while True:
+            ircHandler.event(connectHandler.waitText())
+    except util.exceptions.StopException as e:
+        logger.log("Stop asked: %s" % e.args(0), "init.bot", util.log.WARNING)
 
     # Theorically, sigHandler should set dontStop to False for us.
     # Practically, it doesn's do anything useful and python is simply killed of when ctlr-c'ing :(

@@ -8,7 +8,7 @@ import util.log
 
 modules={}
 
-def loadAllModules(data, logFunc):
+def loadAllModules(data):
     """Load every module"""
     files = os.listdir("events")
     
@@ -24,9 +24,12 @@ def loadAllModules(data, logFunc):
 
         # Load every file ending in *.py into the dictionnary, associating it's code with it's name
         if moduleFile[moduleNameLen-3:moduleNameLen] == ".py":
-            logFunc("Loading %s…" % moduleName, "util.modules", util.log.INFO)
+            data["log"]("Loading %s…" % moduleName, "util.modules", util.log.INFO)
             modules[moduleName] = importlib.import_module("events." + moduleName)
 
-            logFunc("Initializing module…", "util.modules", util.log.INFO)
+            # Show module Docstring
+            data["log"](modules[moduleName].__doc__, "util.modules", util.log.INFO)
+
             # Initializing module, mainly setting up hooks
+            data["log"]("Initializing module…", "util.modules", util.log.INFO)
             modules[moduleName].init(data)

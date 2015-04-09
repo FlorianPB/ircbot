@@ -79,4 +79,4 @@ class IRC:
                     self.log("Looking for hooks for registered event %s" % evt[1], "net.irc.event", util.log.DEBUG)
                     for i in self.hooks[evt[1]]:
                         self.log("Running hook function %s.%s against this event" % (i.__module__, i.__name__), "net.irc.event", util.log.DEBUG)
-                        i(self, evt)
+                        i(evt)

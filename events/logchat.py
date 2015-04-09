@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
+"""Log IRC events to channel-separated log files"""
 
+initData = {}
+
+##### INIT the module (needed) #####
 def init(data):
+    initData = data
     data["irc"].hooks["PRIVMSG"].append(logPrivMsgToChat)
     data["irc"].hooks["JOIN"].append(logJoinToChat)
     data["irc"].hooks["PART"].append(logPartFromChat)
@@ -9,7 +14,8 @@ def init(data):
     data["irc"].hooks["QUIT"].append(logQuitChat)
     data["irc"].hooks["MODE"].append(logSetModeChat)
 
-def logPrivMsgToChat(irc, evt):
+##### hook functions #####
+def logPrivMsgToChat(evt):
     """Print log to text"""
     from time import strftime
 
@@ -18,7 +24,7 @@ def logPrivMsgToChat(irc, evt):
     logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " <" + evt[0][1:].split("!")[0] + "> " + " ".join(evt[3:])[1:] + "\n")
     logFile.close()
 
-def logJoinToChat(irc, evt):
+def logJoinToChat(evt):
     """Print log to text"""
     from time import strftime
 
@@ -27,17 +33,17 @@ def logJoinToChat(irc, evt):
     logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " → " + evt[0][1:].split("!")[0] + " a rejoint le canal\n")
     logFile.close()
 
-def logChangeNick(irc, evt):
+def logChangeNick(evt):
     """Print log to text"""
     from time import strftime
-    for chan in irc.chans:
+    for chan in initData["irc"].chans:
         logFile = open("%s.log" % chan, "a")
     
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + evt[0][1:].split("!")[0] + " est désormais connu sous le nom de " + evt[2][1:] + "\n")
 
         logFile.close()
 
-def logPartFromChat(irc, evt):
+def logPartFromChat(evt):
     """Print log to text"""
     from time import strftime
 
@@ -50,11 +56,11 @@ def logPartFromChat(irc, evt):
 
     logFile.close()
 
-def logQuitChat(irc, evt):
+def logQuitChat(evt):
     """Print log to text"""
     from time import strftime
 
-    for chan in irc.chans:
+    for chan in initData["irc"].chans:
         logFile = open("%s.log" % chan, "a")
     
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " ← " + evt[0][1:].split("!")[0] + " s'est déconnecté")
@@ -64,7 +70,7 @@ def logQuitChat(irc, evt):
 
         logFile.close()
 
-def logSetModeChat(irc, evt):
+def logSetModeChat(evt):
     """Print log to text"""
     from time import strftime
 
