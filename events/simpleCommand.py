@@ -45,7 +45,7 @@ def recvCommand(evt):
         cmd += evt[4:]
 
     # If user talked to us in private message, answers him the same way
-    if tgt==irc.nick:
+    if tgt==initData["irc"].nick:
         tgt=user
 
     # No command char ? meh. Certainly a dumb user who is just talking.
@@ -65,9 +65,9 @@ def recvCommand(evt):
     # Run command, if it was registered
     if registeredCmd.__contains__(cmd[0][1:]):
         if len(cmd)>1:
-            registeredCmd[cmd[0][1:]](irc, cmd[1:])
+            registeredCmd[cmd[0][1:]](initData["irc"], cmd[1:])
         else:
-            registeredCmd[cmd[0][1:]](irc)
+            registeredCmd[cmd[0][1:]](initData["irc"])
 
 ###### Main commands #####
 def cmdStop(reason="bye guys !"):
