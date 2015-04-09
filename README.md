@@ -28,3 +28,7 @@ Ensuite, le bot se connecte au canal et est opérationnel.
 Les commandes sont préfixées par défaut de '!' (modifiable).
 Pour connaître la liste des commandes disponibles : !list
 Pour obtenir une aide sur chaque commande : !help <commande>
+
+## V3 ##
+La version 3 du bot le plus bourré d'irc arrive!
+Voyez la branche v3 pour voir où on en est ;)
