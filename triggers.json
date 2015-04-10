@@ -1,25 +1,26 @@
 {
-	"alcool": {
-		"expr": "([bB]i[e\u00e9\u00e8]re|[sS]ak[e\u00e9]|[rR]hum|[vV]in|[wW]hisky)",
-		"msg": [
-			"Punaise, j'ai soif\u2026",
-			"J'en veux *w*",
-			"Tu en as pour moi %user ?"
-		]
-	},
-	"manger": {
-		"expr": "[jJ]e.*(vai[ts]|par[ts]|go).*(miam|manger)",
-		"msg": [
-			"Bon app\u00e9tit, %user ! :)",
-			"Bon ap' %user"
-		]
+	"bonjour": {
+		"msg": ["Salut %user!", "Tiens bonjour %user!", "Coucou %user!", "Bien dormi %user ?"],
+		"expr": "([bB]onjour|[sS]alut|[cC]oucou|[pP]lop) ((tout )?le monde|les (gens|poneys|ponies)|le peuple)"
 	},
 	"boire": {
-		"expr": "([tT]u boi[ts]+ (beaucoup|trop|un peu)*[, ]*)[bB]erry([ -][pP]unch)?",
-		"msg": [
-			"Nah c'est pas vrai d'abord ><",
-			"Non je bois pas trop, je me sers un peu j'ai le droit non ? Tiens repasse moi la vodka s'il te plait..",
-			"Arr\u00eate de dire des betises et rends-moi ma bouteille."
-		]
+		"msg": ["Nah c'est pas vrai d'abord ><", "Non je bois pas trop, je me sers un peu j'ai le droit non ? Tiens repasse moi la vodka s'il te plait..", "Arr\u00eate de dire des betises et rends-moi ma bouteille."],
+		"expr": "(([tT]u (boi[ts]+|picoles?) ((beaucoup|trop|un peu) )*[, ]*)[bB]erry([ -][pP]unch)?|([bB]ot|[bB]erry([- ][pP]unch)?).*bourr\u00e9)"
+	},
+	"hl": {
+		"msg": ["Oui ?", "Qu'est-ce qu'il y a %user ?", "On me parle ?"],
+		"expr": "[bB]erry([ -][pP]unch)? *[?!]"
+	},
+	"alcool": {
+		"msg": ["Punaise, j'ai soif\u2026", "J'en veux *w*", "Tu en as pour moi %user ?"],
+		"expr": "([bB]i[e\u00e9\u00e8]re|[sS]ak[e\u00e9]|[rR]hum|[vV]in|[wW]hisky)"
+	},
+	"manger": {
+		"msg": ["Bon app\u00e9tit, %user ! :)", "Bon ap' %user"],
+		"expr": "[jJ]e.*(vai[ts]|par[ts]|go).*(miam|manger)"
+	},
+	"histo": {
+		"msg": ["http://www.art-software.fr/files/lastday_bronycub.php pour le principal, http://www.art-software.fr/files/lastday_bronycub-g33k.php pour le canal geek"],
+		"expr": "[hH]isto(rique)? ?\\?"
 	}
 }
