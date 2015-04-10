@@ -38,7 +38,8 @@ def regMainCmds():
     """Register main commands provided here"""
     global registeredCmd
 
-    registerCommand(cmdStop, "stop")
+    registerCommand(cmdStop, "stop", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    registerCommand(cmdAccess, "access", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
     registerCommand(cmdListModules, "modules")
     registerCommand(cmdHelp, "help")
     registerCommand(cmdSay, "say")
@@ -178,3 +179,57 @@ def cmdDo(data, opts=[]):
         del opts[0]
 
     initData["irc"].msg("\x01ACTION " + " ".join(opts[0:]) + "\x01", tgt)
+
+def cmdAccess(data, opts=[]):
+    """Manages access to commands
+    access command: list user able to run the command (if the command is restricted)
+    access command del number: del the numberth access list element for command
+    access command add rule [rule2 […]]: add access rule to command
+    access command edit ruleNumber ruleContent"""
+    global moduleData
+
+    if len(opts) == 1:
+        # Check rules for a defined command
+        if not moduleData["access"].__contains__(opts[0]):
+            initData["irc"].msg("This command is not restricted or does not exist.", data["tgt"])
+        else:
+            initData["irc"].msg("Access is granted to this command to :", data["tgt"])
+
+            # Command found, list the rules
+            num = 0
+            for rule in moduleData["acess"][opts[0]]:
+                initData["irc"].msg("%d: '%s'" % (num, rule), data["tgt"])
+                num += 1
+
+    elif len(opts)>=3:
+        # Delete a rule
+        if opts[1] == "del":
+            if len(moduleData["access"][opts[0]]) > opts[2]:
+                del moduleData["access"][opts[0]][opts[2]]
+                initData["irc"].msg("Rule deleted.", data["tgt"])
+
+            if len(moduleData["access"][opts[0]]) == 0:
+                initData["irc"].msg("No rule left, command is now unrestricted." % data["user"], data["tgt"])
+                del moduleData["access"][opts[0]]
+
+        # Add rules
+        if opts[1] == "add":
+            if not moduleData["access"].__contains__(opts[0]):
+                initData["irc"].msg("Command was not restricted, registering it into the access list", data["tgt"])
+                moduleData["access"][opts[0]] = []
+
+            for rule in opts[2:]:
+                moduleData["access"][opts[0]].append(rule)
+
+        # Edit a rule
+        if opts[1] == "edit" and len(opts) == 4:
+            if not moduleData["access"].__contains__(opts[0]):
+                initData["irc"].msg("This command is not restricted or does not exist.", data["tgt"])
+            else:
+                if len(moduleData["access"][opts[0]]) >= opts[2]:
+                    initData["irc"].msg("This rule number is invalid for this command.", data["tgt"])
+
+                moduleData["access"][opts[0]][opts[2]] = opts[3]
+
+        # Write everything back to the file
+        util.cfg.save(moduleData, "commands.json")
