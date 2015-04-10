@@ -41,6 +41,8 @@ def regMainCmds():
     registerCommand(cmdStop, "stop")
     registerCommand(cmdListModules, "modules")
     registerCommand(cmdHelp, "help")
+    registerCommand(cmdSay, "say")
+    registerCommand(cmdDo, "do")
 
 def registerCommand(command, name, accessRules=[]):
     """Register a command."""
@@ -149,3 +151,25 @@ def cmdHelp(data, opts=[]):
                 else:
                     initData["irc"].msg("Cannot find help for command '%s'" % opts[0], data["tgt"])
                 del opts[0]
+
+def cmdSay(data, opts=[]):
+    """Say something onto a defined channel (or the current one if not specified).
+    say [channel] blah blah"""
+
+    tgt = data["tgt"]
+    if len(opts)>=2 and initData["irc"].chans.__contains__(opts[0]):
+        tgt = opts[0]
+        del opts[0]
+
+    ircData["irc"].msg(" ".join(opts[0:]), tgt)
+
+def cmdDo(data, opts=[]):
+    """Do an action.
+    do [channel] blah blah"""
+    
+    tgt = data["tgt"]
+    if len(opts)>=2 and initData["irc"].chans.__contains__(opts[0]):
+        tgt = opts[0]
+        del opts[0]
+
+    ircData["irc"].msg("\x01ACTION " + " ".join(opts[0:]) + "\x01", tgt)
