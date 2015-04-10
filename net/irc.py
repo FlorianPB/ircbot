@@ -58,7 +58,7 @@ class IRC:
         """Sends a message
         message: the text to send
         dest: the target (#channel or nick)"""
-        self.connect.sendText("PRIVMSG " + dest + " :" + message + "\r\n")
+        self.connection.sendText("PRIVMSG " + dest + " :" + message + "\r\n")
 
 
     def event(self, ircLine):
