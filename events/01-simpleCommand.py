@@ -204,7 +204,9 @@ def cmdAccess(data, opts=[]):
     elif len(opts)>=3:
         # Delete a rule
         if opts[1] == "del":
-            if len(moduleData["access"][opts[0]]) > opts[2]:
+            if del(opts[2]) >= len(moduleData["access"][opts[0]]):
+                    initData["irc"].msg("This rule number is invalid for this command.", data["tgt"])
+            else:
                 del moduleData["access"][opts[0]][opts[2]]
                 initData["irc"].msg("Rule deleted.", data["tgt"])
 
