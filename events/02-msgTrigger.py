@@ -19,6 +19,8 @@ def init(data):
     triggers = util.cfg.load("triggers.json")
 
     data["modules"].modules["01-simpleCommand"].registerCommand(cmdDef, "def", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    data["modules"].modules["01-simpleCommand"].registerCommand(cmdTrg, "trg")
+    data["irc"].hooks["PRIVMSG"].append(msgHook)
 
 def cmdDef(data, opts=[]):
     """Defines a new trigger and it's associated message (or add a message to an existing trigger if it already exists)
@@ -49,6 +51,29 @@ def cmdDef(data, opts=[]):
         initData["irc"].msg("Sorry! Subcommand %s unknown." % opts[1], data["tgt"])
 
     util.cfg.save(triggers, "triggers.json")
+
+def cmdTrg(data, opts=[]):
+    """List active triggers:
+    trg: list all trigger namer
+    trg expr name: list expression for trigger name
+    trg msg name: list messages for trigger name"""
+    from time import sleep
+
+    if len(opts) == 0:
+        initData["irc"].msg("Loaded triggers: " + ",".join(list(triggers.keys())), data["tgt"])
+
+    if len(opts) == 2:
+        if opts[0] == "expr" and triggers.__contains__(opts[1]):
+            initData["irc"].msg("Expression for %s : %s" % (opts[1], triggers[opts[1]]["expr"]), data["tgt"])
+
+        elif opts[0] == "msg" and triggers.__contains__(opts[1]):
+            initData["irc"].msg("Message(s) for %s :" % opts[1], data["tgt"])
+            nb = 0
+            for message in triggers[opts[1]]["msg"]:
+                initData["irc"].msg("- %s" % message, data["tgt"])
+                nb += 1
+                if nb % 8 == 0:
+                    sleep(1)
 
 def msgHook(evt):
     """Hook for the event PRIVMSG"""
