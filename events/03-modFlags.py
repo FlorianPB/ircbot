@@ -31,7 +31,7 @@ def joinHook(evt):
     if userFlags.__contains__(evt[2]):
         for ident in userFlags[evt[2]].keys():
             if re.search(ident, nick) != None and userFlags[evt[2]][ident] != "":
-                initData["connect"].sendText("MODE " + userFlags[evt[2]][ident] + " " + evt[2] + "\r\n")
+                initData["connect"].sendText("MODE " + evt[2] + " " + userFlags[evt[2]][ident] + " " + nick + "\r\n")
 
 ##### Commands #####
 def cmdVoice(data, opts=[]):
