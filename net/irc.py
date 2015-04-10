@@ -66,7 +66,7 @@ class IRC:
         else:
             logFile = open(self.nick + ".log", "a")
 
-        logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + "<" + self.nick + "> " + message)
+        logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " <" + self.nick + "> " + message)
         logFile.close()
 
 
