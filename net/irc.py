@@ -54,6 +54,13 @@ class IRC:
 
         self.connection.sendText("QUIT\r\n")
 
+    def msg(self, message, dest):
+        """Sends a message
+        message: the text to send
+        dest: the target (#channel or nick)"""
+        self.connect.sendText("PRIVMSG " + dest + " :" + message + "\r\n")
+
+
     def event(self, ircLine):
         """Executes event line"""
 
@@ -72,7 +79,7 @@ class IRC:
                     self.log("Got pinged !", "net.irc.event", util.log.INFO)
                     self.connection.sendText("PONG " + evt[1][1:] + " " + evt[1])
 
-                # For each event, call the hooks corresponding to the command in event[1] (JOIN, PRIVMSG etc, the event identifier)
+                # For each event, call the hooks corresponding to the command in evt[1] (JOIN, PRIVMSG etc, the event identifier)
                 # Passing irc obj reference, event line splitted
                 if len(evt)>=2 and self.hooks.__contains__(evt[1]):
                     self.log("Looking for hooks for registered event %s" % evt[1], "net.irc.event", util.log.DEBUG)

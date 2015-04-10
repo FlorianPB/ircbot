@@ -89,7 +89,7 @@ def recvCommand(evt):
                 matches+=1
         if matches == 0 and len(moduleData["access"][cmd[0][1:]])>0:
             initData["log"]("%s have no right to run %s" % (user, cmd[0][1:]), "events.simpleCommand.recvCommand", util.log.DEBUG)
-            initData["connect"].sendText("PRIVMSG %s :Désolé %s, mais tu n'as pas le droit de faire cela.\r\n" % (tgt, user))
+            initData["irc"].msg("Désolé %s, mais tu n'as pas le droit de faire cela." % user, tgt)
             return
 
     # Run command, if it was registered
@@ -101,7 +101,7 @@ def recvCommand(evt):
             registeredCmd[cmd[0][1:]]({"source":evt[0], "user":user, "tgt": tgt})
     else:
         initData["log"]("%s is not a registered command ! Sorry, I can't do anything. %s" % (cmd[0][1:],",".join(list(registeredCmd.keys()))), "events.simpleCommand.recvCommand", util.log.NOTIF)
-        initData["connect"].sendText("PRIVMSG %s :Désolé %s, mais je ne trouve pas la commande %s dans mes modules\r\n" % (tgt, user, cmd[0]))
+        initData["irc"].msg("Désolé %s, mais je ne trouve pas la commande %s dans mes modules." % (user, cmd[0]), tgt)
 
 ###### Main commands #####
 def cmdStop(data, opts=[]):
@@ -113,7 +113,7 @@ def cmdStop(data, opts=[]):
 def cmdListModules(data, opts=[]):
     """List loaded modules"""
 
-    initData["connect"].sendText("PRIVMSG %s :Loaded modules: %s\r\n" % (data["tgt"], ",".join(list(initData["modules"].modules.keys()))))
+    initData["irc"].msg("Loaded modules: %s" % ",".join(list(initData["modules"].modules.keys())), data["tgt"])
 
 def cmdHelp(data, opts=[]):
     """Display some help.
@@ -122,7 +122,7 @@ def cmdHelp(data, opts=[]):
 
     # Show docstring as help
     if len(opts)==0:
-        initData["connect"].sendText("PRIVMSG %s :Available commands: %s\r\n" % (data["tgt"], ",".join(list(registeredCmd.keys()))))
+        initData["irc"].msg("Available commands: %s" % ",".join(list(registeredCmd.keys())), data["tgt"])
     else:
 
         # First param = module ? show module docstring
@@ -132,20 +132,20 @@ def cmdHelp(data, opts=[]):
             # Show help for each element
             while len(opts)>=1:
                 if initData["modules"].modules.keys().__contains__(opts[0]):
-                    initData["connect"].sendText("PRIVMSG " + data["tgt"] + " :Help for module "  + opts[0] + ":\r\n")
+                    initData["irc"].msg("Help for module "  + opts[0] + ":", data["tgt"])
                     for line in initData["modules"].modules[opts[0]].__doc__.split("\n"):
-                        initData["connect"].sendText("PRIVMSG " + data["tgt"] + " :" + line + "\r\n")
+                        initData["irc"].msg(line, data["tgt"])
                 else:
-                    initData["connect"].sendText("PRIVMSG " + data["tgt"] + " :Cannot find help for module '%s'\r\n" % opts[0])
+                    initData["irc"].msg("Cannot find help for module '%s'" % opts[0], data["tgt"])
                 del opts[0]
         else:
 
             # Show help for each element
             while len(opts)>=1:
                 if registeredCmd.__contains__(opts[0]):
-                    initData["connect"].sendText("PRIVMSG " + data["tgt"] + " :Help for command "  + opts[0] + ":\r\n")
+                    initData["irc"].msg("Help for command "  + opts[0] + ":", data["tgt"])
                     for line in registeredCmd[opts[0]].__doc__.split("\n"):
-                        initData["connect"].sendText("PRIVMSG " + data["tgt"] + " :" + line + "\r\n")
+                        initData["irc"].msg(line, data["tgt"])
                 else:
-                    initData["connect"].sendText("PRIVMSG " + data["tgt"] + " :Cannot find help for command '%s'\r\n" % opts[0])
+                    initData["irc"].msg("Cannot find help for command '%s'" % opts[0], data["tgt"])
                 del opts[0]
