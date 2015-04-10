@@ -15,5 +15,5 @@ def nickservIdent(evt):
     evt[0].lower() == ":nickserv!nickserv@services."
     if " ".join(evt[3:7]).lower() == ":this nickname is registered.":
         pw = input("NickServ password for " + evt[2] + " : ")
-        initData["connect"].sendText("PRIVMSG NickServ :IDENTIFY " + pw + "\r\n")
+        initData["connect"].sendText("PRIVMSG NickServ :IDENTIFY " + pw + "\r\n")
         del pw
