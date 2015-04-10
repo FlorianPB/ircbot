@@ -161,7 +161,7 @@ def cmdSay(data, opts=[]):
         tgt = opts[0]
         del opts[0]
 
-    ircData["irc"].msg(" ".join(opts[0:]), tgt)
+    initData["irc"].msg(" ".join(opts[0:]), tgt)
 
 def cmdDo(data, opts=[]):
     """Do an action.
@@ -172,4 +172,4 @@ def cmdDo(data, opts=[]):
         tgt = opts[0]
         del opts[0]
 
-    ircData["irc"].msg("\x01ACTION " + " ".join(opts[0:]) + "\x01", tgt)
+    initData["irc"].msg("\x01ACTION " + " ".join(opts[0:]) + "\x01", tgt)
