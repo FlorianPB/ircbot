@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
+"""Regular expression triggers on user messages."""
 
 import re
 from random import randint
