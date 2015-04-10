@@ -231,6 +231,7 @@ def cmdAccess(data, opts=[]):
                     initData["irc"].msg("This rule number is invalid for this command.", data["tgt"])
                 else:
                     moduleData["access"][opts[0]][int(opts[2])] = opts[3]
+                    initData["irc"].msg("Access rule edited.", data["tgt"])
 
         # Write everything back to the file
         util.cfg.save(moduleData, "commands.json")
