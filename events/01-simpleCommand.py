@@ -220,13 +220,14 @@ def cmdAccess(data, opts=[]):
 
             for rule in opts[2:]:
                 moduleData["access"][opts[0]].append(rule)
+            initData["irc"].msg("Rule(s) added.", data["tgt"])
 
         # Edit a rule
         if opts[1] == "edit" and len(opts) == 4:
             if not moduleData["access"].__contains__(opts[0]):
                 initData["irc"].msg("This command is not restricted or does not exist.", data["tgt"])
             else:
-                if int(opts2) >= len(moduleData["access"][opts[0]]):
+                if int(opts[2]) >= len(moduleData["access"][opts[0]]):
                     initData["irc"].msg("This rule number is invalid for this command.", data["tgt"])
                 else:
                     moduleData["access"][opts[0]][int(opts[2])] = opts[3]
