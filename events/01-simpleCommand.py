@@ -211,7 +211,7 @@ def cmdAccess(data, opts=[]):
                 initData["irc"].msg("Rule deleted.", data["tgt"])
 
             if len(moduleData["access"][opts[0]]) == 0:
-                initData["irc"].msg("No rule left, command is now unrestricted." % data["user"], data["tgt"])
+                initData["irc"].msg("No rule left, command is now unrestricted.", data["tgt"])
                 del moduleData["access"][opts[0]]
 
         # Add rules
