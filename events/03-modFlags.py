@@ -9,7 +9,7 @@ import util.cfg
 initData = {}
 userFlags = {}
 
-def init(data)
+def init(data):
     global initData, userFlags
 
     initData = data
