@@ -87,5 +87,5 @@ def msgHook(evt):
 
     for triggerName in triggers.keys():
         if re.search(triggers[triggerName]["expr"], txt) != None:
-            answer = triggers[triggerName]["msg"][randint(0, len(triggers[triggerName]["msg"]))]
+            answer = triggers[triggerName]["msg"][randint(0, len(triggers[triggerName]["msg"])-1)]
             initData["irc"].msg(answer.replace("%user", user), tgt)
