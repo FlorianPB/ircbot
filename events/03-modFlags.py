@@ -19,6 +19,7 @@ def init(data):
     data["modules"].modules["01-simpleCommand"].registerCommand(cmdOp, "op", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
     data["modules"].modules["01-simpleCommand"].registerCommand(cmdDeop, "deop", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
     data["modules"].modules["01-simpleCommand"].registerCommand(cmdKick, "kick", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    data["modules"].modules["01-simpleCommand"].registerCommand(cmdTopic, "topic", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
 
     util.cfg.default = userFlags
     userFlags = util.cfg.load("flags.json")
@@ -184,3 +185,18 @@ def cmdKick(data, opts=[]):
         reason = " :" + " ".join(opts[1:])
 
     initData["connect"].sendText("KICK " + chan + " " + nick + reason + "\r\n")
+
+def cmdTopic(data, opts=[]):
+    """Sets the topic
+    topic [chan] Topic bla bla"""
+
+    chan = data[tgt]
+    if chan[0]!='#':
+        chan = opts[0]
+        del opts[0]
+
+    if chan[0]!='#':
+        initData["irc"].msg("Sorry, you need to specify a channel in private mode", data["tgt"])
+        return
+
+    initData["connect"].sendText("TOPIC " + chan + " :" + " ".join(opts) + "\r\n")
