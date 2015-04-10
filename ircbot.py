@@ -37,7 +37,7 @@ def runOnce():
     # Now we need to tell to the IRC server who we pretend to be.
     logger.log("IRC Server identication...", "init.bot", util.log.INFO)
     ircHandler = net.irc.IRC(cfg["nick"], connectHandler, logger.log, cfg["username"], cfg["realname"])
-    ircHandler.hooks = {"JOIN":[], "PART":[], "QUIT":[], "PRIVMSG":[], "NICK":[], "MODE":[]}
+    ircHandler.hooks = {"JOIN":[], "PART":[], "QUIT":[], "PRIVMSG":[], "NICK":[], "MODE":[], "NOTICE":[]}
     ircHandler.ident()
 
     # Load all our little dynamic modules, to do a lot of great stuff without tinkering in here directly
