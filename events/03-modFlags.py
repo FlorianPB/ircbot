@@ -190,7 +190,7 @@ def cmdTopic(data, opts=[]):
     """Sets the topic
     topic [chan] Topic bla bla"""
 
-    chan = data[tgt]
+    chan = data["tgt"]
     if chan[0]!='#':
         chan = opts[0]
         del opts[0]
