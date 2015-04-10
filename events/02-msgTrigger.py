@@ -77,6 +77,7 @@ def cmdTrg(data, opts=[]):
 
 def msgHook(evt):
     """Hook for the event PRIVMSG"""
+
     user = evt[0][1:].split("!")[0]
     tgt = evt[2]
     txt = " ".join(evt[3:])[1:]
@@ -85,6 +86,6 @@ def msgHook(evt):
         tgt = user
 
     for triggerName in triggers.keys():
-        if re.search(triggerName["expr"], txt) != None:
-            answer = triggerName["msg"][randint(0, len(triggerName["msg"]))]
+        if re.search(triggers[triggerName]["expr"], txt) != None:
+            answer = triggers[triggerName]["msg"][randint(0, len(triggers[triggerName]["msg"]))]
             initData["irc"].msg(answer.replace("%user", user), tgt)
