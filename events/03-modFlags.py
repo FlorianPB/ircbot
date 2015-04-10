@@ -54,7 +54,7 @@ def cmdVoice(data, opts=[]):
         toSave = opts[1]
 
     if not userFlags.__contains__(toSave):
-        userFlags[toSave] == "+v"
+        userFlags[toSave] = "+v"
     elif userFlags[toSave].find("+v") == -1:
         userFlags[toSave] += "+v"
 
@@ -83,7 +83,7 @@ def cmdDevoice(data, opts=[]):
         toSave = opts[1]
 
     if not userFlags.__contains__(toSave):
-        userFlags[toSave] == "-v"
+        userFlags[toSave] = "-v"
     elif userFlags[toSave].find("+v") != -1:
         userFlags[toSave] = userFlags[toSave].replace("+v", "")
         if userFlags[toSave] == "":
@@ -113,7 +113,7 @@ def cmdOp(data, opts=[]):
         toSave = opts[1]
 
     if not userFlags.__contains__(toSave):
-        userFlags[toSave] == "+o"
+        userFlags[toSave] = "+o"
     elif userFlags[toSave].find("+o") == -1:
         userFlags[toSave] += "+o"
 
@@ -141,7 +141,7 @@ def cmdDeop(data, opts=[]):
         toSave = opts[1]
 
     if not userFlags.__contains__(toSave):
-        userFlags[toSave] == "-o"
+        userFlags[toSave] = "-o"
     elif userFlags[toSave].find("+o") != -1:
         userFlags[toSave] = userFlags[toSave].replace("+o", "")
         if userFlags[toSave] == "":
