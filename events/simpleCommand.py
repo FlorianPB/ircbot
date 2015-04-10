@@ -121,6 +121,7 @@ def cmdHelp(data, opts=[]):
     """Display some help.
     help command1 [command2 [command3 […]]]: display command's helptext
     help module module1 [module2 [module3 […]]]: display module's helptext"""
+    from time import sleep
 
     # Show docstring as help
     if len(opts)==0:
@@ -140,6 +141,8 @@ def cmdHelp(data, opts=[]):
                 else:
                     initData["irc"].msg("Cannot find help for module '%s'" % opts[0], data["tgt"])
                 del opts[0]
+                if len(opts)>0:
+                    sleep(1)
         else:
 
             # Show help for each element
@@ -151,6 +154,8 @@ def cmdHelp(data, opts=[]):
                 else:
                     initData["irc"].msg("Cannot find help for command '%s'" % opts[0], data["tgt"])
                 del opts[0]
+                if len(opts)>0:
+                    sleep(1)
 
 def cmdSay(data, opts=[]):
     """Say something onto a defined channel (or the current one if not specified).
