@@ -42,7 +42,7 @@ def cmdDef(data, opts=[]):
     elif opts[1] == "msg":
         # Adds a message
         if not triggers.__contains__(opts[0]):
-            triggers[opts[0]] = {"expr": " ", "msg":[]
+            triggers[opts[0]] = {"expr": " ", "msg":[]}
         triggers[opts[0]]["msg"].append(" ".join(opts[2:]))
         initData["irc"].msg("%s> Message added for Trigger '%s'" % (data["user"], opts[0]), data["tgt"])
     else:
