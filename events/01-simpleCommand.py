@@ -226,10 +226,10 @@ def cmdAccess(data, opts=[]):
             if not moduleData["access"].__contains__(opts[0]):
                 initData["irc"].msg("This command is not restricted or does not exist.", data["tgt"])
             else:
-                if len(moduleData["access"][opts[0]]) >= opts[2]:
+                if len(moduleData["access"][opts[0]]) >= int(opts[2]):
                     initData["irc"].msg("This rule number is invalid for this command.", data["tgt"])
 
-                moduleData["access"][opts[0]][opts[2]] = opts[3]
+                moduleData["access"][opts[0]][int(opts[2])] = opts[3]
 
         # Write everything back to the file
         util.cfg.save(moduleData, "commands.json")
