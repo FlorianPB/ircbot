@@ -197,7 +197,7 @@ def cmdAccess(data, opts=[]):
 
             # Command found, list the rules
             num = 0
-            for rule in moduleData["acess"][opts[0]]:
+            for rule in moduleData["access"][opts[0]]:
                 initData["irc"].msg("%d: '%s'" % (num, rule), data["tgt"])
                 num += 1
 
