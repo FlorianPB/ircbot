@@ -13,6 +13,7 @@ def loadAllModules(data):
     global modules
 
     files = os.listdir("events")
+    files.sort()
     
     # Empty previously set up hooks
     for hookName in data["irc"].hooks.keys():
