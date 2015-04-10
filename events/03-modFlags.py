@@ -28,9 +28,10 @@ def joinHook(evt):
     """Sets flags on join"""
     nick = evt[0][1:].split("!")[0]
 
-    for ident in userFlags.keys():
-        if re.search(ident, nick) != None and userFlags[ident] != "":
-            initData["connect"].sendText("MODE " + userFlags[ident] + " " + evt[2] + "\r\n")
+    if userFlags.__contains__(evt[2]):
+        for ident in userFlags[evt[2]].keys():
+            if re.search(ident, nick) != None and userFlags[evt[2]][ident] != "":
+                initData["connect"].sendText("MODE " + userFlags[evt[2]][ident] + " " + evt[2] + "\r\n")
 
 ##### Commands #####
 def cmdVoice(data, opts=[]):
@@ -42,6 +43,7 @@ def cmdVoice(data, opts=[]):
     toSave = nick
     chan = data["tgt"]
 
+
     if chan[0]!="#" and len(opts)>=2:
         chan = opts[1]
         del opts[1]
@@ -50,13 +52,16 @@ def cmdVoice(data, opts=[]):
         initData["irc"].msg("Channel not specified!", data["tgt"])
         return
 
+    if not userFlags.__contains__(chan):
+        userFlags[chan] = {}
+
     if len(opts)==2:
         toSave = opts[1]
 
-    if not userFlags.__contains__(toSave):
-        userFlags[toSave] = "+v"
-    elif userFlags[toSave].find("+v") == -1:
-        userFlags[toSave] += "+v"
+    if not userFlags[chan].__contains__(toSave):
+        userFlags[chan][toSave] = "+v"
+    elif userFlags[chan][toSave].find("+v") == -1:
+        userFlags[chan][toSave] += "+v"
 
     initData["connect"].sendText("MODE " + chan + " +v " + nick + "\r\n")
     util.cfg.save(userFlags, "flags.json")
@@ -79,15 +84,18 @@ def cmdDevoice(data, opts=[]):
         initData["irc"].msg("Channel not specified!", data["tgt"])
         return
 
+    if not userFlags.__contains__(chan):
+        userFlags[chan] = {}
+
     if len(opts)==2:
         toSave = opts[1]
 
-    if not userFlags.__contains__(toSave):
-        userFlags[toSave] = "-v"
-    elif userFlags[toSave].find("+v") != -1:
-        userFlags[toSave] = userFlags[toSave].replace("+v", "")
-        if userFlags[toSave] == "":
-            del userFlags[toSave]
+    if not userFlags[chan].__contains__(toSave):
+        userFlags[chan][toSave] = "-v"
+    elif userFlags[chan][toSave].find("+v") != -1:
+        userFlags[chan][toSave] = userFlags[chan][toSave].replace("+v", "")
+        if userFlags[chan][toSave] == "":
+            del userFlags[chan][toSave]
 
     initData["connect"].sendText("MODE " + chan + " -v " + nick + "\r\n")
     util.cfg.save(userFlags, "flags.json")
@@ -109,13 +117,16 @@ def cmdOp(data, opts=[]):
         initData["irc"].msg("Channel not specified!", data["tgt"])
         return
 
+    if not userFlags.__contains__(chan):
+        userFlags[chan] = {}
+
     if len(opts)==2:
         toSave = opts[1]
 
-    if not userFlags.__contains__(toSave):
-        userFlags[toSave] = "+o"
-    elif userFlags[toSave].find("+o") == -1:
-        userFlags[toSave] += "+o"
+    if not userFlags[chan].__contains__(toSave):
+        userFlags[chan][toSave] = "+o"
+    elif userFlags[chan][toSave].find("+o") == -1:
+        userFlags[chan][toSave] += "+o"
 
     initData["connect"].sendText("MODE " + chan + " +o " + nick + "\r\n")
     util.cfg.save(userFlags, "flags.json")
@@ -137,15 +148,18 @@ def cmdDeop(data, opts=[]):
         initData["irc"].msg("Channel not specified!", data["tgt"])
         return
 
+    if not userFlags.__contains__(chan):
+        userFlags[chan] = {}
+
     if len(opts)==2:
         toSave = opts[1]
 
-    if not userFlags.__contains__(toSave):
-        userFlags[toSave] = "-o"
-    elif userFlags[toSave].find("+o") != -1:
-        userFlags[toSave] = userFlags[toSave].replace("+o", "")
-        if userFlags[toSave] == "":
-            del userFlags[toSave]
+    if not userFlags[chan].__contains__(toSave):
+        userFlags[chan][toSave] = "-o"
+    elif userFlags[chan][toSave].find("+o") != -1:
+        userFlags[chan][toSave] = userFlags[chan][toSave].replace("+o", "")
+        if userFlags[chan][toSave] == "":
+            del userFlags[chan][toSave]
 
     initData["connect"].sendText("MODE " + chan + " -o " + nick + "\r\n")
     util.cfg.save(userFlags, "flags.json")
