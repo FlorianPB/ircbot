@@ -1,1 +1,25 @@
-{"alcool": {"expr": "([bB]i[e\u00e9\u00e8]re|[sS]ak[e\u00e9]|[rR]hum|[vV]in|[wW]hisky)", "msg": ["Punaise, j'ai soif\u2026", "J'en veux *w*", "Tu en as pour moi %user ?"]}, "manger": {"expr": "[jJ]e.*(vai[ts]|par[ts]|go).*(miam|manger)", "msg": ["Bon app\u00e9tit, %user ! :)", "Bon ap' %user"]}, "boire": {"expr": "([tT]u boi[ts]+ (beaucoup|trop|un peu)*[, ]*)[bB]erry([ -][pP]unch)?", "msg": ["Nah c'est pas vrai d'abord ><", "Non je bois pas trop, je me sers un peu j'ai le droit non ? Tiens repasse moi la vodka s'il te plait..", "Arr\u00eate de dire des betises et rends-moi ma bouteille."]}}
+{
+	"alcool": {
+		"expr": "([bB]i[e\u00e9\u00e8]re|[sS]ak[e\u00e9]|[rR]hum|[vV]in|[wW]hisky)",
+		"msg": [
+			"Punaise, j'ai soif\u2026",
+			"J'en veux *w*",
+			"Tu en as pour moi %user ?"
+		]
+	},
+	"manger": {
+		"expr": "[jJ]e.*(vai[ts]|par[ts]|go).*(miam|manger)",
+		"msg": [
+			"Bon app\u00e9tit, %user ! :)",
+			"Bon ap' %user"
+		]
+	},
+	"boire": {
+		"expr": "([tT]u boi[ts]+ (beaucoup|trop|un peu)*[, ]*)[bB]erry([ -][pP]unch)?",
+		"msg": [
+			"Nah c'est pas vrai d'abord ><",
+			"Non je bois pas trop, je me sers un peu j'ai le droit non ? Tiens repasse moi la vodka s'il te plait..",
+			"Arr\u00eate de dire des betises et rends-moi ma bouteille."
+		]
+	}
+}
