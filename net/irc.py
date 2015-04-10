@@ -60,7 +60,6 @@ class IRC:
         dest: the target (#channel or nick)"""
         from time import strftime
 
-        self.connection.sendText("PRIVMSG " + dest + " :" + message + "\r\n")
         if dest[0] == "#":
             logFile = open(dest + ".log", "a")
         else:
@@ -68,6 +67,7 @@ class IRC:
 
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " <" + self.nick + "> " + message + "\n")
         logFile.close()
+        self.connection.sendText("PRIVMSG " + dest + " :" + message + "\r\n")
 
 
     def event(self, ircLine):
