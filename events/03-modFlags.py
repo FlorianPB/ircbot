@@ -89,7 +89,7 @@ def cmdDevoice(data, opts=[]):
         if userFlags[toSave] == "":
             del userFlags[toSave]
 
-    initData["connect"].sendText("MODE " + chan + " -v " + nick + "\r\n")
+    initData["connect"].sendText("MODE " + chan + " -v " + nick + "\r\n")
     util.cfg.save(userFlags, "flags.json")
 
 def cmdOp(data, opts=[]):
@@ -117,7 +117,7 @@ def cmdOp(data, opts=[]):
     elif userFlags[toSave].find("+o") == -1:
         userFlags[toSave] += "+o"
 
-    initData["connect"].sendText("MODE " + chan + " +o " + nick + "\r\n")
+    initData["connect"].sendText("MODE " + chan + " +o " + nick + "\r\n")
     util.cfg.save(userFlags, "flags.json")
 
 def cmdDeop(data, opts=[]):
@@ -147,7 +147,7 @@ def cmdDeop(data, opts=[]):
         if userFlags[toSave] == "":
             del userFlags[toSave]
 
-    initData["connect"].sendText("MODE " + chan + " -o " + nick + "\r\n")
+    initData["connect"].sendText("MODE " + chan + " -o " + nick + "\r\n")
     util.cfg.save(userFlags, "flags.json")
 
 def cmdKick(data, opts=[]):
