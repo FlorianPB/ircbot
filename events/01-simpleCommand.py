@@ -171,7 +171,7 @@ def cmdSay(data, opts=[]):
             if initData["irc"].chans.__contains__(opts[0]):
                 chan = opts[0]
                 del opts[0]
-            if initData["irc"].chans.__contains__(chan):
+            elif not initData["irc"].chans.__contains__(chan):
                 initData["irc"].msg("Sorry, I have no valid channel to work with :/", data["tgt"])
                 return
     else:
@@ -191,7 +191,7 @@ def cmdDo(data, opts=[]):
             if initData["irc"].chans.__contains__(opts[0]):
                 chan = opts[0]
                 del opts[0]
-            if initData["irc"].chans.__contains__(chan):
+            elif not initData["irc"].chans.__contains__(chan):
                 initData["irc"].msg("Sorry, I have no valid channel to work with :/", data["tgt"])
                 return
     else:
@@ -213,7 +213,7 @@ def cmdMuffin(data, opts=[]):
         if len(opts)>=2:
             if initData["irc"].chans.__contains__(opts[1]):
                 chan = opts[1]
-            if initData["irc"].chans.__contains__(chan):
+            elif not initData["irc"].chans.__contains__(chan):
                 initData["irc"].msg("Sorry, I have no valid channel to work with :/", data["tgt"])
                 return
     else:
