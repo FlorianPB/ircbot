@@ -189,10 +189,12 @@ def cmdMuffin(data, opts=[]):
     from random import randint
 
     chan = data["tgt"]
-    if chan[0]!='#' and (len(opts)<2 or opts[1][0]!='#'):
-        initData["irc"].msg("You need to specify a channel in private mode", data["tgt"])
-        return
-    chan = opts[1]
+    if chan[0]!='#':
+        if (len(opts)<2 or opts[1][0]!='#'):
+            initData["irc"].msg("You need to specify a channel in private mode", data["tgt"])
+            return
+        else:
+            chan = opts[1]
     
     speed = randint(30, 2000)
     ircData["irc"].msg("\x01ACTION lance un muffin sur " + opts[0] + "à %d km/h\r\n" % speed, chan)
