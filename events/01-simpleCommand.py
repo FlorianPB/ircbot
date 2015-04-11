@@ -176,6 +176,7 @@ def cmdSay(data, opts=[]):
                 return
     else:
         initData["irc"].msg("Sorry, please read @help.", data["tgt"])
+        return
 
     initData["irc"].msg(" ".join(opts[0:]), chan)
 
@@ -195,6 +196,7 @@ def cmdDo(data, opts=[]):
                 return
     else:
         initData["irc"].msg("Sorry, please read @help.", data["tgt"])
+        return
 
     initData["irc"].msg("\x01ACTION " + " ".join(opts[0:]) + "\x01", chan)
 
@@ -216,6 +218,7 @@ def cmdMuffin(data, opts=[]):
                 return
     else:
         initData["irc"].msg("Sorry, please read @help.", data["tgt"])
+        return
     
     speed = randint(30, 2000)
     initData["irc"].msg("\x01ACTION lance un muffin sur " + opts[0] + " à %d km/h\r\n" % speed, chan)
