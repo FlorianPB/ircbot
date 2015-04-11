@@ -163,6 +163,9 @@ def cmdHelp(data, opts=[]):
 def cmdSay(data, opts=[]):
     """Say something onto a defined channel (or the current one if not specified).
     say [channel] blah blah"""
+    if len(opts)<1:
+        initData["irc"].msg("What ? Try @help ^^", data["tgt"])
+        return
 
     tgt = data["tgt"]
     if len(opts)>=2 and initData["irc"].chans.__contains__(opts[0]):
@@ -174,6 +177,9 @@ def cmdSay(data, opts=[]):
 def cmdDo(data, opts=[]):
     """Do an action.
     do [channel] blah blah"""
+    if len(opts)<1:
+        initData["irc"].msg("What ? Try @help ^^", data["tgt"])
+        return
     
     tgt = data["tgt"]
     if len(opts)>=2 and initData["irc"].chans.__contains__(opts[0]):
@@ -186,6 +192,10 @@ def cmdDo(data, opts=[]):
 def cmdMuffin(data, opts=[]):
     """Sends a muffin on someone.
     muffin nick [channel]"""
+    if len(opts)<1:
+        initData["irc"].msg("What ? Try @help ^^", data["tgt"])
+        return
+
     from random import randint
 
     chan = data["tgt"]
