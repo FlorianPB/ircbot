@@ -9,5 +9,5 @@
 		"stop": [":adriens33!~adriens33@(home|homer)\\.art-software\\.fr", ":[hH]euzef!~Thunderbi@"],
 		"devoice": [":adriens33!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~Thunderbi@"]
 	},
-	"cmdChar": "@"
+	"cmdChar": "!"
 }

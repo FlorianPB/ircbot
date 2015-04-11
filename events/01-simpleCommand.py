@@ -44,6 +44,7 @@ def regMainCmds():
     registerCommand(cmdHelp, "help")
     registerCommand(cmdSay, "say")
     registerCommand(cmdDo, "do")
+    registerCommand(cmdMuffin, "muffin")
 
 def registerCommand(command, name, accessRules=[]):
     """Register a command."""
@@ -158,6 +159,7 @@ def cmdHelp(data, opts=[]):
                 if len(opts)>0:
                     sleep(1)
 
+##### Says and dos #####
 def cmdSay(data, opts=[]):
     """Say something onto a defined channel (or the current one if not specified).
     say [channel] blah blah"""
@@ -180,6 +182,24 @@ def cmdDo(data, opts=[]):
 
     initData["irc"].msg("\x01ACTION " + " ".join(opts[0:]) + "\x01", tgt)
 
+# Muffin ! Yummy !
+def cmdMuffin(data, opts=[]):
+    """Sends a muffin on someone.
+    muffin nick [channel]"""
+    from random import randint
+
+    chan = data["tgt"]
+    if chan[0]!='#' and (len(opts)<2 or opts[1][0]!='#'):
+        initData["irc"].msg("You need to specify a channel in private mode", data["tgt"])
+        return
+    chan = opts[1]
+    
+    speed = randint(30, 2000)
+    ircData["irc"].msg("\x01ACTION lance un muffin sur " + opts[0] + "à %d km/h\r\n" % speed, chan)
+    if speed>=1224:
+        ircData["irc"].msg("MUFFIN RAINBOOM !!\r\n", chan)
+
+##### Command access rules. Wait man, this is serious shit done down there. Don't touch. #####
 def cmdAccess(data, opts=[]):
     """Manages access to commands
     access command: list user able to run the command (if the command is restricted)
