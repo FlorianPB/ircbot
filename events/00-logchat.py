@@ -24,7 +24,7 @@ def logPrivMsgToChat(evt):
     logFile = open("%s.log" % evt[2], "a")
     
     if evt[3] == ":\x01ACTION":
-        logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + evt[0][1:].split("!")[0] + " " + " ".join(evt[4:]) + "\n")
+        logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + evt[0][1:].split("!")[0] + " " + " ".join(evt[4:]).replace("\x01", "") + "\n")
     else:
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " <" + evt[0][1:].split("!")[0] + "> " + " ".join(evt[3:])[1:] + "\n")
     logFile.close()

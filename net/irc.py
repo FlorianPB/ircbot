@@ -66,7 +66,7 @@ class IRC:
             logFile = open(self.nick + ".log", "a")
 
         if message[0:7] == "\x01ACTION":
-            logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + self.nick + " " + message[8:] + "\n")
+            logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + self.nick + " " + message[8:].replace("\x01", "") + "\n")
         else:
             logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " <" + self.nick + "> " + message + "\n")
 
