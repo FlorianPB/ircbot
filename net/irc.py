@@ -65,7 +65,11 @@ class IRC:
         else:
             logFile = open(self.nick + ".log", "a")
 
-        logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " <" + self.nick + "> " + message + "\n")
+        if message[0:7] == "\x01ACTION":
+            logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + self.nick + " " + message[8:] + "\n")
+        else:
+            logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " <" + self.nick + "> " + message + "\n")
+
         logFile.close()
         self.connection.sendText("PRIVMSG " + dest + " :" + message + "\r\n")
 
