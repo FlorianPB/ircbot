@@ -197,9 +197,9 @@ def cmdMuffin(data, opts=[]):
             chan = opts[1]
     
     speed = randint(30, 2000)
-    ircData["irc"].msg("\x01ACTION lance un muffin sur " + opts[0] + "à %d km/h\r\n" % speed, chan)
+    initData["irc"].msg("\x01ACTION lance un muffin sur " + opts[0] + "à %d km/h\r\n" % speed, chan)
     if speed>=1224:
-        ircData["irc"].msg("MUFFIN RAINBOOM !!\r\n", chan)
+        initData["irc"].msg("MUFFIN RAINBOOM !!\r\n", chan)
 
 ##### Command access rules. Wait man, this is serious shit done down there. Don't touch. #####
 def cmdAccess(data, opts=[]):
