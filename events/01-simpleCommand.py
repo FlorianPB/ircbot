@@ -197,7 +197,7 @@ def cmdMuffin(data, opts=[]):
             chan = opts[1]
     
     speed = randint(30, 2000)
-    initData["irc"].msg("\x01ACTION lance un muffin sur " + opts[0] + "à %d km/h\r\n" % speed, chan)
+    initData["irc"].msg("\x01ACTION lance un muffin sur " + opts[0] + " à %d km/h\r\n" % speed, chan)
     if speed>=1224:
         initData["irc"].msg("MUFFIN RAINBOOM !!\r\n", chan)
 
