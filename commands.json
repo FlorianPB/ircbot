@@ -1,6 +1,7 @@
 {
 	"access": {
 		"access": [":adriens33!~adriens33@(home|homer)\\.art-software\\.fr"],
+		"topic": [":adriens33!~adriens33@(home|homer)\\.art-software\\.fr"],
 		"deop": [":adriens33!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~Thunderbi@"],
 		"def": [":adriens33!~adriens33@(home|homer)\\.art-software\\.fr"],
 		"voice": [":adriens33!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~Thunderbi@"],
