@@ -1,6 +1,7 @@
 __pycache__/
 .ssh/
 .viminfo
+.Trash/
 *.log
 *.swp
 .bash_*
