@@ -1,26 +1,30 @@
 {
-	"alcool": {
-		"expr": "([bB]i[e\u00e9\u00e8]re|[sS]ak[e\u00e9]|[rR]hum|[vV]in|[wW]hisky|[vV]odka|[eE]ntam.*(une|des) bouteilles?)",
-		"msg": ["Punaise, j'ai soif\u2026", "J'en veux *w*", "Tu en as pour moi %user ?"]
+	"histo": {
+		"expr": "[hH]isto(rique)? ?\\?",
+		"msg": ["http://www.art-software.fr/files/lastday_bronycub.php pour le principal, http://www.art-software.fr/files/lastday_bronycub-g33k.php pour le canal geek"]
 	},
 	"manger": {
 		"expr": "[jJ]e.*(vai[ts]|par[ts]|go).*(miam|manger)",
 		"msg": ["Bon app\u00e9tit, %user ! :)", "Bon ap' %user"]
 	},
-	"bonjour": {
-		"expr": "([bB]onjour|[sS]alut|[cC]oucou|[pP]lop|[yY]op) ((tout )?le monde|les (gens|poneys|ponies)|le peuple)",
-		"msg": ["Salut %user!", "Tiens bonjour %user!", "Coucou %user!", "Bien dormi %user ?"]
+	"alcool": {
+		"expr": "([bB]i[e\u00e9\u00e8]re|[sS]ak[e\u00e9]|[rR]hum|[vV]in|[wW]hisky|[vV]odka|[eE]ntam.*(une|des) bouteilles?)",
+		"msg": ["Punaise, j'ai soif\u2026", "J'en veux *w*", "Tu en as pour moi %user ?"]
 	},
-	"histo": {
-		"expr": "[hH]isto(rique)? ?\\?",
-		"msg": ["http://www.art-software.fr/files/lastday_bronycub.php pour le principal, http://www.art-software.fr/files/lastday_bronycub-g33k.php pour le canal geek"]
-	},
-	"hl": {
-		"expr": "[bB]erry([ -][pP]unch)? *[?!]",
-		"msg": ["Oui ?", "Qu'est-ce qu'il y a %user ?", "On me parle ?"]
+	"grr": {
+		"expr": "([gG]r(r{1,}|oump?f)|[fF]uck|[mM]erde|[pP]utain|fai[st] chier)",
+		"msg": ["\u0001ACTION donne une vodka a %user pour le calmer\u0001", "Tu veux boire un coup ? ;)", "D\u00e9tends-toi un peu *hic* :D"]
 	},
 	"boire": {
 		"expr": "(([tT]u (boi[ts]+|picoles?|est?) ((beaucoup|trop|un peu) (bourr\u00e9e|sa?o[u\u00fb]le)?)*[, ]*)[bB]erry([-][pP]unch)?|([bB]ot|[bB]erry([- ][pP]unch)?).*bourr\u00e9)",
 		"msg": ["Nah c'est pas vrai d'abord ><", "Non je bois pas trop, je me sers un peu j'ai le droit non ? Tiens repasse moi la vodka s'il te plait..", "Arr\u00eate de dire des betises et rends-moi ma bouteille."]
+	},
+	"bonjour": {
+		"expr": "([bB]onjour|[sS]alut|[cC]oucou|[pP]lop|[yY]op?) ((tout )?le monde|les (gens|poneys|ponies)|le peuple)",
+		"msg": ["Salut %user!", "Tiens bonjour %user!", "Coucou %user!", "Bien dormi %user ?"]
+	},
+	"hl": {
+		"expr": "[bB]erry([ -][pP]unch)? *[?!]",
+		"msg": ["Oui ?", "Qu'est-ce qu'il y a %user ?", "On me parle ?"]
 	}
 }

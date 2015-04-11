@@ -2,13 +2,13 @@
 	"access": {
 		"access": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr"],
 		"topic": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr"],
-		"deop": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~Thunderbi@"],
+		"deop": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~.*@"],
 		"def": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr"],
-		"voice": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~Thunderbi@"],
-		"op": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~Thunderbi@"],
-		"kick": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~Thunderbi@"],
-		"stop": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":[hH]euzef!~Thunderbi@"],
-		"devoice": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~Thunderbi@"]
+		"voice": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~.*@"],
+		"op": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~.*@"],
+		"kick": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~.*@"],
+		"stop": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":[hH]euzef!~.*@"],
+		"devoice": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~.*@"]
 	},
 	"cmdChar": "@"
 }
