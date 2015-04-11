@@ -163,48 +163,59 @@ def cmdHelp(data, opts=[]):
 def cmdSay(data, opts=[]):
     """Say something onto a defined channel (or the current one if not specified).
     say [channel] blah blah"""
-    if len(opts)<1:
-        initData["irc"].msg("What ? Try @help ^^", data["tgt"])
-        return
 
-    tgt = data["tgt"]
-    if len(opts)>=2 and initData["irc"].chans.__contains__(opts[0]):
-        tgt = opts[0]
-        del opts[0]
+    # Checks if there is a valid way to output to some connected channel
+    chan = data["tgt"]
+    if len(opts)>=1:
+        if len(opts)>=2:
+            if initData["irc"].chans.__contains__(opts[0]):
+                chan = opts[0]
+                del opts[0]
+            if initData["irc"].chans.__contains__(chan):
+                initData["irc"].msg("Sorry, I have no valid channel to work with :/", data["tgt"])
+                return
+    else:
+        initData["irc"].msg("Sorry, please read @help.", data["tgt"])
 
-    initData["irc"].msg(" ".join(opts[0:]), tgt)
+    initData["irc"].msg(" ".join(opts[0:]), chan)
 
 def cmdDo(data, opts=[]):
     """Do an action.
     do [channel] blah blah"""
-    if len(opts)<1:
-        initData["irc"].msg("What ? Try @help ^^", data["tgt"])
-        return
-    
-    tgt = data["tgt"]
-    if len(opts)>=2 and initData["irc"].chans.__contains__(opts[0]):
-        tgt = opts[0]
-        del opts[0]
 
-    initData["irc"].msg("\x01ACTION " + " ".join(opts[0:]) + "\x01", tgt)
+    # Checks if there is a valid way to output to some connected channel
+    chan = data["tgt"]
+    if len(opts)>=1:
+        if len(opts)>=2:
+            if initData["irc"].chans.__contains__(opts[0]):
+                chan = opts[0]
+                del opts[0]
+            if initData["irc"].chans.__contains__(chan):
+                initData["irc"].msg("Sorry, I have no valid channel to work with :/", data["tgt"])
+                return
+    else:
+        initData["irc"].msg("Sorry, please read @help.", data["tgt"])
+
+    initData["irc"].msg("\x01ACTION " + " ".join(opts[0:]) + "\x01", chan)
 
 # Muffin ! Yummy !
 def cmdMuffin(data, opts=[]):
     """Sends a muffin on someone.
     muffin nick [channel]"""
-    if len(opts)<1:
-        initData["irc"].msg("What ? Try @help ^^", data["tgt"])
-        return
 
     from random import randint
 
+    # Checks if there is a valid way to output to some connected channel
     chan = data["tgt"]
-    if chan[0]!='#':
-        if (len(opts)<2 or opts[1][0]!='#'):
-            initData["irc"].msg("You need to specify a channel in private mode", data["tgt"])
-            return
-        else:
-            chan = opts[1]
+    if len(opts)>=1:
+        if len(opts)>=2:
+            if initData["irc"].chans.__contains__(opts[1]):
+                chan = opts[1]
+            if initData["irc"].chans.__contains__(chan):
+                initData["irc"].msg("Sorry, I have no valid channel to work with :/", data["tgt"])
+                return
+    else:
+        initData["irc"].msg("Sorry, please read @help.", data["tgt"])
     
     speed = randint(30, 2000)
     initData["irc"].msg("\x01ACTION lance un muffin sur " + opts[0] + " à %d km/h\r\n" % speed, chan)
