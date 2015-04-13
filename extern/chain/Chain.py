@@ -25,6 +25,7 @@
 # │ │   │   discard oldest item
 # │ │   else:
 # │ │   │   outputs reaction (call net.irc.msg)
+# │ │   │   run actions if any (identified in the chain by an ID or a tag)
 # │ └───┴───refresh stack[nick] with found reaction add trigger
 # │ if no reaction found:
 # └─┴───put full chain in pendingStack[nick] to be added later by dev
@@ -45,3 +46,4 @@
 # - write / load pendingStacks to disk
 # - add bot name's regular expression in cfg.json (ie for Berry-Punch: '[bB]erry([ -][pP]unch)?')
 # - append user nick on each answer message for better clarity
+# - use the chain trigger action for sending mails, for example to warn about certains behaviours (person being sad / depressed / etc..)
