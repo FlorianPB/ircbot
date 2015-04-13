@@ -21,7 +21,7 @@ def logPrivMsgToChat(evt):
     """Print log to text"""
     from time import strftime
 
-    logFile = open("%s.log" % evt[2], "a")
+    logFile = open("log/%s.log" % evt[2], "a")
     
     if evt[3] == ":\x01ACTION":
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + evt[0][1:].split("!")[0] + " " + " ".join(evt[4:]).replace("\x01", "") + "\n")
@@ -33,7 +33,7 @@ def logJoinToChat(evt):
     """Print log to text"""
     from time import strftime
 
-    logFile = open("%s.log" % evt[2], "a")
+    logFile = open("log/%s.log" % evt[2], "a")
     
     logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " → " + evt[0][1:].split("!")[0] + " a rejoint le canal\n")
     logFile.close()
@@ -42,7 +42,7 @@ def logChangeNick(evt):
     """Print log to text"""
     from time import strftime
     for chan in initData["irc"].chans:
-        logFile = open("%s.log" % chan, "a")
+        logFile = open("log/%s.log" % chan, "a")
     
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + evt[0][1:].split("!")[0] + " est désormais connu sous le nom de " + evt[2][1:] + "\n")
 
@@ -52,7 +52,7 @@ def logPartFromChat(evt):
     """Print log to text"""
     from time import strftime
 
-    logFile = open("%s.log" % evt[2], "a")
+    logFile = open("log/%s.log" % evt[2], "a")
     
     logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " ← " + evt[0][1:].split("!")[0] + " est parti du canal")
     if len(evt)>=4:
@@ -66,7 +66,7 @@ def logQuitChat(evt):
     from time import strftime
 
     for chan in initData["irc"].chans:
-        logFile = open("%s.log" % chan, "a")
+        logFile = open("log/%s.log" % chan, "a")
     
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " ← " + evt[0][1:].split("!")[0] + " s'est déconnecté")
         if len(evt)>=3:
@@ -79,7 +79,7 @@ def logSetModeChat(evt):
     """Print log to text"""
     from time import strftime
 
-    logFile = open("%s.log" % evt[2], "a")
+    logFile = open("log/%s.log" % evt[2], "a")
     
     if len(evt) >= 5:
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * Mode " + evt[3] + " défini pour " + evt[4] + " par " + evt[0][1:].split("!")[0] + "\n")

@@ -61,9 +61,9 @@ class IRC:
         from time import strftime
 
         if dest[0] == "#":
-            logFile = open(dest + ".log", "a")
+            logFile = open("log/" + dest + ".log", "a")
         else:
-            logFile = open(self.nick + ".log", "a")
+            logFile = open("log/" + self.nick + ".log", "a")
 
         if message[0:7] == "\x01ACTION":
             logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + self.nick + " " + message[8:].replace("\x01", "") + "\n")

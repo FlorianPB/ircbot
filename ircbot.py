@@ -26,7 +26,7 @@ def runOnce():
     cfg = util.cfg.load()
 
     # Start the logger utility, to tell the user what we are secretly doing behind his back.
-    logger = util.log.Log("bot.log", file_l=util.log.DEBUG, stdout_l=util.log.DEBUG, stderr_l=util.log.WARNING)
+    logger = util.log.Log("log/bot.log", file_l=util.log.DEBUG, stdout_l=util.log.DEBUG, stderr_l=util.log.WARNING)
     logger.log("Started log", "init.bot", util.log.NOTIF)
 
     # Start the connection handler to the configured server. We are basically saying hello to their machine ^^
