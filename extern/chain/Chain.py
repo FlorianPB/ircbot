@@ -104,7 +104,7 @@ class ChainTrigger:
                         chain = []
 
         if not reaction:
-            self.pendingStack[nick].append((stack[nick],""))
+            self.pendingStack[nick].append((":".join(stack[nick]),""))
             util.cfg.save(self.pendingStack, "pendingStack.json")
 
     def joinHook(evt):
