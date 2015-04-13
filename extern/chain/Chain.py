@@ -113,6 +113,7 @@ class ChainTrigger:
         nick = evt[0][1:].split("!")[0]
         del self.stack[nick]
 
+# Move that to events/xx-chainedTriggers.py
 initData = {}
 chainTrg = None
 
