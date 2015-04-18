@@ -121,6 +121,9 @@ class ChainTrigger:
                 chainPath = trigger + ":" + chainPath
                 treePos = treePos["trg"][trigger]
             else:
+                # Even if we found something, if we couldn't apply the whole stack we add it there in case there will be something to improve.
+                self.pendingStack[nick].append((":".join(self.stack[nick]), "")
+                util.cfg.save(self.pendingStack, "pendingStack.json")
                 break
 
         # If we have any matching, we print the message if any
