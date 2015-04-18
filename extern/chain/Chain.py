@@ -128,16 +128,16 @@ class ChainTrigger:
 
         # If we have any matching, we print the message if any
         if chainPath != "":
-            chainPath = chainPath[0:len(chainPath)-1].split(":")
+            chainPath = chainPath[0:len(chainPath)-1]
 
             if treePos.__contains__("msg"):
-                initData["irc"].msg(nick + ": " + treePos["msg"])
+                initData["irc"].msg(nick + ": " + treePos["msg"].replace("%user", nick))
             else:
                 self.pendingStack[nick].append((chainPath, ""))
                 util.cfg.save(self.pendingStack, "pendingStack.json")
 
             # Append our contribution to the stack, to 'remember' what we said
-            stack[nick] = chainTrigger[0:len(chainTrigger)-1].split(":")
+            stack[nick] = chainPath.split(":")
             stack[nick].append(treePos["name"])
         else:
             # Nothing found ? Add unwound stack to pending items, to be able to add it manually in the chainTrigger tree
@@ -146,12 +146,14 @@ class ChainTrigger:
 
     def joinHook(evt):
         nick = evt[0][1:].split("!")[0]
-        self.stack[nick] = []
+        if not self.stack.__contains__(nick):
+            self.stack[nick] = []
         self.botLastMsg[nick] = 2
+        self.stack[nick].append("JOIN")
 
     def partHook(evt):
         nick = evt[0][1:].split("!")[0]
-        del self.stack[nick]
+        self.stack[nick].append("PART")
 
 # Move that to events/xx-chainedTriggers.py
 
