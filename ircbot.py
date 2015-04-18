@@ -94,11 +94,7 @@ try:
     while True:
         # While console is running, wait because user could want to start again the bot's connection
         if bot.isRunning:
-            try:
-                bot.ircEventLoop()
-            except:
-                import sys
-                bot.log.log("Exception caught: %s" % sys.exc_info().__str__(), "ircbot", util.log.WARNING)
+            bot.ircEventLoop()
         else:
             time.sleep(0.1)
 except:
