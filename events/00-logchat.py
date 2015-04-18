@@ -46,6 +46,9 @@ def logChangeNick(evt):
     """Print log to text"""
     from time import strftime
     for chan in bot.irc.chans:
+        if chan=="/dev/console":
+            continue
+
         logFile = open("log/%s.log" % chan, "a")
     
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + evt[0][1:].split("!")[0] + " est désormais connu sous le nom de " + evt[2][1:] + "\n")
@@ -70,6 +73,9 @@ def logQuitChat(evt):
     from time import strftime
 
     for chan in bot.irc.chans:
+        if chan == "/dev/console":
+            continue
+
         logFile = open("log/%s.log" % chan, "a")
     
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " ← " + evt[0][1:].split("!")[0] + " s'est déconnecté")
