@@ -74,11 +74,11 @@ import re
 import util.cfg
 
 class ChainTrigger:
-    def __init__(self, botPattern):
+    def __init__(self, botInstance):
         util.cfg.default = {}
+        self.bot = botInstance
         self.botLastMsg = {}
         self.stack = {}
-        self.botPattern = botPattern
 
         #  Loading triggers and pending stuff 
         self.triggers = util.cfg.load("triggers.json")
@@ -98,7 +98,7 @@ class ChainTrigger:
                 self.stack.append(trigger)
                 triggerFound = True
         
-        if self.botLastMsg[nick]>0 or re.search(self.botPattern, text) != None:
+        if self.botLastMsg[nick]>0 or re.search(self.bot.cfg["nickPattern"], text) != None:
             if not triggerFound:
                 self.pendingStack[nick].append((":".join(stack), text))
                 util.cfg.save(self.pendingStack, "pendingStack.json")
@@ -131,7 +131,7 @@ class ChainTrigger:
             chainPath = chainPath[0:len(chainPath)-1]
 
             if treePos.__contains__("msg"):
-                initData["irc"].msg(nick + ": " + treePos["msg"].replace("%user", nick))
+                self.bot.irc.msg(nick + ": " + treePos["msg"].replace("%user", nick))
             else:
                 self.pendingStack[nick].append((chainPath, ""))
                 util.cfg.save(self.pendingStack, "pendingStack.json")
@@ -164,7 +164,7 @@ def init(botInstance):
     global bot, chainTrg
 
     bot = botInstance
-    chainTrg = ChainTrigger(bot.cfg["nickRegexp"])
+    chainTrg = ChainTrigger(bot)
 
     bot.irc.hooks["PRIVMSG"].append(chainTrg.msgTrigger)
     bot.irc.hooks["JOIN"].append(chainTrg.joinHook)
