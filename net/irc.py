@@ -38,7 +38,7 @@ class IRC:
 
     def part(self, chan, partMessage="Bye bye !"):
         """Parts from a channel"""
-        if self.chans.__contains__(chan):
+        if self.chans.__contains__(chan) and chan != "/dev/console":    # Don't part from system console, never do that!
             if chan != "/dev/console":
                 self.connection.sendText("PART %s :\"%s\"\r\n" % (chan, partMessage))
                 self.log(self.connection.waitText(), "net.irc.part", util.log.DEBUG)

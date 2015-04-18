@@ -15,7 +15,10 @@ import util.log
 moduleData = {
         "cmdChar": "@",
         "access": {
-            "stop": [":adriens33!~adriens33@(home|homer)\.art-software\.fr"]
+            "stop": [":adriens33!~adriens33@(home|homer)\.art-software\.fr"],
+            "kill": [":adriens33!~adriens33@(home|homer)\.art-software\.fr"],
+            "start": [],    # from console only
+            "restart": [":adriens33!~adriens33@(home|homer)\.art-software\.fr"]
         }
 }
 registeredCmd = {}
@@ -40,6 +43,9 @@ def regMainCmds():
     global registeredCmd
 
     registerCommand(cmdStop, "stop", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    registerCommand(cmdStop, "kill", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    registerCommand(cmdStart, "start", [])
+    registerCommand(cmdRestart, "restart", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
     registerCommand(cmdAccess, "access", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
     registerCommand(cmdListModules, "modules")
     registerCommand(cmdHelp, "help")
@@ -115,12 +121,41 @@ def recvCommand(evt):
         bot.irc.msg("Désolé %s, mais je ne trouve pas la commande %s dans mes modules." % (user, cmd[0]), tgt)
 
 ###### Main commands #####
+
+### Bot state ###
 def cmdStop(data, opts=[]):
     """Stop the bot properly"""
+    if not bot.isRunning:
+        bot.irc.msg("Sorry, we already are stopped !", data["tgt"])
+        return
 
-    bot.log.log("Stopping the bot", "events.simpleCommand.cmdStop", util.log.DEBUG)
-    bot.isRunning = False
+    bot.log.log("Stopping the bot's irc connection", "events.simpleCommand.cmdStop", util.log.DEBUG)
+    bot.stop()
 
+def cmdKill(data, opts=[]):
+    """Really stop the bot (console included)"""
+    if bot.isRunning:
+        cmdStop(data, opts)
+
+    bot.consoleRunning = False
+
+
+def cmdStart(data, opts=[]):
+    """Starts the bot irc connection from console"""
+    if bot.isRunning:
+        bot.irc.msg("Sorry, we already are started !", data["tgt"])
+        return
+
+    bot.start()
+
+def cmdRestart(data, opts=[]):
+    """Stops and restarts the bot's connection and modules"""
+    if not bot.isRunning:
+        bot.stop()
+
+    bot.start()
+
+### Other commands ###
 def cmdListModules(data, opts=[]):
     """List loaded modules"""
 

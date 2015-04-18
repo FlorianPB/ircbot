@@ -23,12 +23,26 @@ class IRCBot:
 
         self.irc = net.irc.IRC(self.cfg["nick"], self.connect, self.log.log, self.cfg["username"], self.cfg["realname"])
         self.irc.hooks = {"JOIN": [], "PART": [], "QUIT": [], "PRIVMSG":[], "NICK":[], "MODE": [], "NOTICE": []}
+
+        # Set state booleans
         self.isRunning = False
+        self.consoleRunning = True
         self.joined = False
         self.identified = not self.cfg["waitNickserv"] # if we have to wait nickserv, set identified to False at startup.
 
+        # Add console channel to available channels, to allow modules to be able to recognize it
+        # as a valid channel
+        self.irc.join("/dev/console")
+
     def start(self):
         """Start the connection, the irc instance, load the modules"""
+        if self.isRunning:
+            # Already running, quit!!
+            return
+
+        self.joined = False
+        self.identified = not self.cfg["waitNickserv"] # if we have to wait nickserv, set identified to False at startup.
+
         self.log.log("Starting log", "ircbot", util.log.NOTIF)
         self.connect.start()
         self.irc.ident()
@@ -36,15 +50,10 @@ class IRCBot:
 
         self.isRunning = True
 
-
     def joinAll(self):
         # Opening all our chat channels
         for chan in self.cfg["channels"]:
             self.irc.join(chan)
-
-        # Add console channel to available channels, to allow modules to be able to recognize it
-        # as a valid channel
-        self.irc.join("/dev/console")
 
         self.joined = True
 
@@ -61,31 +70,34 @@ class IRCBot:
 
     def consoleEventLoop(self):
         """System console events"""
-        while self.isRunning:
+        while self.consoleRunning:
             if self.identified and self.joined:
                 self.irc.event(":admin!~admin@localhost PRIVMSG /dev/console :" + str(input("<admin> ")) + "\r\n")
-            else:
-                time.sleep(0.1)
+            time.sleep(0.1)
 
     def stop(self):
         self.irc.quit()
         self.connect.stop()
-        self.log.log("Bot has stopped. Bye !", "ircbot", util.log.NOTIF)
         self.isRunning = False
+        self.joined = False
 
 
 bot = IRCBot()
-bot.start()
 
 console = threading.Thread(None, bot.consoleEventLoop)
 console.start()
+bot.start()
 
-while bot.isRunning:
-    try:
-        bot.ircEventLoop()
-    except:
-        import sys
-        bot.log.log("Exception caught: %s, stopping  bot" % sys.exc_info().__str__(), "ircbot", util.log.WARNING)
+while bot.consoleRunning:
+    # While console is running, wait because user could want to start again the bot's connection
+    if bot.isRunning:
+        try:
+            bot.ircEventLoop()
+        except:
+            import sys
+            bot.log.log("Exception caught: %s" % sys.exc_info().__str__(), "ircbot", util.log.WARNING)
+    else:
+        sleep(0.1)
 
-bot.stop()
+bot.log.close()
 console.join()
