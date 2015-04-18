@@ -6,20 +6,21 @@ import re
 
 import util.cfg
 
-initData = {}
+bot = None
 userFlags = {}
 
-def init(data):
-    global initData, userFlags
+def init(botInstance):
+    global bot, userFlags
 
-    initData = data
-    data["irc"].hooks["JOIN"].append(joinHook)
-    data["modules"].modules["01-simpleCommand"].registerCommand(cmdVoice, "voice", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
-    data["modules"].modules["01-simpleCommand"].registerCommand(cmdDevoice, "devoice", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
-    data["modules"].modules["01-simpleCommand"].registerCommand(cmdOp, "op", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
-    data["modules"].modules["01-simpleCommand"].registerCommand(cmdDeop, "deop", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
-    data["modules"].modules["01-simpleCommand"].registerCommand(cmdKick, "kick", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
-    data["modules"].modules["01-simpleCommand"].registerCommand(cmdTopic, "topic", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    bot = botInstance
+
+    bot.irc.hooks["JOIN"].append(joinHook)
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdVoice, "voice", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdDevoice, "devoice", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdOp, "op", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdDeop, "deop", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdKick, "kick", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdTopic, "topic", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
 
     util.cfg.default = userFlags
     userFlags = util.cfg.load("flags.json")
@@ -32,7 +33,7 @@ def joinHook(evt):
     if userFlags.__contains__(evt[2]):
         for ident in userFlags[evt[2]].keys():
             if re.search(ident, nick) != None and userFlags[evt[2]][ident] != "":
-                initData["connect"].sendText("MODE " + evt[2] + " " + userFlags[evt[2]][ident] + " " + nick + "\r\n")
+                bot.connect.sendText("MODE " + evt[2] + " " + userFlags[evt[2]][ident] + " " + nick + "\r\n")
 
 ##### Commands #####
 def cmdVoice(data, opts=[]):
@@ -50,7 +51,7 @@ def cmdVoice(data, opts=[]):
         del opts[1]
 
     if chan[0]!="#":
-        initData["irc"].msg("Channel not specified!", data["tgt"])
+        bot.irc.msg("Channel not specified!", data["tgt"])
         return
 
     if not userFlags.__contains__(chan):
@@ -64,7 +65,7 @@ def cmdVoice(data, opts=[]):
     elif userFlags[chan][toSave].find("+v") == -1:
         userFlags[chan][toSave] += "+v"
 
-    initData["connect"].sendText("MODE " + chan + " +v " + nick + "\r\n")
+    bot.connect.sendText("MODE " + chan + " +v " + nick + "\r\n")
     util.cfg.save(userFlags, "flags.json")
 
 
@@ -82,7 +83,7 @@ def cmdDevoice(data, opts=[]):
         del opts[1]
 
     if chan[0]!="#":
-        initData["irc"].msg("Channel not specified!", data["tgt"])
+        bot.irc.msg("Channel not specified!", data["tgt"])
         return
 
     if not userFlags.__contains__(chan):
@@ -98,7 +99,7 @@ def cmdDevoice(data, opts=[]):
         if userFlags[chan][toSave] == "":
             del userFlags[chan][toSave]
 
-    initData["connect"].sendText("MODE " + chan + " -v " + nick + "\r\n")
+    bot.connect.sendText("MODE " + chan + " -v " + nick + "\r\n")
     util.cfg.save(userFlags, "flags.json")
 
 def cmdOp(data, opts=[]):
@@ -115,7 +116,7 @@ def cmdOp(data, opts=[]):
         del opts[1]
 
     if chan[0]!="#":
-        initData["irc"].msg("Channel not specified!", data["tgt"])
+        bot.irc.msg("Channel not specified!", data["tgt"])
         return
 
     if not userFlags.__contains__(chan):
@@ -129,7 +130,7 @@ def cmdOp(data, opts=[]):
     elif userFlags[chan][toSave].find("+o") == -1:
         userFlags[chan][toSave] += "+o"
 
-    initData["connect"].sendText("MODE " + chan + " +o " + nick + "\r\n")
+    bot.connect.sendText("MODE " + chan + " +o " + nick + "\r\n")
     util.cfg.save(userFlags, "flags.json")
 
 def cmdDeop(data, opts=[]):
@@ -146,7 +147,7 @@ def cmdDeop(data, opts=[]):
         del opts[1]
 
     if chan[0]!="#":
-        initData["irc"].msg("Channel not specified!", data["tgt"])
+        bot.irc.msg("Channel not specified!", data["tgt"])
         return
 
     if not userFlags.__contains__(chan):
@@ -162,7 +163,7 @@ def cmdDeop(data, opts=[]):
         if userFlags[chan][toSave] == "":
             del userFlags[chan][toSave]
 
-    initData["connect"].sendText("MODE " + chan + " -o " + nick + "\r\n")
+    bot.connect.sendText("MODE " + chan + " -o " + nick + "\r\n")
     util.cfg.save(userFlags, "flags.json")
 
 def cmdKick(data, opts=[]):
@@ -178,13 +179,13 @@ def cmdKick(data, opts=[]):
         del opts[1]
 
     if chan[0]!="#":
-        initData["irc"].msg("Channel not specified!", data["tgt"])
+        bot.irc.msg("Channel not specified!", data["tgt"])
         return
 
     if len(opts)>1:
         reason = " :" + " ".join(opts[1:])
 
-    initData["connect"].sendText("KICK " + chan + " " + nick + reason + "\r\n")
+    bot.connect.sendText("KICK " + chan + " " + nick + reason + "\r\n")
 
 def cmdTopic(data, opts=[]):
     """Sets the topic
@@ -196,7 +197,7 @@ def cmdTopic(data, opts=[]):
         del opts[0]
 
     if chan[0]!='#':
-        initData["irc"].msg("Sorry, you need to specify a channel in private mode", data["tgt"])
+        bot.irc.msg("Sorry, you need to specify a channel in private mode", data["tgt"])
         return
 
-    initData["connect"].sendText("TOPIC " + chan + " :" + " ".join(opts) + "\r\n")
+    bot.connect.sendText("TOPIC " + chan + " :" + " ".join(opts) + "\r\n")

@@ -8,7 +8,7 @@ import util.log
 
 modules={}
 
-def loadAllModules(data):
+def loadAllModules(botInstance):
     """Load every module"""
     global modules
 
@@ -16,8 +16,8 @@ def loadAllModules(data):
     files.sort()
     
     # Empty previously set up hooks
-    for hookName in data["irc"].hooks.keys():
-        data["irc"].hooks[hookName] = []
+    for hookName in botInstance.irc.hooks.keys():
+        botInstance.irc.hooks[hookName] = []
 
     modules = {}
 
@@ -27,12 +27,12 @@ def loadAllModules(data):
 
         # Load every file ending in *.py into the dictionnary, associating it's code with it's name
         if moduleFile[moduleNameLen-3:moduleNameLen] == ".py":
-            data["log"]("Loading %s…" % moduleName, "util.modules", util.log.INFO)
+            botInstance.log.log("Loading %s…" % moduleName, "util.modules", util.log.INFO)
             modules[moduleName] = importlib.import_module("events." + moduleName)
 
             # Show module Docstring
-            data["log"](modules[moduleName].__doc__, "util.modules", util.log.INFO)
+            botInstance.log.log(modules[moduleName].__doc__, "util.modules", util.log.INFO)
 
             # Initializing module, mainly setting up hooks
-            data["log"]("Initializing module…", "util.modules", util.log.INFO)
-            modules[moduleName].init(data)
+            botInstance.log.log("Initializing module…", "util.modules", util.log.INFO)
+            modules[moduleName].init(botInstance)

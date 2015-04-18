@@ -7,21 +7,21 @@ from random import randint
 
 import util.cfg
 
-initData = {}
+bot = None
 triggers = {}
 
-def init(data):
+def init(botInstance):
     """Inits the msgTrigger module"""
-    global initData, triggers
+    global bot, triggers
 
-    initData = data
+    bot = botInstance
 
     util.cfg.default = triggers
     triggers = util.cfg.load("triggers.json")
 
-    data["modules"].modules["01-simpleCommand"].registerCommand(cmdDef, "def", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
-    data["modules"].modules["01-simpleCommand"].registerCommand(cmdTrg, "trg")
-    data["irc"].hooks["PRIVMSG"].append(msgHook)
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdDef, "def", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdTrg, "trg")
+    bot.irc.hooks["PRIVMSG"].append(msgHook)
 
 def cmdDef(data, opts=[]):
     """Defines a new trigger and it's associated message (or add a message to an existing trigger if it already exists)
@@ -31,7 +31,7 @@ def cmdDef(data, opts=[]):
     global triggers
 
     if len(opts)<3:
-        initData["irc"].msg("Sorry! Not enought parameters. See help.", data["tgt"])
+        bot.irc.msg("Sorry! Not enought parameters. See help.", data["tgt"])
         return
 
     if opts[1] == "expr":
@@ -40,16 +40,16 @@ def cmdDef(data, opts=[]):
             triggers[opts[0]] = {"expr": " ".join(opts[2:]), "msg":[]}
         else:
             triggers[opts[0]]["expr"] = " ".join(opts[2:])
-        initData["irc"].msg("%s> Expression set for Trigger '%s'" % (data["user"], opts[0]), data["tgt"])
+        bot.irc.msg("%s> Expression set for Trigger '%s'" % (data["user"], opts[0]), data["tgt"])
 
     elif opts[1] == "msg":
         # Adds a message
         if not triggers.__contains__(opts[0]):
             triggers[opts[0]] = {"expr": " ", "msg":[]}
         triggers[opts[0]]["msg"].append(" ".join(opts[2:]))
-        initData["irc"].msg("%s> Message added for Trigger '%s'" % (data["user"], opts[0]), data["tgt"])
+        bot.irc.msg("%s> Message added for Trigger '%s'" % (data["user"], opts[0]), data["tgt"])
     else:
-        initData["irc"].msg("Sorry! Subcommand %s unknown." % opts[1], data["tgt"])
+        bot.irc.msg("Sorry! Subcommand %s unknown." % opts[1], data["tgt"])
 
     util.cfg.save(triggers, "triggers.json")
 
@@ -61,17 +61,17 @@ def cmdTrg(data, opts=[]):
     from time import sleep
 
     if len(opts) == 0:
-        initData["irc"].msg("Loaded triggers: " + ",".join(list(triggers.keys())), data["tgt"])
+        bot.irc.msg("Loaded triggers: " + ",".join(list(triggers.keys())), data["tgt"])
 
     if len(opts) == 2:
         if opts[0] == "expr" and triggers.__contains__(opts[1]):
-            initData["irc"].msg("Expression for %s : %s" % (opts[1], triggers[opts[1]]["expr"]), data["tgt"])
+            bot.irc.msg("Expression for %s : %s" % (opts[1], triggers[opts[1]]["expr"]), data["tgt"])
 
         elif opts[0] == "msg" and triggers.__contains__(opts[1]):
-            initData["irc"].msg("Message(s) for %s :" % opts[1], data["tgt"])
+            bot.irc.msg("Message(s) for %s :" % opts[1], data["tgt"])
             nb = 0
             for message in triggers[opts[1]]["msg"]:
-                initData["irc"].msg("- %s" % message, data["tgt"])
+                bot.irc.msg("- %s" % message, data["tgt"])
                 nb += 1
                 if nb % 8 == 0:
                     sleep(1)
@@ -83,10 +83,10 @@ def msgHook(evt):
     tgt = evt[2]
     txt = " ".join(evt[3:])[1:]
 
-    if tgt==initData["irc"].nick:
+    if tgt==bot.irc.nick:
         tgt = user
 
     for triggerName in triggers.keys():
         if re.search(triggers[triggerName]["expr"], txt) != None and len(triggers[triggerName]["msg"])>0:
             answer = triggers[triggerName]["msg"][randint(0, len(triggers[triggerName]["msg"])-1)]
-            initData["irc"].msg(answer.replace("%user", user), tgt)
+            bot.irc.msg(answer.replace("%user", user), tgt)

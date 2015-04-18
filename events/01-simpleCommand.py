@@ -19,16 +19,17 @@ moduleData = {
         }
 }
 registeredCmd = {}
-initData = {}
+bot = None
 
 ##### INIT the module (needed) #####
-def init(data):
-    global moduleData, initData
+def init(botInstance):
+    global moduleData, bot
 
-    data["irc"].hooks["PRIVMSG"].append(recvCommand)
+    bot = botInstance
+
+    bot.irc.hooks["PRIVMSG"].append(recvCommand)
     util.cfg.default = moduleData
     moduleData = util.cfg.load("commands.json")
-    initData = data
 
     # Register standard commands
     regMainCmds()
@@ -51,7 +52,7 @@ def registerCommand(command, name, accessRules=[]):
     global registeredCmd, moduleData
     registeredCmd[name] = command
 
-    initData["log"]("Registered command %s" % name, "events.simpleCommands.registerCommand", util.log.INFO)
+    bot.log.log("Registered command %s" % name, "events.simpleCommands.registerCommand", util.log.INFO)
 
     # Have some access rules ? register them and write them for future use (if we don't already have them).
     if len(accessRules)>0 and not moduleData["access"].__contains__(name):
@@ -73,7 +74,7 @@ def recvCommand(evt):
         cmd += evt[4:]
 
     # If user talked to us in private message, answers him the same way
-    if tgt==initData["irc"].nick:
+    if tgt==bot.irc.nick:
         tgt=user
 
     # Strip from empty items on the start (mainly because of spaces)
@@ -92,32 +93,32 @@ def recvCommand(evt):
             if re.search(pattern, evt[0]) != None:
                 matches+=1
         if matches == 0 and len(moduleData["access"][cmd[0][1:]])>0:
-            initData["log"]("%s have no right to run %s" % (user, cmd[0][1:]), "events.simpleCommand.recvCommand", util.log.DEBUG)
-            initData["irc"].msg("Désolé %s, mais tu n'as pas le droit de faire cela." % user, tgt)
+            bot.log.log("%s have no right to run %s" % (user, cmd[0][1:]), "events.simpleCommand.recvCommand", util.log.DEBUG)
+            bot.irc.msg("Désolé %s, mais tu n'as pas le droit de faire cela." % user, tgt)
             return
 
     # Run command, if it was registered
     if registeredCmd.__contains__(cmd[0][1:]):
-        initData["log"]("%s is a registered command ! Running it." % cmd[0][1:], "events.simpleCommand.recvCommand", util.log.DEBUG)
+        bot.log.log("%s is a registered command ! Running it." % cmd[0][1:], "events.simpleCommand.recvCommand", util.log.DEBUG)
         if len(cmd)>1:
             registeredCmd[cmd[0][1:]]({"source":evt[0], "user":user, "tgt": tgt}, cmd[1:])
         else:
             registeredCmd[cmd[0][1:]]({"source":evt[0], "user":user, "tgt": tgt})
     else:
-        initData["log"]("%s is not a registered command ! Sorry, I can't do anything. %s" % (cmd[0][1:],",".join(list(registeredCmd.keys()))), "events.simpleCommand.recvCommand", util.log.NOTIF)
-        initData["irc"].msg("Désolé %s, mais je ne trouve pas la commande %s dans mes modules." % (user, cmd[0]), tgt)
+        bot.log.log("%s is not a registered command ! Sorry, I can't do anything. %s" % (cmd[0][1:],",".join(list(registeredCmd.keys()))), "events.simpleCommand.recvCommand", util.log.NOTIF)
+        bot.irc.msg("Désolé %s, mais je ne trouve pas la commande %s dans mes modules." % (user, cmd[0]), tgt)
 
 ###### Main commands #####
 def cmdStop(data, opts=[]):
     """Stop the bot properly"""
 
-    initData["log"]("Stopping the bot", "events.simpleCommand.cmdStop", util.log.DEBUG)
+    bot.log.log("Stopping the bot", "events.simpleCommand.cmdStop", util.log.DEBUG)
     raise util.exceptions.StopException("stop command triggered")
 
 def cmdListModules(data, opts=[]):
     """List loaded modules"""
 
-    initData["irc"].msg("Loaded modules: %s" % ",".join(list(initData["modules"].modules.keys())), data["tgt"])
+    bot.irc.msg("Loaded modules: %s" % ",".join(list(initData["modules"].modules.keys())), data["tgt"])
 
 def cmdHelp(data, opts=[]):
     """Display some help.
@@ -127,7 +128,7 @@ def cmdHelp(data, opts=[]):
 
     # Show docstring as help
     if len(opts)==0:
-        initData["irc"].msg("Available commands: %s" % ",".join(list(registeredCmd.keys())), data["tgt"])
+        bot.irc.msg("Available commands: %s" % ",".join(list(registeredCmd.keys())), data["tgt"])
     else:
 
         # First param = module ? show module docstring
@@ -136,12 +137,12 @@ def cmdHelp(data, opts=[]):
 
             # Show help for each element
             while len(opts)>=1:
-                if initData["modules"].modules.keys().__contains__(opts[0]):
-                    initData["irc"].msg("Help for module "  + opts[0] + ":", data["tgt"])
-                    for line in initData["modules"].modules[opts[0]].__doc__.split("\n"):
-                        initData["irc"].msg(line, data["tgt"])
+                if bot.modules.modules.keys().__contains__(opts[0]):
+                    bot.irc.msg("Help for module "  + opts[0] + ":", data["tgt"])
+                    for line in bot.modules.modules[opts[0]].__doc__.split("\n"):
+                        bot.irc.msg(line, data["tgt"])
                 else:
-                    initData["irc"].msg("Cannot find help for module '%s'" % opts[0], data["tgt"])
+                    bot.irc.msg("Cannot find help for module '%s'" % opts[0], data["tgt"])
                 del opts[0]
                 if len(opts)>0:
                     sleep(1)
@@ -150,11 +151,11 @@ def cmdHelp(data, opts=[]):
             # Show help for each element
             while len(opts)>=1:
                 if registeredCmd.__contains__(opts[0]):
-                    initData["irc"].msg("Help for command "  + opts[0] + ":", data["tgt"])
+                    bot.irc.msg("Help for command "  + opts[0] + ":", data["tgt"])
                     for line in registeredCmd[opts[0]].__doc__.split("\n"):
-                        initData["irc"].msg(line, data["tgt"])
+                        bot.irc.msg(line, data["tgt"])
                 else:
-                    initData["irc"].msg("Cannot find help for command '%s'" % opts[0], data["tgt"])
+                    bot.irc.msg("Cannot find help for command '%s'" % opts[0], data["tgt"])
                 del opts[0]
                 if len(opts)>0:
                     sleep(1)
@@ -168,17 +169,17 @@ def cmdSay(data, opts=[]):
     chan = data["tgt"]
     if len(opts)>=1:
         if len(opts)>=2:
-            if initData["irc"].chans.__contains__(opts[0]):
+            if bot.irc.chans.__contains__(opts[0]):
                 chan = opts[0]
                 del opts[0]
-            elif not initData["irc"].chans.__contains__(chan):
-                initData["irc"].msg("Sorry, I have no valid channel to work with :/", data["tgt"])
+            elif not bot.irc.chans.__contains__(chan):
+                bot.irc.msg("Sorry, I have no valid channel to work with :/", data["tgt"])
                 return
     else:
-        initData["irc"].msg("Sorry, please read @help.", data["tgt"])
+        bot.irc.msg("Sorry, please read @help.", data["tgt"])
         return
 
-    initData["irc"].msg(" ".join(opts[0:]), chan)
+    bot.irc.msg(" ".join(opts[0:]), chan)
 
 def cmdDo(data, opts=[]):
     """Do an action.
@@ -188,17 +189,17 @@ def cmdDo(data, opts=[]):
     chan = data["tgt"]
     if len(opts)>=1:
         if len(opts)>=2:
-            if initData["irc"].chans.__contains__(opts[0]):
+            if bot.irc.chans.__contains__(opts[0]):
                 chan = opts[0]
                 del opts[0]
-            elif not initData["irc"].chans.__contains__(chan):
-                initData["irc"].msg("Sorry, I have no valid channel to work with :/", data["tgt"])
+            elif not bot.irc.chans.__contains__(chan):
+                bot.irc.msg("Sorry, I have no valid channel to work with :/", data["tgt"])
                 return
     else:
-        initData["irc"].msg("Sorry, please read @help.", data["tgt"])
+        bot.irc.msg("Sorry, please read @help.", data["tgt"])
         return
 
-    initData["irc"].msg("\x01ACTION " + " ".join(opts[0:]) + "\x01", chan)
+    bot.irc.msg("\x01ACTION " + " ".join(opts[0:]) + "\x01", chan)
 
 # Muffin ! Yummy !
 def cmdMuffin(data, opts=[]):
@@ -211,19 +212,19 @@ def cmdMuffin(data, opts=[]):
     chan = data["tgt"]
     if len(opts)>=1:
         if len(opts)>=2:
-            if initData["irc"].chans.__contains__(opts[1]):
+            if bot.irc.chans.__contains__(opts[1]):
                 chan = opts[1]
-            elif not initData["irc"].chans.__contains__(chan):
-                initData["irc"].msg("Sorry, I have no valid channel to work with :/", data["tgt"])
+            elif not bot.irc.chans.__contains__(chan):
+                bot.irc.msg("Sorry, I have no valid channel to work with :/", data["tgt"])
                 return
     else:
-        initData["irc"].msg("Sorry, please read @help.", data["tgt"])
+        bot.irc.msg("Sorry, please read @help.", data["tgt"])
         return
     
     speed = randint(30, 2000)
-    initData["irc"].msg("\x01ACTION lance un muffin sur " + opts[0] + " à %d km/h\r\n" % speed, chan)
+    bot.irc.msg("\x01ACTION lance un muffin sur " + opts[0] + " à %d km/h\r\n" % speed, chan)
     if speed>=1224:
-        initData["irc"].msg("MUFFIN RAINBOOM !!\r\n", chan)
+        bot.irc.msg("MUFFIN RAINBOOM !!\r\n", chan)
 
 ##### Command access rules. Wait man, this is serious shit done down there. Don't touch. #####
 def cmdAccess(data, opts=[]):
@@ -237,49 +238,49 @@ def cmdAccess(data, opts=[]):
     if len(opts) == 1:
         # Check rules for a defined command
         if not moduleData["access"].__contains__(opts[0]):
-            initData["irc"].msg("This command is not restricted or does not exist.", data["tgt"])
+            bot.irc.msg("This command is not restricted or does not exist.", data["tgt"])
         else:
-            initData["irc"].msg("Access is granted to this command to :", data["tgt"])
+            bot.irc.msg("Access is granted to this command to :", data["tgt"])
 
             # Command found, list the rules
             num = 0
             for rule in moduleData["access"][opts[0]]:
-                initData["irc"].msg("%d: '%s'" % (num, rule), data["tgt"])
+                bot.irc.msg("%d: '%s'" % (num, rule), data["tgt"])
                 num += 1
 
     elif len(opts)>=3:
         # Delete a rule
         if opts[1] == "del":
             if int(opts[2]) >= len(moduleData["access"][opts[0]]):
-                    initData["irc"].msg("This rule number is invalid for this command.", data["tgt"])
+                    bot.irc.msg("This rule number is invalid for this command.", data["tgt"])
             else:
                 del moduleData["access"][opts[0]][int(opts[2])]
-                initData["irc"].msg("Rule deleted.", data["tgt"])
+                bot.irc.msg("Rule deleted.", data["tgt"])
 
             if len(moduleData["access"][opts[0]]) == 0:
-                initData["irc"].msg("No rule left, command is now unrestricted.", data["tgt"])
+                bot.irc.msg("No rule left, command is now unrestricted.", data["tgt"])
                 del moduleData["access"][opts[0]]
 
         # Add rules
         if opts[1] == "add":
             if not moduleData["access"].__contains__(opts[0]):
-                initData["irc"].msg("Command was not restricted, registering it into the access list", data["tgt"])
+                bot.irc.msg("Command was not restricted, registering it into the access list", data["tgt"])
                 moduleData["access"][opts[0]] = []
 
             for rule in opts[2:]:
                 moduleData["access"][opts[0]].append(rule)
-            initData["irc"].msg("Rule(s) added.", data["tgt"])
+            bot.irc.msg("Rule(s) added.", data["tgt"])
 
         # Edit a rule
         if opts[1] == "edit" and len(opts) == 4:
             if not moduleData["access"].__contains__(opts[0]):
-                initData["irc"].msg("This command is not restricted or does not exist.", data["tgt"])
+                bot.irc.msg("This command is not restricted or does not exist.", data["tgt"])
             else:
                 if int(opts[2]) >= len(moduleData["access"][opts[0]]):
-                    initData["irc"].msg("This rule number is invalid for this command.", data["tgt"])
+                    bot.irc.msg("This rule number is invalid for this command.", data["tgt"])
                 else:
                     moduleData["access"][opts[0]][int(opts[2])] = opts[3]
-                    initData["irc"].msg("Access rule edited.", data["tgt"])
+                    bot.irc.msg("Access rule edited.", data["tgt"])
 
         # Write everything back to the file
         util.cfg.save(moduleData, "commands.json")

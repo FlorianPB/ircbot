@@ -15,7 +15,7 @@ class IRCBot:
         """Initializes bot data"""
         self.cfg = util.cfg.load()
 
-        self.log = util.log.Log("log/bot.log", file_l=util.log.DEBUG, stdout_l=util.log.NOTIF, stderr_l=util.log.WARNING)
+        self.log = util.log.Log("log/bot.log", file_l=util.log.DEBUG, stdout_l=util.log.INFO, stderr_l=util.log.WARNING)
         self.connect = net.connect.Connect(self.log.log, self.cfg["srv"], self.cfg["port"])
 
         self.irc = net.irc.IRC(self.cfg["nick"], self.connect, self.log.log, self.cfg["username"], self.cfg["realname"])
@@ -26,7 +26,7 @@ class IRCBot:
         self.log.log("Starting log", "ircbot", util.log.NOTIF)
         self.connect.start()
         self.irc.ident()
-        self.modules.loadAllModules({"irc":self.irc, "log":self.log.log, "connect":self.connect, "modules":self.modules})
+        self.modules.loadAllModules(self)
 
         # Opening all our chat channels
         for chan in self.cfg["channels"]:

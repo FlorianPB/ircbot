@@ -2,19 +2,19 @@
 # -*- coding: utf8 -*-
 """Log IRC events to channel-separated log files"""
 
-initData = {}
+bot = None
 
 ##### INIT the module (needed) #####
-def init(data):
-    global initData
+def init(botInstance):
+    global bot
 
-    initData = data
-    data["irc"].hooks["PRIVMSG"].append(logPrivMsgToChat)
-    data["irc"].hooks["JOIN"].append(logJoinToChat)
-    data["irc"].hooks["PART"].append(logPartFromChat)
-    data["irc"].hooks["NICK"].append(logChangeNick)
-    data["irc"].hooks["QUIT"].append(logQuitChat)
-    data["irc"].hooks["MODE"].append(logSetModeChat)
+    bot = botInstance
+    bot.irc.hooks["PRIVMSG"].append(logPrivMsgToChat)
+    bot.irc.hooks["JOIN"].append(logJoinToChat)
+    bot.irc.hooks["PART"].append(logPartFromChat)
+    bot.irc.hooks["NICK"].append(logChangeNick)
+    bot.irc.hooks["QUIT"].append(logQuitChat)
+    bot.irc.hooks["MODE"].append(logSetModeChat)
 
 ##### hook functions #####
 def logPrivMsgToChat(evt):
@@ -41,7 +41,7 @@ def logJoinToChat(evt):
 def logChangeNick(evt):
     """Print log to text"""
     from time import strftime
-    for chan in initData["irc"].chans:
+    for chan in bot.irc.chans:
         logFile = open("log/%s.log" % chan, "a")
     
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + evt[0][1:].split("!")[0] + " est désormais connu sous le nom de " + evt[2][1:] + "\n")
@@ -65,7 +65,7 @@ def logQuitChat(evt):
     """Print log to text"""
     from time import strftime
 
-    for chan in initData["irc"].chans:
+    for chan in bot.irc.chans:
         logFile = open("log/%s.log" % chan, "a")
     
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " ← " + evt[0][1:].split("!")[0] + " s'est déconnecté")
