@@ -71,7 +71,9 @@ class IRCBot:
     def consoleEventLoop(self):
         """System console events"""
         while self.consoleRunning:
-            if self.identified and self.joined:
+            # If irc connection is active, we wait till the joins.
+            # If not, we can continue, there is nothing to wait for.
+            if (self.isRunning and self.identified and self.joined) or (not self.isRunning and self.consoleRunning):
                 self.irc.event(":admin!~admin@localhost PRIVMSG /dev/console :" + str(input("<admin> ")) + "\r\n")
             time.sleep(0.1)
 
