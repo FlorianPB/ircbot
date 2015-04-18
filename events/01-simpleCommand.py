@@ -138,6 +138,7 @@ def cmdKill(data, opts=[]):
         cmdStop(data, opts)
 
     bot.consoleRunning = False
+    raise util.exceptions.StopException()
 
 
 def cmdStart(data, opts=[]):
