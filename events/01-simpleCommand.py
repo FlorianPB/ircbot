@@ -43,7 +43,7 @@ def regMainCmds():
     global registeredCmd
 
     registerCommand(cmdStop, "stop", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
-    registerCommand(cmdStop, "kill", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    registerCommand(cmdKill, "kill", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
     registerCommand(cmdStart, "start", [])
     registerCommand(cmdRestart, "restart", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
     registerCommand(cmdAccess, "access", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
