@@ -97,7 +97,7 @@ while bot.consoleRunning:
             import sys
             bot.log.log("Exception caught: %s" % sys.exc_info().__str__(), "ircbot", util.log.WARNING)
     else:
-        sleep(0.1)
+        time.sleep(0.1)
 
 bot.log.close()
 console.join()
