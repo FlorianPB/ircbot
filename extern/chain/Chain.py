@@ -13,22 +13,26 @@
 # │ if botLastMsg[nick]>0 or message contains own's name:
 # │ │   if no trigger found for user message:
 # │ │   └───put user message and current stack[nick] to pendingStack[nick]
-# └─┴───run chainTrigger to check to either answer something or register it for future answer to be built
+# └─┴───run chainTriggerTree to check to either answer something or register it for future answer to be built
 
-# chainTrigger
-# │ create chain from stack[nick]
-# │ 
-# │ while no reaction found and chain not empty:
-# │ │   search trigger for chain
-# │ │
-# │ │   if none found for this chain:
-# │ │   │   discard oldest item
+# chainTriggerTree
+# │ set current dbTree pos to root node
+# │ set chain path to empty string
+# │
+# │ for each item in reverse stack[nick]:
+# │ │   if current dbTree pos contains item:
+# │ │   │   prepend item to chain path
+# │ │   │   set current dbTree pos to newly found item
 # │ │   else:
-# │ │   │   outputs reaction (call net.irc.msg)
-# │ │   │   run actions if any (identified in the chain by an ID or a tag)
-# │ └───┴───refresh stack[nick] with found reaction add trigger
-# │ if no reaction found:
-# └─┴───put full chain in pendingStack[nick] to be added later by dev
+# │ └───┴───stop searching in stack
+# │
+# │ if chain path not empty:
+# │ │   output current dbTree pos corresponding message
+# │ │   run corresponding action id's action
+# │ │   set stack[nick] to splitted chain path
+# │ │   append dbTree pos chainTrigger name to stack[name]
+# │ else:
+# └─┴───put jointed stack to pendingStack[nick] to be added later
 
 # net.irc.msg
 # └─botLastMsg[nick] = 2
@@ -51,8 +55,19 @@
 # File formats:
 # trigger
 # { "name": "pattern" }
-# chainTrigger
-# { "pattern": { "name": "chainTriggerName", "msg": "msgText" } }
+# chainTrigger !! in reverse order, i.e. last triggered at root of the tree
+# {
+#   "name": "rootNode",
+#   "trg": {
+#       "trigger": {
+#           "name": "chainTrigger name"
+#           "msg": "msgText",
+#           "trg": {
+#               subchains goes here
+#           }
+#       }
+#   }
+# }
 
 import re
 
@@ -67,8 +82,10 @@ class ChainTrigger:
 
         #  Loading triggers and pending stuff 
         self.triggers = util.cfg.load("triggers.json")
-        self.chainTriggers = util.cfg.load("chainTriggers.json")
         self.pendingStack = util.cfg.load("pendingStack.json")
+
+        util.cfg.default = {"name": "root", "trg":{}}
+        self.chainTriggers = util.cfg.load("chainTriggers.json")
 
     def msgTrigger(self, evt):
         """net.irc.event hook function"""
@@ -88,23 +105,40 @@ class ChainTrigger:
             self.chainTrigger(nick)
 
     def chainTrigger(nick):
-        chain = self.stack[nick]
-        reaction = False
+        treePos = self.chainTriggers
+        chainPath = ""
         
-        while (not reaction) and len(chain)>0:
-            for chainTrigger in self.chainTriggers.keys():
-                if re.search(chainTrigger, ":".join(chain)) != None:
-                    initData["irc"].msg(nick + ": " + )
-                    stack[nick] = chain + [chainTrigger]
-                    reaction = True
-                else:
-                    if len(chain)>1:
-                        chain = chain[1:]
-                    else:
-                        chain = []
+        if not pendingStack.__contains__(nick):
+            pendingStack[nick] = []
 
-        if not reaction:
-            self.pendingStack[nick].append((":".join(stack[nick]),""))
+        # Get last item of chat first, to be able to contextually answer to trigger
+        stack = self.stack[nick]
+        stack.reverse()
+
+        # Walk through stack, to find the deepest chain trigger available
+        for trigger in stack:
+            if treePos["trg"].__contains__(trigger):
+                chainPath = trigger + ":" + chainPath
+                treePos = treePos["trg"][trigger]
+            else:
+                break
+
+        # If we have any matching, we print the message if any
+        if chainPath != "":
+            chainPath = chainPath[0:len(chainPath)-1].split(":")
+
+            if treePos.__contains__("msg"):
+                initData["irc"].msg(nick + ": " + treePos["msg"])
+            else:
+                self.pendingStack[nick].append((chainPath, ""))
+                util.cfg.save(self.pendingStack, "pendingStack.json")
+
+            # Append our contribution to the stack, to 'remember' what we said
+            stack[nick] = chainTrigger[0:len(chainTrigger)-1].split(":")
+            stack[nick].append(treePos["name"])
+        else:
+            # Nothing found ? Add unwound stack to pending items, to be able to add it manually in the chainTrigger tree
+            self.pendingStack[nick].append((":".join(self.stack[nick]), "")
             util.cfg.save(self.pendingStack, "pendingStack.json")
 
     def joinHook(evt):
@@ -117,16 +151,17 @@ class ChainTrigger:
         del self.stack[nick]
 
 # Move that to events/xx-chainedTriggers.py
-initData = {}
+
+bot = None
 chainTrg = None
 
-def init(data):
-    global initData, chainTrg
+def init(botInstance):
+    global bot, chainTrg
 
-    initData = data
-    chainTrg = ChainTrigger(initData["cfg"]["nickRegexp"])
+    bot = botInstance
+    chainTrg = ChainTrigger(bot.cfg["nickRegexp"])
 
-    initData["irc"].hooks["PRIVMSG"].append(chainTrg.msgTrigger)
-    initData["irc"].hooks["JOIN"].append(chainTrg.joinHook)
-    initData["irc"].hooks["PART"].append(chainTrg.partHook)
-    initData["irc"].hooks["QUIT"].append(chainTrg.partHook)
+    bot.irc.hooks["PRIVMSG"].append(chainTrg.msgTrigger)
+    bot.irc.hooks["JOIN"].append(chainTrg.joinHook)
+    bot.irc.hooks["PART"].append(chainTrg.partHook)
+    bot.irc.hooks["QUIT"].append(chainTrg.partHook)
