@@ -150,7 +150,7 @@ def cmdStart(data, opts=[]):
 
 def cmdRestart(data, opts=[]):
     """Stops and restarts the bot's connection and modules"""
-    if not bot.isRunning:
+    if bot.isRunning:
         bot.stop()
 
     bot.start()
