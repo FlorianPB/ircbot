@@ -96,7 +96,9 @@ try:
         if bot.isRunning:
             bot.ircEventLoop()
         else:
-            time.sleep(0.1)
+            bot.stop()
+            bot.start()
+            time.sleep(1)
 except:
     pass
 
