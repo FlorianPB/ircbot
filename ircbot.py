@@ -56,7 +56,8 @@ class IRCBot:
             if self.identified and not self.joined:
                 self.joinAll()
 
-            self.irc.event(self.connect.waitText())
+            self.irc.event(self.connect.checkText())
+            time.sleep(0.1)
 
     def consoleEventLoop(self):
         """System console events"""
