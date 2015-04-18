@@ -3,6 +3,10 @@
 		"expr": "[hH]isto(rique)? ?\\?",
 		"msg": ["http://www.art-software.fr/files/lastday_bronycub.php pour le principal, http://www.art-software.fr/files/lastday_bronycub-g33k.php pour le canal geek"]
 	},
+	"cafe": {
+		"expr": "(^|[^a-zA-Z])[cC]af[e\u00e9]+($|[^a-zA-Z])",
+		"msg": ["T'es fou %user ? Tu veux que je dessoule ou quoi ? >.<"]
+	},
 	"manger": {
 		"expr": "[jJ]e.*(vai[ts]|par[ts]|go).*(miam|manger)",
 		"msg": ["Bon app\u00e9tit, %user ! :)", "Bon ap' %user"]
@@ -16,7 +20,7 @@
 		"msg": ["\u0001ACTION donne une vodka a %user pour le calmer\u0001", "Tu veux boire un coup ? ;)", "D\u00e9tends-toi un peu *hic* :D"]
 	},
 	"boire": {
-		"expr": "(([tT]u (boi[ts]+|picoles?|est?) ((beaucoup|trop|un peu) (bourr\u00e9e|sa?o[u\u00fb]le)?)*[, ]*)[bB]erry([-][pP]unch)?|([bB]ot|[bB]erry([- ][pP]unch)?).*bourr\u00e9)",
+		"expr": "([tT]u |[bB]erry([ -][pP]unch)? |[tT]')(est?|as?) (un peu |beaucoup |trop |tr\u00e8s )*(bu|bourr\u00e9e?|torch\u00e9e?)([, ]*[bB]erry([ -][pP]unch)?)?",
 		"msg": ["Nah c'est pas vrai d'abord ><", "Non je bois pas trop, je me sers un peu j'ai le droit non ? Tiens repasse moi la vodka s'il te plait..", "Arr\u00eate de dire des betises et rends-moi ma bouteille."]
 	},
 	"bonjour": {
