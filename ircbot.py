@@ -48,5 +48,6 @@ bot.start()
 try:
     bot.eventLoop()
 except:
-    bot.log.log("Exception caught, stopping  bot", "ircbot", util.log.WARNING)
+    import sys
+    bot.log.log("Exception caught: %s, stopping  bot" % sys.exc_info().__str__(), "ircbot", util.log.WARNING)
     bot.stop()
