@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
 
+import threading
 import time
 
 import util.log
@@ -47,26 +48,23 @@ class IRCBot:
 
         self.joined = True
 
-    def ircPollEvent(self):
+    def ircEventLoop(self):
         """Main bot Event loop"""
-        if self.isRunning:
 
+        while self.isRunning:
             # We just identified. Join all chans !
             if self.identified and not self.joined:
                 self.joinAll()
 
-            self.irc.event(self.connect.checkText())
+            self.irc.event(self.connect.waitText())
 
-    def consolePollEvent(self):
+    def consoleEventLoop(self):
         """System console events"""
-        if self.isRunning and self.identified and self.joined:
-            self.irc.event(":admin!~admin@localhost PRIVMSG /dev/console :" + str(input("<admin> ")) + "\r\n")
-
-    def eventLoop(self):
         while self.isRunning:
-            self.ircPollEvent()
-            self.consolePollEvent()
-            time.sleep(0.1)
+            if self.identified and self.joined:
+                self.irc.event(":admin!~admin@localhost PRIVMSG /dev/console :" + str(input("<admin> ")) + "\r\n")
+            else:
+                time.sleep(0.1)
 
     def stop(self):
         self.irc.quit()
@@ -78,11 +76,15 @@ class IRCBot:
 bot = IRCBot()
 bot.start()
 
+console = threading.Thread(None, bot.consoleEventLoop)
+console.start()
+
 while bot.isRunning:
     try:
-        bot.eventLoop()
+        bot.ircEventLoop()
     except:
         import sys
         bot.log.log("Exception caught: %s, stopping  bot" % sys.exc_info().__str__(), "ircbot", util.log.WARNING)
 
 bot.stop()
+console.join()
