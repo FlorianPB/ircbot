@@ -89,13 +89,19 @@ def recvCommand(evt):
     # Check execution privileges
     if moduleData["access"].__contains__(cmd[0][1:]):
         matches = 0
-        for pattern in moduleData["access"][cmd[0][1:]]:
-            if re.search(pattern, evt[0]) != None:
-                matches+=1
-        if matches == 0 and len(moduleData["access"][cmd[0][1:]])>0:
-            bot.log.log("%s have no right to run %s" % (user, cmd[0][1:]), "events.simpleCommand.recvCommand", util.log.DEBUG)
-            bot.irc.msg("Désolé %s, mais tu n'as pas le droit de faire cela." % user, tgt)
-            return
+
+        # Local admin console: You can do everything you want, no execution checking! You are the fucking root user! :]
+        if evt[0] == ":admin!~admin@localhost" and evt[2] == "/dev/console":
+            matches = 1
+        else:
+            # 'Normal' channel message, so verify carefully who is asking what.
+            for pattern in moduleData["access"][cmd[0][1:]]:
+                if re.search(pattern, evt[0]) != None:
+                    matches+=1
+            if matches == 0 and len(moduleData["access"][cmd[0][1:]])>0:
+                bot.log.log("%s have no right to run %s" % (user, cmd[0][1:]), "events.simpleCommand.recvCommand", util.log.DEBUG)
+                bot.irc.msg("Désolé %s, mais tu n'as pas le droit de faire cela." % user, tgt)
+                return
 
     # Run command, if it was registered
     if registeredCmd.__contains__(cmd[0][1:]):
@@ -113,7 +119,7 @@ def cmdStop(data, opts=[]):
     """Stop the bot properly"""
 
     bot.log.log("Stopping the bot", "events.simpleCommand.cmdStop", util.log.DEBUG)
-    raise util.exceptions.StopException("stop command triggered")
+    bot.isRunning = False
 
 def cmdListModules(data, opts=[]):
     """List loaded modules"""

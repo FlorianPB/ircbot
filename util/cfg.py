@@ -10,6 +10,7 @@ default = {
         "channels":
             ["#testircbot"],
         "nick": "python_ircbot",
+        "waitNickserv": False,
         "username": "pythonbot",
         "realname": "IRC Python bot by Art Software"
 }

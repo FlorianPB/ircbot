@@ -21,7 +21,11 @@ def logPrivMsgToChat(evt):
     """Print log to text"""
     from time import strftime
 
-    logFile = open("log/%s.log" % evt[2], "a")
+    chan = evt[2]
+    if chan == "/dev/console":
+        chan = "consoleChan"
+
+    logFile = open("log/%s.log" % chan, "a")
     
     if evt[3] == ":\x01ACTION":
         logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + evt[0][1:].split("!")[0] + " " + " ".join(evt[4:]).replace("\x01", "") + "\n")

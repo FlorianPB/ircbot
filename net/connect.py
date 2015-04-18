@@ -48,3 +48,27 @@ class Connect:
                 txt = ""
 
         return txt
+
+    def checkText(self, encoding="", bufSize=(2**16)-1):
+        """Wait for text from the connection"""
+        txt = ""
+        if self.socket != None:
+            try:
+                self.socket.setblocking(False)
+                if encoding != "":
+                    txt = self.socket.recv(bufSize).decode(encoding)
+                else:
+                    txt = self.socket.recv(bufSize).decode()
+                self.socket.setblocking(True)
+
+            except ( UnicodeDecodeError, BlockingIOError ):
+                # UnicodeDecodeError:
+                # I just don't know what went wrong.. But it's okay, I will just ignore it till it goes away ^w^
+                
+                # BlockingIOError:
+                # Nothing to poll from the Internet.
+                # We'll have to send an empty string ^^
+
+                self.socket.setblocking(True)
+
+        return txt

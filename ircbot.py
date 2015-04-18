@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
 
+import time
+
 import util.log
 import util.cfg
 import util.exceptions
@@ -15,11 +17,14 @@ class IRCBot:
         """Initializes bot data"""
         self.cfg = util.cfg.load()
 
-        self.log = util.log.Log("log/bot.log", file_l=util.log.DEBUG, stdout_l=util.log.INFO, stderr_l=util.log.WARNING)
+        self.log = util.log.Log("log/bot.log", file_l=util.log.DEBUG, stdout_l=util.log.NOTIF, stderr_l=util.log.WARNING)
         self.connect = net.connect.Connect(self.log.log, self.cfg["srv"], self.cfg["port"])
 
         self.irc = net.irc.IRC(self.cfg["nick"], self.connect, self.log.log, self.cfg["username"], self.cfg["realname"])
         self.irc.hooks = {"JOIN": [], "PART": [], "QUIT": [], "PRIVMSG":[], "NICK":[], "MODE": [], "NOTICE": []}
+        self.isRunning = False
+        self.joined = False
+        self.identified = not self.cfg["waitNickserv"] # if we have to wait nickserv, set identified to False at startup.
 
     def start(self):
         """Start the connection, the irc instance, load the modules"""
@@ -28,26 +33,56 @@ class IRCBot:
         self.irc.ident()
         self.modules.loadAllModules(self)
 
+        self.isRunning = True
+
+
+    def joinAll(self):
         # Opening all our chat channels
         for chan in self.cfg["channels"]:
             self.irc.join(chan)
 
-    def eventLoop(self):
+        # Add console channel to available channels, to allow modules to be able to recognize it
+        # as a valid channel
+        self.irc.join("/dev/console")
+
+        self.joined = True
+
+    def ircPollEvent(self):
         """Main bot Event loop"""
-        while True:
-            self.irc.event(self.connect.waitText())
+        if self.isRunning:
+
+            # We just identified. Join all chans !
+            if self.identified and not self.joined:
+                self.joinAll()
+
+            self.irc.event(self.connect.checkText())
+
+    def consolePollEvent(self):
+        """System console events"""
+        if self.isRunning and self.identified and self.joined:
+            self.irc.event(":admin!~admin@localhost PRIVMSG /dev/console :" + str(input("<admin> ")) + "\r\n")
+
+    def eventLoop(self):
+        while self.isRunning:
+            self.ircPollEvent()
+            self.consolePollEvent()
+            time.sleep(0.1)
 
     def stop(self):
         self.irc.quit()
         self.connect.stop()
         self.log.log("Bot has stopped. Bye !", "ircbot", util.log.NOTIF)
+        self.isRunning = False
 
 
 bot = IRCBot()
 bot.start()
-try:
-    bot.eventLoop()
-except:
-    import sys
-    bot.log.log("Exception caught: %s, stopping  bot" % sys.exc_info().__str__(), "ircbot", util.log.WARNING)
-    bot.stop()
+
+while bot.isRunning:
+    try:
+        bot.eventLoop()
+    except:
+        import sys
+        bot.log.log("Exception caught: %s, stopping  bot" % sys.exc_info().__str__(), "ircbot", util.log.WARNING)
+
+bot.stop()

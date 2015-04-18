@@ -29,9 +29,9 @@ class IRC:
     def join(self, chan):
         """Joins a channel if we aren't already in it"""
         if not self.chans.__contains__(chan):
-            self.connection.sendText("JOIN %s\r\n" % chan)
-            self.log(self.connection.waitText(), "net.irc.join", util.log.DEBUG)
-
+            if chan != "/dev/console":
+                self.connection.sendText("JOIN %s\r\n" % chan)
+                self.log(self.connection.waitText(), "net.irc.join", util.log.DEBUG)
             self.chans[chan] = {}
 
         # If we already joined... do nothing more :]
@@ -39,8 +39,9 @@ class IRC:
     def part(self, chan, partMessage="Bye bye !"):
         """Parts from a channel"""
         if self.chans.__contains__(chan):
-            self.connection.sendText("PART %s :\"%s\"\r\n" % (chan, partMessage))
-            self.log(self.connection.waitText(), "net.irc.part", util.log.DEBUG)
+            if chan != "/dev/console":
+                self.connection.sendText("PART %s :\"%s\"\r\n" % (chan, partMessage))
+                self.log(self.connection.waitText(), "net.irc.part", util.log.DEBUG)
             
             del self.chans[chan]
 
@@ -62,6 +63,8 @@ class IRC:
 
         if dest[0] == "#":
             logFile = open("log/" + dest + ".log", "a")
+        elif dest == "/dev/console":
+            logFile = open("log/consoleChan.log", "a")
         else:
             logFile = open("log/" + self.nick + ".log", "a")
 
@@ -71,7 +74,11 @@ class IRC:
             logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " <" + self.nick + "> " + message + "\n")
 
         logFile.close()
-        self.connection.sendText("PRIVMSG " + dest + " :" + message + "\r\n")
+
+        if dest == "/dev/console":
+            print("<" + self.nick + "> " + message)
+        else:
+            self.connection.sendText("PRIVMSG " + dest + " :" + message + "\r\n")
 
 
     def event(self, ircLine):

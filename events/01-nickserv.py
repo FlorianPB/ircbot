@@ -17,3 +17,6 @@ def nickservIdent(evt):
         pw = input("NickServ password for " + evt[2] + " : ")
         bot.connect.sendText("PRIVMSG NickServ :IDENTIFY " + pw + "\r\n")
         del pw
+
+    if " ".join(evt[3:7]).lower() == ":you are now identified" and bot.cfg["waitNickserv"] == True:
+        bot.identified = True
