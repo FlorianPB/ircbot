@@ -87,8 +87,8 @@ class IRCBot:
 bot = IRCBot()
 
 console = threading.Thread(None, bot.consoleEventLoop)
-console.start()
 bot.start()
+console.start()
 
 while bot.consoleRunning:
     # While console is running, wait because user could want to start again the bot's connection
