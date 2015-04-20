@@ -36,16 +36,15 @@ class Log:
         self.stderrLogLevel = stderr_l
         self.path = fp
 
-        self.handle = open(self.path, "w")
-
     def log(self, content, head="logger", level=INFO):
         """Outputs a log line"""
 
         strLog = "[%s] %s %s: %s\n" % (strftime("%Y-%m-%d %H:%M:%S"), textLevels[level], head, content)
 
+        handle = open(self.path, "a")
         if level>=self.fileLogLevel:
-            self.handle.write(strLog)
-            self.handle.flush()
+            handle.write(strLog)
+            handle.flush()
         
         if level>=self.stderrLogLevel:
             stderr.write(strLog)
@@ -53,8 +52,4 @@ class Log:
         elif level>=self.stdoutLogLevel:
             stdout.write(strLog)
             stdout.flush()
-
-    def close(self):
-        """Close log system"""
-
-        self.handle.close()
+        handle.close()

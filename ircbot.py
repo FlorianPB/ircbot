@@ -102,5 +102,4 @@ try:
 except:
     pass
 
-bot.log.close()
 console.join()
