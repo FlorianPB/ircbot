@@ -102,7 +102,7 @@ class IRC:
                 # For each event, call the hooks corresponding to the command in evt[1] (JOIN, PRIVMSG etc, the event identifier)
                 # Passing irc obj reference, event line splitted
                 if len(evt)>=2 and self.hooks.__contains__(evt[1]):
-                    if evt[2] == "PRIVMSG" and len(evt)==4 and evt[3] == ":" # Empty privmsg line, don't treat that
+                    if evt[2] == "PRIVMSG" and len(evt)==4 and evt[3] == ":": # Empty privmsg line, don't treat that
                         continue
 
                     self.log("Looking for hooks for registered event %s" % evt[1], "net.irc.event", util.log.DEBUG)
