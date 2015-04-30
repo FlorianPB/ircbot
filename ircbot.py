@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
 
+from os import chdir,getcwd
+from os.path import dirname
+from sys import path
+
+path.insert(1, dirname(__file__))
+
 import threading
 import time
 
@@ -83,23 +89,28 @@ class IRCBot:
         self.isRunning = False
         self.joined = False
 
+def run():
+    """Starts the bot"""
+    chdir(dirname(__file__))
+    bot = IRCBot()
+    
+    console = threading.Thread(None, bot.consoleEventLoop)
+    bot.start()
+    console.start()
+        
+    try:
+        while True:
+            # While console is running, wait because user could want to start again the bot's connection
+            if bot.isRunning:
+                bot.ircEventLoop()
+            else:
+                bot.stop()
+                bot.start()
+                time.sleep(1)
+    except:
+        pass
+        
+    console.join()
 
-bot = IRCBot()
-
-console = threading.Thread(None, bot.consoleEventLoop)
-bot.start()
-console.start()
-
-try:
-    while True:
-        # While console is running, wait because user could want to start again the bot's connection
-        if bot.isRunning:
-            bot.ircEventLoop()
-        else:
-            bot.stop()
-            bot.start()
-            time.sleep(1)
-except:
-    pass
-
-console.join()
+if __name__=="__main__":
+    run()
