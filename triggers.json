@@ -1,23 +1,7 @@
 {
-	"histo": {
-		"expr": "[hH]isto(rique)? ?\\?",
-		"msg": ["http://www.art-software.fr/files/lastday_bronycub.php pour le principal, http://www.art-software.fr/files/lastday_bronycub-g33k.php pour le canal geek"]
-	},
-	"cafe": {
-		"expr": "(^|[^a-zA-Z])[cC]af[e\u00e9]+($|[^a-zA-Z])",
-		"msg": ["T'es fou %user ? Tu veux que je dessoule ou quoi ? >.<"]
-	},
-	"manger": {
-		"expr": "[jJ]e.*(vai[ts]|par[ts]|go).*(miam|manger)",
-		"msg": ["Bon app\u00e9tit, %user ! :)", "Bon ap' %user"]
-	},
 	"alcool": {
-		"expr": "([bB]i[e\u00e9\u00e8]re|[sS]ak[e\u00e9]|[rR]hum|[vV]in|[wW]hisky|[vV]odka|[eE]ntam.*(une|des) bouteilles?)",
+		"expr": "([^a-zA-Z]|^)([bB]i[e\u00e9\u00e8]re|[sS]ak[e\u00e9]|[rR]hum|[vV]in|[wW]hisky|[vV]odka|[mM]artini|[eE]ntam.*(une|des) bouteilles?)([^a-zA-Z]|$)",
 		"msg": ["Punaise, j'ai soif\u2026", "J'en veux *w*", "Tu en as pour moi %user ?"]
-	},
-	"grr": {
-		"expr": "([gG]r(r{1,}|oump?f)|[fF]uck|[mM]erde|[pP]utain|fai[st] chier)",
-		"msg": ["\u0001ACTION donne une vodka a %user pour le calmer\u0001", "Tu veux boire un coup ? ;)", "D\u00e9tends-toi un peu *hic* :D"]
 	},
 	"boire": {
 		"expr": "([tT]u |[bB]erry([ -][pP]unch)? |[tT]')(est?|as?) (un peu |beaucoup |trop |tr\u00e8s )*(bu|bourr\u00e9e?|torch\u00e9e?)([, ]*[bB]erry([ -][pP]unch)?)?",
@@ -27,8 +11,20 @@
 		"expr": "(([bB]onjour|[sS]alut|[cC]oucou|[pP]lop|[yY]op?) ((tout )?le monde|les (gens|poneys|ponies)|le peuple)|[bB]ien le bonjour)",
 		"msg": ["Salut %user!", "Tiens bonjour %user!", "Coucou %user!", "Bien dormi %user ?", "Ah ! Il ne *hic* manquait plus que toi pour faire la f\u00eate, %user !", "Hello hello, %user :)"]
 	},
+	"grr": {
+		"expr": "([gG]r(r{1,}|oump?f)|fai[st] chier)",
+		"msg": ["\u0001ACTION donne une vodka a %user pour le calmer\u0001", "Tu veux boire un coup ? ;)", "D\u00e9tends-toi un peu *hic* :D"]
+	},
+	"histo": {
+		"expr": "[hH]isto(rique)? ?\\?",
+		"msg": ["http://www.art-software.fr/files/lastday_bronycub.php pour le principal, http://www.art-software.fr/files/lastday_bronycub-g33k.php pour le canal geek"]
+	},
 	"hl": {
 		"expr": "[bB]erry([ -][pP]unch)? *[?!]",
 		"msg": ["Oui ?", "Qu'est-ce qu'il y a %user ?", "On me parle ?"]
+	},
+	"manger": {
+		"expr": "[jJ]e.*(vai[ts]|par[ts]|go).*(miam|manger)",
+		"msg": ["Bon app\u00e9tit, %user ! :)", "Bon ap' %user"]
 	}
 }

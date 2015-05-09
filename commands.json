@@ -1,11 +1,13 @@
 {
 	"access": {
 		"access": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr"],
-		"def": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr"],
+		"def": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":(Jinxypie!~Jinxypie|Letarumavza!~Letarumavza)@ABordeaux-654-1-203-118\\.w109-214\\.abo\\.wanadoo\\.fr"],
 		"deop": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~.*@"],
 		"devoice": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~.*@"],
 		"kick": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~.*@"],
+		"kill": [":adriens33!~adriens33@(home|homer)\\.art-software\\.fr"],
 		"op": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~.*@"],
+		"restart": [":adriens33!~adriens33@(home|homer)\\.art-software\\.fr"],
 		"stop": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":[hH]euzef!~.*@"],
 		"topic": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!"],
 		"voice": [":adriens33.*!~adriens33@(home|homer)\\.art-software\\.fr", ":heuzef!~.*@"]
