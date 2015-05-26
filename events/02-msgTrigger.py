@@ -83,7 +83,7 @@ def msgHook(evt):
     tgt = evt[2]
     txt = " ".join(evt[3:])[1:]
 
-    if tgt==bot.irc.nick:
+    if tgt==bot.cfg["nick"]:
         tgt = user
 
     for triggerName in triggers.keys():

@@ -80,7 +80,7 @@ def recvCommand(evt):
         cmd += evt[4:]
 
     # If user talked to us in private message, answers him the same way
-    if tgt==bot.irc.nick:
+    if tgt==bot.cfg["nick"]:
         tgt=user
 
     # Strip from empty items on the start (mainly because of spaces)
