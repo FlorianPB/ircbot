@@ -1,47 +1,45 @@
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
+# vim: foldlevel=1
 
 import util.log
+
+bot = None
 
 class IRC:
     """IRC basic methods"""
 
-    def __init__(self, nick, connection, logMethod, username="IRCBot", realname="IRC Python bot"):
+    def __init__(self, botInstance):
+        global bot
         self.chans = {}
-        self.hooks = {}
-        self.nick = nick
-        self.username = username
-        self.realname = realname
+        self.hooks = {"JOIN": [], "PART": [], "QUIT": [], "PRIVMSG":[], "NICK":[], "MODE": [], "NOTICE": []}
 
-        self.connection = connection
-        self.log = logMethod
+        bot = botInstance
 
     def ident(self):
         """Identifies at the beginning of the connection (send USER and NICK commands)"""
-        self.connection.sendText("USER %s a a :%s\r\n" % (self.username, self.realname))
-        self.log(self.connection.waitText(), "net.irc.ident", util.log.DEBUG)
+        # Send user info
+        bot.connect.sendText("USER %s a a :%s\r\n" % (bot.cfg["username"], bot.cfg["realname"]))
+        bot.log.log(bot.connect.waitText(), "net.irc.ident", util.log.DEBUG)
 
-        self.connection.sendText("NICK %s\r\n" % self.nick)
-        self.log(self.connection.waitText(), "net.irc.ident", util.log.DEBUG)
-
-        # TODO: check if NickServ asks for a password (yes, I didn't code that already)
+        # Send nick info
+        bot.connect.sendText("NICK %s\r\n" % bot.cfg["nick"])
+        bot.log.log(bot.connect.waitText(), "net.irc.ident", util.log.DEBUG)
 
     def join(self, chan):
         """Joins a channel if we aren't already in it"""
         if not self.chans.__contains__(chan):
             if chan != "/dev/console":
-                self.connection.sendText("JOIN %s\r\n" % chan)
-                self.log(self.connection.waitText(), "net.irc.join", util.log.DEBUG)
+                bot.connect.sendText("JOIN %s\r\n" % chan)
+                bot.log.log(bot.connect.waitText(), "net.irc.join", util.log.DEBUG)
             self.chans[chan] = {}
-
-        # If we already joined... do nothing more :]
 
     def part(self, chan, partMessage="Bye bye !"):
         """Parts from a channel"""
         if self.chans.__contains__(chan) and chan != "/dev/console":    # Don't part from system console, never do that!
             if chan != "/dev/console":
-                self.connection.sendText("PART %s :\"%s\"\r\n" % (chan, partMessage))
-                self.log(self.connection.waitText(), "net.irc.part", util.log.DEBUG)
+                bot.connect.sendText("PART %s :\"%s\"\r\n" % (chan, partMessage))
+                bot.log.log(bot.connect.waitText(), "net.irc.part", util.log.DEBUG)
             
             del self.chans[chan]
 
@@ -51,9 +49,9 @@ class IRC:
 
         c = list(self.chans.keys())
         for chan in c:
-            self.part(chan, partMessage)
+             self.part(chan, partMessage)
 
-        self.connection.sendText("QUIT\r\n")
+        bot.connect.sendText("QUIT\r\n")
 
     def msg(self, message, dest):
         """Sends a message
@@ -61,25 +59,28 @@ class IRC:
         dest: the target (#channel or nick)"""
         from time import strftime
 
+        # Output log target
         if dest[0] == "#":
             logFile = open("log/" + dest + ".log", "a")
         elif dest == "/dev/console":
             logFile = open("log/consoleChan.log", "a")
         else:
-            logFile = open("log/" + self.nick + ".log", "a")
+            logFile = open("log/" + bot.cfg["nick"] + ".log", "a")
 
+        # Write to log whether it's and action (prefix nickname with '*') or a user message (no prefix)
         if message[0:7] == "\x01ACTION":
-            logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " * " + self.nick + " " + message[8:].replace("\x01", "") + "\n")
+            logLine = "*" + bot.cfg["nick"] + " " + message[8:].replace("\x01", "")
         else:
-            logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + " <" + self.nick + "> " + message + "\n")
+            logLine = "<" + bot.cfg["nick"] + ">" + message
+        logFile.write(strftime("[%Y-%m-%d %H:%M:%S]") + logLine + "\n")
 
         logFile.close()
 
+        # If target is /dev/console, print message to stdout or else send it to irc server
         if dest == "/dev/console":
-            print("<" + self.nick + "> " + message)
+            print("<" + bot.cfg["nick"] + "> " + message)
         else:
-            self.connection.sendText("PRIVMSG " + dest + " :" + message + "\r\n")
-
+            bot.connect.sendText("PRIVMSG " + dest + " :" + message + "\r\n")
 
     def event(self, ircLine):
         """Executes event line"""
@@ -94,10 +95,10 @@ class IRC:
                 evt = line.split()
 
                 # Answer to pings (important, to not be kicked out for ping timeout)
-                self.log("Got event line: %s" % line, "net.irc.event", util.log.DEBUG)
+                bot.log.log("Got event line: %s" % line, "net.irc.event", util.log.DEBUG)
                 if evt[0] == "PING":
-                    self.log("Got pinged !", "net.irc.event", util.log.INFO)
-                    self.connection.sendText("PONG " + evt[1][1:] + " " + evt[1] + "\r\n")
+                    bot.log.log("Got pinged !", "net.irc.event", util.log.INFO)
+                    bot.connect.sendText("PONG " + evt[1][1:] + " " + evt[1] + "\r\n")
 
                 # For each event, call the hooks corresponding to the command in evt[1] (JOIN, PRIVMSG etc, the event identifier)
                 # Passing irc obj reference, event line splitted
@@ -105,7 +106,7 @@ class IRC:
                     if evt[2] == "PRIVMSG" and len(evt)==4 and evt[3] == ":": # Empty privmsg line, don't treat that
                         continue
 
-                    self.log("Looking for hooks for registered event %s" % evt[1], "net.irc.event", util.log.DEBUG)
-                    for i in self.hooks[evt[1]]:
-                        self.log("Running hook function %s.%s against this event" % (i.__module__, i.__name__), "net.irc.event", util.log.DEBUG)
-                        i(evt)
+                    bot.log.log("Looking for hooks for registered event %s" % evt[1], "net.irc.event", util.log.DEBUG)
+                    for hook in self.hooks[evt[1]]:
+                        bot.log.log("Running hook function %s.%s against this event" % (hook.__module__, hook.__name__), "net.irc.event", util.log.DEBUG)
+                        hook(evt)

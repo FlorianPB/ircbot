@@ -1,28 +1,30 @@
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
+# vim: foldlevel=1
 
 import socket
 import util.log
 
+bot = None
+
 class Connect:
-    def __init__(self, logMethod, srv="chat.freenode.net", port=6667):
-        """logMethod must be a util.log.Log.log method bound to a util.log.Log object (to avoid the need to specify filename, etc)"""
-        self.srv = srv
-        self.port = port
-        self.log = logMethod
+    def __init__(self, botInstance):
+        global bot
+
         self.socket = None
+        bot = botInstance
 
     def start(self):
         """Starts the connection with available info"""
         if self.socket == None:
-            self.log("Connecting socket to %s:%d" % (self.srv, self.port), "net.connect.Connect.start", util.log.INFO)
+            bot.log.log("Connecting socket to %s:%d" % (bot.cfg["srv"], bot.cfg["port"]), "net.connect.Connect.start", util.log.INFO)
             self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            self.socket.connect((self.srv, self.port))
+            self.socket.connect((bot.cfg["srv"], bot.cfg["port"]))
 
     def stop(self):
         """Stops the current connection"""
         if self.socket != None:
-            self.log("Closing connection", "net.connect.Connect.stop", util.log.INFO)
+            bot.log.log("Closing connection", "net.connect.Connect.stop", util.log.INFO)
             self.socket.close()
             self.socket = None
 

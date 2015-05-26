@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf8 -*-
+# vim: foldlevel=1
 
-from os import chdir,getcwd
+from os import chdir, getcwd
 from os.path import dirname
 from sys import path
 
@@ -25,10 +26,8 @@ class IRCBot:
         self.cfg = util.cfg.load()
 
         self.log = util.log.Log("log/bot.log", file_l=util.log.DEBUG, stdout_l=util.log.NOTIF, stderr_l=util.log.WARNING)
-        self.connect = net.connect.Connect(self.log.log, self.cfg["srv"], self.cfg["port"])
-
-        self.irc = net.irc.IRC(self.cfg["nick"], self.connect, self.log.log, self.cfg["username"], self.cfg["realname"])
-        self.irc.hooks = {"JOIN": [], "PART": [], "QUIT": [], "PRIVMSG":[], "NICK":[], "MODE": [], "NOTICE": []}
+        self.connect = net.connect.Connect(self)
+        self.irc = net.irc.IRC(self)
 
         # Set state booleans
         self.isRunning = False
