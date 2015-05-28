@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 # vim: foldlevel=1
 
 import socket
@@ -17,14 +17,14 @@ class Connect:
     def start(self):
         """Starts the connection with available info"""
         if self.socket == None:
-            bot.log.log("Connecting socket to %s:%d" % (bot.cfg["srv"], bot.cfg["port"]), "net.connect.Connect.start", util.log.INFO)
+            bot.log.log(bot._("Connecting socket to %s:%d") % (bot.cfg["srv"], bot.cfg["port"]), "net.connect.Connect.start", util.log.INFO)
             self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             self.socket.connect((bot.cfg["srv"], bot.cfg["port"]))
 
     def stop(self):
         """Stops the current connection"""
         if self.socket != None:
-            bot.log.log("Closing connection", "net.connect.Connect.stop", util.log.INFO)
+            bot.log.log(bot._("Closing connection"), "net.connect.Connect.stop", util.log.INFO)
             self.socket.close()
             self.socket = None
 

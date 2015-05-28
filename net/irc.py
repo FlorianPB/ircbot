@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 # vim: foldlevel=1
 
 import util.log
@@ -95,9 +95,9 @@ class IRC:
                 evt = line.split()
 
                 # Answer to pings (important, to not be kicked out for ping timeout)
-                bot.log.log("Got event line: %s" % line, "net.irc.event", util.log.DEBUG)
+                bot.log.log(bot._("Got event line: %s") % line, "net.irc.event", util.log.DEBUG)
                 if evt[0] == "PING":
-                    bot.log.log("Got pinged !", "net.irc.event", util.log.INFO)
+                    bot.log.log(bot._("Got pinged !"), "net.irc.event", util.log.INFO)
                     bot.connect.sendText("PONG " + evt[1][1:] + " " + evt[1] + "\r\n")
 
                 # For each event, call the hooks corresponding to the command in evt[1] (JOIN, PRIVMSG etc, the event identifier)
@@ -106,7 +106,7 @@ class IRC:
                     if evt[2] == "PRIVMSG" and len(evt)==4 and evt[3] == ":": # Empty privmsg line, don't treat that
                         continue
 
-                    bot.log.log("Looking for hooks for registered event %s" % evt[1], "net.irc.event", util.log.DEBUG)
+                    bot.log.log(bot._("Looking for hooks for registered event %s") % evt[1], "net.irc.event", util.log.DEBUG)
                     for hook in self.hooks[evt[1]]:
-                        bot.log.log("Running hook function %s.%s against this event" % (hook.__module__, hook.__name__), "net.irc.event", util.log.DEBUG)
+                        bot.log.log(bot._("Running hook function %s.%s against this event") % (hook.__module__, hook.__name__), "net.irc.event", util.log.DEBUG)
                         hook(evt)

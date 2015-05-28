@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 """Regular expression triggers on user messages."""
 
 import re
@@ -31,7 +31,7 @@ def cmdDef(data, opts=[]):
     global triggers
 
     if len(opts)<3:
-        bot.irc.msg("Sorry! Not enought parameters. See help.", data["tgt"])
+        bot.irc.msg(bot._("Sorry! Not enought parameters. See help."), data["tgt"])
         return
 
     if opts[1] == "expr":
@@ -40,16 +40,16 @@ def cmdDef(data, opts=[]):
             triggers[opts[0]] = {"expr": " ".join(opts[2:]), "msg":[]}
         else:
             triggers[opts[0]]["expr"] = " ".join(opts[2:])
-        bot.irc.msg("%s> Expression set for Trigger '%s'" % (data["user"], opts[0]), data["tgt"])
+        bot.irc.msg(bot._("%s> Expression set for Trigger '%s'") % (data["user"], opts[0]), data["tgt"])
 
     elif opts[1] == "msg":
         # Adds a message
         if not triggers.__contains__(opts[0]):
             triggers[opts[0]] = {"expr": " ", "msg":[]}
         triggers[opts[0]]["msg"].append(" ".join(opts[2:]))
-        bot.irc.msg("%s> Message added for Trigger '%s'" % (data["user"], opts[0]), data["tgt"])
+        bot.irc.msg(bot._("%s> Message added for Trigger '%s'") % (data["user"], opts[0]), data["tgt"])
     else:
-        bot.irc.msg("Sorry! Subcommand %s unknown." % opts[1], data["tgt"])
+        bot.irc.msg(bot._("Sorry! Subcommand %s unknown.") % opts[1], data["tgt"])
 
     util.cfg.save(triggers, "triggers.json")
 
@@ -61,14 +61,14 @@ def cmdTrg(data, opts=[]):
     from time import sleep
 
     if len(opts) == 0:
-        bot.irc.msg("Loaded triggers: " + ",".join(list(triggers.keys())), data["tgt"])
+        bot.irc.msg(bot._("Loaded triggers: ") + ",".join(list(triggers.keys())), data["tgt"])
 
     if len(opts) == 2:
         if opts[0] == "expr" and triggers.__contains__(opts[1]):
-            bot.irc.msg("Expression for %s : %s" % (opts[1], triggers[opts[1]]["expr"]), data["tgt"])
+            bot.irc.msg(bot._("Expression for %s : %s") % (opts[1], triggers[opts[1]]["expr"]), data["tgt"])
 
         elif opts[0] == "msg" and triggers.__contains__(opts[1]):
-            bot.irc.msg("Message(s) for %s :" % opts[1], data["tgt"])
+            bot.irc.msg(bot._("Message(s) for %s :") % opts[1], data["tgt"])
             nb = 0
             for message in triggers[opts[1]]["msg"]:
                 bot.irc.msg("- %s" % message, data["tgt"])

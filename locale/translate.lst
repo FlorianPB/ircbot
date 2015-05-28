@@ -1,0 +1,14 @@
+events/00-logchat.py
+events/01-nickserv.py
+events/01-simpleCommand.py
+events/02-msgTrigger.py
+events/03-modFlags.py
+extern/chain/Chain.py
+extern/quizz/Quizz.py
+ircbot.py
+net/connect.py
+net/irc.py
+util/cfg.py
+util/exceptions.py
+util/log.py
+util/modules.py

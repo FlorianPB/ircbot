@@ -1,5 +1,5 @@
 #!usr/bin/env python3
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 
 import importlib
 import os
@@ -27,12 +27,12 @@ def loadAllModules(botInstance):
 
         # Load every file ending in *.py into the dictionnary, associating it's code with it's name
         if moduleFile[moduleNameLen-3:moduleNameLen] == ".py":
-            botInstance.log.log("Loading %s…" % moduleName, "util.modules", util.log.INFO)
+            botInstance.log.log(botInstance._("Loading %s…") % moduleName, "util.modules", util.log.INFO)
             modules[moduleName] = importlib.import_module("events." + moduleName)
 
             # Show module Docstring
             botInstance.log.log(modules[moduleName].__doc__, "util.modules", util.log.INFO)
 
             # Initializing module, mainly setting up hooks
-            botInstance.log.log("Initializing module…", "util.modules", util.log.INFO)
+            botInstance.log.log(botInstance._("Initializing module…"), "util.modules", util.log.INFO)
             modules[moduleName].init(botInstance)

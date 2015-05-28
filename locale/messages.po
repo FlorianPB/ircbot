@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Art SoftWare
+# This file is distributed under the same license as the ircbot package.
+# FIRST AUTHOR <support@art-software.fr>, 2015.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-28 14:37+0200\n"
+"PO-Revision-Date: 2015-05-28 12:31+0200\n"
+"Last-Translator: Adrien Sohier <support@art-software.fr>\n"
+"Language-Team: Adrien Sohier <support@art-software.fr>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: events/00-logchat.py:42
+msgid " joined the channel\n"
+msgstr ""
+
+#: events/00-logchat.py:54
+msgid " is now known as "
+msgstr ""
+
+#: events/00-logchat.py:64
+msgid " left the channel"
+msgstr ""
+
+#: events/00-logchat.py:66 events/00-logchat.py:83
+#, python-format
+msgid " (reason: %s)"
+msgstr ""
+
+#: events/00-logchat.py:81
+msgid " has quit"
+msgstr ""
+
+#: events/00-logchat.py:95
+#, python-format
+msgid " * Mode %s defined for %s by"
+msgstr ""
+
+#: events/00-logchat.py:97
+#, python-format
+msgid " * Mode %s defined on %s by "
+msgstr ""
+
+#: events/01-nickserv.py:17
+msgid "NickServ password for "
+msgstr ""
+
+#: events/01-simpleCommand.py:61
+#, python-format
+msgid "Registered command %s"
+msgstr ""
+
+#: events/01-simpleCommand.py:108
+#, python-format
+msgid "%s have no right to run %s"
+msgstr ""
+
+#: events/01-simpleCommand.py:109
+#, python-format
+msgid "Sorry %s, you aren't authorized to do this."
+msgstr ""
+
+#: events/01-simpleCommand.py:114
+#, python-format
+msgid "%s is a registered command ! Running it."
+msgstr ""
+
+#: events/01-simpleCommand.py:120
+#, python-format
+msgid "%s is not a registered command ! Sorry, I can't do anything. %s"
+msgstr ""
+
+#: events/01-simpleCommand.py:121
+#, python-format
+msgid "Sorry %s, I can't find %s in my modules."
+msgstr ""
+
+#: events/01-simpleCommand.py:129
+msgid "Sorry, we already are stopped !"
+msgstr ""
+
+#: events/01-simpleCommand.py:132
+msgid "Stopping the bot's irc connection"
+msgstr ""
+
+#: events/01-simpleCommand.py:147
+msgid "Sorry, we already are started !"
+msgstr ""
+
+#: events/01-simpleCommand.py:163
+#, python-format
+msgid "Loaded modules: %s"
+msgstr ""
+
+#: events/01-simpleCommand.py:173
+#, python-format
+msgid "Available commands: %s"
+msgstr ""
+
+#: events/01-simpleCommand.py:187
+#, python-format
+msgid "Cannot find help for module '%s'"
+msgstr ""
+
+#: events/01-simpleCommand.py:196
+msgid "Help for command "
+msgstr ""
+
+#: events/01-simpleCommand.py:200
+#, python-format
+msgid "Cannot find help for command '%s'"
+msgstr ""
+
+#: events/01-simpleCommand.py:218 events/01-simpleCommand.py:238
+#: events/01-simpleCommand.py:260
+msgid "Sorry, I have no valid channel to work with :/"
+msgstr ""
+
+#: events/01-simpleCommand.py:221 events/01-simpleCommand.py:241
+#: events/01-simpleCommand.py:263
+msgid "Sorry, please read @help."
+msgstr ""
+
+#: events/01-simpleCommand.py:267
+#, python-format
+msgid "launches a muffin on %s at %d km/h"
+msgstr ""
+
+#: events/01-simpleCommand.py:269
+msgid "MUFFIN RAINBOOM !!"
+msgstr ""
+
+#: events/01-simpleCommand.py:283 events/01-simpleCommand.py:319
+msgid "This command is not restricted or does not exist."
+msgstr ""
+
+#: events/01-simpleCommand.py:285
+msgid "Access is granted to this command to :"
+msgstr ""
+
+#: events/01-simpleCommand.py:297 events/01-simpleCommand.py:322
+msgid "This rule number is invalid for this command."
+msgstr ""
+
+#: events/01-simpleCommand.py:300
+msgid "Rule deleted."
+msgstr ""
+
+#: events/01-simpleCommand.py:303
+msgid "No rule left, command is now unrestricted."
+msgstr ""
+
+#: events/01-simpleCommand.py:309
+msgid "Command was not restricted, registering it into the access list"
+msgstr ""
+
+#: events/01-simpleCommand.py:314
+msgid "Rule(s) added."
+msgstr ""
+
+#: events/01-simpleCommand.py:325
+msgid "Access rule edited."
+msgstr ""
+
+#: events/02-msgTrigger.py:34
+msgid "Sorry! Not enought parameters. See help."
+msgstr ""
+
+#: events/02-msgTrigger.py:43
+#, python-format
+msgid "%s> Expression set for Trigger '%s'"
+msgstr ""
+
+#: events/02-msgTrigger.py:50
+#, python-format
+msgid "%s> Message added for Trigger '%s'"
+msgstr ""
+
+#: events/02-msgTrigger.py:52
+#, python-format
+msgid "Sorry! Subcommand %s unknown."
+msgstr ""
+
+#: events/02-msgTrigger.py:64
+msgid "Loaded triggers: "
+msgstr ""
+
+#: events/02-msgTrigger.py:68
+#, python-format
+msgid "Expression for %s : %s"
+msgstr ""
+
+#: events/02-msgTrigger.py:71
+#, python-format
+msgid "Message(s) for %s :"
+msgstr ""
+
+#: events/03-modFlags.py:54 events/03-modFlags.py:86 events/03-modFlags.py:119
+#: events/03-modFlags.py:150 events/03-modFlags.py:182
+msgid "Channel not specified!"
+msgstr ""
+
+#: events/03-modFlags.py:200
+msgid "Sorry, you need to specify a channel in private mode"
+msgstr ""
+
+#: ircbot.py:56
+msgid "Starting log"
+msgstr ""
+
+#: net/connect.py:20
+#, python-format
+msgid "Connecting socket to %s:%d"
+msgstr ""
+
+#: net/connect.py:27
+msgid "Closing connection"
+msgstr ""
+
+#: net/irc.py:98
+#, python-format
+msgid "Got event line: %s"
+msgstr ""
+
+#: net/irc.py:100
+msgid "Got pinged !"
+msgstr ""
+
+#: net/irc.py:109
+#, python-format
+msgid "Looking for hooks for registered event %s"
+msgstr ""
+
+#: net/irc.py:111
+#, python-format
+msgid "Running hook function %s.%s against this event"
+msgstr ""
+
+#: util/modules.py:30
+#, python-format
+msgid "Loading %s…"
+msgstr ""
+
+#: util/modules.py:37
+msgid "Initializing module…"
+msgstr ""

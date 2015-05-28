@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 """Manages the user flags (voice, op)"""
 
 import re
@@ -51,7 +51,7 @@ def cmdVoice(data, opts=[]):
         del opts[1]
 
     if chan[0]!="#":
-        bot.irc.msg("Channel not specified!", data["tgt"])
+        bot.irc.msg(bot._("Channel not specified!"), data["tgt"])
         return
 
     if not userFlags.__contains__(chan):
@@ -83,7 +83,7 @@ def cmdDevoice(data, opts=[]):
         del opts[1]
 
     if chan[0]!="#":
-        bot.irc.msg("Channel not specified!", data["tgt"])
+        bot.irc.msg(bot._("Channel not specified!"), data["tgt"])
         return
 
     if not userFlags.__contains__(chan):
@@ -116,7 +116,7 @@ def cmdOp(data, opts=[]):
         del opts[1]
 
     if chan[0]!="#":
-        bot.irc.msg("Channel not specified!", data["tgt"])
+        bot.irc.msg(bot._("Channel not specified!"), data["tgt"])
         return
 
     if not userFlags.__contains__(chan):
@@ -147,7 +147,7 @@ def cmdDeop(data, opts=[]):
         del opts[1]
 
     if chan[0]!="#":
-        bot.irc.msg("Channel not specified!", data["tgt"])
+        bot.irc.msg(bot._("Channel not specified!"), data["tgt"])
         return
 
     if not userFlags.__contains__(chan):
@@ -179,7 +179,7 @@ def cmdKick(data, opts=[]):
         del opts[1]
 
     if chan[0]!="#":
-        bot.irc.msg("Channel not specified!", data["tgt"])
+        bot.irc.msg(bot._("Channel not specified!"), data["tgt"])
         return
 
     if len(opts)>1:
@@ -197,7 +197,7 @@ def cmdTopic(data, opts=[]):
         del opts[0]
 
     if chan[0]!='#':
-        bot.irc.msg("Sorry, you need to specify a channel in private mode", data["tgt"])
+        bot.irc.msg(bot._("Sorry, you need to specify a channel in private mode"), data["tgt"])
         return
 
     bot.connect.sendText("TOPIC " + chan + " :" + " ".join(opts) + "\r\n")

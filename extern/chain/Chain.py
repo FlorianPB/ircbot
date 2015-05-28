@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 
 # net.irc.event
 # │ if botLastMsg[nick] > 0:

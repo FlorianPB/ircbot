@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 # vim: foldlevel=1
 
 from os import chdir, getcwd
@@ -8,6 +8,7 @@ from sys import path
 
 path.insert(1, dirname(__file__))
 
+import gettext
 import threading
 import time
 
@@ -25,9 +26,13 @@ class IRCBot:
         """Initializes bot data"""
         self.cfg = util.cfg.load()
 
-        self.log = util.log.Log("log/bot.log", file_l=util.log.DEBUG, stdout_l=util.log.NOTIF, stderr_l=util.log.WARNING)
+        self.log = util.log.Log("log/bot.log", file_l=util.log.DEBUG, stdout_l=util.log.INFO, stderr_l=util.log.WARNING)
         self.connect = net.connect.Connect(self)
         self.irc = net.irc.IRC(self)
+
+        # Gettext localisation
+        self.t = gettext.translation("ircbot", getcwd()+"/locale")
+        self._ = self.t.gettext
 
         # Set state booleans
         self.isRunning = False
@@ -48,7 +53,7 @@ class IRCBot:
         self.joined = False
         self.identified = not self.cfg["waitNickserv"] # if we have to wait nickserv, set identified to False at startup.
 
-        self.log.log("Starting log", "ircbot", util.log.NOTIF)
+        self.log.log(self._("Starting log"), "ircbot", util.log.NOTIF)
         self.connect.start()
         self.irc.ident()
         self.modules.loadAllModules(self)
@@ -96,7 +101,7 @@ def run():
     console = threading.Thread(None, bot.consoleEventLoop)
     bot.start()
     console.start()
-        
+    
     try:
         while True:
             # While console is running, wait because user could want to start again the bot's connection
@@ -108,7 +113,7 @@ def run():
                 time.sleep(1)
     except:
         pass
-        
+
     console.join()
 
 if __name__=="__main__":
