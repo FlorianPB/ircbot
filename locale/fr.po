@@ -1,15 +1,13 @@
-# French translations for PACKAGE package.
-# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#  <support@art-software.fr>, 2015.
+# French translations for ircbot package.
+# Copyright (C) 2015, Art SoftWare
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: <support@art-software.fr>\n"
 "POT-Creation-Date: 2015-05-28 14:37+0200\n"
 "PO-Revision-Date: 2015-05-28 14:39+0200\n"
-"Last-Translator:  <support@art-software.fr>\n"
+"Last-Translator: Adrien Sohier <support@art-software.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -171,7 +169,7 @@ msgstr "Règle d'accès éditée."
 
 #: events/02-msgTrigger.py:34
 msgid "Sorry! Not enought parameters. See help."
-msgstr ""
+msgstr "Désolé! Il n'y a pas assez de paramètres. Voir @help."
 
 #: events/02-msgTrigger.py:43
 #, python-format

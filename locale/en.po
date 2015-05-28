@@ -1,15 +1,13 @@
-# English translations for PACKAGE package.
-# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#  <support@art-software.fr>, 2015.
+# English translations for ircbot package.
+# Copyright (C) 2015, Art SoftWare
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: <support@art-software.fr>\n"
 "POT-Creation-Date: 2015-05-28 14:37+0200\n"
 "PO-Revision-Date: 2015-05-28 14:38+0200\n"
-"Last-Translator:  <support@art-software.fr>\n"
+"Last-Translator: Adrien Sohier <support@art-software.fr>\n"
 "Language-Team: English\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
