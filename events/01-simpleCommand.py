@@ -249,13 +249,15 @@ def cmdMuffin(data, opts=[]):
     muffin nick [channel]"""
 
     from random import randint
+    from time import sleep
 
     # Checks if there is a valid way to output to some connected channel
     chan = data["tgt"]
     if len(opts)>=1:
         if len(opts)>=2:
-            if bot.irc.chans.__contains__(opts[1]):
-                chan = opts[1]
+            if bot.irc.chans.__contains__(opts[-1]):
+                chan = opts[-1]
+                opts = opts[:-1]
             elif not bot.irc.chans.__contains__(chan):
                 bot.irc.msg(bot._("Sorry, I have no valid channel to work with :/"), data["tgt"])
                 return
@@ -263,10 +265,13 @@ def cmdMuffin(data, opts=[]):
         bot.irc.msg(bot._("Sorry, please read @help."), data["tgt"])
         return
     
-    speed = randint(30, 2000)
-    bot.irc.msg("\x01ACTION " + bot._("launches a muffin on %s at %d km/h") % (opts[0], speed) + "\r\n", chan)
-    if speed>=1224:
-        bot.irc.msg(bot._("MUFFIN RAINBOOM !!") + "\r\n", chan)
+    for nick in opts:
+        speed = randint(30, 2000)
+        bot.irc.msg("\x01ACTION " + bot._("launches a muffin on %s at %d km/h") % (nick, speed) + "\r\n", chan)
+        if speed>=1224:
+            bot.irc.msg(bot._("MUFFIN RAINBOOM !!") + "\r\n", chan)
+        sleep(0.25)
+
 
 ##### Command access rules. Wait man, this is serious shit done down there. Don't touch. #####
 def cmdAccess(data, opts=[]):
