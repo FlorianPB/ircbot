@@ -86,7 +86,7 @@ class IRC:
         """Executes event line"""
 
         # Transforms the buffer into UNIX line endings to ease the line splitting
-        ircLine = ircLine.replace("\r", "\n").replace("\n\n", "\n")
+        ircLine = ircLine.replace("\r", "\n").replace("\n\n", "\n").replace("\xA0", " ")
 
         # If we get multiple lines at once, treat them separately
         # (plus it allows us to automatically strip the useless \n ending each line! yay!)
@@ -103,9 +103,6 @@ class IRC:
                 # For each event, call the hooks corresponding to the command in evt[1] (JOIN, PRIVMSG etc, the event identifier)
                 # Passing irc obj reference, event line splitted
                 if len(evt)>=2 and self.hooks.__contains__(evt[1]):
-                    if evt[2] == "PRIVMSG" and len(evt)==4 and evt[3] == ":": # Empty privmsg line, don't treat that
-                        continue
-
                     bot.log.log(bot._("Looking for hooks for registered event %s") % evt[1], "net.irc.event", util.log.DEBUG)
                     for hook in self.hooks[evt[1]]:
                         bot.log.log(bot._("Running hook function %s.%s against this event") % (hook.__module__, hook.__name__), "net.irc.event", util.log.DEBUG)

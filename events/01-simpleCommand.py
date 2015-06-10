@@ -89,7 +89,7 @@ def recvCommand(evt):
 
     # No command char ? meh. Certainly a dumb user who is just talking.
     # Nevermind. *going back to sleep*
-    if cmd[0][0]!=moduleData["cmdChar"]:
+    if len(cmd) == 0 or len(cmd[0]) == 0 or cmd[0][0]!=moduleData["cmdChar"]:
         return
 
     # Check execution privileges
