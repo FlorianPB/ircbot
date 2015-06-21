@@ -1,16 +1,16 @@
 {
 	"access": {
-		"access": [":adriens33.*!~adriens33@"],
-		"def": [":adriens33.*!~adriens33@", ":(Jinxypie!~Jinxypie|Letarumavza!~Letarumavza)@ABordeaux-654-1-203-118\\.w109-214\\.abo\\.wanadoo\\.fr"],
-		"deop": [":adriens33.*!~adriens33@", ":heuzef!"],
-		"devoice": [":adriens33.*!~adriens33@", ":heuzef!"],
-		"kick": [":adriens33.*!~adriens33@", ":heuzef!"],
-		"kill": [":adriens33!~adriens33@"],
-		"op": [":adriens33.*!~adriens33@", ":heuzef!"],
-		"restart": [":adriens33!~adriens33@"],
-		"stop": [":adriens33.*!~adriens33@", ":[hH]euzef!"],
-		"topic": [":adriens33.*!~adriens33@", ":heuzef!"],
-		"voice": [":adriens33.*!~adriens33@", ":heuzef!"]
+		"access": [":.*!~adriens33@"],
+		"def": [":.*!~adriens33@", ":(Jinxypie!~Jinxypie|Letarumavza!~Letarumavza)@ABordeaux-654-1-203-118\\.w109-214\\.abo\\.wanadoo\\.fr"],
+		"deop": [":.*!~adriens33@", ":heuzef!"],
+		"devoice": [":.*!~adriens33@", ":heuzef!"],
+		"kick": [":.*!~adriens33@", ":heuzef!"],
+		"kill": [":.*!~adriens33@"],
+		"op": [":.*!~adriens33@", ":heuzef!"],
+		"restart": [":.*!~adriens33@"],
+		"stop": [":.*!~adriens33@", ":[hH]euzef!"],
+		"topic": [":.*!~adriens33@", ":heuzef!"],
+		"voice": [":.*!~adriens33@", ":heuzef!"]
 	},
 	"cmdChar": "@"
 }
