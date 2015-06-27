@@ -26,10 +26,18 @@ def init(botInstance):
 
 def cmdGraph(data, opts=[]):
     """Print graph info
-    graph [branch]: print children"""
+    graph [branch]: print children
+    graph: infos on graph"""
 
     if len(opts)<1:
-        bot.irc.msg("Nothing to do", data["tgt"])
+        bot.irc.msg("Word graph contains %d nodes" % len(extern.MarkovTalk.mots), data["tgt"])
+        bot.irc.msg("Sentence graph contains %d nodes and %d recorded single sentences" % (len(extern.MarkovTalk.phraseList), len(extern.MarkovTalk.phrases)), data["tgt"])
+        bot.irc.msg("Word graph has a depth of %d" % extern.MarkovTalk.cfg["order"], data["tgt"])
+        if extern.MarkovTalk.cfg["randomWalk"]:
+            bot.irc.msg("Word graph is walked randomly", data["tgt"])
+        else:
+            bot.irc.msg("Word graph is walked randomly, respective to each sequence frequency", data["tgt"])
+            
         return
 
     for item in opts:
