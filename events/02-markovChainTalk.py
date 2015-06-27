@@ -6,7 +6,7 @@ import extern.MarkovTalk
 import random
 
 bot = None
-talk = False
+talkLevel = 0
 
 def init(botInstance):
     """Inits the msgTrigger module"""
@@ -17,20 +17,26 @@ def init(botInstance):
 
     bot = botInstance
 
-    bot.modules.modules["01-simpleCommand"].registerCommand(cmdTalk, "talk", [":.*!~adriens33@"])
-    bot.modules.modules["01-simpleCommand"].registerCommand(cmdShut, "shut", [":.*!~adriens33@"])
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdFlood, "flood")
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdTalk, "talk")
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdShut, "shut")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdRandom, "random")
     bot.irc.hooks["PRIVMSG"].append(talkCheck)
 
-def cmdTalk(data, opts=[]):
-    """Let's the bot talk"""
+def cmdFlood(data, opts=[]):
+    """Completely free the bot to talk whenever someone says something"""
     global talk
-    talk = True
+    talk = 2
+
+def cmdTalk(data, opts=[]):
+    """Lets the bot talk"""
+    global talk
+    talk = 1
 
 def cmdShut(data, opts=[]):
     """Makes the bot be quiet"""
     global talk
-    talk = False
+    talk = 0
 
 def cmdRandom(data, opts=[]):
     """Says a random sentence"""
@@ -49,13 +55,13 @@ def talkCheck(evt):
     if tgt==bot.cfg["nick"]:
         tgt = user
     
-    if talk:
+    if talk>0:
         if txt.find(bot.cfg["nick"].lower())>=0:
             txt = txt.replace(bot.cfg["nick"].lower(), "")
             while ord(txt[0])<ord('a') or ord(txt[0])>ord('z') and txt!='':
                 txt = txt[1:]
             bot.irc.msg(extern.MarkovTalk.compute(txt), tgt)
-        elif random.random() >= 0.9:
+        elif random.random() >= 0.9 or talk>1:
             bot.irc.msg(extern.MarkovTalk.compute(txt), tgt)
         else:
             extern.MarkovTalk.AnalyzeSentence(txt)
