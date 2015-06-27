@@ -6,7 +6,7 @@ import extern.MarkovTalk
 import random
 
 bot = None
-talkLevel = 0
+talk = 0
 
 def init(botInstance):
     """Inits the msgTrigger module"""
