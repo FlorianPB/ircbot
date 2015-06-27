@@ -18,11 +18,22 @@ def init(botInstance):
     bot = botInstance
 
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdGraph, "graph")
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdRandWalk, "randwalk")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdFlood, "flood")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdTalk, "talk")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdShut, "shut")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdRandom, "random")
     bot.irc.hooks["PRIVMSG"].append(talkCheck)
+
+def cmdRandWalk(data, opts=[]):
+    """Sets if random walk or not.
+    randwalk {on,off}"""
+
+    if len(opts) >= 1 and ["on", "off"].__contains__(opts[0].lower()):
+        if opts[0].lower() == "on":
+            extern.MarkovTalk.cfg["randomWalk"] = True
+        else:
+            extern.MarkovTalk.cfg["randomWalk"] = False
 
 def cmdGraph(data, opts=[]):
     """Print graph info
