@@ -34,7 +34,7 @@ def cmdGraph(data, opts=[]):
 
     for item in opts:
         if extern.MarkovTalk.mots.__contains__(item):
-            bot.irc.msg("%s: %s" % (item, exter.MarkovTalk.mots[item]), data["tgt"])
+            bot.irc.msg("%s: %s" % (item, extern.MarkovTalk.mots[item]), data["tgt"])
         else:
             bot.irc.msg("%s: nothing found" % item, data["tgt"])
 
