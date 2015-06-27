@@ -3,6 +3,7 @@
 """Markov Chain statistic-based talk :D"""
 
 import extern.MarkovTalk
+import random
 
 bot = None
 talk = False
@@ -43,12 +44,20 @@ def talkCheck(evt):
 
     user = evt[0][1:].split("!")[0]
     tgt = evt[2]
-    txt = " ".join(evt[3:])[1:]
+    txt = (" ".join(evt[3:])[1:]).lower()
 
     if tgt==bot.cfg["nick"]:
         tgt = user
     
     if talk:
-        bot.irc.msg(extern.MarkovTalk.compute(txt.lower()), tgt)
+        if txt.find(bot.cfg["nick"].lower())>=0:
+            txt = txt.replace(bot.cfg["nick"].lower())
+            while ord(txt[0])<ord('a') or ord(txt[0])>ord('z') and txt!='':
+                txt = txt[1:]
+            bot.irc.msg(extern.MarkovTalk.compute(txt), tgt)
+        elif random.random() >= 0.9:
+            bot.irc.msg(extern.MarkovTalk.compute(txt), tgt)
+        else:
+            extern.MarkovTalk.AnalyzeSentence(txt)
     else:
-        extern.MarkovTalk.AnalyzeSentence(txt.lower())
+        extern.MarkovTalk.AnalyzeSentence(txt)
