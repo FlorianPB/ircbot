@@ -17,11 +17,26 @@ def init(botInstance):
 
     bot = botInstance
 
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdGraph, "graph")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdFlood, "flood")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdTalk, "talk")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdShut, "shut")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdRandom, "random")
     bot.irc.hooks["PRIVMSG"].append(talkCheck)
+
+def cmdGraph(data, opts=[]):
+    """Print graph info
+    graph [branch]: print children"""
+
+    if len(opts)<1:
+        bot.irc.msg("Nothing to do", data["tgt"])
+        return
+
+    for item in opts:
+        if extern.MarkovTalk.mots.__contains__(item):
+            bot.irc.msg("%s: %s" % (item, exter.MarkovTalk.mots[item]), data["tgt"])
+        else:
+            bot.irc.msg("%s: nothing found" % item, data["tgt"])
 
 def cmdFlood(data, opts=[]):
     """Completely free the bot to talk whenever someone says something"""
