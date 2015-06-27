@@ -51,7 +51,7 @@ def talkCheck(evt):
     
     if talk:
         if txt.find(bot.cfg["nick"].lower())>=0:
-            txt = txt.replace(bot.cfg["nick"].lower())
+            txt = txt.replace(bot.cfg["nick"].lower(), "")
             while ord(txt[0])<ord('a') or ord(txt[0])>ord('z') and txt!='':
                 txt = txt[1:]
             bot.irc.msg(extern.MarkovTalk.compute(txt), tgt)
