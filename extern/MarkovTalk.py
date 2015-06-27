@@ -5,17 +5,20 @@ import os
 import random
 import pickle
 
-import util.log
+import util.cfg
+util.cfg.default = {"order": 2, "randomWalk": True}
 
 context = [-1,] * 5
 phrases = []
 phraseList = {}
 mots = {}
-bot = None
+cfg = util.cfg.default
 
 def initDb():
     """Loads the DB"""
-    global phrases, phraseList, mots
+    global phrases, phraseList, mots, cfg
+
+    cfg = util.cfg.load("markov.json")
 
     if os.path.isfile("phrases"):
         with open("phrases", "rb") as f:
@@ -36,15 +39,18 @@ def computeRandomSentence():
     ph = starts[random.randint(0,len(starts)-1)]
     
     while ph[-4:]!="|END":
-        lst = mots["|".join(ph.split("|")[-3:])]
-        total = sum([lst[i] for i in lst.keys()])
-        baseValue = 0
-        value = random.randint(0, total-1)
-        for candidat in lst.keys():
-            if baseValue <= value and lst[candidat] > value:
-                ph += "|" + candidat
-                break
-            baseValue += lst[candidat]
+        lst = mots["|".join(ph.split("|")[-cfg["order"]:])]
+        if cfg["randomWalk"]:
+            ph += "|" + list(lst.keys())[random.randint(0, len(lst)-1)]
+        else:
+            total = sum([lst[i] for i in lst.keys()])
+            baseValue = 0
+            value = random.randint(0, total-1)
+            for candidat in lst.keys():
+                if baseValue <= value and lst[candidat] > value:
+                    ph += "|" + candidat
+                    break
+                baseValue += lst[candidat]
     
     return " ".join(ph.split("|")[1:-1])
 
@@ -53,17 +59,16 @@ def AnalyzeSentence(phrase):
     global mots
     
     p = ["END",] + phrase.split() + ["END",]
-    context=3
     
-    for i in range(len(p)-context):
-        node = "|".join(p[i:i+context])
+    for i in range(len(p)-cfg["order"]):
+        node = "|".join(p[i:i+cfg["order"]])
         if mots.__contains__(node):
-            if mots[node].__contains__(p[i+context]):
-                mots[node][p[i+context]] += 1
+            if mots[node].__contains__(p[i+cfg["order"]]):
+                mots[node][p[i+cfg["order"]]] += 1
             else:
-                mots[node][p[i+context]] = 1
+                mots[node][p[i+cfg["order"]]] = 1
         else:
-            mots[node] = {p[i+context]: 1}
+            mots[node] = {p[i+cfg["order"]]: 1}
     
     with open("mots", "wb") as f:
         pickle.dump(mots, f)
@@ -80,17 +85,16 @@ def AnalyseFile(filename):
         
         # Analyse de chaque mot d'une phrase, et de leur relation
         p = ["END",] + phrase.split() + ["END",]
-        mots_context=3
         
-        for i in range(len(p)-mots_context):
-            node = "|".join(p[i:i+mots_context])
+        for i in range(len(p)-cfg["order"]):
+            node = "|".join(p[i:i+cfg["order"]])
             if mots.__contains__(node):
-                if mots[node].__contains__(p[i+mots_context]):
-                    mots[node][p[i+mots_context]] += 1
+                if mots[node].__contains__(p[i+cfg["order"]]):
+                    mots[node][p[i+cfg["order"]]] += 1
                 else:
-                    mots[node][p[i+mots_context]] = 1
+                    mots[node][p[i+icfg["order"]]] = 1
             else:
-                mots[node] = {p[i+mots_context]: 1}
+                mots[node] = {p[i+cfg["order"]]: 1}
         
         # Analyse de chaque phrase, et de leurs relation
         if not phrases.__contains__(phrase):
@@ -142,6 +146,11 @@ def compute(item):
 
         if phraseList.__contains__(c):
             found = True
+            if phraseList[c].__contains__(idx):
+                phraseList[c][idx] += 1
+            else:
+                phraseList[c][idx] = 1
+            
             lst = list(phraseList[c].keys())
             idx = phraseList[c][lst[random.randint(0, len(lst)-1)]]
             answer = phrases[idx]
