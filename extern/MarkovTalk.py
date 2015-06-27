@@ -92,7 +92,7 @@ def AnalyseFile(filename):
                 if mots[node].__contains__(p[i+cfg["order"]]):
                     mots[node][p[i+cfg["order"]]] += 1
                 else:
-                    mots[node][p[i+icfg["order"]]] = 1
+                    mots[node][p[i+cfg["order"]]] = 1
             else:
                 mots[node] = {p[i+cfg["order"]]: 1}
         
