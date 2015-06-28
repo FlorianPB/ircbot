@@ -25,6 +25,7 @@ def initDb():
 def computeRandomSentence(startFromLast=False):
     """Computes a random sentence"""
     global lastNode
+    ph = ""
 
     # Decides which node to start from
     if startFromLast and lastNode!="" and mots.__contains__(lastNode) and len(mots[lastNode])>0:
@@ -155,7 +156,7 @@ def dumpGraph(filePath):
                 # write next node candidates
                 if mots.__contains__(item):
                     for nextItem in mots[item]:
-                        graphFile.write('\t"%s" -> "%s" [color="#7f7f7f"]\n' % (right, (" ".join(nextItem.split("|")))).replace("\\", "\\\\").replace('"', '\\"'))
+                        graphFile.write('\t"%s" -> "%s" [color="#7f7f7f"]\n' % (right, (" ".join(nextItem.split("|"))).replace("\\", "\\\\").replace('"', '\\"')))
 
 
             graphFile.write('\t"%s" -> "%s" [label="%d"];\n' % (left, right, mots[key][item]))

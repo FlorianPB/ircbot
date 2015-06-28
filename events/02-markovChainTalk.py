@@ -93,10 +93,8 @@ def talkCheck(evt):
         tgt = user
     
     if talk>0:
-        if txt.find(bot.cfg["nick"].lower())>=0:
-            txt = txt.replace(bot.cfg["nick"].lower(), "")
-            bot.irc.msg(extern.MarkovTalk.compute(txt), tgt)
-        elif random.random() >= 0.9 or talk>1:
+        # Last conditions tells the bot to just shut up if he doesn't know what to say next (unless we're in mode 2, then he _must_ talks)
+        if random.random() >= 0.9 or talk>1 or extern.MarkovTalk.mots.__contains__(extern.MarkovTalk.lastNode):
             bot.irc.msg(extern.MarkovTalk.compute(txt), tgt)
         else:
             extern.MarkovTalk.AnalyzeSentence(txt)
