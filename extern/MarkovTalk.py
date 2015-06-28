@@ -48,6 +48,7 @@ def computeRandomSentence(startFromLast=False):
     
     while ph[-4:]!="|END":
         lst = mots["|".join(ph.split("|")[-cfg["order"]:])]
+
         if cfg["randomWalk"]:
             ph += "|" + list(lst.keys())[random.randint(0, len(lst)-1)]
         else:
@@ -60,7 +61,8 @@ def computeRandomSentence(startFromLast=False):
                     break
                 baseValue += lst[candidat]
 
-    lastNode="|".join(ph.split("|")[-cfg["order"]:])
+    curOrder = min(cfg["order"], len(ph.split("|"))-1)
+    lastNode="|".join(ph.split("|")[-curOrder:])
     
     return " ".join(ph.split("|")[1:-1])
 
@@ -148,22 +150,39 @@ def dumpGraph(filePath):
     graphFile = open(filePath, "w")
     graphFile.write("digraph G {\n")
     for key in mots.keys():
+        k = key.replace('\\', '\\\\').replace('"', '\\"')
+        left = ""
+        color = "#000000"
+
+        if k[0:4]=="END|":    # nœud de début
+            left = k.replace("|", " ")
+            graphFile.write('\t"%s" [color="#7faf7f" style=filled];\n' % left)
+        elif k[-4:]=="|END":  # nœud de fin
+            color="#afafaf"
+            left = k.replace("|", " ")
+            graphFile.write('\t"%s" [color="#af7f7f" style=filled];\n' % left)
+        else:                   # nœud de milieu
+            left = k.replace("|", " ")
+            graphFile.write('\t"%s" [color="#afaf7f" style=filled];\n' % left)
+
         for item in mots[key]:
-            left = " ".join(key.replace("\\", "\\\\").replace('"', '\\"').split("|"))
-            right = (" ".join((key+"|" + item).split("|")[-cfg["order"]:])).replace("\\", "\\\\").replace('"', '\\"')
-            if left[0:4] == "END ":
-                graphFile.write('\t"%s" [color="#3faf3f", style=filled];\n' % left)
+            right = ""
+            label = mots[key][item]
 
-            if right[-4:] == " END":
-                graphFile.write('\t"%s" [color="#af3f3f", style=filled];\n' % right)
+            i = item.replace('\\', '\\\\').replace('"', '\\"')
 
-                # write next node candidates
-                if mots.__contains__(item):
-                    for nextItem in mots[item]:
-                        graphFile.write('\t"%s" -> "%s" [color="#7f7f7f"]\n' % (right, (" ".join(nextItem.split("|"))).replace("\\", "\\\\").replace('"', '\\"')))
+            if k[0:4]=="END|":    # nœud de début
+                right = " ".join(k.split("|")[1:]) + " " + i
+                if right[-4:]==" END":
+                    graphFile.write('\t"%s" [color="#af7f7f" style=filled];\n' % right)
+            elif k[-4:]=="|END":  # nœud de fin
+                right = i.replace("|", " ")
+            else:                   # nœud de milieu
+                right = " ".join(k.split("|")[1:]) + " " + i
+                if right[-4:]==" END":
+                    graphFile.write('\t"%s" [color="#af7f7f" style=filled];\n' % right)
 
-
-            graphFile.write('\t"%s" -> "%s" [label="%d"];\n' % (left, right, mots[key][item]))
+            graphFile.write('\t"%s" -> "%s" [color="%s",label="%d"];\n' % (left, right, color, label))
 
     graphFile.write("}\n")
     graphFile.close()
