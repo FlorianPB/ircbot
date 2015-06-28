@@ -82,13 +82,14 @@ def AnalyzeSentence(phrase):
             mots[node] = {p[i+cfg["order"]]: 1}
 
     # Update lastNode stats to reflect lastNode -> current sentence link weight
-    if mots.__contains__(lastNode):
-        if mots[lastNode].__contains__("|".join(p[0:cfg["order"]])):
-            mots[lastNode]["|".join(p[0:cfg["order"]])] += 1
+    if len(lastNode)>0:
+        if mots.__contains__(lastNode):
+            if mots[lastNode].__contains__("|".join(p[0:cfg["order"]])):
+                mots[lastNode]["|".join(p[0:cfg["order"]])] += 1
+            else:
+                mots[lastNode]["|".join(p[0:cfg["order"]])] = 1
         else:
-            mots[lastNode]["|".join(p[0:cfg["order"]])] = 1
-    else:
-        mots[lastNode] = {"|".join(p[0:cfg["order"]]): 1}
+            mots[lastNode] = {"|".join(p[0:cfg["order"]]): 1}
 
     # Update lastNode to what the user just said
     lastNode = "|".join(p[-cfg["order"]:])
@@ -118,14 +119,15 @@ def AnalyseFile(filename):
                     mots[node][p[i+cfg["order"]]] = 1
             else:
                 mots[node] = {p[i+cfg["order"]]: 1}
-    
-        if mots.__contains__(lastNode):
-            if mots[lastNode].__contains__("|".join(p[0:cfg["order"]])):
-                mots[lastNode]["|".join(p[0:cfg["order"]])] += 1
+   
+        if len(lastNode)>0:
+            if mots.__contains__(lastNode):
+                if mots[lastNode].__contains__("|".join(p[0:cfg["order"]])):
+                    mots[lastNode]["|".join(p[0:cfg["order"]])] += 1
+                else:
+                    mots[lastNode]["|".join(p[0:cfg["order"]])] = 1
             else:
-                mots[lastNode]["|".join(p[0:cfg["order"]])] = 1
-        else:
-            mots[lastNode] = {"|".join(p[0:cfg["order"]]): 1}
+                mots[lastNode] = {"|".join(p[0:cfg["order"]]): 1}
 
         lastNode = "|".join(p[-cfg["order"]:])
         
