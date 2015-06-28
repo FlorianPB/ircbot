@@ -87,7 +87,7 @@ def AnalyzeSentence(phrase):
         else:
             mots[lastNode][p[0:cfg["order"]]] = 1
     else:
-        mots[lastNode] = {p[0:cfg["order"]]]: 1}
+        mots[lastNode] = {p[0:cfg["order"]]: 1}
 
     # Update lastNode to what the user just said
     lastNode = "|".join(p[-cfg["order"]:])
