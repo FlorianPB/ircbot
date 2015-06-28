@@ -94,9 +94,8 @@ def talkCheck(evt):
     
     if talk>0:
         # Last conditions tells the bot to just shut up if he doesn't know what to say next (unless we're in mode 2, then he _must_ talks)
-        if talk>1 or (extern.MarkovTalk.mots.__contains__(extern.MarkovTalk.lastNode) and len(extern.MarkovTalk.mots[extern.MarkovTalk.lastNode])>0):
-            bot.irc.msg(extern.MarkovTalk.compute(txt), tgt)
-        else:
-            extern.MarkovTalk.AnalyzeSentence(txt)
+        msg = extern.MarkovTalk.compute(txt)
+        if msg!="":
+            bot.irc.msg(msg, tgt)
     else:
         extern.MarkovTalk.AnalyzeSentence(txt)

@@ -38,13 +38,11 @@ def computeRandomSentence(startFromLast=False):
             value = random.randint(0, total - 1)
             for candidat in mots[lastNode].keys():
                 if baseValue <= value and mots[lastNode][candidat] > value:
-                    ph = candidat
                     break
                 baseValue += mots[lastNode][candidat]
-
-    while ph == "":
-        starts = [i for i in mots.keys() if i[0:4]=="END|"]
-        ph = starts[random.randint(0,len(starts)-1)]
+            ph = candidat
+    else:
+        return ""
     
     while ph[-4:]!="|END":
         lst = mots["|".join(ph.split("|")[-cfg["order"]:])]
