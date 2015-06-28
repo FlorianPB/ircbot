@@ -205,3 +205,16 @@ def compute(item):
                 pickle.dump(phraseList, f)
 
     return answer
+
+def dumpGraph(filePath):
+    """Dump graph to a file"""
+    graphFile = open(filePath, "w")
+    graphFile.write("digraph G {\n")
+    for key in mots.keys():
+        for item in mots[key]:
+            left = key.replace('"', '\\"')
+            right = ("|".join((key+"|" + item).split("|")[-2:])).replace('"', '\\"')
+            graphFile.write('\t"%s" -> "%s"\n' % (left, right))
+
+    graphFile.write("}\n")
+    graphFile.close()

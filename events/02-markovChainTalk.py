@@ -38,7 +38,8 @@ def cmdRandWalk(data, opts=[]):
 def cmdGraph(data, opts=[]):
     """Print graph info
     graph [branch]: print children
-    graph: infos on graph"""
+    graph: infos on graph
+    graph dump <path>: dump graph to <file> (.dot format)"""
 
     if len(opts)<1:
         bot.irc.msg("Word graph contains %d nodes" % len(extern.MarkovTalk.mots), data["tgt"])
@@ -47,8 +48,11 @@ def cmdGraph(data, opts=[]):
         if extern.MarkovTalk.cfg["randomWalk"]:
             bot.irc.msg("Word graph is walked randomly", data["tgt"])
         else:
-            bot.irc.msg("Word graph is walked randomly, respective to each sequence frequency", data["tgt"])
-            
+            bot.irc.msg("Word graph is walked randomly, respective to each sequence frequency", data["tgt"])        
+        return
+
+    if len(opts)>=2 and opts[0] == "dump":
+        extern.MarkovTalk.dumpGraph(" ".join(opts[1:]))
         return
 
     for item in opts:
