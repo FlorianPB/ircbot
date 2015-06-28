@@ -212,8 +212,8 @@ def dumpGraph(filePath):
     graphFile.write("digraph G {\n")
     for key in mots.keys():
         for item in mots[key]:
-            left = key.replace("\\", "\\\\").replace('"', '\\"')
-            right = ("|".join((key+"|" + item).split("|")[-2:])).replace("\\", "\\\\").replace('"', '\\"')
+            left = " ".join(key.replace("\\", "\\\\").replace('"', '\\"').split("|"))
+            right = (" ".join((key+"|" + item).split("|")[-cfg["order"]:])).replace("\\", "\\\\").replace('"', '\\"')
             graphFile.write('\t"%s" -> "%s"\n' % (left, right))
 
     graphFile.write("}\n")
