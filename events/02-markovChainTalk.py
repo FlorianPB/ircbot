@@ -43,7 +43,6 @@ def cmdGraph(data, opts=[]):
 
     if len(opts)<1:
         bot.irc.msg("Word graph contains %d nodes" % len(extern.MarkovTalk.mots), data["tgt"])
-        bot.irc.msg("Sentence graph contains %d nodes and %d recorded single sentences" % (len(extern.MarkovTalk.phraseList), len(extern.MarkovTalk.phrases)), data["tgt"])
         bot.irc.msg("Word graph has a depth of %d" % extern.MarkovTalk.cfg["order"], data["tgt"])
         if extern.MarkovTalk.cfg["randomWalk"]:
             bot.irc.msg("Word graph is walked randomly", data["tgt"])
@@ -81,7 +80,7 @@ def cmdRandom(data, opts=[]):
     if data["tgt"][0] != "#":
         return
 
-    bot.irc.msg(extern.MarkovTalk.computeRandomSentence(), data["tgt"])
+    bot.irc.msg(extern.MarkovTalk.computeRandomSentence(True), data["tgt"])
 
 def talkCheck(evt):
     """Hook for the event PRIVMSG"""
