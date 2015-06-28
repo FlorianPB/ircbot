@@ -112,7 +112,7 @@ def AnalyseFile(filename):
         
         # Analyse de chaque mot d'une phrase, et de leur relation
         p = ["END",] + phrase.split() + ["END",]
-        curOrder = min(curOrder,len(p)-1)
+        curOrder = min(cfg["order"],len(p)-1)
         
         for i in range(len(p)-curOrder):
             node = "|".join(p[i:i+curOrder])
