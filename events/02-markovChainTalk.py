@@ -96,8 +96,6 @@ def talkCheck(evt):
     if talk>0:
         if txt.find(bot.cfg["nick"].lower())>=0:
             txt = txt.replace(bot.cfg["nick"].lower(), "")
-            while ord(txt[0])<ord('a') or ord(txt[0])>ord('z') and txt!='':
-                txt = txt[1:]
             bot.irc.msg(extern.MarkovTalk.compute(txt), tgt)
         elif random.random() >= 0.9 or talk>1:
             bot.irc.msg(extern.MarkovTalk.compute(txt), tgt)
