@@ -69,30 +69,31 @@ def AnalyzeSentence(phrase):
     global mots, lastNode
     
     p = ["END",] + phrase.split() + ["END",]
-   
+    curOrder = min(cfg["order"],len(p)-1)
+
     # Analyze each group of words
-    for i in range(len(p)-cfg["order"]):
-        node = "|".join(p[i:i+cfg["order"]])
+    for i in range(len(p)-curOrder):
+        node = "|".join(p[i:i+curOrder])
         if mots.__contains__(node):
-            if mots[node].__contains__(p[i+cfg["order"]]):
-                mots[node][p[i+cfg["order"]]] += 1
+            if mots[node].__contains__(p[i+curOrder]):
+                mots[node][p[i+curOrder]] += 1
             else:
-                mots[node][p[i+cfg["order"]]] = 1
+                mots[node][p[i+curOrder]] = 1
         else:
-            mots[node] = {p[i+cfg["order"]]: 1}
+            mots[node] = {p[i+curOrder]: 1}
 
     # Update lastNode stats to reflect lastNode -> current sentence link weight
     if len(lastNode)>0:
         if mots.__contains__(lastNode):
-            if mots[lastNode].__contains__("|".join(p[0:cfg["order"]])):
-                mots[lastNode]["|".join(p[0:cfg["order"]])] += 1
+            if mots[lastNode].__contains__("|".join(p[0:curOrder])):
+                mots[lastNode]["|".join(p[0:curOrder])] += 1
             else:
-                mots[lastNode]["|".join(p[0:cfg["order"]])] = 1
+                mots[lastNode]["|".join(p[0:curOrder])] = 1
         else:
-            mots[lastNode] = {"|".join(p[0:cfg["order"]]): 1}
+            mots[lastNode] = {"|".join(p[0:curOrder]): 1}
 
     # Update lastNode to what the user just said
-    lastNode = "|".join(p[-cfg["order"]:])
+    lastNode = "|".join(p[-curOrder:])
     
     with open("mots", "wb") as f:
         pickle.dump(mots, f)
@@ -109,27 +110,28 @@ def AnalyseFile(filename):
         
         # Analyse de chaque mot d'une phrase, et de leur relation
         p = ["END",] + phrase.split() + ["END",]
+        curOrder = min(curOrder,len(p)-1)
         
-        for i in range(len(p)-cfg["order"]):
-            node = "|".join(p[i:i+cfg["order"]])
+        for i in range(len(p)-curOrder):
+            node = "|".join(p[i:i+curOrder])
             if mots.__contains__(node):
-                if mots[node].__contains__(p[i+cfg["order"]]):
-                    mots[node][p[i+cfg["order"]]] += 1
+                if mots[node].__contains__(p[i+curOrder]):
+                    mots[node][p[i+curOrder]] += 1
                 else:
-                    mots[node][p[i+cfg["order"]]] = 1
+                    mots[node][p[i+curOrder]] = 1
             else:
-                mots[node] = {p[i+cfg["order"]]: 1}
+                mots[node] = {p[i+curOrder]: 1}
    
         if len(lastNode)>0:
             if mots.__contains__(lastNode):
-                if mots[lastNode].__contains__("|".join(p[0:cfg["order"]])):
-                    mots[lastNode]["|".join(p[0:cfg["order"]])] += 1
+                if mots[lastNode].__contains__("|".join(p[0:curOrder])):
+                    mots[lastNode]["|".join(p[0:curOrder])] += 1
                 else:
-                    mots[lastNode]["|".join(p[0:cfg["order"]])] = 1
+                    mots[lastNode]["|".join(p[0:curOrder])] = 1
             else:
-                mots[lastNode] = {"|".join(p[0:cfg["order"]]): 1}
+                mots[lastNode] = {"|".join(p[0:curOrder]): 1}
 
-        lastNode = "|".join(p[-cfg["order"]:])
+        lastNode = "|".join(p[-curOrder:])
         
     with open("mots", "wb") as f:
         pickle.dump(mots, f)
