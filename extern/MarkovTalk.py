@@ -120,11 +120,11 @@ def AnalyseFile(filename):
     
         if mots.__contains__(lastNode):
             if mots[lastNode].__contains__(p[0:cfg["order"]]):
-                mots[lastNode][p[0:cfg["order"]]] += 1
+                mots[lastNode][p[0:cfg["order"]] += 1
             else:
-                mots[lastNode][p[0:cfg["order"]]] = 1
+                mots[lastNode][p[0:cfg["order"]] = 1
         else:
-            mots[lastNode] = {p[0:cfg["order"]]]: 1}
+            mots[lastNode] = {p[0:cfg["order"]]: 1}
 
         lastNode = "|".join(p[-cfg["order"]:])
         
