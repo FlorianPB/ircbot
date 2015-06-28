@@ -221,7 +221,7 @@ def dumpGraph(filePath):
             if right[-4:] == " END":
                 bgcolor="#af3f3f"
 
-            graphFile.write('\t"%s" -> "%s" [bgcolor="%s"]\n' % (left, right))
+            graphFile.write('\t"%s" -> "%s" [bgcolor="%s"]\n' % (left, right, bgcolor))
 
     graphFile.write("}\n")
     graphFile.close()
