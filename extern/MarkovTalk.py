@@ -42,7 +42,7 @@ def computeRandomSentence(startFromLast=False):
                     break
                 baseValue += mots[lastNode][candidat]
 
-    else:
+    while ph == "":
         starts = [i for i in mots.keys() if i[0:4]=="END|"]
         ph = starts[random.randint(0,len(starts)-1)]
     
