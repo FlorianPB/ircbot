@@ -214,14 +214,13 @@ def dumpGraph(filePath):
         for item in mots[key]:
             left = " ".join(key.replace("\\", "\\\\").replace('"', '\\"').split("|"))
             right = (" ".join((key+"|" + item).split("|")[-cfg["order"]:])).replace("\\", "\\\\").replace('"', '\\"')
-            bgcolor="#FFFFFF"
             if left[0:4] == "END ":
-                bgcolor="#3faf3f"
+                graphFile.write('\t"%s" [color="#3faf3f", style=filled];\n' % left)
 
             if right[-4:] == " END":
-                bgcolor="#af3f3f"
+                graphFile.write('\t"%s" [color="#af3f3f", style=filled];\n' % right)
 
-            graphFile.write('\t"%s" -> "%s" [bgcolor="%s"]\n' % (left, right, bgcolor))
+            graphFile.write('\t"%s" -> "%s" [label="%d"];\n' % (left, right, mots[key][item]))
 
     graphFile.write("}\n")
     graphFile.close()
