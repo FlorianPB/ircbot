@@ -41,6 +41,9 @@ def computeRandomSentence(startFromLast=False):
                     break
                 baseValue += mots[lastNode][candidat]
             ph = candidat
+    elif not startFromLast:
+        lst = [i for i in mots.keys() if i[0:4]=="END|"]
+        ph = lst[random.randint(0, len(lst)-1)]
     else:
         return ""
     

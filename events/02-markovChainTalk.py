@@ -80,7 +80,7 @@ def cmdRandom(data, opts=[]):
     if data["tgt"][0] != "#":
         return
 
-    bot.irc.msg(extern.MarkovTalk.computeRandomSentence(True), data["tgt"])
+    bot.irc.msg(extern.MarkovTalk.computeRandomSentence(False), data["tgt"])
 
 def talkCheck(evt):
     """Hook for the event PRIVMSG"""
