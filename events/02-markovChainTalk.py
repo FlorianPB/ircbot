@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Markov Chain statistic-based talk :D"""
 
-import data.Markov
+import data.Markov as Markov
 import random
 
 bot = None
@@ -12,8 +12,7 @@ def init(botInstance):
     """Inits the msgTrigger module"""
     global bot
 
-    data.Markov.initDb()
-    data.Markov.bot = botInstance
+    Markov.initDb()
 
     bot = botInstance
 
@@ -31,9 +30,9 @@ def cmdRandWalk(data, opts=[]):
 
     if len(opts) >= 1 and ["on", "off"].__contains__(opts[0].lower()):
         if opts[0].lower() == "on":
-            data.Markov.cfg["randomWalk"] = True
+            Markov.cfg["randomWalk"] = True
         else:
-            data.Markov.cfg["randomWalk"] = False
+            Markov.cfg["randomWalk"] = False
 
 def cmdGraph(data, opts=[]):
     """Print graph info
@@ -42,21 +41,21 @@ def cmdGraph(data, opts=[]):
     graph dump <path>: dump graph to <file> (.dot format)"""
 
     if len(opts)<1:
-        bot.irc.msg("Word graph contains %d nodes" % len(data.Markov.mots), data["tgt"])
-        bot.irc.msg("Word graph has a depth of %d" % data.Markov.cfg["order"], data["tgt"])
-        if data.Markov.cfg["randomWalk"]:
+        bot.irc.msg("Word graph contains %d nodes" % len(Markov.mots), data["tgt"])
+        bot.irc.msg("Word graph has a depth of %d" % Markov.cfg["order"], data["tgt"])
+        if Markov.cfg["randomWalk"]:
             bot.irc.msg("Word graph is walked randomly", data["tgt"])
         else:
             bot.irc.msg("Word graph is walked randomly, respective to each sequence frequency", data["tgt"])        
         return
 
     if len(opts)>=2 and opts[0] == "dump":
-        data.Markov.dumpGraph(" ".join(opts[1:]))
+        Markov.dumpGraph(" ".join(opts[1:]))
         return
 
     for item in opts:
-        if data.Markov.mots.__contains__(item):
-            bot.irc.msg("%s: %s" % (item, data.Markov.mots[item]), data["tgt"])
+        if Markov.mots.__contains__(item):
+            bot.irc.msg("%s: %s" % (item, Markov.mots[item]), data["tgt"])
         else:
             bot.irc.msg("%s: nothing found" % item, data["tgt"])
 
@@ -80,7 +79,7 @@ def cmdRandom(data, opts=[]):
     if data["tgt"][0] != "#":
         return
 
-    bot.irc.msg(data.Markov.computeRandomSentence(False), data["tgt"])
+    bot.irc.msg(Markov.computeRandomSentence(False), data["tgt"])
 
 def talkCheck(evt):
     """Hook for the event PRIVMSG"""
@@ -94,8 +93,8 @@ def talkCheck(evt):
     
     if talk>0:
         # Last conditions tells the bot to just shut up if he doesn't know what to say next (unless we're in mode 2, then he _must_ talks)
-        msg = data.Markov.compute(txt)
+        msg = Markov.compute(txt)
         if msg!="":
             bot.irc.msg(msg, tgt)
     else:
-        data.Markov.AnalyzeSentence(txt)
+        Markov.AnalyzeSentence(txt)
