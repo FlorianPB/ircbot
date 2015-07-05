@@ -40,14 +40,10 @@ class Connect:
         """Wait for text from the connection"""
         txt = ""
         if self.socket != None:
-            try:
-                if encoding != "":
-                    txt = self.socket.recv(bufSize).decode(encoding)
-                else:
-                    txt = self.socket.recv(bufSize).decode()
-            except UnicodeDecodeError:
-                # I just don't know what went wrong.. But it's okay, I will just ignore it till it goes away ^w^
-                txt = ""
+            if encoding != "":
+                txt = self.socket.recv(bufSize).decode(errors='replace', encoding=encoding)
+            else:
+                txt = self.socket.recv(bufSize).decode(errors='replace')
 
         return txt
 
@@ -58,15 +54,12 @@ class Connect:
             try:
                 self.socket.setblocking(False)
                 if encoding != "":
-                    txt = self.socket.recv(bufSize).decode(encoding)
+                    txt = self.socket.recv(bufSize).decode(errors='replace', encoding=encoding)
                 else:
-                    txt = self.socket.recv(bufSize).decode()
+                    txt = self.socket.recv(bufSize).decode(errors='replace')
                 self.socket.setblocking(True)
 
-            except ( UnicodeDecodeError, BlockingIOError ):
-                # UnicodeDecodeError:
-                # I just don't know what went wrong.. But it's okay, I will just ignore it till it goes away ^w^
-                
+            except ( BlockingIOError ):
                 # BlockingIOError:
                 # Nothing to poll from the Internet.
                 # We'll have to send an empty string ^^
