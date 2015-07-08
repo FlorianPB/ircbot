@@ -101,10 +101,10 @@ def run():
     bot = IRCBot()
     
     console = threading.Thread(None, bot.consoleEventLoop)
-    bot.start()
-    console.start()
     
     try:
+        bot.start()
+        console.start()
         while True:
             # While console is running, wait because user could want to start again the bot's connection
             if bot.isRunning:
@@ -113,10 +113,10 @@ def run():
                 bot.stop()
                 bot.start()
                 time.sleep(1)
+        console.join()
     except:
-        pass
+        status.status(status.FAIL, True)
 
-    console.join()
 
 if __name__=="__main__":
     run()
