@@ -21,8 +21,6 @@ def loadAllModules(botInstance):
 
     modules = {}
 
-    botInstance.status.status(message="Loading event modules…")
-
     for moduleFile in files:
         moduleNameLen = len(moduleFile)
         moduleName = moduleFile[0:moduleNameLen-3]
@@ -39,4 +37,4 @@ def loadAllModules(botInstance):
             # Initializing module, mainly setting up hooks
             botInstance.log.log(botInstance._("Initializing module…"), "util.modules", util.log.INFO)
             modules[moduleName].init(botInstance)
-    botInstance.status.status(botInstance.status.OK, True, "Event modules loaded")
+            botInstance.status.status(botInstance.status.OK, True)
