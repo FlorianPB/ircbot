@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- codimg: utf8 -*-
+# -*- coding: utf8 -*-
 """Identify to nickserv if needed"""
 
 bot = None

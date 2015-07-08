@@ -42,14 +42,14 @@ class Log:
         strLog = "[%s] %s %s: %s\n" % (strftime("%Y-%m-%d %H:%M:%S"), textLevels[level], head, content)
 
         handle = open(self.path, "a")
-        if level>=self.fileLogLevel:
+        if level>=self.fileLogLevel and self.fileLogLevel>=0:
             handle.write(strLog)
             handle.flush()
         
-        if level>=self.stderrLogLevel:
+        if level>=self.stderrLogLevel and self.stderrLogLevel>=0:
             stderr.write(strLog)
             stderr.flush()
-        elif level>=self.stdoutLogLevel:
+        elif level>=self.stdoutLogLevel and self.stdoutLogLevel>=0:
             stdout.write(strLog)
             stdout.flush()
         handle.close()

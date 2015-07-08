@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# vim: foldlevel=1
 
 import util.log
 
@@ -19,27 +18,28 @@ class IRC:
     def ident(self):
         """Identifies at the beginning of the connection (send USER and NICK commands)"""
         # Send user info
+        bot.status.status(message="Sending ident info")
         bot.connect.sendText("USER %s a a :%s\r\n" % (bot.cfg["username"], bot.cfg["realname"]))
-        bot.log.log(bot.connect.waitText(), "net.irc.ident", util.log.DEBUG)
+        bot.status.status(bot.status.OK, True)
 
         # Send nick info
+        bot.status.status(bot.status.OK, True, "Sending nickname")
         bot.connect.sendText("NICK %s\r\n" % bot.cfg["nick"])
-        bot.log.log(bot.connect.waitText(), "net.irc.ident", util.log.DEBUG)
 
     def join(self, chan):
         """Joins a channel if we aren't already in it"""
+        bot.status.status(message="Joining " + chan)
         if not self.chans.__contains__(chan):
             if chan != "/dev/console":
                 bot.connect.sendText("JOIN %s\r\n" % chan)
-                bot.log.log(bot.connect.waitText(), "net.irc.join", util.log.DEBUG)
             self.chans[chan] = {}
+        bot.status.status(bot.status.OK, True)
 
     def part(self, chan, partMessage="Bye bye !"):
         """Parts from a channel"""
         if self.chans.__contains__(chan) and chan != "/dev/console":    # Don't part from system console, never do that!
             if chan != "/dev/console":
                 bot.connect.sendText("PART %s :\"%s\"\r\n" % (chan, partMessage))
-                bot.log.log(bot.connect.waitText(), "net.irc.part", util.log.DEBUG)
             
             del self.chans[chan]
 

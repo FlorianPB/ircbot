@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# vim: foldlevel=1
 
 from os import chdir, getcwd
 from os.path import dirname
@@ -12,23 +11,22 @@ import gettext
 import threading
 import time
 
-import util.log
-import util.cfg
-import util.exceptions
-import util.modules
-import net.connect
-import net.irc
+from util import log, cfg, status, modules
+from net  import connect, irc
 
 class IRCBot:
-    import util.modules as modules
 
     def __init__(self):
         """Initializes bot data"""
-        self.cfg = util.cfg.load()
+        global modules
 
-        self.log = util.log.Log("log/bot.log", file_l=util.log.DEBUG, stdout_l=util.log.INFO, stderr_l=util.log.WARNING)
-        self.connect = net.connect.Connect(self)
-        self.irc = net.irc.IRC(self)
+        self.modules = modules
+        self.status  = status
+        self.cfg = cfg.load()
+
+        self.log = log.Log("log/bot.log", file_l=log.DEBUG, stdout_l=-1, stderr_l=-1)
+        self.connect = connect.Connect(self)
+        self.irc = irc.IRC(self)
 
         # Gettext localisation
         self.t = gettext.translation("ircbot", getcwd()+"/locale")
@@ -53,7 +51,7 @@ class IRCBot:
         self.joined = False
         self.identified = not self.cfg["waitNickserv"] # if we have to wait nickserv, set identified to False at startup.
 
-        self.log.log(self._("Starting log"), "ircbot", util.log.NOTIF)
+        self.log.log(self._("Starting log"), "ircbot", log.NOTIF)
         self.connect.start()
         self.irc.ident()
         self.modules.loadAllModules(self)
@@ -70,9 +68,13 @@ class IRCBot:
     def ircEventLoop(self):
         """Main bot Event loop"""
 
+        if not self.identified:
+            self.status.status(message="Awayting identification…")
+
         while self.isRunning:
             # We just identified. Join all chans !
             if self.identified and not self.joined:
+                self.status.status(self.status.OK, True, "Identification OK")
                 self.joinAll()
 
             self.irc.event(self.connect.checkText())
