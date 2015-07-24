@@ -47,6 +47,8 @@ def tellCheck(evt):
     if not txtStack[chan].__contains__(nick):
         return
 
-    for item in txtStack[chan][nick]:
+    item = txtStack[chan][nick].pop()
+    bot.irc.msg(nick+": <"+item[0]+"> " + item[1], chan)
+    while len(txtStack[chan][nick]) > 0:
+        item = txtStack[chan][nick].pop()
         bot.irc.msg(nick+": <"+item[0]+"> " + item[1], chan)
-        del txtStack[chan][nick][item]
