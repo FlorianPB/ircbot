@@ -49,3 +49,4 @@ def tellCheck(evt):
 
     for item in txtStack[chan][nick]:
         bot.irc.msg(nick+": <"+item[0]+"> " + item[1], chan)
+        del txtStack[chan][nick][item]
