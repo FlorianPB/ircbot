@@ -2,10 +2,15 @@
 # -*- coding: utf-8 -*-
 
 from os import chdir, getcwd
-from os.path import dirname
+from os.path import dirname, realpath
 from sys import path
 
-path.insert(1, dirname(__file__))
+curdir=dirname(__file__)
+if curdir=="":
+    curdir=getcwd()
+curdir=realpath(curdir)
+
+path.insert(1, curdir)
 
 import gettext
 import threading
@@ -29,7 +34,7 @@ class IRCBot:
         self.irc = irc.IRC(self)
 
         # Gettext localisation
-        self.t = gettext.translation("ircbot", getcwd()+"/locale")
+        self.t = gettext.translation("ircbot", curdir+"/locale")
         self._ = self.t.gettext
 
         # Set state booleans
@@ -97,7 +102,7 @@ class IRCBot:
 
 def run():
     """Starts the bot"""
-    chdir(dirname(__file__))
+    chdir(curdir)
     bot = IRCBot()
     
     console = threading.Thread(None, bot.consoleEventLoop)
