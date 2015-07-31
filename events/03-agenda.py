@@ -7,6 +7,7 @@ import os, time
 bot = None
 events = []
 path = "events.lst"
+tellEvents = True
 
 def init(botInstance):
     """Inits the module"""
@@ -39,14 +40,26 @@ def update():
 
 def cmdEvent(data, opts=[]):
     """event command.
-    event list: list all upcoming events with their date and description"""
+    event list: list all upcoming events with their date and description
+    event tell on/off: Whether to tell upcoming event to coming people"""
+    global tellEvents, events
+
     if len(opts)<1:
         bot.irc.msg("Hey, I need some parameters!", data["tgt"])
         return
 
     load()
     
-    if opts[0] == "list":
+    if opts[0] == "tell":
+        if len(opts)<2:
+            return
+
+        if opts[1] == "on":
+            tellEvents = True
+        elif opts[1] == "off":
+            tellEvents = False
+
+    elif opts[0] == "list":
         now = int(time.mktime(time.localtime()))
         nextEvents = 0
         for event in events:
@@ -64,6 +77,9 @@ def cmdEvent(data, opts=[]):
 
 def checkEvent(evt):
     """Tells the next upcoming event"""
+    if not tellEvents:
+        return
+
     load()
 
     userName = evt[0].split("!")[0][1:]
