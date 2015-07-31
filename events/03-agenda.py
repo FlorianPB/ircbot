@@ -117,4 +117,4 @@ def checkEvent(evt):
     if nextEventId>0:
         if not persons.__contains__(userName) or persons[userName]<nextEventId:
             persons[userName] = nextEventId
-            bot.irc.msg(userName + ", " + " ".join(nextEvent.split()[1:]) + " le " + time.strftime("%A %d %B %Y à %R", time.localtime(nextEventId)), channel)
+            bot.irc.msg(userName + ", notre prochain événement: " + " ".join(nextEvent.split()[1:]) + " le " + time.strftime("%A %-d %B %Y à %-Hh%M", time.localtime(nextEventId)), channel)
