@@ -8,6 +8,7 @@ bot = None
 events = []
 path = "events.lst"
 tellEvents = True
+persons = {}
 
 def init(botInstance):
     """Inits the module"""
@@ -25,10 +26,12 @@ def init(botInstance):
 def load():
     """Load event list"""
     global events
+    now = int(time.mktime(time.localtime()))
     if os.path.exists(path):
         with open(path, "rb") as f:
             events = f.read().decode().split("\n")
-        events = [i for i in events if len(i)>0]
+        events = [i for i in events if len(i)>0 and int(i.split()[0])>now]
+    update()
 
 def update():
     """Write event list"""
@@ -41,7 +44,8 @@ def update():
 def cmdEvent(data, opts=[]):
     """event command.
     event list: list all upcoming events with their date and description
-    event tell on/off: Whether to tell upcoming event to coming people"""
+    event tell on/off: Whether to tell upcoming event to coming people
+    event add """
     global tellEvents, events
 
     if len(opts)<1:
@@ -77,6 +81,8 @@ def cmdEvent(data, opts=[]):
 
 def checkEvent(evt):
     """Tells the next upcoming event"""
+    global persons
+
     if not tellEvents:
         return
 
@@ -99,4 +105,6 @@ def checkEvent(evt):
             nextEvent = event
 
     if nextEventId>0:
-        bot.irc.msg(userName + ", " + " ".join(nextEvent.split()[1:]) + " le " + time.strftime("%A %d %B %Y à %R", time.localtime(nextEventId)), channel)
+        if not persons.__contains__(userName) or persons[userName]<nextEventId:
+            persons[userName] = nextEventId
+            bot.irc.msg(userName + ", " + " ".join(nextEvent.split()[1:]) + " le " + time.strftime("%A %d %B %Y à %R", time.localtime(nextEventId)), channel)
