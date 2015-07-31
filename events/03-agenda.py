@@ -67,11 +67,11 @@ def cmdEvent(data, opts=[]):
         if len(opts)<3:
             return
         try:
-            t = time.strptime(" ".join(opts[1:2]), "%Y-%m-%d %H:%M")
-            events.append(str(t) + " " + " ".join(opts[3:]))
+            t = time.strftime("%s", time.strptime(" ".join(opts[1:3]), "%Y-%m-%d %H:%M"))
+            events.append(t + " " + " ".join(opts[3:]))
             update()
         except:
-            bot.irc.msg("Error: the event date is not in the right format ! (YYYY-mm-dd HH:MM)", data["tgt"])
+            bot.irc.msg("Error: the event date '" + " ".join(opts[1:3]) + "' is not in the right format ! (YYYY-mm-dd HH:MM)", data["tgt"])
 
     elif opts[0] == "list":
         now = int(time.mktime(time.localtime()))
