@@ -7,7 +7,7 @@ curl -s https://www.google.com/calendar/ical/bronycub%40gmail.com/public/basic.i
 	sort -ur |\
 	grep "^[0-9TZ]* .\+$" |\
 	while read i; do 
-		let t=$(date +%s -d "${i:0:4}-${i:4:2}-${i:6:2} ${i:9:2}:${i:11:2}");
+		let t=$(date +%s -d "${i:0:4}-${i:4:2}-${i:6:2} ${i:9:2}:${i:11:2} +0000");
 		if [ $t -gt $now ]; then
 			echo "$t ${i:17}";
 		fi;
