@@ -45,7 +45,7 @@ def cmdEvent(data, opts=[]):
     """event command.
     event list: list all upcoming events with their date and description
     event tell on/off: Whether to tell upcoming event to coming people
-    event add """
+    event add YYYY-mm-dd HH:MM Description of the event"""
     global tellEvents, events
 
     if len(opts)<1:
@@ -63,6 +63,16 @@ def cmdEvent(data, opts=[]):
         elif opts[1] == "off":
             tellEvents = False
 
+    elif opts[0] == "add":
+        if len(opts)<3:
+            return
+        try:
+            t = time.strptime(" ".join(opts[1:2]), "%Y-%m-%d %H:%M")
+            events.append(str(t) + " " + " ".join(opts[3:]))
+            update()
+        except:
+            bot.irc.msg("Error: the event date is not in the right format ! (YYYY-mm-dd HH:MM)", data["tgt"])
+
     elif opts[0] == "list":
         now = int(time.mktime(time.localtime()))
         nextEvents = 0
@@ -70,7 +80,7 @@ def cmdEvent(data, opts=[]):
             t = int(event.split()[0])
             if t > now:
                 nextEvents += 1
-                bot.irc.msg(time.strftime("[%F %T]: ", time.localtime(t)) + " ".join(event.split()[1:]), data["tgt"])
+                bot.irc.msg(time.strftime("[%F %R]: ", time.localtime(t)) + " ".join(event.split()[1:]), data["tgt"])
 
         if nextEvents == 0:
             bot.irc.msg("Sorry, no upcoming event :/", data["tgt"])
