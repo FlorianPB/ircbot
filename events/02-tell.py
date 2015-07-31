@@ -14,6 +14,7 @@ def init(botInstance):
 
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdTell, "tell")
     bot.irc.hooks["PRIVMSG"].append(tellCheck)
+    bot.irc.hooks["JOIN"].append(tellCheck)
 
 def cmdTell(data, opts=[]):
     """Stack a text for someone to tell
