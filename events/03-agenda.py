@@ -18,12 +18,24 @@ def init(botInstance):
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdEvent, "event")
     bot.irc.hooks["JOIN"].append(checkEvent)
 
+
+
+
 def load():
+    """Load event list"""
     global events
     if os.path.exists(path):
         with open(path, "rb") as f:
             events = f.read().decode().split("\n")
         events = [i for i in events if len(i)>0]
+
+def update():
+    """Write event list"""
+    with open(path, "wb") as f:
+        f.write(("\n".join(events)).encode("UTF-8"))
+
+
+
 
 def cmdEvent(data, opts=[]):
     """event command.
@@ -45,6 +57,10 @@ def cmdEvent(data, opts=[]):
 
         if nextEvents == 0:
             bot.irc.msg("Sorry, no upcoming event :/", data["tgt"])
+
+
+
+
 
 def checkEvent(evt):
     """Tells the next upcoming event"""

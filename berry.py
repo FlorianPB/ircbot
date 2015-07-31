@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from os import chdir, getcwd
+from os import chdir, getcwd, environ
 from os.path import dirname, realpath
 from sys import path
 
@@ -13,11 +13,14 @@ curdir=realpath(curdir)
 path.insert(1, curdir)
 
 import gettext
+import locale
 import threading
 import time
 
 from util import log, cfg, status, modules
 from net  import connect, irc
+
+locale.setlocale(locale.LC_ALL, environ["LANG"])
 
 class IRCBot:
 
