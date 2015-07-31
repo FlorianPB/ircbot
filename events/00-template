@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Module description"""
+
+bot = None
+
+def init(botInstance):
+    """Inits the module"""
+    global bot
+
+    bot = botInstance
+
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdBlahblah, "blahblah")
+    bot.irc.hooks["PRIVMSG"].append(hookThingy)
+
+def cmdBlahblah(data, opts=[]):
+    """Command helptext
+    Does something. Obviously."""
+
+def hookThingy(evt):
+    """Does something on an event."""
