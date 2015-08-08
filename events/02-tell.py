@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 """Tell someone something when they come back"""
 
+from time import strftime
+
 bot = None
 
 txtStack = {}
@@ -29,11 +31,11 @@ def cmdTell(data, opts=[]):
     txt = " ".join(opts[1:])
 
     if not txtStack.__contains__(data["tgt"]):
-        txtStack[data["tgt"]] = {nick: [(data["user"], txt),]}
+        txtStack[data["tgt"]] = {nick: [(data["user"], txt, strftime("%F %R")), ]}
     elif not txtStack[data["tgt"]].__contains__(nick):
-        txtStack[data["tgt"]][nick] = [(data["user"], txt),]
+        txtStack[data["tgt"]][nick] = [(data["user"], txt, strftime("%F %R")),]
     else:
-        txtStack[data["tgt"]][nick].append((data["user"], txt))
+        txtStack[data["tgt"]][nick].append((data["user"], txt, strftime("%F %R")))
 
     bot.irc.msg(data["user"]+bot._(": Done."), data["tgt"])
 
@@ -51,7 +53,11 @@ def tellCheck(evt):
         return
 
     item = txtStack[chan][nick].pop()
-    bot.irc.msg(nick+": <"+item[0]+"> " + item[1], chan)
+    sender, msg, ts = item
+    
+    bot.irc.msg(nick+": <"+sender+"> " + msg + " (" + ts + ")", chan)
+
     while len(txtStack[chan][nick]) > 0:
         item = txtStack[chan][nick].pop()
-        bot.irc.msg(nick+": <"+item[0]+"> " + item[1], chan)
+        sender, msg, ts = item
+        bot.irc.msg(nick+": <"+sender+"> " + msg + " (" + ts + ")", chan)
