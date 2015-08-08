@@ -22,7 +22,7 @@ def cmdTell(data, opts=[]):
     global txtStack
 
     if len(opts)<2:
-        bot.irc.msg("Please tell me who you want to talk to, and the message!", data["tgt"])
+        bot.irc.msg(bot._("Please tell me who you want to talk to, and the message!"), data["tgt"])
         return
 
     nick = opts[0]
@@ -35,7 +35,7 @@ def cmdTell(data, opts=[]):
     else:
         txtStack[data["tgt"]][nick].append((data["user"], txt))
 
-    bot.irc.msg(data["user"]+": Done.", data["tgt"])
+    bot.irc.msg(data["user"]+bot._(": Done."), data["tgt"])
 
 def tellCheck(evt):
     """Check if need to say something"""

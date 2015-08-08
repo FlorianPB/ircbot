@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: <support@art-software.fr>\n"
-"POT-Creation-Date: 2015-05-28 14:37+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-08 07:14+0200\n"
 "PO-Revision-Date: 2015-05-28 14:38+0200\n"
 "Last-Translator: Adrien Sohier <support@art-software.fr>\n"
 "Language-Team: English\n"
@@ -45,10 +45,6 @@ msgstr " * Mode %s defined for %s by"
 #, python-format
 msgid " * Mode %s defined on %s by "
 msgstr " * Mode %s defined on %s by "
-
-#: events/01-nickserv.py:17
-msgid "NickServ password for "
-msgstr "NickServ password for "
 
 #: events/01-simpleCommand.py:61
 #, python-format
@@ -117,53 +113,53 @@ msgid "Cannot find help for command '%s'"
 msgstr "Cannot find help for command '%s'"
 
 #: events/01-simpleCommand.py:218 events/01-simpleCommand.py:238
-#: events/01-simpleCommand.py:260
+#: events/01-simpleCommand.py:262
 msgid "Sorry, I have no valid channel to work with :/"
 msgstr "Sorry, I have no valid channel to work with :/"
 
 #: events/01-simpleCommand.py:221 events/01-simpleCommand.py:241
-#: events/01-simpleCommand.py:263
+#: events/01-simpleCommand.py:265
 msgid "Sorry, please read @help."
 msgstr "Sorry, please read @help."
 
-#: events/01-simpleCommand.py:267
-#, python-format
-msgid "launches a muffin on %s at %s km/h"
+#: events/01-simpleCommand.py:270
+#, fuzzy, python-format
+msgid "launches a muffin on %s at %d km/h"
 msgstr "launches a muffin on %s at %s km/h"
 
-#: events/01-simpleCommand.py:269
+#: events/01-simpleCommand.py:272
 msgid "MUFFIN RAINBOOM !!"
 msgstr "MUFFIN RAINBOOM !!"
 
-#: events/01-simpleCommand.py:283 events/01-simpleCommand.py:319
+#: events/01-simpleCommand.py:288 events/01-simpleCommand.py:324
 msgid "This command is not restricted or does not exist."
 msgstr "This command is not restricted or does not exist."
 
-#: events/01-simpleCommand.py:285
+#: events/01-simpleCommand.py:290
 msgid "Access is granted to this command to :"
 msgstr "Access is granted to this command to :"
 
-#: events/01-simpleCommand.py:297 events/01-simpleCommand.py:322
+#: events/01-simpleCommand.py:302 events/01-simpleCommand.py:327
 msgid "This rule number is invalid for this command."
 msgstr "This rule number is invalid for this command."
 
-#: events/01-simpleCommand.py:300
+#: events/01-simpleCommand.py:305
 msgid "Rule deleted."
 msgstr "Rule deleted."
 
-#: events/01-simpleCommand.py:303
+#: events/01-simpleCommand.py:308
 msgid "No rule left, command is now unrestricted."
 msgstr "No rule left, command is now unrestricted."
 
-#: events/01-simpleCommand.py:309
+#: events/01-simpleCommand.py:314
 msgid "Command was not restricted, registering it into the access list"
 msgstr "Command was not restricted, registering it into the access list"
 
-#: events/01-simpleCommand.py:314
+#: events/01-simpleCommand.py:319
 msgid "Rule(s) added."
 msgstr "Rule(s) added."
 
-#: events/01-simpleCommand.py:325
+#: events/01-simpleCommand.py:330
 msgid "Access rule edited."
 msgstr "Access rule edited."
 
@@ -200,25 +196,64 @@ msgstr "Expression for %s : %s"
 msgid "Message(s) for %s :"
 msgstr "Message(s) for %s :"
 
-#: events/03-modFlags.py:54 events/03-modFlags.py:86 events/03-modFlags.py:119
-#: events/03-modFlags.py:150 events/03-modFlags.py:182
+#: events/03-modFlags.py:85 events/03-modFlags.py:115
 msgid "Channel not specified!"
 msgstr "Channel not specified!"
 
-#: events/03-modFlags.py:200
+#: events/03-modFlags.py:133
 msgid "Sorry, you need to specify a channel in private mode"
 msgstr "Sorry, you need to specify a channel in private mode"
 
-#: ircbot.py:56
-msgid "Starting log"
-msgstr "Starting log"
+#: events/02-tell.py:25
+msgid "Please tell me who you want to talk to, and the message!"
+msgstr "Please tell me who you want to talk to, and the message!"
 
-#: net/connect.py:20
+#: events/02-tell.py:38
+msgid ": Done."
+msgstr ": Done."
+
+#: events/02-version.py:22
+#, python-brace-format
+msgid "Master version: {v}, Current release: {r}, Commit ID: {c}"
+msgstr "Master version: {v}, Current release: {r}, Commit ID: {c}"
+
+#: events/02-version.py:24
+#, python-brace-format
+msgid "Master version: {v}, first release"
+msgstr "Master version: {v}, first release"
+
+#: events/02-version.py:26
+msgid "Sorry, git returned garbage. Please import the tags :("
+msgstr "Sorry, git returned garbage. Please import the tags :("
+
+#: events/03-agenda.py:53
+msgid "Hey, I need some parameters!"
+msgstr "Hey, I need some parameters!"
+
+#: events/03-agenda.py:75
+#, python-brace-format
+msgid "Error: the event date '{0}' is not in the right format ! (YYYY-mm-dd HH:MM)"
+msgstr "Error: the event date '{0}' is not in the right format ! (YYYY-mm-dd HH:MM)"
+
+#: events/03-agenda.py:87
+msgid "Sorry, no upcoming event :/"
+msgstr "Sorry, no upcoming event :/"
+
+#: events/03-agenda.py:121
+#, python-brace-format
+msgid "{user}, notre prochain événement : {event} le {date}"
+msgstr "{user}, our next event : {event}, on {date}"
+
+#: events/01-nickserv.py:17
+msgid "NickServ password for "
+msgstr "NickServ password for "
+
+#: net/connect.py:19
 #, python-format
 msgid "Connecting socket to %s:%d"
 msgstr "Connecting socket to %s:%d"
 
-#: net/connect.py:27
+#: net/connect.py:26
 msgid "Closing connection"
 msgstr "Closing connection"
 
@@ -231,21 +266,25 @@ msgstr "Got event line: %s"
 msgid "Got pinged !"
 msgstr "Got pinged !"
 
-#: net/irc.py:109
+#: net/irc.py:106
 #, python-format
 msgid "Looking for hooks for registered event %s"
 msgstr "Looking for hooks for registered event %s"
 
-#: net/irc.py:111
+#: net/irc.py:108
 #, python-format
 msgid "Running hook function %s.%s against this event"
 msgstr "Running hook function %s.%s against this event"
 
-#: util/modules.py:30
+#: util/modules.py:31
 #, python-format
 msgid "Loading %s…"
 msgstr "Loading %s…"
 
-#: util/modules.py:37
+#: util/modules.py:38
 msgid "Initializing module…"
 msgstr "Initializing module…"
+
+#: berry.py:62
+msgid "Starting log"
+msgstr "Starting log"

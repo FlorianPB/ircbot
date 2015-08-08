@@ -50,7 +50,7 @@ def cmdEvent(data, opts=[]):
     global tellEvents, events
 
     if len(opts)<1:
-        bot.irc.msg("Hey, I need some parameters!", data["tgt"])
+        bot.irc.msg(bot._("Hey, I need some parameters!"), data["tgt"])
         return
 
     load()
@@ -72,7 +72,7 @@ def cmdEvent(data, opts=[]):
             events.append(t + " " + " ".join(opts[3:]))
             update()
         except:
-            bot.irc.msg("Error: the event date '" + " ".join(opts[1:3]) + "' is not in the right format ! (YYYY-mm-dd HH:MM)", data["tgt"])
+            bot.irc.msg(bot._("Error: the event date '{0}' is not in the right format ! (YYYY-mm-dd HH:MM)").format(" ".join(opts[1:3])), data["tgt"])
 
     elif opts[0] == "list":
         now = int(time.mktime(time.localtime()))
@@ -84,7 +84,7 @@ def cmdEvent(data, opts=[]):
                 bot.irc.msg(time.strftime("[%F %R]: ", time.localtime(t)) + " ".join(event.split()[1:]), data["tgt"])
 
         if nextEvents == 0:
-            bot.irc.msg("Sorry, no upcoming event :/", data["tgt"])
+            bot.irc.msg(bot._("Sorry, no upcoming event :/"), data["tgt"])
 
 
 
@@ -118,4 +118,4 @@ def checkEvent(evt):
     if nextEventId>0:
         if not persons.__contains__(userName) or persons[userName]<nextEventId:
             persons[userName] = nextEventId
-            bot.irc.msg(userName + ", notre prochain événement : " + " ".join(nextEvent.split()[1:]) + " le " + time.strftime("%A %-d %B %Y à %-Hh%M", time.localtime(nextEventId)), channel)
+            bot.irc.msg(bot._("{user}, notre prochain événement : {event} le {date}".format(user=userName, event=" ".join(nextEvent.split()[1:]), date=time.strftime("%A %-d %B %Y à %-Hh%M", time.localtime(nextEventId)))), channel)
