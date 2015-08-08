@@ -15,17 +15,17 @@ default = {
         "realname": "IRC Python bot by Art Software"
 }
 
-def save(cfgData, place="./cfg.json"):
+def save(cfgData, place="cfg/cfg.json"):
     """Saves current configuration into default cfg file
     cfgData: the dict containing the config
-    place: the .json file path (default: ./cfg.json)"""
+    place: the .json file path (default: cfg/cfg.json)"""
 
     with open(place, "w") as cfgFile:
         json.dump(cfgData, cfgFile)
 
-def load(place="./cfg.json"):
+def load(place="cfg/cfg.json"):
     """Loads cfg from file
-    place: the .json file path (default: ./cfg.json)"""
+    place: the .json file path (default: cfg/cfg.json)"""
 
     if os.path.exists(place):
         with open(place, "r") as cfgFile:

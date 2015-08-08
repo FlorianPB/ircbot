@@ -16,7 +16,7 @@ def initDb():
     """Loads the DB"""
     global mots, cfg
 
-    cfg = util.cfg.load("markov.json")
+    cfg = util.cfg.load("cfg/markov.json")
 
     if os.path.isfile("mots"):
         with open("mots", "rb") as f:

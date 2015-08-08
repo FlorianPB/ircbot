@@ -32,7 +32,7 @@ def init(botInstance):
 
     bot.irc.hooks["PRIVMSG"].append(recvCommand)
     util.cfg.default = moduleData
-    moduleData = util.cfg.load("commands.json")
+    moduleData = util.cfg.load("cfg/commands.json")
 
     # Register standard commands
     regMainCmds()

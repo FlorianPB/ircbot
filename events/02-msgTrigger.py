@@ -17,7 +17,7 @@ def init(botInstance):
     bot = botInstance
 
     util.cfg.default = triggers
-    triggers = util.cfg.load("triggers.json")
+    triggers = util.cfg.load("cfg/triggers.json")
 
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdDef, "def", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdTrg, "trg")

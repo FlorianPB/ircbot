@@ -25,7 +25,7 @@ def init(botInstance):
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdTopic, "topic", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
 
     util.cfg.default = userFlags
-    userFlags = util.cfg.load("flags.json")
+    userFlags = util.cfg.load("cfg/flags.json")
 
 ##### Hook #####
 def joinHook(evt):
