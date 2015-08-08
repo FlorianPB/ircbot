@@ -38,6 +38,10 @@ bot	events/00-logchat.py	/^bot = None$/;"	v
 bot	events/01-nickserv.py	/^bot = None$/;"	v
 bot	events/01-simpleCommand.py	/^bot = None$/;"	v
 bot	events/02-markovChainTalk.py	/^bot = None$/;"	v
+bot	events/02-msgTrigger.py	/^bot = None$/;"	v
+bot	events/02-tell.py	/^bot = None$/;"	v
+bot	events/02-version.py	/^bot = None$/;"	v
+bot	events/03-agenda.py	/^bot = None$/;"	v
 bot	events/03-modFlags.py	/^bot = None$/;"	v
 bot	extern/chain/Chain.py	/^bot = None$/;"	v
 bot	net/connect.py	/^bot = None$/;"	v
@@ -46,18 +50,22 @@ cfg	berry.py	/^from util import log, cfg, status, modules$/;"	i
 cfg	data/Markov.py	/^cfg = util.cfg.default$/;"	v
 cfg	data/Markov.py	/^import util.cfg$/;"	i
 cfg	events/01-simpleCommand.py	/^import util.cfg$/;"	i
+cfg	events/02-msgTrigger.py	/^import util.cfg$/;"	i
 cfg	events/03-modFlags.py	/^import util.cfg$/;"	i
 cfg	extern/chain/Chain.py	/^import util.cfg$/;"	i
 cfg	extern/quizz/Quizz.py	/^import util.cfg$/;"	i
 chainTrg	extern/chain/Chain.py	/^chainTrg = None$/;"	v
 chainTrigger	extern/chain/Chain.py	/^    def chainTrigger(nick):$/;"	m	class:ChainTrigger	access:public
-chdir	berry.py	/^from os import chdir, getcwd$/;"	i
+chdir	berry.py	/^from os import chdir, getcwd, environ$/;"	i
 checkAnswer	extern/quizz/Quizz.py	/^    def checkAnswer(self, answer):$/;"	m	class:Quizz	access:public
+checkEvent	events/03-agenda.py	/^def checkEvent(evt):$/;"	f	access:public
 checkText	net/connect.py	/^    def checkText(self, encoding="", bufSize=(2**16)-1):$/;"	m	class:Connect	access:public
 cmdAccess	events/01-simpleCommand.py	/^def cmdAccess(data, opts=[]):$/;"	f	access:public
+cmdDef	events/02-msgTrigger.py	/^def cmdDef(data, opts=[]):$/;"	f	access:public
 cmdDeop	events/03-modFlags.py	/^def cmdDeop(data, opts=[]):$/;"	f	access:public
 cmdDevoice	events/03-modFlags.py	/^def cmdDevoice(data, opts=[]):$/;"	f	access:public
 cmdDo	events/01-simpleCommand.py	/^def cmdDo(data, opts=[]):$/;"	f	access:public
+cmdEvent	events/03-agenda.py	/^def cmdEvent(data, opts=[]):$/;"	f	access:public
 cmdFlood	events/02-markovChainTalk.py	/^def cmdFlood(data, opts=[]):$/;"	f	access:public
 cmdGraph	events/02-markovChainTalk.py	/^def cmdGraph(data, opts=[]):$/;"	f	access:public
 cmdHelp	events/01-simpleCommand.py	/^def cmdHelp(data, opts=[]):$/;"	f	access:public
@@ -75,21 +83,29 @@ cmdShut	events/02-markovChainTalk.py	/^def cmdShut(data, opts=[]):$/;"	f	access:
 cmdStart	events/01-simpleCommand.py	/^def cmdStart(data, opts=[]):$/;"	f	access:public
 cmdStop	events/01-simpleCommand.py	/^def cmdStop(data, opts=[]):$/;"	f	access:public
 cmdTalk	events/02-markovChainTalk.py	/^def cmdTalk(data, opts=[]):$/;"	f	access:public
+cmdTell	events/02-tell.py	/^def cmdTell(data, opts=[]):$/;"	f	access:public
 cmdTopic	events/03-modFlags.py	/^def cmdTopic(data, opts=[]):$/;"	f	access:public
+cmdTrg	events/02-msgTrigger.py	/^def cmdTrg(data, opts=[]):$/;"	f	access:public
 cmdUnquiet	events/03-modFlags.py	/^def cmdUnquiet(data, opts=[]):$/;"	f	access:public
+cmdVer	events/02-version.py	/^def cmdVer(data, opts=[]):$/;"	f	access:public
 cmdVoice	events/03-modFlags.py	/^def cmdVoice(data, opts=[]):$/;"	f	access:public
 compute	data/Markov.py	/^def compute(item):$/;"	f	access:public
 computeRandomSentence	data/Markov.py	/^def computeRandomSentence(startFromLast=False):$/;"	f	access:public
 connect	berry.py	/^from net  import connect, irc$/;"	i
 consoleEventLoop	berry.py	/^    def consoleEventLoop(self):$/;"	m	class:IRCBot	access:public
+curdir	berry.py	/^    curdir=getcwd()$/;"	v
+curdir	berry.py	/^curdir=dirname(__file__)$/;"	v
+curdir	berry.py	/^curdir=realpath(curdir)$/;"	v
 data	events/02-markovChainTalk.py	/^import data.Markov as Markov$/;"	i
 default	util/cfg.py	/^default = {$/;"	v
-dirname	berry.py	/^from os.path import dirname$/;"	i
+dirname	berry.py	/^from os.path import dirname, realpath$/;"	i
 dumpGraph	data/Markov.py	/^def dumpGraph(filePath):$/;"	f	access:public
+environ	berry.py	/^from os import chdir, getcwd, environ$/;"	i
 event	net/irc.py	/^    def event(self, ircLine):$/;"	m	class:IRC	access:public
+events	events/03-agenda.py	/^events = []$/;"	v
 exceptions	events/01-simpleCommand.py	/^import util.exceptions$/;"	i
 fileLogLevel	util/log.py	/^    fileLogLevel   = INFO$/;"	v	class:Log
-getcwd	berry.py	/^from os import chdir, getcwd$/;"	i
+getcwd	berry.py	/^from os import chdir, getcwd, environ$/;"	i
 gettext	berry.py	/^import gettext$/;"	i
 handle	util/log.py	/^    handle = None,$/;"	v	class:Log
 ident	net/irc.py	/^    def ident(self):$/;"	m	class:IRC	access:public
@@ -98,6 +114,10 @@ init	events/00-logchat.py	/^def init(botInstance):$/;"	f	access:public
 init	events/01-nickserv.py	/^def init(botInstance):$/;"	f	access:public
 init	events/01-simpleCommand.py	/^def init(botInstance):$/;"	f	access:public
 init	events/02-markovChainTalk.py	/^def init(botInstance):$/;"	f	access:public
+init	events/02-msgTrigger.py	/^def init(botInstance):$/;"	f	access:public
+init	events/02-tell.py	/^def init(botInstance):$/;"	f	access:public
+init	events/02-version.py	/^def init(botInstance):$/;"	f	access:public
+init	events/03-agenda.py	/^def init(botInstance):$/;"	f	access:public
 init	events/03-modFlags.py	/^def init(botInstance):$/;"	f	access:public
 init	extern/chain/Chain.py	/^def init(botInstance):$/;"	f	access:public
 initDb	data/Markov.py	/^def initDb():$/;"	f	access:public
@@ -109,8 +129,10 @@ joinHook	events/03-modFlags.py	/^def joinHook(evt):$/;"	f	access:public
 joinHook	extern/chain/Chain.py	/^    def joinHook(evt):$/;"	m	class:ChainTrigger	access:public
 json	util/cfg.py	/^import json$/;"	i
 lastNode	data/Markov.py	/^lastNode = ""$/;"	v
-load	util/cfg.py	/^def load(place=".\/cfg.json"):$/;"	f	access:public
+load	events/03-agenda.py	/^def load():$/;"	f	access:public
+load	util/cfg.py	/^def load(place="cfg\/cfg.json"):$/;"	f	access:public
 loadAllModules	util/modules.py	/^def loadAllModules(botInstance):$/;"	f	access:public
+locale	berry.py	/^import locale$/;"	i
 log	berry.py	/^from util import log, cfg, status, modules$/;"	i
 log	events/01-simpleCommand.py	/^import util.log$/;"	i
 log	net/connect.py	/^import util.log$/;"	i
@@ -128,37 +150,45 @@ modules	berry.py	/^from util import log, cfg, status, modules$/;"	i
 modules	util/modules.py	/^modules={}$/;"	v
 mots	data/Markov.py	/^mots = {}$/;"	v
 msg	net/irc.py	/^    def msg(self, message, dest):$/;"	m	class:IRC	access:public
+msgHook	events/02-msgTrigger.py	/^def msgHook(evt):$/;"	f	access:public
 msgTrigger	extern/chain/Chain.py	/^    def msgTrigger(self, evt):$/;"	m	class:ChainTrigger	access:public
 nickservIdent	events/01-nickserv.py	/^def nickservIdent(evt):$/;"	f	access:public
 os	data/Markov.py	/^import os$/;"	i
+os	events/03-agenda.py	/^import os, time$/;"	i
 os	util/cfg.py	/^import os$/;"	i
 os	util/modules.py	/^import os$/;"	i
 part	net/irc.py	/^    def part(self, chan, partMessage="Bye bye !"):$/;"	m	class:IRC	access:public
 partHook	extern/chain/Chain.py	/^    def partHook(evt):$/;"	m	class:ChainTrigger	access:public
 path	berry.py	/^from sys import path$/;"	i
+path	events/03-agenda.py	/^path = "events.lst"$/;"	v
 path	util/log.py	/^    path = "\/tmp\/ircbot.log"$/;"	v	class:Log
+persons	events/03-agenda.py	/^persons = {}$/;"	v
 pickle	data/Markov.py	/^import pickle$/;"	i
 questionPending	extern/quizz/Quizz.py	/^    def questionPending(self):$/;"	m	class:Quizz	access:public
 quit	net/irc.py	/^    def quit(self, partMessage="Bye bye !"):$/;"	m	class:IRC	access:public
 randint	events/01-simpleCommand.py	/^    from random import randint$/;"	i
+randint	events/02-msgTrigger.py	/^from random import randint$/;"	i
 randint	extern/quizz/Quizz.py	/^from random import randint$/;"	i
 random	data/Markov.py	/^import random$/;"	i
 random	events/02-markovChainTalk.py	/^import random$/;"	i
 randomQuestion	extern/quizz/Quizz.py	/^    def randomQuestion(self):$/;"	m	class:Quizz	access:public
 re	events/01-simpleCommand.py	/^import re$/;"	i
+re	events/02-msgTrigger.py	/^import re$/;"	i
 re	events/03-modFlags.py	/^import re$/;"	i
 re	extern/chain/Chain.py	/^import re$/;"	i
 re	extern/quizz/Quizz.py	/^import re$/;"	i
+realpath	berry.py	/^from os.path import dirname, realpath$/;"	i
 recvCommand	events/01-simpleCommand.py	/^def recvCommand(evt):$/;"	f	access:public
 regMainCmds	events/01-simpleCommand.py	/^def regMainCmds():$/;"	f	access:public
 registerCommand	events/01-simpleCommand.py	/^def registerCommand(command, name, accessRules=[]):$/;"	f	access:public
 registeredCmd	events/01-simpleCommand.py	/^registeredCmd = {}$/;"	v
 run	berry.py	/^def run():$/;"	f	access:public
-save	util/cfg.py	/^def save(cfgData, place=".\/cfg.json"):$/;"	f	access:public
+save	util/cfg.py	/^def save(cfgData, place="cfg\/cfg.json"):$/;"	f	access:public
 sendText	net/connect.py	/^    def sendText(self, text, encoding=""):$/;"	m	class:Connect	access:public
 setFlag	events/03-modFlags.py	/^def setFlag(flag, toState, data, opts=[]):$/;"	f	access:public
 setQuestion	extern/quizz/Quizz.py	/^    def setQuestion(self, question, answerPattern=" "):$/;"	m	class:Quizz	access:public
 sleep	events/01-simpleCommand.py	/^    from time import sleep$/;"	i
+sleep	events/02-msgTrigger.py	/^    from time import sleep$/;"	i
 sleep	net/irc.py	/^        from time import sleep$/;"	i
 socket	net/connect.py	/^import socket$/;"	i
 start	berry.py	/^    def start(self):$/;"	m	class:IRCBot	access:public
@@ -174,16 +204,27 @@ stop	net/connect.py	/^    def stop(self):$/;"	m	class:Connect	access:public
 strftime	events/00-logchat.py	/^    from time import strftime$/;"	i
 strftime	net/irc.py	/^        from time import strftime$/;"	i
 strftime	util/log.py	/^from time import strftime$/;"	i
+subprocess	events/02-version.py	/^import subprocess$/;"	i
+tags	events/02-version.py	/^        bot.irc.msg(bot._("Sorry, git returned garbage. Please import the tags :("), data["tgt"])$/;"	i
 talk	events/02-markovChainTalk.py	/^talk = 0$/;"	v
 talkCheck	events/02-markovChainTalk.py	/^def talkCheck(evt):$/;"	f	access:public
+tellCheck	events/02-tell.py	/^def tellCheck(evt):$/;"	f	access:public
+tellEvents	events/03-agenda.py	/^tellEvents = True$/;"	v
 textLevels	util/log.py	/^textLevels = {$/;"	v
+tgt	events/02-version.py	/^        bot.irc.msg(bot._("Sorry, git returned garbage. Please import the tags :("), data["tgt"])$/;"	i
+the	events/02-version.py	/^        bot.irc.msg(bot._("Sorry, git returned garbage. Please import the tags :("), data["tgt"])$/;"	i
 threading	berry.py	/^import threading$/;"	i
 time	berry.py	/^import time$/;"	i
+time	events/03-agenda.py	/^import os, time$/;"	i
+triggers	events/02-msgTrigger.py	/^triggers = {}$/;"	v
+txtStack	events/02-tell.py	/^txtStack = {}$/;"	v
+update	events/03-agenda.py	/^def update():$/;"	f	access:public
 userFlags	events/03-modFlags.py	/^userFlags = {}$/;"	v
 util	data/Markov.py	/^import util.cfg$/;"	i
 util	events/01-simpleCommand.py	/^import util.cfg$/;"	i
 util	events/01-simpleCommand.py	/^import util.exceptions$/;"	i
 util	events/01-simpleCommand.py	/^import util.log$/;"	i
+util	events/02-msgTrigger.py	/^import util.cfg$/;"	i
 util	events/03-modFlags.py	/^import util.cfg$/;"	i
 util	extern/chain/Chain.py	/^import util.cfg$/;"	i
 util	extern/quizz/Quizz.py	/^import util.cfg$/;"	i
