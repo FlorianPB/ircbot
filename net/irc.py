@@ -20,6 +20,10 @@ class IRC:
         # Send user info
         bot.status.status(message="Sending ident info")
         bot.connect.sendText("USER %s a a :%s\r\n" % (bot.cfg["username"], bot.cfg["realname"]))
+        if bot.cfg["serverpass"]:
+            pw = input("Server password: ")
+            bot.connect.sendText("PASS %s:%s\r\n" % (bot.cfg["username"], pw))
+            del pw
         bot.status.status(bot.status.OK, True)
 
         # Send nick info

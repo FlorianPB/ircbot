@@ -1,6 +1,7 @@
 {
 	"nick": "Berry-Punch",
 	"waitNickserv": true,
+	"serverpass": true,
 	"username": "pythonbot",
 	"realname": "IRC Python bot by Art Software",
 	"srv": "chat.freenode.net",
