@@ -41,6 +41,7 @@ class IRC:
 
     def part(self, chan, partMessage="Bye bye !"):
         """Parts from a channel"""
+        chan = chan.lower()
         if self.chans.__contains__(chan) and chan != "/dev/console":    # Don't part from system console, never do that!
             if chan != "/dev/console":
                 bot.connect.sendText("PART %s :\"%s\"\r\n" % (chan, partMessage))

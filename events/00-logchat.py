@@ -21,7 +21,7 @@ def logPrivMsgToChat(evt):
     """Print log to text"""
     from time import strftime
 
-    chan = evt[2]
+    chan = evt[2].lower()
     if chan == "/dev/console":
         chan = "consoleChan"
 

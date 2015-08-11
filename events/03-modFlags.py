@@ -31,11 +31,12 @@ def init(botInstance):
 def joinHook(evt):
     """Sets flags on join"""
     nick = evt[0][1:].split("!")[0]
+    chan = evt[2].lower()
 
-    if userFlags.__contains__(evt[2]):
-        for ident in userFlags[evt[2]].keys():
-            if re.search(ident, nick) != None and userFlags[evt[2]][ident] != "":
-                bot.connect.sendText("MODE " + evt[2] + " " + userFlags[evt[2]][ident] + " " + nick + "\r\n")
+    if userFlags.__contains__(chan):
+        for ident in userFlags[chan]:
+            if re.search(ident, nick) != None and userFlags[chan][ident] != "":
+                bot.connect.sendText("MODE " + chan + " " + userFlags[chan][ident] + " " + nick + "\r\n")
 
 ##### Commands #####
 def cmdVoice(data, opts=[]):
@@ -75,10 +76,10 @@ def setFlag(flag, toState, data, opts=[]):
 
     nick = opts[0]
     toSave = nick
-    chan = data["tgt"]
+    chan = data["tgt"].lower()
 
     if chan[0]!="#" and len(opts)>=2:
-        chan = opts[1]
+        chan = opts[1].lower()
         del opts[1]
 
     if chan[0]!="#":
