@@ -211,7 +211,7 @@ def cmdSay(data, opts=[]):
     chan = data["tgt"]
     if len(opts)>=1:
         if len(opts)>=2:
-            if bot.irc.chans.__contains__(opts[0]):
+            if bot.irc.chans.__contains__(opts[0].lower()):
                 chan = opts[0].lower()
                 del opts[0]
             elif not bot.irc.chans.__contains__(chan):
@@ -231,7 +231,7 @@ def cmdDo(data, opts=[]):
     chan = data["tgt"]
     if len(opts)>=1:
         if len(opts)>=2:
-            if bot.irc.chans.__contains__(opts[0]):
+            if bot.irc.chans.__contains__(opts[0].lower()):
                 chan = opts[0].lower()
                 del opts[0]
             elif not bot.irc.chans.__contains__(chan):
@@ -255,7 +255,7 @@ def cmdMuffin(data, opts=[]):
     chan = data["tgt"]
     if len(opts)>=1:
         if len(opts)>=2:
-            if bot.irc.chans.__contains__(opts[-1]):
+            if bot.irc.chans.__contains__(opts[-1].lower()):
                 chan = opts[-1].lower()
                 opts = opts[:-1]
             elif not bot.irc.chans.__contains__(chan):
