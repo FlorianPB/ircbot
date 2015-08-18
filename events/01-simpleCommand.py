@@ -212,7 +212,7 @@ def cmdSay(data, opts=[]):
     if len(opts)>=1:
         if len(opts)>=2:
             if bot.irc.chans.__contains__(opts[0]):
-                chan = opts[0]
+                chan = opts[0].lower()
                 del opts[0]
             elif not bot.irc.chans.__contains__(chan):
                 bot.irc.msg(bot._("Sorry, I have no valid channel to work with :/"), data["tgt"])
@@ -232,7 +232,7 @@ def cmdDo(data, opts=[]):
     if len(opts)>=1:
         if len(opts)>=2:
             if bot.irc.chans.__contains__(opts[0]):
-                chan = opts[0]
+                chan = opts[0].lower()
                 del opts[0]
             elif not bot.irc.chans.__contains__(chan):
                 bot.irc.msg(bot._("Sorry, I have no valid channel to work with :/"), data["tgt"])
@@ -256,7 +256,7 @@ def cmdMuffin(data, opts=[]):
     if len(opts)>=1:
         if len(opts)>=2:
             if bot.irc.chans.__contains__(opts[-1]):
-                chan = opts[-1]
+                chan = opts[-1].lower()
                 opts = opts[:-1]
             elif not bot.irc.chans.__contains__(chan):
                 bot.irc.msg(bot._("Sorry, I have no valid channel to work with :/"), data["tgt"])
@@ -267,9 +267,9 @@ def cmdMuffin(data, opts=[]):
     
     for nick in opts:
         speed = randint(30, 2000)
-        bot.irc.msg("\x01ACTION " + bot._("launches a muffin on %s at %d km/h") % (nick, speed) + "\r\n", chan)
+        bot.irc.msg("\x01ACTION " + bot._("launches a muffin on %s at %d km/h") % (nick, speed) + "\x01\r\n", chan)
         if speed>=1224:
-            bot.irc.msg(bot._("MUFFIN RAINBOOM !!") + "\r\n", chan)
+            bot.irc.msg(bot._("5MU4FF8IN9 RA11IN12BO2OM6 !!") + "\r\n", chan)
         sleep(0.25)
 
 
