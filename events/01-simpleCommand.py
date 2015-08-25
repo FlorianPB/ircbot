@@ -63,7 +63,7 @@ def registerCommand(command, name, accessRules=[]):
     # Have some access rules ? register them and write them for future use (if we don't already have them).
     if len(accessRules)>0 and not moduleData["access"].__contains__(name):
         moduleData["access"][name] = accessRules
-        util.cfg.save(moduleData, "commands.json")
+        util.cfg.save(moduleData, "cfg/commands.json")
 
 
 ##### hook functions #####
@@ -330,4 +330,4 @@ def cmdAccess(data, opts=[]):
                     bot.irc.msg(bot._("Access rule edited."), data["tgt"])
 
         # Write everything back to the file
-        util.cfg.save(moduleData, "commands.json")
+        util.cfg.save(moduleData, "cfg/commands.json")

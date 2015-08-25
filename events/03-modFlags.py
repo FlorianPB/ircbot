@@ -74,31 +74,36 @@ def setFlag(flag, toState, data, opts=[]):
     """General flag set/unset function"""
     global userFlags
 
+    saveFlag = False
     nick = opts[0]
     toSave = nick
     chan = data["tgt"].lower()
 
     if chan[0]!="#" and len(opts)>=2:
         chan = opts[1].lower()
+        saveFlag = True
         del opts[1]
 
     if chan[0]!="#":
         bot.irc.msg(bot._("Channel not specified!"), data["tgt"])
         return
 
-    if not userFlags.__contains__(chan):
-        userFlags[chan] = {}
+    # If you gave channel + regex manually, save the config. Otherwise it's temporary.
+    if saveFlag:
+        if not userFlags.__contains__(chan):
+            userFlags[chan] = {}
 
-    if len(opts)==2:
-        toSave = opts[1]
+        if len(opts)==2:
+            toSave = opts[1]
 
-    if not userFlags[chan].__contains__(nick):
-        userFlags[chan][toSave] = "-+"[toState] + flag
-    elif userFlags[chan][toSave].find("+-"[toState] + flag) == -1:
-        userFlags[chan][toSave] += "-+"[toState] + flag
+        if not userFlags[chan].__contains__(nick):
+            userFlags[chan][toSave] = "-+"[toState] + flag
+        elif userFlags[chan][toSave].find("+-"[toState] + flag) == -1:
+            userFlags[chan][toSave] += "-+"[toState] + flag
+
+        util.cfg.save(userFlags, "cfg/flags.json")
 
     bot.connect.sendText("MODE " + chan + " {sign}{flag} ".format(sign="-+"[toState], flag=flag) + nick + "\r\n")
-    util.cfg.save(userFlags, "flags.json")
 
 def cmdKick(data, opts=[]):
     """Kicks someone

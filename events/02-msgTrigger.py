@@ -51,7 +51,7 @@ def cmdDef(data, opts=[]):
     else:
         bot.irc.msg(bot._("Sorry! Subcommand %s unknown.") % opts[1], data["tgt"])
 
-    util.cfg.save(triggers, "triggers.json")
+    util.cfg.save(triggers, "cfg/triggers.json")
 
 def cmdTrg(data, opts=[]):
     """List active triggers:
