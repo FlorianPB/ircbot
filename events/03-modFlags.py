@@ -33,6 +33,7 @@ def joinHook(evt):
     nick = evt[0][1:].split("!")[0]
     chan = evt[2].lower()
 
+    userFlags = util.cfg.load("cfg/flags.json")
     if userFlags.__contains__(chan):
         for ident in userFlags[chan]:
             if re.search(ident, nick) != None and userFlags[chan][ident] != "":
