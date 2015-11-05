@@ -62,7 +62,7 @@ class IRC:
         """Sends a message
         message: the text to send
         dest: the target (#channel or nick)"""
-        from time import strftime
+        from time import strftime, sleep
 
         # Output log target
         if dest[0] == "#":
@@ -85,6 +85,12 @@ class IRC:
         if dest == "/dev/console":
             print("<" + bot.cfg["nick"] + "> " + message)
         else:
+            # Cuts long messages if they are larger than 256 caracters
+            while len(message) > 256:
+                bot.connect.sendText("PRIVMSG " + dest + " :" + message[0:256] + "\r\n")
+                message = message[256:]
+                sleep(0.1)
+
             bot.connect.sendText("PRIVMSG " + dest + " :" + message + "\r\n")
 
     def event(self, ircLine):
