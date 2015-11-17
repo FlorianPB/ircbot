@@ -1,21 +1,25 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# IRCBot translations
+# Copyright (C) 2014-2015 Art SoftWare
+# This file is distributed under the GNU GPL licence version 2 or above.
+# Adrien Sohier <adrien.sohier@art-software.fr>, 2015.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-08 07:14+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Project-Id-Version: 3.2\n"
+"Report-Msgid-Bugs-To: Adrien Sohier <support@art-software.fr>\n"
+"POT-Creation-Date: 2015-11-17 19:06+0100\n"
+"PO-Revision-Date: 2015-11-17 19:09+0100\n"
+"Last-Translator: Adrien Sohier <support@art-software.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: berry.py:62
+msgid "Starting log"
+msgstr ""
 
 #: events/00-logchat.py:42
 msgid " joined the channel\n"
@@ -48,120 +52,129 @@ msgstr ""
 msgid " * Mode %s defined on %s by "
 msgstr ""
 
-#: events/01-simpleCommand.py:61
+#: events/01-nickserv.py:17
+msgid "NickServ password for "
+msgstr ""
+
+#: events/01-simpleCommand.py:62
 #, python-format
 msgid "Registered command %s"
 msgstr ""
 
-#: events/01-simpleCommand.py:108
+#: events/01-simpleCommand.py:109
 #, python-format
 msgid "%s have no right to run %s"
 msgstr ""
 
-#: events/01-simpleCommand.py:109
+#: events/01-simpleCommand.py:110
 #, python-format
 msgid "Sorry %s, you aren't authorized to do this."
 msgstr ""
 
-#: events/01-simpleCommand.py:114
+#: events/01-simpleCommand.py:115
 #, python-format
 msgid "%s is a registered command ! Running it."
 msgstr ""
 
-#: events/01-simpleCommand.py:120
+#: events/01-simpleCommand.py:121
 #, python-format
 msgid "%s is not a registered command ! Sorry, I can't do anything. %s"
 msgstr ""
 
-#: events/01-simpleCommand.py:121
+#: events/01-simpleCommand.py:122
 #, python-format
 msgid "Sorry %s, I can't find %s in my modules."
 msgstr ""
 
-#: events/01-simpleCommand.py:129
+#: events/01-simpleCommand.py:130
 msgid "Sorry, we already are stopped !"
 msgstr ""
 
-#: events/01-simpleCommand.py:132
+#: events/01-simpleCommand.py:133
 msgid "Stopping the bot's irc connection"
 msgstr ""
 
-#: events/01-simpleCommand.py:147
+#: events/01-simpleCommand.py:148
 msgid "Sorry, we already are started !"
 msgstr ""
 
-#: events/01-simpleCommand.py:163
+#: events/01-simpleCommand.py:164
 #, python-format
 msgid "Loaded modules: %s"
 msgstr ""
 
-#: events/01-simpleCommand.py:173
+#: events/01-simpleCommand.py:174
 #, python-format
 msgid "Available commands: %s"
 msgstr ""
 
-#: events/01-simpleCommand.py:187
+#: events/01-simpleCommand.py:188
 #, python-format
 msgid "Cannot find help for module '%s'"
 msgstr ""
 
-#: events/01-simpleCommand.py:196
+#: events/01-simpleCommand.py:197
 msgid "Help for command "
 msgstr ""
 
-#: events/01-simpleCommand.py:200
+#: events/01-simpleCommand.py:201
 #, python-format
 msgid "Cannot find help for command '%s'"
 msgstr ""
 
-#: events/01-simpleCommand.py:218 events/01-simpleCommand.py:238
-#: events/01-simpleCommand.py:262
+#: events/01-simpleCommand.py:219 events/01-simpleCommand.py:239
+#: events/01-simpleCommand.py:263 events/01-simpleCommand.py:292
 msgid "Sorry, I have no valid channel to work with :/"
 msgstr ""
 
-#: events/01-simpleCommand.py:221 events/01-simpleCommand.py:241
-#: events/01-simpleCommand.py:265
+#: events/01-simpleCommand.py:222 events/01-simpleCommand.py:242
+#: events/01-simpleCommand.py:266 events/01-simpleCommand.py:295
 msgid "Sorry, please read @help."
 msgstr ""
 
-#: events/01-simpleCommand.py:270
+#: events/01-simpleCommand.py:271
 #, python-format
 msgid "launches a muffin on %s at %d km/h"
 msgstr ""
 
-#: events/01-simpleCommand.py:272
-msgid "MUFFIN RAINBOOM !!"
+#: events/01-simpleCommand.py:273 events/01-simpleCommand.py:302
+msgid "5MU4FF8IN9 RA11IN12BO2OM6 !!"
 msgstr ""
 
-#: events/01-simpleCommand.py:288 events/01-simpleCommand.py:324
+#: events/01-simpleCommand.py:300
+#, python-format
+msgid "hugs %s very gently"
+msgstr ""
+
+#: events/01-simpleCommand.py:318 events/01-simpleCommand.py:354
 msgid "This command is not restricted or does not exist."
 msgstr ""
 
-#: events/01-simpleCommand.py:290
+#: events/01-simpleCommand.py:320
 msgid "Access is granted to this command to :"
 msgstr ""
 
-#: events/01-simpleCommand.py:302 events/01-simpleCommand.py:327
+#: events/01-simpleCommand.py:332 events/01-simpleCommand.py:357
 msgid "This rule number is invalid for this command."
 msgstr ""
 
-#: events/01-simpleCommand.py:305
+#: events/01-simpleCommand.py:335
 msgid "Rule deleted."
 msgstr ""
 
-#: events/01-simpleCommand.py:308
+#: events/01-simpleCommand.py:338
 msgid "No rule left, command is now unrestricted."
 msgstr ""
 
-#: events/01-simpleCommand.py:314
+#: events/01-simpleCommand.py:344
 msgid "Command was not restricted, registering it into the access list"
 msgstr ""
 
-#: events/01-simpleCommand.py:319
+#: events/01-simpleCommand.py:349
 msgid "Rule(s) added."
 msgstr ""
 
-#: events/01-simpleCommand.py:330
+#: events/01-simpleCommand.py:360
 msgid "Access rule edited."
 msgstr ""
 
@@ -198,19 +211,11 @@ msgstr ""
 msgid "Message(s) for %s :"
 msgstr ""
 
-#: events/03-modFlags.py:85 events/03-modFlags.py:115
-msgid "Channel not specified!"
-msgstr ""
-
-#: events/03-modFlags.py:133
-msgid "Sorry, you need to specify a channel in private mode"
-msgstr ""
-
-#: events/02-tell.py:25
+#: events/02-tell.py:27
 msgid "Please tell me who you want to talk to, and the message!"
 msgstr ""
 
-#: events/02-tell.py:38
+#: events/02-tell.py:40
 msgid ": Done."
 msgstr ""
 
@@ -247,8 +252,12 @@ msgstr ""
 msgid "{user}, notre prochain événement : {event} le {date}"
 msgstr ""
 
-#: events/01-nickserv.py:17
-msgid "NickServ password for "
+#: events/03-modFlags.py:89 events/03-modFlags.py:122
+msgid "Channel not specified!"
+msgstr ""
+
+#: events/03-modFlags.py:140
+msgid "Sorry, you need to specify a channel in private mode"
 msgstr ""
 
 #: net/connect.py:19
@@ -260,21 +269,21 @@ msgstr ""
 msgid "Closing connection"
 msgstr ""
 
-#: net/irc.py:98
+#: net/irc.py:109
 #, python-format
 msgid "Got event line: %s"
 msgstr ""
 
-#: net/irc.py:100
+#: net/irc.py:111
 msgid "Got pinged !"
 msgstr ""
 
-#: net/irc.py:106
+#: net/irc.py:117
 #, python-format
 msgid "Looking for hooks for registered event %s"
 msgstr ""
 
-#: net/irc.py:108
+#: net/irc.py:119
 #, python-format
 msgid "Running hook function %s.%s against this event"
 msgstr ""
@@ -286,8 +295,4 @@ msgstr ""
 
 #: util/modules.py:38
 msgid "Initializing module…"
-msgstr ""
-
-#: berry.py:62
-msgid "Starting log"
 msgstr ""
