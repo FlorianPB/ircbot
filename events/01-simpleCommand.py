@@ -296,10 +296,7 @@ def cmdHug(data, opts=[]):
         return
     
     for nick in opts:
-        speed = randint(30, 2000)
-        bot.irc.msg("\x01ACTION " + bot._("hugs %s very gently") % (nick, speed) + "\x01\r\n", chan)
-        if speed>=1224:
-            bot.irc.msg(bot._("5MU4FF8IN9 RA11IN12BO2OM6 !!") + "\r\n", chan)
+        bot.irc.msg("\x01ACTION " + bot._("hugs %s very gently") % nick + "\x01\r\n", chan)
         sleep(0.25)
 
 
