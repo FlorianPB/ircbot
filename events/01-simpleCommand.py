@@ -361,7 +361,7 @@ def cmdAccess(data, opts=[]):
         util.cfg.save(moduleData, "cfg/commands.json")
 
 # Say something to someone or to a channel (even if not joined)
-def cmdSay(data, opts=[]):
+def cmdMsg(data, opts=[]):
     """Say something to someone or to a channel (even if not joined)
     msg <channel|nickname> blah blah"""
 
