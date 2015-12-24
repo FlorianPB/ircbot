@@ -15,10 +15,10 @@ import util.log
 moduleData = {
         "cmdChar": "@",
         "access": {
-            "stop": [":adriens33!~adriens33@(home|homer)\.art-software\.fr"],
-            "kill": [":adriens33!~adriens33@(home|homer)\.art-software\.fr"],
+            "stop": [":.*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"],
+            "kill": [":.*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"],
             "start": [],    # from console only
-            "restart": [":adriens33!~adriens33@(home|homer)\.art-software\.fr"]
+            "restart": [":.*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"]
         }
 }
 registeredCmd = {}
@@ -42,17 +42,18 @@ def regMainCmds():
     """Register main commands provided here"""
     global registeredCmd
 
-    registerCommand(cmdStop, "stop", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
-    registerCommand(cmdKill, "kill", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    registerCommand(cmdStop, "stop", [":.*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"])
+    registerCommand(cmdKill, "kill", [":.*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"])
     registerCommand(cmdStart, "start", [])
-    registerCommand(cmdRestart, "restart", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
-    registerCommand(cmdAccess, "access", [":adriens33!~adriens33@(home|homer)\.art-software\.fr"])
+    registerCommand(cmdRestart, "restart", [":.*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"])
+    registerCommand(cmdAccess, "access", [":.*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"])
     registerCommand(cmdListModules, "modules")
     registerCommand(cmdHelp, "help")
     registerCommand(cmdSay, "say")
     registerCommand(cmdDo, "do")
     registerCommand(cmdMuffin, "muffin")
     registerCommand(cmdHug, "hug")
+    registerCommand(cmdMsg, "msg", [":.*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"])
 
 def registerCommand(command, name, accessRules=[]):
     """Register a command."""
@@ -358,3 +359,20 @@ def cmdAccess(data, opts=[]):
 
         # Write everything back to the file
         util.cfg.save(moduleData, "cfg/commands.json")
+
+# Say something to someone or to a channel (even if not joined)
+def cmdSay(data, opts=[]):
+    """Say something to someone or to a channel (even if not joined)
+    msg <channel|nickname> blah blah"""
+
+    chan = data["tgt"]
+
+    # Checks if there is a valid way to output to some connected channel
+    if len(opts)>=2:
+        chan = opts[0].lower()
+        del opts[0]
+    else:
+        bot.irc.msg(bot._("Sorry, I have no valid channel to work with :/"), data["tgt"])
+        return
+
+    bot.irc.msg(" ".join(opts[0:]), chan)
