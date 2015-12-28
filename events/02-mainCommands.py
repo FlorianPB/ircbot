@@ -68,7 +68,7 @@ def cmdRestart(data, opts=[]):
 def cmdListModules(data, opts=[]):
     """List loaded modules"""
 
-    bot.irc.msg(bot._("Loaded modules: %s") % ",".join(list(initData["modules"].modules.keys())), data["tgt"])
+    bot.irc.msg(bot._("Loaded modules: %s") % ",".join(list(bot.modules.modules.keys())), data["tgt"])
 
 def cmdHelp(data, opts=[]):
     """Display some help.
