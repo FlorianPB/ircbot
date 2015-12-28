@@ -78,7 +78,7 @@ def cmdHelp(data, opts=[]):
 
     # Show docstring as help
     if len(opts)==0:
-        bot.irc.msg(bot._("Available commands: %s") % ",".join(list(registeredCmd.keys())), data["tgt"])
+        bot.irc.msg(bot._("Available commands: %s") % ",".join(list(bot.modules.modules["01-simpleCommand"].registeredCmd.keys())), data["tgt"])
     else:
 
         # First param = module ? show module docstring
@@ -100,9 +100,9 @@ def cmdHelp(data, opts=[]):
 
             # Show help for each element
             while len(opts)>=1:
-                if registeredCmd.__contains__(opts[0]):
+                if bot.modules.modules["01-simpleCommand"].registeredCmd.__contains__(opts[0]):
                     bot.irc.msg(bot._("Help for command ")  + opts[0] + ":", data["tgt"])
-                    for line in registeredCmd[opts[0]].__doc__.split("\n"):
+                    for line in bot.modules.modules["01-simpleCommand"].registeredCmd[opts[0]].__doc__.split("\n"):
                         bot.irc.msg(line, data["tgt"])
                 else:
                     bot.irc.msg(bot._("Cannot find help for command '%s'") % opts[0], data["tgt"])
