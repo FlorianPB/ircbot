@@ -2,7 +2,7 @@
 while true; do
 	echo "Fetching incoming events ($(date +%F %T))"
 	let now=$(date +%s);
-	curl -s http://sugarcub.bronycub.org/agenda/ics |\
+	curl -s http://sugarcub.bronycub.org/fr/agenda/ics |\
 		tr -d "\r\n" |\
 		sed "s/END:VEVENT/&\n/g" |\
 		sed "s/^.*DTSTART:\(.*\)DTEND.*SUMMARY:\(.*\)DESCRIPTION:\(.*\)UID.*$/\1 \2: \3/g" |\
