@@ -214,57 +214,56 @@ def cmdAccess(data, opts=[]):
     access command del number: del the numberth access list element for command
     access command add rule [rule2 […]]: add access rule to command
     access command edit ruleNumber ruleContent"""
-    global moduleData
 
     if len(opts) == 1:
         # Check rules for a defined command
-        if not moduleData["access"].__contains__(opts[0]):
+        if not bot.modules.modules["01-simpleCommand"].moduleData["access"].__contains__(opts[0]):
             bot.irc.msg(bot._("This command is not restricted or does not exist."), data["tgt"])
         else:
             bot.irc.msg(bot._("Access is granted to this command to :"), data["tgt"])
 
             # Command found, list the rules
             num = 0
-            for rule in moduleData["access"][opts[0]]:
+            for rule in bot.modules.modules["01-simpleCommand"].moduleData["access"][opts[0]]:
                 bot.irc.msg("%d: '%s'" % (num, rule), data["tgt"])
                 num += 1
 
     elif len(opts)>=3:
         # Delete a rule
         if opts[1] == "del":
-            if int(opts[2]) >= len(moduleData["access"][opts[0]]):
+            if int(opts[2]) >= len(bot.modules.modules["01-simpleCommand"].moduleData["access"][opts[0]]):
                     bot.irc.msg(bot._("This rule number is invalid for this command."), data["tgt"])
             else:
-                del moduleData["access"][opts[0]][int(opts[2])]
+                del bot.modules.modules["01-simpleCommand"].moduleData["access"][opts[0]][int(opts[2])]
                 bot.irc.msg(bot._("Rule deleted."), data["tgt"])
 
-            if len(moduleData["access"][opts[0]]) == 0:
+            if len(bot.modules.modules["01-simpleCommand"].moduleData["access"][opts[0]]) == 0:
                 bot.irc.msg(bot._("No rule left, command is now unrestricted."), data["tgt"])
-                del moduleData["access"][opts[0]]
+                del bot.modules.modules["01-simpleCommand"].moduleData["access"][opts[0]]
 
         # Add rules
         if opts[1] == "add":
-            if not moduleData["access"].__contains__(opts[0]):
+            if not bot.modules.modules["01-simpleCommand"].moduleData["access"].__contains__(opts[0]):
                 bot.irc.msg(bot._("Command was not restricted, registering it into the access list"), data["tgt"])
-                moduleData["access"][opts[0]] = []
+                bot.modules.modules["01-simpleCommand"].moduleData["access"][opts[0]] = []
 
             for rule in opts[2:]:
-                moduleData["access"][opts[0]].append(rule)
+                bot.modules.modules["01-simpleCommand"].moduleData["access"][opts[0]].append(rule)
             bot.irc.msg(bot._("Rule(s) added."), data["tgt"])
 
         # Edit a rule
         if opts[1] == "edit" and len(opts) == 4:
-            if not moduleData["access"].__contains__(opts[0]):
+            if not bot.modules.modules["01-simpleCommand"].moduleData["access"].__contains__(opts[0]):
                 bot.irc.msg(bot._("This command is not restricted or does not exist."), data["tgt"])
             else:
-                if int(opts[2]) >= len(moduleData["access"][opts[0]]):
+                if int(opts[2]) >= len(bot.modules.modules["01-simpleCommand"].moduleData["access"][opts[0]]):
                     bot.irc.msg(bot._("This rule number is invalid for this command."), data["tgt"])
                 else:
-                    moduleData["access"][opts[0]][int(opts[2])] = opts[3]
+                    bot.modules.modules["01-simpleCommand"].moduleData["access"][opts[0]][int(opts[2])] = opts[3]
                     bot.irc.msg(bot._("Access rule edited."), data["tgt"])
 
         # Write everything back to the file
-        util.cfg.save(moduleData, "cfg/commands.json")
+        util.cfg.save(bot.modules.modules["01-simpleCommand"].moduleData, "cfg/commands.json")
 
 # Say something to someone or to a channel (even if not joined)
 def cmdMsg(data, opts=[]):
