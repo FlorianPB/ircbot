@@ -36,11 +36,13 @@ def cmdAddWord(data, opts=[]):
 
 def cmdShowList(data, opts=[]):
     """List current blacklisted words"""
+    wordList = util.cfg.load("cfg/geekwordlist.json")
     bot.irc.msg(" ".join(wordList), data["tgt"])
 
 def cmdShowStat(data, opts=[]):
     """List statistics for user.
     showStat user1 [user2 […]]"""
+    naughtyBoysList = util.cfg.load("cfg/naughtyBoysList.json")
     while len(opts)>0:
         boy = opts.pop()
         if naughtyBoys.__contains__(boy):
@@ -81,8 +83,9 @@ def checkMsg(evt):
                 naughtyBoys[user]+=1
             else:
                 naughtyBoys[user]=1
+    
+    if naughtyBoys.__contains__(user) and naughtyBoys[user] >= 5 == 0:
+        bot.irc.msg("{u} : Ce n'est pas le chan pour parler de ceci. Je te prie d'aller sur #bronycub-g33k".format(u=user), tgt)
+        del naughtyBoys[user]
 
     util.cfg.save(naughtyBoys, "cfg/naughtyBoysList.json")
-
-    if naughtyBoys.__contains__(user) and naughtyBoys[user] % 5 == 0:
-        bot.irc.msg("{u} : Ce n'est pas le chan pour parler de ceci. Je te prie d'aller sur #bronycub-g33k".format(u=user), tgt)
