@@ -6,7 +6,7 @@ import re
 import util.cfg
 
 bot = None
-naugthyBoys={}
+naughtyBoys={}
 wordList=["informatique", "linux", "pc", "install", "windows", "pam", "ordi", "ssd", "win7", "win8", "win10", "w7", "emerge", "portage", "gentoo", "archlinux", "bsod", "vm"]
 
 def init(botInstance):
@@ -28,6 +28,8 @@ def init(botInstance):
 def cmdAddWord(data, opts=[]):
     """Adds a word to the geekbuster list.
     addWord word [word […]]"""
+    global wordList
+
     while len(opts) > 0:
         wordList.append(opts.pop())
     util.cfg.save(wordList, "cfg/geekwordlist.json")
@@ -40,7 +42,7 @@ def cmdShowStat(data, opts=[]):
     """List statistics for user.
     showStat user1 [user2 […]]"""
     while len(opts>0):
-        boy = naughtyBoys.pop()
+        boy = opts.pop()
         if naughtyBoys.__contains__(boy):
             bot.irc.msg("{u}: {n} occurrences jusqu'ici.".format(u=boy, n=naughtyBoys[boy]), data["tgt"])
         else:
@@ -49,12 +51,15 @@ def cmdShowStat(data, opts=[]):
 def cmdClearUser(data, opts=[]):
     """Clear user from the naughty boy's list
     clearUser user1 [user2 […]]"""
+    global naughtyBoys
+
     while len(opts>0):
         del naughtyBoys[opts.pop()]
     naughtyBoysList = util.cfg.load("cfg/naughtyBoysList.json")
 
 def checkMsg(evt):
     """Check user messages for things that shouldn't be here"""
+    global naughtyBoys
 
     wordList = util.cfg.load("cfg/geekwordlist.json")
     naughtyBoysList = util.cfg.load("cfg/naughtyBoysList.json")
