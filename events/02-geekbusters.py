@@ -84,5 +84,5 @@ def checkMsg(evt):
 
     util.cfg.save(naughtyBoys, "cfg/naughtyBoysList.json")
 
-    if naughtyBoys[user] % 5:
+    if naughtyBoys.__contains__(user) and naughtyBoys[user] % 5 == 0:
         bot.irc.msg("{u} : Ce n'est pas le chan pour parler de ceci. Je te prie d'aller sur #bronycub-g33k".format(u=user), tgt)
