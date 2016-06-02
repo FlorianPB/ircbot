@@ -99,6 +99,6 @@ def checkMsg(evt):
             naughtyBoys[user]["strikes"]=1
 
         if naughtyBoys[user]["strikes"]%3 == 0:
-            bot.connect.sendText("KICK #bronycub " + user + ":Ce canal n'est pas là pour discuter d'informatique. Merci.\r\n")
+            bot.connect.sendText("KICK #bronycub " + user + " :Ce canal n'est pas là pour discuter d'informatique. Merci.\r\n")
 
     util.cfg.save(naughtyBoys, "cfg/naughtyBoysList.json")
