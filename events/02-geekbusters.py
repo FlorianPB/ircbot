@@ -61,7 +61,7 @@ def cmdClearUser(data, opts=[]):
 
     while len(opts)>0:
         del naughtyBoys[opts.pop()]
-    naughtyBoysList = util.cfg.load("cfg/naughtyBoysList.json")
+    util.cfg.save(naughtyBoys, "cfg/naughtyBoysList.json")
 
 def checkMsg(evt):
     """Check user messages for things that shouldn't be here"""
@@ -90,10 +90,15 @@ def checkMsg(evt):
     
     if naughtyBoys.__contains__(user) and naughtyBoys[user]["current"] >= 3:
         bot.irc.msg("{u} : Ce n'est pas le chan pour parler de ceci. Je te prie d'aller sur #bronycub-g33k".format(u=user), tgt)
+        bot.connect.sendText("INVITE " + user + " #bronycub-g33k\r\n")
         naughtyBoys[user]["current"]=0
+
         if naughtyBoys[user].__contains__("strikes"):
             naughtyBoys[user]["strikes"]+=1
         else:
             naughtyBoys[user]["strikes"]=1
+
+        if naughtyBoys[user]["strikes"]%3 == 0:
+            bot.connect.sendText("KICK #bronycub " + user + ":Ce canal n'est pas là pour discuter d'informatique. Merci.\r\n")
 
     util.cfg.save(naughtyBoys, "cfg/naughtyBoysList.json")
