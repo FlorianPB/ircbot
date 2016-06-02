@@ -87,7 +87,8 @@ def checkMsg(evt):
                 naughtyBoys[user]["current"]+=1
             else:
                 naughtyBoys[user]={"current":1, "strikes":0}
-    
+   
+    # 3 words ? strike.
     if naughtyBoys.__contains__(user) and naughtyBoys[user]["current"] >= 3:
         bot.irc.msg("{u} : Ce n'est pas le chan pour parler de ceci. Je te prie d'aller sur #bronycub-g33k".format(u=user), tgt)
         bot.connect.sendText("INVITE " + user + " #bronycub-g33k\r\n")
@@ -98,7 +99,13 @@ def checkMsg(evt):
         else:
             naughtyBoys[user]["strikes"]=1
 
+        # 9 strikes (3 kicks) ? you're banned.
+        if naughtyBoys[user]["strikes"]%9 == 0:
+            bot.connect.sendText("MODE #bronycub :" + user + "!*@*\r\n")
+        
+        # 3 strikes ? get out.
         if naughtyBoys[user]["strikes"]%3 == 0:
             bot.connect.sendText("KICK #bronycub " + user + " :Ce canal n'est pas là pour discuter d'informatique. Merci.\r\n")
+        
 
     util.cfg.save(naughtyBoys, "cfg/naughtyBoysList.json")
