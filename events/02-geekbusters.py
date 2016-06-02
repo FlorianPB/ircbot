@@ -41,7 +41,7 @@ def cmdShowList(data, opts=[]):
 def cmdShowStat(data, opts=[]):
     """List statistics for user.
     showStat user1 [user2 […]]"""
-    while len(opts>0):
+    while len(opts)>0:
         boy = opts.pop()
         if naughtyBoys.__contains__(boy):
             bot.irc.msg("{u}: {n} occurrences jusqu'ici.".format(u=boy, n=naughtyBoys[boy]), data["tgt"])
@@ -53,7 +53,7 @@ def cmdClearUser(data, opts=[]):
     clearUser user1 [user2 […]]"""
     global naughtyBoys
 
-    while len(opts>0):
+    while len(opts)>0:
         del naughtyBoys[opts.pop()]
     naughtyBoysList = util.cfg.load("cfg/naughtyBoysList.json")
 
