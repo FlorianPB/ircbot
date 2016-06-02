@@ -20,7 +20,7 @@ def init(botInstance):
     wordList = util.cfg.load("cfg/geekwordlist.json")
 
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdAddWord, "addWord", [":[^!]*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)", ":Shinsaber!~Shinsaber@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"] )
-    bot.modules.modules["01-simpleCommand"].registerCommand(cmdAddWord, "clearUser", [":[^!]*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)", ":Shinsaber!~Shinsaber@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"] )
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdClearUser, "clearUser", [":[^!]*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)", ":Shinsaber!~Shinsaber@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"] )
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdShowList, "showList")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdShowStat, "showStat")
     bot.irc.hooks["PRIVMSG"].append(checkMsg)
