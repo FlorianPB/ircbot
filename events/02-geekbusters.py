@@ -84,9 +84,9 @@ def checkMsg(evt):
     for word in wordList:
         if txt.__contains__(word):
             if naughtyBoys.__contains__(user):
-                naughtyBoys[user]["current"]+=1
+                naughtyBoys[user]["current"]+=txt.count(word)
             else:
-                naughtyBoys[user]={"current":1, "strikes":0}
+                naughtyBoys[user]={"current":txt.count(word), "strikes":0}
    
     # 3 words ? strike.
     if naughtyBoys.__contains__(user) and naughtyBoys[user]["current"] >= 3:
