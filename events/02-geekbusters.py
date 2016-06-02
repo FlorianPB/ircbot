@@ -101,7 +101,7 @@ def checkMsg(evt):
 
         # 9 strikes (3 kicks) ? you're banned.
         if naughtyBoys[user]["strikes"]%9 == 0:
-            bot.connect.sendText("MODE #bronycub :" + user + "!*@*\r\n")
+            bot.connect.sendText("MODE #bronycub +b :" + user + "!*@*\r\n")
         
         # 3 strikes ? get out.
         if naughtyBoys[user]["strikes"]%3 == 0:
