@@ -84,7 +84,7 @@ def checkMsg(evt):
             else:
                 naughtyBoys[user]=1
     
-    if naughtyBoys.__contains__(user) and naughtyBoys[user] >= 5 == 0:
+    if naughtyBoys.__contains__(user) and naughtyBoys[user] >= 3:
         bot.irc.msg("{u} : Ce n'est pas le chan pour parler de ceci. Je te prie d'aller sur #bronycub-g33k".format(u=user), tgt)
         del naughtyBoys[user]
 
