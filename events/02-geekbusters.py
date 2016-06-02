@@ -41,8 +41,12 @@ def cmdShowList(data, opts=[]):
 
 def cmdShowStat(data, opts=[]):
     """List statistics for user.
-    showStat user1 [user2 […]]"""
+    showStat [user1 [user2 […]]]"""
     naughtyBoysList = util.cfg.load("cfg/naughtyBoysList.json")
+    if len(opts) == 0:
+        for boy in naughtyBoys:
+            bot.irc.msg("{u}: {n} strikes jusqu'ici.".format(u=boy, n=naughtyBoys[boy]["strikes"]), data["tgt"])
+
     while len(opts)>0:
         boy = opts.pop()
         if naughtyBoys.__contains__(boy):
