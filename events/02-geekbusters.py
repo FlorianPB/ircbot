@@ -46,7 +46,7 @@ def cmdShowStat(data, opts=[]):
         if naughtyBoys.__contains__(boy):
             bot.irc.msg("{u}: {n} occurrences jusqu'ici.".format(u=boy, n=naughtyBoys[boy]), data["tgt"])
         else:
-            bot.irc.msg("{u} a été sage !", data["tgt"])
+            bot.irc.msg("{u} a été sage !".format(u=boy), data["tgt"])
 
 def cmdClearUser(data, opts=[]):
     """Clear user from the naughty boy's list
