@@ -46,7 +46,7 @@ def cmdShowStat(data, opts=[]):
     while len(opts)>0:
         boy = opts.pop()
         if naughtyBoys.__contains__(boy):
-            bot.irc.msg("{u}: {n} occurrences jusqu'ici.".format(u=boy, n=naughtyBoys[boy]), data["tgt"])
+            bot.irc.msg("{u}: {n} strikes jusqu'ici.".format(u=boy, n=naughtyBoys[boy]["strikes"]), data["tgt"])
         else:
             bot.irc.msg("{u} a été sage !".format(u=boy), data["tgt"])
 
@@ -80,12 +80,16 @@ def checkMsg(evt):
     for word in wordList:
         if txt.__contains__(word):
             if naughtyBoys.__contains__(user):
-                naughtyBoys[user]+=1
+                naughtyBoys[user]["current"]+=1
             else:
-                naughtyBoys[user]=1
+                naughtyBoys[user]={"current":1, "strikes":0}
     
-    if naughtyBoys.__contains__(user) and naughtyBoys[user] >= 3:
+    if naughtyBoys.__contains__(user) and naughtyBoys[user]["current"] >= 3:
         bot.irc.msg("{u} : Ce n'est pas le chan pour parler de ceci. Je te prie d'aller sur #bronycub-g33k".format(u=user), tgt)
-        del naughtyBoys[user]
+        naughtyBoys[user]["current"]=0
+        if naughtyBoys["user"].__contains__("strikes"):
+            naughtyBoys["user"]["strikes"]+=1
+        else:
+            naughtyBoys["user"]["strikes"]=1
 
     util.cfg.save(naughtyBoys, "cfg/naughtyBoysList.json")
