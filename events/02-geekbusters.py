@@ -3,6 +3,7 @@
 """Module description"""
 
 import re
+import time
 import util.cfg
 
 bot = None
@@ -19,10 +20,12 @@ def init(botInstance):
     util.cfg.default = wordList
     wordList = util.cfg.load("cfg/geekwordlist.json")
 
-    bot.modules.modules["01-simpleCommand"].registerCommand(cmdAddWord, "addWord", [":[^!]*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)", ":Shinsaber!~Shinsaber@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"] )
-    bot.modules.modules["01-simpleCommand"].registerCommand(cmdClearUser, "clearUser", [":[^!]*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)", ":Shinsaber!~Shinsaber@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"] )
-    bot.modules.modules["01-simpleCommand"].registerCommand(cmdShowList, "showList")
-    bot.modules.modules["01-simpleCommand"].registerCommand(cmdShowStat, "showStat")
+    reg = bot.modules.modules["01-simpleCommand"].registerCommand
+
+    reg(cmdAddWord, "addWord", [":[^!]*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)", ":Shinsaber!~Shinsaber@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"] )
+    reg(cmdClearUser, "clearUser", [":[^!]*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)", ":Shinsaber!~Shinsaber@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"] )
+    reg(cmdShowList, "showList")
+    reg(cmdShowStat, "showStat")
     bot.irc.hooks["PRIVMSG"].append(checkMsg)
 
 def cmdAddWord(data, opts=[]):
@@ -86,7 +89,7 @@ def checkMsg(evt):
             if naughtyBoys.__contains__(user):
                 naughtyBoys[user]["current"]+=txt.count(word)
             else:
-                naughtyBoys[user]={"current":txt.count(word), "strikes":0}
+                naughtyBoys[user]={"current":txt.count(word), "strikes":0, "lastStrike":0}
    
     # 3 words ? strike.
     if naughtyBoys.__contains__(user) and naughtyBoys[user]["current"] >= 3:
@@ -94,10 +97,15 @@ def checkMsg(evt):
         bot.connect.sendText("INVITE " + user + " #bronycub-g33k\r\n")
         naughtyBoys[user]["current"]=0
 
+        # Not stroke in the last 3 days ? Remove a strike (don't count this one)
         if naughtyBoys[user].__contains__("strikes"):
-            naughtyBoys[user]["strikes"]+=1
+            if naughtyBoys[user].__contains__("lastStrike") and naughtyBoys[user]["lastStrike"] + (86400*3) > int(time.strftime("%s")):
+                naughtyBoys[user]["strikes"]+=1
         else:
             naughtyBoys[user]["strikes"]=1
+        
+        # Last strike is *NOW*
+        naughtyBoys[user]["lastStrike"] = int(time.strftime("%s"))
 
         # 9 strikes (3 kicks) ? you're banned.
         if naughtyBoys[user]["strikes"]%9 == 0:
