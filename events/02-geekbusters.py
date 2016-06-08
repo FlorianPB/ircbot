@@ -108,11 +108,11 @@ def checkMsg(evt):
         naughtyBoys[user]["lastStrike"] = int(time.strftime("%s"))
 
         # 9 strikes (3 kicks) ? you're banned.
-        if naughtyBoys[user]["strikes"]%9 == 0:
+        if naughtyBoys[user]["strikes"]%9 == 0 and naughtyBoys[user]["strikes"]>0:
             bot.connect.sendText("MODE #bronycub +b :" + user + "!*@*\r\n")
         
         # 3 strikes ? get out.
-        if naughtyBoys[user]["strikes"]%3 == 0:
+        if naughtyBoys[user]["strikes"]%3 == 0 and naughtyBoys[user]["strikes"]>0:
             bot.connect.sendText("KICK #bronycub " + user + " :Ce canal n'est pas là pour discuter d'informatique. Merci.\r\n")
         
 
