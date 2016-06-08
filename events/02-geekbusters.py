@@ -16,7 +16,7 @@ def init(botInstance):
 
     bot = botInstance
     util.cfg.default = naughtyBoys
-    naughtyBoysList = util.cfg.load("cfg/naughtyBoysList.json")
+    naughtyBoys = util.cfg.load("cfg/naughtyBoysList.json")
     util.cfg.default = wordList
     wordList = util.cfg.load("cfg/geekwordlist.json")
 
