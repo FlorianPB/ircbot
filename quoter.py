@@ -33,6 +33,6 @@ nicknames.sort()
 for nickname in nicknames:
     quoteMashup.write("  - " + nickname + ":\n")
     for quote in quoteBD[nickname]:
-        quoteMashup.write("    - " + quote + "\n")
+        quoteMashup.write("    « " + quote + " »\n")
     quoteMashup.write("\n")
 quoteMashup.close()
