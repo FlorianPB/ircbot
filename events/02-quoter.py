@@ -31,7 +31,7 @@ def cmdQuotes(data, opts=[]):
     if len(opts)>0:
         if quoteBD.__contains__(opts[0]):
             quotes = quoteBD[opts[0]]
-            bot.irc.msg("« " + quotes[randint(0, len(quotes)-1)] + " » — " + opts[0])
+            bot.irc.msg("« " + quotes[randint(0, len(quotes)-1)] + " » — " + opts[0], data["tgt"])
 
 def cmdQuote(data, opts=[]):
     """quote <nick>
@@ -45,7 +45,7 @@ def cmdQuote(data, opts=[]):
             else:
                 quoteBD[opts[0]] = [lastUserPhrase[opts[0]], ]
         else:
-            bot.irc.msg(opts[0] + "didn't say anything yet !")
+            bot.irc.msg(opts[0] + "didn't say anything yet !", data["tgt"])
     util.cfg.save(quoteBD, "cfg/quote.json")
 
 def cmdSaid(data, opts=[]):
@@ -55,9 +55,9 @@ def cmdSaid(data, opts=[]):
 
     if len(opts)>0:
         if lastUserPhrase.__contains__(opts[0]):
-            bot.irc.msg("« " + lastUserPhrase[opts[0]] + " » — " + opts[0])
+            bot.irc.msg("« " + lastUserPhrase[opts[0]] + " » — " + opts[0], data["tgt"])
         else:
-            bot.irc.msg(opts[0] + "didn't say anything yet !")
+            bot.irc.msg(opts[0] + "didn't say anything yet !", data["tgt"])
 
 def getPotentialQuotes(evt):
     """Quotes every last phrase of all users"""
