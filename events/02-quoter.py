@@ -44,6 +44,7 @@ def cmdQuote(data, opts=[]):
     Saves the last thing <nick> said."""
     global quoteBD, lastUserPhrase
 
+    quoteBD = util.cfg.load("cfg/quote.json")
     if len(opts)>0:
         if lastUserPhrase.__contains__(opts[0]):
             if quoteBD.__contains__(opts[0]):
