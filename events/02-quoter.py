@@ -32,7 +32,7 @@ def cmdQuotes(data, opts=[]):
         if len(opts)>0:
             name = opts[0]
         else:
-            names = quoteBD.keys()
+            names = list(quoteBD.keys())
             name = names[randint(0, len(names)-1)]
 
         if quoteBD.__contains__(name):
