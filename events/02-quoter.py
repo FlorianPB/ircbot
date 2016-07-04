@@ -28,10 +28,16 @@ def cmdQuotes(data, opts=[]):
     global quoteBD
 
     quoteBD = util.cfg.load("cfg/quote.json")
-    if len(opts)>0:
-        if quoteBD.__contains__(opts[0]):
-            quotes = quoteBD[opts[0]]
-            bot.irc.msg("« " + quotes[randint(0, len(quotes)-1)] + " » — " + opts[0], data["tgt"])
+    if len(quoteBD.keys())>0:
+        if len(opts)>0:
+            name = opts[0]
+        else:
+            names = quoteBD.keys()
+            name = names[randint(0, len(names)-1)]
+
+        if quoteBD.__contains__(name):
+            quotes = quoteBD[name]
+            bot.irc.msg("« " + quotes[randint(0, len(quotes)-1)] + " » — " + name, data["tgt"])
 
 def cmdQuote(data, opts=[]):
     """quote <nick>
