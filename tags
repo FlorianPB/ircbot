@@ -3,9 +3,9 @@
 !_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.8	//
-AnalyseFile	data/Markov.py	/^def AnalyseFile(filename):$/;"	f	access:public
-AnalyzeSentence	data/Markov.py	/^def AnalyzeSentence(phrase):$/;"	f	access:public
+!_TAG_PROGRAM_VERSION	Development	//
+AnalyseFile	data/Markov.py	/^def AnalyseFile(filename):$/;"	f	access:public	signature:(filename)
+AnalyzeSentence	data/Markov.py	/^def AnalyzeSentence(phrase):$/;"	f	access:public	signature:(phrase)
 BUSY	util/status.py	/^BUSY = 0$/;"	v
 CRIRITAL	util/log.py	/^CRIRITAL = 5$/;"	v
 ChainTrigger	extern/chain/Chain.py	/^class ChainTrigger:$/;"	c	inherits:
@@ -27,18 +27,21 @@ Quizz	extern/quizz/Quizz.py	/^class Quizz:$/;"	c	inherits:
 StopException	util/exceptions.py	/^class StopException(BaseException):$/;"	c	inherits:BaseException
 WARNING	util/log.py	/^WARNING  = 3$/;"	v
 __colors	util/status.py	/^__colors = {$/;"	v
-__init__	berry.py	/^    def __init__(self):$/;"	m	class:IRCBot	access:public
-__init__	extern/chain/Chain.py	/^    def __init__(self, botInstance):$/;"	m	class:ChainTrigger	access:public
-__init__	extern/quizz/Quizz.py	/^    def __init__(self, botName, channel, defaultMode=MODE_ONESHOT):$/;"	m	class:Quizz	access:public
-__init__	net/connect.py	/^    def __init__(self, botInstance):$/;"	m	class:Connect	access:public
-__init__	net/irc.py	/^    def __init__(self, botInstance):$/;"	m	class:IRC	access:public
-__init__	util/log.py	/^    def __init__(self, fp, file_l=INFO, stdout_l=NOTIF, stderr_l=WARNING):$/;"	m	class:Log	access:public
+__init__	berry.py	/^    def __init__(self):$/;"	m	class:IRCBot	access:public	signature:(self)
+__init__	extern/chain/Chain.py	/^    def __init__(self, botInstance):$/;"	m	class:ChainTrigger	access:public	signature:(self, botInstance)
+__init__	extern/quizz/Quizz.py	/^    def __init__(self, botName, channel, defaultMode=MODE_ONESHOT):$/;"	m	class:Quizz	access:public	signature:(self, botName, channel, defaultMode=MODE_ONESHOT)
+__init__	net/connect.py	/^    def __init__(self, botInstance):$/;"	m	class:Connect	access:public	signature:(self, botInstance)
+__init__	net/irc.py	/^    def __init__(self, botInstance):$/;"	m	class:IRC	access:public	signature:(self, botInstance)
+__init__	util/log.py	/^    def __init__(self, fp, file_l=INFO, stdout_l=NOTIF, stderr_l=WARNING):$/;"	m	class:Log	access:public	signature:(self, fp, file_l=INFO, stdout_l=NOTIF, stderr_l=WARNING)
 __messages	util/status.py	/^__messages = {$/;"	v
 bot	events/00-logchat.py	/^bot = None$/;"	v
 bot	events/01-nickserv.py	/^bot = None$/;"	v
 bot	events/01-simpleCommand.py	/^bot = None$/;"	v
+bot	events/02-geekbusters.py	/^bot = None$/;"	v
+bot	events/02-mainCommands.py	/^bot = None$/;"	v
 bot	events/02-markovChainTalk.py	/^bot = None$/;"	v
 bot	events/02-msgTrigger.py	/^bot = None$/;"	v
+bot	events/02-quoter.py	/^bot = None$/;"	v
 bot	events/02-tell.py	/^bot = None$/;"	v
 bot	events/02-version.py	/^bot = None$/;"	v
 bot	events/03-agenda.py	/^bot = None$/;"	v
@@ -50,185 +53,223 @@ cfg	berry.py	/^from util import log, cfg, status, modules$/;"	i
 cfg	data/Markov.py	/^cfg = util.cfg.default$/;"	v
 cfg	data/Markov.py	/^import util.cfg$/;"	i
 cfg	events/01-simpleCommand.py	/^import util.cfg$/;"	i
+cfg	events/02-geekbusters.py	/^import util.cfg$/;"	i
+cfg	events/02-mainCommands.py	/^import util.cfg$/;"	i
 cfg	events/02-msgTrigger.py	/^import util.cfg$/;"	i
+cfg	events/02-quoter.py	/^import util.cfg$/;"	i
 cfg	events/03-modFlags.py	/^import util.cfg$/;"	i
 cfg	extern/chain/Chain.py	/^import util.cfg$/;"	i
 cfg	extern/quizz/Quizz.py	/^import util.cfg$/;"	i
 chainTrg	extern/chain/Chain.py	/^chainTrg = None$/;"	v
-chainTrigger	extern/chain/Chain.py	/^    def chainTrigger(nick):$/;"	m	class:ChainTrigger	access:public
+chainTrigger	extern/chain/Chain.py	/^    def chainTrigger(nick):$/;"	m	class:ChainTrigger	access:public	signature:(nick)
 chdir	berry.py	/^from os import chdir, getcwd, environ$/;"	i
-checkAnswer	extern/quizz/Quizz.py	/^    def checkAnswer(self, answer):$/;"	m	class:Quizz	access:public
-checkEvent	events/03-agenda.py	/^def checkEvent(evt):$/;"	f	access:public
-checkText	net/connect.py	/^    def checkText(self, encoding="", bufSize=(2**16)-1):$/;"	m	class:Connect	access:public
-cmdAccess	events/01-simpleCommand.py	/^def cmdAccess(data, opts=[]):$/;"	f	access:public
-cmdDef	events/02-msgTrigger.py	/^def cmdDef(data, opts=[]):$/;"	f	access:public
-cmdDeop	events/03-modFlags.py	/^def cmdDeop(data, opts=[]):$/;"	f	access:public
-cmdDevoice	events/03-modFlags.py	/^def cmdDevoice(data, opts=[]):$/;"	f	access:public
-cmdDo	events/01-simpleCommand.py	/^def cmdDo(data, opts=[]):$/;"	f	access:public
-cmdEvent	events/03-agenda.py	/^def cmdEvent(data, opts=[]):$/;"	f	access:public
-cmdFlood	events/02-markovChainTalk.py	/^def cmdFlood(data, opts=[]):$/;"	f	access:public
-cmdGraph	events/02-markovChainTalk.py	/^def cmdGraph(data, opts=[]):$/;"	f	access:public
-cmdHelp	events/01-simpleCommand.py	/^def cmdHelp(data, opts=[]):$/;"	f	access:public
-cmdKick	events/03-modFlags.py	/^def cmdKick(data, opts=[]):$/;"	f	access:public
-cmdKill	events/01-simpleCommand.py	/^def cmdKill(data, opts=[]):$/;"	f	access:public
-cmdListModules	events/01-simpleCommand.py	/^def cmdListModules(data, opts=[]):$/;"	f	access:public
-cmdMuffin	events/01-simpleCommand.py	/^def cmdMuffin(data, opts=[]):$/;"	f	access:public
-cmdOp	events/03-modFlags.py	/^def cmdOp(data, opts=[]):$/;"	f	access:public
-cmdQuiet	events/03-modFlags.py	/^def cmdQuiet(data, opts=[]):$/;"	f	access:public
-cmdRandWalk	events/02-markovChainTalk.py	/^def cmdRandWalk(data, opts=[]):$/;"	f	access:public
-cmdRandom	events/02-markovChainTalk.py	/^def cmdRandom(data, opts=[]):$/;"	f	access:public
-cmdRestart	events/01-simpleCommand.py	/^def cmdRestart(data, opts=[]):$/;"	f	access:public
-cmdSay	events/01-simpleCommand.py	/^def cmdSay(data, opts=[]):$/;"	f	access:public
-cmdShut	events/02-markovChainTalk.py	/^def cmdShut(data, opts=[]):$/;"	f	access:public
-cmdStart	events/01-simpleCommand.py	/^def cmdStart(data, opts=[]):$/;"	f	access:public
-cmdStop	events/01-simpleCommand.py	/^def cmdStop(data, opts=[]):$/;"	f	access:public
-cmdTalk	events/02-markovChainTalk.py	/^def cmdTalk(data, opts=[]):$/;"	f	access:public
-cmdTell	events/02-tell.py	/^def cmdTell(data, opts=[]):$/;"	f	access:public
-cmdTopic	events/03-modFlags.py	/^def cmdTopic(data, opts=[]):$/;"	f	access:public
-cmdTrg	events/02-msgTrigger.py	/^def cmdTrg(data, opts=[]):$/;"	f	access:public
-cmdUnquiet	events/03-modFlags.py	/^def cmdUnquiet(data, opts=[]):$/;"	f	access:public
-cmdVer	events/02-version.py	/^def cmdVer(data, opts=[]):$/;"	f	access:public
-cmdVoice	events/03-modFlags.py	/^def cmdVoice(data, opts=[]):$/;"	f	access:public
-compute	data/Markov.py	/^def compute(item):$/;"	f	access:public
-computeRandomSentence	data/Markov.py	/^def computeRandomSentence(startFromLast=False):$/;"	f	access:public
+checkAnswer	extern/quizz/Quizz.py	/^    def checkAnswer(self, answer):$/;"	m	class:Quizz	access:public	signature:(self, answer)
+checkEvent	events/03-agenda.py	/^def checkEvent(evt):$/;"	f	access:public	signature:(evt)
+checkMsg	events/02-geekbusters.py	/^def checkMsg(evt):$/;"	f	access:public	signature:(evt)
+checkText	net/connect.py	/^    def checkText(self, encoding="", bufSize=(2**16)-1):$/;"	m	class:Connect	access:public	signature:(self, encoding="", bufSize=(2**16)-1)
+cmdAccess	events/02-mainCommands.py	/^def cmdAccess(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdAddWord	events/02-geekbusters.py	/^def cmdAddWord(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdClearUser	events/02-geekbusters.py	/^def cmdClearUser(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdDef	events/02-msgTrigger.py	/^def cmdDef(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdDeop	events/03-modFlags.py	/^def cmdDeop(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdDevoice	events/03-modFlags.py	/^def cmdDevoice(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdDo	events/02-mainCommands.py	/^def cmdDo(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdEvent	events/03-agenda.py	/^def cmdEvent(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdFlood	events/02-markovChainTalk.py	/^def cmdFlood(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdGraph	events/02-markovChainTalk.py	/^def cmdGraph(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdHelp	events/02-mainCommands.py	/^def cmdHelp(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdHug	events/02-mainCommands.py	/^def cmdHug(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdKick	events/03-modFlags.py	/^def cmdKick(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdKill	events/02-mainCommands.py	/^def cmdKill(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdListModules	events/02-mainCommands.py	/^def cmdListModules(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdMsg	events/02-mainCommands.py	/^def cmdMsg(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdMuffin	events/02-mainCommands.py	/^def cmdMuffin(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdOp	events/03-modFlags.py	/^def cmdOp(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdQuiet	events/03-modFlags.py	/^def cmdQuiet(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdQuote	events/02-quoter.py	/^def cmdQuote(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdQuotes	events/02-quoter.py	/^def cmdQuotes(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdRandWalk	events/02-markovChainTalk.py	/^def cmdRandWalk(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdRandom	events/02-markovChainTalk.py	/^def cmdRandom(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdRestart	events/02-mainCommands.py	/^def cmdRestart(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdSaid	events/02-quoter.py	/^def cmdSaid(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdSay	events/02-mainCommands.py	/^def cmdSay(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdShowList	events/02-geekbusters.py	/^def cmdShowList(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdShowStat	events/02-geekbusters.py	/^def cmdShowStat(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdShut	events/02-markovChainTalk.py	/^def cmdShut(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdStart	events/02-mainCommands.py	/^def cmdStart(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdStop	events/02-mainCommands.py	/^def cmdStop(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdTalk	events/02-markovChainTalk.py	/^def cmdTalk(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdTell	events/02-tell.py	/^def cmdTell(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdTopic	events/03-modFlags.py	/^def cmdTopic(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdTrg	events/02-msgTrigger.py	/^def cmdTrg(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdUnquiet	events/03-modFlags.py	/^def cmdUnquiet(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdVer	events/02-version.py	/^def cmdVer(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+cmdVoice	events/03-modFlags.py	/^def cmdVoice(data, opts=[]):$/;"	f	access:public	signature:(data, opts=[])
+compute	data/Markov.py	/^def compute(item):$/;"	f	access:public	signature:(item)
+computeRandomSentence	data/Markov.py	/^def computeRandomSentence(startFromLast=False):$/;"	f	access:public	signature:(startFromLast=False)
 connect	berry.py	/^from net  import connect, irc$/;"	i
-consoleEventLoop	berry.py	/^    def consoleEventLoop(self):$/;"	m	class:IRCBot	access:public
+consoleEventLoop	berry.py	/^    def consoleEventLoop(self):$/;"	m	class:IRCBot	access:public	signature:(self)
 curdir	berry.py	/^    curdir=getcwd()$/;"	v
 curdir	berry.py	/^curdir=dirname(__file__)$/;"	v
 curdir	berry.py	/^curdir=realpath(curdir)$/;"	v
 data	events/02-markovChainTalk.py	/^import data.Markov as Markov$/;"	i
 default	util/cfg.py	/^default = {$/;"	v
 dirname	berry.py	/^from os.path import dirname, realpath$/;"	i
-dumpGraph	data/Markov.py	/^def dumpGraph(filePath):$/;"	f	access:public
+dumpGraph	data/Markov.py	/^def dumpGraph(filePath):$/;"	f	access:public	signature:(filePath)
 environ	berry.py	/^from os import chdir, getcwd, environ$/;"	i
-event	net/irc.py	/^    def event(self, ircLine):$/;"	m	class:IRC	access:public
+event	net/irc.py	/^    def event(self, ircLine):$/;"	m	class:IRC	access:public	signature:(self, ircLine)
 events	events/03-agenda.py	/^events = []$/;"	v
 exceptions	events/01-simpleCommand.py	/^import util.exceptions$/;"	i
+exceptions	events/02-mainCommands.py	/^import util.exceptions$/;"	i
 fileLogLevel	util/log.py	/^    fileLogLevel   = INFO$/;"	v	class:Log
+getPotentialQuotes	events/02-quoter.py	/^def getPotentialQuotes(evt):$/;"	f	access:public	signature:(evt)
 getcwd	berry.py	/^from os import chdir, getcwd, environ$/;"	i
 gettext	berry.py	/^import gettext$/;"	i
 handle	util/log.py	/^    handle = None,$/;"	v	class:Log
-ident	net/irc.py	/^    def ident(self):$/;"	m	class:IRC	access:public
+ident	net/irc.py	/^    def ident(self):$/;"	m	class:IRC	access:public	signature:(self)
 importlib	util/modules.py	/^import importlib$/;"	i
-init	events/00-logchat.py	/^def init(botInstance):$/;"	f	access:public
-init	events/01-nickserv.py	/^def init(botInstance):$/;"	f	access:public
-init	events/01-simpleCommand.py	/^def init(botInstance):$/;"	f	access:public
-init	events/02-markovChainTalk.py	/^def init(botInstance):$/;"	f	access:public
-init	events/02-msgTrigger.py	/^def init(botInstance):$/;"	f	access:public
-init	events/02-tell.py	/^def init(botInstance):$/;"	f	access:public
-init	events/02-version.py	/^def init(botInstance):$/;"	f	access:public
-init	events/03-agenda.py	/^def init(botInstance):$/;"	f	access:public
-init	events/03-modFlags.py	/^def init(botInstance):$/;"	f	access:public
-init	extern/chain/Chain.py	/^def init(botInstance):$/;"	f	access:public
-initDb	data/Markov.py	/^def initDb():$/;"	f	access:public
+init	events/00-logchat.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+init	events/01-nickserv.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+init	events/01-simpleCommand.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+init	events/02-geekbusters.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+init	events/02-mainCommands.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+init	events/02-markovChainTalk.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+init	events/02-msgTrigger.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+init	events/02-quoter.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+init	events/02-tell.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+init	events/02-version.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+init	events/03-agenda.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+init	events/03-modFlags.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+init	extern/chain/Chain.py	/^def init(botInstance):$/;"	f	access:public	signature:(botInstance)
+initDb	data/Markov.py	/^def initDb():$/;"	f	access:public	signature:()
 irc	berry.py	/^from net  import connect, irc$/;"	i
-ircEventLoop	berry.py	/^    def ircEventLoop(self):$/;"	m	class:IRCBot	access:public
-join	net/irc.py	/^    def join(self, chan):$/;"	m	class:IRC	access:public
-joinAll	berry.py	/^    def joinAll(self):$/;"	m	class:IRCBot	access:public
-joinHook	events/03-modFlags.py	/^def joinHook(evt):$/;"	f	access:public
-joinHook	extern/chain/Chain.py	/^    def joinHook(evt):$/;"	m	class:ChainTrigger	access:public
+ircEventLoop	berry.py	/^    def ircEventLoop(self):$/;"	m	class:IRCBot	access:public	signature:(self)
+join	net/irc.py	/^    def join(self, chan):$/;"	m	class:IRC	access:public	signature:(self, chan)
+joinAll	berry.py	/^    def joinAll(self):$/;"	m	class:IRCBot	access:public	signature:(self)
+joinHook	events/03-modFlags.py	/^def joinHook(evt):$/;"	f	access:public	signature:(evt)
+joinHook	extern/chain/Chain.py	/^    def joinHook(evt):$/;"	m	class:ChainTrigger	access:public	signature:(evt)
 json	util/cfg.py	/^import json$/;"	i
 lastNode	data/Markov.py	/^lastNode = ""$/;"	v
-load	events/03-agenda.py	/^def load():$/;"	f	access:public
-load	util/cfg.py	/^def load(place="cfg\/cfg.json"):$/;"	f	access:public
-loadAllModules	util/modules.py	/^def loadAllModules(botInstance):$/;"	f	access:public
+lastUserPhrase	events/02-quoter.py	/^lastUserPhrase = {}$/;"	v
+load	events/03-agenda.py	/^def load():$/;"	f	access:public	signature:()
+load	util/cfg.py	/^def load(place="cfg\/cfg.json"):$/;"	f	access:public	signature:(place="cfg/cfg.json")
+loadAllModules	util/modules.py	/^def loadAllModules(botInstance):$/;"	f	access:public	signature:(botInstance)
+loads	quoter.py	/^from json import loads$/;"	i
 locale	berry.py	/^import locale$/;"	i
 log	berry.py	/^from util import log, cfg, status, modules$/;"	i
 log	events/01-simpleCommand.py	/^import util.log$/;"	i
+log	events/02-mainCommands.py	/^import util.log$/;"	i
 log	net/connect.py	/^import util.log$/;"	i
 log	net/irc.py	/^import util.log$/;"	i
-log	util/log.py	/^    def log(self, content, head="logger", level=INFO):$/;"	m	class:Log	access:public
+log	util/log.py	/^    def log(self, content, head="logger", level=INFO):$/;"	m	class:Log	access:public	signature:(self, content, head="logger", level=INFO)
 log	util/modules.py	/^import util.log$/;"	i
-logChangeNick	events/00-logchat.py	/^def logChangeNick(evt):$/;"	f	access:public
-logJoinToChat	events/00-logchat.py	/^def logJoinToChat(evt):$/;"	f	access:public
-logPartFromChat	events/00-logchat.py	/^def logPartFromChat(evt):$/;"	f	access:public
-logPrivMsgToChat	events/00-logchat.py	/^def logPrivMsgToChat(evt):$/;"	f	access:public
-logQuitChat	events/00-logchat.py	/^def logQuitChat(evt):$/;"	f	access:public
-logSetModeChat	events/00-logchat.py	/^def logSetModeChat(evt):$/;"	f	access:public
+logChangeNick	events/00-logchat.py	/^def logChangeNick(evt):$/;"	f	access:public	signature:(evt)
+logJoinToChat	events/00-logchat.py	/^def logJoinToChat(evt):$/;"	f	access:public	signature:(evt)
+logPartFromChat	events/00-logchat.py	/^def logPartFromChat(evt):$/;"	f	access:public	signature:(evt)
+logPrivMsgToChat	events/00-logchat.py	/^def logPrivMsgToChat(evt):$/;"	f	access:public	signature:(evt)
+logQuitChat	events/00-logchat.py	/^def logQuitChat(evt):$/;"	f	access:public	signature:(evt)
+logSetModeChat	events/00-logchat.py	/^def logSetModeChat(evt):$/;"	f	access:public	signature:(evt)
 moduleData	events/01-simpleCommand.py	/^moduleData = {$/;"	v
 modules	berry.py	/^from util import log, cfg, status, modules$/;"	i
 modules	util/modules.py	/^modules={}$/;"	v
 mots	data/Markov.py	/^mots = {}$/;"	v
-msg	net/irc.py	/^    def msg(self, message, dest):$/;"	m	class:IRC	access:public
-msgHook	events/02-msgTrigger.py	/^def msgHook(evt):$/;"	f	access:public
-msgTrigger	extern/chain/Chain.py	/^    def msgTrigger(self, evt):$/;"	m	class:ChainTrigger	access:public
-nickservIdent	events/01-nickserv.py	/^def nickservIdent(evt):$/;"	f	access:public
+msg	net/irc.py	/^    def msg(self, message, dest):$/;"	m	class:IRC	access:public	signature:(self, message, dest)
+msgHook	events/02-msgTrigger.py	/^def msgHook(evt):$/;"	f	access:public	signature:(evt)
+msgTrigger	extern/chain/Chain.py	/^    def msgTrigger(self, evt):$/;"	m	class:ChainTrigger	access:public	signature:(self, evt)
+naughtyBoys	events/02-geekbusters.py	/^naughtyBoys={}$/;"	v
+nicknames	quoter.py	/^nicknames = list(quoteBD.keys())$/;"	v
+nickservIdent	events/01-nickserv.py	/^def nickservIdent(evt):$/;"	f	access:public	signature:(evt)
 os	data/Markov.py	/^import os$/;"	i
 os	events/03-agenda.py	/^import os, time$/;"	i
 os	util/cfg.py	/^import os$/;"	i
 os	util/modules.py	/^import os$/;"	i
-part	net/irc.py	/^    def part(self, chan, partMessage="Bye bye !"):$/;"	m	class:IRC	access:public
-partHook	extern/chain/Chain.py	/^    def partHook(evt):$/;"	m	class:ChainTrigger	access:public
+part	net/irc.py	/^    def part(self, chan, partMessage="Bye bye !"):$/;"	m	class:IRC	access:public	signature:(self, chan, partMessage="Bye bye !")
+partHook	extern/chain/Chain.py	/^    def partHook(evt):$/;"	m	class:ChainTrigger	access:public	signature:(evt)
 path	berry.py	/^from sys import path$/;"	i
 path	events/03-agenda.py	/^path = "events.lst"$/;"	v
 path	util/log.py	/^    path = "\/tmp\/ircbot.log"$/;"	v	class:Log
 persons	events/03-agenda.py	/^persons = {}$/;"	v
 pickle	data/Markov.py	/^import pickle$/;"	i
-questionPending	extern/quizz/Quizz.py	/^    def questionPending(self):$/;"	m	class:Quizz	access:public
-quit	net/irc.py	/^    def quit(self, partMessage="Bye bye !"):$/;"	m	class:IRC	access:public
-randint	events/01-simpleCommand.py	/^    from random import randint$/;"	i
+questionPending	extern/quizz/Quizz.py	/^    def questionPending(self):$/;"	m	class:Quizz	access:public	signature:(self)
+quit	net/irc.py	/^    def quit(self, partMessage="Bye bye !"):$/;"	m	class:IRC	access:public	signature:(self, partMessage="Bye bye !")
+quoteBD	events/02-quoter.py	/^quoteBD = {}$/;"	v
+quoteBD	quoter.py	/^quoteBD = loads(quoteBDFile.read())$/;"	v
+quoteBDFile	quoter.py	/^quoteBDFile = open("quote.json", "r")$/;"	v
+quoteMashup	quoter.py	/^quoteMashup = open("quotes.txt", "w")$/;"	v
+randint	events/02-mainCommands.py	/^    from random import randint$/;"	i
 randint	events/02-msgTrigger.py	/^from random import randint$/;"	i
+randint	events/02-quoter.py	/^from random import randint$/;"	i
 randint	extern/quizz/Quizz.py	/^from random import randint$/;"	i
 random	data/Markov.py	/^import random$/;"	i
 random	events/02-markovChainTalk.py	/^import random$/;"	i
-randomQuestion	extern/quizz/Quizz.py	/^    def randomQuestion(self):$/;"	m	class:Quizz	access:public
+randomQuestion	extern/quizz/Quizz.py	/^    def randomQuestion(self):$/;"	m	class:Quizz	access:public	signature:(self)
 re	events/01-simpleCommand.py	/^import re$/;"	i
+re	events/02-geekbusters.py	/^import re$/;"	i
+re	events/02-mainCommands.py	/^import re$/;"	i
 re	events/02-msgTrigger.py	/^import re$/;"	i
 re	events/03-modFlags.py	/^import re$/;"	i
 re	extern/chain/Chain.py	/^import re$/;"	i
 re	extern/quizz/Quizz.py	/^import re$/;"	i
 realpath	berry.py	/^from os.path import dirname, realpath$/;"	i
-recvCommand	events/01-simpleCommand.py	/^def recvCommand(evt):$/;"	f	access:public
-regMainCmds	events/01-simpleCommand.py	/^def regMainCmds():$/;"	f	access:public
-registerCommand	events/01-simpleCommand.py	/^def registerCommand(command, name, accessRules=[]):$/;"	f	access:public
+recvCommand	events/01-simpleCommand.py	/^def recvCommand(evt):$/;"	f	access:public	signature:(evt)
+registerCommand	events/01-simpleCommand.py	/^def registerCommand(command, name, accessRules=[]):$/;"	f	access:public	signature:(command, name, accessRules=[])
 registeredCmd	events/01-simpleCommand.py	/^registeredCmd = {}$/;"	v
-run	berry.py	/^def run():$/;"	f	access:public
-save	util/cfg.py	/^def save(cfgData, place="cfg\/cfg.json"):$/;"	f	access:public
-sendText	net/connect.py	/^    def sendText(self, text, encoding=""):$/;"	m	class:Connect	access:public
-setFlag	events/03-modFlags.py	/^def setFlag(flag, toState, data, opts=[]):$/;"	f	access:public
-setQuestion	extern/quizz/Quizz.py	/^    def setQuestion(self, question, answerPattern=" "):$/;"	m	class:Quizz	access:public
-sleep	events/01-simpleCommand.py	/^    from time import sleep$/;"	i
+run	berry.py	/^def run():$/;"	f	access:public	signature:()
+save	util/cfg.py	/^def save(cfgData, place="cfg\/cfg.json"):$/;"	f	access:public	signature:(cfgData, place="cfg/cfg.json")
+sendText	net/connect.py	/^    def sendText(self, text, encoding=""):$/;"	m	class:Connect	access:public	signature:(self, text, encoding="")
+setFlag	events/03-modFlags.py	/^def setFlag(flag, toState, data, opts=[]):$/;"	f	access:public	signature:(flag, toState, data, opts=[])
+setQuestion	extern/quizz/Quizz.py	/^    def setQuestion(self, question, answerPattern=" "):$/;"	m	class:Quizz	access:public	signature:(self, question, answerPattern=" ")
+sleep	events/02-mainCommands.py	/^    from time import sleep$/;"	i
 sleep	events/02-msgTrigger.py	/^    from time import sleep$/;"	i
 sleep	net/irc.py	/^        from time import sleep$/;"	i
+sleep	net/irc.py	/^        from time import strftime, sleep$/;"	i
 socket	net/connect.py	/^import socket$/;"	i
-start	berry.py	/^    def start(self):$/;"	m	class:IRCBot	access:public
-start	net/connect.py	/^    def start(self):$/;"	m	class:Connect	access:public
+start	berry.py	/^    def start(self):$/;"	m	class:IRCBot	access:public	signature:(self)
+start	net/connect.py	/^    def start(self):$/;"	m	class:Connect	access:public	signature:(self)
 status	berry.py	/^from util import log, cfg, status, modules$/;"	i
-status	util/status.py	/^def status(statusType=BUSY, newLine=False, message=""):$/;"	f	access:public
+status	util/status.py	/^def status(statusType=BUSY, newLine=False, message=""):$/;"	f	access:public	signature:(statusType=BUSY, newLine=False, message="")
 stderr	util/log.py	/^from sys import stdout,stderr$/;"	i
 stderrLogLevel	util/log.py	/^    stderrLogLevel = WARNING$/;"	v	class:Log
 stdout	util/log.py	/^from sys import stdout,stderr$/;"	i
 stdoutLogLevel	util/log.py	/^    stdoutLogLevel = NOTIF$/;"	v	class:Log
-stop	berry.py	/^    def stop(self):$/;"	m	class:IRCBot	access:public
-stop	net/connect.py	/^    def stop(self):$/;"	m	class:Connect	access:public
+stop	berry.py	/^    def stop(self):$/;"	m	class:IRCBot	access:public	signature:(self)
+stop	net/connect.py	/^    def stop(self):$/;"	m	class:Connect	access:public	signature:(self)
 strftime	events/00-logchat.py	/^    from time import strftime$/;"	i
-strftime	net/irc.py	/^        from time import strftime$/;"	i
+strftime	events/02-tell.py	/^from time import strftime$/;"	i
+strftime	net/irc.py	/^        from time import strftime, sleep$/;"	i
 strftime	util/log.py	/^from time import strftime$/;"	i
 subprocess	events/02-version.py	/^import subprocess$/;"	i
 tags	events/02-version.py	/^        bot.irc.msg(bot._("Sorry, git returned garbage. Please import the tags :("), data["tgt"])$/;"	i
 talk	events/02-markovChainTalk.py	/^talk = 0$/;"	v
-talkCheck	events/02-markovChainTalk.py	/^def talkCheck(evt):$/;"	f	access:public
-tellCheck	events/02-tell.py	/^def tellCheck(evt):$/;"	f	access:public
+talkCheck	events/02-markovChainTalk.py	/^def talkCheck(evt):$/;"	f	access:public	signature:(evt)
+tellCheck	events/02-tell.py	/^def tellCheck(evt):$/;"	f	access:public	signature:(evt)
 tellEvents	events/03-agenda.py	/^tellEvents = True$/;"	v
 textLevels	util/log.py	/^textLevels = {$/;"	v
 tgt	events/02-version.py	/^        bot.irc.msg(bot._("Sorry, git returned garbage. Please import the tags :("), data["tgt"])$/;"	i
 the	events/02-version.py	/^        bot.irc.msg(bot._("Sorry, git returned garbage. Please import the tags :("), data["tgt"])$/;"	i
 threading	berry.py	/^import threading$/;"	i
 time	berry.py	/^import time$/;"	i
+time	events/02-geekbusters.py	/^import time$/;"	i
 time	events/03-agenda.py	/^import os, time$/;"	i
 triggers	events/02-msgTrigger.py	/^triggers = {}$/;"	v
 txtStack	events/02-tell.py	/^txtStack = {}$/;"	v
-update	events/03-agenda.py	/^def update():$/;"	f	access:public
+update	events/03-agenda.py	/^def update():$/;"	f	access:public	signature:()
 userFlags	events/03-modFlags.py	/^userFlags = {}$/;"	v
 util	data/Markov.py	/^import util.cfg$/;"	i
 util	events/01-simpleCommand.py	/^import util.cfg$/;"	i
 util	events/01-simpleCommand.py	/^import util.exceptions$/;"	i
 util	events/01-simpleCommand.py	/^import util.log$/;"	i
+util	events/02-geekbusters.py	/^import util.cfg$/;"	i
+util	events/02-mainCommands.py	/^import util.cfg$/;"	i
+util	events/02-mainCommands.py	/^import util.exceptions$/;"	i
+util	events/02-mainCommands.py	/^import util.log$/;"	i
 util	events/02-msgTrigger.py	/^import util.cfg$/;"	i
+util	events/02-quoter.py	/^import util.cfg$/;"	i
 util	events/03-modFlags.py	/^import util.cfg$/;"	i
 util	extern/chain/Chain.py	/^import util.cfg$/;"	i
 util	extern/quizz/Quizz.py	/^import util.cfg$/;"	i
 util	net/connect.py	/^import util.log$/;"	i
 util	net/irc.py	/^import util.log$/;"	i
 util	util/modules.py	/^import util.log$/;"	i
-waitText	net/connect.py	/^    def waitText(self, encoding="", bufSize=(2**16)-1):$/;"	m	class:Connect	access:public
+waitText	net/connect.py	/^    def waitText(self, encoding="", bufSize=(2**16)-1):$/;"	m	class:Connect	access:public	signature:(self, encoding="", bufSize=(2**16)-1)
+wordList	events/02-geekbusters.py	/^wordList=["informatique", "linux", "pc", "install", "windows", "pam", "ordi", "ssd", "win7", "win8", "win10", "w7", "emerge", "portage", "gentoo", "archlinux", "bsod", "vm"]$/;"	v
