@@ -1,14 +1,14 @@
 # IRCBot translations
-# Copyright (C) 2014-2015 Art SoftWare
+# Copyright (C) 2014-2016 Art SoftWare
 # This file is distributed under the GNU GPL licence version 2 or above.
 # Adrien Sohier <adrien.sohier@art-software.fr>, 2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 3.2\n"
+"Project-Id-Version: 3.3\n"
 "Report-Msgid-Bugs-To: Adrien Sohier <support@art-software.fr>\n"
 "POT-Creation-Date: 2015-11-17 19:06+0100\n"
-"PO-Revision-Date: 2015-11-17 19:38+0100\n"
+"PO-Revision-Date: 2016-07-13 10:08+0200\n"
 "Last-Translator:  <support@art-software.fr>\n"
 "Language-Team: English\n"
 "Language: en_US\n"
@@ -297,3 +297,43 @@ msgstr "Loading %s…"
 #: util/modules.py:38
 msgid "Initializing module…"
 msgstr "Initializing module…"
+
+msgid "Available choices :"
+msgstr "Available choices :"
+
+msgid "A vote is already opened."
+msgstr "A vote is already opened."
+
+msgid "Choice added at %d."
+msgstr "Choice added at %d."
+
+msgid "Choice retained: %s"
+msgstr "Choice retained: %s"
+
+msgid "Draw vote, no winner."
+msgstr "Draw vote, no winner."
+
+msgid "No description given."
+msgstr "No description given."
+
+msgid "No vote has been opened. See help askvote."
+msgstr "No vote has been opened. See help askvote."
+
+msgid "%s's vote closed."
+msgstr "%s's vote closed."
+
+msgid "Vote from %s:"
+msgstr "Vote from %s:"
+
+msgid "Vote opened."
+msgstr "Vote opened."
+
+msgid "votes"
+msgstr "votes"
+
+msgid "You already voted. Changing your vote to %d"
+msgstr "You already voted. Changing your vote to %d"
+
+msgid "You voted for %d."
+msgstr "You voted for %d."
+

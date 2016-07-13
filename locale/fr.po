@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 3.2\n"
 "Report-Msgid-Bugs-To: Adrien Sohier <support@art-software.fr>\n"
 "POT-Creation-Date: 2015-11-17 19:06+0100\n"
-"PO-Revision-Date: 2015-11-17 19:38+0100\n"
+"PO-Revision-Date: 2016-07-13 10:08+0200\n"
 "Last-Translator:  <support@art-software.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -291,3 +291,43 @@ msgstr "Chargement de %s…"
 #: util/modules.py:38
 msgid "Initializing module…"
 msgstr "Ouverture du module…"
+
+msgid "Available choices :"
+msgstr "Choix disponibles :"
+
+msgid "A vote is already opened."
+msgstr "Un vote est déjà en cours."
+
+msgid "Choice added at %d."
+msgstr "Choix n°%d rajouté."
+
+msgid "Choice retained: %s"
+msgstr "Choix retenu: %s"
+
+msgid "Draw vote, no winner."
+msgstr "Vote à égalité, pas de gagnant."
+
+msgid "No description given."
+msgstr "Pas de description fournie."
+
+msgid "No vote has been opened. See help askvote."
+msgstr "Aucun vote n'est en cours. Essayer help askvote."
+
+msgid "%s's vote closed."
+msgstr "Vote de %s terminé."
+
+msgid "Vote from %s:"
+msgstr "Vote de %s:"
+
+msgid "Vote opened."
+msgstr "Vote ouvert."
+
+msgid "votes"
+msgstr "voix"
+
+msgid "You already voted. Changing your vote to %d"
+msgstr "Vous aviez déjà voté, changement de votre choix pour le n°%d"
+
+msgid "You voted for %d."
+msgstr "Vous avez voté pour le n°%d."
+
