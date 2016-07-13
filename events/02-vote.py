@@ -94,7 +94,7 @@ def cmdCloseVote(data, opts=[]):
     if choiceQty.count(q)==1:
         bot.irc.msg(bot._("Choice retained: %s") % choiceDesc[choiceQty.index(q)], data["tgt"])
     else:
-        bot.irc.msg(bot._("Draw vote, no winner."))
+        bot.irc.msg(bot._("Draw vote, no winner."), data["tgt"])
 
     voteDesc=""
     voteOpener=None
