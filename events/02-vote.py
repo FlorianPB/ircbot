@@ -68,7 +68,7 @@ def cmdVote(data, opts=[]):
 
     if len(opts)<1:
         bot.irc.msg(bot._("Vote from %s:") % voteOpener, data["tgt"])
-        bot.irc.msg(voteDesc, data["tgt"])
+        bot.irc.msg(voteDesc + " (" + bot._("%d total votes") % sum(choiceQty) + ")", data["tgt"])
         bot.irc.msg(bot._("Available choices :"), data["tgt"])
         for i, c in enumerate(choiceDesc):
             bot.irc.msg(str(i+1) + "/ " + c + " (" + str(choiceQty[i]) + " " + bot._("votes") + ")", data["tgt"])
