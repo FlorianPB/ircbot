@@ -9,6 +9,7 @@ voteOpener = None
 votes      = {}
 choiceQty  = []
 choiceDesc = []
+toldUsers = []
 
 def init(botInstance):
     """Inits the module"""
@@ -20,7 +21,7 @@ def init(botInstance):
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdAddChoice, "addchoice")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdVote, "vote")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdCloseVote, "closevote", [":.*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"])
-    # bot.irc.hooks["PRIVMSG"].append(hookThingy)
+    bot.irc.hooks["JOIN"].append(tellJoinedVote)
 
 def cmdAskVote(data, opts=[]):
     """askvote <subject>
@@ -87,7 +88,7 @@ def cmdVote(data, opts=[]):
 def cmdCloseVote(data, opts=[]):
     """closevote
     Closes a running vote."""
-    global voteDesc, voteOpener
+    global voteDesc, voteOpener, toldUsers
 
     bot.irc.msg(bot._("%s's vote closed.") % voteOpener, data["tgt"])
     q = max(choiceQty)
@@ -95,9 +96,17 @@ def cmdCloseVote(data, opts=[]):
         bot.irc.msg(bot._("Choice retained: %s") % choiceDesc[choiceQty.index(q)], data["tgt"])
     else:
         bot.irc.msg(bot._("Draw vote, no winner."), data["tgt"])
-
+    
     voteDesc=""
     voteOpener=None
+    toldUsers = []
 
-# def hookThingy(evt):
-#     """Does something on an event."""
+def tellJoinedVote(evt):
+    """Tell joined people there's a vote."""
+    global toldUsers
+
+    user = evt[0][1:].split("!")[0]
+    if not toldUsers.__contains__(user) and voteOpener!=None:
+        bot.irc.msg(bot._("There is a running vote:"), user)
+        bot.irc.msg(voteDesc, user)
+        toldUsers.append(user)

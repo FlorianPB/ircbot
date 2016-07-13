@@ -336,3 +336,5 @@ msgstr ""
 msgid "You voted for %d."
 msgstr ""
 
+msgid "There is a running vote:"
+msgstr ""
