@@ -5,6 +5,7 @@ Moved from 01-simpleCommand to avoid having a too big module"""
 
 bot = None
 
+import random
 import re
 
 import util.cfg
@@ -29,6 +30,7 @@ def init(botInstance):
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdMuffin, "muffin")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdHug, "hug")
     bot.modules.modules["01-simpleCommand"].registerCommand(cmdMsg, "msg", [":.*!~adriens33@(2001:41[dD]0:[aA]:1308::1|homer\.art-software\.fr)"])
+    bot.modules.modules["01-simpleCommand"].registerCommand(cmdDice, "dice")
 
 ### Bot state ###
 def cmdStop(data, opts=[]):
@@ -179,6 +181,18 @@ def cmdMuffin(data, opts=[]):
         if speed>=1224:
             bot.irc.msg(bot._("5MU4FF8IN9 RA11IN12BO2OM6 !!") + "\r\n", chan)
         sleep(0.25)
+
+def cmdDice(data, opts=[]):
+    """Rolls dice(s).
+    dice [faces (6)] [quantity (1)]"""
+    faces = 6
+    q = 1
+    if len(opts)>0:
+        faces = int(opts[0])
+        if len(opts)>1:
+            q = int(opts[1])
+    
+    bot.irc.msg(" ".join(["%d" % random.randint(1, faces) for dice in range(q)]), data["tgt"])
 
 # Hugs someone if they need it *sqeaks*
 def cmdHug(data, opts=[]):
