@@ -192,15 +192,12 @@ def cmdDice(data, opts=[]):
         if len(opts)>1:
             q = int(opts[1])
 
-    if q < 1:
+    if q < 1 and q > 50 :
         return
 
     if faces < 2:
         return
-    
-    if q > 50:
-        return
-    
+
     bot.irc.msg(" ".join(["%d" % random.randint(1, faces) for dice in range(q)]), data["tgt"])
 
 # Hugs someone if they need it *sqeaks*
